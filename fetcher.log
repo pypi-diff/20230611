@@ -955,3 +955,33 @@
 [2023-06-11 01:54:45] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.63.tar.gz]
 [2023-06-11 01:54:45] INFO root fetch - main [MainThread]: End processing [motion-python]: success
 [2023-06-11 01:54:45] INFO root fetch - main [MainThread]: Store serial: [18454562]
+[2023-06-11 01:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454562]
+[2023-06-11 01:59:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 01:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-resolve
+[2023-06-11 01:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scamp-extensions
+[2023-06-11 01:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: untypedscript-utsc
+[2023-06-11 01:59:54] INFO root fetch - processPackages [pydantic-resolve]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-11 01:59:54] INFO root fetch - processPackages [untypedscript-utsc]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 01:59:54] INFO root fetch - processPackages [scamp-extensions]: New version: [0.3.5.post1] Old Version: [0.3.3]
+[2023-06-11 01:59:54] INFO root fetch - processPackages [untypedscript-utsc]: Downloading https://files.pythonhosted.org/packages/c0/f5/6326029545d773caf5b1223c01e7b8797285b131e36bf437ec1edaf4314f/untypedscript-utsc-1.0.2.tar.gz
+[2023-06-11 01:59:54] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/3d/ee/24064173d6bd14d37eac6128ec96b6efaf022aaf27c02fcf14868f250cba/pydantic_resolve-0.5.0.tar.gz
+[2023-06-11 01:59:54] INFO root fetch - processPackages [scamp-extensions]: Downloading https://files.pythonhosted.org/packages/e2/8b/270c808a54dbf6bc424f5315ea5b902ebeb49c0b508c1e10e94c3031c08c/scamp_extensions-0.3.3-py3-none-any.whl
+[2023-06-11 01:59:54] INFO root fetch - processPackages [untypedscript-utsc]: Downloading https://files.pythonhosted.org/packages/4d/bf/74e24964d02ba373d9c6fcaa8b05401fa284e057bd757d2dc837f3cd101f/untypedscript-utsc-1.0.3.tar.gz
+[2023-06-11 01:59:54] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/2d/07/75a926a5b5b8cbef363ab851e274de70cf10ccbab6d31804a6f604f48e15/pydantic_resolve-0.5.1.tar.gz
+[2023-06-11 01:59:54] INFO root fetch - processPackages [untypedscript-utsc]: executing diffoscope
+[2023-06-11 01:59:54] INFO root fetch - processPackages [untypedscript-utsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untypedscript-utsc-1.0.2.tar.gz tmp/untypedscript-utsc-1.0.3.tar.gz --markdown 20230611/u/untypedscript-utsc/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 01:59:55] INFO root fetch - processPackages [scamp-extensions]: Downloading https://files.pythonhosted.org/packages/8c/e2/cc35112842c9e893a70d4a2574bf1b9082eb761294a891a80771914565a1/scamp_extensions-0.3.5.post1-py3-none-any.whl
+[2023-06-11 01:59:55] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-06-11 01:59:55] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-0.5.0.tar.gz tmp/pydantic_resolve-0.5.1.tar.gz --markdown 20230611/p/pydantic-resolve/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-11 01:59:55] INFO root fetch - processPackages [scamp-extensions]: executing diffoscope
+[2023-06-11 01:59:55] INFO root fetch - processPackages [scamp-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scamp_extensions-0.3.3-py3-none-any.whl.zip tmp/scamp_extensions-0.3.5.post1-py3-none-any.whl.zip --markdown 20230611/s/scamp-extensions/0.3.3-0.3.5.post1/diff.md --exclude *.pyd
+[2023-06-11 01:59:56] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-0.5.0.tar.gz]
+[2023-06-11 01:59:56] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-0.5.1.tar.gz]
+[2023-06-11 01:59:56] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-06-11 01:59:56] INFO root fetch - processPackages [untypedscript-utsc]: Remove: archive file [/home/abi/fetcher/tmp/untypedscript-utsc-1.0.2.tar.gz]
+[2023-06-11 01:59:56] INFO root fetch - processPackages [untypedscript-utsc]: Remove: archive file [/home/abi/fetcher/tmp/untypedscript-utsc-1.0.3.tar.gz]
+[2023-06-11 01:59:56] INFO root fetch - main [MainThread]: End processing [untypedscript-utsc]: success
+[2023-06-11 01:59:56] INFO root fetch - processPackages [scamp-extensions]: Remove: archive file [/home/abi/fetcher/tmp/scamp_extensions-0.3.3-py3-none-any.whl.zip]
+[2023-06-11 01:59:56] INFO root fetch - processPackages [scamp-extensions]: Remove: archive file [/home/abi/fetcher/tmp/scamp_extensions-0.3.5.post1-py3-none-any.whl.zip]
+[2023-06-11 01:59:56] INFO root fetch - main [MainThread]: End processing [scamp-extensions]: success
+[2023-06-11 01:59:56] INFO root fetch - main [MainThread]: Store serial: [18454572]
