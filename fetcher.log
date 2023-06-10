@@ -429,3 +429,42 @@
 [2023-06-11 00:30:32] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.8.tar.gz]
 [2023-06-11 00:30:32] INFO root fetch - main [MainThread]: End processing [bumble]: success
 [2023-06-11 00:30:32] INFO root fetch - main [MainThread]: Store serial: [18454312]
+[2023-06-11 00:35:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454312]
+[2023-06-11 00:35:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 00:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius
+[2023-06-11 00:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextguild
+[2023-06-11 00:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlrc
+[2023-06-11 00:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyunifiprotect
+[2023-06-11 00:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codespeak
+[2023-06-11 00:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: routexplorer
+[2023-06-11 00:35:40] WARNING root fetch - processPackages [aorta-sirius]: Skipping, unable to determine old version
+[2023-06-11 00:35:40] INFO root fetch - main [MainThread]: End processing [aorta-sirius] error
+[2023-06-11 00:35:40] INFO root fetch - processPackages [pyunifiprotect]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-11 00:35:40] WARNING root fetch - processPackages [routexplorer]: Skipping, unable to determine old version
+[2023-06-11 00:35:40] INFO root fetch - main [MainThread]: End processing [routexplorer] error
+[2023-06-11 00:35:40] INFO root fetch - processPackages [openlrc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 00:35:40] WARNING root fetch - processPackages [codespeak]: Skipping, unable to determine old version
+[2023-06-11 00:35:40] INFO root fetch - main [MainThread]: End processing [codespeak] error
+[2023-06-11 00:35:40] INFO root fetch - processPackages [nextguild]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-11 00:35:40] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/f0/40/3de175e0acae7e3fa34cfa290cdbe11df69da5fbcf08f56e762ca58393c9/nextguild-1.2.1.tar.gz
+[2023-06-11 00:35:41] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/a3/0a/442f32c2d14850c1025d5874ba4556af11bf687506ea2fe7501f4e16ec82/openlrc-0.0.4.tar.gz
+[2023-06-11 00:35:41] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/9d/3d/b9d7a849d059f43232f5756c5a2090ab4540549731286ada3e0c304eaa22/pyunifiprotect-4.9.0.tar.gz
+[2023-06-11 00:35:41] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/d1/00/4b8f50703f206fe7e87a85715c1bef4013a5349e44539db35cad440c7b8f/nextguild-1.2.2.tar.gz
+[2023-06-11 00:35:41] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-06-11 00:35:41] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.2.1.tar.gz tmp/nextguild-1.2.2.tar.gz --markdown 20230611/n/nextguild/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-11 00:35:41] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/d6/19/c6187dec85a4fbee6f78366edb731bbda381b16cc0a666b529c6f50eb5b1/openlrc-0.0.5.tar.gz
+[2023-06-11 00:35:41] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-06-11 00:35:41] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.0.4.tar.gz tmp/openlrc-0.0.5.tar.gz --markdown 20230611/o/openlrc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 00:35:41] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/63/45/42f4149b592dde71e519b3521383b63738b99b7ca4220d9001ee51803c9c/pyunifiprotect-4.9.1.tar.gz
+[2023-06-11 00:35:41] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2023-06-11 00:35:41] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-4.9.0.tar.gz tmp/pyunifiprotect-4.9.1.tar.gz --markdown 20230611/p/pyunifiprotect/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-11 00:35:42] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.1.tar.gz]
+[2023-06-11 00:35:42] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.2.tar.gz]
+[2023-06-11 00:35:42] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-06-11 00:35:42] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.4.tar.gz]
+[2023-06-11 00:35:42] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.5.tar.gz]
+[2023-06-11 00:35:42] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-06-11 00:35:43] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.0.tar.gz]
+[2023-06-11 00:35:43] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.1.tar.gz]
+[2023-06-11 00:35:43] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2023-06-11 00:35:43] INFO root fetch - main [MainThread]: Store serial: [18454334]
