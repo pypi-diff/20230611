@@ -847,3 +847,36 @@
 [2023-06-11 01:33:58] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.6.tar.gz]
 [2023-06-11 01:33:58] INFO root fetch - main [MainThread]: End processing [bhv]: success
 [2023-06-11 01:33:58] INFO root fetch - main [MainThread]: Store serial: [18454494]
+[2023-06-11 01:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454494]
+[2023-06-11 01:39:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 01:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-self.py
+[2023-06-11 01:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvantage
+[2023-06-11 01:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaven
+[2023-06-11 01:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-analytic
+[2023-06-11 01:39:07] WARNING root fetch - processPackages [discord-self.py]: Skipping, unable to determine old version
+[2023-06-11 01:39:07] INFO root fetch - main [MainThread]: End processing [discord-self.py] error
+[2023-06-11 01:39:07] INFO root fetch - processPackages [heaven]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 01:39:07] INFO root fetch - processPackages [pyvantage]: New version: [0.0.54] Old Version: [0.0.52]
+[2023-06-11 01:39:07] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/e6/2c/7b88f372448b0f4669b2d7715fcf82b26147ba249a365fc3d53bd104fdb1/heaven-0.0.3.tar.gz
+[2023-06-11 01:39:07] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.7]
+[2023-06-11 01:39:07] INFO root fetch - processPackages [pyvantage]: Downloading https://files.pythonhosted.org/packages/5b/cd/1db3ed9a0f8925474270ed5f62d3d14157df579a28b96b42352901f6c2cf/pyvantage-0.0.52.tar.gz
+[2023-06-11 01:39:07] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Downloading https://files.pythonhosted.org/packages/22/01/d0e6db5dea774d0cfe99a1c179eb4e178684d027783438c2bac08959a3e5/odoo_addon_purchase_analytic-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-11 01:39:07] INFO root fetch - processPackages [pyvantage]: Downloading https://files.pythonhosted.org/packages/a9/19/34185990990fb24747cdac4767024071460800df76367fb80a9966e046d4/pyvantage-0.0.54.tar.gz
+[2023-06-11 01:39:08] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/b9/51/9c5789390e62ea5c93393dbc1cc83c05d31089275318e660623eca60ba9b/heaven-0.0.4.tar.gz
+[2023-06-11 01:39:08] INFO root fetch - processPackages [pyvantage]: executing diffoscope
+[2023-06-11 01:39:08] INFO root fetch - processPackages [pyvantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvantage-0.0.52.tar.gz tmp/pyvantage-0.0.54.tar.gz --markdown 20230611/p/pyvantage/0.0.52-0.0.54/diff.md --exclude *.pyd
+[2023-06-11 01:39:08] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-11 01:39:08] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.3.tar.gz tmp/heaven-0.0.4.tar.gz --markdown 20230611/h/heaven/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 01:39:08] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Downloading https://files.pythonhosted.org/packages/44/82/10bfa2dac4f7ee79c395dc68d905a4683da659b97b7ea8d9a6c94e193899/odoo_addon_purchase_analytic-16.0.2.0.0-py3-none-any.whl
+[2023-06-11 01:39:08] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: executing diffoscope
+[2023-06-11 01:39:08] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_analytic-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_purchase_analytic-16.0.2.0.0-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-purchase-analytic/16.0.1.0.0.7-16.0.2.0.0/diff.md --exclude *.pyd
+[2023-06-11 01:39:09] INFO root fetch - processPackages [pyvantage]: Remove: archive file [/home/abi/fetcher/tmp/pyvantage-0.0.52.tar.gz]
+[2023-06-11 01:39:09] INFO root fetch - processPackages [pyvantage]: Remove: archive file [/home/abi/fetcher/tmp/pyvantage-0.0.54.tar.gz]
+[2023-06-11 01:39:09] INFO root fetch - main [MainThread]: End processing [pyvantage]: success
+[2023-06-11 01:39:09] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.3.tar.gz]
+[2023-06-11 01:39:09] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.4.tar.gz]
+[2023-06-11 01:39:09] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-11 01:39:09] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_analytic-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-11 01:39:09] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_analytic-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-11 01:39:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-analytic]: success
+[2023-06-11 01:39:09] INFO root fetch - main [MainThread]: Store serial: [18454508]
