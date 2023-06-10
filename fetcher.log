@@ -64,3 +64,51 @@
 [2023-06-11 00:04:09] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.9.tar.gz]
 [2023-06-11 00:04:09] INFO root fetch - main [MainThread]: End processing [yarok]: success
 [2023-06-11 00:04:09] INFO root fetch - main [MainThread]: Store serial: [18454191]
+[2023-06-11 00:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454191]
+[2023-06-11 00:09:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keepvariable
+[2023-06-11 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arithmetica-py
+[2023-06-11 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yarok
+[2023-06-11 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harmonydata
+[2023-06-11 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-fm
+[2023-06-11 00:09:18] INFO root fetch - processPackages [harmonydata]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-11 00:09:18] INFO root fetch - processPackages [keepvariable]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-11 00:09:18] INFO root fetch - processPackages [yarok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 00:09:18] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.223] Old Version: [1.0.221]
+[2023-06-11 00:09:18] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/5b/35/b497f1c84b39f1ee0c2371d186f0a233ac16bfb20ce52629354a54ffb03a/yarok-0.0.8.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/0e/f4/1cfa3e0c43d765a47d06f98f3759d9db4c14f374ed2ca46b2b11b6ce556a/arithmetica-py-1.0.221.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [async-fm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 00:09:18] INFO root fetch - processPackages [harmonydata]: Downloading https://files.pythonhosted.org/packages/8c/11/42ce41a1dbc29e878dadc2bdb97cb4ea4cdacc149330808491b585268b48/harmonydata-0.1.0.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/7f/df/eee58a262354f3e2fc9414f46098a8e525aec8f8bd0d2cc312eda07b6592/keepvariable-1.1.1.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [async-fm]: Downloading https://files.pythonhosted.org/packages/23/22/51e0a8df1b7da8fd919bc8741b5bbaa526a7650011f14c6b701b93bf9193/async_fm-0.0.3.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/62/56/8d2e53802ed393208ab0335e5fe94144cdcb079b3cd63d2beeb026b06992/arithmetica-py-1.0.223.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/df/af/c521521987dcb898560332432e48f81574262b43e3defad1821893b945a9/yarok-0.0.9.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-06-11 00:09:18] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.221.tar.gz tmp/arithmetica-py-1.0.223.tar.gz --markdown 20230611/a/arithmetica-py/1.0.221-1.0.223/diff.md --exclude *.pyd
+[2023-06-11 00:09:18] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/20/04/a173e8e75ae246cd11d9a8ac3e239464c7c01cd69f914598a8cd621aff6a/keepvariable-1.2.0.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [harmonydata]: Downloading https://files.pythonhosted.org/packages/98/e8/fe37710d0cb9945f4723944c19536527c9120a58ed4890e05ffc9ce4b5b6/harmonydata-0.2.0.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [yarok]: executing diffoscope
+[2023-06-11 00:09:18] INFO root fetch - processPackages [yarok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarok-0.0.8.tar.gz tmp/yarok-0.0.9.tar.gz --markdown 20230611/y/yarok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 00:09:18] INFO root fetch - processPackages [keepvariable]: executing diffoscope
+[2023-06-11 00:09:18] INFO root fetch - processPackages [keepvariable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepvariable-1.1.1.tar.gz tmp/keepvariable-1.2.0.tar.gz --markdown 20230611/k/keepvariable/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 00:09:18] INFO root fetch - processPackages [async-fm]: Downloading https://files.pythonhosted.org/packages/53/22/1961d3003a3514993aadd1025a5b2d30e568e6f4d48eed25b3fe0c471563/async_fm-0.0.4.tar.gz
+[2023-06-11 00:09:18] INFO root fetch - processPackages [harmonydata]: executing diffoscope
+[2023-06-11 00:09:18] INFO root fetch - processPackages [harmonydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harmonydata-0.1.0.tar.gz tmp/harmonydata-0.2.0.tar.gz --markdown 20230611/h/harmonydata/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 00:09:19] INFO root fetch - processPackages [async-fm]: executing diffoscope
+[2023-06-11 00:09:19] INFO root fetch - processPackages [async-fm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_fm-0.0.3.tar.gz tmp/async_fm-0.0.4.tar.gz --markdown 20230611/a/async-fm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 00:09:19] INFO root fetch - processPackages [keepvariable]: Remove: archive file [/home/abi/fetcher/tmp/keepvariable-1.1.1.tar.gz]
+[2023-06-11 00:09:19] INFO root fetch - processPackages [keepvariable]: Remove: archive file [/home/abi/fetcher/tmp/keepvariable-1.2.0.tar.gz]
+[2023-06-11 00:09:19] INFO root fetch - main [MainThread]: End processing [keepvariable]: success
+[2023-06-11 00:09:19] INFO root fetch - processPackages [harmonydata]: Remove: archive file [/home/abi/fetcher/tmp/harmonydata-0.1.0.tar.gz]
+[2023-06-11 00:09:19] INFO root fetch - processPackages [harmonydata]: Remove: archive file [/home/abi/fetcher/tmp/harmonydata-0.2.0.tar.gz]
+[2023-06-11 00:09:19] INFO root fetch - main [MainThread]: End processing [harmonydata]: success
+[2023-06-11 00:09:20] INFO root fetch - processPackages [async-fm]: Remove: archive file [/home/abi/fetcher/tmp/async_fm-0.0.3.tar.gz]
+[2023-06-11 00:09:20] INFO root fetch - processPackages [async-fm]: Remove: archive file [/home/abi/fetcher/tmp/async_fm-0.0.4.tar.gz]
+[2023-06-11 00:09:20] INFO root fetch - main [MainThread]: End processing [async-fm]: success
+[2023-06-11 00:09:20] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.221.tar.gz]
+[2023-06-11 00:09:20] INFO root fetch - processPackages [arithmetica-py]: Remove: archive file [/home/abi/fetcher/tmp/arithmetica-py-1.0.223.tar.gz]
+[2023-06-11 00:09:20] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-06-11 00:09:21] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.8.tar.gz]
+[2023-06-11 00:09:21] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.9.tar.gz]
+[2023-06-11 00:09:21] INFO root fetch - main [MainThread]: End processing [yarok]: success
+[2023-06-11 00:09:21] INFO root fetch - main [MainThread]: Store serial: [18454208]
