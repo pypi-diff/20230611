@@ -697,3 +697,45 @@
 [2023-06-11 01:07:31] INFO root fetch - processPackages [mpl-format]: Remove: archive file [/home/abi/fetcher/tmp/mpl_format-0.317.tar.gz]
 [2023-06-11 01:07:31] INFO root fetch - main [MainThread]: End processing [mpl-format]: success
 [2023-06-11 01:07:31] INFO root fetch - main [MainThread]: Store serial: [18454428]
+[2023-06-11 01:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454428]
+[2023-06-11 01:12:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 01:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SpatialCluster
+[2023-06-11 01:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiaid
+[2023-06-11 01:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyketra
+[2023-06-11 01:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3uploader-ci-cd
+[2023-06-11 01:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: site-conn-check
+[2023-06-11 01:12:39] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pydiaid]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-06-11 01:12:39] WARNING root fetch - processPackages [s3uploader-ci-cd]: Skipping, unable to determine old version
+[2023-06-11 01:12:39] INFO root fetch - main [MainThread]: End processing [s3uploader-ci-cd] error
+[2023-06-11 01:12:39] INFO root fetch - processPackages [site-conn-check]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pyketra]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pyketra]: Downloading https://files.pythonhosted.org/packages/38/69/fece4d7a0cf0f437fcde9f878589d11b74bdec95fd57637297855baacc36/pyketra-0.0.4.tar.gz
+[2023-06-11 01:12:39] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/d9/d7/a51c7bdf1e3bb01f187eb04b6f229c6cb047c3139e20ee8d06cb1de548c1/SpatialCluster-0.0.8.tar.gz
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pydiaid]: Downloading https://files.pythonhosted.org/packages/22/d4/4a6c54e540872b22dd25ba8e1002b2b76df38ca5aaa42adc8fdc891bb34e/pydiaid-0.0.18.tar.gz
+[2023-06-11 01:12:39] INFO root fetch - processPackages [site-conn-check]: Downloading https://files.pythonhosted.org/packages/8c/65/c4ef0202554e6527cfd8de148dd0034199584a32483acc18d0ae8a6aa591/site_conn_check-1.0.4-py3-none-any.whl
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pyketra]: Downloading https://files.pythonhosted.org/packages/f3/4f/9df58ab039184fd6886ac1755725d618f4634404ce76656df96310ae2e0d/pyketra-0.0.5.tar.gz
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pyketra]: executing diffoscope
+[2023-06-11 01:12:39] INFO root fetch - processPackages [pyketra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyketra-0.0.4.tar.gz tmp/pyketra-0.0.5.tar.gz --markdown 20230611/p/pyketra/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 01:12:39] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-11 01:12:39] INFO root fetch - processPackages [site-conn-check]: Downloading https://files.pythonhosted.org/packages/d6/df/363db50d27a576c7ea3e26d1c1c9952db32d721c165cc076fe28f8d91e9c/site_conn_check-1.1.0.tar.gz
+[2023-06-11 01:12:40] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-11 01:12:40] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.8.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230611/S/SpatialCluster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 01:12:40] INFO root fetch - processPackages [site-conn-check]: executing diffoscope
+[2023-06-11 01:12:40] INFO root fetch - processPackages [site-conn-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/site_conn_check-1.0.4-py3-none-any.whl.zip tmp/site_conn_check-1.1.0.tar.gz --markdown 20230611/s/site-conn-check/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 01:12:40] INFO root fetch - processPackages [pydiaid]: Downloading https://files.pythonhosted.org/packages/50/83/51ee5d406980ab6bac9910f8aed65ba826abb42731782f52a37a2ce63bf2/pydiaid-0.0.19.tar.gz
+[2023-06-11 01:12:40] INFO root fetch - processPackages [pydiaid]: executing diffoscope
+[2023-06-11 01:12:40] INFO root fetch - processPackages [pydiaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiaid-0.0.18.tar.gz tmp/pydiaid-0.0.19.tar.gz --markdown 20230611/p/pydiaid/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-06-11 01:12:40] INFO root fetch - processPackages [site-conn-check]: Remove: archive file [/home/abi/fetcher/tmp/site_conn_check-1.0.4-py3-none-any.whl.zip]
+[2023-06-11 01:12:40] INFO root fetch - processPackages [site-conn-check]: Remove: archive file [/home/abi/fetcher/tmp/site_conn_check-1.1.0.tar.gz]
+[2023-06-11 01:12:40] INFO root fetch - main [MainThread]: End processing [site-conn-check]: success
+[2023-06-11 01:12:41] INFO root fetch - processPackages [pyketra]: Remove: archive file [/home/abi/fetcher/tmp/pyketra-0.0.4.tar.gz]
+[2023-06-11 01:12:41] INFO root fetch - processPackages [pyketra]: Remove: archive file [/home/abi/fetcher/tmp/pyketra-0.0.5.tar.gz]
+[2023-06-11 01:12:41] INFO root fetch - main [MainThread]: End processing [pyketra]: success
+[2023-06-11 01:12:41] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.8.tar.gz]
+[2023-06-11 01:12:41] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-11 01:12:41] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-11 01:12:41] INFO root fetch - processPackages [pydiaid]: Remove: archive file [/home/abi/fetcher/tmp/pydiaid-0.0.18.tar.gz]
+[2023-06-11 01:12:41] INFO root fetch - processPackages [pydiaid]: Remove: archive file [/home/abi/fetcher/tmp/pydiaid-0.0.19.tar.gz]
+[2023-06-11 01:12:41] INFO root fetch - main [MainThread]: End processing [pydiaid]: success
+[2023-06-11 01:12:41] INFO root fetch - main [MainThread]: Store serial: [18454445]
