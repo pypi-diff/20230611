@@ -785,3 +785,24 @@
 [2023-06-11 01:17:58] INFO root fetch - processPackages [relyonai]: Remove: archive file [/home/abi/fetcher/tmp/relyonai-0.1.1.tar.gz]
 [2023-06-11 01:17:58] INFO root fetch - main [MainThread]: End processing [relyonai]: success
 [2023-06-11 01:17:58] INFO root fetch - main [MainThread]: Store serial: [18454464]
+[2023-06-11 01:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454464]
+[2023-06-11 01:23:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 01:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bantam
+[2023-06-11 01:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relyonai
+[2023-06-11 01:23:07] INFO root fetch - processPackages [bantam]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-11 01:23:07] INFO root fetch - processPackages [relyonai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 01:23:07] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/db/34/7edeaf21f25f1ecb3d79baab9a64a6726b902e133c4b55f04df4a3e1ad41/bantam-2.2.3.tar.gz
+[2023-06-11 01:23:07] INFO root fetch - processPackages [relyonai]: Downloading https://files.pythonhosted.org/packages/6a/01/c5c21f3cf092957819f6020feb6754a476fb4e8116b03fd7bf7ca2701a20/relyonai-0.1.1.tar.gz
+[2023-06-11 01:23:07] INFO root fetch - processPackages [relyonai]: Downloading https://files.pythonhosted.org/packages/8c/c2/ef973c9a8f9f9738c80d8bc829df2f91323b4092cb99596ee8def2d1a0ae/relyonai-0.1.2.tar.gz
+[2023-06-11 01:23:07] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/14/f9/9c43e312584fd627e84b17999f7d24f889879241d4fdba7d9abdf89c7c3d/bantam-2.2.4.tar.gz
+[2023-06-11 01:23:07] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-11 01:23:07] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.2.3.tar.gz tmp/bantam-2.2.4.tar.gz --markdown 20230611/b/bantam/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-11 01:23:08] INFO root fetch - processPackages [relyonai]: executing diffoscope
+[2023-06-11 01:23:08] INFO root fetch - processPackages [relyonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relyonai-0.1.1.tar.gz tmp/relyonai-0.1.2.tar.gz --markdown 20230611/r/relyonai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 01:23:09] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.2.3.tar.gz]
+[2023-06-11 01:23:09] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.2.4.tar.gz]
+[2023-06-11 01:23:09] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-11 01:23:37] INFO root fetch - processPackages [relyonai]: Remove: archive file [/home/abi/fetcher/tmp/relyonai-0.1.1.tar.gz]
+[2023-06-11 01:23:37] INFO root fetch - processPackages [relyonai]: Remove: archive file [/home/abi/fetcher/tmp/relyonai-0.1.2.tar.gz]
+[2023-06-11 01:23:38] INFO root fetch - main [MainThread]: End processing [relyonai]: success
+[2023-06-11 01:23:38] INFO root fetch - main [MainThread]: Store serial: [18454472]
