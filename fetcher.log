@@ -739,3 +739,49 @@
 [2023-06-11 01:12:41] INFO root fetch - processPackages [pydiaid]: Remove: archive file [/home/abi/fetcher/tmp/pydiaid-0.0.19.tar.gz]
 [2023-06-11 01:12:41] INFO root fetch - main [MainThread]: End processing [pydiaid]: success
 [2023-06-11 01:12:41] INFO root fetch - main [MainThread]: Store serial: [18454445]
+[2023-06-11 01:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454445]
+[2023-06-11 01:17:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 01:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packagelister
+[2023-06-11 01:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relyonai
+[2023-06-11 01:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinabs
+[2023-06-11 01:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-join-unrelated
+[2023-06-11 01:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinabs
+[2023-06-11 01:17:50] INFO root fetch - processPackages [relyonai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 01:17:50] INFO root fetch - processPackages [packagelister]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-11 01:17:50] INFO root fetch - processPackages [django-join-unrelated]: New version: [0.1.0.dev1] Old Version: [0.1.0]
+[2023-06-11 01:17:50] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev2] Old Version: [1.2.6.dev18]
+[2023-06-11 01:17:50] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev2] Old Version: [1.2.6.dev18]
+[2023-06-11 01:17:50] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/43/d1/076137c0ff39956dba1a43713ad94a2787b085925d1be822854d54e2d001/packagelister-1.6.0.tar.gz
+[2023-06-11 01:17:50] INFO root fetch - processPackages [relyonai]: Downloading https://files.pythonhosted.org/packages/f4/f4/08869f95531daa9e7bbe3add3425cdc1fcdb1ecd78410c838cf6a7ba87f1/relyonai-0.1.0.tar.gz
+[2023-06-11 01:17:50] INFO root fetch - processPackages [django-join-unrelated]: Downloading https://files.pythonhosted.org/packages/21/83/14a0048d31a86469b1e7ec779a6085ecdd7fb65820eaad09aff11b083560/django-join-unrelated-0.1.0.tar.gz
+[2023-06-11 01:17:50] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/ab/b6/37aff0c1b7021927b378e7d626f313611b237243761c6552642a5d3e1b08/sinabs-1.2.6.dev18.tar.gz
+[2023-06-11 01:17:50] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/ab/b6/37aff0c1b7021927b378e7d626f313611b237243761c6552642a5d3e1b08/sinabs-1.2.6.dev18.tar.gz
+[2023-06-11 01:17:51] INFO root fetch - processPackages [django-join-unrelated]: Downloading https://files.pythonhosted.org/packages/7d/23/5aa5f97ac688fef4aeed7e5cbae83233a0889c2bac95b337cb35ad9c8354/django-join-unrelated-0.1.0.dev1.tar.gz
+[2023-06-11 01:17:51] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/04/bf/9c97c443e05093f057f202e4f1ce2ab94f43f3fb4a0957d585ffc9057ca9/sinabs-1.2.6.dev2.tar.gz
+[2023-06-11 01:17:51] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/04/bf/9c97c443e05093f057f202e4f1ce2ab94f43f3fb4a0957d585ffc9057ca9/sinabs-1.2.6.dev2.tar.gz
+[2023-06-11 01:17:51] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/2b/73/042c051b71fdbc26e20118e0aa1f72b2640849ae3d72adbefea04dc5c687/packagelister-1.6.1.tar.gz
+[2023-06-11 01:17:51] INFO root fetch - processPackages [relyonai]: Downloading https://files.pythonhosted.org/packages/6a/01/c5c21f3cf092957819f6020feb6754a476fb4e8116b03fd7bf7ca2701a20/relyonai-0.1.1.tar.gz
+[2023-06-11 01:17:51] INFO root fetch - processPackages [packagelister]: executing diffoscope
+[2023-06-11 01:17:51] INFO root fetch - processPackages [packagelister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagelister-1.6.0.tar.gz tmp/packagelister-1.6.1.tar.gz --markdown 20230611/p/packagelister/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-11 01:17:51] INFO root fetch - processPackages [django-join-unrelated]: executing diffoscope
+[2023-06-11 01:17:51] INFO root fetch - processPackages [django-join-unrelated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-join-unrelated-0.1.0.tar.gz tmp/django-join-unrelated-0.1.0.dev1.tar.gz --markdown 20230611/d/django-join-unrelated/0.1.0-0.1.0.dev1/diff.md --exclude *.pyd
+[2023-06-11 01:17:51] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-06-11 01:17:51] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev18.tar.gz tmp/sinabs-1.2.6.dev2.tar.gz --markdown 20230611/s/sinabs/1.2.6.dev18-1.2.6.dev2/diff.md --exclude *.pyd
+[2023-06-11 01:17:51] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-06-11 01:17:51] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev18.tar.gz tmp/sinabs-1.2.6.dev2.tar.gz --markdown 20230611/s/sinabs/1.2.6.dev18-1.2.6.dev2/diff.md --exclude *.pyd
+[2023-06-11 01:17:51] INFO root fetch - processPackages [relyonai]: executing diffoscope
+[2023-06-11 01:17:51] INFO root fetch - processPackages [relyonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relyonai-0.1.0.tar.gz tmp/relyonai-0.1.1.tar.gz --markdown 20230611/r/relyonai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 01:17:52] INFO root fetch - processPackages [django-join-unrelated]: Remove: archive file [/home/abi/fetcher/tmp/django-join-unrelated-0.1.0.tar.gz]
+[2023-06-11 01:17:52] INFO root fetch - processPackages [django-join-unrelated]: Remove: archive file [/home/abi/fetcher/tmp/django-join-unrelated-0.1.0.dev1.tar.gz]
+[2023-06-11 01:17:52] INFO root fetch - main [MainThread]: End processing [django-join-unrelated]: success
+[2023-06-11 01:17:52] INFO root fetch - processPackages [packagelister]: Remove: archive file [/home/abi/fetcher/tmp/packagelister-1.6.0.tar.gz]
+[2023-06-11 01:17:52] INFO root fetch - processPackages [packagelister]: Remove: archive file [/home/abi/fetcher/tmp/packagelister-1.6.1.tar.gz]
+[2023-06-11 01:17:52] INFO root fetch - main [MainThread]: End processing [packagelister]: success
+[2023-06-11 01:17:53] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev18.tar.gz]
+[2023-06-11 01:17:53] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev2.tar.gz]
+[2023-06-11 01:17:53] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-06-11 01:17:53] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-06-11 01:17:58] INFO root fetch - processPackages [relyonai]: Remove: archive file [/home/abi/fetcher/tmp/relyonai-0.1.0.tar.gz]
+[2023-06-11 01:17:58] INFO root fetch - processPackages [relyonai]: Remove: archive file [/home/abi/fetcher/tmp/relyonai-0.1.1.tar.gz]
+[2023-06-11 01:17:58] INFO root fetch - main [MainThread]: End processing [relyonai]: success
+[2023-06-11 01:17:58] INFO root fetch - main [MainThread]: Store serial: [18454464]
