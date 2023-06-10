@@ -1,0 +1,66 @@
+[2023-06-11 00:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454170]
+[2023-06-11 00:04:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrademacher
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yarok
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabinet
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glotter2
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: les-louisdelatech
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipen-runinfo
+[2023-06-11 00:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-query
+[2023-06-11 00:04:05] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.10.2]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [yarok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pipen-runinfo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [les-louisdelatech]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [scikit-query]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [glotter2]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pipen-runinfo]: Downloading https://files.pythonhosted.org/packages/ab/3e/8c2cb14b68b6af4856911485c59c393dcb30ed9e216f11d59956061e9336/pipen_runinfo-0.1.0.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [glotter2]: Downloading https://files.pythonhosted.org/packages/de/eb/d62ce2b1b0c617412d312da8fe4dd1d8a17247c68897600e6cd0a7d4815d/glotter2-0.7.0.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/27/c4/984200f62081b7feb94bea1de9a6ceb445923ace3f5a3d21c3496106473a/cabinet-2023.6.10.2.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/5b/35/b497f1c84b39f1ee0c2371d186f0a233ac16bfb20ce52629354a54ffb03a/yarok-0.0.8.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [les-louisdelatech]: Downloading https://files.pythonhosted.org/packages/5d/ff/dcbcb710cafe822ed830b865eca13f0bb8322e59d07da774a604d9cf768d/les_louisdelatech-0.3.1.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [scikit-query]: Downloading https://files.pythonhosted.org/packages/0d/93/1ed76afe32448df60aa53782151f27360d47e05a53806acb461a8f18243f/scikit-query-0.1.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/02/12/6b35c4f5c1445a0947c03a2d92b9549033a7c04b9cb4afb639778d7fb131/pyrademacher-0.9.8.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pipen-runinfo]: Downloading https://files.pythonhosted.org/packages/e4/94/4651458cc3d7f1ad869aafb8894e07bba83e9593247d2242f45413de6688/pipen_runinfo-0.1.1.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [glotter2]: Downloading https://files.pythonhosted.org/packages/d4/aa/741bdbd7859ba6649653c93be6bce40ad6859e478224987318ac27696c8e/glotter2-0.7.1.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pipen-runinfo]: executing diffoscope
+[2023-06-11 00:04:05] INFO root fetch - processPackages [pipen-runinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_runinfo-0.1.0.tar.gz tmp/pipen_runinfo-0.1.1.tar.gz --markdown 20230611/p/pipen-runinfo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 00:04:05] INFO root fetch - processPackages [glotter2]: executing diffoscope
+[2023-06-11 00:04:05] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-11 00:04:05] INFO root fetch - processPackages [glotter2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glotter2-0.7.0.tar.gz tmp/glotter2-0.7.1.tar.gz --markdown 20230611/g/glotter2/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-11 00:04:06] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/97/06/40b8c17bb8a3a79653e7c9fa154c89fb8e4e1122553a6f696919593d2fa9/pyrademacher-0.9.9.tar.gz
+[2023-06-11 00:04:06] INFO root fetch - processPackages [scikit-query]: Downloading https://files.pythonhosted.org/packages/a0/fc/fac390806ff119bd28319c87b02b77e182ad410252b5ed375276e2b74ccd/scikit-query-0.1.1.tar.gz
+[2023-06-11 00:04:06] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-11 00:04:06] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.10.2.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230611/c/cabinet/2023.6.10.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-11 00:04:06] INFO root fetch - processPackages [les-louisdelatech]: Downloading https://files.pythonhosted.org/packages/bb/bc/2ebf0177a93f4523b1b6aa29ae8cb130ec15441b62520b84c0527bcde4b5/les_louisdelatech-0.3.2.tar.gz
+[2023-06-11 00:04:06] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/df/af/c521521987dcb898560332432e48f81574262b43e3defad1821893b945a9/yarok-0.0.9.tar.gz
+[2023-06-11 00:04:06] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-11 00:04:06] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.8.tar.gz tmp/pyrademacher-0.9.9.tar.gz --markdown 20230611/p/pyrademacher/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 00:04:06] INFO root fetch - processPackages [scikit-query]: executing diffoscope
+[2023-06-11 00:04:06] INFO root fetch - processPackages [scikit-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-query-0.1.tar.gz tmp/scikit-query-0.1.1.tar.gz --markdown 20230611/s/scikit-query/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 00:04:06] INFO root fetch - processPackages [les-louisdelatech]: executing diffoscope
+[2023-06-11 00:04:06] INFO root fetch - processPackages [les-louisdelatech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/les_louisdelatech-0.3.1.tar.gz tmp/les_louisdelatech-0.3.2.tar.gz --markdown 20230611/l/les-louisdelatech/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 00:04:06] INFO root fetch - processPackages [yarok]: executing diffoscope
+[2023-06-11 00:04:06] INFO root fetch - processPackages [yarok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarok-0.0.8.tar.gz tmp/yarok-0.0.9.tar.gz --markdown 20230611/y/yarok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 00:04:07] INFO root fetch - processPackages [glotter2]: Remove: archive file [/home/abi/fetcher/tmp/glotter2-0.7.0.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - processPackages [glotter2]: Remove: archive file [/home/abi/fetcher/tmp/glotter2-0.7.1.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - main [MainThread]: End processing [glotter2]: success
+[2023-06-11 00:04:07] INFO root fetch - processPackages [les-louisdelatech]: Remove: archive file [/home/abi/fetcher/tmp/les_louisdelatech-0.3.1.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - processPackages [les-louisdelatech]: Remove: archive file [/home/abi/fetcher/tmp/les_louisdelatech-0.3.2.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - main [MainThread]: End processing [les-louisdelatech]: success
+[2023-06-11 00:04:07] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.10.2.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-11 00:04:07] INFO root fetch - processPackages [pipen-runinfo]: Remove: archive file [/home/abi/fetcher/tmp/pipen_runinfo-0.1.0.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - processPackages [pipen-runinfo]: Remove: archive file [/home/abi/fetcher/tmp/pipen_runinfo-0.1.1.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - main [MainThread]: End processing [pipen-runinfo]: success
+[2023-06-11 00:04:07] INFO root fetch - processPackages [scikit-query]: Remove: archive file [/home/abi/fetcher/tmp/scikit-query-0.1.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - processPackages [scikit-query]: Remove: archive file [/home/abi/fetcher/tmp/scikit-query-0.1.1.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - main [MainThread]: End processing [scikit-query]: success
+[2023-06-11 00:04:07] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.8.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.9.tar.gz]
+[2023-06-11 00:04:07] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-11 00:04:09] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.8.tar.gz]
+[2023-06-11 00:04:09] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.9.tar.gz]
+[2023-06-11 00:04:09] INFO root fetch - main [MainThread]: End processing [yarok]: success
+[2023-06-11 00:04:09] INFO root fetch - main [MainThread]: Store serial: [18454191]
