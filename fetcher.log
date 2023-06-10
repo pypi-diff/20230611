@@ -818,3 +818,32 @@
 [2023-06-11 01:28:48] INFO root fetch - processPackages [flask-dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/flask_dbhydra-0.1.7.tar.gz]
 [2023-06-11 01:28:48] INFO root fetch - main [MainThread]: End processing [flask-dbhydra]: success
 [2023-06-11 01:28:48] INFO root fetch - main [MainThread]: Store serial: [18454475]
+[2023-06-11 01:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454475]
+[2023-06-11 01:33:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius
+[2023-06-11 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsedt
+[2023-06-11 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bhv
+[2023-06-11 01:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aorta-sirius
+[2023-06-11 01:33:57] INFO root fetch - processPackages [nsedt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 01:33:57] INFO root fetch - processPackages [aorta-sirius]: New version: [2023.6.10.23.29.25] Old Version: [2023.6.10.22.50.24]
+[2023-06-11 01:33:57] INFO root fetch - processPackages [bhv]: New version: [0.5.6] Old Version: [0.4.4]
+[2023-06-11 01:33:57] INFO root fetch - processPackages [aorta-sirius]: New version: [2023.6.10.23.29.25] Old Version: [2023.6.10.22.50.24]
+[2023-06-11 01:33:57] ERROR root fetch - processPackages [aorta-sirius]: Unable to fetch info: No such project/version 'aorta-sirius' 2023.6.10.22.50.24
+[2023-06-11 01:33:57] INFO root fetch - main [MainThread]: End processing [aorta-sirius] error
+[2023-06-11 01:33:57] ERROR root fetch - processPackages [aorta-sirius]: Unable to fetch info: No such project/version 'aorta-sirius' 2023.6.10.22.50.24
+[2023-06-11 01:33:57] INFO root fetch - main [MainThread]: End processing [aorta-sirius] error
+[2023-06-11 01:33:57] INFO root fetch - processPackages [nsedt]: Downloading https://files.pythonhosted.org/packages/d0/95/fe90d0546ad54187556b85a072db2e89b9a6e22aec7eb7b4efa79e996f87/nsedt-0.0.3.tar.gz
+[2023-06-11 01:33:57] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/37/95/c191ffd635f4faffc66c2bbfc6e9f683bb0f839ca9b0cd6a9ff129013635/bhv-0.4.4.tar.gz
+[2023-06-11 01:33:57] INFO root fetch - processPackages [nsedt]: Downloading https://files.pythonhosted.org/packages/aa/ab/47aacb93eb94a393dd773c273d7761b03f84618221f7c91425f3429ff2ee/nsedt-0.0.4.tar.gz
+[2023-06-11 01:33:57] INFO root fetch - processPackages [nsedt]: executing diffoscope
+[2023-06-11 01:33:57] INFO root fetch - processPackages [nsedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsedt-0.0.3.tar.gz tmp/nsedt-0.0.4.tar.gz --markdown 20230611/n/nsedt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 01:33:57] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/2d/c1/a08ef9e2585c9bad709d37c7c4d847dcf59aa559c8e2ca09854ad8b98080/bhv-0.5.6.tar.gz
+[2023-06-11 01:33:57] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-11 01:33:57] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.4.4.tar.gz tmp/bhv-0.5.6.tar.gz --markdown 20230611/b/bhv/0.4.4-0.5.6/diff.md --exclude *.pyd
+[2023-06-11 01:33:58] INFO root fetch - processPackages [nsedt]: Remove: archive file [/home/abi/fetcher/tmp/nsedt-0.0.3.tar.gz]
+[2023-06-11 01:33:58] INFO root fetch - processPackages [nsedt]: Remove: archive file [/home/abi/fetcher/tmp/nsedt-0.0.4.tar.gz]
+[2023-06-11 01:33:58] INFO root fetch - main [MainThread]: End processing [nsedt]: success
+[2023-06-11 01:33:58] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.4.4.tar.gz]
+[2023-06-11 01:33:58] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.6.tar.gz]
+[2023-06-11 01:33:58] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-11 01:33:58] INFO root fetch - main [MainThread]: Store serial: [18454494]
