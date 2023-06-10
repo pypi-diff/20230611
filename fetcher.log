@@ -806,3 +806,15 @@
 [2023-06-11 01:23:37] INFO root fetch - processPackages [relyonai]: Remove: archive file [/home/abi/fetcher/tmp/relyonai-0.1.2.tar.gz]
 [2023-06-11 01:23:38] INFO root fetch - main [MainThread]: End processing [relyonai]: success
 [2023-06-11 01:23:38] INFO root fetch - main [MainThread]: Store serial: [18454472]
+[2023-06-11 01:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454472]
+[2023-06-11 01:28:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-11 01:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-dbhydra
+[2023-06-11 01:28:46] INFO root fetch - processPackages [flask-dbhydra]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-11 01:28:47] INFO root fetch - processPackages [flask-dbhydra]: Downloading https://files.pythonhosted.org/packages/d0/01/8632a9b963da4ca7c91c235b537b58487ff2116b1279976d01cdd96075ab/flask_dbhydra-0.1.6.tar.gz
+[2023-06-11 01:28:47] INFO root fetch - processPackages [flask-dbhydra]: Downloading https://files.pythonhosted.org/packages/17/03/1fe16c89ce5fb8b56c293c8521dff06c2d91e240bd285baf5f9c0c925445/flask_dbhydra-0.1.7.tar.gz
+[2023-06-11 01:28:47] INFO root fetch - processPackages [flask-dbhydra]: executing diffoscope
+[2023-06-11 01:28:47] INFO root fetch - processPackages [flask-dbhydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_dbhydra-0.1.6.tar.gz tmp/flask_dbhydra-0.1.7.tar.gz --markdown 20230611/f/flask-dbhydra/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-11 01:28:48] INFO root fetch - processPackages [flask-dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/flask_dbhydra-0.1.6.tar.gz]
+[2023-06-11 01:28:48] INFO root fetch - processPackages [flask-dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/flask_dbhydra-0.1.7.tar.gz]
+[2023-06-11 01:28:48] INFO root fetch - main [MainThread]: End processing [flask-dbhydra]: success
+[2023-06-11 01:28:48] INFO root fetch - main [MainThread]: Store serial: [18454475]
