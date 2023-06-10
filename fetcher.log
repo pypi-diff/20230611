@@ -519,3 +519,58 @@
 [2023-06-11 00:46:04] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
 [2023-06-11 00:46:04] INFO root fetch - main [MainThread]: End processing [marcel]: success
 [2023-06-11 00:46:04] INFO root fetch - main [MainThread]: Store serial: [18454359]
+[2023-06-11 00:51:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454359]
+[2023-06-11 00:51:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marcel
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aorta-sirius
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marcel
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netunicorn-base
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aorta-sirius
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JBPhD
+[2023-06-11 00:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyketra
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 00:51:13] WARNING root fetch - processPackages [aorta-sirius]: Skipping, unable to determine old version
+[2023-06-11 00:51:13] INFO root fetch - main [MainThread]: End processing [aorta-sirius] error
+[2023-06-11 00:51:13] WARNING root fetch - processPackages [aorta-sirius]: Skipping, unable to determine old version
+[2023-06-11 00:51:13] INFO root fetch - main [MainThread]: End processing [aorta-sirius] error
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 00:51:13] WARNING root fetch - processPackages [aorta-sirius]: Skipping, unable to determine old version
+[2023-06-11 00:51:13] INFO root fetch - main [MainThread]: End processing [aorta-sirius] error
+[2023-06-11 00:51:13] INFO root fetch - processPackages [JBPhD]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-11 00:51:13] INFO root fetch - processPackages [netunicorn-base]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2023-06-11 00:51:13] INFO root fetch - processPackages [pyketra]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 00:51:13] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/ba/15/61b8eb78ee0c5cf1e2108feeb85dd2927120bc96e92a6ab682257bb8cfd5/JBPhD-2.2.4.win-amd64.zip
+[2023-06-11 00:51:13] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/da/69/24a5698c213bcec014a1800c66c67846e2abb66ca10dd589db8210ac6b62/netunicorn-base-0.3.5.tar.gz
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2023-06-11 00:51:13] INFO root fetch - processPackages [pyketra]: Downloading https://files.pythonhosted.org/packages/99/12/8f734fb9ff46c2809e25b80776d938636f88aef8530fe5914e8d434f26f1/pyketra-0.0.3.tar.gz
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20230611/m/marcel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 00:51:13] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20230611/m/marcel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 00:51:14] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/92/e2/35f711d15344955522907141a1e822bcbd5875a88b23f255033635ba0af3/netunicorn-base-0.3.6.tar.gz
+[2023-06-11 00:51:14] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/a8/e7/ada19991784b6223e7b096a145d213e68940f035be0eac9855cf30609379/JBPhD-2.2.5.tar.gz
+[2023-06-11 00:51:14] INFO root fetch - processPackages [pyketra]: Downloading https://files.pythonhosted.org/packages/38/69/fece4d7a0cf0f437fcde9f878589d11b74bdec95fd57637297855baacc36/pyketra-0.0.4.tar.gz
+[2023-06-11 00:51:14] INFO root fetch - processPackages [netunicorn-base]: executing diffoscope
+[2023-06-11 00:51:14] INFO root fetch - processPackages [netunicorn-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-base-0.3.5.tar.gz tmp/netunicorn-base-0.3.6.tar.gz --markdown 20230611/n/netunicorn-base/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-11 00:51:14] INFO root fetch - processPackages [pyketra]: executing diffoscope
+[2023-06-11 00:51:14] INFO root fetch - processPackages [pyketra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyketra-0.0.3.tar.gz tmp/pyketra-0.0.4.tar.gz --markdown 20230611/p/pyketra/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 00:51:15] INFO root fetch - processPackages [netunicorn-base]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-base-0.3.5.tar.gz]
+[2023-06-11 00:51:15] INFO root fetch - processPackages [netunicorn-base]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-base-0.3.6.tar.gz]
+[2023-06-11 00:51:15] INFO root fetch - main [MainThread]: End processing [netunicorn-base]: success
+[2023-06-11 00:51:15] INFO root fetch - processPackages [pyketra]: Remove: archive file [/home/abi/fetcher/tmp/pyketra-0.0.3.tar.gz]
+[2023-06-11 00:51:15] INFO root fetch - processPackages [pyketra]: Remove: archive file [/home/abi/fetcher/tmp/pyketra-0.0.4.tar.gz]
+[2023-06-11 00:51:15] INFO root fetch - main [MainThread]: End processing [pyketra]: success
+[2023-06-11 00:51:15] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-06-11 00:51:15] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.2.4.win-amd64.zip tmp/JBPhD-2.2.5.tar.gz --markdown 20230611/J/JBPhD/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-11 00:51:15] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2023-06-11 00:51:15] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2023-06-11 00:51:15] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2023-06-11 00:51:15] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2023-06-11 00:51:23] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.4.win-amd64.zip]
+[2023-06-11 00:51:23] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.5.tar.gz]
+[2023-06-11 00:51:23] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-06-11 00:51:23] INFO root fetch - main [MainThread]: Store serial: [18454383]
