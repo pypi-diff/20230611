@@ -468,3 +468,33 @@
 [2023-06-11 00:35:43] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.1.tar.gz]
 [2023-06-11 00:35:43] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
 [2023-06-11 00:35:43] INFO root fetch - main [MainThread]: Store serial: [18454334]
+[2023-06-11 00:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454334]
+[2023-06-11 00:40:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 00:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-isl29125
+[2023-06-11 00:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shellx
+[2023-06-11 00:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markovm
+[2023-06-11 00:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JBPhD
+[2023-06-11 00:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quiltplus
+[2023-06-11 00:40:51] INFO root fetch - processPackages [JBPhD]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-11 00:40:51] WARNING root fetch - processPackages [markovm]: Skipping, unable to determine old version
+[2023-06-11 00:40:51] INFO root fetch - main [MainThread]: End processing [markovm] error
+[2023-06-11 00:40:51] WARNING root fetch - processPackages [shellx]: Skipping, unable to determine old version
+[2023-06-11 00:40:51] WARNING root fetch - processPackages [micropython-isl29125]: Skipping, unable to determine old version
+[2023-06-11 00:40:51] INFO root fetch - main [MainThread]: End processing [shellx] error
+[2023-06-11 00:40:51] INFO root fetch - main [MainThread]: End processing [micropython-isl29125] error
+[2023-06-11 00:40:51] INFO root fetch - processPackages [quiltplus]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-11 00:40:51] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/39/75/e3c79c149db8d6d10b03fa617f069ced243ed662fc48236a5b61e31589f8/JBPhD-2.2.3.tar.gz
+[2023-06-11 00:40:51] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/cd/f7/e7506f3a144e4be18e63ba83d27f5dd8e8c5ba3790de68f7119fffea7050/quiltplus-0.9.3.tar.gz
+[2023-06-11 00:40:52] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/0d/2e/c7154826304c70f2d53ee27fc495b1b88c4398e1215a5b43f168253ed174/JBPhD-2.2.4-py3-none-any.whl
+[2023-06-11 00:40:52] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/34/45/988811b6b5bc12aafeafc5852880d2159072c15f5f5d00da719151aac637/quiltplus-0.9.4.tar.gz
+[2023-06-11 00:40:52] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-06-11 00:40:52] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.2.3.tar.gz tmp/JBPhD-2.2.4-py3-none-any.whl.zip --markdown 20230611/J/JBPhD/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-11 00:40:52] INFO root fetch - processPackages [quiltplus]: executing diffoscope
+[2023-06-11 00:40:52] INFO root fetch - processPackages [quiltplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltplus-0.9.3.tar.gz tmp/quiltplus-0.9.4.tar.gz --markdown 20230611/q/quiltplus/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-11 00:40:53] INFO root fetch - processPackages [quiltplus]: Remove: archive file [/home/abi/fetcher/tmp/quiltplus-0.9.3.tar.gz]
+[2023-06-11 00:40:53] INFO root fetch - processPackages [quiltplus]: Remove: archive file [/home/abi/fetcher/tmp/quiltplus-0.9.4.tar.gz]
+[2023-06-11 00:40:53] INFO root fetch - main [MainThread]: End processing [quiltplus]: success
+[2023-06-11 00:40:53] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.3.tar.gz]
+[2023-06-11 00:40:53] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.4-py3-none-any.whl.zip]
+[2023-06-11 00:40:53] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-06-11 00:40:53] INFO root fetch - main [MainThread]: Store serial: [18454354]
