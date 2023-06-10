@@ -498,3 +498,24 @@
 [2023-06-11 00:40:53] INFO root fetch - processPackages [JBPhD]: Remove: archive file [/home/abi/fetcher/tmp/JBPhD-2.2.4-py3-none-any.whl.zip]
 [2023-06-11 00:40:53] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
 [2023-06-11 00:40:53] INFO root fetch - main [MainThread]: Store serial: [18454354]
+[2023-06-11 00:45:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454354]
+[2023-06-11 00:46:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 00:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marcel
+[2023-06-11 00:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carter-py
+[2023-06-11 00:46:02] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 00:46:02] INFO root fetch - processPackages [carter-py]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-11 00:46:02] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2023-06-11 00:46:02] INFO root fetch - processPackages [carter-py]: Downloading https://files.pythonhosted.org/packages/0c/ca/ebc47cc091d1191093d1621dd4a5a357583991b2beec339558db5be2b9d1/carter_py-0.2.0-py3-none-any.whl
+[2023-06-11 00:46:02] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2023-06-11 00:46:02] INFO root fetch - processPackages [carter-py]: Downloading https://files.pythonhosted.org/packages/87/49/5cc22075accaadce501fa7e85d86159b2e8f3c08db701be986ccdb462869/carter_py-1.0.0-py3-none-any.whl
+[2023-06-11 00:46:03] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2023-06-11 00:46:03] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20230611/m/marcel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 00:46:03] INFO root fetch - processPackages [carter-py]: executing diffoscope
+[2023-06-11 00:46:03] INFO root fetch - processPackages [carter-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carter_py-0.2.0-py3-none-any.whl.zip tmp/carter_py-1.0.0-py3-none-any.whl.zip --markdown 20230611/c/carter-py/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 00:46:04] INFO root fetch - processPackages [carter-py]: Remove: archive file [/home/abi/fetcher/tmp/carter_py-0.2.0-py3-none-any.whl.zip]
+[2023-06-11 00:46:04] INFO root fetch - processPackages [carter-py]: Remove: archive file [/home/abi/fetcher/tmp/carter_py-1.0.0-py3-none-any.whl.zip]
+[2023-06-11 00:46:04] INFO root fetch - main [MainThread]: End processing [carter-py]: success
+[2023-06-11 00:46:04] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2023-06-11 00:46:04] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2023-06-11 00:46:04] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2023-06-11 00:46:04] INFO root fetch - main [MainThread]: Store serial: [18454359]
