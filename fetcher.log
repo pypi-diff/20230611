@@ -214,3 +214,150 @@
 [2023-06-11 00:17:20] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a6-py3-none-win_amd64.whl.zip]
 [2023-06-11 00:17:20] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-06-11 00:17:20] INFO root fetch - main [MainThread]: Store serial: [18454239]
+[2023-06-11 00:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454239]
+[2023-06-11 00:22:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cabinet
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cedar-backup3
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-sqlite-html
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-html
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-url
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-url
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongorunway
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datasette-sqlite-http
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-http
+[2023-06-11 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: miepython
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-html]: New version: [0.1.2a7] Old Version: [0.1.2a6]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [miepython]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-url]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [mongorunway]: New version: [1.0.2a0] Old Version: [1.0.1a0]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [cedar-backup3]: New version: [3.7.6] Old Version: [3.7.5]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-url]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-html]: New version: [0.1.2a7] Old Version: [0.1.2a6]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.10.3]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-url]: Downloading https://files.pythonhosted.org/packages/34/8c/540a93c68e9376d710bade993f1f7735b8505d2c3148f8a6c9a122062bf2/datasette_sqlite_url-0.1.0a6-py3-none-any.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/c0/73/2529415335b1d7c8bf0229a500c0c0fc2f957f21431314bc893a66cb37a9/datasette_sqlite_html-0.1.2a6-py3-none-any.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/7f/d5/0e02660bcaa08c34d95ef5d7cb2087aac338f60fab70579229e747c4740c/sqlite_http-0.1.0a6-py3-none-win_amd64.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-url]: Downloading https://files.pythonhosted.org/packages/49/9e/e0d65f4d550202a858a29ddd087c8e23adb41e252f9a59baed109a3bbcda/sqlite_url-0.1.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/8b/e4/1784a94d6b825e795f359d52e0b8cb3a43bc3f8df3021c0d6afe162abba5/sqlite_html-0.1.2a6-py3-none-win_amd64.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/4a/05/af972360ff96b6f435f994f4443411ddd08d8aabea3c45a6d58c24c19601/datasette_sqlite_http-0.1.0a6-py3-none-any.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/4c/2c/aa868b5efb51f9b39ca3b05e95636e464637a301c8948469b449868975bf/mongorunway-1.0.1a0.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [miepython]: Downloading https://files.pythonhosted.org/packages/4f/71/b49043fd38eb00f1b6039596bbd9812633a3153b44aa03d73a637496bf20/miepython-2.3.2.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [cedar-backup3]: Downloading https://files.pythonhosted.org/packages/d5/f1/21d27863592e294b6886a5b3b45b3a0582d5a5376d3d2b573380763e92dc/cedar_backup3-3.7.5.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/b6/ec/23eddf8961663f3640a07ae7355454fe2fd7e951af8e3a629008f26e88f6/cabinet-2023.6.10.3.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-url]: Downloading https://files.pythonhosted.org/packages/db/86/9f5ea7af08ba25a72e73e406b7dad521730b1e77e1878418300a9a03bec8/datasette_sqlite_url-0.1.0a7-py3-none-any.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/f0/d7/1725d6b6b1db1503f0060fb780094f95ee8186e692c87eee81c1c9ceff5f/datasette_sqlite_http-0.1.0a7-py3-none-any.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-url]: Downloading https://files.pythonhosted.org/packages/32/25/9a286506af499ec7a51f352e18204dfedf0a6c56c41ef2b788d8f6e7a7d6/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/2f/f2/6241e9243be74c73f9868e6d20a04a1add34e0a23ae3ad4f4aa04537cd22/datasette_sqlite_html-0.1.2a7-py3-none-any.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-url]: executing diffoscope
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_url-0.1.0a6-py3-none-any.whl.zip tmp/datasette_sqlite_url-0.1.0a7-py3-none-any.whl.zip --markdown 20230611/d/datasette-sqlite-url/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a6-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a7-py3-none-any.whl.zip --markdown 20230611/d/datasette-sqlite-http/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-11 00:22:29] INFO root fetch - processPackages [mongorunway]: Downloading https://files.pythonhosted.org/packages/72/80/d5da56070456a70b62c2bc4bb7c5667c0d6b16b25e06f2afada6de55d2fa/mongorunway-1.0.2a0.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/61/c0/92280f42a399e1fa0f21365ce64e10198c71f93dc78e7f6029efbb0e8548/sqlite_http-0.1.0a7-py3-none-win_amd64.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/36/9f/c718eeeca2d6cdf902641580493b1ff5baceb12d01165839da31cb3c9486/sqlite_html-0.1.2a7-py3-none-win_amd64.whl
+[2023-06-11 00:22:29] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-url]: executing diffoscope
+[2023-06-11 00:22:29] INFO root fetch - processPackages [sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_url-0.1.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230611/s/sqlite-url/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-html]: executing diffoscope
+[2023-06-11 00:22:29] INFO root fetch - processPackages [datasette-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_html-0.1.2a6-py3-none-any.whl.zip tmp/datasette_sqlite_html-0.1.2a7-py3-none-any.whl.zip --markdown 20230611/d/datasette-sqlite-html/0.1.2a6-0.1.2a7/diff.md --exclude *.pyd
+[2023-06-11 00:22:29] INFO root fetch - processPackages [cedar-backup3]: Downloading https://files.pythonhosted.org/packages/05/e3/4bd69009830e7e189894f26e5719da3537c68b333c7042f47854b6a27ec6/cedar_backup3-3.7.6.tar.gz
+[2023-06-11 00:22:29] INFO root fetch - processPackages [mongorunway]: executing diffoscope
+[2023-06-11 00:22:29] INFO root fetch - processPackages [mongorunway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongorunway-1.0.1a0.tar.gz tmp/mongorunway-1.0.2a0.tar.gz --markdown 20230611/m/mongorunway/1.0.1a0-1.0.2a0/diff.md --exclude *.pyd
+[2023-06-11 00:22:30] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-11 00:22:30] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.10.3.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230611/c/cabinet/2023.6.10.3-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-11 00:22:30] INFO root fetch - processPackages [miepython]: Downloading https://files.pythonhosted.org/packages/ed/07/674526d9e85ce55506335eed7489ef9c86e2844ccbeec33cccbced2a35b6/miepython-2.4.0.tar.gz
+[2023-06-11 00:22:30] INFO root fetch - processPackages [cedar-backup3]: executing diffoscope
+[2023-06-11 00:22:30] INFO root fetch - processPackages [cedar-backup3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cedar_backup3-3.7.5.tar.gz tmp/cedar_backup3-3.7.6.tar.gz --markdown 20230611/c/cedar-backup3/3.7.5-3.7.6/diff.md --exclude *.pyd
+[2023-06-11 00:22:30] INFO root fetch - processPackages [miepython]: executing diffoscope
+[2023-06-11 00:22:30] INFO root fetch - processPackages [miepython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miepython-2.3.2.tar.gz tmp/miepython-2.4.0.tar.gz --markdown 20230611/m/miepython/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-06-11 00:22:30] INFO root fetch - processPackages [sqlite-html]: executing diffoscope
+[2023-06-11 00:22:30] INFO root fetch - processPackages [sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_html-0.1.2a6-py3-none-win_amd64.whl.zip tmp/sqlite_html-0.1.2a7-py3-none-win_amd64.whl.zip --markdown 20230611/s/sqlite-html/0.1.2a6-0.1.2a7/diff.md --exclude *.pyd
+[2023-06-11 00:22:30] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-06-11 00:22:30] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a6-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.0a7-py3-none-win_amd64.whl.zip --markdown 20230611/s/sqlite-http/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a6-py3-none-any.whl.zip]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a7-py3-none-any.whl.zip]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-http]: Start processing: mpservice
+[2023-06-11 00:22:31] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_url-0.1.0a6-py3-none-any.whl.zip]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_url-0.1.0a7-py3-none-any.whl.zip]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-url]: Start processing: yarok
+[2023-06-11 00:22:31] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-url]: success
+[2023-06-11 00:22:31] INFO root fetch - processPackages [yarok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a6-py3-none-any.whl.zip]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a7-py3-none-any.whl.zip]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-html]: Start processing: datasette-sqlite-path
+[2023-06-11 00:22:31] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-html]: success
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-path]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/5b/35/b497f1c84b39f1ee0c2371d186f0a233ac16bfb20ce52629354a54ffb03a/yarok-0.0.8.tar.gz
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-path]: Downloading https://files.pythonhosted.org/packages/f2/d2/d260ef6f59cf213468f76d818379e6ea7915523967e2762f20e16d72c7c2/datasette_sqlite_path-0.2.0a4-py3-none-any.whl
+[2023-06-11 00:22:31] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.10.3.tar.gz]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [cabinet]: Start processing: sqlite-path
+[2023-06-11 00:22:31] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-11 00:22:31] INFO root fetch - processPackages [sqlite-path]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [sqlite-path]: Downloading https://files.pythonhosted.org/packages/15/06/405d44327fbc900a7dad2d356817ff279411874858b7e35add1e0a1786c7/sqlite_path-0.2.0a4-py3-none-win_amd64.whl
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230611/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-11 00:22:31] INFO root fetch - processPackages [yarok]: Downloading https://files.pythonhosted.org/packages/df/af/c521521987dcb898560332432e48f81574262b43e3defad1821893b945a9/yarok-0.0.9.tar.gz
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-path]: Downloading https://files.pythonhosted.org/packages/91/b0/e7c8c6e69e3dfcf678221fe65e6168a7367f53686e272c7a1aff5c7cfa6a/datasette_sqlite_path-0.2.0a5-py3-none-any.whl
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.1a0.tar.gz]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mongorunway]: Remove: archive file [/home/abi/fetcher/tmp/mongorunway-1.0.2a0.tar.gz]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [mongorunway]: Start processing: datasette-sqlite-lines
+[2023-06-11 00:22:31] INFO root fetch - main [MainThread]: End processing [mongorunway]: success
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-lines]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/b0/89/f9471e92d6d3684aa66197d7861613a8ec3e03bb123777e53e1440f2767e/datasette_sqlite_lines-0.2.0a4-py3-none-any.whl
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-path]: executing diffoscope
+[2023-06-11 00:22:31] INFO root fetch - processPackages [datasette-sqlite-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_path-0.2.0a4-py3-none-any.whl.zip tmp/datasette_sqlite_path-0.2.0a5-py3-none-any.whl.zip --markdown 20230611/d/datasette-sqlite-path/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-06-11 00:22:31] INFO root fetch - processPackages [yarok]: executing diffoscope
+[2023-06-11 00:22:31] INFO root fetch - processPackages [yarok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarok-0.0.8.tar.gz tmp/yarok-0.0.9.tar.gz --markdown 20230611/y/yarok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 00:22:31] INFO root fetch - processPackages [sqlite-path]: Downloading https://files.pythonhosted.org/packages/08/e6/132a26afe6877c2a76b9f7d9fe9a1acd7fd68ac37cf070d22db42564c3a0/sqlite_path-0.2.0a5-py3-none-win_amd64.whl
+[2023-06-11 00:22:32] INFO root fetch - processPackages [miepython]: Remove: archive file [/home/abi/fetcher/tmp/miepython-2.3.2.tar.gz]
+[2023-06-11 00:22:32] INFO root fetch - processPackages [miepython]: Remove: archive file [/home/abi/fetcher/tmp/miepython-2.4.0.tar.gz]
+[2023-06-11 00:22:32] INFO root fetch - processPackages [miepython]: Start processing: sqlite-lines
+[2023-06-11 00:22:32] INFO root fetch - main [MainThread]: End processing [miepython]: success
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-path]: executing diffoscope
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_path-0.2.0a4-py3-none-win_amd64.whl.zip tmp/sqlite_path-0.2.0a5-py3-none-win_amd64.whl.zip --markdown 20230611/s/sqlite-path/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-lines]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-06-11 00:22:32] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/02/bf/074510c2dfc1fdce26a160760d09811075d07a56c5466db29b3711b2455b/datasette_sqlite_lines-0.2.0a5-py3-none-any.whl
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/58/dd/27971e008997183a7d10a3e0fc9364052d33b7bbfdf0e1a8917ec4ce20b1/sqlite_lines-0.2.0a4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-11 00:22:32] INFO root fetch - processPackages [datasette-sqlite-lines]: executing diffoscope
+[2023-06-11 00:22:32] INFO root fetch - processPackages [datasette-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_lines-0.2.0a4-py3-none-any.whl.zip tmp/datasette_sqlite_lines-0.2.0a5-py3-none-any.whl.zip --markdown 20230611/d/datasette-sqlite-lines/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/a9/ec/31b912824df70281d548442748ef4f8170f16041d6497abf19437f56d11c/sqlite_lines-0.2.0a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-lines]: executing diffoscope
+[2023-06-11 00:22:32] INFO root fetch - processPackages [sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_lines-0.2.0a4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_lines-0.2.0a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230611/s/sqlite-lines/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-06-11 00:22:32] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-11 00:22:32] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-11 00:22:32] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-11 00:22:33] INFO root fetch - processPackages [datasette-sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_path-0.2.0a4-py3-none-any.whl.zip]
+[2023-06-11 00:22:33] INFO root fetch - processPackages [datasette-sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_path-0.2.0a5-py3-none-any.whl.zip]
+[2023-06-11 00:22:33] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-path]: success
+[2023-06-11 00:22:33] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.0a4-py3-none-any.whl.zip]
+[2023-06-11 00:22:33] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.0a5-py3-none-any.whl.zip]
+[2023-06-11 00:22:33] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-lines]: success
+[2023-06-11 00:22:33] INFO root fetch - processPackages [sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_path-0.2.0a4-py3-none-win_amd64.whl.zip]
+[2023-06-11 00:22:33] INFO root fetch - processPackages [sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_path-0.2.0a5-py3-none-win_amd64.whl.zip]
+[2023-06-11 00:22:33] INFO root fetch - main [MainThread]: End processing [sqlite-path]: success
+[2023-06-11 00:22:34] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-11 00:22:34] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-11 00:22:34] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
+[2023-06-11 00:22:34] INFO root fetch - processPackages [cedar-backup3]: Remove: archive file [/home/abi/fetcher/tmp/cedar_backup3-3.7.5.tar.gz]
+[2023-06-11 00:22:34] INFO root fetch - processPackages [cedar-backup3]: Remove: archive file [/home/abi/fetcher/tmp/cedar_backup3-3.7.6.tar.gz]
+[2023-06-11 00:22:34] INFO root fetch - main [MainThread]: End processing [cedar-backup3]: success
+[2023-06-11 00:22:35] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-11 00:22:35] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-11 00:22:35] INFO root fetch - main [MainThread]: End processing [sqlite-url]: success
+[2023-06-11 00:22:36] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.8.tar.gz]
+[2023-06-11 00:22:36] INFO root fetch - processPackages [yarok]: Remove: archive file [/home/abi/fetcher/tmp/yarok-0.0.9.tar.gz]
+[2023-06-11 00:22:36] INFO root fetch - main [MainThread]: End processing [yarok]: success
+[2023-06-11 00:24:39] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a6-py3-none-win_amd64.whl.zip]
+[2023-06-11 00:24:39] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a7-py3-none-win_amd64.whl.zip]
+[2023-06-11 00:24:39] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
+[2023-06-11 00:25:19] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a6-py3-none-win_amd64.whl.zip]
+[2023-06-11 00:25:19] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a7-py3-none-win_amd64.whl.zip]
+[2023-06-11 00:25:19] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-06-11 00:25:19] INFO root fetch - main [MainThread]: Store serial: [18454285]
