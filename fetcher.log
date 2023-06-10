@@ -658,3 +658,42 @@
 [2023-06-11 01:02:16] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
 [2023-06-11 01:02:16] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
 [2023-06-11 01:02:16] INFO root fetch - main [MainThread]: Store serial: [18454417]
+[2023-06-11 01:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454417]
+[2023-06-11 01:07:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 01:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-06-11 01:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2023-06-11 01:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-log2file
+[2023-06-11 01:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpl-format
+[2023-06-11 01:07:29] INFO root fetch - processPackages [pipen-log2file]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230610] Old Version: [0.7.0b20230609]
+[2023-06-11 01:07:29] INFO root fetch - processPackages [mpl-format]: New version: [0.317] Old Version: [0.316]
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230610] Old Version: [0.7.0b20230609]
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a4/a7/ba7be0e49c0067ac6baa2f111adf43afb8b52eb3db284a8f80e77b516c97/tmnt-0.7.0b20230609.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [pipen-log2file]: Downloading https://files.pythonhosted.org/packages/8b/91/e3b923c6413d0445e40927d73d4a114241c464ef134e23a2516104209945/pipen_log2file-0.3.0.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/39/03/a0f9eb3a113c8a11e8f5dd6bb2b6a5a38b4c8cf1a3d8ac9bd5bc6c7e10ea/tmnt-cu101-0.7.0b20230609.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [mpl-format]: Downloading https://files.pythonhosted.org/packages/bd/d0/bb3861886b4e83c40bd24a946936c50615955536b143072d5e3b9255570c/mpl_format-0.316.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [mpl-format]: Downloading https://files.pythonhosted.org/packages/61/5c/8ef0abae3a3f847e58f9d370722c4672fd1f37c2f34a156c353458cba46c/mpl_format-0.317.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/41/0b/a4c3e6c0b768e2d90e6ecc3a495ca616a0b443033d5a4fb1269a4c7b6260/tmnt-0.7.0b20230610.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [pipen-log2file]: Downloading https://files.pythonhosted.org/packages/fd/53/9a4c04c1f59570c541d86d1771456973ea9a7cae9b9e3ae22181d583f89d/pipen_log2file-0.3.1.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [mpl-format]: executing diffoscope
+[2023-06-11 01:07:29] INFO root fetch - processPackages [mpl-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl_format-0.316.tar.gz tmp/mpl_format-0.317.tar.gz --markdown 20230611/m/mpl-format/0.316-0.317/diff.md --exclude *.pyd
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/67/70/db9e02353ae01bc4d9798ace07951b688f7406a60b729696c18abd28de37/tmnt-cu101-0.7.0b20230610.tar.gz
+[2023-06-11 01:07:29] INFO root fetch - processPackages [pipen-log2file]: executing diffoscope
+[2023-06-11 01:07:29] INFO root fetch - processPackages [pipen-log2file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_log2file-0.3.0.tar.gz tmp/pipen_log2file-0.3.1.tar.gz --markdown 20230611/p/pipen-log2file/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230609.tar.gz tmp/tmnt-0.7.0b20230610.tar.gz --markdown 20230611/t/tmnt/0.7.0b20230609-0.7.0b20230610/diff.md --exclude *.pyd
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-11 01:07:29] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230609.tar.gz tmp/tmnt-cu101-0.7.0b20230610.tar.gz --markdown 20230611/t/tmnt-cu101/0.7.0b20230609-0.7.0b20230610/diff.md --exclude *.pyd
+[2023-06-11 01:07:30] INFO root fetch - processPackages [pipen-log2file]: Remove: archive file [/home/abi/fetcher/tmp/pipen_log2file-0.3.0.tar.gz]
+[2023-06-11 01:07:30] INFO root fetch - processPackages [pipen-log2file]: Remove: archive file [/home/abi/fetcher/tmp/pipen_log2file-0.3.1.tar.gz]
+[2023-06-11 01:07:30] INFO root fetch - main [MainThread]: End processing [pipen-log2file]: success
+[2023-06-11 01:07:30] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230609.tar.gz]
+[2023-06-11 01:07:30] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230610.tar.gz]
+[2023-06-11 01:07:30] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-11 01:07:31] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230609.tar.gz]
+[2023-06-11 01:07:31] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230610.tar.gz]
+[2023-06-11 01:07:31] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-11 01:07:31] INFO root fetch - processPackages [mpl-format]: Remove: archive file [/home/abi/fetcher/tmp/mpl_format-0.316.tar.gz]
+[2023-06-11 01:07:31] INFO root fetch - processPackages [mpl-format]: Remove: archive file [/home/abi/fetcher/tmp/mpl_format-0.317.tar.gz]
+[2023-06-11 01:07:31] INFO root fetch - main [MainThread]: End processing [mpl-format]: success
+[2023-06-11 01:07:31] INFO root fetch - main [MainThread]: Store serial: [18454428]
