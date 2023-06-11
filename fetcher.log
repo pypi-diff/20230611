@@ -3080,3 +3080,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:34:38] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
 [2023-06-11 04:34:38] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
 [2023-06-11 04:34:38] INFO root fetch - main [MainThread]: Store serial: [18455393]
+[2023-06-11 04:39:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455393]
+[2023-06-11 04:39:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 04:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monai-weekly
+[2023-06-11 04:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-web-core
+[2023-06-11 04:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaldi-native-fbank
+[2023-06-11 04:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-addons
+[2023-06-11 04:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-manifest
+[2023-06-11 04:39:46] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 04:39:46] INFO root fetch - processPackages [monai-weekly]: New version: [1.3.dev2324] Old Version: [1.2.dev2323]
+[2023-06-11 04:39:46] INFO root fetch - processPackages [kaldi-native-fbank]: New version: [1.9] Old Version: [1.16]
+[2023-06-11 04:39:46] INFO root fetch - processPackages [python-manifest]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-11 04:39:46] INFO root fetch - processPackages [langchain-addons]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2023-06-11 04:39:46] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-06-11 04:39:46] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/08/d8/0fddc05a9dd48c94c946e1063a82d208d54b20d39ac8f2504bf8c2c985e1/python_manifest-1.1.0-py3-none-any.whl
+[2023-06-11 04:39:46] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/0b/1c/394a56008b94744edf607d0ec401f7f58d4216744f988b75d2332a09cea6/monai-weekly-1.2.dev2323.tar.gz
+[2023-06-11 04:39:46] INFO root fetch - processPackages [kaldi-native-fbank]: Downloading https://files.pythonhosted.org/packages/45/57/0a66636079b7190c0d61c5125f7a475fcab6a1d617a4b1a2e7bf6ae2fab5/kaldi_native_fbank-1.16-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 04:39:46] INFO root fetch - processPackages [langchain-addons]: Downloading https://files.pythonhosted.org/packages/94/2d/d70239c278d0bace569f900c8e84487eeeb7b7899a6b176ae83b6c7dce4d/langchain_addons-0.0.1.dev2.tar.gz
+[2023-06-11 04:39:46] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-06-11 04:39:47] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/a2/fd/1a9aa6d903f8e175b40d0a9d74a1ec0147f92c187c8bfc95668dc7b4f48b/python_manifest-1.2.0.tar.gz
+[2023-06-11 04:39:47] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-06-11 04:39:47] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230611/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 04:39:47] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-06-11 04:39:47] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-1.1.0-py3-none-any.whl.zip tmp/python_manifest-1.2.0.tar.gz --markdown 20230611/p/python-manifest/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 04:39:47] INFO root fetch - processPackages [langchain-addons]: Downloading https://files.pythonhosted.org/packages/d9/fa/ecfae85477237577444d265d88b3426592c987036c97bdf5c764821b93d2/langchain_addons-0.0.1.dev3.tar.gz
+[2023-06-11 04:39:47] INFO root fetch - processPackages [kaldi-native-fbank]: Downloading https://files.pythonhosted.org/packages/8a/18/17a4f7de43572faf999f9d3682d94e4f9145cd6bc1b4c90b4755ec830b3b/kaldi-native-fbank-1.9.tar.gz
+[2023-06-11 04:39:47] INFO root fetch - processPackages [langchain-addons]: executing diffoscope
+[2023-06-11 04:39:47] INFO root fetch - processPackages [langchain-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_addons-0.0.1.dev2.tar.gz tmp/langchain_addons-0.0.1.dev3.tar.gz --markdown 20230611/l/langchain-addons/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-11 04:39:47] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/2b/17/f95bc70ef6dfcc72c218b73a7d1a0f2d1f702d0aa1c80b102601ff41fbe8/monai-weekly-1.3.dev2324.tar.gz
+[2023-06-11 04:39:47] INFO root fetch - processPackages [kaldi-native-fbank]: executing diffoscope
+[2023-06-11 04:39:47] INFO root fetch - processPackages [kaldi-native-fbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldi_native_fbank-1.16-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/kaldi-native-fbank-1.9.tar.gz --markdown 20230611/k/kaldi-native-fbank/1.16-1.9/diff.md --exclude *.pyd
+[2023-06-11 04:39:47] INFO root fetch - processPackages [monai-weekly]: executing diffoscope
+[2023-06-11 04:39:47] INFO root fetch - processPackages [monai-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-weekly-1.2.dev2323.tar.gz tmp/monai-weekly-1.3.dev2324.tar.gz --markdown 20230611/m/monai-weekly/1.2.dev2323-1.3.dev2324/diff.md --exclude *.pyd
+[2023-06-11 04:39:48] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.1.0-py3-none-any.whl.zip]
+[2023-06-11 04:39:48] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.2.0.tar.gz]
+[2023-06-11 04:39:48] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-06-11 04:39:48] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-06-11 04:39:48] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-06-11 04:39:48] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-06-11 04:39:48] INFO root fetch - processPackages [langchain-addons]: Remove: archive file [/home/abi/fetcher/tmp/langchain_addons-0.0.1.dev2.tar.gz]
+[2023-06-11 04:39:48] INFO root fetch - processPackages [langchain-addons]: Remove: archive file [/home/abi/fetcher/tmp/langchain_addons-0.0.1.dev3.tar.gz]
+[2023-06-11 04:39:48] INFO root fetch - main [MainThread]: End processing [langchain-addons]: success
+[2023-06-11 04:39:48] INFO root fetch - processPackages [kaldi-native-fbank]: Remove: archive file [/home/abi/fetcher/tmp/kaldi_native_fbank-1.16-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 04:39:48] INFO root fetch - processPackages [kaldi-native-fbank]: Remove: archive file [/home/abi/fetcher/tmp/kaldi-native-fbank-1.9.tar.gz]
+[2023-06-11 04:39:48] INFO root fetch - main [MainThread]: End processing [kaldi-native-fbank]: success
+[2023-06-11 04:40:02] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.2.dev2323.tar.gz]
+[2023-06-11 04:40:02] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2324.tar.gz]
+[2023-06-11 04:40:02] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
+[2023-06-11 04:40:02] INFO root fetch - main [MainThread]: Store serial: [18455417]
