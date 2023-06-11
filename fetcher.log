@@ -13191,3 +13191,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:16:39] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.0.tar.gz]
 [2023-06-11 20:16:39] INFO root fetch - main [MainThread]: End processing [evodflow]: success
 [2023-06-11 20:16:39] INFO root fetch - main [MainThread]: Store serial: [18460029]
+[2023-06-11 20:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460029]
+[2023-06-11 20:21:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 20:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyclugen
+[2023-06-11 20:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fedcloudclient
+[2023-06-11 20:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Harish-kumar
+[2023-06-11 20:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcv-api
+[2023-06-11 20:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shopify-python-api
+[2023-06-11 20:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evodflow
+[2023-06-11 20:21:49] WARNING root fetch - processPackages [shopify-python-api]: Skipping, unable to determine old version
+[2023-06-11 20:21:49] INFO root fetch - main [MainThread]: End processing [shopify-python-api] error
+[2023-06-11 20:21:49] INFO root fetch - processPackages [fedcloudclient]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-06-11 20:21:49] INFO root fetch - processPackages [evodflow]: New version: [0.1.9.0] Old Version: [0.1.7.0]
+[2023-06-11 20:21:49] WARNING root fetch - processPackages [hcv-api]: Skipping, unable to determine old version
+[2023-06-11 20:21:49] INFO root fetch - main [MainThread]: End processing [hcv-api] error
+[2023-06-11 20:21:49] INFO root fetch - processPackages [pyclugen]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-11 20:21:49] WARNING root fetch - processPackages [Harish-kumar]: Skipping, unable to determine old version
+[2023-06-11 20:21:49] INFO root fetch - main [MainThread]: End processing [Harish-kumar] error
+[2023-06-11 20:21:49] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/58/98/621fd0c6153468d54afec5bfa9776f7ef76f3f2cbb73e041890e3c5249b1/evodflow-0.1.7.0.tar.gz
+[2023-06-11 20:21:49] INFO root fetch - processPackages [fedcloudclient]: Downloading https://files.pythonhosted.org/packages/81/b7/ef1f669e28b0acaa2a02672811defc3b51d7daed4f4418d2979647040fce/fedcloudclient-1.3.1.tar.gz
+[2023-06-11 20:21:49] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/a0/4c/fcc2221d7cad835cb727f43c80ae6aaeaa6820e3e6021e1f99730b31e9e7/evodflow-0.1.9.0.tar.gz
+[2023-06-11 20:21:49] INFO root fetch - processPackages [pyclugen]: Downloading https://files.pythonhosted.org/packages/fa/1e/d75176aa3a767c4f46042efccab8db6627f35f01946754e9c5896d0833bb/pyclugen-0.2.0.tar.gz
+[2023-06-11 20:21:49] INFO root fetch - processPackages [evodflow]: executing diffoscope
+[2023-06-11 20:21:49] INFO root fetch - processPackages [evodflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodflow-0.1.7.0.tar.gz tmp/evodflow-0.1.9.0.tar.gz --markdown 20230611/e/evodflow/0.1.7.0-0.1.9.0/diff.md --exclude *.pyd
+[2023-06-11 20:21:49] INFO root fetch - processPackages [fedcloudclient]: Downloading https://files.pythonhosted.org/packages/63/23/574d8a360e87c21aff1b69e395bd9970c7fc417cbc074f1d30f2097851bc/fedcloudclient-1.4.0.tar.gz
+[2023-06-11 20:21:49] INFO root fetch - processPackages [pyclugen]: Downloading https://files.pythonhosted.org/packages/aa/2d/a662c34df5f6fe9ee8d0ad0e8ba566da6b4e67a9eaafb06b55d5655b80d8/pyclugen-0.3.0.tar.gz
+[2023-06-11 20:21:49] INFO root fetch - processPackages [fedcloudclient]: executing diffoscope
+[2023-06-11 20:21:49] INFO root fetch - processPackages [fedcloudclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedcloudclient-1.3.1.tar.gz tmp/fedcloudclient-1.4.0.tar.gz --markdown 20230611/f/fedcloudclient/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-11 20:21:49] INFO root fetch - processPackages [pyclugen]: executing diffoscope
+[2023-06-11 20:21:49] INFO root fetch - processPackages [pyclugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclugen-0.2.0.tar.gz tmp/pyclugen-0.3.0.tar.gz --markdown 20230611/p/pyclugen/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-11 20:21:50] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.7.0.tar.gz]
+[2023-06-11 20:21:50] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.0.tar.gz]
+[2023-06-11 20:21:50] INFO root fetch - main [MainThread]: End processing [evodflow]: success
+[2023-06-11 20:21:50] INFO root fetch - processPackages [pyclugen]: Remove: archive file [/home/abi/fetcher/tmp/pyclugen-0.2.0.tar.gz]
+[2023-06-11 20:21:50] INFO root fetch - processPackages [pyclugen]: Remove: archive file [/home/abi/fetcher/tmp/pyclugen-0.3.0.tar.gz]
+[2023-06-11 20:21:50] INFO root fetch - main [MainThread]: End processing [pyclugen]: success
+[2023-06-11 20:21:51] INFO root fetch - processPackages [fedcloudclient]: Remove: archive file [/home/abi/fetcher/tmp/fedcloudclient-1.3.1.tar.gz]
+[2023-06-11 20:21:51] INFO root fetch - processPackages [fedcloudclient]: Remove: archive file [/home/abi/fetcher/tmp/fedcloudclient-1.4.0.tar.gz]
+[2023-06-11 20:21:51] INFO root fetch - main [MainThread]: End processing [fedcloudclient]: success
+[2023-06-11 20:21:51] INFO root fetch - main [MainThread]: Store serial: [18460051]
