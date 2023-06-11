@@ -7704,3 +7704,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:24:58] INFO root fetch - processPackages [cobib]: Remove: archive file [/home/abi/fetcher/tmp/cobib-4.1.0.tar.gz]
 [2023-06-11 13:24:58] INFO root fetch - main [MainThread]: End processing [cobib]: success
 [2023-06-11 13:24:58] INFO root fetch - main [MainThread]: Store serial: [18457530]
+[2023-06-11 13:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457530]
+[2023-06-11 13:30:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckanext-flakes
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manageprojects
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySpeedMacro
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haccrypto
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akinator
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morel
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrestack
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ckanext-flakes]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [manageprojects]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [PySpeedMacro]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 13:30:07] WARNING root fetch - processPackages [morel]: Skipping, unable to determine old version
+[2023-06-11 13:30:07] INFO root fetch - processPackages [morel]: Start processing: pytest-watcher
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pyrestack]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-11 13:30:07] INFO root fetch - main [MainThread]: End processing [morel] error
+[2023-06-11 13:30:07] INFO root fetch - processPackages [akinator]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [haccrypto]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/59/35/11ffeb3b018cf3fb1e3e91a0066b788fdd334c7798f05abdc87428b6a6f3/pyrestack-0.0.22.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-11 13:30:07] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-11 13:30:07] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-11 13:30:07] INFO root fetch - processPackages [manageprojects]: Downloading https://files.pythonhosted.org/packages/54/d4/212d9abea9e72c85f24dbdb01494447803a68fd5ae03b222a243050d5f00/manageprojects-0.9.8.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/b0/3a/222360387697276a2a03e0ec0bcd8376612564bafc31bc0ee66e28918c91/PySpeedMacro-0.0.0.8.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [akinator]: Downloading https://files.pythonhosted.org/packages/47/42/050ef10ffd1eb8cb440891a5fb6136a659802ed9720d8044c3478b1823cf/akinator-1.0.3.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/8e/3b/b6e8d5a4e75f0d68ac8bcd41cfa70e852bd93602f0c3acdc049b3a9978d1/ckanext-flakes-0.4.0.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-11 13:30:07] INFO root fetch - processPackages [haccrypto]: Downloading https://files.pythonhosted.org/packages/26/98/5b33610edb4a288f3ace3baeaceeae1ceb5e1bc571a72704c8bdd24b8f4e/haccrypto-0.1.2.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/74/50/3a2aa6700fb012dcf77292860d0f7514dba8ab9958de8680b65745a6c588/pyrestack-0.0.23-py3-none-any.whl
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pytest-watcher]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230611/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pyrestack]: executing diffoscope
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pyrestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestack-0.0.22.tar.gz tmp/pyrestack-0.0.23-py3-none-any.whl.zip --markdown 20230611/p/pyrestack/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-11 13:30:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230611/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 13:30:07] INFO root fetch - processPackages [akinator]: Downloading https://files.pythonhosted.org/packages/96/74/9defda2ad265ae1a04e62e0484323ca1d2239aaba76073230ea8f15a3b69/akinator-1.1.0.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/9d/c6/3b83c80a3de674049c245156bfd5098b8b7f8729e8fa736949d2116a121d/ckanext-flakes-0.4.1.tar.gz
+[2023-06-11 13:30:07] INFO root fetch - processPackages [pytest-watcher]: Downloading https://files.pythonhosted.org/packages/22/91/80815f41339042cd62ecdaef6ddd98bb4ebe6cba225039b0f7903e02582b/pytest_watcher-0.3.2.tar.gz
+[2023-06-11 13:30:08] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/ce/ba/349591ecea02b0c93c78a29b2875f427f8c077871c859069e4de8589e35d/PySpeedMacro-0.0.0.9.tar.gz
+[2023-06-11 13:30:08] INFO root fetch - processPackages [manageprojects]: Downloading https://files.pythonhosted.org/packages/74/a2/d35a6bb03724fffe5e9c14f766fbb2944bd13acbb5f24c80b46698d229fa/manageprojects-0.9.9.tar.gz
+[2023-06-11 13:30:08] INFO root fetch - processPackages [akinator]: executing diffoscope
+[2023-06-11 13:30:08] INFO root fetch - processPackages [akinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akinator-1.0.3.tar.gz tmp/akinator-1.1.0.tar.gz --markdown 20230611/a/akinator/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 13:30:08] INFO root fetch - processPackages [ckanext-flakes]: executing diffoscope
+[2023-06-11 13:30:08] INFO root fetch - processPackages [ckanext-flakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-flakes-0.4.0.tar.gz tmp/ckanext-flakes-0.4.1.tar.gz --markdown 20230611/c/ckanext-flakes/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-11 13:30:08] INFO root fetch - processPackages [haccrypto]: Downloading https://files.pythonhosted.org/packages/cc/66/a6bd6e6743ab3a22b383b980818fa6911f9a3f74aa514cb70e7520ebc48a/haccrypto-0.1.3.tar.gz
+[2023-06-11 13:30:08] INFO root fetch - processPackages [PySpeedMacro]: executing diffoscope
+[2023-06-11 13:30:08] INFO root fetch - processPackages [PySpeedMacro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySpeedMacro-0.0.0.8.tar.gz tmp/PySpeedMacro-0.0.0.9.tar.gz --markdown 20230611/P/PySpeedMacro/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:30:08] INFO root fetch - processPackages [manageprojects]: executing diffoscope
+[2023-06-11 13:30:08] INFO root fetch - processPackages [manageprojects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manageprojects-0.9.8.tar.gz tmp/manageprojects-0.9.9.tar.gz --markdown 20230611/m/manageprojects/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 13:30:08] INFO root fetch - processPackages [pytest-watcher]: Downloading https://files.pythonhosted.org/packages/57/c9/f4c8531c552de1a1a4a1b4a79ebb4bc8656e186b253d6326a485e6d67831/pytest_watcher-0.3.3.tar.gz
+[2023-06-11 13:30:08] INFO root fetch - processPackages [pytest-watcher]: executing diffoscope
+[2023-06-11 13:30:08] INFO root fetch - processPackages [pytest-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_watcher-0.3.2.tar.gz tmp/pytest_watcher-0.3.3.tar.gz --markdown 20230611/p/pytest-watcher/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 13:30:08] INFO root fetch - processPackages [haccrypto]: executing diffoscope
+[2023-06-11 13:30:08] INFO root fetch - processPackages [haccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haccrypto-0.1.2.tar.gz tmp/haccrypto-0.1.3.tar.gz --markdown 20230611/h/haccrypto/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 13:30:09] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.22.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.23-py3-none-any.whl.zip]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [pyrestack]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [akinator]: Remove: archive file [/home/abi/fetcher/tmp/akinator-1.0.3.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [akinator]: Remove: archive file [/home/abi/fetcher/tmp/akinator-1.1.0.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [akinator]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [PySpeedMacro]: Remove: archive file [/home/abi/fetcher/tmp/PySpeedMacro-0.0.0.8.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [PySpeedMacro]: Remove: archive file [/home/abi/fetcher/tmp/PySpeedMacro-0.0.0.9.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [PySpeedMacro]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [ckanext-flakes]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-flakes-0.4.0.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [ckanext-flakes]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-flakes-0.4.1.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [ckanext-flakes]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [pytest-watcher]: Remove: archive file [/home/abi/fetcher/tmp/pytest_watcher-0.3.2.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [pytest-watcher]: Remove: archive file [/home/abi/fetcher/tmp/pytest_watcher-0.3.3.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [pytest-watcher]: success
+[2023-06-11 13:30:09] INFO root fetch - processPackages [manageprojects]: Remove: archive file [/home/abi/fetcher/tmp/manageprojects-0.9.8.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - processPackages [manageprojects]: Remove: archive file [/home/abi/fetcher/tmp/manageprojects-0.9.9.tar.gz]
+[2023-06-11 13:30:09] INFO root fetch - main [MainThread]: End processing [manageprojects]: success
+[2023-06-11 13:30:10] INFO root fetch - processPackages [haccrypto]: Remove: archive file [/home/abi/fetcher/tmp/haccrypto-0.1.2.tar.gz]
+[2023-06-11 13:30:10] INFO root fetch - processPackages [haccrypto]: Remove: archive file [/home/abi/fetcher/tmp/haccrypto-0.1.3.tar.gz]
+[2023-06-11 13:30:10] INFO root fetch - main [MainThread]: End processing [haccrypto]: success
+[2023-06-11 13:30:10] INFO root fetch - main [MainThread]: Store serial: [18457597]
