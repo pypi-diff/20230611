@@ -13535,3 +13535,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:44:01] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-11 20:44:01] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-11 20:44:01] INFO root fetch - main [MainThread]: Store serial: [18460186]
+[2023-06-11 20:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460186]
+[2023-06-11 20:49:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 20:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataclasses-json
+[2023-06-11 20:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: var
+[2023-06-11 20:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-sbatch-script
+[2023-06-11 20:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maadstml
+[2023-06-11 20:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcv-api
+[2023-06-11 20:49:10] INFO root fetch - processPackages [dataclasses-json]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-11 20:49:10] INFO root fetch - processPackages [var]: New version: [2023.6.2] Old Version: [0.0.5]
+[2023-06-11 20:49:10] WARNING root fetch - processPackages [py-sbatch-script]: Skipping, unable to determine old version
+[2023-06-11 20:49:10] INFO root fetch - main [MainThread]: End processing [py-sbatch-script] error
+[2023-06-11 20:49:10] INFO root fetch - processPackages [maadstml]: New version: [3.30] Old Version: [3.29]
+[2023-06-11 20:49:10] INFO root fetch - processPackages [hcv-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 20:49:10] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/93/86/e91489b8acf4ea5af38dd02c3bf8864fb0ea9513ed7fd0112f7d836d9dbf/maadstml-3.29.tar.gz
+[2023-06-11 20:49:10] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/85/94/1b30216f84c48b9e0646833f6f2dd75f1169cc04dc45c48fe39e644c89d5/dataclasses-json-0.5.7.tar.gz
+[2023-06-11 20:49:10] INFO root fetch - processPackages [hcv-api]: Downloading https://files.pythonhosted.org/packages/37/6a/20c281a71abbd6d7934605e43ec025f6ba611d243ee8a6d953d639e61693/hcv_api-0.0.1-py3-none-any.whl
+[2023-06-11 20:49:10] INFO root fetch - processPackages [var]: Downloading https://files.pythonhosted.org/packages/95/95/49f8d6d9700b36b9b43d9e815df84d7ab0ca643fa918bfd8f71ca8303e8c/var-0.0.5.tar.gz
+[2023-06-11 20:49:10] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/8f/97/0f9593c01f15c57617c1e585af551693062e3a18c64dbdebf570b7beb964/maadstml-3.30.tar.gz
+[2023-06-11 20:49:11] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/ed/63/10cdc14908f3c9fdb9c21631275d2805853f6156b761a391e6f8918377e1/dataclasses-json-0.5.8.tar.gz
+[2023-06-11 20:49:11] INFO root fetch - processPackages [hcv-api]: Downloading https://files.pythonhosted.org/packages/8b/c1/4571a1e70250566f335345e166a8855eba2f3623b52a7cef6cba3fbd844c/hcv_api-0.0.2-py3-none-any.whl
+[2023-06-11 20:49:11] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-11 20:49:11] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.29.tar.gz tmp/maadstml-3.30.tar.gz --markdown 20230611/m/maadstml/3.29-3.30/diff.md --exclude *.pyd
+[2023-06-11 20:49:11] INFO root fetch - processPackages [dataclasses-json]: executing diffoscope
+[2023-06-11 20:49:11] INFO root fetch - processPackages [dataclasses-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-json-0.5.7.tar.gz tmp/dataclasses-json-0.5.8.tar.gz --markdown 20230611/d/dataclasses-json/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-11 20:49:11] INFO root fetch - processPackages [hcv-api]: executing diffoscope
+[2023-06-11 20:49:11] INFO root fetch - processPackages [hcv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcv_api-0.0.1-py3-none-any.whl.zip tmp/hcv_api-0.0.2-py3-none-any.whl.zip --markdown 20230611/h/hcv-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 20:49:11] INFO root fetch - processPackages [var]: Downloading https://files.pythonhosted.org/packages/18/db/dfb279956b4565c5b50ccba07025763a23c5ef1f1ffbd36f14f32ad77416/var-2023.6.2.tar.gz
+[2023-06-11 20:49:11] INFO root fetch - processPackages [var]: executing diffoscope
+[2023-06-11 20:49:11] INFO root fetch - processPackages [var]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/var-0.0.5.tar.gz tmp/var-2023.6.2.tar.gz --markdown 20230611/v/var/0.0.5-2023.6.2/diff.md --exclude *.pyd
+[2023-06-11 20:49:12] INFO root fetch - processPackages [hcv-api]: Remove: archive file [/home/abi/fetcher/tmp/hcv_api-0.0.1-py3-none-any.whl.zip]
+[2023-06-11 20:49:12] INFO root fetch - processPackages [hcv-api]: Remove: archive file [/home/abi/fetcher/tmp/hcv_api-0.0.2-py3-none-any.whl.zip]
+[2023-06-11 20:49:12] INFO root fetch - main [MainThread]: End processing [hcv-api]: success
+[2023-06-11 20:49:12] INFO root fetch - processPackages [var]: Remove: archive file [/home/abi/fetcher/tmp/var-0.0.5.tar.gz]
+[2023-06-11 20:49:12] INFO root fetch - processPackages [var]: Remove: archive file [/home/abi/fetcher/tmp/var-2023.6.2.tar.gz]
+[2023-06-11 20:49:12] INFO root fetch - main [MainThread]: End processing [var]: success
+[2023-06-11 20:49:12] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-json-0.5.7.tar.gz]
+[2023-06-11 20:49:12] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-json-0.5.8.tar.gz]
+[2023-06-11 20:49:12] INFO root fetch - main [MainThread]: End processing [dataclasses-json]: success
+[2023-06-11 20:49:12] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.29.tar.gz]
+[2023-06-11 20:49:12] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.30.tar.gz]
+[2023-06-11 20:49:12] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-11 20:49:12] INFO root fetch - main [MainThread]: Store serial: [18460202]
