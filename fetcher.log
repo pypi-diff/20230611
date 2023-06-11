@@ -11759,3 +11759,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:19:23] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-2.3rc1.tar.gz]
 [2023-06-11 18:19:23] INFO root fetch - main [MainThread]: End processing [django-filer]: success
 [2023-06-11 18:19:23] INFO root fetch - main [MainThread]: Store serial: [18459262]
+[2023-06-11 18:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459262]
+[2023-06-11 18:24:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttdatasdk
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dueros-smarthome
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siat
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainforge
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bomf
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: claws
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fcal
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st-pop-up-component
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pcdl
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tapescript
+[2023-06-11 18:24:33] WARNING root fetch - processPackages [ttdatasdk]: Skipping, unable to determine old version
+[2023-06-11 18:24:33] INFO root fetch - processPackages [ttdatasdk]: Start processing: getmodelspec
+[2023-06-11 18:24:33] INFO root fetch - main [MainThread]: End processing [ttdatasdk] error
+[2023-06-11 18:24:33] INFO root fetch - processPackages [st-pop-up-component]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [bomf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [dueros-smarthome]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [siat]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [fcal]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [pcdl]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [tapescript]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [chainforge]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 18:24:33] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/12/97/01f534b85597b490133a6400e77dfb4bec03b5b9f03b7845f0d5cef40760/dueros_smarthome-0.0.8.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/3b/20/3f7e92cc96640300974f834e1ff69bdc7aee22b9c19656913272a3f69de9/fcal-0.4.0.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/c8/86/1f79bf034202584a0d7253cb02465daba515eda0e7c664d13d3d22f37bf1/claws-0.0.8.tar.gz
+[2023-06-11 18:24:33] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-11 18:24:33] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-11 18:24:33] INFO root fetch - processPackages [st-pop-up-component]: Downloading https://files.pythonhosted.org/packages/fb/61/390c21b985d7ca871484cc823ddbc26441bc6ea710af5a130be19509d367/st_pop_up_component-0.0.2.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/ce/5f/5ad653dc4f2e57033e81ecf8909be83e1524a84104179ade897fc4e854f1/pcdl-3.1.4.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/d4/e9/e1aa6755529deb18088e3390175e9da7b3020e378b5f95306b2e7e296f7f/tapescript-0.1.0.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/51/b6/25153b89a576330819de09d7b17b82e630e25561e1a0409e28222f0762c0/bomf-0.5.8.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/f9/2a/e7506ce2ec164f5c45c312b42a72ea537a66d4dee0fb6a0718adb64147c0/dueros_smarthome-0.0.9.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/06/f6/be279fc31b208e72e7713e531c2bc96e96806b33b4dd1fbecf044a4b2472/siat-2.0.8-py3-none-any.whl
+[2023-06-11 18:24:33] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/83/43/1b9001f73a2d019600bdee3b50c24c833ad4826be202767799a362bf4547/chainforge-0.1.4.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [dueros-smarthome]: executing diffoscope
+[2023-06-11 18:24:33] INFO root fetch - processPackages [dueros-smarthome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dueros_smarthome-0.0.8.tar.gz tmp/dueros_smarthome-0.0.9.tar.gz --markdown 20230611/d/dueros-smarthome/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:24:33] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/22/59/5ce57d6163c39b86c2685a2932c13a8b253356312857353552782ad01e14/claws-0.0.9.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/45/d8/881e9a476e7a38026bcac0f749801d16c4a1ac1934e4b21aa8c1990da357/fcal-0.5.0.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [st-pop-up-component]: Downloading https://files.pythonhosted.org/packages/f7/89/3c6f153149ce368e3d631b22596522e2252951f26f490c5a0c3672f14eb8/st_pop_up_component-0.0.3.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [fcal]: executing diffoscope
+[2023-06-11 18:24:33] INFO root fetch - processPackages [fcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcal-0.4.0.tar.gz tmp/fcal-0.5.0.tar.gz --markdown 20230611/f/fcal/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-11 18:24:33] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/16/be/16bc25047fb820c20f7687e28b62420be850043ae7a391d2cfca5675082d/bomf-0.5.9.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-06-11 18:24:33] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230611/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:24:33] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/fa/72/db6cb8c075ed327e65a21a0da0d192b3856c39025366ea35954fda3e1916/tapescript-0.1.1.tar.gz
+[2023-06-11 18:24:33] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/8e/68/ec2c91e1d78b09cff73dba05aa33af579bdafc5cc3fa7a6b02540943cb0a/siat-2.0.9-py3-none-any.whl
+[2023-06-11 18:24:33] INFO root fetch - processPackages [st-pop-up-component]: executing diffoscope
+[2023-06-11 18:24:33] INFO root fetch - processPackages [st-pop-up-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_pop_up_component-0.0.2.tar.gz tmp/st_pop_up_component-0.0.3.tar.gz --markdown 20230611/s/st-pop-up-component/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 18:24:33] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-11 18:24:33] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.8.tar.gz tmp/bomf-0.5.9.tar.gz --markdown 20230611/b/bomf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-11 18:24:34] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/99/e8/a60ebd52153be12882599ccbb2f9b963f1fc1edfc8681e33848d04457b53/pcdl-3.1.5.tar.gz
+[2023-06-11 18:24:34] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/c1/23/2114fdefbbf8f0081035a6eb27ce8816319c5f115c9b672011bcff943fdf/chainforge-0.1.5.tar.gz
+[2023-06-11 18:24:34] INFO root fetch - processPackages [tapescript]: executing diffoscope
+[2023-06-11 18:24:34] INFO root fetch - processPackages [tapescript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapescript-0.1.0.tar.gz tmp/tapescript-0.1.1.tar.gz --markdown 20230611/t/tapescript/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 18:24:34] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-06-11 18:24:34] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.8-py3-none-any.whl.zip tmp/siat-2.0.9-py3-none-any.whl.zip --markdown 20230611/s/siat/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:24:34] INFO root fetch - processPackages [pcdl]: executing diffoscope
+[2023-06-11 18:24:34] INFO root fetch - processPackages [pcdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdl-3.1.4.tar.gz tmp/pcdl-3.1.5.tar.gz --markdown 20230611/p/pcdl/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-06-11 18:24:34] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-06-11 18:24:34] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.1.4.tar.gz tmp/chainforge-0.1.5.tar.gz --markdown 20230611/c/chainforge/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 18:24:35] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.8.tar.gz]
+[2023-06-11 18:24:35] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.9.tar.gz]
+[2023-06-11 18:24:35] INFO root fetch - main [MainThread]: End processing [dueros-smarthome]: success
+[2023-06-11 18:24:35] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.4.0.tar.gz]
+[2023-06-11 18:24:35] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.5.0.tar.gz]
+[2023-06-11 18:24:35] INFO root fetch - main [MainThread]: End processing [fcal]: success
+[2023-06-11 18:24:35] INFO root fetch - processPackages [claws]: Remove: archive file [/home/abi/fetcher/tmp/claws-0.0.8.tar.gz]
+[2023-06-11 18:24:35] INFO root fetch - processPackages [claws]: Remove: archive file [/home/abi/fetcher/tmp/claws-0.0.9.tar.gz]
+[2023-06-11 18:24:35] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-06-11 18:24:36] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.8.tar.gz]
+[2023-06-11 18:24:36] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.9.tar.gz]
+[2023-06-11 18:24:36] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-11 18:24:36] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.8-py3-none-any.whl.zip]
+[2023-06-11 18:24:36] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.9-py3-none-any.whl.zip]
+[2023-06-11 18:24:36] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-06-11 18:24:36] INFO root fetch - processPackages [st-pop-up-component]: Remove: archive file [/home/abi/fetcher/tmp/st_pop_up_component-0.0.2.tar.gz]
+[2023-06-11 18:24:36] INFO root fetch - processPackages [st-pop-up-component]: Remove: archive file [/home/abi/fetcher/tmp/st_pop_up_component-0.0.3.tar.gz]
+[2023-06-11 18:24:36] INFO root fetch - main [MainThread]: End processing [st-pop-up-component]: success
+[2023-06-11 18:24:38] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.4.tar.gz]
+[2023-06-11 18:24:38] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.5.tar.gz]
+[2023-06-11 18:24:38] INFO root fetch - main [MainThread]: End processing [pcdl]: success
+[2023-06-11 18:24:46] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.0.tar.gz]
+[2023-06-11 18:24:46] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.1.tar.gz]
+[2023-06-11 18:24:46] INFO root fetch - main [MainThread]: End processing [tapescript]: success
+[2023-06-11 18:25:36] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.4.tar.gz]
+[2023-06-11 18:25:36] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.5.tar.gz]
+[2023-06-11 18:25:36] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-06-11 18:25:36] INFO root fetch - main [MainThread]: Store serial: [18459304]
