@@ -8839,3 +8839,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:55:28] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.4.tar.gz]
 [2023-06-11 14:55:28] INFO root fetch - main [MainThread]: End processing [sqllineage]: success
 [2023-06-11 14:55:28] INFO root fetch - main [MainThread]: Store serial: [18457993]
+[2023-06-11 15:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457993]
+[2023-06-11 15:00:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyuptobox
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archaea
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robyn
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinecone-datasets
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plutous-trade-crypto
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-neat
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photobooth-app
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mira
+[2023-06-11 15:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assisted-service-client
+[2023-06-11 15:00:45] INFO root fetch - processPackages [archaea]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-11 15:00:45] WARNING root fetch - processPackages [pyuptobox]: Skipping, unable to determine old version
+[2023-06-11 15:00:45] INFO root fetch - main [MainThread]: End processing [pyuptobox] error
+[2023-06-11 15:00:45] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.5.0rc3] Old Version: [0.5.0rc1]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [cognite-neat]: New version: [0.12.9] Old Version: [0.12.8]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0rc3] Old Version: [0.1.0b5]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [mira]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/03/c5/7d95a59b33dbf0b5780b5958f114884f803230e2568e5047fc4b903a9268/pinecone_datasets-0.5.0rc1.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-11 15:00:45] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/73/95/3da20fcc2cfe309d301ee33a607a933e79864997a5183cd22ddaa433490a/cognite_neat-0.12.8.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [archaea]: Downloading https://files.pythonhosted.org/packages/56/46/e3b2928b665409d298a0f710b204ae4617dafa61d8be8f6afe2bb95c3da4/archaea-1.1.8.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/b3/0e/cd5698e54faa8e97ff9bfdfc0c28251a8cc5b3d783b524cf98d91e9ec065/cognite_neat-0.12.9.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/25/31/6d7e09880311d5d1078e186f4e0ee3cb154224cb99c0f4eddc799cf28358/photobooth_app-0.1.0b5.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [mira]: Downloading https://files.pythonhosted.org/packages/bf/df/73b52adfbbbffc83e48db248c88729f7ece00aad22d56ed2c6f6a2e5b8c3/mira-0.9.8-py3-none-any.whl
+[2023-06-11 15:00:45] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-11 15:00:45] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/26/39/31421e287100a3e8b2a93480abbb4acb230a0e71bebc127ba00dd8fe6468/pinecone_datasets-0.5.0rc3.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-11 15:00:45] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230611/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 15:00:45] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-06-11 15:00:45] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.12.8.tar.gz tmp/cognite_neat-0.12.9.tar.gz --markdown 20230611/c/cognite-neat/0.12.8-0.12.9/diff.md --exclude *.pyd
+[2023-06-11 15:00:45] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-06-11 15:00:45] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.0rc1.tar.gz tmp/pinecone_datasets-0.5.0rc3.tar.gz --markdown 20230611/p/pinecone-datasets/0.5.0rc1-0.5.0rc3/diff.md --exclude *.pyd
+[2023-06-11 15:00:45] INFO root fetch - processPackages [archaea]: Downloading https://files.pythonhosted.org/packages/a3/cb/f70559d236988f1127e9e0fdc295f52216fd0c2f3a700e72551ed470f01d/archaea-1.1.9.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/0e/e9/c07e6ecec00ee048211bcbdf9efbff856b44401a76f9fb25900b131b5217/photobooth_app-0.1.0rc3.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-06-11 15:00:45] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-11 15:00:45] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-06-11 15:00:45] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230611/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 15:00:45] INFO root fetch - processPackages [archaea]: executing diffoscope
+[2023-06-11 15:00:45] INFO root fetch - processPackages [archaea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archaea-1.1.8.tar.gz tmp/archaea-1.1.9.tar.gz --markdown 20230611/a/archaea/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-11 15:00:46] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-06-11 15:00:46] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0b5.tar.gz tmp/photobooth_app-0.1.0rc3.tar.gz --markdown 20230611/p/photobooth-app/0.1.0b5-0.1.0rc3/diff.md --exclude *.pyd
+[2023-06-11 15:00:46] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-11 15:00:46] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230611/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-11 15:00:46] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-11 15:00:46] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-11 15:00:46] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-11 15:00:47] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc1.tar.gz]
+[2023-06-11 15:00:47] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc3.tar.gz]
+[2023-06-11 15:00:47] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-06-11 15:00:47] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2023-06-11 15:00:47] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2023-06-11 15:00:47] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-06-11 15:00:47] INFO root fetch - processPackages [archaea]: Remove: archive file [/home/abi/fetcher/tmp/archaea-1.1.8.tar.gz]
+[2023-06-11 15:00:47] INFO root fetch - processPackages [archaea]: Remove: archive file [/home/abi/fetcher/tmp/archaea-1.1.9.tar.gz]
+[2023-06-11 15:00:47] INFO root fetch - main [MainThread]: End processing [archaea]: success
+[2023-06-11 15:00:47] INFO root fetch - processPackages [mira]: Downloading https://files.pythonhosted.org/packages/2a/df/c8172f1a81174d69a39d253beac8eda1d4a20a29db2188d5a35b5f8d86c8/mira-0.9.9-py3-none-any.whl
+[2023-06-11 15:00:48] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b5.tar.gz]
+[2023-06-11 15:00:48] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc3.tar.gz]
+[2023-06-11 15:00:48] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-06-11 15:00:49] INFO root fetch - processPackages [mira]: executing diffoscope
+[2023-06-11 15:00:49] INFO root fetch - processPackages [mira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mira-0.9.8-py3-none-any.whl.zip tmp/mira-0.9.9-py3-none-any.whl.zip --markdown 20230611/m/mira/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 15:00:49] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-11 15:00:49] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-11 15:00:49] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-11 15:00:49] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.8.tar.gz]
+[2023-06-11 15:00:49] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.9.tar.gz]
+[2023-06-11 15:00:49] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-06-11 15:00:52] INFO root fetch - processPackages [mira]: Remove: archive file [/home/abi/fetcher/tmp/mira-0.9.8-py3-none-any.whl.zip]
+[2023-06-11 15:00:52] INFO root fetch - processPackages [mira]: Remove: archive file [/home/abi/fetcher/tmp/mira-0.9.9-py3-none-any.whl.zip]
+[2023-06-11 15:00:52] INFO root fetch - main [MainThread]: End processing [mira]: success
+[2023-06-11 15:00:52] INFO root fetch - main [MainThread]: Store serial: [18458073]
