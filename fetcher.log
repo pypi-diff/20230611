@@ -4611,3 +4611,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:24:16] INFO root fetch - processPackages [epy-reader]: Remove: archive file [/home/abi/fetcher/tmp/epy_reader-2023.6.11.tar.gz]
 [2023-06-11 07:24:16] INFO root fetch - main [MainThread]: End processing [epy-reader]: success
 [2023-06-11 07:24:16] INFO root fetch - main [MainThread]: Store serial: [18456013]
+[2023-06-11 07:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456013]
+[2023-06-11 07:29:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 07:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: longalpha-utils
+[2023-06-11 07:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Space-Weather-Interface-P
+[2023-06-11 07:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-06-11 07:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcStats
+[2023-06-11 07:29:26] INFO root fetch - processPackages [funcStats]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-11 07:29:26] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 07:29:26] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 07:29:26] INFO root fetch - processPackages [longalpha-utils]: New version: [0.59] Old Version: [0.58]
+[2023-06-11 07:29:26] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-11 07:29:26] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/8d/c0/e020a675c9ef5ac50a9f5ce1ac126950a6a63f4861cf365ad4aa61b0d201/funcStats-0.0.7.tar.gz
+[2023-06-11 07:29:26] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/55/30/d152345d74b92c882e3024e6b01c8894df74ce0af263e0ff3845aa37a77f/longalpha_utils-0.58.tar.gz
+[2023-06-11 07:29:26] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-11 07:29:27] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-11 07:29:27] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/e8/94/3fd0af1949a7e1c5fa64a41d66bc49d1c0cdd09912d49f504cb8b080250b/funcStats-0.0.8.tar.gz
+[2023-06-11 07:29:27] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-11 07:29:27] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230611/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-11 07:29:27] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-11 07:29:27] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.0.7.tar.gz tmp/funcStats-0.0.8.tar.gz --markdown 20230611/f/funcStats/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 07:29:27] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/c8/40/c881c5feca2c9adad13919f41ca7d345be2be843d9cf961c91910d7423d3/longalpha_utils-0.59.tar.gz
+[2023-06-11 07:29:27] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-06-11 07:29:27] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.58.tar.gz tmp/longalpha_utils-0.59.tar.gz --markdown 20230611/l/longalpha-utils/0.58-0.59/diff.md --exclude *.pyd
+[2023-06-11 07:29:28] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-11 07:29:28] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-11 07:29:28] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-11 07:29:28] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.7.tar.gz]
+[2023-06-11 07:29:28] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.8.tar.gz]
+[2023-06-11 07:29:28] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-11 07:29:28] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.58.tar.gz]
+[2023-06-11 07:29:28] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.59.tar.gz]
+[2023-06-11 07:29:28] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-06-11 07:29:28] INFO root fetch - main [MainThread]: Store serial: [18456025]
