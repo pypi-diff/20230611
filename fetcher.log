@@ -2936,3 +2936,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:08:45] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.5.tar.gz]
 [2023-06-11 04:08:45] INFO root fetch - main [MainThread]: End processing [copyparty]: success
 [2023-06-11 04:08:45] INFO root fetch - main [MainThread]: Store serial: [18455301]
+[2023-06-11 04:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455301]
+[2023-06-11 04:13:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-11 04:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-pyodide
+[2023-06-11 04:13:53] INFO root fetch - processPackages [pytest-pyodide]: New version: [0.52.1] Old Version: [0.52.0]
+[2023-06-11 04:13:54] INFO root fetch - processPackages [pytest-pyodide]: Downloading https://files.pythonhosted.org/packages/02/0c/2cb68a57fe83955e8653eb9ca5f795fb61fc4ef293bcbc82c54687d5cb4b/pytest-pyodide-0.52.0.tar.gz
+[2023-06-11 04:13:54] INFO root fetch - processPackages [pytest-pyodide]: Downloading https://files.pythonhosted.org/packages/d7/be/f7869ac8968b013b1356cd7933d486a8f7dffd75fd2c68a88fd8ea9d25a8/pytest-pyodide-0.52.1.tar.gz
+[2023-06-11 04:13:54] INFO root fetch - processPackages [pytest-pyodide]: executing diffoscope
+[2023-06-11 04:13:54] INFO root fetch - processPackages [pytest-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-pyodide-0.52.0.tar.gz tmp/pytest-pyodide-0.52.1.tar.gz --markdown 20230611/p/pytest-pyodide/0.52.0-0.52.1/diff.md --exclude *.pyd
+[2023-06-11 04:13:56] INFO root fetch - processPackages [pytest-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/pytest-pyodide-0.52.0.tar.gz]
+[2023-06-11 04:13:56] INFO root fetch - processPackages [pytest-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/pytest-pyodide-0.52.1.tar.gz]
+[2023-06-11 04:13:56] INFO root fetch - main [MainThread]: End processing [pytest-pyodide]: success
+[2023-06-11 04:13:56] INFO root fetch - main [MainThread]: Store serial: [18455310]
