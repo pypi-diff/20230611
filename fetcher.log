@@ -5712,3 +5712,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:57:44] INFO root fetch - processPackages [scipion-em-motioncorr]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-motioncorr-3.9.tar.gz]
 [2023-06-11 09:57:44] INFO root fetch - main [MainThread]: End processing [scipion-em-motioncorr]: success
 [2023-06-11 09:57:44] INFO root fetch - main [MainThread]: Store serial: [18456548]
+[2023-06-11 10:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456548]
+[2023-06-11 10:02:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendata-kr
+[2023-06-11 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coinbase-commerce-API
+[2023-06-11 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docstruct
+[2023-06-11 10:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git
+[2023-06-11 10:02:53] INFO root fetch - processPackages [coinbase-commerce-API]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 10:02:53] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 10:02:53] INFO root fetch - processPackages [opendata-kr]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-11 10:02:53] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 10:02:53] INFO root fetch - processPackages [coinbase-commerce-API]: Downloading https://files.pythonhosted.org/packages/da/3a/5333c8f8dcb1c6f63db703951a7c1454814b2978bc9d2d337863f26697ad/coinbase-commerce-API-1.0.1.tar.gz
+[2023-06-11 10:02:53] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-11 10:02:53] INFO root fetch - processPackages [opendata-kr]: Downloading https://files.pythonhosted.org/packages/49/3b/2ebec22e2af179c4b44c590395d57bc46de69ba896f67e9118a68f6748a0/opendata_kr-0.0.7-py3-none-any.whl
+[2023-06-11 10:02:53] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-06-11 10:02:53] INFO root fetch - processPackages [opendata-kr]: Downloading https://files.pythonhosted.org/packages/1f/79/c469eb2b15e0769c4c9433aec464299f08f83d7f969a5e4ff191e111da46/opendata_kr-0.0.8-py3-none-any.whl
+[2023-06-11 10:02:53] INFO root fetch - processPackages [opendata-kr]: executing diffoscope
+[2023-06-11 10:02:53] INFO root fetch - processPackages [opendata-kr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendata_kr-0.0.7-py3-none-any.whl.zip tmp/opendata_kr-0.0.8-py3-none-any.whl.zip --markdown 20230611/o/opendata-kr/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 10:02:53] INFO root fetch - processPackages [coinbase-commerce-API]: Downloading https://files.pythonhosted.org/packages/d0/58/49c446734c667ef6ed92aeeeb3b269a1e5c936b1351fca1185c98f867691/coinbase-commerce-API-1.0.2.tar.gz
+[2023-06-11 10:02:53] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-11 10:02:53] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-06-11 10:02:54] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-11 10:02:54] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230611/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 10:02:54] INFO root fetch - processPackages [coinbase-commerce-API]: executing diffoscope
+[2023-06-11 10:02:54] INFO root fetch - processPackages [coinbase-commerce-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinbase-commerce-API-1.0.1.tar.gz tmp/coinbase-commerce-API-1.0.2.tar.gz --markdown 20230611/c/coinbase-commerce-API/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 10:02:54] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-06-11 10:02:54] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230611/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 10:02:54] INFO root fetch - processPackages [opendata-kr]: Remove: archive file [/home/abi/fetcher/tmp/opendata_kr-0.0.7-py3-none-any.whl.zip]
+[2023-06-11 10:02:54] INFO root fetch - processPackages [opendata-kr]: Remove: archive file [/home/abi/fetcher/tmp/opendata_kr-0.0.8-py3-none-any.whl.zip]
+[2023-06-11 10:02:54] INFO root fetch - main [MainThread]: End processing [opendata-kr]: success
+[2023-06-11 10:02:54] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-11 10:02:54] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-11 10:02:54] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-11 10:02:55] INFO root fetch - processPackages [coinbase-commerce-API]: Remove: archive file [/home/abi/fetcher/tmp/coinbase-commerce-API-1.0.1.tar.gz]
+[2023-06-11 10:02:55] INFO root fetch - processPackages [coinbase-commerce-API]: Remove: archive file [/home/abi/fetcher/tmp/coinbase-commerce-API-1.0.2.tar.gz]
+[2023-06-11 10:02:55] INFO root fetch - main [MainThread]: End processing [coinbase-commerce-API]: success
+[2023-06-11 10:02:55] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.8.tar.gz]
+[2023-06-11 10:02:55] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
+[2023-06-11 10:02:55] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-06-11 10:02:55] INFO root fetch - main [MainThread]: Store serial: [18456560]
