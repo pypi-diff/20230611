@@ -15118,3 +15118,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 23:11:24] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.3b0.tar.gz]
 [2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [pymerkle]: success
 [2023-06-11 23:11:24] INFO root fetch - main [MainThread]: Store serial: [18460966]
+[2023-06-11 23:16:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460966]
+[2023-06-11 23:16:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oraculo
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libauc
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cd2t
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: live-fast-api
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythonce
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymino
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serializejson
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CommandAlarm
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: promptrix
+[2023-06-11 23:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: queuelink
+[2023-06-11 23:16:35] INFO root fetch - processPackages [serializejson]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pythonce]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [live-fast-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [oraculo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [libauc]: New version: [1.3.0rc5] Old Version: [1.3.0rc4]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [cd2t]: New version: [2.0.1] Old Version: [1.6.2]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pymino]: New version: [1.1.8.8] Old Version: [1.1.8.7]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [CommandAlarm]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-11 23:16:35] INFO root fetch - processPackages [serializejson]: Downloading https://files.pythonhosted.org/packages/c4/40/02891b2a6164ad5e07b5bf1495985fdcedfd3656787d64b5b1dcd7e8518a/serializejson-0.3.3.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/93/fc/a91d4e935037340acc3e65b6ee7cf21b7023be8ef8a1cc4ae41619cd4c22/pymino-1.1.8.7.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [libauc]: Downloading https://files.pythonhosted.org/packages/4e/8c/ae7ebd43509d2869490fbcd16b35bfd6d45f64f5ef4fabf0a0894d00f0ea/libauc-1.3.0rc4.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [cd2t]: Downloading https://files.pythonhosted.org/packages/72/81/aaafbd3273e799f6f81bc89411dc8201be5abd2be681fd876c5f7b54b7ec/cd2t-1.6.2.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [promptrix]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-11 23:16:35] WARNING root fetch - processPackages [queuelink]: Skipping, unable to determine old version
+[2023-06-11 23:16:35] INFO root fetch - main [MainThread]: End processing [queuelink] error
+[2023-06-11 23:16:35] INFO root fetch - processPackages [oraculo]: Downloading https://files.pythonhosted.org/packages/f9/f2/5e0fdd4b8e09294fa4b4f784750196bf94b9825c82d29b20759321f4a744/oraculo-0.1.0.tar.gz
+[2023-06-11 23:16:35] ERROR root fetch - processPackages [CommandAlarm]: Unable to fetch info: No such project/version 'CommandAlarm' 0.2.3
+[2023-06-11 23:16:35] INFO root fetch - processPackages [live-fast-api]: Downloading https://files.pythonhosted.org/packages/76/8d/158e89dd104f28c0ca37c074f8e04cd676db496d50c3292f802843e0a6fb/live-fast-api-0.0.4.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - main [MainThread]: End processing [CommandAlarm] error
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/4a/59/ebefded6ffcacd261c389d2ae3ddba001a28c7af65819b7caa7688c2dc54/pythonce-0.0.2.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/66/eb/e7af008ac5978c89dbe0d0fd07b89d4d5298c92fac1aad2babda970c23b2/promptrix-0.2.1.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [libauc]: Downloading https://files.pythonhosted.org/packages/00/e2/5f055c17cdfa3dc9a54fb7cd7adf28fcfe65867475cff090718828b62184/libauc-1.3.0rc5.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/a1/34/a24acdf8507fa2efe75cd99fb44ad93b4bcfb207e2dc3a0bfd52600ed5e9/pymino-1.1.8.8.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [serializejson]: Downloading https://files.pythonhosted.org/packages/9a/8c/d4e859aca9bf04452fb06bd74e6033f47e80934b47e7529eb635d9075a5e/serializejson-0.3.4.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [libauc]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [libauc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libauc-1.3.0rc4.tar.gz tmp/libauc-1.3.0rc5.tar.gz --markdown 20230611/l/libauc/1.3.0rc4-1.3.0rc5/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [oraculo]: Downloading https://files.pythonhosted.org/packages/3f/85/63c88d4304fe52f7ec26c33fab941a914dc17f73cbb5837aed9d434a6f8f/oraculo-0.1.1.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [live-fast-api]: Downloading https://files.pythonhosted.org/packages/f4/dd/dbc6a8389c5745618ec723e76b74faed350cfd3b706781111a5a13c5c3ae/live-fast-api-0.0.5.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [cd2t]: Downloading https://files.pythonhosted.org/packages/49/d7/510829701627186f5a77bc0e291da85dae8c81d202b395bf42f6f2fda764/cd2t-2.0.1.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/48/dc/5d9a478a20b7ec85742c67102669a0bac734d29528731382c36b2bd6dca4/pythonce-0.0.3.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [live-fast-api]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [live-fast-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live-fast-api-0.0.4.tar.gz tmp/live-fast-api-0.0.5.tar.gz --markdown 20230611/l/live-fast-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [oraculo]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.8.7.tar.gz tmp/pymino-1.1.8.8.tar.gz --markdown 20230611/p/pymino/1.1.8.7-1.1.8.8/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [oraculo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oraculo-0.1.0.tar.gz tmp/oraculo-0.1.1.tar.gz --markdown 20230611/o/oraculo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/4b/b1/e5205377f664f5d83fe7100833cbe7522540586d801b8e559fb6dc755e58/promptrix-0.2.2.tar.gz
+[2023-06-11 23:16:35] INFO root fetch - processPackages [serializejson]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [serializejson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializejson-0.3.3.tar.gz tmp/serializejson-0.3.4.tar.gz --markdown 20230611/s/serializejson/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [cd2t]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [cd2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cd2t-1.6.2.tar.gz tmp/cd2t-2.0.1.tar.gz --markdown 20230611/c/cd2t/1.6.2-2.0.1/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.2.1.tar.gz tmp/promptrix-0.2.2.tar.gz --markdown 20230611/p/promptrix/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pythonce]: executing diffoscope
+[2023-06-11 23:16:35] INFO root fetch - processPackages [pythonce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonce-0.0.2.tar.gz tmp/pythonce-0.0.3.tar.gz --markdown 20230611/p/pythonce/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 23:16:37] INFO root fetch - processPackages [oraculo]: Remove: archive file [/home/abi/fetcher/tmp/oraculo-0.1.0.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - processPackages [oraculo]: Remove: archive file [/home/abi/fetcher/tmp/oraculo-0.1.1.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - main [MainThread]: End processing [oraculo]: success
+[2023-06-11 23:16:37] INFO root fetch - processPackages [live-fast-api]: Remove: archive file [/home/abi/fetcher/tmp/live-fast-api-0.0.4.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - processPackages [live-fast-api]: Remove: archive file [/home/abi/fetcher/tmp/live-fast-api-0.0.5.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - main [MainThread]: End processing [live-fast-api]: success
+[2023-06-11 23:16:37] INFO root fetch - processPackages [libauc]: Remove: archive file [/home/abi/fetcher/tmp/libauc-1.3.0rc4.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - processPackages [libauc]: Remove: archive file [/home/abi/fetcher/tmp/libauc-1.3.0rc5.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - main [MainThread]: End processing [libauc]: success
+[2023-06-11 23:16:37] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.1.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.2.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-11 23:16:37] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-1.6.2.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-2.0.1.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - main [MainThread]: End processing [cd2t]: success
+[2023-06-11 23:16:37] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.8.7.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.8.8.tar.gz]
+[2023-06-11 23:16:37] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-11 23:16:39] INFO root fetch - processPackages [serializejson]: Remove: archive file [/home/abi/fetcher/tmp/serializejson-0.3.3.tar.gz]
+[2023-06-11 23:16:39] INFO root fetch - processPackages [serializejson]: Remove: archive file [/home/abi/fetcher/tmp/serializejson-0.3.4.tar.gz]
+[2023-06-11 23:16:39] INFO root fetch - main [MainThread]: End processing [serializejson]: success
+[2023-06-11 23:16:43] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.2.tar.gz]
+[2023-06-11 23:16:43] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.3.tar.gz]
+[2023-06-11 23:16:43] INFO root fetch - main [MainThread]: End processing [pythonce]: success
+[2023-06-11 23:16:43] INFO root fetch - main [MainThread]: Store serial: [18460999]
