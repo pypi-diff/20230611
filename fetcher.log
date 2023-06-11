@@ -10598,3 +10598,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:59:41] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
 [2023-06-11 16:59:41] INFO root fetch - main [MainThread]: End processing [lollms] error
 [2023-06-11 16:59:41] INFO root fetch - main [MainThread]: Store serial: [18458783]
+[2023-06-11 17:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458783]
+[2023-06-11 17:04:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unigui
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yle-dl
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tox-gh
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morel
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pronounspageviewer
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-survival
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiosumma
+[2023-06-11 17:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flojoy
+[2023-06-11 17:04:50] INFO root fetch - processPackages [morel]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [unigui]: New version: [1.5.0] Old Version: [1.4.7]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [scikit-survival]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [pronounspageviewer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [tox-gh]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [yle-dl]: New version: [20230611] Old Version: [20221231]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/f5/37/4129103271f86b5bdfdfd1547505dab119f03a3adbff226a1d08a83bd172/morel-1.0.0.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-11 17:04:50] INFO root fetch - processPackages [tox-gh]: Downloading https://files.pythonhosted.org/packages/cd/9c/f8a4c9ee39c4350b3c64748551c32f8b08d7854be509d93f932548589b7f/tox_gh-1.1.0.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [pronounspageviewer]: Downloading https://files.pythonhosted.org/packages/6a/b6/058fc7a4e27112afc10acc332c5a3984070300a1da2b80672a62e49c3b87/pronounspageviewer-1.0.0-py3-none-any.whl
+[2023-06-11 17:04:50] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/0c/b0/d0155f072ba5093541ede8cb179f8d3383872eb8415e5c0b09d525ac063a/unigui-1.4.7.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-11 17:04:50] INFO root fetch - processPackages [scikit-survival]: Downloading https://files.pythonhosted.org/packages/36/12/51780840093d9124d273665cea73ac9e297e5a9931304ed6add0083ebcda/scikit-survival-0.8.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/cb/e2/2f53c65fa553e7e3305239c40cf5bb7f73985058f057c60d72364947501e/morel-1.1.0.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [tox-gh]: Downloading https://files.pythonhosted.org/packages/8c/63/ae7ab14d7aafdb1953296d8fd1fca3c1d8eff4a37983e167e75c2894dc8a/tox_gh-1.2.0.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [pronounspageviewer]: Downloading https://files.pythonhosted.org/packages/b0/9d/571f06bdbbb1d40238e7b9e09bf4f3029d94208d43798dc4e72bb1e70c83/pronounspageviewer-1.0.1-py3-none-any.whl
+[2023-06-11 17:04:50] INFO root fetch - processPackages [pronounspageviewer]: executing diffoscope
+[2023-06-11 17:04:50] INFO root fetch - processPackages [pronounspageviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pronounspageviewer-1.0.0-py3-none-any.whl.zip tmp/pronounspageviewer-1.0.1-py3-none-any.whl.zip --markdown 20230611/p/pronounspageviewer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 17:04:50] INFO root fetch - processPackages [yle-dl]: Downloading https://files.pythonhosted.org/packages/cf/d1/cb32cee1dd0d808f7a9a28c04dc9c93f586cce1b8efd8e27adaf7e80e899/yle-dl-20221231.tar.gz
+[2023-06-11 17:04:50] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-11 17:04:50] INFO root fetch - processPackages [tox-gh]: executing diffoscope
+[2023-06-11 17:04:50] INFO root fetch - processPackages [tox-gh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox_gh-1.1.0.tar.gz tmp/tox_gh-1.2.0.tar.gz --markdown 20230611/t/tox-gh/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 17:04:50] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-11 17:04:50] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.0.0.tar.gz tmp/morel-1.1.0.tar.gz --markdown 20230611/m/morel/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 17:04:51] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-06-11 17:04:51] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/05/ae/134e2a977624fa9ca0e530196b67cb150d7015cc3440a27edbc54a76eaf2/unigui-1.5.0.tar.gz
+[2023-06-11 17:04:51] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-11 17:04:51] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230611/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:04:51] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-06-11 17:04:51] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230611/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-06-11 17:04:51] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-06-11 17:04:51] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.4.7.tar.gz tmp/unigui-1.5.0.tar.gz --markdown 20230611/u/unigui/1.4.7-1.5.0/diff.md --exclude *.pyd
+[2023-06-11 17:04:51] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-11 17:04:51] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-11 17:04:51] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230611/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-11 17:04:51] INFO root fetch - processPackages [yle-dl]: Downloading https://files.pythonhosted.org/packages/34/40/2f3a90f891a32a16929fcca7099e874ebb0af4dfc5c06309e309d5198f65/yle_dl-20230611.tar.gz
+[2023-06-11 17:04:51] INFO root fetch - processPackages [yle-dl]: executing diffoscope
+[2023-06-11 17:04:51] INFO root fetch - processPackages [yle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yle-dl-20221231.tar.gz tmp/yle_dl-20230611.tar.gz --markdown 20230611/y/yle-dl/20221231-20230611/diff.md --exclude *.pyd
+[2023-06-11 17:04:51] INFO root fetch - processPackages [scikit-survival]: Downloading https://files.pythonhosted.org/packages/82/ad/af8dd2cd8138933be97f022737461876f5a2d1d2660ce423f80ea902e589/scikit-survival-0.9.tar.gz
+[2023-06-11 17:04:51] INFO root fetch - processPackages [scikit-survival]: executing diffoscope
+[2023-06-11 17:04:51] INFO root fetch - processPackages [scikit-survival]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-survival-0.8.tar.gz tmp/scikit-survival-0.9.tar.gz --markdown 20230611/s/scikit-survival/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 17:04:52] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.0.0.tar.gz]
+[2023-06-11 17:04:52] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.1.0.tar.gz]
+[2023-06-11 17:04:52] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-11 17:04:52] INFO root fetch - processPackages [pronounspageviewer]: Remove: archive file [/home/abi/fetcher/tmp/pronounspageviewer-1.0.0-py3-none-any.whl.zip]
+[2023-06-11 17:04:52] INFO root fetch - processPackages [pronounspageviewer]: Remove: archive file [/home/abi/fetcher/tmp/pronounspageviewer-1.0.1-py3-none-any.whl.zip]
+[2023-06-11 17:04:52] INFO root fetch - main [MainThread]: End processing [pronounspageviewer]: success
+[2023-06-11 17:04:52] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-06-11 17:04:52] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-06-11 17:04:52] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-06-11 17:04:52] INFO root fetch - processPackages [tox-gh]: Remove: archive file [/home/abi/fetcher/tmp/tox_gh-1.1.0.tar.gz]
+[2023-06-11 17:04:52] INFO root fetch - processPackages [tox-gh]: Remove: archive file [/home/abi/fetcher/tmp/tox_gh-1.2.0.tar.gz]
+[2023-06-11 17:04:52] INFO root fetch - main [MainThread]: End processing [tox-gh]: success
+[2023-06-11 17:04:52] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-11 17:04:52] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-11 17:04:52] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-11 17:04:53] INFO root fetch - processPackages [yle-dl]: Remove: archive file [/home/abi/fetcher/tmp/yle-dl-20221231.tar.gz]
+[2023-06-11 17:04:53] INFO root fetch - processPackages [yle-dl]: Remove: archive file [/home/abi/fetcher/tmp/yle_dl-20230611.tar.gz]
+[2023-06-11 17:04:53] INFO root fetch - main [MainThread]: End processing [yle-dl]: success
+[2023-06-11 17:04:55] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.4.7.tar.gz]
+[2023-06-11 17:04:55] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.0.tar.gz]
+[2023-06-11 17:04:55] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-06-11 17:05:00] INFO root fetch - processPackages [scikit-survival]: Remove: archive file [/home/abi/fetcher/tmp/scikit-survival-0.8.tar.gz]
+[2023-06-11 17:05:00] INFO root fetch - processPackages [scikit-survival]: Remove: archive file [/home/abi/fetcher/tmp/scikit-survival-0.9.tar.gz]
+[2023-06-11 17:05:00] INFO root fetch - main [MainThread]: End processing [scikit-survival]: success
+[2023-06-11 17:05:31] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-11 17:05:31] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-11 17:05:31] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-11 17:05:31] INFO root fetch - main [MainThread]: Store serial: [18458822]
