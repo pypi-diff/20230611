@@ -4758,3 +4758,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:45:01] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_children-14.0.1.0.1.dev6-py3-none-any.whl.zip]
 [2023-06-11 07:45:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-location-children]: success
 [2023-06-11 07:45:01] INFO root fetch - main [MainThread]: Store serial: [18456079]
+[2023-06-11 07:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456079]
+[2023-06-11 07:50:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SomeTools
+[2023-06-11 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-functions
+[2023-06-11 07:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitcoin-p2p
+[2023-06-11 07:50:10] INFO root fetch - processPackages [bitcoin-p2p]: New version: [0.2] Old Version: [0.1]
+[2023-06-11 07:50:10] INFO root fetch - processPackages [SomeTools]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-06-11 07:50:10] INFO root fetch - processPackages [easy-functions]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-06-11 07:50:10] INFO root fetch - processPackages [SomeTools]: Downloading https://files.pythonhosted.org/packages/08/66/ede6ea49ccf937f86bd61190f2a10a5eff7837a628818dff7b7586856aab/SomeTools-0.1.40.tar.gz
+[2023-06-11 07:50:10] INFO root fetch - processPackages [bitcoin-p2p]: Downloading https://files.pythonhosted.org/packages/ce/49/6a55863d51292045d2db5680c6fcca5b9df78a46f9fa53a0e90d9f0d48f4/bitcoin_p2p-0.1.tar.gz
+[2023-06-11 07:50:10] INFO root fetch - processPackages [easy-functions]: Downloading https://files.pythonhosted.org/packages/34/69/24c257352904e72efd4f78941ccbc7a4497a0ca9667209cbde1f37ba1096/easy_functions-5.0.0.tar.gz
+[2023-06-11 07:50:11] INFO root fetch - processPackages [SomeTools]: Downloading https://files.pythonhosted.org/packages/c7/a2/9a3e1ed07bd637a81f2cf4f200a02df87a23f7304624118538afaea78917/SomeTools-0.1.41.tar.gz
+[2023-06-11 07:50:11] INFO root fetch - processPackages [bitcoin-p2p]: Downloading https://files.pythonhosted.org/packages/d8/80/760b29ce64f29d76ecdb2f619e3cd572201d42709f94ff0ac8d6f345cae4/bitcoin_p2p-0.2.tar.gz
+[2023-06-11 07:50:11] INFO root fetch - processPackages [SomeTools]: executing diffoscope
+[2023-06-11 07:50:11] INFO root fetch - processPackages [SomeTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SomeTools-0.1.40.tar.gz tmp/SomeTools-0.1.41.tar.gz --markdown 20230611/S/SomeTools/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-06-11 07:50:11] INFO root fetch - processPackages [easy-functions]: Downloading https://files.pythonhosted.org/packages/fd/03/fcea9d5d71823b2d8c0344b05c23da1c96e2f748b915d6215d19e1d8d054/easy_functions-6.0.0.tar.gz
+[2023-06-11 07:50:11] INFO root fetch - processPackages [bitcoin-p2p]: executing diffoscope
+[2023-06-11 07:50:11] INFO root fetch - processPackages [bitcoin-p2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin_p2p-0.1.tar.gz tmp/bitcoin_p2p-0.2.tar.gz --markdown 20230611/b/bitcoin-p2p/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-11 07:50:11] INFO root fetch - processPackages [easy-functions]: executing diffoscope
+[2023-06-11 07:50:11] INFO root fetch - processPackages [easy-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_functions-5.0.0.tar.gz tmp/easy_functions-6.0.0.tar.gz --markdown 20230611/e/easy-functions/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-11 07:50:12] INFO root fetch - processPackages [bitcoin-p2p]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_p2p-0.1.tar.gz]
+[2023-06-11 07:50:12] INFO root fetch - processPackages [bitcoin-p2p]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_p2p-0.2.tar.gz]
+[2023-06-11 07:50:12] INFO root fetch - main [MainThread]: End processing [bitcoin-p2p]: success
+[2023-06-11 07:50:12] INFO root fetch - processPackages [easy-functions]: Remove: archive file [/home/abi/fetcher/tmp/easy_functions-5.0.0.tar.gz]
+[2023-06-11 07:50:12] INFO root fetch - processPackages [easy-functions]: Remove: archive file [/home/abi/fetcher/tmp/easy_functions-6.0.0.tar.gz]
+[2023-06-11 07:50:12] INFO root fetch - main [MainThread]: End processing [easy-functions]: success
+[2023-06-11 07:50:12] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.40.tar.gz]
+[2023-06-11 07:50:12] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.41.tar.gz]
+[2023-06-11 07:50:12] INFO root fetch - main [MainThread]: End processing [SomeTools]: success
+[2023-06-11 07:50:12] INFO root fetch - main [MainThread]: Store serial: [18456088]
