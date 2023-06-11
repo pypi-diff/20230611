@@ -5990,3 +5990,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:39:18] INFO root fetch - processPackages [confidenceinterval]: Remove: archive file [/home/abi/fetcher/tmp/confidenceinterval-1.0.3.tar.gz]
 [2023-06-11 10:39:18] INFO root fetch - main [MainThread]: End processing [confidenceinterval]: success
 [2023-06-11 10:39:18] INFO root fetch - main [MainThread]: Store serial: [18456652]
+[2023-06-11 10:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456652]
+[2023-06-11 10:44:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-06-11 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongoengine-jsonschema
+[2023-06-11 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tff-nightly
+[2023-06-11 10:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micado-client
+[2023-06-11 10:44:27] INFO root fetch - processPackages [mongoengine-jsonschema]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 10:44:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-11 10:44:27] INFO root fetch - processPackages [micado-client]: New version: [0.12.1] Old Version: [0.12.0a2]
+[2023-06-11 10:44:27] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230610] Old Version: [0.0.1.dev20230609]
+[2023-06-11 10:44:27] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/05/f3/ed3998ff4c3f9c41722971b377eda531f22acee82be20bbc9aa4748b3635/tff_nightly-0.0.1.dev20230609-py2.py3-none-any.whl
+[2023-06-11 10:44:27] INFO root fetch - processPackages [mongoengine-jsonschema]: Downloading https://files.pythonhosted.org/packages/25/3e/f3cac8231ed9901a283f208a82de0882526cf3f48184b5c5dad4b8f8846c/mongoengine-jsonschema-0.1.0.tar.gz
+[2023-06-11 10:44:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/f4/58/8a15540c38334bcd6c5c1cc93891f5a1bcb6e02b5c4a4fd34725c03f121e/nonebot_plugin_game_collection-2.1.8.tar.gz
+[2023-06-11 10:44:27] INFO root fetch - processPackages [micado-client]: Downloading https://files.pythonhosted.org/packages/8e/e8/2948675ea74de03083f19540e168318faa49f9ae1f6c92ae11a9a45ac034/micado-client-0.12.0a2.tar.gz
+[2023-06-11 10:44:27] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/45/de/c302af9e87158f959c02f39d3b9b39dc99250faa52f5fbddac1479325163/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl
+[2023-06-11 10:44:27] INFO root fetch - processPackages [mongoengine-jsonschema]: Downloading https://files.pythonhosted.org/packages/01/bf/7ba67f92952ebd39d80308ed0ae430b4559e14b40ed4480c3216d0938dbb/mongoengine-jsonschema-0.1.1.tar.gz
+[2023-06-11 10:44:27] INFO root fetch - processPackages [micado-client]: Downloading https://files.pythonhosted.org/packages/8b/2a/835bc296a961bfa699b2eab6a88e503ffc58f46f2f03cf2c89341743157f/micado-client-0.12.1.tar.gz
+[2023-06-11 10:44:27] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-11 10:44:27] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230609-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip --markdown 20230611/t/tff-nightly/0.0.1.dev20230609-0.0.1.dev20230610/diff.md --exclude *.pyd
+[2023-06-11 10:44:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/40/cf/c30d83f076e973f167bcff6080e47c06a5bee3c96e14111e663309004d8e/nonebot_plugin_game_collection-2.1.9.tar.gz
+[2023-06-11 10:44:27] INFO root fetch - processPackages [micado-client]: executing diffoscope
+[2023-06-11 10:44:27] INFO root fetch - processPackages [micado-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micado-client-0.12.0a2.tar.gz tmp/micado-client-0.12.1.tar.gz --markdown 20230611/m/micado-client/0.12.0a2-0.12.1/diff.md --exclude *.pyd
+[2023-06-11 10:44:27] INFO root fetch - processPackages [mongoengine-jsonschema]: executing diffoscope
+[2023-06-11 10:44:27] INFO root fetch - processPackages [mongoengine-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoengine-jsonschema-0.1.0.tar.gz tmp/mongoengine-jsonschema-0.1.1.tar.gz --markdown 20230611/m/mongoengine-jsonschema/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 10:44:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-11 10:44:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.8.tar.gz tmp/nonebot_plugin_game_collection-2.1.9.tar.gz --markdown 20230611/n/nonebot-plugin-game-collection/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-11 10:44:28] INFO root fetch - processPackages [mongoengine-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/mongoengine-jsonschema-0.1.0.tar.gz]
+[2023-06-11 10:44:28] INFO root fetch - processPackages [mongoengine-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/mongoengine-jsonschema-0.1.1.tar.gz]
+[2023-06-11 10:44:28] INFO root fetch - main [MainThread]: End processing [mongoengine-jsonschema]: success
+[2023-06-11 10:44:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.8.tar.gz]
+[2023-06-11 10:44:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.9.tar.gz]
+[2023-06-11 10:44:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-11 10:44:29] INFO root fetch - processPackages [micado-client]: Remove: archive file [/home/abi/fetcher/tmp/micado-client-0.12.0a2.tar.gz]
+[2023-06-11 10:44:29] INFO root fetch - processPackages [micado-client]: Remove: archive file [/home/abi/fetcher/tmp/micado-client-0.12.1.tar.gz]
+[2023-06-11 10:44:29] INFO root fetch - main [MainThread]: End processing [micado-client]: success
+[2023-06-11 10:44:30] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230609-py2.py3-none-any.whl.zip]
+[2023-06-11 10:44:30] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip]
+[2023-06-11 10:44:30] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-11 10:44:30] INFO root fetch - main [MainThread]: Store serial: [18456663]
