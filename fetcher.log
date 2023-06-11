@@ -6609,3 +6609,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:42:07] INFO root fetch - processPackages [lamda]: Remove: archive file [/home/abi/fetcher/tmp/lamda-3.98.tar.gz]
 [2023-06-11 11:42:07] INFO root fetch - main [MainThread]: End processing [lamda]: success
 [2023-06-11 11:42:07] INFO root fetch - main [MainThread]: Store serial: [18456974]
+[2023-06-11 11:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456974]
+[2023-06-11 11:47:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signway-sdk
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-esteid
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epub2txt
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langdash
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyquizzer
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dexie-rewards
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FileEncTool
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supergreen
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-rpc
+[2023-06-11 11:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySupercell
+[2023-06-11 11:47:16] INFO root fetch - processPackages [signway-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [langdash]: New version: [1.3.0a1] Old Version: [1.2.0a1]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 11:47:16] WARNING root fetch - processPackages [supergreen]: Skipping, unable to determine old version
+[2023-06-11 11:47:16] INFO root fetch - processPackages [supergreen]: Start processing: pyucrop
+[2023-06-11 11:47:16] INFO root fetch - main [MainThread]: End processing [supergreen] error
+[2023-06-11 11:47:16] INFO root fetch - processPackages [epub2txt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [django-esteid]: New version: [4.0b1] Old Version: [3.4b1]
+[2023-06-11 11:47:16] WARNING root fetch - processPackages [FileEncTool]: Skipping, unable to determine old version
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyquizzer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [FileEncTool]: Start processing: PoePT
+[2023-06-11 11:47:16] INFO root fetch - processPackages [dexie-rewards]: New version: [1.8.1b2] Old Version: [1.8.1b1]
+[2023-06-11 11:47:16] INFO root fetch - main [MainThread]: End processing [FileEncTool] error
+[2023-06-11 11:47:16] INFO root fetch - processPackages [json-rpc]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyucrop]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PoePT]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-11 11:47:16] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/56/4b/7a8f0d89cd40f6f790785fd5c1a659cbb1e59a48f578d7474a98bd59a3f1/dexie_rewards-1.8.1b1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PoePT]: Downloading https://files.pythonhosted.org/packages/0c/36/69864dde1b7ea828608de6e57f92f9fdb62527a3a352c6852ec06f048b67/PoePT-0.2.4.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/67/fa/39a33b1ff78e73354cc8cf777111434a399f347cf76be3a329397d2e3353/dexie_rewards-1.8.1b2.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyucrop]: Downloading https://files.pythonhosted.org/packages/8b/9d/524566a09e1c526c270adffd52b532107528189c47b40ca01eff57d8700b/pyucrop-1.0.0.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/71/eb/b2c3d7b768ecbae1c822856fb3895815b814a6df46ba9aace150f8e0d244/langdash-1.2.0a1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/28/59/7058e7a512ecdf040e231e464cac0ce91b0729ff6661ca4721301e6af747/pyquizzer-0.0.3.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [json-rpc]: Downloading https://files.pythonhosted.org/packages/aa/6e/0831d946f865a9b69fbaf3cde84809acdfa95ac2855014c9e092701a1de5/json-rpc-1.9.1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/bb/b3/93a7bc2b5a8d920108f75db97ce58b1fda78b128ea772a372916dbdb4a0f/django_esteid-3.4b1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [signway-sdk]: Downloading https://files.pythonhosted.org/packages/af/82/3dbff2ab47678318aae2753c6f24ac3221da14285682e7f27a6a524d07ab/signway_sdk-0.1.2.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230611/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PoePT]: Downloading https://files.pythonhosted.org/packages/4e/54/42db8290dec8cafcb5c57b2093f2f756473659d9f15d318f71fc5f0e37a1/PoePT-0.2.5.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-1.8.1b1.tar.gz tmp/dexie_rewards-1.8.1b2.tar.gz --markdown 20230611/d/dexie-rewards/1.8.1b1-1.8.1b2/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [epub2txt]: Downloading https://files.pythonhosted.org/packages/c0/71/4da9a0d9ba755de38110c1cb286542ddc2198215cee45a9213ea0fa099f8/epub2txt-0.1.3.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/cc/a1/c4f47cd93e0256a511f90086682bd7c5010b3fbaf3cfb5adb15fe3cfec44/langdash-1.3.0a1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/91/82/f4852f288fe16f7310091fc09199bd9aadd0981dea37d7962d7883931415/pyquizzer-0.0.4.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PoePT]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [PoePT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoePT-0.2.4.tar.gz tmp/PoePT-0.2.5.tar.gz --markdown 20230611/P/PoePT/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyucrop]: Downloading https://files.pythonhosted.org/packages/09/ad/e9c446b5afb6f77f0f4d8bda436ff0bb33cb8896bedd4e760cdfd746e0e7/pyucrop-1.0.1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyquizzer]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyquizzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizzer-0.0.3.tar.gz tmp/pyquizzer-0.0.4.tar.gz --markdown 20230611/p/pyquizzer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/ce/4e/566346147efb72b221f7cc30c6d33dde51b46e0b74d8ad3af91e7a054f30/django_esteid-4.0b1.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.2.0a1.tar.gz tmp/langdash-1.3.0a1.tar.gz --markdown 20230611/l/langdash/1.2.0a1-1.3.0a1/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [signway-sdk]: Downloading https://files.pythonhosted.org/packages/6f/66/c3c7bf2abcc25fa3cb67c30668fb2fbd517e4eacfec24b4886501789a78e/signway_sdk-0.1.3.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [epub2txt]: Downloading https://files.pythonhosted.org/packages/88/fe/67fb7d4028fd123fb5fb6cf9b746121eca656a8f6933082734b3518c59ad/epub2txt-0.1.4.tar.gz
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyucrop]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [pyucrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyucrop-1.0.0.tar.gz tmp/pyucrop-1.0.1.tar.gz --markdown 20230611/p/pyucrop/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [signway-sdk]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [signway-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signway_sdk-0.1.2.tar.gz tmp/signway_sdk-0.1.3.tar.gz --markdown 20230611/s/signway-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [epub2txt]: executing diffoscope
+[2023-06-11 11:47:16] INFO root fetch - processPackages [epub2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epub2txt-0.1.3.tar.gz tmp/epub2txt-0.1.4.tar.gz --markdown 20230611/e/epub2txt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-11 11:47:16] INFO root fetch - processPackages [json-rpc]: Downloading https://files.pythonhosted.org/packages/b5/fa/ea4be6d1bdb7b4ffee12e2d128f826caad5a1c5848e6582c3d0edea6e70f/json-rpc-1.9.2.tar.gz
+[2023-06-11 11:47:17] INFO root fetch - processPackages [django-esteid]: executing diffoscope
+[2023-06-11 11:47:17] INFO root fetch - processPackages [django-esteid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_esteid-3.4b1.tar.gz tmp/django_esteid-4.0b1.tar.gz --markdown 20230611/d/django-esteid/3.4b1-4.0b1/diff.md --exclude *.pyd
+[2023-06-11 11:47:17] INFO root fetch - processPackages [json-rpc]: executing diffoscope
+[2023-06-11 11:47:17] INFO root fetch - processPackages [json-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-rpc-1.9.1.tar.gz tmp/json-rpc-1.9.2.tar.gz --markdown 20230611/j/json-rpc/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-11 11:47:18] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.3.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.4.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [pyquizzer]: Start processing: docstruct
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [pyquizzer]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-06-11 11:47:18] INFO root fetch - processPackages [PoePT]: Remove: archive file [/home/abi/fetcher/tmp/PoePT-0.2.4.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [PoePT]: Remove: archive file [/home/abi/fetcher/tmp/PoePT-0.2.5.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [PoePT]: Start processing: survey
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [PoePT]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.1b1.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.1b2.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-06-11 11:47:18] INFO root fetch - processPackages [pyucrop]: Remove: archive file [/home/abi/fetcher/tmp/pyucrop-1.0.0.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [pyucrop]: Remove: archive file [/home/abi/fetcher/tmp/pyucrop-1.0.1.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [pyucrop]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [signway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signway_sdk-0.1.2.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [signway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signway_sdk-0.1.3.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [signway-sdk]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [survey]: New version: [4.4.0] Old Version: [4.3.0a0]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-06-11 11:47:18] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230611/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 11:47:18] INFO root fetch - processPackages [survey]: Downloading https://files.pythonhosted.org/packages/84/92/2db0699dee12604603d06dbd90925a9c09965db050743f0a46b249391990/survey-4.3.0a0.tar.gz
+[2023-06-11 11:47:18] INFO root fetch - processPackages [epub2txt]: Remove: archive file [/home/abi/fetcher/tmp/epub2txt-0.1.3.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [epub2txt]: Remove: archive file [/home/abi/fetcher/tmp/epub2txt-0.1.4.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [epub2txt]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.2.0a1.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.3.0a1.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [json-rpc]: Remove: archive file [/home/abi/fetcher/tmp/json-rpc-1.9.1.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - processPackages [json-rpc]: Remove: archive file [/home/abi/fetcher/tmp/json-rpc-1.9.2.tar.gz]
+[2023-06-11 11:47:18] INFO root fetch - main [MainThread]: End processing [json-rpc]: success
+[2023-06-11 11:47:18] INFO root fetch - processPackages [survey]: Downloading https://files.pythonhosted.org/packages/65/15/e84801185ac966f5b0cd90db1f92dbeb7a1fae42d51d6f5a356e35281326/survey-4.4.0.tar.gz
+[2023-06-11 11:47:18] INFO root fetch - processPackages [survey]: executing diffoscope
+[2023-06-11 11:47:18] INFO root fetch - processPackages [survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey-4.3.0a0.tar.gz tmp/survey-4.4.0.tar.gz --markdown 20230611/s/survey/4.3.0a0-4.4.0/diff.md --exclude *.pyd
+[2023-06-11 11:47:19] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.8.tar.gz]
+[2023-06-11 11:47:19] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
+[2023-06-11 11:47:19] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-06-11 11:47:20] INFO root fetch - processPackages [survey]: Remove: archive file [/home/abi/fetcher/tmp/survey-4.3.0a0.tar.gz]
+[2023-06-11 11:47:20] INFO root fetch - processPackages [survey]: Remove: archive file [/home/abi/fetcher/tmp/survey-4.4.0.tar.gz]
+[2023-06-11 11:47:20] INFO root fetch - main [MainThread]: End processing [survey]: success
+[2023-06-11 11:47:20] INFO root fetch - processPackages [django-esteid]: Remove: archive file [/home/abi/fetcher/tmp/django_esteid-3.4b1.tar.gz]
+[2023-06-11 11:47:20] INFO root fetch - processPackages [django-esteid]: Remove: archive file [/home/abi/fetcher/tmp/django_esteid-4.0b1.tar.gz]
+[2023-06-11 11:47:20] INFO root fetch - main [MainThread]: End processing [django-esteid]: success
+[2023-06-11 11:47:20] INFO root fetch - main [MainThread]: Store serial: [18457017]
