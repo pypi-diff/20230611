@@ -12256,3 +12256,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:02:12] INFO root fetch - processPackages [cfy-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfy-lint-0.0.8.tar.gz]
 [2023-06-11 19:02:12] INFO root fetch - main [MainThread]: End processing [cfy-lint]: success
 [2023-06-11 19:02:12] INFO root fetch - main [MainThread]: Store serial: [18459506]
+[2023-06-11 19:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459506]
+[2023-06-11 19:07:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 19:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inboard
+[2023-06-11 19:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gym-cas
+[2023-06-11 19:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onecompiler
+[2023-06-11 19:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-websocket-pool
+[2023-06-11 19:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: longalpha-utils
+[2023-06-11 19:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superinvoke
+[2023-06-11 19:07:21] INFO root fetch - processPackages [longalpha-utils]: New version: [0.60] Old Version: [0.59]
+[2023-06-11 19:07:21] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-11 19:07:21] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/c8/40/c881c5feca2c9adad13919f41ca7d345be2be843d9cf961c91910d7423d3/longalpha_utils-0.59.tar.gz
+[2023-06-11 19:07:21] INFO root fetch - processPackages [async-websocket-pool]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-11 19:07:21] WARNING root fetch - processPackages [gym-cas]: Skipping, unable to determine old version
+[2023-06-11 19:07:21] INFO root fetch - main [MainThread]: End processing [gym-cas] error
+[2023-06-11 19:07:21] INFO root fetch - processPackages [onecompiler]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 19:07:21] INFO root fetch - processPackages [superinvoke]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 19:07:22] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/21/22/e728336ec6b7dd70d7ee03d5952dd9f742f156bfc95fa989db8aa92df128/longalpha_utils-0.60.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [async-websocket-pool]: Downloading https://files.pythonhosted.org/packages/48/7c/331f4de9a80a7094e0136b50eb08c403dcedef04a76975bf31f81392c5b2/async_websocket_pool-0.1.4.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [onecompiler]: Downloading https://files.pythonhosted.org/packages/0e/ac/d8720330f406eb054e34d45303c1d2c1f167943d0d98560b33fbbb7b6adb/onecompiler-1.1.1.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [superinvoke]: Downloading https://files.pythonhosted.org/packages/10/a8/41b9eb0414e3b3f56f0c97c737a7206c2168672debd9f32a2c4068f8298e/superinvoke-1.0.0.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-06-11 19:07:22] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.59.tar.gz tmp/longalpha_utils-0.60.tar.gz --markdown 20230611/l/longalpha-utils/0.59-0.60/diff.md --exclude *.pyd
+[2023-06-11 19:07:22] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [async-websocket-pool]: Downloading https://files.pythonhosted.org/packages/55/45/9a1f3e3ab1c60f0c46e6ff2d249ffc64174abfbbf06ab5ea5cdae3086fa5/async_websocket_pool-0.1.6.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2023-06-11 19:07:22] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20230611/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-11 19:07:22] INFO root fetch - processPackages [onecompiler]: Downloading https://files.pythonhosted.org/packages/57/60/b0b2f16b261a762bd132c6161c9f11993bd76332ab192449c8fe6b65d945/onecompiler-1.1.2.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [superinvoke]: Downloading https://files.pythonhosted.org/packages/39/01/680cb10ad712e16918a9e54055646616acfe2356aa19551a79a237460af5/superinvoke-1.0.1.tar.gz
+[2023-06-11 19:07:22] INFO root fetch - processPackages [async-websocket-pool]: executing diffoscope
+[2023-06-11 19:07:22] INFO root fetch - processPackages [async-websocket-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_websocket_pool-0.1.4.tar.gz tmp/async_websocket_pool-0.1.6.tar.gz --markdown 20230611/a/async-websocket-pool/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-11 19:07:22] INFO root fetch - processPackages [onecompiler]: executing diffoscope
+[2023-06-11 19:07:22] INFO root fetch - processPackages [onecompiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onecompiler-1.1.1.tar.gz tmp/onecompiler-1.1.2.tar.gz --markdown 20230611/o/onecompiler/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 19:07:22] INFO root fetch - processPackages [superinvoke]: executing diffoscope
+[2023-06-11 19:07:22] INFO root fetch - processPackages [superinvoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superinvoke-1.0.0.tar.gz tmp/superinvoke-1.0.1.tar.gz --markdown 20230611/s/superinvoke/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 19:07:23] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.59.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.60.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-06-11 19:07:23] INFO root fetch - processPackages [onecompiler]: Remove: archive file [/home/abi/fetcher/tmp/onecompiler-1.1.1.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - processPackages [onecompiler]: Remove: archive file [/home/abi/fetcher/tmp/onecompiler-1.1.2.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - main [MainThread]: End processing [onecompiler]: success
+[2023-06-11 19:07:23] INFO root fetch - processPackages [async-websocket-pool]: Remove: archive file [/home/abi/fetcher/tmp/async_websocket_pool-0.1.4.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - processPackages [async-websocket-pool]: Remove: archive file [/home/abi/fetcher/tmp/async_websocket_pool-0.1.6.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - main [MainThread]: End processing [async-websocket-pool]: success
+[2023-06-11 19:07:23] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2023-06-11 19:07:23] INFO root fetch - processPackages [superinvoke]: Remove: archive file [/home/abi/fetcher/tmp/superinvoke-1.0.0.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - processPackages [superinvoke]: Remove: archive file [/home/abi/fetcher/tmp/superinvoke-1.0.1.tar.gz]
+[2023-06-11 19:07:23] INFO root fetch - main [MainThread]: End processing [superinvoke]: success
+[2023-06-11 19:07:23] INFO root fetch - main [MainThread]: Store serial: [18459544]
