@@ -4375,3 +4375,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:00:30] INFO root fetch - processPackages [odoo14-addon-purchase-request-to-requisition]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_request_to_requisition-14.0.1.0.1.dev9-py3-none-any.whl.zip]
 [2023-06-11 07:00:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-request-to-requisition]: success
 [2023-06-11 07:00:30] INFO root fetch - main [MainThread]: Store serial: [18455923]
+[2023-06-11 07:05:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455923]
+[2023-06-11 07:05:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-last-price-info
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-request-to-requisition
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-request
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-allowed-product
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codex
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-tensorrt-fx-only
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aorta-sirius-dev
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icloudpd
+[2023-06-11 07:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapid-pe
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: New version: [15.0.1.0.1.5] Old Version: [15.0.1.0.1.4]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: New version: [16.0.2.0.0.1] Old Version: [16.0.2.0.0]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [aorta-sirius]: New version: [0.5] Old Version: [0.4]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [torch-tensorrt-fx-only]: New version: [1.5.0.dev0] Old Version: [1.4.0.post0]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [codex]: New version: [1.4.0a1] Old Version: [1.4.0a0]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230611] Old Version: [0.1.1.dev20230610]
+[2023-06-11 07:05:39] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/30/db/afd25e6d6fd51cc7fbad1589fc1d882d1c51119381563f26fedfd187e175/aorta_sirius-0.4.tar.gz
+[2023-06-11 07:05:39] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2023-06-11 07:05:39] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/db/a9/ae3ebd0afa5f716a538773431e576627c20963c082c038da3cb038fbdd3a/rapid_pe-0.1.1.dev20230610.tar.gz
+[2023-06-11 07:05:39] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 07:05:39] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Downloading https://files.pythonhosted.org/packages/88/08/d832c66cacabc11b47fb989f1bba167f5a58652b6df3d9a22d2f26bdb218/torch_tensorrt_fx_only-1.4.0.post0-py3-none-any.whl
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: Downloading https://files.pythonhosted.org/packages/5c/a9/28c64f008469969649267fcd67f0690d662705c94a901161beaf0e664840/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Downloading https://files.pythonhosted.org/packages/ad/80/3c60bcd2ddde88559077f809353f59b3c99ac6b764c67321eb4f32a25220/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/4a/af/647911d190dbcf7e4c1a7163d3e309ff8f30ec8c8ed81c94951b153dee44/odoo_addon_purchase_allowed_product-16.0.2.0.0-py3-none-any.whl
+[2023-06-11 07:05:39] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-11 07:05:39] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 07:05:39] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/86/d8/c86943bc2638fc2492fc846ce4ec45f20a17c70a8e15fbedd39391ff064a/codex-1.4.0a0.tar.gz
+[2023-06-11 07:05:39] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2023-06-11 07:05:40] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/18/10/31bbdda7a2756921aacfd1c741d423ad440973cf079628dbed9e516f0175/aorta_sirius-0.5.tar.gz
+[2023-06-11 07:05:40] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 16151115>=10485760
+[2023-06-11 07:05:40] INFO root fetch - processPackages [codex]: Start processing: poetry-demo-404rex
+[2023-06-11 07:05:40] INFO root fetch - main [MainThread]: End processing [codex] error
+[2023-06-11 07:05:40] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] WARNING root fetch - processPackages [poetry-demo-404rex]: Skipping, unable to determine old version
+[2023-06-11 07:05:40] INFO root fetch - main [MainThread]: End processing [poetry-demo-404rex] error
+[2023-06-11 07:05:40] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/67/ad/08a70b612ad1ea42b40c3fa2905d484d501af422754da6373518956871bd/rapid_pe-0.1.1.dev20230611.tar.gz
+[2023-06-11 07:05:40] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20230611/i/icloudpd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Downloading https://files.pythonhosted.org/packages/cf/e2/8e0e46863b06b3b73eff3b3b92efd29966d19daa6c4d363cfc88b3b66126/odoo_addon_purchase_last_price_info-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: Downloading https://files.pythonhosted.org/packages/3f/66/d3a25e6ea887f12aaaa804d32a03a16027e549bf54fdb47ea6ce9e7a66cf/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.5-py3-none-any.whl
+[2023-06-11 07:05:40] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Downloading https://files.pythonhosted.org/packages/f9/0b/04033f60c6b75aab47f29158b274a724c5d331bdb55c28f68118c0e89fbd/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl
+[2023-06-11 07:05:40] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230610.tar.gz tmp/rapid_pe-0.1.1.dev20230611.tar.gz --markdown 20230611/r/rapid-pe/0.1.1.dev20230610-0.1.1.dev20230611/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/41/05/8b19f5f438d9bd3071f8210f3eca33105d16c0d1933406a82feff984a414/odoo_addon_purchase_allowed_product-16.0.2.0.0.1-py3-none-any.whl
+[2023-06-11 07:05:40] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.4.tar.gz tmp/aorta_sirius-0.5.tar.gz --markdown 20230611/a/aorta-sirius/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-purchase-last-price-info/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.5-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-purchase-request-to-requisition/15.0.1.0.1.4-15.0.1.0.1.5/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [torch-tensorrt-fx-only]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [torch-tensorrt-fx-only]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_tensorrt_fx_only-1.4.0.post0-py3-none-any.whl.zip tmp/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl.zip --markdown 20230611/t/torch-tensorrt-fx-only/1.4.0.post0-1.5.0.dev0/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0.1-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-purchase-allowed-product/16.0.2.0.0-16.0.2.0.0.1/diff.md --exclude *.pyd
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-06-11 07:05:40] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-11 07:05:41] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 07:05:41] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 07:05:41] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 07:05:41] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.4.tar.gz]
+[2023-06-11 07:05:41] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.5.tar.gz]
+[2023-06-11 07:05:41] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-11 07:05:41] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230610.tar.gz]
+[2023-06-11 07:05:41] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230611.tar.gz]
+[2023-06-11 07:05:41] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-11 07:05:41] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2023-06-11 07:05:41] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2023-06-11 07:05:41] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2023-06-11 07:05:41] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-11 07:05:41] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-11 07:05:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-last-price-info]: success
+[2023-06-11 07:05:42] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-11 07:05:42] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-06-11 07:05:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request-to-requisition]: success
+[2023-06-11 07:05:42] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-11 07:05:42] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2023-06-11 07:05:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-allowed-product]: success
+[2023-06-11 07:05:42] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Remove: archive file [/home/abi/fetcher/tmp/torch_tensorrt_fx_only-1.4.0.post0-py3-none-any.whl.zip]
+[2023-06-11 07:05:42] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Remove: archive file [/home/abi/fetcher/tmp/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl.zip]
+[2023-06-11 07:05:42] INFO root fetch - main [MainThread]: End processing [torch-tensorrt-fx-only]: success
+[2023-06-11 07:05:43] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-11 07:05:43] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-11 07:05:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-06-11 07:05:43] INFO root fetch - main [MainThread]: Store serial: [18455952]
