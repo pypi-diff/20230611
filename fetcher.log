@@ -7361,3 +7361,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:53:32] INFO root fetch - processPackages [dna.node]: Remove: archive file [/home/abi/fetcher/tmp/dna.node-2.1.1-py3-none-any.whl.zip]
 [2023-06-11 12:53:32] INFO root fetch - main [MainThread]: End processing [dna.node]: success
 [2023-06-11 12:53:32] INFO root fetch - main [MainThread]: Store serial: [18457318]
+[2023-06-11 12:58:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457318]
+[2023-06-11 12:58:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grsq
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumiverse-harbor
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ingestor
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SikPire
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: custom-diffusion
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysimconnect
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ingestor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 12:58:42] WARNING root fetch - processPackages [SikPire]: Skipping, unable to determine old version
+[2023-06-11 12:58:42] INFO root fetch - main [MainThread]: End processing [SikPire] error
+[2023-06-11 12:58:42] INFO root fetch - processPackages [pulumiverse-harbor]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-11 12:58:42] INFO root fetch - processPackages [custom-diffusion]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 12:58:42] INFO root fetch - processPackages [grsq]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-11 12:58:42] INFO root fetch - processPackages [pysimconnect]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-11 12:58:42] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/70/b6/a7b082e69100275c8b717534f1f9302623696af54130e75182dfd5866ee4/custom_diffusion-0.1.0.tar.gz
+[2023-06-11 12:58:42] INFO root fetch - processPackages [ingestor]: Downloading https://files.pythonhosted.org/packages/32/e6/ba1a363266be58e46905ecb35ec5312fb80a4eb644537883ff929383825d/ingestor-0.0.2-py3-none-any.whl
+[2023-06-11 12:58:42] INFO root fetch - processPackages [grsq]: Downloading https://files.pythonhosted.org/packages/cd/d3/d242fa21a6ad2b57f9f5536d89d2063a347b584fd33128f01a8b6f72483e/grsq-0.1.0.tar.gz
+[2023-06-11 12:58:42] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0b/68/d78bc08e1fd207ad02e63488cccc2c0d4058986a388c0dc83d3929e9b8e8/pulumiverse_harbor-3.9.1.tar.gz
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pysimconnect]: Downloading https://files.pythonhosted.org/packages/88/d2/4832d6a2190eedfc51e43bb2ef93441fc932b04d55030fa9369df52fd62c/pysimconnect-0.2.4.tar.gz
+[2023-06-11 12:58:43] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/2e/08/2863a3da8545e78d7f5696d8eb445415888c5c80d9343202a572f0d5e8cb/custom_diffusion-0.1.1.tar.gz
+[2023-06-11 12:58:43] INFO root fetch - processPackages [ingestor]: Downloading https://files.pythonhosted.org/packages/62/21/4aff956e1bd8a96b26cb1c34860c146e28de4141915b38a069a86174a387/ingestor-0.0.3-py3-none-any.whl
+[2023-06-11 12:58:43] INFO root fetch - processPackages [grsq]: Downloading https://files.pythonhosted.org/packages/61/73/ece05284cff2eab0b6a4e8607f857269b725b6a11c441688ed95dfb2a345/grsq-1.0.0.tar.gz
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/3d/c2/60e6f48e7db261eadf19171f9cbe7a63ceff6971b25dc1659959fcbb7f91/pulumiverse_harbor-3.9.2.tar.gz
+[2023-06-11 12:58:43] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-11 12:58:43] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.1.0.tar.gz tmp/custom_diffusion-0.1.1.tar.gz --markdown 20230611/c/custom-diffusion/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 12:58:43] INFO root fetch - processPackages [grsq]: executing diffoscope
+[2023-06-11 12:58:43] INFO root fetch - processPackages [grsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grsq-0.1.0.tar.gz tmp/grsq-1.0.0.tar.gz --markdown 20230611/g/grsq/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 12:58:43] INFO root fetch - processPackages [ingestor]: executing diffoscope
+[2023-06-11 12:58:43] INFO root fetch - processPackages [ingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingestor-0.0.2-py3-none-any.whl.zip tmp/ingestor-0.0.3-py3-none-any.whl.zip --markdown 20230611/i/ingestor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pysimconnect]: Downloading https://files.pythonhosted.org/packages/f5/e9/9bf3b207e3be23935b08f7d712c1d01d2117064d445f77ff233cba3d635e/pysimconnect-0.2.5.tar.gz
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pulumiverse-harbor]: executing diffoscope
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pulumiverse-harbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_harbor-3.9.1.tar.gz tmp/pulumiverse_harbor-3.9.2.tar.gz --markdown 20230611/p/pulumiverse-harbor/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pysimconnect]: executing diffoscope
+[2023-06-11 12:58:43] INFO root fetch - processPackages [pysimconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimconnect-0.2.4.tar.gz tmp/pysimconnect-0.2.5.tar.gz --markdown 20230611/p/pysimconnect/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-11 12:58:44] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.0.tar.gz]
+[2023-06-11 12:58:44] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.1.tar.gz]
+[2023-06-11 12:58:44] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-11 12:58:44] INFO root fetch - processPackages [grsq]: Remove: archive file [/home/abi/fetcher/tmp/grsq-0.1.0.tar.gz]
+[2023-06-11 12:58:44] INFO root fetch - processPackages [grsq]: Remove: archive file [/home/abi/fetcher/tmp/grsq-1.0.0.tar.gz]
+[2023-06-11 12:58:44] INFO root fetch - main [MainThread]: End processing [grsq]: success
+[2023-06-11 12:58:44] INFO root fetch - processPackages [ingestor]: Remove: archive file [/home/abi/fetcher/tmp/ingestor-0.0.2-py3-none-any.whl.zip]
+[2023-06-11 12:58:44] INFO root fetch - processPackages [ingestor]: Remove: archive file [/home/abi/fetcher/tmp/ingestor-0.0.3-py3-none-any.whl.zip]
+[2023-06-11 12:58:44] INFO root fetch - main [MainThread]: End processing [ingestor]: success
+[2023-06-11 12:58:44] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.1.tar.gz]
+[2023-06-11 12:58:44] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.2.tar.gz]
+[2023-06-11 12:58:44] INFO root fetch - main [MainThread]: End processing [pulumiverse-harbor]: success
+[2023-06-11 12:58:45] INFO root fetch - processPackages [pysimconnect]: Remove: archive file [/home/abi/fetcher/tmp/pysimconnect-0.2.4.tar.gz]
+[2023-06-11 12:58:45] INFO root fetch - processPackages [pysimconnect]: Remove: archive file [/home/abi/fetcher/tmp/pysimconnect-0.2.5.tar.gz]
+[2023-06-11 12:58:45] INFO root fetch - main [MainThread]: End processing [pysimconnect]: success
+[2023-06-11 12:58:45] INFO root fetch - main [MainThread]: Store serial: [18457337]
