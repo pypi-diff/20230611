@@ -11296,3 +11296,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:48:07] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
 [2023-06-11 17:48:07] INFO root fetch - main [MainThread]: End processing [pautobot]: success
 [2023-06-11 17:48:07] INFO root fetch - main [MainThread]: Store serial: [18459056]
+[2023-06-11 17:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459056]
+[2023-06-11 17:53:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pelican-aio-planet
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: archeSetup
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systrack
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: longalpha-utils
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-api
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: memorix-client-redis
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: culligan
+[2023-06-11 17:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catencfamily
+[2023-06-11 17:53:15] WARNING root fetch - processPackages [pelican-aio-planet]: Skipping, unable to determine old version
+[2023-06-11 17:53:15] INFO root fetch - main [MainThread]: End processing [pelican-aio-planet] error
+[2023-06-11 17:53:15] INFO root fetch - processPackages [archeSetup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 17:53:15] INFO root fetch - processPackages [memorix-client-redis]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-11 17:53:15] INFO root fetch - processPackages [longalpha-utils]: New version: [0.60] Old Version: [0.59]
+[2023-06-11 17:53:15] WARNING root fetch - processPackages [culligan]: Skipping, unable to determine old version
+[2023-06-11 17:53:15] INFO root fetch - main [MainThread]: End processing [culligan] error
+[2023-06-11 17:53:15] INFO root fetch - processPackages [catencfamily]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-06-11 17:53:15] INFO root fetch - processPackages [systrack]: New version: [0.3rc1] Old Version: [0.2.1]
+[2023-06-11 17:53:15] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-11 17:53:15] INFO root fetch - processPackages [archeSetup]: Downloading https://files.pythonhosted.org/packages/50/c7/cf19689f990b58c04e3e3ab3df91870858e11420c74af308b74216bfe0d4/archeSetup-0.0.8.tar.gz
+[2023-06-11 17:53:15] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-11 17:53:15] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/c8/40/c881c5feca2c9adad13919f41ca7d345be2be843d9cf961c91910d7423d3/longalpha_utils-0.59.tar.gz
+[2023-06-11 17:53:15] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/d9/94/f1254ec6d328cd72656493b20921a4683982befc1f70a591c7c5e3395e16/catencfamily-0.0.68.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/2a/dd/17cd99eca43624de371a9a8c8fc22e7f2bfc366511784fb16a443e4f430e/memorix_client_redis-1.4.4.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/75/a2/eebb767d4d0f18b027b0ee3d558e7b6af5b92e1b1f3b4152b88dd49b97ed/catencfamily-0.0.69.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-11 17:53:16] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/44/d5/c26d5f7efa26076350a9ddcaa9a15e54fa148562e95c7ed601c5db300f94/systrack-0.2.1.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.68.tar.gz tmp/catencfamily-0.0.69.tar.gz --markdown 20230611/c/catencfamily/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-06-11 17:53:16] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230611/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-11 17:53:16] INFO root fetch - processPackages [archeSetup]: Downloading https://files.pythonhosted.org/packages/c1/d2/9892b0ccc77543217194bbc7c51395370ba6951a18a2526f29ca9188e8cd/archeSetup-0.0.9.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/21/22/e728336ec6b7dd70d7ee03d5952dd9f742f156bfc95fa989db8aa92df128/longalpha_utils-0.60.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.59.tar.gz tmp/longalpha_utils-0.60.tar.gz --markdown 20230611/l/longalpha-utils/0.59-0.60/diff.md --exclude *.pyd
+[2023-06-11 17:53:16] INFO root fetch - processPackages [archeSetup]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [archeSetup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archeSetup-0.0.8.tar.gz tmp/archeSetup-0.0.9.tar.gz --markdown 20230611/a/archeSetup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 17:53:16] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/5c/18/e286ec518d29a3efcb00f8c27a32d9a876b2863e5b9147a9e35a9a00389d/memorix_client_redis-1.4.5.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-11 17:53:16] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/58/d1/4465ed16a6f3b519b47653406253def6f1fe8d43407b11cdb91c91801449/systrack-0.3rc1.tar.gz
+[2023-06-11 17:53:16] INFO root fetch - processPackages [memorix-client-redis]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [memorix-client-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorix_client_redis-1.4.4.tar.gz tmp/memorix_client_redis-1.4.5.tar.gz --markdown 20230611/m/memorix-client-redis/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-11 17:53:16] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230611/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-11 17:53:16] INFO root fetch - processPackages [systrack]: executing diffoscope
+[2023-06-11 17:53:16] INFO root fetch - processPackages [systrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systrack-0.2.1.tar.gz tmp/systrack-0.3rc1.tar.gz --markdown 20230611/s/systrack/0.2.1-0.3rc1/diff.md --exclude *.pyd
+[2023-06-11 17:53:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-11 17:53:17] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.59.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.60.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-06-11 17:53:17] INFO root fetch - processPackages [archeSetup]: Remove: archive file [/home/abi/fetcher/tmp/archeSetup-0.0.8.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - processPackages [archeSetup]: Remove: archive file [/home/abi/fetcher/tmp/archeSetup-0.0.9.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - main [MainThread]: End processing [archeSetup]: success
+[2023-06-11 17:53:17] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.4.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.5.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - main [MainThread]: End processing [memorix-client-redis]: success
+[2023-06-11 17:53:17] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.2.1.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.3rc1.tar.gz]
+[2023-06-11 17:53:17] INFO root fetch - main [MainThread]: End processing [systrack]: success
+[2023-06-11 17:53:18] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.68.tar.gz]
+[2023-06-11 17:53:18] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.69.tar.gz]
+[2023-06-11 17:53:18] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-11 17:53:19] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-11 17:53:19] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-11 17:53:19] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-11 17:53:19] INFO root fetch - main [MainThread]: Store serial: [18459094]
