@@ -2814,3 +2814,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 03:53:13] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
 [2023-06-11 03:53:13] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
 [2023-06-11 03:53:13] INFO root fetch - main [MainThread]: Store serial: [18455245]
+[2023-06-11 03:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455245]
+[2023-06-11 03:58:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 03:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libretrofuzz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: analise-financeira
+[2023-06-11 03:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scratchattach
+[2023-06-11 03:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wildered
+[2023-06-11 03:58:22] WARNING root fetch - processPackages [analise-financeira]: Skipping, unable to determine old version
+[2023-06-11 03:58:22] INFO root fetch - main [MainThread]: End processing [analise-financeira] error
+[2023-06-11 03:58:22] INFO root fetch - processPackages [wildered]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 03:58:22] INFO root fetch - processPackages [libretrofuzz]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-11 03:58:22] INFO root fetch - processPackages [scratchattach]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-11 03:58:22] INFO root fetch - processPackages [wildered]: Downloading https://files.pythonhosted.org/packages/a8/78/cf2ceac0d0d0ce7f011cdefa68f77b2bd029c701d61aafcbd6728f2a447b/wildered-0.1.2.tar.gz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c9/21/d1246f43f612a0240270e095983583cf3b638bfb52de1d906a39ee317696/libretrofuzz-3.0.8.tar.gz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/c1/a0/72f7feabd4a6a47d9e6c3f47631c10109b1062f63d7b0c636fe84e039814/scratchattach-1.2.1.tar.gz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [wildered]: Downloading https://files.pythonhosted.org/packages/86/74/1dc6341e0b74b906b80a856fb9488198e64d24ad8f25b665ba7bbb0b9d87/wildered-0.1.3.tar.gz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [wildered]: executing diffoscope
+[2023-06-11 03:58:22] INFO root fetch - processPackages [wildered]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildered-0.1.2.tar.gz tmp/wildered-0.1.3.tar.gz --markdown 20230611/w/wildered/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 03:58:22] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/4f/70/ae0ff03903a2fb7df502f38e15b4352807970cd38db4e5330db52f55df70/scratchattach-1.2.2.tar.gz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/00/04/2829dd4a9c19f9c9bd21129f1b7d6fde2b31bfaf591e18cd440835e6c1ae/libretrofuzz-3.0.9.tar.gz
+[2023-06-11 03:58:22] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-11 03:58:22] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.2.1.tar.gz tmp/scratchattach-1.2.2.tar.gz --markdown 20230611/s/scratchattach/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-11 03:58:22] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-11 03:58:22] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.0.8.tar.gz tmp/libretrofuzz-3.0.9.tar.gz --markdown 20230611/l/libretrofuzz/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-11 03:58:23] INFO root fetch - processPackages [wildered]: Remove: archive file [/home/abi/fetcher/tmp/wildered-0.1.2.tar.gz]
+[2023-06-11 03:58:23] INFO root fetch - processPackages [wildered]: Remove: archive file [/home/abi/fetcher/tmp/wildered-0.1.3.tar.gz]
+[2023-06-11 03:58:23] INFO root fetch - main [MainThread]: End processing [wildered]: success
+[2023-06-11 03:58:23] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.1.tar.gz]
+[2023-06-11 03:58:23] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.2.tar.gz]
+[2023-06-11 03:58:23] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-11 03:58:23] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.8.tar.gz]
+[2023-06-11 03:58:23] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.0.9.tar.gz]
+[2023-06-11 03:58:23] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-11 03:58:23] INFO root fetch - main [MainThread]: Store serial: [18455259]
