@@ -3224,3 +3224,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:50:34] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-11 04:50:34] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-11 04:50:34] INFO root fetch - main [MainThread]: Store serial: [18455453]
+[2023-06-11 04:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455453]
+[2023-06-11 04:55:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 04:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coexist
+[2023-06-11 04:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asone
+[2023-06-11 04:55:49] INFO root fetch - processPackages [asone]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 04:55:49] INFO root fetch - processPackages [coexist]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 04:55:49] INFO root fetch - processPackages [coexist]: Downloading https://files.pythonhosted.org/packages/01/d3/d0f7a5ac2ee3a66d87f8a182b0ea527288b63500214b5fe190cf8b0ba7fd/coexist-0.3.1.tar.gz
+[2023-06-11 04:55:49] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/1e/01/8de6792561a21f44abbc163820cb84fc3e732f8b0fae75f948b635a08676/asone-0.3.2-py3-none-any.whl
+[2023-06-11 04:55:49] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/be/00/252b94bed712af1dad7719e30adeb6ef0edeb0d09bc4bbb7091ea890b265/asone-0.3.3-py3-none-any.whl
+[2023-06-11 04:55:49] INFO root fetch - processPackages [coexist]: Downloading https://files.pythonhosted.org/packages/b7/c8/f2b192f0729cef9f96686069638bfb857dcb431eceeeecc9d668f6b65f90/coexist-0.3.2.tar.gz
+[2023-06-11 04:55:49] INFO root fetch - processPackages [coexist]: executing diffoscope
+[2023-06-11 04:55:49] INFO root fetch - processPackages [coexist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coexist-0.3.1.tar.gz tmp/coexist-0.3.2.tar.gz --markdown 20230611/c/coexist/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 04:55:50] INFO root fetch - processPackages [asone]: executing diffoscope
+[2023-06-11 04:55:50] INFO root fetch - processPackages [asone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asone-0.3.2-py3-none-any.whl.zip tmp/asone-0.3.3-py3-none-any.whl.zip --markdown 20230611/a/asone/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 04:55:50] INFO root fetch - processPackages [coexist]: Remove: archive file [/home/abi/fetcher/tmp/coexist-0.3.1.tar.gz]
+[2023-06-11 04:55:51] INFO root fetch - processPackages [coexist]: Remove: archive file [/home/abi/fetcher/tmp/coexist-0.3.2.tar.gz]
+[2023-06-11 04:55:51] INFO root fetch - main [MainThread]: End processing [coexist]: success
+[2023-06-11 04:55:53] INFO root fetch - processPackages [asone]: Remove: archive file [/home/abi/fetcher/tmp/asone-0.3.2-py3-none-any.whl.zip]
+[2023-06-11 04:55:53] INFO root fetch - processPackages [asone]: Remove: archive file [/home/abi/fetcher/tmp/asone-0.3.3-py3-none-any.whl.zip]
+[2023-06-11 04:55:53] INFO root fetch - main [MainThread]: End processing [asone]: success
+[2023-06-11 04:55:53] INFO root fetch - main [MainThread]: Store serial: [18455461]
