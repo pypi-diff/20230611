@@ -3020,3 +3020,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:24:17] INFO root fetch - processPackages [portant-django-commons]: Remove: archive file [/home/abi/fetcher/tmp/portant-django-commons-1.0.8.tar.gz]
 [2023-06-11 04:24:17] INFO root fetch - main [MainThread]: End processing [portant-django-commons]: success
 [2023-06-11 04:24:17] INFO root fetch - main [MainThread]: Store serial: [18455360]
+[2023-06-11 04:29:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455360]
+[2023-06-11 04:29:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 04:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langsafe
+[2023-06-11 04:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diff-cover
+[2023-06-11 04:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extract-msg
+[2023-06-11 04:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-Ayiin
+[2023-06-11 04:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fabric-message-bus
+[2023-06-11 04:29:25] WARNING root fetch - processPackages [langsafe]: Skipping, unable to determine old version
+[2023-06-11 04:29:25] INFO root fetch - processPackages [fabric-message-bus]: New version: [1.5.0b4] Old Version: [1.5.0b3]
+[2023-06-11 04:29:25] INFO root fetch - main [MainThread]: End processing [langsafe] error
+[2023-06-11 04:29:25] INFO root fetch - processPackages [extract-msg]: New version: [0.41.3] Old Version: [0.41.2]
+[2023-06-11 04:29:25] INFO root fetch - processPackages [diff-cover]: New version: [7.6.0] Old Version: [7.5.0]
+[2023-06-11 04:29:25] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/f6/48/678e8d037e880caabfa3e0b4a3e9866a5c2773bf04cf17d8c03d85724777/fabric-message-bus-1.5.0b3.tar.gz
+[2023-06-11 04:29:25] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev1] Old Version: [0.4.5.dev1]
+[2023-06-11 04:29:25] INFO root fetch - processPackages [diff-cover]: Downloading https://files.pythonhosted.org/packages/f4/2a/737fa2b13ff9a53c6e9a0b4c9dc639459325b5b769f2fc1c250dd1c4f4a4/diff_cover-7.5.0.tar.gz
+[2023-06-11 04:29:25] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/c5/93/e5d2b2200020f07dcd4839fe2cd057589d3b238f24db8a7bc1643037e364/extract_msg-0.41.2.tar.gz
+[2023-06-11 04:29:26] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/67/22/e9695f15151d8e8ca15beaccadfb5d57e14385652565eb35545c4cd11ffd/py-Ayiin-0.4.5.dev1.tar.gz
+[2023-06-11 04:29:26] INFO root fetch - processPackages [fabric-message-bus]: Downloading https://files.pythonhosted.org/packages/18/02/986dd619299dc9eb65170caf0d8c783bcd448c32dd8697f0c630bbe3d07a/fabric-message-bus-1.5.0b4.tar.gz
+[2023-06-11 04:29:26] INFO root fetch - processPackages [diff-cover]: Downloading https://files.pythonhosted.org/packages/ea/89/e15c4662d5815e7b36c84f9c53927e87ef771c17230bdc9c01b3add492d3/diff_cover-7.6.0.tar.gz
+[2023-06-11 04:29:26] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/bd/e3/f8c79a0f2ccc94e09e8301363187a08f61a1cded173fbd7776811d8c3a40/extract_msg-0.41.3.tar.gz
+[2023-06-11 04:29:26] INFO root fetch - processPackages [fabric-message-bus]: executing diffoscope
+[2023-06-11 04:29:26] INFO root fetch - processPackages [fabric-message-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-message-bus-1.5.0b3.tar.gz tmp/fabric-message-bus-1.5.0b4.tar.gz --markdown 20230611/f/fabric-message-bus/1.5.0b3-1.5.0b4/diff.md --exclude *.pyd
+[2023-06-11 04:29:26] INFO root fetch - processPackages [diff-cover]: executing diffoscope
+[2023-06-11 04:29:26] INFO root fetch - processPackages [diff-cover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diff_cover-7.5.0.tar.gz tmp/diff_cover-7.6.0.tar.gz --markdown 20230611/d/diff-cover/7.5.0-7.6.0/diff.md --exclude *.pyd
+[2023-06-11 04:29:26] INFO root fetch - processPackages [extract-msg]: executing diffoscope
+[2023-06-11 04:29:26] INFO root fetch - processPackages [extract-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_msg-0.41.2.tar.gz tmp/extract_msg-0.41.3.tar.gz --markdown 20230611/e/extract-msg/0.41.2-0.41.3/diff.md --exclude *.pyd
+[2023-06-11 04:29:26] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/86/a5/3e8e776954154ba5162a5e23d2c1f03bec0dc0792b8ad13dd938aaea43dc/py-Ayiin-0.4.6.dev1.tar.gz
+[2023-06-11 04:29:26] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-11 04:29:26] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.5.dev1.tar.gz tmp/py-Ayiin-0.4.6.dev1.tar.gz --markdown 20230611/p/py-Ayiin/0.4.5.dev1-0.4.6.dev1/diff.md --exclude *.pyd
+[2023-06-11 04:29:27] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b3.tar.gz]
+[2023-06-11 04:29:27] INFO root fetch - processPackages [fabric-message-bus]: Remove: archive file [/home/abi/fetcher/tmp/fabric-message-bus-1.5.0b4.tar.gz]
+[2023-06-11 04:29:27] INFO root fetch - main [MainThread]: End processing [fabric-message-bus]: success
+[2023-06-11 04:29:27] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.41.2.tar.gz]
+[2023-06-11 04:29:27] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.41.3.tar.gz]
+[2023-06-11 04:29:27] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
+[2023-06-11 04:29:27] INFO root fetch - processPackages [diff-cover]: Remove: archive file [/home/abi/fetcher/tmp/diff_cover-7.5.0.tar.gz]
+[2023-06-11 04:29:27] INFO root fetch - processPackages [diff-cover]: Remove: archive file [/home/abi/fetcher/tmp/diff_cover-7.6.0.tar.gz]
+[2023-06-11 04:29:27] INFO root fetch - main [MainThread]: End processing [diff-cover]: success
+[2023-06-11 04:29:28] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.5.dev1.tar.gz]
+[2023-06-11 04:29:28] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev1.tar.gz]
+[2023-06-11 04:29:28] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-11 04:29:28] INFO root fetch - main [MainThread]: Store serial: [18455380]
