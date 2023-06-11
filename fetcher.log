@@ -8515,3 +8515,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:18:16] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.9.tar.gz]
 [2023-06-11 14:18:16] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-06-11 14:18:16] INFO root fetch - main [MainThread]: Store serial: [18457868]
+[2023-06-11 14:23:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457868]
+[2023-06-11 14:23:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Finance-Jindowin
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybox-toolkit
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wedeliver-core-plus
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argo-workflow-tools
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UnlimitedGPT
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imjoy-rpc
+[2023-06-11 14:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KapoorLabs-Lightning
+[2023-06-11 14:23:26] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.6.dev4] Old Version: [0.1.2]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [KapoorLabs-Lightning]: New version: [5.2.2] Old Version: [5.2.0]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [Finance-Jindowin]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [UnlimitedGPT]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [argo-workflow-tools]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-11 14:23:26] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/bf/97/cf9b1740c3c76bb28fb708fd6c7d09689ee9f388a7c522460d6349f3ba70/KapoorLabs-Lightning-5.2.0.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/71/22/0afc535345fc9cdeebb7841af89516ed29893fe8b1c3048e3810a3c0c17a/wedeliver_core_plus-0.0.1.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/ad/7d/7e1a9594b5ca98b3aa61082e779e97011da13a3023c660b6d1bf8bf5bc0c/Finance-Jindowin-1.2.9.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/96/a5/1053429389e61f6609547ebaf9c74fd2423db3106b23ac0771f7f8b25a9e/pybox-toolkit-0.1.2.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [argo-workflow-tools]: Downloading https://files.pythonhosted.org/packages/e7/77/91abfc4d418c47eb3462c66e8a042e901d96a80a393b0994f21a881c6947/argo-workflow-tools-0.9.7.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/f6/3c/b23c1d4258e4eeba76f1c8c1ca0477db924babbe740cb4f1b4cc53c42c98/UnlimitedGPT-0.1.4.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/e5/1a/8b7d858fb6956556f3a17480cb2340401d2ee4b57cf6d67021bef181683a/KapoorLabs-Lightning-5.2.2.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [KapoorLabs-Lightning]: executing diffoscope
+[2023-06-11 14:23:26] INFO root fetch - processPackages [KapoorLabs-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KapoorLabs-Lightning-5.2.0.tar.gz tmp/KapoorLabs-Lightning-5.2.2.tar.gz --markdown 20230611/K/KapoorLabs-Lightning/5.2.0-5.2.2/diff.md --exclude *.pyd
+[2023-06-11 14:23:26] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/4a/c2/cbe870cbbe7276c64964db7b727de492671eecc002f8b765432912cb4d6f/Finance-Jindowin-1.3.0.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/aa/4f/7fa8f6c72981b59a68e17239f1ab6917b507551c89c4c931ca2eb541d534/pybox-toolkit-0.1.6.dev4.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [Finance-Jindowin]: executing diffoscope
+[2023-06-11 14:23:26] INFO root fetch - processPackages [Finance-Jindowin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Jindowin-1.2.9.tar.gz tmp/Finance-Jindowin-1.3.0.tar.gz --markdown 20230611/F/Finance-Jindowin/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-11 14:23:26] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/8e/58/c7d341336ce1bbf17888cc8bc7a1ffbd686ef38ad88a8ea1c1b6af37f667/UnlimitedGPT-0.1.5.tar.gz
+[2023-06-11 14:23:26] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-11 14:23:27] INFO root fetch - processPackages [UnlimitedGPT]: executing diffoscope
+[2023-06-11 14:23:27] INFO root fetch - processPackages [UnlimitedGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnlimitedGPT-0.1.4.tar.gz tmp/UnlimitedGPT-0.1.5.tar.gz --markdown 20230611/U/UnlimitedGPT/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 14:23:27] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-11 14:23:27] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.2.tar.gz tmp/pybox-toolkit-0.1.6.dev4.tar.gz --markdown 20230611/p/pybox-toolkit/0.1.2-0.1.6.dev4/diff.md --exclude *.pyd
+[2023-06-11 14:23:27] INFO root fetch - processPackages [argo-workflow-tools]: Downloading https://files.pythonhosted.org/packages/f8/c1/27f67092252b85d8c0fcad88a7b20bd4eba7b208cfc43ff772e6c775c9ce/argo-workflow-tools-0.9.9.tar.gz
+[2023-06-11 14:23:27] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-11 14:23:27] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230611/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-11 14:23:27] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/0d/b8/f4451a882fc3b48ba2f967e1666644dbe00356a8a9a6ba6bec467ded9812/wedeliver_core_plus-0.0.2.tar.gz
+[2023-06-11 14:23:27] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2023-06-11 14:23:27] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.0.1.tar.gz tmp/wedeliver_core_plus-0.0.2.tar.gz --markdown 20230611/w/wedeliver-core-plus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 14:23:27] INFO root fetch - processPackages [argo-workflow-tools]: executing diffoscope
+[2023-06-11 14:23:27] INFO root fetch - processPackages [argo-workflow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo-workflow-tools-0.9.7.tar.gz tmp/argo-workflow-tools-0.9.9.tar.gz --markdown 20230611/a/argo-workflow-tools/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 14:23:28] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.0.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.2.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning]: success
+[2023-06-11 14:23:28] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.2.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.6.dev4.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-11 14:23:28] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.4.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.5.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [UnlimitedGPT]: success
+[2023-06-11 14:23:28] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-11 14:23:28] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.1.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.2.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2023-06-11 14:23:28] INFO root fetch - processPackages [argo-workflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflow-tools-0.9.7.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [argo-workflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflow-tools-0.9.9.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [argo-workflow-tools]: success
+[2023-06-11 14:23:28] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Jindowin-1.2.9.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Jindowin-1.3.0.tar.gz]
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: End processing [Finance-Jindowin]: success
+[2023-06-11 14:23:28] INFO root fetch - main [MainThread]: Store serial: [18457893]
