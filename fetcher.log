@@ -2097,3 +2097,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-06-11 02:58:54] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-06-11 02:58:54] INFO root fetch - main [MainThread]: Store serial: [18454952]
+[2023-06-11 03:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454952]
+[2023-06-11 03:04:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 03:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bhv
+[2023-06-11 03:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte
+[2023-06-11 03:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-06-11 03:04:02] INFO root fetch - processPackages [bhv]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-11 03:04:02] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-11 03:04:02] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-06-11 03:04:02] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/2d/c1/a08ef9e2585c9bad709d37c7c4d847dcf59aa559c8e2ca09854ad8b98080/bhv-0.5.6.tar.gz
+[2023-06-11 03:04:02] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-11 03:04:03] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/8e/8b/853758edf1ff27430fc53dc86bfab47b6607777686e377ee344a0360d0e7/bhv-0.5.7.tar.gz
+[2023-06-11 03:04:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-11 03:04:03] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-06-11 03:04:03] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-11 03:04:03] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.5.6.tar.gz tmp/bhv-0.5.7.tar.gz --markdown 20230611/b/bhv/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-11 03:04:03] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-06-11 03:04:03] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230611/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-11 03:04:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-11 03:04:04] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.6.tar.gz]
+[2023-06-11 03:04:04] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.7.tar.gz]
+[2023-06-11 03:04:04] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-11 03:04:04] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-11 03:04:04] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230611/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-11 03:04:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-11 03:04:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-11 03:04:05] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-11 03:04:05] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-06-11 03:04:05] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-06-11 03:04:05] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-06-11 03:04:05] INFO root fetch - main [MainThread]: Store serial: [18454960]
