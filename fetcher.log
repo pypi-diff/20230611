@@ -12879,3 +12879,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:54:39] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-11 19:54:39] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-11 19:54:39] INFO root fetch - main [MainThread]: Store serial: [18459907]
+[2023-06-11 19:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459907]
+[2023-06-11 19:59:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backupp
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wxee
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backupp
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Myplayer
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: templateMF
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KucoinPy
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tryangle
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bionty
+[2023-06-11 19:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KucoinPy
+[2023-06-11 19:59:49] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-11 19:59:49] INFO root fetch - processPackages [wxee]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-11 19:59:49] WARNING root fetch - processPackages [backupp]: Skipping, unable to determine old version
+[2023-06-11 19:59:49] INFO root fetch - main [MainThread]: End processing [backupp] error
+[2023-06-11 19:59:49] WARNING root fetch - processPackages [backupp]: Skipping, unable to determine old version
+[2023-06-11 19:59:49] WARNING root fetch - processPackages [Myplayer]: Skipping, unable to determine old version
+[2023-06-11 19:59:49] INFO root fetch - processPackages [tryangle]: New version: [0.2.2.dev0] Old Version: [0.2.1]
+[2023-06-11 19:59:49] INFO root fetch - main [MainThread]: End processing [backupp] error
+[2023-06-11 19:59:49] WARNING root fetch - processPackages [KucoinPy]: Skipping, unable to determine old version
+[2023-06-11 19:59:49] INFO root fetch - main [MainThread]: End processing [Myplayer] error
+[2023-06-11 19:59:49] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [templateMF]: New version: [0.2] Old Version: [0.1]
+[2023-06-11 19:59:49] WARNING root fetch - processPackages [KucoinPy]: Skipping, unable to determine old version
+[2023-06-11 19:59:49] INFO root fetch - main [MainThread]: End processing [KucoinPy] error
+[2023-06-11 19:59:49] INFO root fetch - main [MainThread]: End processing [KucoinPy] error
+[2023-06-11 19:59:49] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [wxee]: Downloading https://files.pythonhosted.org/packages/d1/5c/5848143e291123c1065d4c3d00ab0f40af6c2b312bbae7587d6340db9f48/wxee-0.3.3.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [tryangle]: Downloading https://files.pythonhosted.org/packages/75/90/dda85faa95814a0d494a239327cff0ff67ee5c4f9ff97cd6506d1079e91f/tryangle-0.2.1.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [templateMF]: Downloading https://files.pythonhosted.org/packages/06/e5/73a0bc94821f818ed0c951c8f870008d0fef7c61a0344f86d9873740f8b9/templateMF-0.1.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-11 19:59:49] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230611/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-11 19:59:49] INFO root fetch - processPackages [templateMF]: Downloading https://files.pythonhosted.org/packages/87/d6/04dccd6e725f9e712dbb30d3beb8f7673ff19f729eedd6cbf473a4cf0831/templateMF-0.2.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [tryangle]: Downloading https://files.pythonhosted.org/packages/5e/bd/60bb536068ee8c6d3a8eb97d25bee93edf80faffc13a4aa6b5c45b0b3c7f/tryangle-0.2.2.dev0.tar.gz
+[2023-06-11 19:59:49] INFO root fetch - processPackages [templateMF]: executing diffoscope
+[2023-06-11 19:59:49] INFO root fetch - processPackages [templateMF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templateMF-0.1.tar.gz tmp/templateMF-0.2.tar.gz --markdown 20230611/t/templateMF/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-11 19:59:49] INFO root fetch - processPackages [tryangle]: executing diffoscope
+[2023-06-11 19:59:49] INFO root fetch - processPackages [tryangle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryangle-0.2.1.tar.gz tmp/tryangle-0.2.2.dev0.tar.gz --markdown 20230611/t/tryangle/0.2.1-0.2.2.dev0/diff.md --exclude *.pyd
+[2023-06-11 19:59:49] INFO root fetch - processPackages [wxee]: Downloading https://files.pythonhosted.org/packages/aa/79/3bb221dc31ff19373c4c2cb4ee78b9874489ed0a376a20667710800b1f9a/wxee-0.4.0.tar.gz
+[2023-06-11 19:59:50] INFO root fetch - processPackages [wxee]: executing diffoscope
+[2023-06-11 19:59:50] INFO root fetch - processPackages [wxee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxee-0.3.3.tar.gz tmp/wxee-0.4.0.tar.gz --markdown 20230611/w/wxee/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 19:59:50] INFO root fetch - processPackages [templateMF]: Remove: archive file [/home/abi/fetcher/tmp/templateMF-0.1.tar.gz]
+[2023-06-11 19:59:50] INFO root fetch - processPackages [templateMF]: Remove: archive file [/home/abi/fetcher/tmp/templateMF-0.2.tar.gz]
+[2023-06-11 19:59:50] INFO root fetch - main [MainThread]: End processing [templateMF]: success
+[2023-06-11 19:59:50] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-06-11 19:59:50] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-06-11 19:59:50] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-11 19:59:51] INFO root fetch - processPackages [wxee]: Remove: archive file [/home/abi/fetcher/tmp/wxee-0.3.3.tar.gz]
+[2023-06-11 19:59:51] INFO root fetch - processPackages [wxee]: Remove: archive file [/home/abi/fetcher/tmp/wxee-0.4.0.tar.gz]
+[2023-06-11 19:59:51] INFO root fetch - main [MainThread]: End processing [wxee]: success
+[2023-06-11 19:59:51] INFO root fetch - processPackages [tryangle]: Remove: archive file [/home/abi/fetcher/tmp/tryangle-0.2.1.tar.gz]
+[2023-06-11 19:59:51] INFO root fetch - processPackages [tryangle]: Remove: archive file [/home/abi/fetcher/tmp/tryangle-0.2.2.dev0.tar.gz]
+[2023-06-11 19:59:51] INFO root fetch - main [MainThread]: End processing [tryangle]: success
+[2023-06-11 19:59:51] INFO root fetch - main [MainThread]: Store serial: [18459938]
