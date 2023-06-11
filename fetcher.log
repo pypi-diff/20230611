@@ -9509,3 +9509,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:28:20] INFO root fetch - processPackages [gpgi]: Remove: archive file [/home/abi/fetcher/tmp/gpgi-0.9.0.tar.gz]
 [2023-06-11 15:28:20] INFO root fetch - main [MainThread]: End processing [gpgi]: success
 [2023-06-11 15:28:20] INFO root fetch - main [MainThread]: Store serial: [18458315]
+[2023-06-11 15:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458315]
+[2023-06-11 15:33:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-telegram
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everything2text4prompt
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qetrader
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itables
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prettytable
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiohttp-deps
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UnlimitedGPT
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pip-upload-test2
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quik-ai
+[2023-06-11 15:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taskiq-aiogram
+[2023-06-11 15:33:29] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [itables]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [aiohttp-deps]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-11 15:33:29] WARNING root fetch - processPackages [pip-upload-test2]: Skipping, unable to determine old version
+[2023-06-11 15:33:29] INFO root fetch - processPackages [pip-upload-test2]: Start processing: pycommons-base
+[2023-06-11 15:33:29] WARNING root fetch - processPackages [simple-telegram]: Skipping, unable to determine old version
+[2023-06-11 15:33:29] INFO root fetch - main [MainThread]: End processing [pip-upload-test2] error
+[2023-06-11 15:33:29] INFO root fetch - processPackages [everything2text4prompt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [prettytable]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [simple-telegram]: Start processing: cnvrg
+[2023-06-11 15:33:29] INFO root fetch - main [MainThread]: End processing [simple-telegram] error
+[2023-06-11 15:33:29] INFO root fetch - processPackages [UnlimitedGPT]: New version: [0.1.5.5] Old Version: [0.1.5]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [quik-ai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [taskiq-aiogram]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-11 15:33:29] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/8e/58/c7d341336ce1bbf17888cc8bc7a1ffbd686ef38ad88a8ea1c1b6af37f667/UnlimitedGPT-0.1.5.tar.gz
+[2023-06-11 15:33:29] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/8c/0c/5168848a8a721461379b4fb8f19ebbfdf6aaebce763c31f70bf4508ddeae/quik-ai-1.0.1.tar.gz
+[2023-06-11 15:33:29] WARNING root fetch - processPackages [pycommons-base]: Skipping, unable to determine old version
+[2023-06-11 15:33:29] INFO root fetch - processPackages [pycommons-base]: Start processing: dirigera
+[2023-06-11 15:33:29] INFO root fetch - main [MainThread]: End processing [pycommons-base] error
+[2023-06-11 15:33:30] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/6d/ea/020b98c0556ec80e077b2e0d9f8993c0483178e22758b39f08dc76630ec3/aiohttp_deps-0.1.4.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [cnvrg]: New version: [0.7.8] Old Version: [0.7.6]
+[2023-06-11 15:33:30] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [itables]: Downloading https://files.pythonhosted.org/packages/e9/31/69ca382733b05d4661561ffdaf03fbc1c7daa81787c1a8d119b9126835c2/itables-1.5.2.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [dirigera]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 15:33:30] INFO root fetch - processPackages [everything2text4prompt]: Downloading https://files.pythonhosted.org/packages/fe/bf/c8ad19322eb8671cf1e62094dd97c439e4d1c530d174d0043936cfc5b610/everything2text4prompt-0.0.8.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [prettytable]: Downloading https://files.pythonhosted.org/packages/95/8d/f6b4448e386eb1382a99cbceabe3899f3aa431992582cc90496843548303/prettytable-3.7.0.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [taskiq-aiogram]: Downloading https://files.pythonhosted.org/packages/fd/47/f264ddc2b57aa28d0e7f12867190166a1f73b0ba9e9e9771e3c2d83c8072/taskiq_aiogram-0.1.0.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/79/f5/45c31747af270b4abc8ff74e6dbb7424cd9b5ae94dd8f5b78a70291d578f/UnlimitedGPT-0.1.5.5.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [cnvrg]: Downloading https://files.pythonhosted.org/packages/25/8d/6e1a4cc3c30d5e0caba6628e1608dfecce41270886ac9f8d4308bac9a37b/cnvrg-0.7.6.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/32/51/126b2c5756edc53da588b847ebd9f66da9059a36807679e78065268fcc25/quik-ai-1.0.2.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/2c/6e/ea274c38e3ca6411ebf685e58ed5b068031633a11225116580d477df6537/dirigera-0.1.8.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/c5/17/42926421211188b7cfe5e303c098ddd012acc6568139c6310fb6096c88a4/aiohttp_deps-0.2.0.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [everything2text4prompt]: Downloading https://files.pythonhosted.org/packages/cd/a9/079e5f3529c4c9f789bbaacecd62ea635721c2728670065cf1d1ab830912/everything2text4prompt-0.0.9.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [itables]: Downloading https://files.pythonhosted.org/packages/39/5a/2381da0de57a68d5ed3365879ae0a330f46faab4f25eeceade1ec102c454/itables-1.5.3.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [taskiq-aiogram]: Downloading https://files.pythonhosted.org/packages/5f/6b/d36d0910907229ff7da9798915959c924efa838bac8b871e4133c414a44c/taskiq_aiogram-0.2.0.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [aiohttp-deps]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [aiohttp-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_deps-0.1.4.tar.gz tmp/aiohttp_deps-0.2.0.tar.gz --markdown 20230611/a/aiohttp-deps/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [quik-ai]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [quik-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik-ai-1.0.1.tar.gz tmp/quik-ai-1.0.2.tar.gz --markdown 20230611/q/quik-ai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [UnlimitedGPT]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [UnlimitedGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnlimitedGPT-0.1.5.tar.gz tmp/UnlimitedGPT-0.1.5.5.tar.gz --markdown 20230611/U/UnlimitedGPT/0.1.5-0.1.5.5/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [prettytable]: Downloading https://files.pythonhosted.org/packages/25/1e/4c284713b092ec384fad4399452f43f6446ad9aabc9c0b3c3c0920cc53b6/prettytable-3.8.0-py3-none-any.whl
+[2023-06-11 15:33:30] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [taskiq-aiogram]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [taskiq-aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aiogram-0.1.0.tar.gz tmp/taskiq_aiogram-0.2.0.tar.gz --markdown 20230611/t/taskiq-aiogram/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [everything2text4prompt]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [everything2text4prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everything2text4prompt-0.0.8.tar.gz tmp/everything2text4prompt-0.0.9.tar.gz --markdown 20230611/e/everything2text4prompt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [itables]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [itables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itables-1.5.2.tar.gz tmp/itables-1.5.3.tar.gz --markdown 20230611/i/itables/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [prettytable]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [prettytable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettytable-3.7.0.tar.gz tmp/prettytable-3.8.0-py3-none-any.whl.zip --markdown 20230611/p/prettytable/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/b0/04/23f48fd0062ded526192609e91bf1d8539acce69e6512a63de664226c770/dirigera-0.1.9.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230611/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 15:33:30] INFO root fetch - processPackages [cnvrg]: Downloading https://files.pythonhosted.org/packages/79/59/9eb5c7dcc776bb37e6176cc41cd7d841749df7943ad2d00b2da59e2d6688/cnvrg-0.7.8.tar.gz
+[2023-06-11 15:33:30] INFO root fetch - processPackages [dirigera]: executing diffoscope
+[2023-06-11 15:33:30] INFO root fetch - processPackages [dirigera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirigera-0.1.8.tar.gz tmp/dirigera-0.1.9.tar.gz --markdown 20230611/d/dirigera/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 15:33:31] INFO root fetch - processPackages [cnvrg]: executing diffoscope
+[2023-06-11 15:33:31] INFO root fetch - processPackages [cnvrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnvrg-0.7.6.tar.gz tmp/cnvrg-0.7.8.tar.gz --markdown 20230611/c/cnvrg/0.7.6-0.7.8/diff.md --exclude *.pyd
+[2023-06-11 15:33:32] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.1.4.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.2.0.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [aiohttp-deps]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.5.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.5.5.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [UnlimitedGPT]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [taskiq-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_aiogram-0.1.0.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [taskiq-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_aiogram-0.2.0.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [taskiq-aiogram]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [everything2text4prompt]: Remove: archive file [/home/abi/fetcher/tmp/everything2text4prompt-0.0.8.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [everything2text4prompt]: Remove: archive file [/home/abi/fetcher/tmp/everything2text4prompt-0.0.9.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [everything2text4prompt]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-1.5.2.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-1.5.3.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [itables]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.1.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.0.2.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [prettytable]: Remove: archive file [/home/abi/fetcher/tmp/prettytable-3.7.0.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [prettytable]: Remove: archive file [/home/abi/fetcher/tmp/prettytable-3.8.0-py3-none-any.whl.zip]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [prettytable]: success
+[2023-06-11 15:33:32] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-0.1.8.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-0.1.9.tar.gz]
+[2023-06-11 15:33:32] INFO root fetch - main [MainThread]: End processing [dirigera]: success
+[2023-06-11 15:33:33] INFO root fetch - processPackages [cnvrg]: Remove: archive file [/home/abi/fetcher/tmp/cnvrg-0.7.6.tar.gz]
+[2023-06-11 15:33:33] INFO root fetch - processPackages [cnvrg]: Remove: archive file [/home/abi/fetcher/tmp/cnvrg-0.7.8.tar.gz]
+[2023-06-11 15:33:33] INFO root fetch - main [MainThread]: End processing [cnvrg]: success
+[2023-06-11 15:33:33] INFO root fetch - main [MainThread]: Store serial: [18458359]
