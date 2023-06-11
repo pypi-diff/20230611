@@ -8917,3 +8917,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:00:52] INFO root fetch - processPackages [mira]: Remove: archive file [/home/abi/fetcher/tmp/mira-0.9.9-py3-none-any.whl.zip]
 [2023-06-11 15:00:52] INFO root fetch - main [MainThread]: End processing [mira]: success
 [2023-06-11 15:00:52] INFO root fetch - main [MainThread]: Store serial: [18458073]
+[2023-06-11 15:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458073]
+[2023-06-11 15:06:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymangaplus
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grnvae
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projectaria-tools-dev
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crdp-gcp
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garmin-ace
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subcmdparse
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskiq-memphis
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lakefs-client
+[2023-06-11 15:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semanticclean
+[2023-06-11 15:06:01] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [grnvae]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [pymangaplus]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [semanticclean]: New version: [0.24] Old Version: [0.23]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [grnvae]: Downloading https://files.pythonhosted.org/packages/4e/08/6647db0808a1cef472a798073c79b6e8ad4b8985b0dd9470271b83dc9518/grnvae-0.0.1.tar.gz
+[2023-06-11 15:06:01] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/fe/66/8b65c07d0fd0f7d2b5ad0915226073d1ffc3f01ea11b4b04375186492d66/semanticclean-0.23.tar.gz
+[2023-06-11 15:06:01] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2b/d5/5672089cb0fb441d25de7fae82156f1d95d0690e4e0c9966090f2a6185c5/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-11 15:06:01] INFO root fetch - processPackages [subcmdparse]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [projectaria-tools-dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-11 15:06:01] WARNING root fetch - processPackages [crdp-gcp]: Skipping, unable to determine old version
+[2023-06-11 15:06:01] INFO root fetch - processPackages [crdp-gcp]: Start processing: codesnipper
+[2023-06-11 15:06:01] INFO root fetch - main [MainThread]: End processing [crdp-gcp] error
+[2023-06-11 15:06:01] INFO root fetch - processPackages [taskiq-memphis]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a7] Old Version: [0.0.1a6]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [lakefs-client]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-11 15:06:01] INFO root fetch - processPackages [grnvae]: Downloading https://files.pythonhosted.org/packages/b1/46/f651a0b34e4b6a692cbc3ee28f84b3dab47d86d78eec8875f09dd91c342a/grnvae-0.0.2.tar.gz
+[2023-06-11 15:06:01] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/90/d2/247eee8ce4cafa43cf7659ab3e43cae6bc28fd4b3e802c64655ae0c0e5be/semanticclean-0.24.tar.gz
+[2023-06-11 15:06:01] INFO root fetch - processPackages [codesnipper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 15:06:02] INFO root fetch - processPackages [pymangaplus]: Downloading https://files.pythonhosted.org/packages/1b/23/c7abcc17f1cd7653d1cf8a671f6b02621e3808624311e40a85460f14aaad/pymangaplus-1.1.1.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [subcmdparse]: Downloading https://files.pythonhosted.org/packages/ff/7c/03a4b9b2b90b231c5e177b8b5f3af1a2cd2c807cd68c44daa8d1418aa827/subcmdparse-0.1.4.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [taskiq-memphis]: Downloading https://files.pythonhosted.org/packages/82/38/e955f98fe593902c5f67d7f7ecdd402f0bc977cae5e9d191aaad3006924b/taskiq_memphis-0.1.0.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [grnvae]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [grnvae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grnvae-0.0.1.tar.gz tmp/grnvae-0.0.2.tar.gz --markdown 20230611/g/grnvae/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9c/1e/dba96388194f18061dcca86ef0f59a081be95bfec2b1140e3e6ab1e8ce47/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-11 15:06:02] INFO root fetch - processPackages [projectaria-tools-dev]: Downloading https://files.pythonhosted.org/packages/04/ab/4c2674249fb0e5281ad41344779777cc9d96640105c261a65d596dcc3ad3/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 15:06:02] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/9d/f8/6a3c23836f67c90a07d4cece6879699e0c60a6c658447f77e8c877feef06/garmin_ace-0.0.1a6.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/c5/bb/8542923ae8800e3f29c62ec877e8a90f750895f91e36e4db59939024a194/lakefs-client-0.98.0.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.23.tar.gz tmp/semanticclean-0.24.tar.gz --markdown 20230611/s/semanticclean/0.23-0.24/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [codesnipper]: Downloading https://files.pythonhosted.org/packages/65/d9/de05aee394ce1c78ccb349444481193ec865390ada7522b386dd36d2df9f/codesnipper-0.1.8.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230611/f/fbgemm-gpu-nightly-cpu/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [taskiq-memphis]: Downloading https://files.pythonhosted.org/packages/1a/b1/238e44ad6256fd07a11a6e180f24d4654e0cbef0b197f07fb25dc442ba61/taskiq_memphis-0.2.0.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [subcmdparse]: Downloading https://files.pythonhosted.org/packages/9e/66/44674e6f4e31b5439d0d8c1d596e52207d4696a1a59e248dcd0aa66cfa64/subcmdparse-0.1.5.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [pymangaplus]: Downloading https://files.pythonhosted.org/packages/b6/7b/84817ac7e23f9db6b490c7ef648e6d8aca191087afe58111d96240eafcf3/pymangaplus-1.1.2.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [taskiq-memphis]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [taskiq-memphis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_memphis-0.1.0.tar.gz tmp/taskiq_memphis-0.2.0.tar.gz --markdown 20230611/t/taskiq-memphis/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [subcmdparse]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [subcmdparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subcmdparse-0.1.4.tar.gz tmp/subcmdparse-0.1.5.tar.gz --markdown 20230611/s/subcmdparse/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/9b/8b/997cabad4ddf612ef0f19962d255be8eba9105fe2aa57b43631a3530de63/garmin_ace-0.0.1a7.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [pymangaplus]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [pymangaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymangaplus-1.1.1.tar.gz tmp/pymangaplus-1.1.2.tar.gz --markdown 20230611/p/pymangaplus/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/fc/59/0329ad02ba104cb0a0ae44e4628d60eddc1222a0826f7a805f1a20bca946/lakefs-client-0.99.0.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [projectaria-tools-dev]: Downloading https://files.pythonhosted.org/packages/92/d9/b7cad6f9072599d7517ae36888435ec826c9f3c09b56ee546b01e0df80a7/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 15:06:02] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a6.tar.gz tmp/garmin_ace-0.0.1a7.tar.gz --markdown 20230611/g/garmin-ace/0.0.1a6-0.0.1a7/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-0.98.0.tar.gz tmp/lakefs-client-0.99.0.tar.gz --markdown 20230611/l/lakefs-client/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [projectaria-tools-dev]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [projectaria-tools-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/p/projectaria-tools-dev/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 15:06:02] INFO root fetch - processPackages [codesnipper]: Downloading https://files.pythonhosted.org/packages/e3/a7/e4e37561040f5cfb9ce25a151c9d8d2ef413ac81e59f80f16350ceab4b94/codesnipper-0.1.9.tar.gz
+[2023-06-11 15:06:02] INFO root fetch - processPackages [codesnipper]: executing diffoscope
+[2023-06-11 15:06:02] INFO root fetch - processPackages [codesnipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codesnipper-0.1.8.tar.gz tmp/codesnipper-0.1.9.tar.gz --markdown 20230611/c/codesnipper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 15:06:03] INFO root fetch - processPackages [grnvae]: Remove: archive file [/home/abi/fetcher/tmp/grnvae-0.0.1.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - processPackages [grnvae]: Remove: archive file [/home/abi/fetcher/tmp/grnvae-0.0.2.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - main [MainThread]: End processing [grnvae]: success
+[2023-06-11 15:06:03] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.23.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.24.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 15:06:03] INFO root fetch - processPackages [taskiq-memphis]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_memphis-0.1.0.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - processPackages [taskiq-memphis]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_memphis-0.2.0.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - main [MainThread]: End processing [taskiq-memphis]: success
+[2023-06-11 15:06:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.8-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-11 15:06:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.9-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-11 15:06:03] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-11 15:06:03] INFO root fetch - processPackages [subcmdparse]: Remove: archive file [/home/abi/fetcher/tmp/subcmdparse-0.1.4.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - processPackages [subcmdparse]: Remove: archive file [/home/abi/fetcher/tmp/subcmdparse-0.1.5.tar.gz]
+[2023-06-11 15:06:03] INFO root fetch - main [MainThread]: End processing [subcmdparse]: success
+[2023-06-11 15:06:04] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a6.tar.gz]
+[2023-06-11 15:06:04] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a7.tar.gz]
+[2023-06-11 15:06:04] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-11 15:06:04] INFO root fetch - processPackages [codesnipper]: Remove: archive file [/home/abi/fetcher/tmp/codesnipper-0.1.8.tar.gz]
+[2023-06-11 15:06:04] INFO root fetch - processPackages [codesnipper]: Remove: archive file [/home/abi/fetcher/tmp/codesnipper-0.1.9.tar.gz]
+[2023-06-11 15:06:04] INFO root fetch - main [MainThread]: End processing [codesnipper]: success
+[2023-06-11 15:06:04] INFO root fetch - processPackages [pymangaplus]: Remove: archive file [/home/abi/fetcher/tmp/pymangaplus-1.1.1.tar.gz]
+[2023-06-11 15:06:04] INFO root fetch - processPackages [pymangaplus]: Remove: archive file [/home/abi/fetcher/tmp/pymangaplus-1.1.2.tar.gz]
+[2023-06-11 15:06:04] INFO root fetch - main [MainThread]: End processing [pymangaplus]: success
+[2023-06-11 15:06:07] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-0.98.0.tar.gz]
+[2023-06-11 15:06:07] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-0.99.0.tar.gz]
+[2023-06-11 15:06:07] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2023-06-11 15:06:55] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 15:06:55] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 15:06:55] INFO root fetch - main [MainThread]: End processing [projectaria-tools-dev]: success
+[2023-06-11 15:06:55] INFO root fetch - main [MainThread]: Store serial: [18458115]
