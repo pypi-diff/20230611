@@ -14561,3 +14561,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:28:36] INFO root fetch - processPackages [pysteps]: Remove: archive file [/home/abi/fetcher/tmp/pysteps-1.7.4.tar.gz]
 [2023-06-11 22:28:36] INFO root fetch - main [MainThread]: End processing [pysteps]: success
 [2023-06-11 22:28:36] INFO root fetch - main [MainThread]: Store serial: [18460707]
+[2023-06-11 22:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460707]
+[2023-06-11 22:33:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybart-nlp
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alpaca-farm
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typeapi
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whisper_spln
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeastmlp
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alpaca-farm
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: argparse-dataclass
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openrpc
+[2023-06-11 22:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gascompressibility
+[2023-06-11 22:33:45] INFO root fetch - processPackages [pybart-nlp]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-11 22:33:45] WARNING root fetch - processPackages [alpaca-farm]: Skipping, unable to determine old version
+[2023-06-11 22:33:45] INFO root fetch - main [MainThread]: End processing [alpaca-farm] error
+[2023-06-11 22:33:45] WARNING root fetch - processPackages [whisper_spln]: Skipping, unable to determine old version
+[2023-06-11 22:33:45] INFO root fetch - main [MainThread]: End processing [whisper_spln] error
+[2023-06-11 22:33:45] WARNING root fetch - processPackages [yeastmlp]: Skipping, unable to determine old version
+[2023-06-11 22:33:45] INFO root fetch - main [MainThread]: End processing [yeastmlp] error
+[2023-06-11 22:33:45] WARNING root fetch - processPackages [alpaca-farm]: Skipping, unable to determine old version
+[2023-06-11 22:33:45] INFO root fetch - main [MainThread]: End processing [alpaca-farm] error
+[2023-06-11 22:33:45] INFO root fetch - processPackages [typeapi]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-06-11 22:33:45] INFO root fetch - processPackages [openrpc]: New version: [6.3.9] Old Version: [6.3.17]
+[2023-06-11 22:33:45] INFO root fetch - processPackages [argparse-dataclass]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-11 22:33:45] INFO root fetch - processPackages [gascompressibility]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-11 22:33:45] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/52/d0/1be95d06950c19f19273bf188c49ace8d78f161c67dad103c16c53449e11/pybart-nlp-3.4.5.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/16/08/c701b0e8fc57751b5e0fe7f3a58f800d8121552eb4421155d91a103d1686/typeapi-1.4.3.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [openrpc]: Downloading https://files.pythonhosted.org/packages/13/4e/3c6eb7d46b9c6618e520d046a211425e6ce55ab8c6fae18196234796b3e4/openrpc-6.3.17.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [argparse-dataclass]: Downloading https://files.pythonhosted.org/packages/22/14/e0b7ffd50b53df8999c1ffb96510de6c1be71abbd0dde3c2d72b8b63e2ab/argparse_dataclass-1.0.0.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/28/7b/40a428dbc33c78fc83c9c4310c3626950c1c892b7e3f8acea90b6475459f/gascompressibility-0.0.3.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/9f/ce/117c6229f15e8d7d734a5e66486ca3cc69c2f20ec4301e48721010ce5824/pybart-nlp-3.4.6.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/c9/2a/6f0df8180741ff2ccf5176822299e09a3bcb7411933a631ce239788ba524/typeapi-1.5.0.tar.gz
+[2023-06-11 22:33:45] INFO root fetch - processPackages [argparse-dataclass]: Downloading https://files.pythonhosted.org/packages/1a/ff/a2e4e328075ddef2ac3c9431eb12247e4ba707a70324894f1e6b4f43c286/argparse_dataclass-2.0.0.tar.gz
+[2023-06-11 22:33:46] INFO root fetch - processPackages [pybart-nlp]: executing diffoscope
+[2023-06-11 22:33:46] INFO root fetch - processPackages [pybart-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybart-nlp-3.4.5.tar.gz tmp/pybart-nlp-3.4.6.tar.gz --markdown 20230611/p/pybart-nlp/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-11 22:33:46] INFO root fetch - processPackages [typeapi]: executing diffoscope
+[2023-06-11 22:33:46] INFO root fetch - processPackages [typeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeapi-1.4.3.tar.gz tmp/typeapi-1.5.0.tar.gz --markdown 20230611/t/typeapi/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-06-11 22:33:46] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/b2/b4/df933726349311bcc16426ae39c9ffc8904f5f95f7e2ee1e69f72869bcf8/gascompressibility-0.1.0.tar.gz
+[2023-06-11 22:33:46] INFO root fetch - processPackages [openrpc]: Downloading https://files.pythonhosted.org/packages/ef/94/fdd388ce588eb41903df09b10feefe76523e9602f0a822048c7355bd453c/openrpc-6.3.9.tar.gz
+[2023-06-11 22:33:46] INFO root fetch - processPackages [argparse-dataclass]: executing diffoscope
+[2023-06-11 22:33:46] INFO root fetch - processPackages [argparse-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparse_dataclass-1.0.0.tar.gz tmp/argparse_dataclass-2.0.0.tar.gz --markdown 20230611/a/argparse-dataclass/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-11 22:33:46] INFO root fetch - processPackages [gascompressibility]: executing diffoscope
+[2023-06-11 22:33:46] INFO root fetch - processPackages [gascompressibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gascompressibility-0.0.3.tar.gz tmp/gascompressibility-0.1.0.tar.gz --markdown 20230611/g/gascompressibility/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-11 22:33:46] INFO root fetch - processPackages [openrpc]: executing diffoscope
+[2023-06-11 22:33:46] INFO root fetch - processPackages [openrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrpc-6.3.17.tar.gz tmp/openrpc-6.3.9.tar.gz --markdown 20230611/o/openrpc/6.3.17-6.3.9/diff.md --exclude *.pyd
+[2023-06-11 22:33:47] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.5.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.6.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - main [MainThread]: End processing [pybart-nlp]: success
+[2023-06-11 22:33:47] INFO root fetch - processPackages [argparse-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/argparse_dataclass-1.0.0.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - processPackages [argparse-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/argparse_dataclass-2.0.0.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - main [MainThread]: End processing [argparse-dataclass]: success
+[2023-06-11 22:33:47] INFO root fetch - processPackages [openrpc]: Remove: archive file [/home/abi/fetcher/tmp/openrpc-6.3.17.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - processPackages [openrpc]: Remove: archive file [/home/abi/fetcher/tmp/openrpc-6.3.9.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - main [MainThread]: End processing [openrpc]: success
+[2023-06-11 22:33:47] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.0.3.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.0.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - main [MainThread]: End processing [gascompressibility]: success
+[2023-06-11 22:33:47] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-1.4.3.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-1.5.0.tar.gz]
+[2023-06-11 22:33:47] INFO root fetch - main [MainThread]: End processing [typeapi]: success
+[2023-06-11 22:33:47] INFO root fetch - main [MainThread]: Store serial: [18460742]
