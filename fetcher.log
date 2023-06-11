@@ -10587,3 +10587,14 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:54:31] INFO root fetch - processPackages [qrl]: Remove: archive file [/home/abi/fetcher/tmp/qrl-4.0.2.tar.gz]
 [2023-06-11 16:54:31] INFO root fetch - main [MainThread]: End processing [qrl]: success
 [2023-06-11 16:54:31] INFO root fetch - main [MainThread]: Store serial: [18458774]
+[2023-06-11 16:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458774]
+[2023-06-11 16:59:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pronounspageviewer
+[2023-06-11 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-11 16:59:41] WARNING root fetch - processPackages [pronounspageviewer]: Skipping, unable to determine old version
+[2023-06-11 16:59:41] INFO root fetch - main [MainThread]: End processing [pronounspageviewer] error
+[2023-06-11 16:59:41] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 16:59:41] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 16:59:41] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 16:59:41] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 16:59:41] INFO root fetch - main [MainThread]: Store serial: [18458783]
