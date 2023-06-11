@@ -12186,3 +12186,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:46:38] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.41.4.tar.gz]
 [2023-06-11 18:46:38] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
 [2023-06-11 18:46:38] INFO root fetch - main [MainThread]: Store serial: [18459478]
+[2023-06-11 18:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459478]
+[2023-06-11 18:51:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 18:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seunggabi-core-python
+[2023-06-11 18:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flojoy
+[2023-06-11 18:51:47] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-06-11 18:51:47] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-11 18:51:47] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-06-11 18:51:47] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/ea/ae/0e2705c550fafc313df891825de67d3959a6f5f27b1019562e435bc5ad9c/seunggabi_core_python-0.2.0.tar.gz
+[2023-06-11 18:51:47] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-06-11 18:51:47] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-06-11 18:51:47] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230611/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-06-11 18:51:47] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/1d/f6/88da8275273c2d06529af047878d1fb8373d42993d599daf29cefb1ff013/seunggabi_core_python-0.2.1.tar.gz
+[2023-06-11 18:51:48] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-06-11 18:51:48] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.2.0.tar.gz tmp/seunggabi_core_python-0.2.1.tar.gz --markdown 20230611/s/seunggabi-core-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-11 18:51:48] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-06-11 18:51:48] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-06-11 18:51:48] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-06-11 18:51:49] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.0.tar.gz]
+[2023-06-11 18:51:49] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.1.tar.gz]
+[2023-06-11 18:51:49] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-06-11 18:51:49] INFO root fetch - main [MainThread]: Store serial: [18459484]
