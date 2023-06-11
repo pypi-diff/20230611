@@ -6029,3 +6029,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:44:30] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230610-py2.py3-none-any.whl.zip]
 [2023-06-11 10:44:30] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-06-11 10:44:30] INFO root fetch - main [MainThread]: Store serial: [18456663]
+[2023-06-11 10:49:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456663]
+[2023-06-11 10:49:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 10:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-06-11 10:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fortepyan
+[2023-06-11 10:49:39] INFO root fetch - processPackages [fortepyan]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 10:49:39] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-11 10:49:39] INFO root fetch - processPackages [fortepyan]: Downloading https://files.pythonhosted.org/packages/6b/8f/acc0a3540ce9df8c84c1de78fa9309b3df94b19835477082040ba86e6f43/fortepyan-0.1.8.tar.gz
+[2023-06-11 10:49:39] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-11 10:49:39] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-11 10:49:39] INFO root fetch - processPackages [fortepyan]: Downloading https://files.pythonhosted.org/packages/10/43/e751a2d31edbab331fe506b78429a112592bfd63cb8b68c25e4d6de63188/fortepyan-0.1.9.tar.gz
+[2023-06-11 10:49:39] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-11 10:49:39] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230611/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-11 10:49:39] INFO root fetch - processPackages [fortepyan]: executing diffoscope
+[2023-06-11 10:49:39] INFO root fetch - processPackages [fortepyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortepyan-0.1.8.tar.gz tmp/fortepyan-0.1.9.tar.gz --markdown 20230611/f/fortepyan/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 10:49:40] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.8.tar.gz]
+[2023-06-11 10:49:40] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.9.tar.gz]
+[2023-06-11 10:49:40] INFO root fetch - main [MainThread]: End processing [fortepyan]: success
+[2023-06-11 10:49:57] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-11 10:49:57] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-11 10:49:57] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-11 10:49:57] INFO root fetch - main [MainThread]: Store serial: [18456668]
