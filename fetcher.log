@@ -5331,3 +5331,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:59:38] INFO root fetch - processPackages [realtouch]: Remove: archive file [/home/abi/fetcher/tmp/realtouch-0.1.8.tar.gz]
 [2023-06-11 08:59:38] INFO root fetch - main [MainThread]: End processing [realtouch]: success
 [2023-06-11 08:59:38] INFO root fetch - main [MainThread]: Store serial: [18456400]
+[2023-06-11 09:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456400]
+[2023-06-11 09:04:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 09:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-twitter
+[2023-06-11 09:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-06-11 09:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bumbo-lera
+[2023-06-11 09:04:47] INFO root fetch - processPackages [bumbo-lera]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 09:04:47] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-11 09:04:47] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-11 09:04:47] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-11 09:04:47] INFO root fetch - processPackages [bumbo-lera]: Downloading https://files.pythonhosted.org/packages/c7/75/4ded227e02d8109c00e929d8a13f3e32e61713eb514ea04f380154748535/bumbo_lera-0.0.1.tar.gz
+[2023-06-11 09:04:47] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-11 09:04:47] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/bc/3b/c5244b27e99139d61f20b384587e60c1e5fd98eda5f600eecd2e81d05bef/nonebot-plugin-twitter-0.1.0.tar.gz
+[2023-06-11 09:04:48] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-11 09:04:48] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230611/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-11 09:04:48] INFO root fetch - processPackages [bumbo-lera]: Downloading https://files.pythonhosted.org/packages/1a/b7/e5d81f7e37824a65e4c7836c40a1a4dbca75b07157a9a9cef6eb4906ba8b/bumbo_lera-0.0.2.tar.gz
+[2023-06-11 09:04:48] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/37/32/52c2a52e6186cb78ee3dabc8eb36c1f90407be28a0eebc8d0d0c04d208c0/nonebot-plugin-twitter-0.1.2.tar.gz
+[2023-06-11 09:04:48] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-11 09:04:48] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.1.0.tar.gz tmp/nonebot-plugin-twitter-0.1.2.tar.gz --markdown 20230611/n/nonebot-plugin-twitter/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 09:04:48] INFO root fetch - processPackages [bumbo-lera]: executing diffoscope
+[2023-06-11 09:04:48] INFO root fetch - processPackages [bumbo-lera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumbo_lera-0.0.1.tar.gz tmp/bumbo_lera-0.0.2.tar.gz --markdown 20230611/b/bumbo-lera/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 09:04:49] INFO root fetch - processPackages [bumbo-lera]: Remove: archive file [/home/abi/fetcher/tmp/bumbo_lera-0.0.1.tar.gz]
+[2023-06-11 09:04:49] INFO root fetch - processPackages [bumbo-lera]: Remove: archive file [/home/abi/fetcher/tmp/bumbo_lera-0.0.2.tar.gz]
+[2023-06-11 09:04:49] INFO root fetch - main [MainThread]: End processing [bumbo-lera]: success
+[2023-06-11 09:04:49] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.0.tar.gz]
+[2023-06-11 09:04:49] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.2.tar.gz]
+[2023-06-11 09:04:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-11 09:04:49] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-11 09:04:49] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-11 09:04:49] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-11 09:04:49] INFO root fetch - main [MainThread]: Store serial: [18456411]
