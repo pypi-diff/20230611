@@ -11469,3 +11469,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:58:32] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.99.tar.gz]
 [2023-06-11 17:58:32] INFO root fetch - main [MainThread]: End processing [fhempy]: success
 [2023-06-11 17:58:32] INFO root fetch - main [MainThread]: Store serial: [18459132]
+[2023-06-11 18:03:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459132]
+[2023-06-11 18:03:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-random-draw
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hummuspy
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxtils
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ayla-iot-unofficial
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hardyweinbergcalculator
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grblhud
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tapescript
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: came
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: postnormalism
+[2023-06-11 18:03:41] INFO root fetch - processPackages [dxtils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [ayla-iot-unofficial]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [came]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [grblhud]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [nonebot-plugin-random-draw]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [yeref]: New version: [0.1.86] Old Version: [0.1.84]
+[2023-06-11 18:03:41] WARNING root fetch - processPackages [tapescript]: Skipping, unable to determine old version
+[2023-06-11 18:03:41] INFO root fetch - processPackages [tapescript]: Start processing: BioSAK
+[2023-06-11 18:03:41] INFO root fetch - main [MainThread]: End processing [tapescript] error
+[2023-06-11 18:03:41] INFO root fetch - processPackages [postnormalism]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [BioSAK]: New version: [1.68.0] Old Version: [1.67.0]
+[2023-06-11 18:03:41] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 18:03:42] WARNING root fetch - processPackages [hardyweinbergcalculator]: Skipping, unable to determine old version
+[2023-06-11 18:03:42] INFO root fetch - processPackages [hardyweinbergcalculator]: Start processing: aiosumma
+[2023-06-11 18:03:42] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator] error
+[2023-06-11 18:03:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/26/d8/62ad3f6547750d40e45be993a39541c2134d72b0a49c540ab24f58c4a44e/yeref-0.1.84.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-11 18:03:42] INFO root fetch - processPackages [ayla-iot-unofficial]: Downloading https://files.pythonhosted.org/packages/2d/bb/d3f0110b3e5be456dadb3f7b351773c280be94fe07f44f20be67eec6298d/ayla_iot_unofficial-1.0.0.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [grblhud]: Downloading https://files.pythonhosted.org/packages/31/2f/989d998df34c62752d3f94d5c9fd380f6b871e232e8cc0162c8de5c469a5/grblhud-1.0.0.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-11 18:03:42] INFO root fetch - processPackages [nonebot-plugin-random-draw]: Downloading https://files.pythonhosted.org/packages/23/0a/f529815de5e8749ca42e85adbb2aed5492bccf7d00eb151e2fb5649acfb4/nonebot_plugin_random_draw-0.0.2.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/39/11/6981fe50c14b8a9ed9b6b92301e088a809ced1eaede0d7a1c1c5a1d6e464/dxtils-0.0.5.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [postnormalism]: Downloading https://files.pythonhosted.org/packages/9f/9b/73ae9cbb279189f1b47547b776fd7685f0a46baa6954d274e5602ac5be06/postnormalism-0.0.3.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/b4/69/16d0f4e5f18a9199efb0ceca6ddde1b1660ef659a1dedf08a21aaad4f556/BioSAK-1.67.0.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [came]: Downloading https://files.pythonhosted.org/packages/3e/63/7c03a565f4617d80abae07b344f4920c8d07d07dc9341ddd4f227f2aad8a/came-0.1.8.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-11 18:03:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/3d/16/6bb135ced8c21f3d24ea4140c331e02bf41bd354955687316003436d9d67/yeref-0.1.86.tar.gz
+[2023-06-11 18:03:42] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21175845>=10485760
+[2023-06-11 18:03:42] WARNING root fetch - processPackages [came]: Skipping package: exceeds size limit 16112181>=10485760
+[2023-06-11 18:03:42] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-06-11 18:03:42] INFO root fetch - main [MainThread]: End processing [came] error
+[2023-06-11 18:03:42] INFO root fetch - processPackages [ayla-iot-unofficial]: Downloading https://files.pythonhosted.org/packages/fa/8c/ca732478703e9294277a125f9ee044d45d72a2965f1b0585f12dfb55ff69/ayla_iot_unofficial-1.0.1.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230611/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.84.tar.gz tmp/yeref-0.1.86.tar.gz --markdown 20230611/y/yeref/0.1.84-0.1.86/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [grblhud]: Downloading https://files.pythonhosted.org/packages/dc/a4/af9c68098a83b8f9d07ff18a30b7f1d9c8e6c3d8267b62119af859096b3c/grblhud-1.0.1.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [dxtils]: Downloading https://files.pythonhosted.org/packages/20/27/cb0b5611686df8f4f50232cb0afca23806e964a48c6287befd0d169538b7/dxtils-0.0.6.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [ayla-iot-unofficial]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [ayla-iot-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayla_iot_unofficial-1.0.0.tar.gz tmp/ayla_iot_unofficial-1.0.1.tar.gz --markdown 20230611/a/ayla-iot-unofficial/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [postnormalism]: Downloading https://files.pythonhosted.org/packages/43/4f/4d60a8a423b7966cbc768b8a43882cee2b9389b91a7ebc6f093f59b2a47d/postnormalism-0.0.4.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [grblhud]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [grblhud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grblhud-1.0.0.tar.gz tmp/grblhud-1.0.1.tar.gz --markdown 20230611/g/grblhud/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [nonebot-plugin-random-draw]: Downloading https://files.pythonhosted.org/packages/33/3a/c8ebc83cd234bda8308f8d94276ae189e642da9f04fb5a802e8ff33cf25a/nonebot_plugin_random_draw-0.1.0.tar.gz
+[2023-06-11 18:03:42] INFO root fetch - processPackages [dxtils]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [dxtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxtils-0.0.5.tar.gz tmp/dxtils-0.0.6.tar.gz --markdown 20230611/d/dxtils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [postnormalism]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [postnormalism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postnormalism-0.0.3.tar.gz tmp/postnormalism-0.0.4.tar.gz --markdown 20230611/p/postnormalism/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 18:03:42] INFO root fetch - processPackages [nonebot-plugin-random-draw]: executing diffoscope
+[2023-06-11 18:03:42] INFO root fetch - processPackages [nonebot-plugin-random-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_random_draw-0.0.2.tar.gz tmp/nonebot_plugin_random_draw-0.1.0.tar.gz --markdown 20230611/n/nonebot-plugin-random-draw/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-11 18:03:43] INFO root fetch - processPackages [dxtils]: Remove: archive file [/home/abi/fetcher/tmp/dxtils-0.0.5.tar.gz]
+[2023-06-11 18:03:43] INFO root fetch - processPackages [dxtils]: Remove: archive file [/home/abi/fetcher/tmp/dxtils-0.0.6.tar.gz]
+[2023-06-11 18:03:43] INFO root fetch - main [MainThread]: End processing [dxtils]: success
+[2023-06-11 18:03:43] INFO root fetch - processPackages [ayla-iot-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/ayla_iot_unofficial-1.0.0.tar.gz]
+[2023-06-11 18:03:43] INFO root fetch - processPackages [ayla-iot-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/ayla_iot_unofficial-1.0.1.tar.gz]
+[2023-06-11 18:03:43] INFO root fetch - main [MainThread]: End processing [ayla-iot-unofficial]: success
+[2023-06-11 18:03:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.84.tar.gz]
+[2023-06-11 18:03:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.86.tar.gz]
+[2023-06-11 18:03:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-11 18:03:44] INFO root fetch - processPackages [grblhud]: Remove: archive file [/home/abi/fetcher/tmp/grblhud-1.0.0.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - processPackages [grblhud]: Remove: archive file [/home/abi/fetcher/tmp/grblhud-1.0.1.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - main [MainThread]: End processing [grblhud]: success
+[2023-06-11 18:03:44] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 18:03:44] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-11 18:03:44] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-11 18:03:44] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-11 18:03:44] INFO root fetch - processPackages [nonebot-plugin-random-draw]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_random_draw-0.0.2.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - processPackages [nonebot-plugin-random-draw]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_random_draw-0.1.0.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-random-draw]: success
+[2023-06-11 18:03:44] INFO root fetch - processPackages [postnormalism]: Remove: archive file [/home/abi/fetcher/tmp/postnormalism-0.0.3.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - processPackages [postnormalism]: Remove: archive file [/home/abi/fetcher/tmp/postnormalism-0.0.4.tar.gz]
+[2023-06-11 18:03:44] INFO root fetch - main [MainThread]: End processing [postnormalism]: success
+[2023-06-11 18:03:44] INFO root fetch - main [MainThread]: Store serial: [18459172]
