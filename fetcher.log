@@ -13766,3 +13766,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:08:11] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.post1.tar.gz]
 [2023-06-11 21:08:11] INFO root fetch - main [MainThread]: End processing [klayout]: success
 [2023-06-11 21:08:11] INFO root fetch - main [MainThread]: Store serial: [18460319]
+[2023-06-11 21:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460319]
+[2023-06-11 21:13:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentoo-update
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hm-pyhelper
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evodflow
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vsc-dm
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: learn-python-ceg-test
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decode-ss
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-static-wordpress
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumiverse-zitadel
+[2023-06-11 21:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: malbrid
+[2023-06-11 21:13:21] INFO root fetch - processPackages [gentoo-update]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 21:13:21] INFO root fetch - processPackages [vsc-dm]: New version: [0.0.1.5237042747] Old Version: [0.0.1.5165137562]
+[2023-06-11 21:13:21] INFO root fetch - processPackages [evodflow]: New version: [0.1.9.2] Old Version: [0.1.9.1]
+[2023-06-11 21:13:21] WARNING root fetch - processPackages [decode-ss]: Skipping, unable to determine old version
+[2023-06-11 21:13:21] WARNING root fetch - processPackages [learn-python-ceg-test]: Skipping, unable to determine old version
+[2023-06-11 21:13:21] INFO root fetch - processPackages [agixt]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-11 21:13:21] INFO root fetch - processPackages [decode-ss]: Start processing: plutous-trade-crypto
+[2023-06-11 21:13:21] INFO root fetch - processPackages [cdk-static-wordpress]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 21:13:21] INFO root fetch - main [MainThread]: End processing [decode-ss] error
+[2023-06-11 21:13:21] INFO root fetch - processPackages [malbrid]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-11 21:13:21] INFO root fetch - main [MainThread]: End processing [learn-python-ceg-test] error
+[2023-06-11 21:13:21] INFO root fetch - processPackages [pulumiverse-zitadel]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-06-11 21:13:21] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-06-11 21:13:21] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 21:13:21] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [vsc-dm]: Downloading https://files.pythonhosted.org/packages/20/13/ab90853f390274b35a3d6b560696b6c816a2f8919b881b4847d4c28f595c/vsc_dm-0.0.1.5165137562-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 21:13:21] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/ed/9d/b40eb5c5bf991efe1b86e7a72dc6ce51e3429a638c43a39ddd73e8f938a5/gentoo-update-0.1.2.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/bb/be/d20322a6568a30a5861516b9a6f51c73a5d891fd8a4c8d6c2c51d153e31a/cdk-static-wordpress-0.1.8.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/df/77/9072191338ef8af2a74cbb96c11d05f29d224fa3bea5b4f2b7d70e4b9319/evodflow-0.1.9.1.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [pulumiverse-zitadel]: Downloading https://files.pythonhosted.org/packages/69/be/b1a62f5ae659ec40cc82809437e5b96da5378e2b2e59683f0649785ae6ae/pulumiverse_zitadel-0.0.12.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/98/e9/13ceeaf77fc450c0ec29440840981078ad86549717add832096e44086ccc/agixt-1.2.3.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [malbrid]: Downloading https://files.pythonhosted.org/packages/b0/40/6327c93a3dedc409b5b22dc478b79ec8e13924a57abfe558927505f0dfb9/malbrid-0.0.7.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/3a/be/cfa5dd0fc21109dd03b683fb05b58495a99acad370effc44701a065bb961/gentoo-update-0.1.3.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-11 21:13:21] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230611/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 21:13:21] INFO root fetch - processPackages [vsc-dm]: Downloading https://files.pythonhosted.org/packages/f6/68/4b2ed6d7efb3601b07ffb6dc616731424e1b3297d6c06c1b93004264fe7d/vsc_dm-0.0.1.5237042747-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 21:13:21] INFO root fetch - processPackages [malbrid]: Downloading https://files.pythonhosted.org/packages/86/ee/74d67df0d832168140de59d7880751529808fb2f80d936a592980fa521f0/malbrid-0.0.8.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/38/63/e54cedccab66bdc8162c4bef920dac0fb23014482ca74da61937c06b1e6f/evodflow-0.1.9.2.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/4c/f6/38d5e5ddf3370f56fb612ccbdf0c7b3a8aa587e85fd6eec51269f0e55a1c/cdk-static-wordpress-0.1.9.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/b0/c1/5cc481aea4c3d3b580007049857db00d9d10026055d9c5111e6913f06acf/agixt-1.2.4.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [pulumiverse-zitadel]: Downloading https://files.pythonhosted.org/packages/a8/86/9f8e4533988bdb18808493851c6312c7ac5bf93ca8a12173b253e3676254/pulumiverse_zitadel-0.0.9.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-06-11 21:13:21] INFO root fetch - processPackages [gentoo-update]: executing diffoscope
+[2023-06-11 21:13:21] INFO root fetch - processPackages [gentoo-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentoo-update-0.1.2.tar.gz tmp/gentoo-update-0.1.3.tar.gz --markdown 20230611/g/gentoo-update/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [malbrid]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [malbrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malbrid-0.0.7.tar.gz tmp/malbrid-0.0.8.tar.gz --markdown 20230611/m/malbrid/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [pulumiverse-zitadel]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [pulumiverse-zitadel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_zitadel-0.0.12.tar.gz tmp/pulumiverse_zitadel-0.0.9.tar.gz --markdown 20230611/p/pulumiverse-zitadel/0.0.12-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [cdk-static-wordpress]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [cdk-static-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-static-wordpress-0.1.8.tar.gz tmp/cdk-static-wordpress-0.1.9.tar.gz --markdown 20230611/c/cdk-static-wordpress/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [evodflow]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [evodflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodflow-0.1.9.1.tar.gz tmp/evodflow-0.1.9.2.tar.gz --markdown 20230611/e/evodflow/0.1.9.1-0.1.9.2/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230611/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.3.tar.gz tmp/agixt-1.2.4.tar.gz --markdown 20230611/a/agixt/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-11 21:13:22] INFO root fetch - processPackages [vsc-dm]: executing diffoscope
+[2023-06-11 21:13:22] INFO root fetch - processPackages [vsc-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsc_dm-0.0.1.5165137562-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/vsc_dm-0.0.1.5237042747-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/v/vsc-dm/0.0.1.5165137562-0.0.1.5237042747/diff.md --exclude *.pyd
+[2023-06-11 21:13:23] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-11 21:13:23] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.2.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.3.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - main [MainThread]: End processing [gentoo-update]: success
+[2023-06-11 21:13:23] INFO root fetch - processPackages [malbrid]: Remove: archive file [/home/abi/fetcher/tmp/malbrid-0.0.7.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - processPackages [malbrid]: Remove: archive file [/home/abi/fetcher/tmp/malbrid-0.0.8.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - main [MainThread]: End processing [malbrid]: success
+[2023-06-11 21:13:23] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.8.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.9.tar.gz]
+[2023-06-11 21:13:23] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress]: success
+[2023-06-11 21:13:25] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.3.tar.gz]
+[2023-06-11 21:13:25] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.4.tar.gz]
+[2023-06-11 21:13:25] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-11 21:13:26] INFO root fetch - processPackages [pulumiverse-zitadel]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_zitadel-0.0.12.tar.gz]
+[2023-06-11 21:13:26] INFO root fetch - processPackages [pulumiverse-zitadel]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_zitadel-0.0.9.tar.gz]
+[2023-06-11 21:13:26] INFO root fetch - main [MainThread]: End processing [pulumiverse-zitadel]: success
+[2023-06-11 21:13:38] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.13.tar.gz]
+[2023-06-11 21:13:38] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
+[2023-06-11 21:13:38] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-06-11 21:13:56] INFO root fetch - processPackages [vsc-dm]: Remove: archive file [/home/abi/fetcher/tmp/vsc_dm-0.0.1.5165137562-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 21:13:56] INFO root fetch - processPackages [vsc-dm]: Remove: archive file [/home/abi/fetcher/tmp/vsc_dm-0.0.1.5237042747-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 21:13:56] INFO root fetch - main [MainThread]: End processing [vsc-dm]: success
+[2023-06-11 21:14:09] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.1.tar.gz]
+[2023-06-11 21:14:09] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.2.tar.gz]
+[2023-06-11 21:14:09] INFO root fetch - main [MainThread]: End processing [evodflow]: success
+[2023-06-11 21:14:09] INFO root fetch - main [MainThread]: Store serial: [18460370]
