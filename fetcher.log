@@ -13577,3 +13577,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:49:12] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.30.tar.gz]
 [2023-06-11 20:49:12] INFO root fetch - main [MainThread]: End processing [maadstml]: success
 [2023-06-11 20:49:12] INFO root fetch - main [MainThread]: Store serial: [18460202]
+[2023-06-11 20:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460202]
+[2023-06-11 20:54:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 20:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maadstml
+[2023-06-11 20:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backupp
+[2023-06-11 20:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-11 20:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rivendellaudio
+[2023-06-11 20:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandocker-lua-filters
+[2023-06-11 20:54:22] INFO root fetch - processPackages [rivendellaudio]: New version: [4.0.0rc4] Old Version: [4.0.0b3]
+[2023-06-11 20:54:22] INFO root fetch - processPackages [backupp]: New version: [0.0.7rc2] Old Version: [0.0.7rc1]
+[2023-06-11 20:54:22] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 20:54:22] INFO root fetch - processPackages [maadstml]: New version: [3.31] Old Version: [3.30]
+[2023-06-11 20:54:22] INFO root fetch - processPackages [pandocker-lua-filters]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-11 20:54:22] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/8f/97/0f9593c01f15c57617c1e585af551693062e3a18c64dbdebf570b7beb964/maadstml-3.30.tar.gz
+[2023-06-11 20:54:22] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 20:54:22] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 20:54:22] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 20:54:22] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/56/05/d08a2f9232de7a2b80357cdcd6a9b5982d9a1c11f79e68ff023fb78bbe45/backupp-0.0.7rc1-py2.py3-none-any.whl
+[2023-06-11 20:54:22] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/aa/36/428a2b79f4eda82138eb1206ae49f31417891fdb69dc1e9b5b1bd9a125b1/pandocker_lua_filters-0.0.22-py3-none-any.whl
+[2023-06-11 20:54:22] INFO root fetch - processPackages [rivendellaudio]: Downloading https://files.pythonhosted.org/packages/45/fe/4978b3d40cb2a715639e86021c6d5580a44e4cc6c1592520212620218b2c/rivendellaudio-4.0.0b3.tar.gz
+[2023-06-11 20:54:22] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/1f/b4/f982ffd0f9dd96db4435bf51a50bb7ae4028e701bcca976cf5c15157a968/maadstml-3.31.tar.gz
+[2023-06-11 20:54:22] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/53/e4/c03952e19257fbf61e08e297e28e5c27b99bffcffa906a1f6cf05fec4169/backupp-0.0.7rc2-py2.py3-none-any.whl
+[2023-06-11 20:54:22] INFO root fetch - processPackages [rivendellaudio]: Downloading https://files.pythonhosted.org/packages/8d/7d/3a3e30e24cfe61d91d32d56d9a1c1b59cad314df0beebc237664e1bba7f6/rivendellaudio-4.0.0rc4.tar.gz
+[2023-06-11 20:54:22] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-11 20:54:22] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.7rc1-py2.py3-none-any.whl.zip tmp/backupp-0.0.7rc2-py2.py3-none-any.whl.zip --markdown 20230611/b/backupp/0.0.7rc1-0.0.7rc2/diff.md --exclude *.pyd
+[2023-06-11 20:54:22] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/93/19/07866d43a34cc49cb57c5b5611b5b8775134d47f0bc5a8e1e5b8bbeed76a/pandocker_lua_filters-0.0.23-py3-none-any.whl
+[2023-06-11 20:54:22] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-11 20:54:22] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.30.tar.gz tmp/maadstml-3.31.tar.gz --markdown 20230611/m/maadstml/3.30-3.31/diff.md --exclude *.pyd
+[2023-06-11 20:54:22] INFO root fetch - processPackages [rivendellaudio]: executing diffoscope
+[2023-06-11 20:54:22] INFO root fetch - processPackages [rivendellaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rivendellaudio-4.0.0b3.tar.gz tmp/rivendellaudio-4.0.0rc4.tar.gz --markdown 20230611/r/rivendellaudio/4.0.0b3-4.0.0rc4/diff.md --exclude *.pyd
+[2023-06-11 20:54:23] INFO root fetch - processPackages [pandocker-lua-filters]: executing diffoscope
+[2023-06-11 20:54:23] INFO root fetch - processPackages [pandocker-lua-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandocker_lua_filters-0.0.22-py3-none-any.whl.zip tmp/pandocker_lua_filters-0.0.23-py3-none-any.whl.zip --markdown 20230611/p/pandocker-lua-filters/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-11 20:54:23] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.7rc1-py2.py3-none-any.whl.zip]
+[2023-06-11 20:54:23] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.7rc2-py2.py3-none-any.whl.zip]
+[2023-06-11 20:54:23] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-11 20:54:24] INFO root fetch - processPackages [rivendellaudio]: Remove: archive file [/home/abi/fetcher/tmp/rivendellaudio-4.0.0b3.tar.gz]
+[2023-06-11 20:54:24] INFO root fetch - processPackages [rivendellaudio]: Remove: archive file [/home/abi/fetcher/tmp/rivendellaudio-4.0.0rc4.tar.gz]
+[2023-06-11 20:54:24] INFO root fetch - main [MainThread]: End processing [rivendellaudio]: success
+[2023-06-11 20:54:24] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.30.tar.gz]
+[2023-06-11 20:54:24] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.31.tar.gz]
+[2023-06-11 20:54:24] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-11 20:56:38] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.22-py3-none-any.whl.zip]
+[2023-06-11 20:56:38] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.23-py3-none-any.whl.zip]
+[2023-06-11 20:56:38] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
+[2023-06-11 20:56:38] INFO root fetch - main [MainThread]: Store serial: [18460215]
