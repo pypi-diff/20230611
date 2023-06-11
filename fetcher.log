@@ -4084,3 +4084,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 06:34:31] INFO root fetch - processPackages [tconnectsync]: Remove: archive file [/home/abi/fetcher/tmp/tconnectsync-0.9.4.tar.gz]
 [2023-06-11 06:34:31] INFO root fetch - main [MainThread]: End processing [tconnectsync]: success
 [2023-06-11 06:34:31] INFO root fetch - main [MainThread]: Store serial: [18455787]
+[2023-06-11 06:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455787]
+[2023-06-11 06:39:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 06:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lzy-E611
+[2023-06-11 06:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-06-11 06:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hardy-weinberg-equilibrium
+[2023-06-11 06:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-macos
+[2023-06-11 06:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-base-partner-merge
+[2023-06-11 06:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cheb3
+[2023-06-11 06:39:40] WARNING root fetch - processPackages [lzy-E611]: Skipping, unable to determine old version
+[2023-06-11 06:39:40] INFO root fetch - main [MainThread]: End processing [lzy-E611] error
+[2023-06-11 06:39:40] INFO root fetch - processPackages [cheb3]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-11 06:39:40] INFO root fetch - processPackages [openllm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 06:39:40] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: New version: [0.1.2.post20230611] Old Version: [0.1.1.post20230611]
+[2023-06-11 06:39:40] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230609] Old Version: [2.14.0.dev20230608]
+[2023-06-11 06:39:40] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-11 06:39:40] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/36/cd/20848bcb4c9b68c31a099ce94b6edef3d995143454f89cbb9db8e7b7c99f/openllm-0.0.8.tar.gz
+[2023-06-11 06:39:40] WARNING root fetch - processPackages [openllm]: Skipping package: exceeds size limit 11989091>=10485760
+[2023-06-11 06:39:40] INFO root fetch - main [MainThread]: End processing [openllm] error
+[2023-06-11 06:39:40] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: Downloading https://files.pythonhosted.org/packages/f1/3c/ffbccaf83f21e622e2decb46fec871c607026a21039452aea8ce382b8066/hardy_weinberg_equilibrium-0.1.1.post20230611.tar.gz
+[2023-06-11 06:39:40] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/81/90/e77aa00e3649a6b60eb39fd928b81ef2ade25e01e7f2ba41b9e74082ec1f/cheb3-0.7.4.tar.gz
+[2023-06-11 06:39:40] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/cd/d9/6dc8f2d7f767ac3b6dfe0b8510c12f4dd3b24e15e29f91b7565c33a84fc5/tf_nightly_macos-2.14.0.dev20230608-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-11 06:39:40] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Downloading https://files.pythonhosted.org/packages/dc/04/9b500aab09eafe36af82662a4bc1dc5dea5029fb8bd38afeeafb1493038c/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-11 06:39:40] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 198290815>=10485760
+[2023-06-11 06:39:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-11 06:39:40] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: Downloading https://files.pythonhosted.org/packages/02/84/9c4f28a622247249054bcb6e2abefa2f35fddd8a3b0d3fe1cec17047bb0a/hardy_weinberg_equilibrium-0.1.2.post20230611.tar.gz
+[2023-06-11 06:39:40] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/3e/63/a968f97b31902bc1f769a260281fb30706a64d8ba47e9e0ac545cd25ecca/cheb3-0.7.5.tar.gz
+[2023-06-11 06:39:40] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: executing diffoscope
+[2023-06-11 06:39:40] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardy_weinberg_equilibrium-0.1.1.post20230611.tar.gz tmp/hardy_weinberg_equilibrium-0.1.2.post20230611.tar.gz --markdown 20230611/h/hardy-weinberg-equilibrium/0.1.1.post20230611-0.1.2.post20230611/diff.md --exclude *.pyd
+[2023-06-11 06:39:40] INFO root fetch - processPackages [cheb3]: executing diffoscope
+[2023-06-11 06:39:40] INFO root fetch - processPackages [cheb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheb3-0.7.4.tar.gz tmp/cheb3-0.7.5.tar.gz --markdown 20230611/c/cheb3/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-11 06:39:41] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Downloading https://files.pythonhosted.org/packages/07/78/dc25b396ad747952b618f43fdd61da47efad0aa1aa9767c54507f8d39837/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-11 06:39:41] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: executing diffoscope
+[2023-06-11 06:39:41] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230611/o/odoo9-addon-base-partner-merge/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-11 06:39:41] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.4.tar.gz]
+[2023-06-11 06:39:41] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.5.tar.gz]
+[2023-06-11 06:39:41] INFO root fetch - main [MainThread]: End processing [cheb3]: success
+[2023-06-11 06:39:41] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: Remove: archive file [/home/abi/fetcher/tmp/hardy_weinberg_equilibrium-0.1.1.post20230611.tar.gz]
+[2023-06-11 06:39:41] INFO root fetch - processPackages [hardy-weinberg-equilibrium]: Remove: archive file [/home/abi/fetcher/tmp/hardy_weinberg_equilibrium-0.1.2.post20230611.tar.gz]
+[2023-06-11 06:39:41] INFO root fetch - main [MainThread]: End processing [hardy-weinberg-equilibrium]: success
+[2023-06-11 06:39:42] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-11 06:39:42] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-11 06:39:42] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-partner-merge]: success
+[2023-06-11 06:39:42] INFO root fetch - main [MainThread]: Store serial: [18455811]
