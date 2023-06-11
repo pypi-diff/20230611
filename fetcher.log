@@ -6477,3 +6477,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:26:26] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
 [2023-06-11 11:26:26] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-06-11 11:26:26] INFO root fetch - main [MainThread]: Store serial: [18456901]
+[2023-06-11 11:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456901]
+[2023-06-11 11:31:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panda-utils
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dedust
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwl-chat-python
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpd-queue
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrestack
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-recognizers-text-suite
+[2023-06-11 11:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyquizzer
+[2023-06-11 11:31:35] WARNING root fetch - processPackages [ms-recognizers-text-suite]: Skipping, unable to determine old version
+[2023-06-11 11:31:35] INFO root fetch - main [MainThread]: End processing [ms-recognizers-text-suite] error
+[2023-06-11 11:31:35] INFO root fetch - processPackages [dedust]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 11:31:35] INFO root fetch - processPackages [mpd-queue]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 11:31:35] WARNING root fetch - processPackages [panda-utils]: Skipping, unable to determine old version
+[2023-06-11 11:31:35] INFO root fetch - main [MainThread]: End processing [panda-utils] error
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pyquizzer]: New version: [0.0.2] Old Version: [0.0.1a2]
+[2023-06-11 11:31:35] WARNING root fetch - processPackages [pyrestack]: Skipping, unable to determine old version
+[2023-06-11 11:31:35] INFO root fetch - main [MainThread]: End processing [pyrestack] error
+[2023-06-11 11:31:35] INFO root fetch - processPackages [mpd-queue]: Downloading https://files.pythonhosted.org/packages/a1/55/7b9f01a1d96eb94bb94a88cf8693c5e4ee10c0c1d4ad6a184a36a58aa0b7/mpd-queue-1.0.1.tar.gz
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/ac/3c/1e4e4fc64aaf3981d66c78efc981941441f19b6526e85aa63098fccb0056/pyquizzer-0.0.1a2.tar.gz
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/66/e6/d63c8e07882425df888d7fe419695c6e6b610b5045f815a1c50b0db8d195/pwl-chat-python-1.4.6.tar.gz
+[2023-06-11 11:31:35] INFO root fetch - processPackages [dedust]: Downloading https://files.pythonhosted.org/packages/b9/1c/035e25f7ceb78e4322fc25bcc9e46cb2f39de5459ecb46b5267010202c3b/dedust-0.0.1.tar.gz
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/28/a8/92235538e295f6197b4d50252215090f8089e36b0283cfdae429f33ee2f0/pwl-chat-python-1.4.7.tar.gz
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-06-11 11:31:35] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.4.6.tar.gz tmp/pwl-chat-python-1.4.7.tar.gz --markdown 20230611/p/pwl-chat-python/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-06-11 11:31:35] INFO root fetch - processPackages [mpd-queue]: Downloading https://files.pythonhosted.org/packages/e1/e6/2f7e30ca5991d74cbc61850a3ec31ad118d06699f24013e688c089ebffee/mpd-queue-1.0.2.tar.gz
+[2023-06-11 11:31:36] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/e9/6b/0a39694254caf083165b2aa002dc7dc38a6f374cb7e5ff1af7a9105b8ba4/pyquizzer-0.0.2.tar.gz
+[2023-06-11 11:31:36] INFO root fetch - processPackages [dedust]: Downloading https://files.pythonhosted.org/packages/b6/65/67251fcad80f5e8f04328b8b16a088732f13cb82a411a93aa9227cbde1a5/dedust-0.0.2.tar.gz
+[2023-06-11 11:31:36] INFO root fetch - processPackages [mpd-queue]: executing diffoscope
+[2023-06-11 11:31:36] INFO root fetch - processPackages [mpd-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpd-queue-1.0.1.tar.gz tmp/mpd-queue-1.0.2.tar.gz --markdown 20230611/m/mpd-queue/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:31:36] INFO root fetch - processPackages [dedust]: executing diffoscope
+[2023-06-11 11:31:36] INFO root fetch - processPackages [dedust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedust-0.0.1.tar.gz tmp/dedust-0.0.2.tar.gz --markdown 20230611/d/dedust/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:31:36] INFO root fetch - processPackages [pyquizzer]: executing diffoscope
+[2023-06-11 11:31:36] INFO root fetch - processPackages [pyquizzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizzer-0.0.1a2.tar.gz tmp/pyquizzer-0.0.2.tar.gz --markdown 20230611/p/pyquizzer/0.0.1a2-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:31:37] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a2.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.2.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - main [MainThread]: End processing [pyquizzer]: success
+[2023-06-11 11:31:37] INFO root fetch - processPackages [dedust]: Remove: archive file [/home/abi/fetcher/tmp/dedust-0.0.1.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - processPackages [dedust]: Remove: archive file [/home/abi/fetcher/tmp/dedust-0.0.2.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - main [MainThread]: End processing [dedust]: success
+[2023-06-11 11:31:37] INFO root fetch - processPackages [mpd-queue]: Remove: archive file [/home/abi/fetcher/tmp/mpd-queue-1.0.1.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - processPackages [mpd-queue]: Remove: archive file [/home/abi/fetcher/tmp/mpd-queue-1.0.2.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - main [MainThread]: End processing [mpd-queue]: success
+[2023-06-11 11:31:37] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.6.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.7.tar.gz]
+[2023-06-11 11:31:37] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-06-11 11:31:37] INFO root fetch - main [MainThread]: Store serial: [18456934]
