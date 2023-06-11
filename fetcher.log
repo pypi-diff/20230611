@@ -7041,3 +7041,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:14:13] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-11 12:14:13] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-11 12:14:13] INFO root fetch - main [MainThread]: Store serial: [18457173]
+[2023-06-11 12:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457173]
+[2023-06-11 12:19:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 12:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ingestor
+[2023-06-11 12:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-partial-tagger
+[2023-06-11 12:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nicehello
+[2023-06-11 12:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dktotoolkit
+[2023-06-11 12:19:23] WARNING root fetch - processPackages [ingestor]: Skipping, unable to determine old version
+[2023-06-11 12:19:23] INFO root fetch - main [MainThread]: End processing [ingestor] error
+[2023-06-11 12:19:23] INFO root fetch - processPackages [dktotoolkit]: New version: [1.0.2b0] Old Version: [1.0.1b2]
+[2023-06-11 12:19:23] WARNING root fetch - processPackages [nicehello]: Skipping, unable to determine old version
+[2023-06-11 12:19:23] INFO root fetch - main [MainThread]: End processing [nicehello] error
+[2023-06-11 12:19:23] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-11 12:19:23] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/cb/8f/8badc86c5a14e1d05d0874ea299c47b4ffe0acd72b6802d245211330e83d/dktotoolkit-1.0.1b2.tar.gz
+[2023-06-11 12:19:23] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/b4/53/b646f4057d1d349ac41c258f2df4faa589207c1780336b06f0a59f2b9791/pytorch_partial_tagger-0.1.6.tar.gz
+[2023-06-11 12:19:23] INFO root fetch - processPackages [dktotoolkit]: Downloading https://files.pythonhosted.org/packages/21/f9/7e1ac2939e127a1805cce63ef9fda6e85728e4c30dc2df3ba8f56fe0cfbe/dktotoolkit-1.0.2b0.tar.gz
+[2023-06-11 12:19:23] INFO root fetch - processPackages [dktotoolkit]: executing diffoscope
+[2023-06-11 12:19:23] INFO root fetch - processPackages [dktotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dktotoolkit-1.0.1b2.tar.gz tmp/dktotoolkit-1.0.2b0.tar.gz --markdown 20230611/d/dktotoolkit/1.0.1b2-1.0.2b0/diff.md --exclude *.pyd
+[2023-06-11 12:19:23] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/b4/d2/3e7651bf6ebbd4c5141f27ca2461b71dbd13d558d0f5f08e99de28600bff/pytorch_partial_tagger-0.1.7.tar.gz
+[2023-06-11 12:19:23] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-06-11 12:19:23] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.6.tar.gz tmp/pytorch_partial_tagger-0.1.7.tar.gz --markdown 20230611/p/pytorch-partial-tagger/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-11 12:19:24] INFO root fetch - processPackages [dktotoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dktotoolkit-1.0.1b2.tar.gz]
+[2023-06-11 12:19:24] INFO root fetch - processPackages [dktotoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dktotoolkit-1.0.2b0.tar.gz]
+[2023-06-11 12:19:24] INFO root fetch - main [MainThread]: End processing [dktotoolkit]: success
+[2023-06-11 12:19:24] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.6.tar.gz]
+[2023-06-11 12:19:24] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.7.tar.gz]
+[2023-06-11 12:19:24] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-06-11 12:19:24] INFO root fetch - main [MainThread]: Store serial: [18457201]
