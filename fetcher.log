@@ -12207,3 +12207,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:51:49] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.1.tar.gz]
 [2023-06-11 18:51:49] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
 [2023-06-11 18:51:49] INFO root fetch - main [MainThread]: Store serial: [18459484]
+[2023-06-11 18:56:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459484]
+[2023-06-11 18:56:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 18:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hummuspy
+[2023-06-11 18:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg-napari-trackmate
+[2023-06-11 18:56:58] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:56:59] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-11 18:56:59] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 18:56:59] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/d0/01/68b0a393bc7c501f5343259105fbc368b335d3bf57d568a85d75b92e0ed6/vollseg-napari-trackmate-2.1.8.tar.gz
+[2023-06-11 18:56:59] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 18:56:59] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 18:56:59] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:56:59] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/15/24/732a3e2ca4a5552e9722e306de04b5bc92a75faa4dbc30df11a9e9b2391a/vollseg-napari-trackmate-2.1.9.tar.gz
+[2023-06-11 18:56:59] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-06-11 18:56:59] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.1.8.tar.gz tmp/vollseg-napari-trackmate-2.1.9.tar.gz --markdown 20230611/v/vollseg-napari-trackmate/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-11 18:57:00] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 18:57:00] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 18:57:00] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 18:57:00] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.1.8.tar.gz]
+[2023-06-11 18:57:00] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.1.9.tar.gz]
+[2023-06-11 18:57:00] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-06-11 18:57:00] INFO root fetch - main [MainThread]: Store serial: [18459491]
