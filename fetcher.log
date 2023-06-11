@@ -8629,3 +8629,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:28:40] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b7.tar.gz]
 [2023-06-11 14:28:40] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2023-06-11 14:28:40] INFO root fetch - main [MainThread]: Store serial: [18457916]
+[2023-06-11 14:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457916]
+[2023-06-11 14:33:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 14:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bundlepy
+[2023-06-11 14:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapdata
+[2023-06-11 14:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-06-11 14:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semanticclean
+[2023-06-11 14:33:51] WARNING root fetch - processPackages [bundlepy]: Skipping, unable to determine old version
+[2023-06-11 14:33:51] INFO root fetch - main [MainThread]: End processing [bundlepy] error
+[2023-06-11 14:33:51] INFO root fetch - processPackages [mapdata]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-11 14:33:51] INFO root fetch - processPackages [semanticclean]: New version: [0.2] Old Version: [0.0.1]
+[2023-06-11 14:33:51] INFO root fetch - processPackages [projen]: New version: [0.71.90] Old Version: [0.71.9]
+[2023-06-11 14:33:51] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/ce/49/8d0875fd46d32b42ce93e5014d26cffc8a31bf69b96a163c695d1d9c84d7/projen-0.71.9.tar.gz
+[2023-06-11 14:33:51] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/c0/33/70252459a2115172eeacb9992968b0ac14388af42082e71abacb4681b40e/mapdata-1.8.1.tar.gz
+[2023-06-11 14:33:51] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/c5/0b/8e74afce9518fb1274e3c8779eca84c07480afcb231399c35033120525c0/semanticclean-0.0.1.tar.gz
+[2023-06-11 14:33:51] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/ff/79/fc3575b8d859d311fd6f4189941bcf3afe04a27d48e4afea155a46c4b0cc/semanticclean-0.2.tar.gz
+[2023-06-11 14:33:51] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a8/3c/ddded309412670a13c7f2f81f9d85b86a87669955a1a5d81084616fbd7ac/projen-0.71.90.tar.gz
+[2023-06-11 14:33:51] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/6e/cb/86211fd8e4643e4269cb2c699fe8ebdf14e32724fb936871c9ec8606058d/mapdata-1.8.2.tar.gz
+[2023-06-11 14:33:51] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 14:33:51] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.0.1.tar.gz tmp/semanticclean-0.2.tar.gz --markdown 20230611/s/semanticclean/0.0.1-0.2/diff.md --exclude *.pyd
+[2023-06-11 14:33:52] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-06-11 14:33:52] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-1.8.1.tar.gz tmp/mapdata-1.8.2.tar.gz --markdown 20230611/m/mapdata/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-11 14:33:52] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-11 14:33:52] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.9.tar.gz tmp/projen-0.71.90.tar.gz --markdown 20230611/p/projen/0.71.9-0.71.90/diff.md --exclude *.pyd
+[2023-06-11 14:33:52] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.0.1.tar.gz]
+[2023-06-11 14:33:52] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.2.tar.gz]
+[2023-06-11 14:33:52] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 14:33:53] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-1.8.1.tar.gz]
+[2023-06-11 14:33:53] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-1.8.2.tar.gz]
+[2023-06-11 14:33:53] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-06-11 14:33:57] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.9.tar.gz]
+[2023-06-11 14:33:57] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.90.tar.gz]
+[2023-06-11 14:33:57] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-11 14:33:57] INFO root fetch - main [MainThread]: Store serial: [18457928]
