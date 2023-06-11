@@ -6965,3 +6965,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:08:08] INFO root fetch - processPackages [aws-lambda-typing]: Remove: archive file [/home/abi/fetcher/tmp/aws-lambda-typing-2.9.9.tar.gz]
 [2023-06-11 12:08:08] INFO root fetch - main [MainThread]: End processing [aws-lambda-typing]: success
 [2023-06-11 12:08:08] INFO root fetch - main [MainThread]: Store serial: [18457131]
+[2023-06-11 12:13:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457131]
+[2023-06-11 12:13:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irvy
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e-data
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-reverb-nightly
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-blive-danmaku
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swimstroke
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeroundub
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: e-data
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aorta-sirius
+[2023-06-11 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysaml2
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [irvy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 12:13:19] WARNING root fetch - processPackages [zeroundub]: Skipping, unable to determine old version
+[2023-06-11 12:13:19] INFO root fetch - main [MainThread]: End processing [zeroundub] error
+[2023-06-11 12:13:19] INFO root fetch - processPackages [swimstroke]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [aorta-sirius]: New version: [0.6] Old Version: [0.5]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/41/9f/9f1662fb9cf5f57354257223dc8b9061f8ff01a2bf02b18bbacb4b8d7361/irvy-1.0.2.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-11 12:13:19] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/18/10/31bbdda7a2756921aacfd1c741d423ad440973cf079628dbed9e516f0175/aorta_sirius-0.5.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: Downloading https://files.pythonhosted.org/packages/61/04/ed87a9b6f802f6f4c0e3b0b11f617513cbf2c546516389b703a5f016f260/e-data-1.1.1.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: Downloading https://files.pythonhosted.org/packages/61/04/ed87a9b6f802f6f4c0e3b0b11f617513cbf2c546516389b703a5f016f260/e-data-1.1.1.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [pysaml2]: New version: [7.4.2] Old Version: [7.4.1]
+[2023-06-11 12:13:19] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/b9/35/6974c6e53b2067f433a017f0688964e002b6eb495f1e2b1ae7b62f827f64/nonebot_plugin_blive_danmaku-0.2.8.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [swimstroke]: Downloading https://files.pythonhosted.org/packages/2d/0b/addddf73f8ac9e2f1f72451018a421300681c74e7fe07a81a372fef13f37/swimstroke-0.0.1-py3-none-any.whl
+[2023-06-11 12:13:19] INFO root fetch - processPackages [irvy]: Downloading https://files.pythonhosted.org/packages/b8/15/eb1c8dbd1b5f24b5bae34cfe712c786d53c0e2d170aaa3b6caeef931c2ff/irvy-1.0.3.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [pysaml2]: Downloading https://files.pythonhosted.org/packages/c8/2a/9c0e8d66bf0c1aeddd560b08ee49c1625ab19ece4abc256503486bd81319/pysaml2-7.4.1.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/71/6e/851ff7b7fb4c3225ed80e4105f78470860004fa80226b43cdcd677a627ad/aorta_sirius-0.6.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: Downloading https://files.pythonhosted.org/packages/b0/4a/9dbadf9af92d5eb77c560ab41b8c713628c2933d9e4e9df766897468f267/e-data-1.1.2.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [irvy]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [irvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irvy-1.0.2.tar.gz tmp/irvy-1.0.3.tar.gz --markdown 20230611/i/irvy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: Downloading https://files.pythonhosted.org/packages/b0/4a/9dbadf9af92d5eb77c560ab41b8c713628c2933d9e4e9df766897468f267/e-data-1.1.2.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [swimstroke]: Downloading https://files.pythonhosted.org/packages/4f/1e/b4313ddc71aecb7b845fe481ad7fb2ec57d25a50d3395e7946c72b7c08ca/swimstroke-0.0.2-py3-none-any.whl
+[2023-06-11 12:13:19] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/37/cd/9282143183dbd35665a9a524e8433b90a0598a78e19154548b418a357650/nonebot_plugin_blive_danmaku-0.2.9.tar.gz
+[2023-06-11 12:13:19] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.5.tar.gz tmp/aorta_sirius-0.6.tar.gz --markdown 20230611/a/aorta-sirius/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-data-1.1.1.tar.gz tmp/e-data-1.1.2.tar.gz --markdown 20230611/e/e-data/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [e-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-data-1.1.1.tar.gz tmp/e-data-1.1.2.tar.gz --markdown 20230611/e/e-data/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [swimstroke]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [swimstroke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swimstroke-0.0.1-py3-none-any.whl.zip tmp/swimstroke-0.0.2-py3-none-any.whl.zip --markdown 20230611/s/swimstroke/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [pysaml2]: Downloading https://files.pythonhosted.org/packages/74/26/55f12b750d21fcbce676b645c90c57d9dd29b352ae38905e0b9028454eb1/pysaml2-7.4.2-py3-none-any.whl
+[2023-06-11 12:13:19] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230611/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_blive_danmaku-0.2.8.tar.gz tmp/nonebot_plugin_blive_danmaku-0.2.9.tar.gz --markdown 20230611/n/nonebot-plugin-blive-danmaku/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 12:13:19] INFO root fetch - processPackages [pysaml2]: executing diffoscope
+[2023-06-11 12:13:19] INFO root fetch - processPackages [pysaml2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysaml2-7.4.1.tar.gz tmp/pysaml2-7.4.2-py3-none-any.whl.zip --markdown 20230611/p/pysaml2/7.4.1-7.4.2/diff.md --exclude *.pyd
+[2023-06-11 12:13:20] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-1.0.2.tar.gz]
+[2023-06-11 12:13:20] INFO root fetch - processPackages [irvy]: Remove: archive file [/home/abi/fetcher/tmp/irvy-1.0.3.tar.gz]
+[2023-06-11 12:13:20] INFO root fetch - main [MainThread]: End processing [irvy]: success
+[2023-06-11 12:13:20] INFO root fetch - processPackages [swimstroke]: Remove: archive file [/home/abi/fetcher/tmp/swimstroke-0.0.1-py3-none-any.whl.zip]
+[2023-06-11 12:13:20] INFO root fetch - processPackages [swimstroke]: Remove: archive file [/home/abi/fetcher/tmp/swimstroke-0.0.2-py3-none-any.whl.zip]
+[2023-06-11 12:13:20] INFO root fetch - main [MainThread]: End processing [swimstroke]: success
+[2023-06-11 12:13:20] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.5.tar.gz]
+[2023-06-11 12:13:20] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.6.tar.gz]
+[2023-06-11 12:13:20] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-11 12:13:21] INFO root fetch - processPackages [e-data]: Remove: archive file [/home/abi/fetcher/tmp/e-data-1.1.1.tar.gz]
+[2023-06-11 12:13:21] INFO root fetch - processPackages [e-data]: Remove: archive file [/home/abi/fetcher/tmp/e-data-1.1.2.tar.gz]
+[2023-06-11 12:13:21] INFO root fetch - main [MainThread]: End processing [e-data]: success
+[2023-06-11 12:13:21] INFO root fetch - main [MainThread]: End processing [e-data]: success
+[2023-06-11 12:13:21] INFO root fetch - processPackages [pysaml2]: Remove: archive file [/home/abi/fetcher/tmp/pysaml2-7.4.1.tar.gz]
+[2023-06-11 12:13:21] INFO root fetch - processPackages [pysaml2]: Remove: archive file [/home/abi/fetcher/tmp/pysaml2-7.4.2-py3-none-any.whl.zip]
+[2023-06-11 12:13:21] INFO root fetch - main [MainThread]: End processing [pysaml2]: success
+[2023-06-11 12:13:29] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.2.8.tar.gz]
+[2023-06-11 12:13:29] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.2.9.tar.gz]
+[2023-06-11 12:13:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
+[2023-06-11 12:14:13] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-11 12:14:13] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-11 12:14:13] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-11 12:14:13] INFO root fetch - main [MainThread]: Store serial: [18457173]
