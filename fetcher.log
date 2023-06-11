@@ -4151,3 +4151,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 06:44:53] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-1.3.1.tar.gz]
 [2023-06-11 06:44:53] INFO root fetch - main [MainThread]: End processing [flux-local]: success
 [2023-06-11 06:44:53] INFO root fetch - main [MainThread]: Store serial: [18455833]
+[2023-06-11 06:49:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455833]
+[2023-06-11 06:50:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-addons
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Space-Weather-Interface-P
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joonmyung
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-addons
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dibug
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-secondary-unit
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-sequence
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-supplierinfo-for-customer
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-product-manufacturer
+[2023-06-11 06:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-attribute-company-favorite
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [joonmyung]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-sequence]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: New version: [0.0.2rc1] Old Version: [0.0.2]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [dibug]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-11 06:50:02] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: New version: [0.0.2rc1] Old Version: [0.0.2]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-06-11 06:50:02] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: Downloading https://files.pythonhosted.org/packages/9b/d3/430073dd324f11484a9295c579bbd701081082c3e70a788e313153bcb1a6/langchain_addons-0.0.2.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/a4/47/af52560e02f90af5f1b8b0997369783f7b519689abb9eb462a3dc25d8111/joonmyung-1.4.5.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: Downloading https://files.pythonhosted.org/packages/9b/d3/430073dd324f11484a9295c579bbd701081082c3e70a788e313153bcb1a6/langchain_addons-0.0.2.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-sequence]: Downloading https://files.pythonhosted.org/packages/e2/ba/0c3920f094a0c2e6166274aff9473e777b52b147318713364877ec776cc3/odoo_addon_product_sequence-16.0.2.0.0.1-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: Downloading https://files.pythonhosted.org/packages/d9/23/3a65591f2a96e8972acfb7b8e100974a7f130c9d22833f4e0e3730dcf585/odoo_addon_product_attribute_company_favorite-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/08/d8/43f8a2c12174802f6f9240005614540de40b6203c9af5257e2acba4190c4/odoo_addon_product_secondary_unit-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/90/2d/de5cc4fee9720c935f471c5e35805e93d699615c986810361871eb170411/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [dibug]: Downloading https://files.pythonhosted.org/packages/29/c0/3ec733c8d04fe703f415f1c475cefcac1efb277eef47b1167363581be5b6/dibug-0.3.0.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: Downloading https://files.pythonhosted.org/packages/35/ff/3865b014e957ec38eef493690dd343387b8c92a5557e0af04db3e83983dd/odoo_addon_product_manufacturer-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/a3/08/162a525780f7c210d94e9803ff8c28b31e4f14411b697cb80597fb9afef3/joonmyung-1.4.6.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: Downloading https://files.pythonhosted.org/packages/68/0d/fdf8ca324fc2ed1ce5d5661588211a24cad1d661a45783fd52e8a27fb6b6/langchain_addons-0.0.2rc1.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: Downloading https://files.pythonhosted.org/packages/68/0d/fdf8ca324fc2ed1ce5d5661588211a24cad1d661a45783fd52e8a27fb6b6/langchain_addons-0.0.2rc1.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/ab/eb/1ed4f266e824d22ce4b0060e95c719040ea1811d4e761e671807d008ad44/odoo_addon_product_secondary_unit-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: Downloading https://files.pythonhosted.org/packages/96/bb/02618b1a08422a075df74a9ea8f343afa48a631e94e7a540042c22f6790f/odoo_addon_product_attribute_company_favorite-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [dibug]: Downloading https://files.pythonhosted.org/packages/b7/c5/744da3b149cd8e83515b8dd4fd7138d56aa030741962a5e8769d44e8c81d/dibug-0.4.0.tar.gz
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-sequence]: Downloading https://files.pythonhosted.org/packages/f4/76/1d1fbc6a3410934875c7cf294cec0b6577bebe3b37929a2bff7ece774538/odoo_addon_product_sequence-16.0.2.0.0.2-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_addons-0.0.2.tar.gz tmp/langchain_addons-0.0.2rc1.tar.gz --markdown 20230611/l/langchain-addons/0.0.2-0.0.2rc1/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/e3/71/f691fd07442d53a0740353926abb64a7b275c35ef5beab4911a9ce74424a/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: Downloading https://files.pythonhosted.org/packages/93/c5/6e868b01e6b3de8c8481bb690bd12e1a4d9a36e8b04790008f1ee9a8f11c/odoo_addon_product_manufacturer-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-11 06:50:02] INFO root fetch - processPackages [joonmyung]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [joonmyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joonmyung-1.4.5.tar.gz tmp/joonmyung-1.4.6.tar.gz --markdown 20230611/j/joonmyung/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [langchain-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_addons-0.0.2.tar.gz tmp/langchain_addons-0.0.2rc1.tar.gz --markdown 20230611/l/langchain-addons/0.0.2-0.0.2rc1/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_secondary_unit-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_secondary_unit-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-product-secondary-unit/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_attribute_company_favorite-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_attribute_company_favorite-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-product-attribute-company-favorite/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [dibug]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [dibug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dibug-0.3.0.tar.gz tmp/dibug-0.4.0.tar.gz --markdown 20230611/d/dibug/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-sequence]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_sequence-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_sequence-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-product-sequence/16.0.2.0.0.1-16.0.2.0.0.2/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_manufacturer-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_product_manufacturer-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-product-manufacturer/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: executing diffoscope
+[2023-06-11 06:50:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230611/o/odoo-addon-product-supplierinfo-for-customer/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-11 06:50:04] INFO root fetch - processPackages [langchain-addons]: Remove: archive file [/home/abi/fetcher/tmp/langchain_addons-0.0.2.tar.gz]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [langchain-addons]: Remove: archive file [/home/abi/fetcher/tmp/langchain_addons-0.0.2rc1.tar.gz]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [langchain-addons]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.4.5.tar.gz]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.4.6.tar.gz]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [joonmyung]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [dibug]: Remove: archive file [/home/abi/fetcher/tmp/dibug-0.3.0.tar.gz]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [dibug]: Remove: archive file [/home/abi/fetcher/tmp/dibug-0.4.0.tar.gz]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [dibug]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_secondary_unit-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_secondary_unit-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-secondary-unit]: success
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [langchain-addons]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_sequence-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_sequence-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-sequence]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_attribute_company_favorite-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-attribute-company-favorite]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_attribute_company_favorite-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attribute-company-favorite]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_manufacturer-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-manufacturer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_manufacturer-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-manufacturer]: success
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
+[2023-06-11 06:50:04] INFO root fetch - main [MainThread]: Store serial: [18455865]
