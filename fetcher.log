@@ -14965,3 +14965,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 23:00:07] INFO root fetch - processPackages [dns-lexicon]: Remove: archive file [/home/abi/fetcher/tmp/dns-lexicon-3.9.5.tar.gz]
 [2023-06-11 23:00:07] INFO root fetch - main [MainThread]: End processing [dns-lexicon]: success
 [2023-06-11 23:00:07] INFO root fetch - main [MainThread]: Store serial: [18460905]
+[2023-06-11 23:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460905]
+[2023-06-11 23:05:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eveparse
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glizzy-tls
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymchelper
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plasmid-design
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbs
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slackybot
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SAMYOL
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybart-nlp
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cd2t
+[2023-06-11 23:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: federa
+[2023-06-11 23:05:17] WARNING root fetch - processPackages [eveparse]: Skipping, unable to determine old version
+[2023-06-11 23:05:17] INFO root fetch - main [MainThread]: End processing [eveparse] error
+[2023-06-11 23:05:17] INFO root fetch - processPackages [glizzy-tls]: New version: [0.1.0b0] Old Version: [0.1.0]
+[2023-06-11 23:05:17] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 23:05:17] WARNING root fetch - processPackages [federa]: Skipping, unable to determine old version
+[2023-06-11 23:05:17] INFO root fetch - main [MainThread]: End processing [federa] error
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pybart-nlp]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/52/d0/1be95d06950c19f19273bf188c49ace8d78f161c67dad103c16c53449e11/pybart-nlp-3.4.5.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/41/e8/545e81c4014bb59a1398b29a169f9e0ea4ad0e9b29bf890fb00153c07f8e/samyol-1.0.2.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [cd2t]: New version: [2.0.0] Old Version: [1.6.2]
+[2023-06-11 23:05:17] INFO root fetch - processPackages [slackybot]: New version: [1.2.0] Old Version: [1.0.1]
+[2023-06-11 23:05:17] INFO root fetch - processPackages [plasmid-design]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pymchelper]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-06-11 23:05:17] WARNING root fetch - processPackages [pbs]: Skipping, unable to determine old version
+[2023-06-11 23:05:17] INFO root fetch - main [MainThread]: End processing [pbs] error
+[2023-06-11 23:05:17] INFO root fetch - processPackages [glizzy-tls]: Downloading https://files.pythonhosted.org/packages/3c/c1/400745897ec1c89213d9ae48967d32f734cf38bdb41f9eb7607a9c1cb938/glizzy_tls-0.1.0.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/b1/fa/110f7f4088627b35bb8d653344cb97f6303ae8de28802a66846d55624c6a/SAMYOL-1.0.3.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [slackybot]: Downloading https://files.pythonhosted.org/packages/82/da/1f3aa1c62bb15513c3dc475246753995c391e16a0a958edd273f678b4f58/slackybot-1.0.1.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [cd2t]: Downloading https://files.pythonhosted.org/packages/72/81/aaafbd3273e799f6f81bc89411dc8201be5abd2be681fd876c5f7b54b7ec/cd2t-1.6.2.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-11 23:05:17] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samyol-1.0.2.tar.gz tmp/SAMYOL-1.0.3.tar.gz --markdown 20230611/S/SAMYOL/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pymchelper]: Downloading https://files.pythonhosted.org/packages/62/c5/fac614bb5d398ea9b15889f46d76d41cad067f276ac91bd30cea24eb8d79/pymchelper-2.4.1.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [plasmid-design]: Downloading https://files.pythonhosted.org/packages/9b/cb/d581c4b7670e7c1cfe1ee778ff0216eb17b6094cb6a15cda9eda78855da0/plasmid_design-0.0.1.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/9f/ce/117c6229f15e8d7d734a5e66486ca3cc69c2f20ec4301e48721010ce5824/pybart-nlp-3.4.6.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [glizzy-tls]: Downloading https://files.pythonhosted.org/packages/63/c6/a313d17c0234e50b924ab0fc4b5a7e7c2586202920b1d85963a0984af7d4/glizzy_tls-0.1.0b0.tar.gz
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pybart-nlp]: executing diffoscope
+[2023-06-11 23:05:17] INFO root fetch - processPackages [pybart-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybart-nlp-3.4.5.tar.gz tmp/pybart-nlp-3.4.6.tar.gz --markdown 20230611/p/pybart-nlp/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-11 23:05:17] INFO root fetch - processPackages [glizzy-tls]: executing diffoscope
+[2023-06-11 23:05:17] INFO root fetch - processPackages [glizzy-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glizzy_tls-0.1.0.tar.gz tmp/glizzy_tls-0.1.0b0.tar.gz --markdown 20230611/g/glizzy-tls/0.1.0-0.1.0b0/diff.md --exclude *.pyd
+[2023-06-11 23:05:18] INFO root fetch - processPackages [plasmid-design]: Downloading https://files.pythonhosted.org/packages/8d/50/a4abbd184eb5c3abec591631069e8185d41a937e178fa753b243ad857f6f/plasmid_design-0.0.2.tar.gz
+[2023-06-11 23:05:18] INFO root fetch - processPackages [pymchelper]: Downloading https://files.pythonhosted.org/packages/8e/56/a73d22857fa6cd897fef3839c195b529d13345787fe2d70d5f80ccd9e466/pymchelper-2.5.0.tar.gz
+[2023-06-11 23:05:18] INFO root fetch - processPackages [cd2t]: Downloading https://files.pythonhosted.org/packages/34/31/b1b880089555eb6f2e4b57ca5fe9e4b7130e465ccebaa874f746f7080f42/cd2t-2.0.0.tar.gz
+[2023-06-11 23:05:18] INFO root fetch - processPackages [plasmid-design]: executing diffoscope
+[2023-06-11 23:05:18] INFO root fetch - processPackages [plasmid-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmid_design-0.0.1.tar.gz tmp/plasmid_design-0.0.2.tar.gz --markdown 20230611/p/plasmid-design/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 23:05:18] INFO root fetch - processPackages [slackybot]: Downloading https://files.pythonhosted.org/packages/d1/12/8dfb3baeb55247d5c29cb317276e8b66e7b833ddead9df97ea9f1b262fd0/slackybot-1.2.0.tar.gz
+[2023-06-11 23:05:18] INFO root fetch - processPackages [cd2t]: executing diffoscope
+[2023-06-11 23:05:18] INFO root fetch - processPackages [cd2t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cd2t-1.6.2.tar.gz tmp/cd2t-2.0.0.tar.gz --markdown 20230611/c/cd2t/1.6.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-11 23:05:18] INFO root fetch - processPackages [slackybot]: executing diffoscope
+[2023-06-11 23:05:18] INFO root fetch - processPackages [slackybot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackybot-1.0.1.tar.gz tmp/slackybot-1.2.0.tar.gz --markdown 20230611/s/slackybot/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 23:05:18] INFO root fetch - processPackages [pymchelper]: executing diffoscope
+[2023-06-11 23:05:18] INFO root fetch - processPackages [pymchelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymchelper-2.4.1.tar.gz tmp/pymchelper-2.5.0.tar.gz --markdown 20230611/p/pymchelper/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-06-11 23:05:19] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/samyol-1.0.2.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.3.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-11 23:05:19] INFO root fetch - processPackages [glizzy-tls]: Remove: archive file [/home/abi/fetcher/tmp/glizzy_tls-0.1.0.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - processPackages [glizzy-tls]: Remove: archive file [/home/abi/fetcher/tmp/glizzy_tls-0.1.0b0.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - main [MainThread]: End processing [glizzy-tls]: success
+[2023-06-11 23:05:19] INFO root fetch - processPackages [plasmid-design]: Remove: archive file [/home/abi/fetcher/tmp/plasmid_design-0.0.1.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - processPackages [plasmid-design]: Remove: archive file [/home/abi/fetcher/tmp/plasmid_design-0.0.2.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - main [MainThread]: End processing [plasmid-design]: success
+[2023-06-11 23:05:19] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-1.6.2.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - processPackages [cd2t]: Remove: archive file [/home/abi/fetcher/tmp/cd2t-2.0.0.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - main [MainThread]: End processing [cd2t]: success
+[2023-06-11 23:05:19] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.5.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.6.tar.gz]
+[2023-06-11 23:05:19] INFO root fetch - main [MainThread]: End processing [pybart-nlp]: success
+[2023-06-11 23:05:20] INFO root fetch - processPackages [pymchelper]: Remove: archive file [/home/abi/fetcher/tmp/pymchelper-2.4.1.tar.gz]
+[2023-06-11 23:05:20] INFO root fetch - processPackages [pymchelper]: Remove: archive file [/home/abi/fetcher/tmp/pymchelper-2.5.0.tar.gz]
+[2023-06-11 23:05:20] INFO root fetch - main [MainThread]: End processing [pymchelper]: success
+[2023-06-11 23:06:12] INFO root fetch - processPackages [slackybot]: Remove: archive file [/home/abi/fetcher/tmp/slackybot-1.0.1.tar.gz]
+[2023-06-11 23:06:12] INFO root fetch - processPackages [slackybot]: Remove: archive file [/home/abi/fetcher/tmp/slackybot-1.2.0.tar.gz]
+[2023-06-11 23:06:12] INFO root fetch - main [MainThread]: End processing [slackybot]: success
+[2023-06-11 23:06:12] INFO root fetch - main [MainThread]: Store serial: [18460940]
