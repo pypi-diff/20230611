@@ -5421,3 +5421,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:15:21] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-11 09:15:21] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-11 09:15:21] INFO root fetch - main [MainThread]: Store serial: [18456429]
+[2023-06-11 09:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456429]
+[2023-06-11 09:20:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paretoset
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystools
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: philbot-voice
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacectl
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unipressed
+[2023-06-11 09:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smarterbombing
+[2023-06-11 09:20:29] INFO root fetch - processPackages [paretoset]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230610] Old Version: [0.7.3.dev20230609]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [unipressed]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.0] Old Version: [1.8.8]
+[2023-06-11 09:20:29] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/83/d0/caaa17a0e9156ec85ab509404e65b6815c9865f31e77f5063cca15267177/smarterbombing-0.3.8.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [paretoset]: Downloading https://files.pythonhosted.org/packages/27/ea/5effaa1444828141894de265759068202ade969224fb859db34915b0d07c/paretoset-1.2.0.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [spacectl]: Downloading https://files.pythonhosted.org/packages/b3/27/e799059f3e001604527846931a848e862d1ad030a1cc7edd924252da68df/spacectl-1.9.7rc2-py3-none-any.whl
+[2023-06-11 09:20:30] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/6d/5f/2172b3638ecdfc481b087cfa893856570144c0061b0da92dadb7319b0e3f/philbot_voice-1.8.8.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/bf/b1/39f205cb9d189c20b1278cb7d3ef9b2c07699df824b9c7cc73da67e1ccbc/tfq_nightly-0.7.3.dev20230609-cp39-cp39-macosx_12_1_x86_64.whl
+[2023-06-11 09:20:30] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [unipressed]: Downloading https://files.pythonhosted.org/packages/fa/9d/93fdfad9ce97bf04ff706b4c89f0aa207e72d637b146d5a1eaf4c560526e/unipressed-1.1.0.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/4d/ed/502a5f65598ec6f16051cb46ee175889ad2e57ce7bc769769c949d6570ad/smarterbombing-0.3.9.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [paretoset]: Downloading https://files.pythonhosted.org/packages/f2/1c/8b186af2a1dc39e8d721d1c9a25ea48271992b0b895ea9c551127d1dd491/paretoset-1.2.1.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/17/05/15591d230b43fd7ecc1392f7691c04d19981cdc862d97ad6e858f379cbe0/philbot_voice-1.9.0.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [unipressed]: Downloading https://files.pythonhosted.org/packages/df/e0/6abb51a086c05ac72a53e5f5b6c5f57f8d324e87a28c1fb112c4da24f4c7/unipressed-1.2.0.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 09:20:30] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.8.tar.gz tmp/smarterbombing-0.3.9.tar.gz --markdown 20230611/s/smarterbombing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-11 09:20:30] INFO root fetch - processPackages [paretoset]: executing diffoscope
+[2023-06-11 09:20:30] INFO root fetch - processPackages [paretoset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paretoset-1.2.0.tar.gz tmp/paretoset-1.2.1.tar.gz --markdown 20230611/p/paretoset/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-11 09:20:30] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-11 09:20:30] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.8.8.tar.gz tmp/philbot_voice-1.9.0.tar.gz --markdown 20230611/p/philbot-voice/1.8.8-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 09:20:30] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-06-11 09:20:30] INFO root fetch - processPackages [spacectl]: Downloading https://files.pythonhosted.org/packages/da/a2/f9541d99ec71dc462fab5ef7223ea12aa1e6dfa973832fa463ba2aa1cdb6/spacectl-1.9.7rc3-py3-none-any.whl
+[2023-06-11 09:20:30] INFO root fetch - processPackages [unipressed]: executing diffoscope
+[2023-06-11 09:20:30] INFO root fetch - processPackages [unipressed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipressed-1.1.0.tar.gz tmp/unipressed-1.2.0.tar.gz --markdown 20230611/u/unipressed/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 09:20:30] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-11 09:20:30] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230611/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 09:20:30] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/29/4d/0ea0ec53459219b0aeae8b54d78ad9175106d15b2ae6db28bd0ea3f1056b/tfq_nightly-0.7.3.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 09:20:30] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822708>=10485760
+[2023-06-11 09:20:30] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-11 09:20:30] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-06-11 09:20:30] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230611/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-06-11 09:20:31] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.8.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.9.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 09:20:31] INFO root fetch - processPackages [paretoset]: Remove: archive file [/home/abi/fetcher/tmp/paretoset-1.2.0.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - processPackages [paretoset]: Remove: archive file [/home/abi/fetcher/tmp/paretoset-1.2.1.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - main [MainThread]: End processing [paretoset]: success
+[2023-06-11 09:20:31] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.8.8.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.0.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-11 09:20:31] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-11 09:20:31] INFO root fetch - processPackages [unipressed]: Remove: archive file [/home/abi/fetcher/tmp/unipressed-1.1.0.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - processPackages [unipressed]: Remove: archive file [/home/abi/fetcher/tmp/unipressed-1.2.0.tar.gz]
+[2023-06-11 09:20:31] INFO root fetch - main [MainThread]: End processing [unipressed]: success
+[2023-06-11 09:21:25] INFO root fetch - processPackages [spacectl]: Remove: archive file [/home/abi/fetcher/tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip]
+[2023-06-11 09:21:25] INFO root fetch - processPackages [spacectl]: Remove: archive file [/home/abi/fetcher/tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip]
+[2023-06-11 09:21:25] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-06-11 09:21:25] INFO root fetch - main [MainThread]: Store serial: [18456449]
