@@ -5005,3 +5005,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:21:27] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230611.tar.gz]
 [2023-06-11 08:21:27] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-11 08:21:27] INFO root fetch - main [MainThread]: Store serial: [18456253]
+[2023-06-11 08:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456253]
+[2023-06-11 08:26:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client-v2
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Space-Weather-Interface-P
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-pasqal
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-aqt
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-google
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-super-slider
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-rigetti
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq
+[2023-06-11 08:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-ionq
+[2023-06-11 08:26:37] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.460.0] Old Version: [0.459.0]
+[2023-06-11 08:26:37] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 08:26:37] INFO root fetch - processPackages [Space-Weather-Interface-P]: Start processing: cirq-ft
+[2023-06-11 08:26:37] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 08:26:37] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.460.0]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [streamlit-super-slider]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-ft]: New version: [1.2.0.dev20230611010637] Old Version: [1.2.0.dev20230610015021]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230611062534] Old Version: [1.2.0.dev20230611010637]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230611062534] Old Version: [1.2.0.dev20230611010637]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230611010637] Old Version: [1.2.0.dev20230610015021]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230611010637] Old Version: [1.2.0.dev20230610015021]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230611062534] Old Version: [1.2.0.dev20230611010637]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230611062534] Old Version: [1.2.0.dev20230611010637]
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/58/75/3973d47bc5dbac9c7317f848fac535158de54243e82a73e7f276b583793b/cirq_rigetti-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/ec/78/de9e76c46aa631f4a4524840763502bbd74e523a9b05ffbab2215e4c4037/stigg_api_client-0.460.0.tar.gz
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/a3/3c/018416901dc352fcfa11f66d770dcd8137a289aeeb674eb83eb511aa1e49/cirq_ft-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/13/8f/90ca68b8dda023673ea94fc1d37a07afc5a7aeaaf3959d9e99d86306e365/cirq_ionq-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/8d/a3/efba6c2eb94010b75ac4f3f99ebb9fe10ce5c118fe3359b09499fe34fc1a/cirq_aqt-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/1d/7d/27c04143ca69d07051f355fc707781da1c00b7d71520159211ed154ada39/stigg_api_client_v2-0.459.0.tar.gz
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/5a/37/a698aa85263db6e61466cc659454909f98aaf91bcd8f4e1cf32a13a5c278/cirq_pasqal-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ed/c4/43fa617a8615b5c1b8f5d4a70b4241f103f30bd71634de1f389709bd110b/cirq-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/2d/fd/dabbe9609fd82f9add13c8e10ede21d0566bac9a4d856b45552091232b54/cirq_google-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:37] INFO root fetch - processPackages [streamlit-super-slider]: Downloading https://files.pythonhosted.org/packages/63/be/299b8520d476e9d9c2259e5d8ee5221bc58f7e6e23c4a90b50782738fa37/streamlit-super-slider-0.1.4.tar.gz
+[2023-06-11 08:26:37] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/55/7d/164e1f455a2eaae6e71c0b0832279b425a57be45fa93c6c24b8984775353/stigg_api_client_v2-0.460.0.tar.gz
+[2023-06-11 08:26:37] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ab/45/2a176eddc9986a1be41c09b2e45dfe13146f73439c4b55d02f6db37dc0ea/cirq-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/35/ea/f88e99d07b033078ca336b5bac0121106469fb3d56108ad23f9143f5798e/cirq_ft-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-11 08:26:38] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/88/78/b72b0bc7d62ece99f5f28a70323918f5ac2f3165a36b222f034234d4513b/cirq_ionq-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.459.0.tar.gz tmp/stigg_api_client_v2-0.460.0.tar.gz --markdown 20230611/s/stigg-api-client-v2/0.459.0-0.460.0/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/b3/fc/b66ed00b6284f3434e0358bbb8f747c160d4112a2f91005db7d7ba350f82/cirq_aqt-1.2.0.dev20230611062534-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/c9/ed/b53dfa8fb54e693bc3e55a96285c0daf52a6d586ae47bed4a6d9fd9b8183/cirq_rigetti-1.2.0.dev20230611062534-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [streamlit-super-slider]: Downloading https://files.pythonhosted.org/packages/d1/5b/4efd65a623890204d8857a490b16c89d70c201329a2ff50ce5e0883e66fd/streamlit-super-slider-0.1.5.tar.gz
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/97/7b/c7e731752ccee71ed8ecade324634c401e01cd440130f5f1af6d83752895/cirq_pasqal-1.2.0.dev20230611062534-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230610015021-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230611010637-py3-none-any.whl.zip --markdown 20230611/c/cirq/1.2.0.dev20230610015021-1.2.0.dev20230611010637/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.460.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230611/s/stigg-api-client/0.460.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.2.0.dev20230610015021-py3-none-any.whl.zip tmp/cirq_ft-1.2.0.dev20230611010637-py3-none-any.whl.zip --markdown 20230611/c/cirq-ft/1.2.0.dev20230610015021-1.2.0.dev20230611010637/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/69/b6/9228f665cfc0884af35a64e8487e32b2ffc7bd49b13072ea299d47dfa406/cirq_google-1.2.0.dev20230611062534-py3-none-any.whl
+[2023-06-11 08:26:38] INFO root fetch - processPackages [streamlit-super-slider]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [streamlit-super-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-super-slider-0.1.4.tar.gz tmp/streamlit-super-slider-0.1.5.tar.gz --markdown 20230611/s/streamlit-super-slider/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230610015021-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230611010637-py3-none-any.whl.zip --markdown 20230611/c/cirq-ionq/1.2.0.dev20230610015021-1.2.0.dev20230611010637/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230611010637-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230611062534-py3-none-any.whl.zip --markdown 20230611/c/cirq-aqt/1.2.0.dev20230611010637-1.2.0.dev20230611062534/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230611010637-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230611062534-py3-none-any.whl.zip --markdown 20230611/c/cirq-pasqal/1.2.0.dev20230611010637-1.2.0.dev20230611062534/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230611010637-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230611062534-py3-none-any.whl.zip --markdown 20230611/c/cirq-rigetti/1.2.0.dev20230611010637-1.2.0.dev20230611062534/diff.md --exclude *.pyd
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-06-11 08:26:38] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230611010637-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230611062534-py3-none-any.whl.zip --markdown 20230611/c/cirq-google/1.2.0.dev20230611010637-1.2.0.dev20230611062534/diff.md --exclude *.pyd
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq]: Start processing: cirq-web
+[2023-06-11 08:26:39] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230611010637] Old Version: [1.2.0.dev20230610015021]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-ft]: Start processing: cirq-core
+[2023-06-11 08:26:39] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/4e/95/55cbd1dacc79a9c1b2feaeae9f258a323bae8dff14b0a3efef5cd4f25fca/cirq_web-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230611010637] Old Version: [1.2.0.dev20230610015021]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.460.0.tar.gz]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [stigg-api-client]: Start processing: smarterbombing
+[2023-06-11 08:26:39] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-11 08:26:39] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/a7/9e/7744c720236e7e935a4bde6ca02f860ce7b1589f9bf7395a0c28ef2483e8/cirq_core-1.2.0.dev20230610015021-py3-none-any.whl
+[2023-06-11 08:26:39] INFO root fetch - processPackages [streamlit-super-slider]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-super-slider-0.1.4.tar.gz]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [streamlit-super-slider]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-super-slider-0.1.5.tar.gz]
+[2023-06-11 08:26:39] INFO root fetch - main [MainThread]: End processing [streamlit-super-slider]: success
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/65/66/548cfcefed190ae59963d3bf4f822ef30644713ca7b74b143f00c6c04f92/cirq_web-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:39] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/0d/70/3d8ee28d6a6cd9a2edac5405453e7ed9503b668d6c5a44c942143e15101d/smarterbombing-0.3.3.tar.gz
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-11 08:26:39] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:39] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230611062534-py3-none-any.whl.zip]
+[2023-06-11 08:26:40] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-06-11 08:26:40] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/68/c9/91eab7be29b954c375e9aa19b99b0549cf440f571616b007a3353f3c22a4/smarterbombing-0.3.4.tar.gz
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230610015021-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230611010637-py3-none-any.whl.zip --markdown 20230611/c/cirq-web/1.2.0.dev20230610015021-1.2.0.dev20230611010637/diff.md --exclude *.pyd
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230611062534-py3-none-any.whl.zip]
+[2023-06-11 08:26:40] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-06-11 08:26:40] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 08:26:40] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.3.tar.gz tmp/smarterbombing-0.3.4.tar.gz --markdown 20230611/s/smarterbombing/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/2e/9f/09294a060bdd3ae5f99aa4908ab7c4c12771a01b078ca1555911de8efa84/cirq_core-1.2.0.dev20230611010637-py3-none-any.whl
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-06-11 08:26:40] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230610015021-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230611010637-py3-none-any.whl.zip --markdown 20230611/c/cirq-core/1.2.0.dev20230610015021-1.2.0.dev20230611010637/diff.md --exclude *.pyd
+[2023-06-11 08:26:40] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.459.0.tar.gz]
+[2023-06-11 08:26:40] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.460.0.tar.gz]
+[2023-06-11 08:26:40] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-06-11 08:26:41] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-11 08:26:41] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:41] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-06-11 08:26:41] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.3.tar.gz]
+[2023-06-11 08:26:41] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.4.tar.gz]
+[2023-06-11 08:26:41] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 08:26:42] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:42] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230611062534-py3-none-any.whl.zip]
+[2023-06-11 08:26:42] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-06-11 08:26:58] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230610015021-py3-none-any.whl.zip]
+[2023-06-11 08:26:58] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:26:58] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-06-11 08:27:33] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230611010637-py3-none-any.whl.zip]
+[2023-06-11 08:27:33] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230611062534-py3-none-any.whl.zip]
+[2023-06-11 08:27:33] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-06-11 08:27:33] INFO root fetch - main [MainThread]: Store serial: [18456295]
