@@ -3881,3 +3881,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 06:08:33] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.3.tar.gz]
 [2023-06-11 06:08:33] INFO root fetch - main [MainThread]: End processing [NikChat]: success
 [2023-06-11 06:08:33] INFO root fetch - main [MainThread]: Store serial: [18455699]
+[2023-06-11 06:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455699]
+[2023-06-11 06:13:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sk-calculator
+[2023-06-11 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyPDFForm
+[2023-06-11 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamdl
+[2023-06-11 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: confidenceinterval
+[2023-06-11 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius-dev
+[2023-06-11 06:13:42] INFO root fetch - processPackages [PyPDFForm]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-11 06:13:42] INFO root fetch - processPackages [sk-calculator]: New version: [1.0.5] Old Version: [1.0.2]
+[2023-06-11 06:13:42] INFO root fetch - processPackages [confidenceinterval]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 06:13:42] INFO root fetch - processPackages [gamdl]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-11 06:13:42] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/0f/fd/1df3680e77b570f33b8c3ac4976cb941a85aa71605e037eb9728bcba1e4a/gamdl-1.9.2.tar.gz
+[2023-06-11 06:13:42] WARNING root fetch - processPackages [aorta-sirius-dev]: Skipping, unable to determine old version
+[2023-06-11 06:13:42] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev] error
+[2023-06-11 06:13:42] INFO root fetch - processPackages [sk-calculator]: Downloading https://files.pythonhosted.org/packages/bc/cf/60cf622b77c7cc94a193b127466696308619e5a58b1648fc9ac43ac93abc/sk_calculator-1.0.2.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/8a/83/a40a40c423f1dbf6dac7af6e6f2e3c8b6778a4e289a7a8f7a35c009b42be/PyPDFForm-1.2.8.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [confidenceinterval]: Downloading https://files.pythonhosted.org/packages/c5/9c/c342fc0931be7ad0001a594702f43a3eae5383b482325b7db500de3b1bbd/confidenceinterval-1.0.1.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/5a/c2/c3ffd3988e396740568638e50229a5968fc041d64be56282f5f13a3d9de4/gamdl-1.9.3.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2023-06-11 06:13:42] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-1.9.2.tar.gz tmp/gamdl-1.9.3.tar.gz --markdown 20230611/g/gamdl/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-11 06:13:42] INFO root fetch - processPackages [sk-calculator]: Downloading https://files.pythonhosted.org/packages/40/64/88a039100792715d6388a7c3caa3abdfb71b5a08d997fe166cc383673fa0/sk_calculator-1.0.5.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/43/ce/5fe337bb56202689c67f790cf9af6f9fae2c1920571ca7656d6cc0ac8ec8/PyPDFForm-1.2.9.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [sk-calculator]: executing diffoscope
+[2023-06-11 06:13:42] INFO root fetch - processPackages [sk-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sk_calculator-1.0.2.tar.gz tmp/sk_calculator-1.0.5.tar.gz --markdown 20230611/s/sk-calculator/1.0.2-1.0.5/diff.md --exclude *.pyd
+[2023-06-11 06:13:42] INFO root fetch - processPackages [PyPDFForm]: executing diffoscope
+[2023-06-11 06:13:42] INFO root fetch - processPackages [PyPDFForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDFForm-1.2.8.tar.gz tmp/PyPDFForm-1.2.9.tar.gz --markdown 20230611/P/PyPDFForm/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-11 06:13:42] INFO root fetch - processPackages [confidenceinterval]: Downloading https://files.pythonhosted.org/packages/93/ee/c2c7234021d101cf0f1c55a00292256f98c6e7ae51d50aee8886cbef56ce/confidenceinterval-1.0.2.tar.gz
+[2023-06-11 06:13:42] INFO root fetch - processPackages [confidenceinterval]: executing diffoscope
+[2023-06-11 06:13:42] INFO root fetch - processPackages [confidenceinterval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confidenceinterval-1.0.1.tar.gz tmp/confidenceinterval-1.0.2.tar.gz --markdown 20230611/c/confidenceinterval/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 06:13:43] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-1.9.2.tar.gz]
+[2023-06-11 06:13:43] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-1.9.3.tar.gz]
+[2023-06-11 06:13:43] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2023-06-11 06:13:43] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.2.8.tar.gz]
+[2023-06-11 06:13:43] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.2.9.tar.gz]
+[2023-06-11 06:13:43] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
+[2023-06-11 06:13:44] INFO root fetch - processPackages [sk-calculator]: Remove: archive file [/home/abi/fetcher/tmp/sk_calculator-1.0.2.tar.gz]
+[2023-06-11 06:13:44] INFO root fetch - processPackages [sk-calculator]: Remove: archive file [/home/abi/fetcher/tmp/sk_calculator-1.0.5.tar.gz]
+[2023-06-11 06:13:44] INFO root fetch - main [MainThread]: End processing [sk-calculator]: success
+[2023-06-11 06:13:44] INFO root fetch - processPackages [confidenceinterval]: Remove: archive file [/home/abi/fetcher/tmp/confidenceinterval-1.0.1.tar.gz]
+[2023-06-11 06:13:44] INFO root fetch - processPackages [confidenceinterval]: Remove: archive file [/home/abi/fetcher/tmp/confidenceinterval-1.0.2.tar.gz]
+[2023-06-11 06:13:44] INFO root fetch - main [MainThread]: End processing [confidenceinterval]: success
+[2023-06-11 06:13:44] INFO root fetch - main [MainThread]: Store serial: [18455715]
