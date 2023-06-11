@@ -13856,3 +13856,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:14:09] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.2.tar.gz]
 [2023-06-11 21:14:09] INFO root fetch - main [MainThread]: End processing [evodflow]: success
 [2023-06-11 21:14:09] INFO root fetch - main [MainThread]: Store serial: [18460370]
+[2023-06-11 21:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460370]
+[2023-06-11 21:19:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decoss
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evilHunter
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evodflow
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardyweinbergcalculator
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabrique-nodes-core
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eqalert
+[2023-06-11 21:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zeph1rr-fastapi-utils
+[2023-06-11 21:19:24] INFO root fetch - processPackages [evodflow]: New version: [0.1.9.3] Old Version: [0.1.9.2]
+[2023-06-11 21:19:24] WARNING root fetch - processPackages [decoss]: Skipping, unable to determine old version
+[2023-06-11 21:19:24] INFO root fetch - main [MainThread]: End processing [decoss] error
+[2023-06-11 21:19:24] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 21:19:24] INFO root fetch - processPackages [evilHunter]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-11 21:19:24] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 21:19:24] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.1.4.post20230611] Old Version: [0.1.3.post20230611]
+[2023-06-11 21:19:24] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-11 21:19:24] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/38/63/e54cedccab66bdc8162c4bef920dac0fb23014482ca74da61937c06b1e6f/evodflow-0.1.9.2.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/f2/b6/64f0fad52bee1eb4c1b0d9266267208292b562da2f33179c014abc0d89f4/zeph1rr_fastapi_utils-1.0.1.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-06-11 21:19:24] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/c7/53/b991966993d2da0b10082d8307253787383df9acaccbedbe11825dec5f68/hardyweinbergcalculator-0.1.3.post20230611.tar.gz
+[2023-06-11 21:19:24] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 21:19:24] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 21:19:24] INFO root fetch - processPackages [eqalert]: New version: [3.5.4] Old Version: [3.5.3]
+[2023-06-11 21:19:24] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/28/11/66ec048ab6da81141119ccb8ad93f8a920c6c82afad3e4c5092f024ffbaf/zeph1rr_fastapi_utils-1.0.2.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-06-11 21:19:24] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/c0/23/fa494d14ad3a692cae87d1232bfc18b2284ac1c0b3ac21877888ddf391ad/evilHunter-0.1.7.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: executing diffoscope
+[2023-06-11 21:19:24] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeph1rr_fastapi_utils-1.0.1.tar.gz tmp/zeph1rr_fastapi_utils-1.0.2.tar.gz --markdown 20230611/z/zeph1rr-fastapi-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 21:19:24] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-06-11 21:19:24] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230611/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-11 21:19:24] INFO root fetch - processPackages [eqalert]: Downloading https://files.pythonhosted.org/packages/67/34/9e37ce8fb827818014d392689e376cf1176c16c70b0892a724533d3a1f79/eqalert-3.5.3.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/6e/6a/c7200ad3d87b4fcf4f3a49c1c3ae64f9e53da17637c962922fdaea126e1a/hardyweinbergcalculator-0.1.4.post20230611.tar.gz
+[2023-06-11 21:19:24] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-11 21:19:24] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.1.3.post20230611.tar.gz tmp/hardyweinbergcalculator-0.1.4.post20230611.tar.gz --markdown 20230611/h/hardyweinbergcalculator/0.1.3.post20230611-0.1.4.post20230611/diff.md --exclude *.pyd
+[2023-06-11 21:19:25] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/7b/0f/45faa65d6229538a807987e51a7c08f8e1e05480672992e857a7c20d803a/evodflow-0.1.9.3.tar.gz
+[2023-06-11 21:19:25] INFO root fetch - processPackages [evodflow]: executing diffoscope
+[2023-06-11 21:19:25] INFO root fetch - processPackages [evodflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodflow-0.1.9.2.tar.gz tmp/evodflow-0.1.9.3.tar.gz --markdown 20230611/e/evodflow/0.1.9.2-0.1.9.3/diff.md --exclude *.pyd
+[2023-06-11 21:19:25] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/10/d9/98abbc33397a9a745391e0d1614206d7c20e28d4d7304628ca6d063783dc/evilHunter-0.1.8.tar.gz
+[2023-06-11 21:19:25] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-11 21:19:25] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.7.tar.gz tmp/evilHunter-0.1.8.tar.gz --markdown 20230611/e/evilHunter/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-11 21:19:25] INFO root fetch - processPackages [eqalert]: Downloading https://files.pythonhosted.org/packages/3b/b5/f8cebaf61e8c8d3663ffb032eccfab079ffc705e2201d591984099a8aaeb/eqalert-3.5.4.tar.gz
+[2023-06-11 21:19:25] INFO root fetch - processPackages [eqalert]: executing diffoscope
+[2023-06-11 21:19:25] INFO root fetch - processPackages [eqalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqalert-3.5.3.tar.gz tmp/eqalert-3.5.4.tar.gz --markdown 20230611/e/eqalert/3.5.3-3.5.4/diff.md --exclude *.pyd
+[2023-06-11 21:19:25] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/zeph1rr_fastapi_utils-1.0.1.tar.gz]
+[2023-06-11 21:19:25] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/zeph1rr_fastapi_utils-1.0.2.tar.gz]
+[2023-06-11 21:19:25] INFO root fetch - main [MainThread]: End processing [zeph1rr-fastapi-utils]: success
+[2023-06-11 21:19:26] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip]
+[2023-06-11 21:19:26] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip]
+[2023-06-11 21:19:26] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-06-11 21:19:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.1.3.post20230611.tar.gz]
+[2023-06-11 21:19:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.1.4.post20230611.tar.gz]
+[2023-06-11 21:19:26] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-11 21:19:26] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.7.tar.gz]
+[2023-06-11 21:19:26] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.8.tar.gz]
+[2023-06-11 21:19:26] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-11 21:19:26] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.2.tar.gz]
+[2023-06-11 21:19:26] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.3.tar.gz]
+[2023-06-11 21:19:26] INFO root fetch - main [MainThread]: End processing [evodflow]: success
+[2023-06-11 21:19:27] INFO root fetch - processPackages [eqalert]: Remove: archive file [/home/abi/fetcher/tmp/eqalert-3.5.3.tar.gz]
+[2023-06-11 21:19:27] INFO root fetch - processPackages [eqalert]: Remove: archive file [/home/abi/fetcher/tmp/eqalert-3.5.4.tar.gz]
+[2023-06-11 21:19:27] INFO root fetch - main [MainThread]: End processing [eqalert]: success
+[2023-06-11 21:19:27] INFO root fetch - main [MainThread]: Store serial: [18460397]
