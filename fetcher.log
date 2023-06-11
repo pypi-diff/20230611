@@ -3353,3 +3353,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:01:10] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230611.tar.gz]
 [2023-06-11 05:01:10] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-11 05:01:10] INFO root fetch - main [MainThread]: Store serial: [18455497]
+[2023-06-11 05:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455497]
+[2023-06-11 05:06:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-commission-advance
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-commission
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-quick-commission
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tktermwidget
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-audiocraft
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LoopPdf
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygeoweaver
+[2023-06-11 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nlpia2
+[2023-06-11 05:06:19] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev5]
+[2023-06-11 05:06:19] WARNING root fetch - processPackages [LoopPdf]: Skipping, unable to determine old version
+[2023-06-11 05:06:19] INFO root fetch - main [MainThread]: End processing [LoopPdf] error
+[2023-06-11 05:06:19] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 05:06:19] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev11]
+[2023-06-11 05:06:19] INFO root fetch - processPackages [tktermwidget]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 05:06:19] INFO root fetch - processPackages [nlpia2]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-11 05:06:19] INFO root fetch - processPackages [odoo14-addon-sale-commission]: New version: [14.0.1.6.1.dev2] Old Version: [14.0.1.6.1.dev1]
+[2023-06-11 05:06:19] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-11 05:06:19] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/e1/e6/cebbcc85961e976c30d3410fec3974b68de6578d7aa4a9934d08ae9b0255/pygeoweaver-0.6.8.tar.gz
+[2023-06-11 05:06:19] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: Downloading https://files.pythonhosted.org/packages/bb/21/22fdf4187779f9d4a0513a40a71c6003c6d3de8bc38972205e7a8217dbd4/odoo14_addon_sale_commission_advance-14.0.1.0.1.dev11-py3-none-any.whl
+[2023-06-11 05:06:19] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: Downloading https://files.pythonhosted.org/packages/33/93/59c458d2ff061a3b11ad0dfccb48e9c665a4c8f9eab7ded5000fe9f759a7/odoo14_addon_sale_quick_commission-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-11 05:06:19] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Downloading https://files.pythonhosted.org/packages/b6/d5/d772dda6d32783ca8744c49b3092142d9d7b47b16da25905f26c03752657/nonebot_plugin_audiocraft-0.0.1.tar.gz
+[2023-06-11 05:06:19] INFO root fetch - processPackages [nlpia2]: Downloading https://files.pythonhosted.org/packages/ce/23/0e9541d884cb557a173e5dd1964f0499c77c31995ec8e61246c5142bd04b/nlpia2-0.0.27.tar.gz
+[2023-06-11 05:06:19] INFO root fetch - processPackages [tktermwidget]: Downloading https://files.pythonhosted.org/packages/b1/d3/9a96413290a69eff6b7c40de81648586c89a628e51487a57a4d988359490/tktermwidget-0.0.2.tar.gz
+[2023-06-11 05:06:19] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/e4/af/9dd65f14844d34b359fed13930d3303e3b3d2d59fe9e500d66ee9eee2d8e/odoo14_addon_sale_commission-14.0.1.6.1.dev1-py3-none-any.whl
+[2023-06-11 05:06:19] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/1d/a0/3aed3861d673cf10573bb61e4f114331be2f9040fad159c1af452f29567e/pygeoweaver-0.6.9.tar.gz
+[2023-06-11 05:06:19] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-11 05:06:19] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.8.tar.gz tmp/pygeoweaver-0.6.9.tar.gz --markdown 20230611/p/pygeoweaver/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-11 05:06:20] WARNING root fetch - processPackages [nlpia2]: Skipping package: exceeds size limit 29370474>=10485760
+[2023-06-11 05:06:20] INFO root fetch - main [MainThread]: End processing [nlpia2] error
+[2023-06-11 05:06:20] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Downloading https://files.pythonhosted.org/packages/6b/a5/f5aec2eb20b9cf6c53e73c666de5eb3f739df85b26ceaf350e07df170aa8/nonebot_plugin_audiocraft-0.0.2.tar.gz
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: Downloading https://files.pythonhosted.org/packages/58/7e/769f360746b5ccc02a3c1ef46de05006b211ba6c40d390a342d424748040/odoo14_addon_sale_quick_commission-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: Downloading https://files.pythonhosted.org/packages/14/16/a5a9e591156c4eeaad5b77f7d597c5c01fa6600995781cc768ced92cf5b8/odoo14_addon_sale_commission_advance-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-11 05:06:20] INFO root fetch - processPackages [tktermwidget]: Downloading https://files.pythonhosted.org/packages/01/69/50aba37a07b1edecfe460d5e1035d8784571adf4b019a5bce7564c271e77/tktermwidget-0.0.3.tar.gz
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/82/24/47f063c6a9be9ea6fd64118fd38ff0b79bb6a1e0c0523af248a31a5754eb/odoo14_addon_sale_commission-14.0.1.6.1.dev2-py3-none-any.whl
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: executing diffoscope
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_quick_commission-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sale_quick_commission-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-sale-quick-commission/14.0.1.0.1.dev5-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-11 05:06:20] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: executing diffoscope
+[2023-06-11 05:06:20] INFO root fetch - processPackages [tktermwidget]: executing diffoscope
+[2023-06-11 05:06:20] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_audiocraft-0.0.1.tar.gz tmp/nonebot_plugin_audiocraft-0.0.2.tar.gz --markdown 20230611/n/nonebot-plugin-audiocraft/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 05:06:20] INFO root fetch - processPackages [tktermwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tktermwidget-0.0.2.tar.gz tmp/tktermwidget-0.0.3.tar.gz --markdown 20230611/t/tktermwidget/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: executing diffoscope
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_advance-14.0.1.0.1.dev11-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_advance-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-sale-commission-advance/14.0.1.0.1.dev11-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: executing diffoscope
+[2023-06-11 05:06:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev2-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-sale-commission/14.0.1.6.1.dev1-14.0.1.6.1.dev2/diff.md --exclude *.pyd
+[2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_quick_commission-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-quick-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_quick_commission-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-quick-commission]: success
+[2023-06-11 05:06:21] INFO root fetch - processPackages [tktermwidget]: Remove: archive file [/home/abi/fetcher/tmp/tktermwidget-0.0.2.tar.gz]
+[2023-06-11 05:06:21] INFO root fetch - processPackages [tktermwidget]: Remove: archive file [/home/abi/fetcher/tmp/tktermwidget-0.0.3.tar.gz]
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [tktermwidget]: success
+[2023-06-11 05:06:21] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.6.8.tar.gz]
+[2023-06-11 05:06:21] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.6.9.tar.gz]
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-11 05:06:21] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_audiocraft-0.0.1.tar.gz]
+[2023-06-11 05:06:21] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_audiocraft-0.0.2.tar.gz]
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-audiocraft]: success
+[2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_advance-14.0.1.0.1.dev11-py3-none-any.whl.zip]
+[2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-commission-advance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_advance-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-advance]: success
+[2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev1-py3-none-any.whl.zip]
+[2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev2-py3-none-any.whl.zip]
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission]: success
+[2023-06-11 05:06:21] INFO root fetch - main [MainThread]: Store serial: [18455524]
