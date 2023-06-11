@@ -13374,3 +13374,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:33:06] INFO root fetch - processPackages [mmcif.utils]: Remove: archive file [/home/abi/fetcher/tmp/mmcif.utils-0.26.tar.gz]
 [2023-06-11 20:33:06] INFO root fetch - main [MainThread]: End processing [mmcif.utils]: success
 [2023-06-11 20:33:06] INFO root fetch - main [MainThread]: Store serial: [18460112]
+[2023-06-11 20:38:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460112]
+[2023-06-11 20:38:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: photobooth-app
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotify-lyrics-scraper
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HarishStringReplace
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snakemake
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: headless
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backupp
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nnx
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: demagnetize
+[2023-06-11 20:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mcproto
+[2023-06-11 20:38:15] INFO root fetch - processPackages [backupp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 20:38:15] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0rc3] Old Version: [0.1.0b5]
+[2023-06-11 20:38:15] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-11 20:38:15] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-06-11 20:38:15] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/b7/db/91490df0b577cdb2a77bde362407730019590aa92fdf0e33b580d3380f9c/backupp-0.0.5-py2.py3-none-any.whl
+[2023-06-11 20:38:16] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/25/31/6d7e09880311d5d1078e186f4e0ee3cb154224cb99c0f4eddc799cf28358/photobooth_app-0.1.0b5.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [mcproto]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-11 20:38:16] WARNING root fetch - processPackages [HarishStringReplace]: Skipping, unable to determine old version
+[2023-06-11 20:38:16] INFO root fetch - main [MainThread]: End processing [HarishStringReplace] error
+[2023-06-11 20:38:16] INFO root fetch - processPackages [nnx]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 20:38:16] WARNING root fetch - processPackages [demagnetize]: Skipping, unable to determine old version
+[2023-06-11 20:38:16] WARNING root fetch - processPackages [spotify-lyrics-scraper]: Skipping, unable to determine old version
+[2023-06-11 20:38:16] INFO root fetch - main [MainThread]: End processing [demagnetize] error
+[2023-06-11 20:38:16] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-scraper] error
+[2023-06-11 20:38:16] INFO root fetch - processPackages [nnx]: Downloading https://files.pythonhosted.org/packages/e2/53/06f423dba4035c71cd6863ec55af1036fe03987c85d555284d173b81484c/nnx-0.0.3.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/06/cf/baf86506e0eb85f49f3f6050dec2f0a23819b6d7da133a32446734a3d028/backupp-0.0.6-py2.py3-none-any.whl
+[2023-06-11 20:38:16] INFO root fetch - processPackages [mcproto]: Downloading https://files.pythonhosted.org/packages/42/7b/d573a4a840f8e2e3001086714779e3e79651e3c4eec853bb6f7865698123/mcproto-0.3.0.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/0e/e9/c07e6ecec00ee048211bcbdf9efbff856b44401a76f9fb25900b131b5217/photobooth_app-0.1.0rc3.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-06-11 20:38:16] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230611/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-11 20:38:16] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-11 20:38:16] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.5-py2.py3-none-any.whl.zip tmp/backupp-0.0.6-py2.py3-none-any.whl.zip --markdown 20230611/b/backupp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 20:38:16] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-06-11 20:38:16] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230611/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-06-11 20:38:16] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-06-11 20:38:16] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0b5.tar.gz tmp/photobooth_app-0.1.0rc3.tar.gz --markdown 20230611/p/photobooth-app/0.1.0b5-0.1.0rc3/diff.md --exclude *.pyd
+[2023-06-11 20:38:16] INFO root fetch - processPackages [mcproto]: Downloading https://files.pythonhosted.org/packages/e1/9e/046e2bb3e32430c3600b9aece9f30ec036eaff6e31a72669ff896386166a/mcproto-0.4.0.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [nnx]: Downloading https://files.pythonhosted.org/packages/0e/2d/0102a697abd4d128e6369fd8ac0d1f57aa07df32d351abd54ae0c9f04e8e/nnx-0.0.4.tar.gz
+[2023-06-11 20:38:16] INFO root fetch - processPackages [mcproto]: executing diffoscope
+[2023-06-11 20:38:16] INFO root fetch - processPackages [mcproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcproto-0.3.0.tar.gz tmp/mcproto-0.4.0.tar.gz --markdown 20230611/m/mcproto/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 20:38:16] INFO root fetch - processPackages [nnx]: executing diffoscope
+[2023-06-11 20:38:16] INFO root fetch - processPackages [nnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnx-0.0.3.tar.gz tmp/nnx-0.0.4.tar.gz --markdown 20230611/n/nnx/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 20:38:17] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.5-py2.py3-none-any.whl.zip]
+[2023-06-11 20:38:17] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.6-py2.py3-none-any.whl.zip]
+[2023-06-11 20:38:17] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-11 20:38:18] INFO root fetch - processPackages [nnx]: Remove: archive file [/home/abi/fetcher/tmp/nnx-0.0.3.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - processPackages [nnx]: Remove: archive file [/home/abi/fetcher/tmp/nnx-0.0.4.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - main [MainThread]: End processing [nnx]: success
+[2023-06-11 20:38:18] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-06-11 20:38:18] INFO root fetch - processPackages [mcproto]: Remove: archive file [/home/abi/fetcher/tmp/mcproto-0.3.0.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - processPackages [mcproto]: Remove: archive file [/home/abi/fetcher/tmp/mcproto-0.4.0.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - main [MainThread]: End processing [mcproto]: success
+[2023-06-11 20:38:18] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-06-11 20:38:18] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-06-11 20:38:19] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0b5.tar.gz]
+[2023-06-11 20:38:19] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc3.tar.gz]
+[2023-06-11 20:38:19] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-06-11 20:38:19] INFO root fetch - main [MainThread]: Store serial: [18460149]
