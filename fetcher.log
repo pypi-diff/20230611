@@ -14178,3 +14178,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:45:37] INFO root fetch - processPackages [phantom-types]: Remove: archive file [/home/abi/fetcher/tmp/phantom-types-2.1.0.tar.gz]
 [2023-06-11 21:45:37] INFO root fetch - main [MainThread]: End processing [phantom-types]: success
 [2023-06-11 21:45:37] INFO root fetch - main [MainThread]: Store serial: [18460530]
+[2023-06-11 21:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460530]
+[2023-06-11 21:50:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 21:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templaterSPLN
+[2023-06-11 21:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napatrackmater
+[2023-06-11 21:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aug-tool
+[2023-06-11 21:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cardboard.py
+[2023-06-11 21:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmsm-pm-temp-predict
+[2023-06-11 21:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySpeedMacro
+[2023-06-11 21:50:46] INFO root fetch - processPackages [PySpeedMacro]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-11 21:50:46] INFO root fetch - processPackages [aug-tool]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 21:50:46] WARNING root fetch - processPackages [templaterSPLN]: Skipping, unable to determine old version
+[2023-06-11 21:50:46] INFO root fetch - main [MainThread]: End processing [templaterSPLN] error
+[2023-06-11 21:50:46] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.6] Old Version: [3.6.5]
+[2023-06-11 21:50:46] INFO root fetch - processPackages [pmsm-pm-temp-predict]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 21:50:46] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/b0/3a/222360387697276a2a03e0ec0bcd8376612564bafc31bc0ee66e28918c91/PySpeedMacro-0.0.0.8.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [aug-tool]: Downloading https://files.pythonhosted.org/packages/80/2c/bcf55f7abbf3963311c8dfe9e81c36459481e3c7665f35f7fc302bb53626/aug-tool-0.0.5.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Downloading https://files.pythonhosted.org/packages/c5/98/e10dd2629f88d21107151fd1e6d397339ce39a332ed574ceb309d11b3e1a/pmsm_pm_temp_predict-0.0.2.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [cardboard.py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 21:50:46] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/27/a3/0a73631b2cc644e754b6e1caffe47592fbe86fc867a2d74ff874a1b91313/napatrackmater-3.6.5.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [aug-tool]: Downloading https://files.pythonhosted.org/packages/61/5b/7e295000e417d774dfdb19d1f73cc3abc0987402fa25da586f52f7cbfd79/aug-tool-0.0.6.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/f9/89/18436e6b0ae7dc986b572801888273074b3fe8d43936abbdd8dd4d369b33/napatrackmater-3.6.6.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [PySpeedMacro]: Downloading https://files.pythonhosted.org/packages/ce/ba/349591ecea02b0c93c78a29b2875f427f8c077871c859069e4de8589e35d/PySpeedMacro-0.0.0.9.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 21:50:46] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.5.tar.gz tmp/napatrackmater-3.6.6.tar.gz --markdown 20230611/n/napatrackmater/3.6.5-3.6.6/diff.md --exclude *.pyd
+[2023-06-11 21:50:46] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/8e/74/7a6c339396a3992fbe2c032b34b7bd17495a4c39faea754d9c666e6f7d68/cardboard.py-0.0.8.tar.gz
+[2023-06-11 21:50:46] INFO root fetch - processPackages [PySpeedMacro]: executing diffoscope
+[2023-06-11 21:50:46] INFO root fetch - processPackages [PySpeedMacro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySpeedMacro-0.0.0.8.tar.gz tmp/PySpeedMacro-0.0.0.9.tar.gz --markdown 20230611/P/PySpeedMacro/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-11 21:50:46] INFO root fetch - processPackages [aug-tool]: executing diffoscope
+[2023-06-11 21:50:46] INFO root fetch - processPackages [aug-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aug-tool-0.0.5.tar.gz tmp/aug-tool-0.0.6.tar.gz --markdown 20230611/a/aug-tool/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 21:50:47] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Downloading https://files.pythonhosted.org/packages/37/87/0ccb659a663d65baa0a586f318ca64369610c2261181bb0639c7aaedf56a/pmsm_pm_temp_predict-0.0.3.tar.gz
+[2023-06-11 21:50:47] INFO root fetch - processPackages [pmsm-pm-temp-predict]: executing diffoscope
+[2023-06-11 21:50:47] INFO root fetch - processPackages [pmsm-pm-temp-predict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmsm_pm_temp_predict-0.0.2.tar.gz tmp/pmsm_pm_temp_predict-0.0.3.tar.gz --markdown 20230611/p/pmsm-pm-temp-predict/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 21:50:47] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/a1/ef/855494219a5cfb8b3fbed3fdf5ac4f76c16e79b392db418a41c7e9c28237/cardboard.py-0.0.9.tar.gz
+[2023-06-11 21:50:47] INFO root fetch - processPackages [cardboard.py]: executing diffoscope
+[2023-06-11 21:50:47] INFO root fetch - processPackages [cardboard.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardboard.py-0.0.8.tar.gz tmp/cardboard.py-0.0.9.tar.gz --markdown 20230611/c/cardboard.py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 21:50:48] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.5.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.6.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 21:50:48] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Remove: archive file [/home/abi/fetcher/tmp/pmsm_pm_temp_predict-0.0.2.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Remove: archive file [/home/abi/fetcher/tmp/pmsm_pm_temp_predict-0.0.3.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - main [MainThread]: End processing [pmsm-pm-temp-predict]: success
+[2023-06-11 21:50:48] INFO root fetch - processPackages [aug-tool]: Remove: archive file [/home/abi/fetcher/tmp/aug-tool-0.0.5.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - processPackages [aug-tool]: Remove: archive file [/home/abi/fetcher/tmp/aug-tool-0.0.6.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - main [MainThread]: End processing [aug-tool]: success
+[2023-06-11 21:50:48] INFO root fetch - processPackages [PySpeedMacro]: Remove: archive file [/home/abi/fetcher/tmp/PySpeedMacro-0.0.0.8.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - processPackages [PySpeedMacro]: Remove: archive file [/home/abi/fetcher/tmp/PySpeedMacro-0.0.0.9.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - main [MainThread]: End processing [PySpeedMacro]: success
+[2023-06-11 21:50:48] INFO root fetch - processPackages [cardboard.py]: Remove: archive file [/home/abi/fetcher/tmp/cardboard.py-0.0.8.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - processPackages [cardboard.py]: Remove: archive file [/home/abi/fetcher/tmp/cardboard.py-0.0.9.tar.gz]
+[2023-06-11 21:50:48] INFO root fetch - main [MainThread]: End processing [cardboard.py]: success
+[2023-06-11 21:50:48] INFO root fetch - main [MainThread]: Store serial: [18460550]
