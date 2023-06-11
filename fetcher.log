@@ -9611,3 +9611,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:33:33] INFO root fetch - processPackages [cnvrg]: Remove: archive file [/home/abi/fetcher/tmp/cnvrg-0.7.8.tar.gz]
 [2023-06-11 15:33:33] INFO root fetch - main [MainThread]: End processing [cnvrg]: success
 [2023-06-11 15:33:33] INFO root fetch - main [MainThread]: Store serial: [18458359]
+[2023-06-11 15:38:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458359]
+[2023-06-11 15:38:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-data-validation
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mospy-wallet
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskiq-aiohttp
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: morel
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-captive-dns-server
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uwdtool
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioworkers
+[2023-06-11 15:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taskiq-dependencies
+[2023-06-11 15:38:42] INFO root fetch - processPackages [taskiq-aiohttp]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [airflow-data-validation]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-06-11 15:38:42] WARNING root fetch - processPackages [micropython-captive-dns-server]: Skipping, unable to determine old version
+[2023-06-11 15:38:42] INFO root fetch - main [MainThread]: End processing [micropython-captive-dns-server] error
+[2023-06-11 15:38:42] INFO root fetch - processPackages [mospy-wallet]: New version: [0.4] Old Version: [0.3.7]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [uwdtool]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [morel]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202306111336] Old Version: [99.0.202306101413]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/47/20/db689a52bf7d037467830f5b4ea11a6bc5ec82585184ec0a6611269f2997/airflow-data-validation-4.0.2.tar.gz
+[2023-06-11 15:38:42] INFO root fetch - processPackages [taskiq-dependencies]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-06-11 15:38:42] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/af/25/35eb33916700aa7f9174d47bce12a66c5fca40bd54d3af209c7bb61ae7a4/taskiq_aiohttp-0.1.3.tar.gz
+[2023-06-11 15:38:42] INFO root fetch - processPackages [uwdtool]: Downloading https://files.pythonhosted.org/packages/b7/9e/b650ce0d617fe418cdaebec78fb2363f5af86826c86909dfb1d7fe8e2632/uwdtool-1.0.3.tar.gz
+[2023-06-11 15:38:42] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/3b/d7/9841eea70b86758f6e4228a961acb369d35ff95d3a85ce6163f7ebd9e9a3/morel-0.1.1.tar.gz
+[2023-06-11 15:38:42] INFO root fetch - processPackages [mospy-wallet]: Downloading https://files.pythonhosted.org/packages/a9/18/3d4ce6516ca455849ba9b7250527e73ba2c10edf37dd121412c2baae3a1e/mospy_wallet-0.3.7.tar.gz
+[2023-06-11 15:38:42] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-06-11 15:38:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b1/da/af22272fd56cab9cba50f8cec3e92d337adee86e11fd42a9ea2e28322c03/kcli-99.0.202306101413-py3-none-any.whl
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/5d/10/3fa580f9035dff111c84d394f3f8cf994e941150650ea2fab848f854650c/taskiq_dependencies-1.2.4.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/92/d8/c0af7d1081daae9a73326d2ec7e1302b92bd6f055124e0c6035ea6bb5bf0/airflow-data-validation-4.0.3.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/b1/ef/7245fbc3559166b4c06399dd3f986571b76e2fb496fd947cb3712a7082f4/taskiq_aiohttp-0.2.0.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/f5/37/4129103271f86b5bdfdfd1547505dab119f03a3adbff226a1d08a83bd172/morel-1.0.0.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [uwdtool]: Downloading https://files.pythonhosted.org/packages/98/46/1060b73f6eb5b3e1951c34db974964c3fe80dab088bdbc11f571c00a626c/uwdtool-1.1.0.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [mospy-wallet]: Downloading https://files.pythonhosted.org/packages/69/d6/85de6365c1d5f71858d0d98cd01b7ceadbf4054cc6e775f3055b5272c2c4/mospy_wallet-0.4.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [airflow-data-validation]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [airflow-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-data-validation-4.0.2.tar.gz tmp/airflow-data-validation-4.0.3.tar.gz --markdown 20230611/a/airflow-data-validation/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-aiohttp]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-aiohttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aiohttp-0.1.3.tar.gz tmp/taskiq_aiohttp-0.2.0.tar.gz --markdown 20230611/t/taskiq-aiohttp/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/60/07/99693b536320a4bdb673403f35feb02b9dc6530603127e27d689ff1bb11b/taskiq_dependencies-1.3.0.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/15/fe/02aaf0d1ac62860b48446968527c0be208c6f1c0712414fd9c3bb3569f1a/kcli-99.0.202306111336-py3-none-any.whl
+[2023-06-11 15:38:43] INFO root fetch - processPackages [uwdtool]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [uwdtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uwdtool-1.0.3.tar.gz tmp/uwdtool-1.1.0.tar.gz --markdown 20230611/u/uwdtool/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [mospy-wallet]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [mospy-wallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mospy_wallet-0.3.7.tar.gz tmp/mospy_wallet-0.4.tar.gz --markdown 20230611/m/mospy-wallet/0.3.7-0.4/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-dependencies]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [taskiq-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_dependencies-1.2.4.tar.gz tmp/taskiq_dependencies-1.3.0.tar.gz --markdown 20230611/t/taskiq-dependencies/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-0.1.1.tar.gz tmp/morel-1.0.0.tar.gz --markdown 20230611/m/morel/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230611/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-11 15:38:43] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-11 15:38:43] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306101413-py3-none-any.whl.zip tmp/kcli-99.0.202306111336-py3-none-any.whl.zip --markdown 20230611/k/kcli/99.0.202306101413-99.0.202306111336/diff.md --exclude *.pyd
+[2023-06-11 15:38:44] INFO root fetch - processPackages [taskiq-aiohttp]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_aiohttp-0.1.3.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [taskiq-aiohttp]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_aiohttp-0.2.0.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [taskiq-aiohttp]: success
+[2023-06-11 15:38:44] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.2.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.3.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [airflow-data-validation]: success
+[2023-06-11 15:38:44] INFO root fetch - processPackages [uwdtool]: Remove: archive file [/home/abi/fetcher/tmp/uwdtool-1.0.3.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [uwdtool]: Remove: archive file [/home/abi/fetcher/tmp/uwdtool-1.1.0.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [uwdtool]: success
+[2023-06-11 15:38:44] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-0.1.1.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.0.0.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-11 15:38:44] INFO root fetch - processPackages [taskiq-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_dependencies-1.2.4.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [taskiq-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_dependencies-1.3.0.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [taskiq-dependencies]: success
+[2023-06-11 15:38:44] INFO root fetch - processPackages [mospy-wallet]: Remove: archive file [/home/abi/fetcher/tmp/mospy_wallet-0.3.7.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [mospy-wallet]: Remove: archive file [/home/abi/fetcher/tmp/mospy_wallet-0.4.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [mospy-wallet]: success
+[2023-06-11 15:38:44] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-06-11 15:38:44] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-06-11 15:38:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306101413-py3-none-any.whl.zip]
+[2023-06-11 15:38:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111336-py3-none-any.whl.zip]
+[2023-06-11 15:38:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-11 15:38:52] INFO root fetch - main [MainThread]: Store serial: [18458385]
