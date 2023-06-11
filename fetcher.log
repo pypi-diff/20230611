@@ -10536,3 +10536,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:49:19] INFO root fetch - processPackages [simplemonitor]: Remove: archive file [/home/abi/fetcher/tmp/simplemonitor-1.9.0b7.tar.gz]
 [2023-06-11 16:49:19] INFO root fetch - main [MainThread]: End processing [simplemonitor]: success
 [2023-06-11 16:49:19] INFO root fetch - main [MainThread]: Store serial: [18458756]
+[2023-06-11 16:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458756]
+[2023-06-11 16:54:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 16:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qrl
+[2023-06-11 16:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moosez
+[2023-06-11 16:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icloudpd
+[2023-06-11 16:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistletoe
+[2023-06-11 16:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj3base
+[2023-06-11 16:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napatrackmater
+[2023-06-11 16:54:28] INFO root fetch - processPackages [qrl]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-11 16:54:28] INFO root fetch - processPackages [moosez]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-11 16:54:28] WARNING root fetch - processPackages [dj3base]: Skipping, unable to determine old version
+[2023-06-11 16:54:28] INFO root fetch - main [MainThread]: End processing [dj3base] error
+[2023-06-11 16:54:28] INFO root fetch - processPackages [mistletoe]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-11 16:54:28] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-11 16:54:28] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-06-11 16:54:28] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/fc/13/6aa3141bea12ae596cf97f6a6c8ad64539871c940834a3301ab685f0c021/napatrackmater-3.6.1.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2023-06-11 16:54:28] INFO root fetch - processPackages [qrl]: Downloading https://files.pythonhosted.org/packages/bd/1d/5f35062e2c80ddd801b7e555d94595307a8683ecdaab9285f64b82ad47f3/qrl-4.0.1.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [mistletoe]: Downloading https://files.pythonhosted.org/packages/3e/f8/bdddc5323dcd50dd9eb21fdf733312bca4c4adeae66d5c264d35c4ad937f/mistletoe-1.0.1.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/9d/c1/54bab9b512a56db5df42fb6687a890296e252ce7a88302d1dfebf9d84ca4/moosez-2.0.4.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2023-06-11 16:54:28] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/2d/9c/cde2dd3f8a8ef240fbb2dd1f859ed1bd30f041627ec585c874026ddd2dea/napatrackmater-3.6.2.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2023-06-11 16:54:28] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20230611/i/icloudpd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 16:54:28] INFO root fetch - processPackages [qrl]: Downloading https://files.pythonhosted.org/packages/a8/ac/ef402667f01729b203af4129631fbbe23ad6661946be491e5ec6386f5ca7/qrl-4.0.2.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [mistletoe]: Downloading https://files.pythonhosted.org/packages/2d/64/89b9f140955d8056615f7f34323c5b8c96b527415b6aece5d6fe42cbdc58/mistletoe-1.1.0.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/ef/4b/ef3c6afa011ace670153b4c42979899dea2e3cb9cf3c3227bafc776177d7/moosez-2.0.5.tar.gz
+[2023-06-11 16:54:28] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 16:54:28] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.1.tar.gz tmp/napatrackmater-3.6.2.tar.gz --markdown 20230611/n/napatrackmater/3.6.1-3.6.2/diff.md --exclude *.pyd
+[2023-06-11 16:54:28] INFO root fetch - processPackages [mistletoe]: executing diffoscope
+[2023-06-11 16:54:28] INFO root fetch - processPackages [mistletoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistletoe-1.0.1.tar.gz tmp/mistletoe-1.1.0.tar.gz --markdown 20230611/m/mistletoe/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 16:54:28] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-11 16:54:28] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.4.tar.gz tmp/moosez-2.0.5.tar.gz --markdown 20230611/m/moosez/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-11 16:54:28] INFO root fetch - processPackages [qrl]: executing diffoscope
+[2023-06-11 16:54:28] INFO root fetch - processPackages [qrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrl-4.0.1.tar.gz tmp/qrl-4.0.2.tar.gz --markdown 20230611/q/qrl/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-11 16:54:29] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.4.tar.gz]
+[2023-06-11 16:54:29] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.5.tar.gz]
+[2023-06-11 16:54:29] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-11 16:54:29] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.1.tar.gz]
+[2023-06-11 16:54:29] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.2.tar.gz]
+[2023-06-11 16:54:29] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 16:54:30] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2023-06-11 16:54:30] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2023-06-11 16:54:30] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2023-06-11 16:54:30] INFO root fetch - processPackages [mistletoe]: Remove: archive file [/home/abi/fetcher/tmp/mistletoe-1.0.1.tar.gz]
+[2023-06-11 16:54:30] INFO root fetch - processPackages [mistletoe]: Remove: archive file [/home/abi/fetcher/tmp/mistletoe-1.1.0.tar.gz]
+[2023-06-11 16:54:30] INFO root fetch - main [MainThread]: End processing [mistletoe]: success
+[2023-06-11 16:54:31] INFO root fetch - processPackages [qrl]: Remove: archive file [/home/abi/fetcher/tmp/qrl-4.0.1.tar.gz]
+[2023-06-11 16:54:31] INFO root fetch - processPackages [qrl]: Remove: archive file [/home/abi/fetcher/tmp/qrl-4.0.2.tar.gz]
+[2023-06-11 16:54:31] INFO root fetch - main [MainThread]: End processing [qrl]: success
+[2023-06-11 16:54:31] INFO root fetch - main [MainThread]: Store serial: [18458774]
