@@ -5361,3 +5361,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:04:49] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-06-11 09:04:49] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-06-11 09:04:49] INFO root fetch - main [MainThread]: Store serial: [18456411]
+[2023-06-11 09:09:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456411]
+[2023-06-11 09:09:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 09:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smarterbombing
+[2023-06-11 09:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-06-11 09:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compose-x-common
+[2023-06-11 09:09:58] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-11 09:09:58] INFO root fetch - processPackages [compose-x-common]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-11 09:09:58] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-11 09:09:58] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/5f/a5/e9ee224319e006812edc564a810568b3470fee7501738bdc34509dee74c7/smarterbombing-0.3.7.tar.gz
+[2023-06-11 09:09:58] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-11 09:09:58] INFO root fetch - processPackages [compose-x-common]: Downloading https://files.pythonhosted.org/packages/47/40/550a09e2673bb90e0327d0c08f059308a17dcdf004769cfca91063d045c1/compose_x_common-1.2.8.tar.gz
+[2023-06-11 09:09:58] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-11 09:09:58] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/83/d0/caaa17a0e9156ec85ab509404e65b6815c9865f31e77f5063cca15267177/smarterbombing-0.3.8.tar.gz
+[2023-06-11 09:09:58] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-11 09:09:58] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230611/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-11 09:09:58] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 09:09:58] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.7.tar.gz tmp/smarterbombing-0.3.8.tar.gz --markdown 20230611/s/smarterbombing/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-11 09:09:58] INFO root fetch - processPackages [compose-x-common]: Downloading https://files.pythonhosted.org/packages/55/d9/cc13939bbde8aadd0f6c1d4dd37541cc6c29989e73a30ca0494937f5a209/compose_x_common-1.2.9.tar.gz
+[2023-06-11 09:09:59] INFO root fetch - processPackages [compose-x-common]: executing diffoscope
+[2023-06-11 09:09:59] INFO root fetch - processPackages [compose-x-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_x_common-1.2.8.tar.gz tmp/compose_x_common-1.2.9.tar.gz --markdown 20230611/c/compose-x-common/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-11 09:09:59] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.7.tar.gz]
+[2023-06-11 09:09:59] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.8.tar.gz]
+[2023-06-11 09:09:59] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 09:09:59] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-11 09:09:59] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-11 09:09:59] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-11 09:10:00] INFO root fetch - processPackages [compose-x-common]: Remove: archive file [/home/abi/fetcher/tmp/compose_x_common-1.2.8.tar.gz]
+[2023-06-11 09:10:00] INFO root fetch - processPackages [compose-x-common]: Remove: archive file [/home/abi/fetcher/tmp/compose_x_common-1.2.9.tar.gz]
+[2023-06-11 09:10:00] INFO root fetch - main [MainThread]: End processing [compose-x-common]: success
+[2023-06-11 09:10:00] INFO root fetch - main [MainThread]: Store serial: [18456419]
