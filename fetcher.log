@@ -6341,3 +6341,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:10:49] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.21.0.tar.gz]
 [2023-06-11 11:10:49] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
 [2023-06-11 11:10:49] INFO root fetch - main [MainThread]: Store serial: [18456830]
+[2023-06-11 11:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456830]
+[2023-06-11 11:15:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonicDISORT
+[2023-06-11 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abhi1234-gen
+[2023-06-11 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySupercell
+[2023-06-11 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thoth-doc
+[2023-06-11 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-06-11 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquizzer
+[2023-06-11 11:15:58] INFO root fetch - processPackages [PythonicDISORT]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-11 11:15:58] WARNING root fetch - processPackages [abhi1234-gen]: Skipping, unable to determine old version
+[2023-06-11 11:15:58] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 11:15:58] INFO root fetch - main [MainThread]: End processing [abhi1234-gen] error
+[2023-06-11 11:15:58] INFO root fetch - processPackages [thoth-doc]: New version: [0.0.91] Old Version: [0.0.9]
+[2023-06-11 11:15:58] INFO root fetch - processPackages [pyquizzer]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-11 11:15:58] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-11 11:15:58] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/94/d8/af01a693c3f60f293dfffa24b51ac3ee1935988a1ca168fce012f4465b76/pyquizzer-0.0.1a1.tar.gz
+[2023-06-11 11:15:58] INFO root fetch - processPackages [thoth-doc]: Downloading https://files.pythonhosted.org/packages/51/0c/b567d6f92a61ecb98d2754a6c66395dd4b9c75ada9b882cca6c111b18b96/thoth_doc-0.0.9.tar.gz
+[2023-06-11 11:15:58] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230611] Old Version: [2.14.0.dev20230610]
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PythonicDISORT]: Downloading https://files.pythonhosted.org/packages/42/b1/4165255916b31001996a0292466ba0d11a932eebbb9f575d629f3ee4903b/PythonicDISORT-0.1.1.tar.gz
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-11 11:15:59] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/ac/3c/1e4e4fc64aaf3981d66c78efc981941441f19b6526e85aa63098fccb0056/pyquizzer-0.0.1a2.tar.gz
+[2023-06-11 11:15:59] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/4f/1a/716f928460f762f0e3f5a459a0b07be3f2bf3102ccf89583cca1a88ba9c7/tf_nightly-2.14.0.dev20230610-cp39-cp39-win_amd64.whl
+[2023-06-11 11:15:59] INFO root fetch - processPackages [thoth-doc]: Downloading https://files.pythonhosted.org/packages/dd/32/8708b3c9d1e05f9804a26cb29d1b34e709952279ec77631814e86f25205c/thoth_doc-0.0.91.tar.gz
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230611/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 11:15:59] INFO root fetch - processPackages [pyquizzer]: executing diffoscope
+[2023-06-11 11:15:59] INFO root fetch - processPackages [pyquizzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizzer-0.0.1a1.tar.gz tmp/pyquizzer-0.0.1a2.tar.gz --markdown 20230611/p/pyquizzer/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PythonicDISORT]: Downloading https://files.pythonhosted.org/packages/8f/9b/bab0b39f3466f18aa51e2696ef3904d30253961a16545ad6f35bbd4fea7d/PythonicDISORT-0.2.0.tar.gz
+[2023-06-11 11:15:59] INFO root fetch - processPackages [thoth-doc]: executing diffoscope
+[2023-06-11 11:15:59] INFO root fetch - processPackages [thoth-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoth_doc-0.0.9.tar.gz tmp/thoth_doc-0.0.91.tar.gz --markdown 20230611/t/thoth-doc/0.0.9-0.0.91/diff.md --exclude *.pyd
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PythonicDISORT]: executing diffoscope
+[2023-06-11 11:15:59] INFO root fetch - processPackages [PythonicDISORT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonicDISORT-0.1.1.tar.gz tmp/PythonicDISORT-0.2.0.tar.gz --markdown 20230611/P/PythonicDISORT/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 11:15:59] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f0/2d/fd23d94d88c504cd1be5bee0e191538d06dc5a3f53f390d459fa15cc340f/tf_nightly-2.14.0.dev20230611-cp39-cp39-win_amd64.whl
+[2023-06-11 11:15:59] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-06-11 11:15:59] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230610-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230611-cp39-cp39-win_amd64.whl.zip --markdown 20230611/t/tf-nightly/2.14.0.dev20230610-2.14.0.dev20230611/diff.md --exclude *.pyd
+[2023-06-11 11:16:00] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a1.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a2.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - main [MainThread]: End processing [pyquizzer]: success
+[2023-06-11 11:16:00] INFO root fetch - processPackages [PythonicDISORT]: Remove: archive file [/home/abi/fetcher/tmp/PythonicDISORT-0.1.1.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - processPackages [PythonicDISORT]: Remove: archive file [/home/abi/fetcher/tmp/PythonicDISORT-0.2.0.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - main [MainThread]: End processing [PythonicDISORT]: success
+[2023-06-11 11:16:00] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-11 11:16:00] INFO root fetch - processPackages [thoth-doc]: Remove: archive file [/home/abi/fetcher/tmp/thoth_doc-0.0.9.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - processPackages [thoth-doc]: Remove: archive file [/home/abi/fetcher/tmp/thoth_doc-0.0.91.tar.gz]
+[2023-06-11 11:16:00] INFO root fetch - main [MainThread]: End processing [thoth-doc]: success
+[2023-06-11 11:16:00] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230610-cp39-cp39-win_amd64.whl.zip]
+[2023-06-11 11:16:00] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230611-cp39-cp39-win_amd64.whl.zip]
+[2023-06-11 11:16:00] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-06-11 11:16:00] INFO root fetch - main [MainThread]: Store serial: [18456859]
