@@ -8192,3 +8192,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:52:11] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.15.tar.gz]
 [2023-06-11 13:52:11] INFO root fetch - main [MainThread]: End processing [gitcoll]: success
 [2023-06-11 13:52:11] INFO root fetch - main [MainThread]: Store serial: [18457753]
+[2023-06-11 13:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457753]
+[2023-06-11 13:57:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iamlistening
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinecone-datasets
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai21
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graph-z-c
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akinator
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: custom-diffusion
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marlben
+[2023-06-11 13:57:20] INFO root fetch - processPackages [iamlistening]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 13:57:20] INFO root fetch - processPackages [akinator]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-11 13:57:20] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.5.0rc2] Old Version: [0.5.0rc1]
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ai21]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-11 13:57:20] INFO root fetch - processPackages [graph-z-c]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 13:57:20] INFO root fetch - processPackages [custom-diffusion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 13:57:20] WARNING root fetch - processPackages [marlben]: Skipping, unable to determine old version
+[2023-06-11 13:57:20] INFO root fetch - main [MainThread]: End processing [marlben] error
+[2023-06-11 13:57:20] INFO root fetch - processPackages [dxsp]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-11 13:57:20] INFO root fetch - processPackages [akinator]: Downloading https://files.pythonhosted.org/packages/96/74/9defda2ad265ae1a04e62e0484323ca1d2239aaba76073230ea8f15a3b69/akinator-1.1.0.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/05/b0/aa6f46107e582e90f5f35adcc734d01b9f6f8d359b49ee05819d91bcb76e/graph_z_c-0.1.1.macosx-10.9-universal2.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/2e/08/2863a3da8545e78d7f5696d8eb445415888c5c80d9343202a572f0d5e8cb/custom_diffusion-0.1.1.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/61/3b/e39112d90208c6f265ac5019bf29c2f61dbbb54d9a85775da21b16089e77/iamlistening-0.1.8.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/ff/90/dc7f65ec3fd912ba627658cbc5bb3b81ebdc97b7b70edceca703bd0220e2/ai21-1.1.3.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/03/c5/7d95a59b33dbf0b5780b5958f114884f803230e2568e5047fc4b903a9268/pinecone_datasets-0.5.0rc1.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/b0/d5/715a79aab5bc95cd5dcec1b1f99ff7531f1ad87b39f966b367df5472fbed/dxsp-2.6.8.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [akinator]: Downloading https://files.pythonhosted.org/packages/ee/50/10f35dec2148fd1818bbb751d59a727b44f21700f3abf5a1bceb19fc4c6e/akinator-1.1.1.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/0e/3e/e6047d1bf82c777e491434a0b4e4ce5891835fa9ecd22e288d46387561d0/graph_z_c-0.1.2.tar.gz
+[2023-06-11 13:57:20] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/c4/d8/0069f897ba0fffc25f1e346b946dcb598925bf294d6ec7fdc57a58eb05a6/ai21-1.1.4.tar.gz
+[2023-06-11 13:57:21] INFO root fetch - processPackages [custom-diffusion]: Downloading https://files.pythonhosted.org/packages/76/61/caf0677f9653720632284a1f20e7133c6e52c0e1a1e0c97214d966c1c894/custom_diffusion-0.1.2.tar.gz
+[2023-06-11 13:57:21] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/d5/33/cb3acac345b9099f8d279aab58cbdc14715b3b752fd6200ed8bcbc50bf88/iamlistening-0.1.9.tar.gz
+[2023-06-11 13:57:21] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-1.1.3.tar.gz tmp/ai21-1.1.4.tar.gz --markdown 20230611/a/ai21/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-11 13:57:21] INFO root fetch - processPackages [akinator]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [akinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akinator-1.1.0.tar.gz tmp/akinator-1.1.1.tar.gz --markdown 20230611/a/akinator/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-11 13:57:21] INFO root fetch - processPackages [graph-z-c]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [graph-z-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_z_c-0.1.1.macosx-10.9-universal2.tar.gz tmp/graph_z_c-0.1.2.tar.gz --markdown 20230611/g/graph-z-c/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 13:57:21] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/d9/81/e76f9e7c24a41c43455034133a279da02f7bcd65ff124ad4d76d657a28eb/pinecone_datasets-0.5.0rc2.tar.gz
+[2023-06-11 13:57:21] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/8e/36/ebff45e8fcfc7c802f316046901c42642ea5b4cf5a7cca835e9dba832590/dxsp-2.6.9.tar.gz
+[2023-06-11 13:57:21] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.1.8.tar.gz tmp/iamlistening-0.1.9.tar.gz --markdown 20230611/i/iamlistening/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 13:57:21] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.8.tar.gz tmp/dxsp-2.6.9.tar.gz --markdown 20230611/d/dxsp/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-11 13:57:21] INFO root fetch - processPackages [custom-diffusion]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [custom-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_diffusion-0.1.1.tar.gz tmp/custom_diffusion-0.1.2.tar.gz --markdown 20230611/c/custom-diffusion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 13:57:21] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-06-11 13:57:21] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.0rc1.tar.gz tmp/pinecone_datasets-0.5.0rc2.tar.gz --markdown 20230611/p/pinecone-datasets/0.5.0rc1-0.5.0rc2/diff.md --exclude *.pyd
+[2023-06-11 13:57:22] INFO root fetch - processPackages [graph-z-c]: Remove: archive file [/home/abi/fetcher/tmp/graph_z_c-0.1.1.macosx-10.9-universal2.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [graph-z-c]: Remove: archive file [/home/abi/fetcher/tmp/graph_z_c-0.1.2.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
+[2023-06-11 13:57:22] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.1.8.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.1.9.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-06-11 13:57:22] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.8.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.9.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-06-11 13:57:22] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc1.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc2.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-06-11 13:57:22] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.1.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [custom-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/custom_diffusion-0.1.2.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [custom-diffusion]: success
+[2023-06-11 13:57:22] INFO root fetch - processPackages [akinator]: Remove: archive file [/home/abi/fetcher/tmp/akinator-1.1.0.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [akinator]: Remove: archive file [/home/abi/fetcher/tmp/akinator-1.1.1.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [akinator]: success
+[2023-06-11 13:57:22] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.1.3.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.1.4.tar.gz]
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2023-06-11 13:57:22] INFO root fetch - main [MainThread]: Store serial: [18457777]
