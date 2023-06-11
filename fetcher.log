@@ -14416,3 +14416,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:12:25] INFO root fetch - processPackages [pyoxigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyoxigraph-0.3.9.tar.gz]
 [2023-06-11 22:12:25] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
 [2023-06-11 22:12:25] INFO root fetch - main [MainThread]: Store serial: [18460644]
+[2023-06-11 22:17:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460644]
+[2023-06-11 22:17:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 22:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starplot
+[2023-06-11 22:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphscope
+[2023-06-11 22:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphscope-client
+[2023-06-11 22:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-apps
+[2023-06-11 22:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-data-science
+[2023-06-11 22:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matildapeak-scoly-api
+[2023-06-11 22:17:34] INFO root fetch - processPackages [starplot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 22:17:34] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230611] Old Version: [0.23.0a20230610]
+[2023-06-11 22:17:34] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230610] Old Version: [0.23.0a20230609]
+[2023-06-11 22:17:34] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230610] Old Version: [0.23.0a20230609]
+[2023-06-11 22:17:34] INFO root fetch - processPackages [smart-data-science]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 22:17:34] WARNING root fetch - processPackages [matildapeak-scoly-api]: Skipping, unable to determine old version
+[2023-06-11 22:17:34] INFO root fetch - main [MainThread]: End processing [matildapeak-scoly-api] error
+[2023-06-11 22:17:34] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/43/17/2a2294de1da38ea0fc854a7184160e93a230b570d2e7b0d936c1aec12d1c/gs_apps-0.23.0a20230609-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 22:17:34] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/47/4b/414cb9d39b20491611d6b6e0ce577238202d551ae53ae91c016d65f37075/graphscope-0.23.0a20230610-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 22:17:34] INFO root fetch - processPackages [starplot]: Downloading https://files.pythonhosted.org/packages/19/30/5ea27e3ecd7c6950546a43b88a60296bbf5e24aafc3677fa93e20bfc86da/starplot-0.1.1.tar.gz
+[2023-06-11 22:17:35] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/8f/5c/b8a8e7347ef541152c6c9f5d8523b8208e68ff501fca240be3fe43202896/graphscope_client-0.23.0a20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 22:17:35] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 136915652>=10485760
+[2023-06-11 22:17:35] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-06-11 22:17:35] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47061717>=10485760
+[2023-06-11 22:17:35] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-06-11 22:17:35] INFO root fetch - processPackages [smart-data-science]: Downloading https://files.pythonhosted.org/packages/d5/55/8c687e86373f52f64b06e1b1ec03635d2d1cffe2caf05c5b238e919679a4/smart_data_science-0.1.1.tar.gz
+[2023-06-11 22:17:35] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64303216>=10485760
+[2023-06-11 22:17:35] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-06-11 22:17:35] INFO root fetch - processPackages [starplot]: Downloading https://files.pythonhosted.org/packages/9b/fc/20a5f9ae04a5c3525a8d8e476a1acd3de26f18b882b5d9fe53cc32a19960/starplot-0.1.2.tar.gz
+[2023-06-11 22:17:35] INFO root fetch - processPackages [smart-data-science]: Downloading https://files.pythonhosted.org/packages/4a/fe/75ae3eb44767c57ccdccf0090048b520fb94b9a88080a8db20f230699af8/smart_data_science-0.1.2.tar.gz
+[2023-06-11 22:17:35] INFO root fetch - processPackages [starplot]: executing diffoscope
+[2023-06-11 22:17:35] INFO root fetch - processPackages [starplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starplot-0.1.1.tar.gz tmp/starplot-0.1.2.tar.gz --markdown 20230611/s/starplot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 22:17:37] INFO root fetch - processPackages [starplot]: Remove: archive file [/home/abi/fetcher/tmp/starplot-0.1.1.tar.gz]
+[2023-06-11 22:17:37] INFO root fetch - processPackages [starplot]: Remove: archive file [/home/abi/fetcher/tmp/starplot-0.1.2.tar.gz]
+[2023-06-11 22:17:37] INFO root fetch - main [MainThread]: End processing [starplot]: success
+[2023-06-11 22:17:37] INFO root fetch - processPackages [smart-data-science]: executing diffoscope
+[2023-06-11 22:17:37] INFO root fetch - processPackages [smart-data-science]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_data_science-0.1.1.tar.gz tmp/smart_data_science-0.1.2.tar.gz --markdown 20230611/s/smart-data-science/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 22:17:39] INFO root fetch - processPackages [smart-data-science]: Remove: archive file [/home/abi/fetcher/tmp/smart_data_science-0.1.1.tar.gz]
+[2023-06-11 22:17:39] INFO root fetch - processPackages [smart-data-science]: Remove: archive file [/home/abi/fetcher/tmp/smart_data_science-0.1.2.tar.gz]
+[2023-06-11 22:17:39] INFO root fetch - main [MainThread]: End processing [smart-data-science]: success
+[2023-06-11 22:17:39] INFO root fetch - main [MainThread]: Store serial: [18460672]
