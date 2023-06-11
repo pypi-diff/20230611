@@ -14621,3 +14621,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:33:47] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-1.5.0.tar.gz]
 [2023-06-11 22:33:47] INFO root fetch - main [MainThread]: End processing [typeapi]: success
 [2023-06-11 22:33:47] INFO root fetch - main [MainThread]: Store serial: [18460742]
+[2023-06-11 22:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460742]
+[2023-06-11 22:38:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backupp
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slashml
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlrc
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdbook-pdf-outline
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webp3
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napatrackmater
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whisper_spln
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pixelartconv
+[2023-06-11 22:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yeastmlp
+[2023-06-11 22:38:56] INFO root fetch - processPackages [slashml]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [openlrc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 22:38:56] WARNING root fetch - processPackages [whisper_spln]: Skipping, unable to determine old version
+[2023-06-11 22:38:56] INFO root fetch - main [MainThread]: End processing [whisper_spln] error
+[2023-06-11 22:38:56] INFO root fetch - processPackages [yeastmlp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [webp3]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [pixelartconv]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [mdbook-pdf-outline]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.8] Old Version: [3.6.7]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/d6/19/c6187dec85a4fbee6f78366edb731bbda381b16cc0a666b529c6f50eb5b1/openlrc-0.0.5.tar.gz
+[2023-06-11 22:38:56] INFO root fetch - processPackages [pixelartconv]: Downloading https://files.pythonhosted.org/packages/61/73/18a6845070b813ae6ed1b3375ed487349976ed5134da3d08fa8cd1a6d56f/pixelartconv-1.1.0.tar.gz
+[2023-06-11 22:38:56] INFO root fetch - processPackages [backupp]: New version: [0.0.8] Old Version: [0.0.7rc2]
+[2023-06-11 22:38:56] INFO root fetch - processPackages [yeastmlp]: Downloading https://files.pythonhosted.org/packages/e4/68/1e5d52d6b55855767e427e2b83282969663935c14dc878d257c0a7d9b048/yeastmlp-0.0.1.tar.gz
+[2023-06-11 22:38:56] INFO root fetch - processPackages [slashml]: Downloading https://files.pythonhosted.org/packages/8d/fd/8f5fd68836746686d6b6133654e3f3dcc11d3d5fa1e6504ca2294f376a8d/slashml-0.1.3.tar.gz
+[2023-06-11 22:38:56] INFO root fetch - processPackages [webp3]: Downloading https://files.pythonhosted.org/packages/0a/54/4d90ca2448eb9cea243df4dbf1cde314fc3ac28dc2575ff718a51344e061/webp3-0.5.0.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [mdbook-pdf-outline]: Downloading https://files.pythonhosted.org/packages/eb/d6/aa4560c063e83baa93324957d2be6323dd841d2ee2fae4d7603f9fb950b7/mdbook-pdf-outline-0.1.3.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/5c/ce/60318743e630e4e9121510dd91a85368745a2d222c813e7fac315bd17b93/napatrackmater-3.6.7.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [pixelartconv]: Downloading https://files.pythonhosted.org/packages/22/11/448be94a66af7f1654e5ea8d573a785a66f90368ee017eb6866fdec5ff25/pixelartconv-1.1.1.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/53/e4/c03952e19257fbf61e08e297e28e5c27b99bffcffa906a1f6cf05fec4169/backupp-0.0.7rc2-py2.py3-none-any.whl
+[2023-06-11 22:38:57] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/d0/e1/7110e4426c6ef3301f2aaa391c0712b47f9669471ed42c57ac25a3e4ac26/openlrc-0.0.6.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [pixelartconv]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [pixelartconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelartconv-1.1.0.tar.gz tmp/pixelartconv-1.1.1.tar.gz --markdown 20230611/p/pixelartconv/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.0.5.tar.gz tmp/openlrc-0.0.6.tar.gz --markdown 20230611/o/openlrc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [yeastmlp]: Downloading https://files.pythonhosted.org/packages/7a/b7/f448a1a2688602de54a87edf986f2a8325269a01f46de2077d83202bbaf0/yeastmlp-0.0.2.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [yeastmlp]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [yeastmlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastmlp-0.0.1.tar.gz tmp/yeastmlp-0.0.2.tar.gz --markdown 20230611/y/yeastmlp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [mdbook-pdf-outline]: Downloading https://files.pythonhosted.org/packages/95/d0/713fac0559039bb0f48095e9d04bfc51b5cb57530696047e08ccb5da2385/mdbook-pdf-outline-0.1.4.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [slashml]: Downloading https://files.pythonhosted.org/packages/34/7b/173afa7b765300f855dece48699168c67fb28d0cb8eeb51956d7030cb34a/slashml-0.1.4.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [webp3]: Downloading https://files.pythonhosted.org/packages/f9/7d/441093d2ef4a215cdfa3cf0ee10b0978198719f4fb4532a00c4fe2f80c9f/webp3-0.6.0.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/82/ca/4235e90ba611da8c76bd7539a5abaca6a793399d9e70f284bcf71b3c821a/backupp-0.0.8-py2.py3-none-any.whl
+[2023-06-11 22:38:57] INFO root fetch - processPackages [mdbook-pdf-outline]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [mdbook-pdf-outline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdbook-pdf-outline-0.1.3.tar.gz tmp/mdbook-pdf-outline-0.1.4.tar.gz --markdown 20230611/m/mdbook-pdf-outline/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [slashml]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [slashml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slashml-0.1.3.tar.gz tmp/slashml-0.1.4.tar.gz --markdown 20230611/s/slashml/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/15/f0/93ca2aa18621aefa59f3ed2d61431209a3b145b1ac471b565a013a430011/napatrackmater-3.6.8.tar.gz
+[2023-06-11 22:38:57] INFO root fetch - processPackages [webp3]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [webp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webp3-0.5.0.tar.gz tmp/webp3-0.6.0.tar.gz --markdown 20230611/w/webp3/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.7rc2-py2.py3-none-any.whl.zip tmp/backupp-0.0.8-py2.py3-none-any.whl.zip --markdown 20230611/b/backupp/0.0.7rc2-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 22:38:57] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 22:38:57] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.7.tar.gz tmp/napatrackmater-3.6.8.tar.gz --markdown 20230611/n/napatrackmater/3.6.7-3.6.8/diff.md --exclude *.pyd
+[2023-06-11 22:38:58] INFO root fetch - processPackages [pixelartconv]: Remove: archive file [/home/abi/fetcher/tmp/pixelartconv-1.1.0.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [pixelartconv]: Remove: archive file [/home/abi/fetcher/tmp/pixelartconv-1.1.1.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [pixelartconv]: success
+[2023-06-11 22:38:58] INFO root fetch - processPackages [yeastmlp]: Remove: archive file [/home/abi/fetcher/tmp/yeastmlp-0.0.1.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [yeastmlp]: Remove: archive file [/home/abi/fetcher/tmp/yeastmlp-0.0.2.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [yeastmlp]: success
+[2023-06-11 22:38:58] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.5.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.0.6.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-06-11 22:38:58] INFO root fetch - processPackages [mdbook-pdf-outline]: Remove: archive file [/home/abi/fetcher/tmp/mdbook-pdf-outline-0.1.3.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [mdbook-pdf-outline]: Remove: archive file [/home/abi/fetcher/tmp/mdbook-pdf-outline-0.1.4.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [mdbook-pdf-outline]: success
+[2023-06-11 22:38:58] INFO root fetch - processPackages [slashml]: Remove: archive file [/home/abi/fetcher/tmp/slashml-0.1.3.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [slashml]: Remove: archive file [/home/abi/fetcher/tmp/slashml-0.1.4.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [slashml]: success
+[2023-06-11 22:38:58] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.7.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.8.tar.gz]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 22:38:58] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.7rc2-py2.py3-none-any.whl.zip]
+[2023-06-11 22:38:58] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.8-py2.py3-none-any.whl.zip]
+[2023-06-11 22:38:58] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-11 22:38:59] INFO root fetch - processPackages [webp3]: Remove: archive file [/home/abi/fetcher/tmp/webp3-0.5.0.tar.gz]
+[2023-06-11 22:38:59] INFO root fetch - processPackages [webp3]: Remove: archive file [/home/abi/fetcher/tmp/webp3-0.6.0.tar.gz]
+[2023-06-11 22:38:59] INFO root fetch - main [MainThread]: End processing [webp3]: success
+[2023-06-11 22:38:59] INFO root fetch - main [MainThread]: Store serial: [18460776]
