@@ -4788,3 +4788,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:50:12] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.41.tar.gz]
 [2023-06-11 07:50:12] INFO root fetch - main [MainThread]: End processing [SomeTools]: success
 [2023-06-11 07:50:12] INFO root fetch - main [MainThread]: Store serial: [18456088]
+[2023-06-11 07:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456088]
+[2023-06-11 07:55:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 07:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wfdsl
+[2023-06-11 07:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hr-timesheet-report
+[2023-06-11 07:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: max-num
+[2023-06-11 07:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git
+[2023-06-11 07:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toxicsecrets
+[2023-06-11 07:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcStats
+[2023-06-11 07:55:20] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-11 07:55:20] WARNING root fetch - processPackages [max-num]: Skipping, unable to determine old version
+[2023-06-11 07:55:20] INFO root fetch - main [MainThread]: End processing [max-num] error
+[2023-06-11 07:55:20] INFO root fetch - processPackages [funcStats]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 07:55:20] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 07:55:21] WARNING root fetch - processPackages [toxicsecrets]: Skipping, unable to determine old version
+[2023-06-11 07:55:21] INFO root fetch - processPackages [wfdsl]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-11 07:55:21] INFO root fetch - main [MainThread]: End processing [toxicsecrets] error
+[2023-06-11 07:55:21] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-11 07:55:21] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/e8/94/3fd0af1949a7e1c5fa64a41d66bc49d1c0cdd09912d49f504cb8b080250b/funcStats-0.0.8.tar.gz
+[2023-06-11 07:55:21] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/fe/fd/c48d0500511c18622fa213b5ff0d21ac741903be30c982250f7e9422a65d/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-11 07:55:21] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-11 07:55:21] INFO root fetch - processPackages [wfdsl]: Downloading https://files.pythonhosted.org/packages/05/fa/244c4b873e1df72be21eb0cdadb11a80a2375bc2c5c22a3a0ffe9531915a/wfdsl-0.2.6.tar.gz
+[2023-06-11 07:55:21] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/10/14/862dad341b67301cfa9de45170e4a2a627f07da334f770ce6af2b23201af/funcStats-0.0.9.tar.gz
+[2023-06-11 07:55:21] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-11 07:55:21] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230611/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 07:55:21] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-11 07:55:21] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.0.8.tar.gz tmp/funcStats-0.0.9.tar.gz --markdown 20230611/f/funcStats/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 07:55:21] INFO root fetch - processPackages [wfdsl]: Downloading https://files.pythonhosted.org/packages/a1/a8/6426479274f9ebdc22912385508142fe1fb907ca9a5b1675ad8638649a7d/wfdsl-0.2.7.tar.gz
+[2023-06-11 07:55:21] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/88/55/fe6086e72c64361b031a5853e4d0461c68f0ce5d326b07bbac5c484fed81/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-11 07:55:21] INFO root fetch - processPackages [wfdsl]: executing diffoscope
+[2023-06-11 07:55:21] INFO root fetch - processPackages [wfdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wfdsl-0.2.6.tar.gz tmp/wfdsl-0.2.7.tar.gz --markdown 20230611/w/wfdsl/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-11 07:55:21] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: executing diffoscope
+[2023-06-11 07:55:21] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-hr-timesheet-report/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-11 07:55:22] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-11 07:55:22] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-11 07:55:22] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-11 07:55:22] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.8.tar.gz]
+[2023-06-11 07:55:22] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.9.tar.gz]
+[2023-06-11 07:55:22] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-11 07:55:22] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-11 07:55:22] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-11 07:55:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-report]: success
+[2023-06-11 07:55:23] INFO root fetch - processPackages [wfdsl]: Remove: archive file [/home/abi/fetcher/tmp/wfdsl-0.2.6.tar.gz]
+[2023-06-11 07:55:23] INFO root fetch - processPackages [wfdsl]: Remove: archive file [/home/abi/fetcher/tmp/wfdsl-0.2.7.tar.gz]
+[2023-06-11 07:55:23] INFO root fetch - main [MainThread]: End processing [wfdsl]: success
+[2023-06-11 07:55:23] INFO root fetch - main [MainThread]: Store serial: [18456114]
