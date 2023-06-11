@@ -4920,3 +4920,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:11:01] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
 [2023-06-11 08:11:01] INFO root fetch - main [MainThread]: End processing [xtrack]: success
 [2023-06-11 08:11:01] INFO root fetch - main [MainThread]: Store serial: [18456159]
+[2023-06-11 08:16:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456159]
+[2023-06-11 08:16:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 08:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Space-Weather-Interface-P
+[2023-06-11 08:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfields
+[2023-06-11 08:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grnvae
+[2023-06-11 08:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: a3redis
+[2023-06-11 08:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peitho-data
+[2023-06-11 08:16:10] INFO root fetch - processPackages [xfields]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-11 08:16:10] INFO root fetch - processPackages [peitho-data]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-11 08:16:10] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 08:16:10] INFO root fetch - processPackages [a3redis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 08:16:10] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 08:16:10] INFO root fetch - processPackages [grnvae]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 08:16:10] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/09/b9/e77217658e1c5e539abac9da46ab07367b17ca2fa950041db6f26ea9564c/peitho_data-2.2.1.tar.gz
+[2023-06-11 08:16:10] ERROR root fetch - processPackages [a3redis]: Unable to fetch info: No such project/version 'a3redis' 0.1.1
+[2023-06-11 08:16:10] INFO root fetch - main [MainThread]: End processing [a3redis] error
+[2023-06-11 08:16:10] INFO root fetch - processPackages [grnvae]: Downloading https://files.pythonhosted.org/packages/4e/08/6647db0808a1cef472a798073c79b6e8ad4b8985b0dd9470271b83dc9518/grnvae-0.0.1.tar.gz
+[2023-06-11 08:16:10] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/7a/77/3a6abbee5bec0b9a1a9208d8bfbb48c1d3847a3623b736877d07f2a19f3c/xfields-0.9.3.tar.gz
+[2023-06-11 08:16:11] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/38/4a/55a8233229651ce218dc75d7406027f469c6488b43d18afd520718f0c81c/peitho_data-2.2.2.tar.gz
+[2023-06-11 08:16:11] INFO root fetch - processPackages [grnvae]: Downloading https://files.pythonhosted.org/packages/b1/46/f651a0b34e4b6a692cbc3ee28f84b3dab47d86d78eec8875f09dd91c342a/grnvae-0.0.2.tar.gz
+[2023-06-11 08:16:11] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/8b/54/cac5d52db408c1d03b97e7d6c7f37530ed94cdc6cec242e76f900759b3a3/xfields-0.9.4.tar.gz
+[2023-06-11 08:16:11] INFO root fetch - processPackages [grnvae]: executing diffoscope
+[2023-06-11 08:16:11] INFO root fetch - processPackages [grnvae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grnvae-0.0.1.tar.gz tmp/grnvae-0.0.2.tar.gz --markdown 20230611/g/grnvae/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 08:16:11] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-11 08:16:11] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.2.1.tar.gz tmp/peitho_data-2.2.2.tar.gz --markdown 20230611/p/peitho-data/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-11 08:16:11] INFO root fetch - processPackages [xfields]: executing diffoscope
+[2023-06-11 08:16:11] INFO root fetch - processPackages [xfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfields-0.9.3.tar.gz tmp/xfields-0.9.4.tar.gz --markdown 20230611/x/xfields/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-11 08:16:12] INFO root fetch - processPackages [grnvae]: Remove: archive file [/home/abi/fetcher/tmp/grnvae-0.0.1.tar.gz]
+[2023-06-11 08:16:12] INFO root fetch - processPackages [grnvae]: Remove: archive file [/home/abi/fetcher/tmp/grnvae-0.0.2.tar.gz]
+[2023-06-11 08:16:12] INFO root fetch - main [MainThread]: End processing [grnvae]: success
+[2023-06-11 08:16:12] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.2.1.tar.gz]
+[2023-06-11 08:16:12] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.2.2.tar.gz]
+[2023-06-11 08:16:12] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-11 08:16:12] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.3.tar.gz]
+[2023-06-11 08:16:12] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.4.tar.gz]
+[2023-06-11 08:16:12] INFO root fetch - main [MainThread]: End processing [xfields]: success
+[2023-06-11 08:16:12] INFO root fetch - main [MainThread]: Store serial: [18456175]
