@@ -5898,3 +5898,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:23:45] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-0.4.2.tar.gz]
 [2023-06-11 10:23:45] INFO root fetch - main [MainThread]: End processing [mleko]: success
 [2023-06-11 10:23:45] INFO root fetch - main [MainThread]: Store serial: [18456619]
+[2023-06-11 10:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456619]
+[2023-06-11 10:28:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libTSCANAPI
+[2023-06-11 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtlsdr-nfs32002
+[2023-06-11 10:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fortepyan
+[2023-06-11 10:28:54] INFO root fetch - processPackages [fortepyan]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 10:28:54] INFO root fetch - processPackages [rtlsdr-nfs32002]: New version: [0.2] Old Version: [0.1]
+[2023-06-11 10:28:54] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 10:28:54] INFO root fetch - processPackages [rtlsdr-nfs32002]: Downloading https://files.pythonhosted.org/packages/26/e4/178e81412b2964b35163a6898b5ab06216673ddc9b44ac6fa1dac2e4ba07/rtlsdr_nfs32002-0.1.tar.gz
+[2023-06-11 10:28:54] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/93/18/e079d41fc8e6b3ee41784bdedf9eb199b4a85df4e162be1153941f824ae6/libTSCANAPI-1.0.1.tar.gz
+[2023-06-11 10:28:54] INFO root fetch - processPackages [fortepyan]: Downloading https://files.pythonhosted.org/packages/6b/8f/acc0a3540ce9df8c84c1de78fa9309b3df94b19835477082040ba86e6f43/fortepyan-0.1.8.tar.gz
+[2023-06-11 10:28:54] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16274299>=10485760
+[2023-06-11 10:28:54] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-11 10:28:54] INFO root fetch - processPackages [rtlsdr-nfs32002]: Downloading https://files.pythonhosted.org/packages/53/51/09092211b3da7dbf779fb26194b2bb5d850e02ee9abdd7546fb743159845/rtlsdr_nfs32002-0.2.tar.gz
+[2023-06-11 10:28:54] INFO root fetch - processPackages [fortepyan]: Downloading https://files.pythonhosted.org/packages/10/43/e751a2d31edbab331fe506b78429a112592bfd63cb8b68c25e4d6de63188/fortepyan-0.1.9.tar.gz
+[2023-06-11 10:28:55] INFO root fetch - processPackages [rtlsdr-nfs32002]: executing diffoscope
+[2023-06-11 10:28:55] INFO root fetch - processPackages [rtlsdr-nfs32002]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtlsdr_nfs32002-0.1.tar.gz tmp/rtlsdr_nfs32002-0.2.tar.gz --markdown 20230611/r/rtlsdr-nfs32002/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-11 10:28:55] INFO root fetch - processPackages [fortepyan]: executing diffoscope
+[2023-06-11 10:28:55] INFO root fetch - processPackages [fortepyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortepyan-0.1.8.tar.gz tmp/fortepyan-0.1.9.tar.gz --markdown 20230611/f/fortepyan/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 10:28:56] INFO root fetch - processPackages [rtlsdr-nfs32002]: Remove: archive file [/home/abi/fetcher/tmp/rtlsdr_nfs32002-0.1.tar.gz]
+[2023-06-11 10:28:56] INFO root fetch - processPackages [rtlsdr-nfs32002]: Remove: archive file [/home/abi/fetcher/tmp/rtlsdr_nfs32002-0.2.tar.gz]
+[2023-06-11 10:28:56] INFO root fetch - main [MainThread]: End processing [rtlsdr-nfs32002]: success
+[2023-06-11 10:28:56] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.8.tar.gz]
+[2023-06-11 10:28:56] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.9.tar.gz]
+[2023-06-11 10:28:56] INFO root fetch - main [MainThread]: End processing [fortepyan]: success
+[2023-06-11 10:28:56] INFO root fetch - main [MainThread]: Store serial: [18456627]
