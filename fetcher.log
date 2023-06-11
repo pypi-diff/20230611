@@ -4027,3 +4027,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 06:24:08] INFO root fetch - processPackages [odoo14-addon-maintenance-equipment-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_equipment_hierarchy-14.0.1.0.2.dev5-py3-none-any.whl.zip]
 [2023-06-11 06:24:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-maintenance-equipment-hierarchy]: success
 [2023-06-11 06:24:08] INFO root fetch - main [MainThread]: Store serial: [18455756]
+[2023-06-11 06:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455756]
+[2023-06-11 06:29:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 06:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-addons
+[2023-06-11 06:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hardy-weinberg-equilibrium
+[2023-06-11 06:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-margin-analysis
+[2023-06-11 06:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-interop
+[2023-06-11 06:29:17] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 06:29:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: New version: [16.0.20230610.0] Old Version: [16.0.20230605.0]
+[2023-06-11 06:29:17] WARNING root fetch - processPackages [hardy-weinberg-equilibrium]: Skipping, unable to determine old version
+[2023-06-11 06:29:17] INFO root fetch - main [MainThread]: End processing [hardy-weinberg-equilibrium] error
+[2023-06-11 06:29:17] WARNING root fetch - processPackages [langchain-addons]: Skipping, unable to determine old version
+[2023-06-11 06:29:17] INFO root fetch - main [MainThread]: End processing [langchain-addons] error
+[2023-06-11 06:29:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/aa/09/13a1a1724831186225cced67bff8d9a62be435d9c98b51030e5fd9910fda/odoo_addons_oca_margin_analysis-16.0.20230605.0-py3-none-any.whl
+[2023-06-11 06:29:17] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-06-11 06:29:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/f3/eb/d31d31cbeeb6f8949222bdd3de3445b1fa90b2c76f0be6715530111f404c/odoo_addons_oca_margin_analysis-16.0.20230610.0-py3-none-any.whl
+[2023-06-11 06:29:17] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-06-11 06:29:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: executing diffoscope
+[2023-06-11 06:29:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_margin_analysis-16.0.20230605.0-py3-none-any.whl.zip tmp/odoo_addons_oca_margin_analysis-16.0.20230610.0-py3-none-any.whl.zip --markdown 20230611/o/odoo-addons-oca-margin-analysis/16.0.20230605.0-16.0.20230610.0/diff.md --exclude *.pyd
+[2023-06-11 06:29:17] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-06-11 06:29:17] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230611/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 06:29:18] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-11 06:29:18] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230610.0-py3-none-any.whl.zip]
+[2023-06-11 06:29:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-margin-analysis]: success
+[2023-06-11 06:29:20] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-06-11 06:29:20] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-06-11 06:29:20] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-06-11 06:29:20] INFO root fetch - main [MainThread]: Store serial: [18455776]
