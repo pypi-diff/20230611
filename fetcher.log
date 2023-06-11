@@ -3418,3 +3418,37 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:06:21] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev2-py3-none-any.whl.zip]
 [2023-06-11 05:06:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission]: success
 [2023-06-11 05:06:21] INFO root fetch - main [MainThread]: Store serial: [18455524]
+[2023-06-11 05:11:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455524]
+[2023-06-11 05:11:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 05:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-audiocraft
+[2023-06-11 05:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dartpy
+[2023-06-11 05:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slither-tcheck
+[2023-06-11 05:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyncraft
+[2023-06-11 05:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BioSAK
+[2023-06-11 05:11:30] INFO root fetch - processPackages [BioSAK]: New version: [1.66.1] Old Version: [1.66.0]
+[2023-06-11 05:11:30] INFO root fetch - processPackages [pyncraft]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-11 05:11:30] WARNING root fetch - processPackages [slither-tcheck]: Skipping, unable to determine old version
+[2023-06-11 05:11:30] INFO root fetch - main [MainThread]: End processing [slither-tcheck] error
+[2023-06-11 05:11:30] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 05:11:30] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post92] Old Version: [0.1.0.post91]
+[2023-06-11 05:11:30] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Downloading https://files.pythonhosted.org/packages/6b/a5/f5aec2eb20b9cf6c53e73c666de5eb3f739df85b26ceaf350e07df170aa8/nonebot_plugin_audiocraft-0.0.2.tar.gz
+[2023-06-11 05:11:30] INFO root fetch - processPackages [pyncraft]: Downloading https://files.pythonhosted.org/packages/48/84/09640b21afc32ff14cf6355710f56020532ed39fcbe844152ce332d430cb/pyncraft-0.1.1.tar.gz
+[2023-06-11 05:11:30] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/8c/b0/e81f3c05448018424b5875009f18d96590efb9d9e66aaaacb4ad786ceb6c/dartpy-0.1.0.post91-cp39-cp39-win_amd64.whl
+[2023-06-11 05:11:30] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/18/59/47cf15fb2fc4382d21d596cba0a3fba714c3a88e4ab9315c4dcbbdffd80e/BioSAK-1.66.0.tar.gz
+[2023-06-11 05:11:30] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20021573>=10485760
+[2023-06-11 05:11:30] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-11 05:11:31] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21174227>=10485760
+[2023-06-11 05:11:31] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-06-11 05:11:31] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Downloading https://files.pythonhosted.org/packages/ac/be/23cf0264ad48ee3396777b274e44cd4ae8b870565a9ced1f24e8dbe3b131/nonebot_plugin_audiocraft-0.0.3.tar.gz
+[2023-06-11 05:11:31] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: executing diffoscope
+[2023-06-11 05:11:31] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_audiocraft-0.0.2.tar.gz tmp/nonebot_plugin_audiocraft-0.0.3.tar.gz --markdown 20230611/n/nonebot-plugin-audiocraft/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 05:11:31] INFO root fetch - processPackages [pyncraft]: Downloading https://files.pythonhosted.org/packages/6a/44/6ffee178d92d5205b57af8133373cdca0abd5573a2274309a474bb457d47/pyncraft-0.2.0.tar.gz
+[2023-06-11 05:11:31] INFO root fetch - processPackages [pyncraft]: executing diffoscope
+[2023-06-11 05:11:31] INFO root fetch - processPackages [pyncraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncraft-0.1.1.tar.gz tmp/pyncraft-0.2.0.tar.gz --markdown 20230611/p/pyncraft/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 05:11:32] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_audiocraft-0.0.2.tar.gz]
+[2023-06-11 05:11:32] INFO root fetch - processPackages [nonebot-plugin-audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_audiocraft-0.0.3.tar.gz]
+[2023-06-11 05:11:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-audiocraft]: success
+[2023-06-11 05:11:32] INFO root fetch - processPackages [pyncraft]: Remove: archive file [/home/abi/fetcher/tmp/pyncraft-0.1.1.tar.gz]
+[2023-06-11 05:11:32] INFO root fetch - processPackages [pyncraft]: Remove: archive file [/home/abi/fetcher/tmp/pyncraft-0.2.0.tar.gz]
+[2023-06-11 05:11:32] INFO root fetch - main [MainThread]: End processing [pyncraft]: success
+[2023-06-11 05:11:32] INFO root fetch - main [MainThread]: Store serial: [18455551]
