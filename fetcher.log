@@ -5692,3 +5692,23 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:52:33] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-11 09:52:33] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-11 09:52:33] INFO root fetch - main [MainThread]: Store serial: [18456535]
+[2023-06-11 09:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456535]
+[2023-06-11 09:57:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-eytan-inline-instrumentation
+[2023-06-11 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-motioncorr
+[2023-06-11 09:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roshareservice
+[2023-06-11 09:57:42] INFO root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: New version: [20230611.7.54.792718] Old Version: [20230518.11.55.938945]
+[2023-06-11 09:57:42] INFO root fetch - processPackages [scipion-em-motioncorr]: New version: [3.9] Old Version: [3.8]
+[2023-06-11 09:57:42] WARNING root fetch - processPackages [roshareservice]: Skipping, unable to determine old version
+[2023-06-11 09:57:42] INFO root fetch - main [MainThread]: End processing [roshareservice] error
+[2023-06-11 09:57:42] INFO root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: Downloading https://files.pythonhosted.org/packages/5a/47/3490414f74b9bc5f7d84a0e21f86ea62922f6dae60bad1b845df89a2451b/certora-cli-alpha-eytan-inline_instrumentation-20230518.11.55.938945.tar.gz
+[2023-06-11 09:57:42] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/4e/5e/1524e55cbb1d407a41968009612ef702dfb3225c519d25ec69ae059974ec/scipion-em-motioncorr-3.8.tar.gz
+[2023-06-11 09:57:42] WARNING root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: Skipping package: exceeds size limit 38976279>=10485760
+[2023-06-11 09:57:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-inline-instrumentation] error
+[2023-06-11 09:57:43] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/8f/7b/78b9b5e37ac9d4f03364a6e6070b17eed8ebdbfa541b94fba26721d3845b/scipion-em-motioncorr-3.9.tar.gz
+[2023-06-11 09:57:43] INFO root fetch - processPackages [scipion-em-motioncorr]: executing diffoscope
+[2023-06-11 09:57:43] INFO root fetch - processPackages [scipion-em-motioncorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-motioncorr-3.8.tar.gz tmp/scipion-em-motioncorr-3.9.tar.gz --markdown 20230611/s/scipion-em-motioncorr/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-11 09:57:44] INFO root fetch - processPackages [scipion-em-motioncorr]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-motioncorr-3.8.tar.gz]
+[2023-06-11 09:57:44] INFO root fetch - processPackages [scipion-em-motioncorr]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-motioncorr-3.9.tar.gz]
+[2023-06-11 09:57:44] INFO root fetch - main [MainThread]: End processing [scipion-em-motioncorr]: success
+[2023-06-11 09:57:44] INFO root fetch - main [MainThread]: Store serial: [18456548]
