@@ -8467,3 +8467,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:13:04] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.98.0.tar.gz]
 [2023-06-11 14:13:04] INFO root fetch - main [MainThread]: End processing [execsql]: success
 [2023-06-11 14:13:04] INFO root fetch - main [MainThread]: Store serial: [18457852]
+[2023-06-11 14:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457852]
+[2023-06-11 14:18:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 14:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabrictestbed-extensions
+[2023-06-11 14:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: legend-pygeom-hpges
+[2023-06-11 14:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cheerup
+[2023-06-11 14:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-runtime
+[2023-06-11 14:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-neat
+[2023-06-11 14:18:13] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-06-11 14:18:13] INFO root fetch - processPackages [legend-pygeom-hpges]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-11 14:18:13] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cognite-neat]: New version: [0.12.9] Old Version: [0.12.8]
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cheerup]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 14:18:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/73/95/3da20fcc2cfe309d301ee33a607a933e79864997a5183cd22ddaa433490a/cognite_neat-0.12.8.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [legend-pygeom-hpges]: Downloading https://files.pythonhosted.org/packages/06/58/9e422e78a4a1f2af92b86ca18ffe009d245e52d7f75f5ea13c8d7de6eeb3/legend_pygeom_hpges-0.2.0.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cheerup]: Downloading https://files.pythonhosted.org/packages/7c/fe/8dd7320b6299e38112df40884b5a5bc99362fe3b892bee24621eab78a661/cheerup-0.1.1.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d0/fc/bfc17e84d553259bfbe47b693327c316d72ef87fe3c64aeada1e5ea9ad5a/fabrictestbed-extensions-1.5.0rc2.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-11 14:18:13] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230611/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cheerup]: Downloading https://files.pythonhosted.org/packages/50/e2/052d8041cc6b883c2ea1ebfab271abc732e69cef9c3f031275c557b1b1a6/cheerup-0.1.2.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/b3/0e/cd5698e54faa8e97ff9bfdfc0c28251a8cc5b3d783b524cf98d91e9ec065/cognite_neat-0.12.9.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [legend-pygeom-hpges]: Downloading https://files.pythonhosted.org/packages/81/6e/04600c92baf7f1b0f6a20909e965e73238dc999f7f1665632e4ff0e8b670/legend_pygeom_hpges-0.3.0.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d1/90/bae5b380c6d069ebffc9846c33c9533d37bf92f5ab459a5f5825464ab0fa/fabrictestbed-extensions-1.5.0rc3.tar.gz
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.12.8.tar.gz tmp/cognite_neat-0.12.9.tar.gz --markdown 20230611/c/cognite-neat/0.12.8-0.12.9/diff.md --exclude *.pyd
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cheerup]: executing diffoscope
+[2023-06-11 14:18:13] INFO root fetch - processPackages [cheerup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheerup-0.1.1.tar.gz tmp/cheerup-0.1.2.tar.gz --markdown 20230611/c/cheerup/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 14:18:13] INFO root fetch - processPackages [legend-pygeom-hpges]: executing diffoscope
+[2023-06-11 14:18:13] INFO root fetch - processPackages [legend-pygeom-hpges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_pygeom_hpges-0.2.0.tar.gz tmp/legend_pygeom_hpges-0.3.0.tar.gz --markdown 20230611/l/legend-pygeom-hpges/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-11 14:18:13] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-06-11 14:18:13] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz --markdown 20230611/f/fabrictestbed-extensions/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-06-11 14:18:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-11 14:18:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-11 14:18:14] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-11 14:18:14] INFO root fetch - processPackages [cheerup]: Remove: archive file [/home/abi/fetcher/tmp/cheerup-0.1.1.tar.gz]
+[2023-06-11 14:18:14] INFO root fetch - processPackages [cheerup]: Remove: archive file [/home/abi/fetcher/tmp/cheerup-0.1.2.tar.gz]
+[2023-06-11 14:18:14] INFO root fetch - main [MainThread]: End processing [cheerup]: success
+[2023-06-11 14:18:15] INFO root fetch - processPackages [legend-pygeom-hpges]: Remove: archive file [/home/abi/fetcher/tmp/legend_pygeom_hpges-0.2.0.tar.gz]
+[2023-06-11 14:18:15] INFO root fetch - processPackages [legend-pygeom-hpges]: Remove: archive file [/home/abi/fetcher/tmp/legend_pygeom_hpges-0.3.0.tar.gz]
+[2023-06-11 14:18:15] INFO root fetch - main [MainThread]: End processing [legend-pygeom-hpges]: success
+[2023-06-11 14:18:15] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz]
+[2023-06-11 14:18:15] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz]
+[2023-06-11 14:18:15] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-06-11 14:18:16] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.8.tar.gz]
+[2023-06-11 14:18:16] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.12.9.tar.gz]
+[2023-06-11 14:18:16] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-06-11 14:18:16] INFO root fetch - main [MainThread]: Store serial: [18457868]
