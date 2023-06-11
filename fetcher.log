@@ -7125,3 +7125,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:24:35] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.3.tar.gz]
 [2023-06-11 12:24:35] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
 [2023-06-11 12:24:35] INFO root fetch - main [MainThread]: Store serial: [18457222]
+[2023-06-11 12:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457222]
+[2023-06-11 12:29:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 12:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-06-11 12:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itkdb-gtk
+[2023-06-11 12:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aorta-sirius-dev
+[2023-06-11 12:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wappstore
+[2023-06-11 12:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gameyamlspiderandgenerator
+[2023-06-11 12:29:43] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-11 12:29:43] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 12:29:43] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 12:29:43] WARNING root fetch - processPackages [wappstore]: Skipping, unable to determine old version
+[2023-06-11 12:29:43] INFO root fetch - main [MainThread]: End processing [wappstore] error
+[2023-06-11 12:29:43] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/17/03/0dbd6e2369231fd2f08df4e1af7bdb6929400aae232b863b88950648a366/itkdb_gtk-0.0.8.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/f0/b5/f3ffec063427314df1dac3142338147218b0d4b54643f7144a277049482b/gameyamlspiderandgenerator-1.5.5.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 12:29:44] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 12:29:44] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/5b/79/8df97a4ac591aef1401626bd407b222421dfb16a6a60f10a1cca0dc9f08a/gameyamlspiderandgenerator-1.5.6.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-11 12:29:44] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.5.5.tar.gz tmp/gameyamlspiderandgenerator-1.5.6.tar.gz --markdown 20230611/g/gameyamlspiderandgenerator/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-11 12:29:44] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/7a/30/d0b186b3efe21bfd0547bf98065ec44276dff81d4635fba9babb043643f3/itkdb_gtk-0.0.9.tar.gz
+[2023-06-11 12:29:44] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-06-11 12:29:44] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.8.tar.gz tmp/itkdb_gtk-0.0.9.tar.gz --markdown 20230611/i/itkdb-gtk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 12:29:45] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 12:29:45] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 12:29:45] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 12:29:45] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 12:29:45] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.5.5.tar.gz]
+[2023-06-11 12:29:45] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.5.6.tar.gz]
+[2023-06-11 12:29:45] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-11 12:29:45] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.8.tar.gz]
+[2023-06-11 12:29:45] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.9.tar.gz]
+[2023-06-11 12:29:45] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-06-11 12:29:45] INFO root fetch - main [MainThread]: Store serial: [18457244]
