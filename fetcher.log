@@ -5221,3 +5221,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:43:11] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-11 08:43:11] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-11 08:43:11] INFO root fetch - main [MainThread]: Store serial: [18456346]
+[2023-06-11 08:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456346]
+[2023-06-11 08:48:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digital-unit
+[2023-06-11 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topologicpy
+[2023-06-11 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bumbo-lera
+[2023-06-11 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardyweinberg-equilibrium
+[2023-06-11 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheerup
+[2023-06-11 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onepasswd
+[2023-06-11 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapy-kit
+[2023-06-11 08:48:22] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-11 08:48:22] INFO root fetch - processPackages [onepasswd]: New version: [0.2.5] Old Version: [0.2.4rc2]
+[2023-06-11 08:48:22] INFO root fetch - processPackages [digital-unit]: New version: [1.6b0] Old Version: [1.6.0]
+[2023-06-11 08:48:22] WARNING root fetch - processPackages [bumbo-lera]: Skipping, unable to determine old version
+[2023-06-11 08:48:22] INFO root fetch - main [MainThread]: End processing [bumbo-lera] error
+[2023-06-11 08:48:22] INFO root fetch - processPackages [onepasswd]: Downloading https://files.pythonhosted.org/packages/79/be/e71af233599a1e24f2e1d728132fb642f01d528ba34746010270b05eaea9/onepasswd-0.2.4rc2.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [scrapy-kit]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-11 08:48:22] WARNING root fetch - processPackages [cheerup]: Skipping, unable to determine old version
+[2023-06-11 08:48:22] INFO root fetch - main [MainThread]: End processing [cheerup] error
+[2023-06-11 08:48:22] WARNING root fetch - processPackages [hardyweinberg-equilibrium]: Skipping, unable to determine old version
+[2023-06-11 08:48:22] INFO root fetch - main [MainThread]: End processing [hardyweinberg-equilibrium] error
+[2023-06-11 08:48:22] INFO root fetch - processPackages [onepasswd]: Downloading https://files.pythonhosted.org/packages/53/af/7543b87745cda15e6a4a92f3f6a1c8ac6d74d86f6496b58a0f28e661aa42/onepasswd-0.2.5.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [digital-unit]: Downloading https://files.pythonhosted.org/packages/e0/09/e6131177900d86128a4fdf9ed03307090601576fcb06a0c688f9d37c0d62/digital_unit-1.6.0.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [onepasswd]: executing diffoscope
+[2023-06-11 08:48:22] INFO root fetch - processPackages [onepasswd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepasswd-0.2.4rc2.tar.gz tmp/onepasswd-0.2.5.tar.gz --markdown 20230611/o/onepasswd/0.2.4rc2-0.2.5/diff.md --exclude *.pyd
+[2023-06-11 08:48:22] INFO root fetch - processPackages [scrapy-kit]: Downloading https://files.pythonhosted.org/packages/95/14/c782705a9e338c335c0d64e62cd5f66f33d6f433bafa305e66ff55dbe438/scrapy_kit-0.1.3.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [scrapy-kit]: Downloading https://files.pythonhosted.org/packages/b9/e0/69e97bcfe3339067c46912036f35f8cf354ec1b56c8a94fdc9879663d19d/scrapy_kit-0.1.5.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [digital-unit]: Downloading https://files.pythonhosted.org/packages/80/3c/13b477c2a89c9df2bded4470c3dc1843d9bdc037cca8f8579f45d2896b20/digital_unit-1.6b0.tar.gz
+[2023-06-11 08:48:22] INFO root fetch - processPackages [scrapy-kit]: executing diffoscope
+[2023-06-11 08:48:22] INFO root fetch - processPackages [scrapy-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_kit-0.1.3.tar.gz tmp/scrapy_kit-0.1.5.tar.gz --markdown 20230611/s/scrapy-kit/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 08:48:22] INFO root fetch - processPackages [digital-unit]: executing diffoscope
+[2023-06-11 08:48:22] INFO root fetch - processPackages [digital-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital_unit-1.6.0.tar.gz tmp/digital_unit-1.6b0.tar.gz --markdown 20230611/d/digital-unit/1.6.0-1.6b0/diff.md --exclude *.pyd
+[2023-06-11 08:48:23] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-06-11 08:48:23] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-06-11 08:48:23] INFO root fetch - processPackages [onepasswd]: Remove: archive file [/home/abi/fetcher/tmp/onepasswd-0.2.4rc2.tar.gz]
+[2023-06-11 08:48:23] INFO root fetch - processPackages [onepasswd]: Remove: archive file [/home/abi/fetcher/tmp/onepasswd-0.2.5.tar.gz]
+[2023-06-11 08:48:23] INFO root fetch - main [MainThread]: End processing [onepasswd]: success
+[2023-06-11 08:48:23] INFO root fetch - processPackages [digital-unit]: Remove: archive file [/home/abi/fetcher/tmp/digital_unit-1.6.0.tar.gz]
+[2023-06-11 08:48:23] INFO root fetch - processPackages [digital-unit]: Remove: archive file [/home/abi/fetcher/tmp/digital_unit-1.6b0.tar.gz]
+[2023-06-11 08:48:23] INFO root fetch - main [MainThread]: End processing [digital-unit]: success
+[2023-06-11 08:49:17] INFO root fetch - processPackages [scrapy-kit]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_kit-0.1.3.tar.gz]
+[2023-06-11 08:49:17] INFO root fetch - processPackages [scrapy-kit]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_kit-0.1.5.tar.gz]
+[2023-06-11 08:49:17] INFO root fetch - main [MainThread]: End processing [scrapy-kit]: success
+[2023-06-11 08:49:17] INFO root fetch - main [MainThread]: Store serial: [18456378]
