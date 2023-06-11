@@ -9175,3 +9175,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:12:15] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
 [2023-06-11 15:12:15] INFO root fetch - main [MainThread]: End processing [winter]: success
 [2023-06-11 15:12:15] INFO root fetch - main [MainThread]: Store serial: [18458167]
+[2023-06-11 15:17:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458167]
+[2023-06-11 15:17:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-11 15:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-06-11 15:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: innovationmerge
+[2023-06-11 15:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garmin-ace
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskiq-aio-kafka
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nalyst
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydelorean
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catencfamily
+[2023-06-11 15:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crdp-gcp
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nalyst]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-11 15:17:25] WARNING root fetch - processPackages [crdp-gcp]: Skipping, unable to determine old version
+[2023-06-11 15:17:25] INFO root fetch - processPackages [crdp-gcp]: Start processing: taskiq-nats
+[2023-06-11 15:17:25] WARNING root fetch - processPackages [pydelorean]: Skipping, unable to determine old version
+[2023-06-11 15:17:25] INFO root fetch - processPackages [pydelorean]: Start processing: nbdev-apl
+[2023-06-11 15:17:25] INFO root fetch - main [MainThread]: End processing [crdp-gcp] error
+[2023-06-11 15:17:25] INFO root fetch - main [MainThread]: End processing [pydelorean] error
+[2023-06-11 15:17:25] INFO root fetch - processPackages [catencfamily]: New version: [0.0.67] Old Version: [0.0.65]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-aio-kafka]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [innovationmerge]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-nats]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/b8/ea/91cbb04aefb526c5ebc825af6bf82a185d7a02cdd975e99a6cbbc2a8657d/garmin_ace-0.0.1a8.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.828] Old Version: [0.0.827]
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/55/a2/b66721ff0c1348d25f8533b9fac9fa46d693c7e3bc4606501fe9ca1d3d35/nbdev-apl-0.0.827.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/2c/55/47bac2017ac628f9155461f990fd21ae758d9f5d2a127b1fc89963eafb20/nalyst-1.0.0.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [innovationmerge]: Downloading https://files.pythonhosted.org/packages/59/4f/a33e6be697164b6986bc243d0e08e826c88ee94bbf68865452468b43bb22/innovationmerge-1.0.3.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/54/6e/d75edd2e91ac1c84741bd4b2b602c10578a228cbc89b826cb3d252997050/catencfamily-0.0.65.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-aio-kafka]: Downloading https://files.pythonhosted.org/packages/4f/79/da17f60b7e117dcb139c26d60bca0d9739dd15aef25139b71c3e431615fa/taskiq_aio_kafka-0.1.2.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-nats]: Downloading https://files.pythonhosted.org/packages/ba/92/38558163442fa414b6ac1466059f9620c07d4a1ee5d87e559710f7d8e242/taskiq_nats-0.2.0.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230611/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230611/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/35/76/a421c46fb3fe6ceac9a468c5b8ed644b5cdb6006d05fca4d8a0e7e134333/nbdev-apl-0.0.828.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230611/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.827.tar.gz tmp/nbdev-apl-0.0.828.tar.gz --markdown 20230611/n/nbdev-apl/0.0.827-0.0.828/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/e6/a2/93b7b21da29a071c059c01924003513181140e83ed5cda61c87eaab56be4/garmin_ace-0.0.1a9.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/35/b3/64e9ee5f0b8be877409f8efe480d82a96c202baf7d19a1ee843f67045459/nalyst-1.1.0.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/e6/35/99ee5c37e69cb4ad6689bc64b5b3f35c47d4088003afec15fabeb5bba5e6/catencfamily-0.0.67.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nalyst]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [nalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalyst-1.0.0.tar.gz tmp/nalyst-1.1.0.tar.gz --markdown 20230611/n/nalyst/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-nats]: Downloading https://files.pythonhosted.org/packages/b1/57/84a6154158b96d012d1fe2fbd188061ecd6f3c4274cc199aae29ce282d23/taskiq_nats-0.3.0.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.65.tar.gz tmp/catencfamily-0.0.67.tar.gz --markdown 20230611/c/catencfamily/0.0.65-0.0.67/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-aio-kafka]: Downloading https://files.pythonhosted.org/packages/73/de/e3b8d9e6eaba306488aa405ca48671b51bfbe05bb43f3a5931928a2c0e3b/taskiq_aio_kafka-0.2.0.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [innovationmerge]: Downloading https://files.pythonhosted.org/packages/f8/a5/2b2909d07ad65be4de223ac3ffc482aba8874c55e136fac7701556fbbb34/innovationmerge-1.0.5.tar.gz
+[2023-06-11 15:17:25] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a8.tar.gz tmp/garmin_ace-0.0.1a9.tar.gz --markdown 20230611/g/garmin-ace/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [innovationmerge]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [innovationmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innovationmerge-1.0.3.tar.gz tmp/innovationmerge-1.0.5.tar.gz --markdown 20230611/i/innovationmerge/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-nats]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-nats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_nats-0.2.0.tar.gz tmp/taskiq_nats-0.3.0.tar.gz --markdown 20230611/t/taskiq-nats/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-aio-kafka]: executing diffoscope
+[2023-06-11 15:17:25] INFO root fetch - processPackages [taskiq-aio-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aio_kafka-0.1.2.tar.gz tmp/taskiq_aio_kafka-0.2.0.tar.gz --markdown 20230611/t/taskiq-aio-kafka/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a8.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a9.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: Start processing: garmin-ace
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.827.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.828.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-apl]: Start processing: screener
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/b8/ea/91cbb04aefb526c5ebc825af6bf82a185d7a02cdd975e99a6cbbc2a8657d/garmin_ace-0.0.1a8.tar.gz
+[2023-06-11 15:17:27] INFO root fetch - processPackages [screener]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/e6/a2/93b7b21da29a071c059c01924003513181140e83ed5cda61c87eaab56be4/garmin_ace-0.0.1a9.tar.gz
+[2023-06-11 15:17:27] INFO root fetch - processPackages [taskiq-nats]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_nats-0.2.0.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [taskiq-nats]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_nats-0.3.0.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [taskiq-nats]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-11 15:17:27] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a8.tar.gz tmp/garmin_ace-0.0.1a9.tar.gz --markdown 20230611/g/garmin-ace/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [screener]: Downloading https://files.pythonhosted.org/packages/6b/49/a41875a6f50668d5443bbe737d76072c0b7f87c496b3a4dda24e8cc664de/screener-0.4.0.tar.gz
+[2023-06-11 15:17:27] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.65.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.67.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nalyst]: Remove: archive file [/home/abi/fetcher/tmp/nalyst-1.0.0.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [nalyst]: Remove: archive file [/home/abi/fetcher/tmp/nalyst-1.1.0.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [nalyst]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [innovationmerge]: Remove: archive file [/home/abi/fetcher/tmp/innovationmerge-1.0.3.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [innovationmerge]: Remove: archive file [/home/abi/fetcher/tmp/innovationmerge-1.0.5.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [innovationmerge]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [taskiq-aio-kafka]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_aio_kafka-0.1.2.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - processPackages [taskiq-aio-kafka]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_aio_kafka-0.2.0.tar.gz]
+[2023-06-11 15:17:27] INFO root fetch - main [MainThread]: End processing [taskiq-aio-kafka]: success
+[2023-06-11 15:17:27] INFO root fetch - processPackages [screener]: Downloading https://files.pythonhosted.org/packages/fe/88/bc5d6c7bd9a2b457a8cea6708e9754b918eefc2434d6de29e4eb7a2f80df/screener-0.4.1.tar.gz
+[2023-06-11 15:17:28] INFO root fetch - processPackages [screener]: executing diffoscope
+[2023-06-11 15:17:28] INFO root fetch - processPackages [screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screener-0.4.0.tar.gz tmp/screener-0.4.1.tar.gz --markdown 20230611/s/screener/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-11 15:17:28] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a8.tar.gz]
+[2023-06-11 15:17:28] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a9.tar.gz]
+[2023-06-11 15:17:28] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-11 15:17:29] INFO root fetch - processPackages [screener]: Remove: archive file [/home/abi/fetcher/tmp/screener-0.4.0.tar.gz]
+[2023-06-11 15:17:29] INFO root fetch - processPackages [screener]: Remove: archive file [/home/abi/fetcher/tmp/screener-0.4.1.tar.gz]
+[2023-06-11 15:17:29] INFO root fetch - main [MainThread]: End processing [screener]: success
+[2023-06-11 15:17:29] INFO root fetch - main [MainThread]: Store serial: [18458216]
