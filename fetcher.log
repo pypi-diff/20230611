@@ -12499,3 +12499,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:23:16] INFO root fetch - processPackages [stackdiac]: Remove: archive file [/home/abi/fetcher/tmp/stackdiac-0.0.1.dev28.tar.gz]
 [2023-06-11 19:23:16] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
 [2023-06-11 19:23:16] INFO root fetch - main [MainThread]: Store serial: [18459639]
+[2023-06-11 19:28:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459639]
+[2023-06-11 19:28:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasonable
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldimbenchmark
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SATOSA
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maestro-music
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multiregex
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fio-banka
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 19:28:25] INFO root fetch - processPackages [reasonable]: New version: [0.2.2a4] Old Version: [0.2.2a3]
+[2023-06-11 19:28:25] INFO root fetch - processPackages [SATOSA]: New version: [8.4.0] Old Version: [8.3.0]
+[2023-06-11 19:28:25] INFO root fetch - processPackages [maestro-music]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-11 19:28:25] WARNING root fetch - processPackages [fio-banka]: Skipping, unable to determine old version
+[2023-06-11 19:28:25] INFO root fetch - main [MainThread]: End processing [fio-banka] error
+[2023-06-11 19:28:25] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [multiregex]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-11 19:28:25] INFO root fetch - processPackages [SATOSA]: Downloading https://files.pythonhosted.org/packages/65/30/4f09ae87a7aa16829e1776d82ea9637ba08ed3a8e41ae6c55d14e96a2a5c/SATOSA-8.3.0.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/d4/61/e025c86bde980b6d0e811824814690f5814ee6565c8e568463c89943086d/maestro-music-1.0.3.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [multiregex]: Downloading https://files.pythonhosted.org/packages/38/59/f36277fecdb19c12d01d0f8ec6f725854cfeab5f571a4f64b7c60191c95d/multiregex-2.0.0.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [reasonable]: Downloading https://files.pythonhosted.org/packages/2c/17/df9fcc3853d8f9a2d987a0f0caf08974d6c93b5177ef586aaf013dd19985/reasonable-0.2.2a3.tar.gz
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-11 19:28:25] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230611/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 19:28:25] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-11 19:28:25] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230611/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-11 19:28:26] INFO root fetch - processPackages [SATOSA]: Downloading https://files.pythonhosted.org/packages/72/71/5bd01ee1352baedae667d3d1b22adb25be2150ad0e4ddd3557944fbf94d0/SATOSA-8.4.0.tar.gz
+[2023-06-11 19:28:26] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/21/66/4f4d89f231681fba630416b8e6d2fc2c84569b461227d79cc8af6afb90cc/maestro-music-1.0.4.tar.gz
+[2023-06-11 19:28:26] INFO root fetch - processPackages [SATOSA]: executing diffoscope
+[2023-06-11 19:28:26] INFO root fetch - processPackages [SATOSA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SATOSA-8.3.0.tar.gz tmp/SATOSA-8.4.0.tar.gz --markdown 20230611/S/SATOSA/8.3.0-8.4.0/diff.md --exclude *.pyd
+[2023-06-11 19:28:26] INFO root fetch - processPackages [multiregex]: Downloading https://files.pythonhosted.org/packages/f8/41/c48d8f246f96dddcd039a23f6cfc77dc51ec0533bfc44f1e47f52f03e2c3/multiregex-2.0.1.tar.gz
+[2023-06-11 19:28:26] INFO root fetch - processPackages [maestro-music]: executing diffoscope
+[2023-06-11 19:28:26] INFO root fetch - processPackages [maestro-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro-music-1.0.3.tar.gz tmp/maestro-music-1.0.4.tar.gz --markdown 20230611/m/maestro-music/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-11 19:28:26] INFO root fetch - processPackages [reasonable]: Downloading https://files.pythonhosted.org/packages/e2/65/12dce340d0e107981cb37d5424b5ef1c61fde83b987718a2664eee164cfd/reasonable-0.2.2a4.tar.gz
+[2023-06-11 19:28:26] INFO root fetch - processPackages [reasonable]: executing diffoscope
+[2023-06-11 19:28:26] INFO root fetch - processPackages [reasonable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonable-0.2.2a3.tar.gz tmp/reasonable-0.2.2a4.tar.gz --markdown 20230611/r/reasonable/0.2.2a3-0.2.2a4/diff.md --exclude *.pyd
+[2023-06-11 19:28:26] INFO root fetch - processPackages [multiregex]: executing diffoscope
+[2023-06-11 19:28:26] INFO root fetch - processPackages [multiregex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiregex-2.0.0.tar.gz tmp/multiregex-2.0.1.tar.gz --markdown 20230611/m/multiregex/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-11 19:28:27] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-11 19:28:27] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-11 19:28:27] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.3.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.4.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - main [MainThread]: End processing [maestro-music]: success
+[2023-06-11 19:28:27] INFO root fetch - processPackages [multiregex]: Remove: archive file [/home/abi/fetcher/tmp/multiregex-2.0.0.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - processPackages [multiregex]: Remove: archive file [/home/abi/fetcher/tmp/multiregex-2.0.1.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - main [MainThread]: End processing [multiregex]: success
+[2023-06-11 19:28:27] INFO root fetch - processPackages [SATOSA]: Remove: archive file [/home/abi/fetcher/tmp/SATOSA-8.3.0.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - processPackages [SATOSA]: Remove: archive file [/home/abi/fetcher/tmp/SATOSA-8.4.0.tar.gz]
+[2023-06-11 19:28:27] INFO root fetch - main [MainThread]: End processing [SATOSA]: success
+[2023-06-11 19:28:29] INFO root fetch - processPackages [reasonable]: Remove: archive file [/home/abi/fetcher/tmp/reasonable-0.2.2a3.tar.gz]
+[2023-06-11 19:28:29] INFO root fetch - processPackages [reasonable]: Remove: archive file [/home/abi/fetcher/tmp/reasonable-0.2.2a4.tar.gz]
+[2023-06-11 19:28:29] INFO root fetch - main [MainThread]: End processing [reasonable]: success
+[2023-06-11 19:28:29] INFO root fetch - main [MainThread]: Store serial: [18459704]
