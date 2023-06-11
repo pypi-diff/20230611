@@ -7346,3 +7346,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:48:19] ERROR root fetch - processPackages [sage-conf]: Timeout during execution of pkgdiff
 [2023-06-11 12:48:19] INFO root fetch - main [MainThread]: End processing [sage-conf] error
 [2023-06-11 12:48:19] INFO root fetch - main [MainThread]: Store serial: [18457305]
+[2023-06-11 12:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457305]
+[2023-06-11 12:53:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 12:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byfintech
+[2023-06-11 12:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dna.node
+[2023-06-11 12:53:28] WARNING root fetch - processPackages [byfintech]: Skipping, unable to determine old version
+[2023-06-11 12:53:28] INFO root fetch - main [MainThread]: End processing [byfintech] error
+[2023-06-11 12:53:29] INFO root fetch - processPackages [dna.node]: New version: [2.1.1] Old Version: [1.0.0]
+[2023-06-11 12:53:29] INFO root fetch - processPackages [dna.node]: Downloading https://files.pythonhosted.org/packages/02/a4/3fd0817fdf8868126bc23a94c4c0481a34d42c10492d851c2e739dcf917a/dna.node-1.0.0-py3-none-any.whl
+[2023-06-11 12:53:29] INFO root fetch - processPackages [dna.node]: Downloading https://files.pythonhosted.org/packages/a8/65/a0adf34446494102b81c86fed7f553b30673d0cc5e6667f1861107be8580/dna.node-2.1.1-py3-none-any.whl
+[2023-06-11 12:53:29] INFO root fetch - processPackages [dna.node]: executing diffoscope
+[2023-06-11 12:53:29] INFO root fetch - processPackages [dna.node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna.node-1.0.0-py3-none-any.whl.zip tmp/dna.node-2.1.1-py3-none-any.whl.zip --markdown 20230611/d/dna.node/1.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-11 12:53:32] INFO root fetch - processPackages [dna.node]: Remove: archive file [/home/abi/fetcher/tmp/dna.node-1.0.0-py3-none-any.whl.zip]
+[2023-06-11 12:53:32] INFO root fetch - processPackages [dna.node]: Remove: archive file [/home/abi/fetcher/tmp/dna.node-2.1.1-py3-none-any.whl.zip]
+[2023-06-11 12:53:32] INFO root fetch - main [MainThread]: End processing [dna.node]: success
+[2023-06-11 12:53:32] INFO root fetch - main [MainThread]: Store serial: [18457318]
