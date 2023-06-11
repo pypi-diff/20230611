@@ -4902,3 +4902,21 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:05:49] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230610.tar.gz]
 [2023-06-11 08:05:49] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-11 08:05:49] INFO root fetch - main [MainThread]: Store serial: [18456145]
+[2023-06-11 08:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456145]
+[2023-06-11 08:10:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapy-kit
+[2023-06-11 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superrec2
+[2023-06-11 08:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtrack
+[2023-06-11 08:10:59] WARNING root fetch - processPackages [scrapy-kit]: Skipping, unable to determine old version
+[2023-06-11 08:10:59] INFO root fetch - main [MainThread]: End processing [scrapy-kit] error
+[2023-06-11 08:10:59] WARNING root fetch - processPackages [superrec2]: Skipping, unable to determine old version
+[2023-06-11 08:10:59] INFO root fetch - main [MainThread]: End processing [superrec2] error
+[2023-06-11 08:10:59] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-11 08:10:59] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2023-06-11 08:11:00] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2023-06-11 08:11:00] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2023-06-11 08:11:00] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20230611/x/xtrack/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-11 08:11:01] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2023-06-11 08:11:01] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2023-06-11 08:11:01] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2023-06-11 08:11:01] INFO root fetch - main [MainThread]: Store serial: [18456159]
