@@ -3128,3 +3128,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:40:02] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2324.tar.gz]
 [2023-06-11 04:40:02] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
 [2023-06-11 04:40:02] INFO root fetch - main [MainThread]: Store serial: [18455417]
+[2023-06-11 04:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455417]
+[2023-06-11 04:45:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 04:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-06-11 04:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bambooai
+[2023-06-11 04:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mqtt-hass-base
+[2023-06-11 04:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monailabel-weekly
+[2023-06-11 04:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autosrt
+[2023-06-11 04:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-Ayiin
+[2023-06-11 04:45:12] INFO root fetch - processPackages [bambooai]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 04:45:12] INFO root fetch - processPackages [autosrt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-11 04:45:12] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-11 04:45:12] INFO root fetch - processPackages [mqtt-hass-base]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-06-11 04:45:12] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev1] Old Version: [0.4.5.dev1]
+[2023-06-11 04:45:12] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2324] Old Version: [0.5.dev2323]
+[2023-06-11 04:45:12] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/92/ed/12c94e90b61ba972db1e3c5631960fa4cf04b991fbe83c459354b3977a8f/bambooai-0.3.1.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/67/22/e9695f15151d8e8ca15beaccadfb5d57e14385652565eb35545c4cd11ffd/py-Ayiin-0.4.5.dev1.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/02/b8/1de1e86e6da77b68f932bc7564093d23838ae19c32633bcf099379797949/autosrt-1.3.8.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [mqtt-hass-base]: Downloading https://files.pythonhosted.org/packages/99/04/c55d4a5e83e463746e51eee66aa5de30625ce8250fce6367f120ebed3127/mqtt-hass-base-4.2.1.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/a5/f3/e869a879bc13a2c11f8ee7a4d61a028fd63ce6f02c4685b81f12fc4dffc8/monailabel_weekly-0.5.dev2323-py3-none-any.whl
+[2023-06-11 04:45:12] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/af/da/b03ed844095e4db6a08e8b8e33481508a734c96cdf51a3f20270b294b87c/bambooai-0.3.2.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/86/a5/3e8e776954154ba5162a5e23d2c1f03bec0dc0792b8ad13dd938aaea43dc/py-Ayiin-0.4.6.dev1.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-11 04:45:12] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.1.tar.gz tmp/bambooai-0.3.2.tar.gz --markdown 20230611/b/bambooai/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 04:45:12] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-11 04:45:12] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-11 04:45:12] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230611/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-11 04:45:12] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.5.dev1.tar.gz tmp/py-Ayiin-0.4.6.dev1.tar.gz --markdown 20230611/p/py-Ayiin/0.4.5.dev1-0.4.6.dev1/diff.md --exclude *.pyd
+[2023-06-11 04:45:12] INFO root fetch - processPackages [mqtt-hass-base]: Downloading https://files.pythonhosted.org/packages/97/67/171a0d19f424307c4d7830a8d95c3ab7f36827184f9bd7e3b2dd073c5d7a/mqtt-hass-base-4.2.2.tar.gz
+[2023-06-11 04:45:12] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-11 04:45:12] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.8.tar.gz tmp/autosrt-1.3.9.tar.gz --markdown 20230611/a/autosrt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-11 04:45:12] INFO root fetch - processPackages [mqtt-hass-base]: executing diffoscope
+[2023-06-11 04:45:12] INFO root fetch - processPackages [mqtt-hass-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt-hass-base-4.2.1.tar.gz tmp/mqtt-hass-base-4.2.2.tar.gz --markdown 20230611/m/mqtt-hass-base/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-06-11 04:45:13] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/19/fc/5cd48c605ad10ca2c0ea765262ed43da6a90d52f0aba68edcd8c62878d05/monailabel_weekly-0.5.dev2324-py3-none-any.whl
+[2023-06-11 04:45:13] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-06-11 04:45:13] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2323-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2324-py3-none-any.whl.zip --markdown 20230611/m/monailabel-weekly/0.5.dev2323-0.5.dev2324/diff.md --exclude *.pyd
+[2023-06-11 04:45:13] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.1.tar.gz]
+[2023-06-11 04:45:13] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.2.tar.gz]
+[2023-06-11 04:45:13] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-11 04:45:13] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.8.tar.gz]
+[2023-06-11 04:45:13] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-06-11 04:45:13] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-11 04:45:14] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-11 04:45:14] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-11 04:45:14] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-11 04:45:14] INFO root fetch - processPackages [mqtt-hass-base]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-hass-base-4.2.1.tar.gz]
+[2023-06-11 04:45:14] INFO root fetch - processPackages [mqtt-hass-base]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-hass-base-4.2.2.tar.gz]
+[2023-06-11 04:45:14] INFO root fetch - main [MainThread]: End processing [mqtt-hass-base]: success
+[2023-06-11 04:45:14] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.5.dev1.tar.gz]
+[2023-06-11 04:45:14] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev1.tar.gz]
+[2023-06-11 04:45:14] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-11 04:45:20] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2323-py3-none-any.whl.zip]
+[2023-06-11 04:45:20] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2324-py3-none-any.whl.zip]
+[2023-06-11 04:45:20] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-06-11 04:45:20] INFO root fetch - main [MainThread]: Store serial: [18455439]
