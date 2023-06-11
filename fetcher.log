@@ -6819,3 +6819,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:52:34] INFO root fetch - processPackages [osmsg]: Remove: archive file [/home/abi/fetcher/tmp/osmsg-0.1.9.tar.gz]
 [2023-06-11 11:52:34] INFO root fetch - main [MainThread]: End processing [osmsg]: success
 [2023-06-11 11:52:34] INFO root fetch - main [MainThread]: Store serial: [18457061]
+[2023-06-11 11:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457061]
+[2023-06-11 11:57:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pigar
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytrend
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krapplet
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FileEncTool
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: financetoolkit
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpd-queue
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ms-recognizers-text-suite
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plutous-trade-crypto
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: navalmartin-mir-vision-utils
+[2023-06-11 11:57:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xlmhglite
+[2023-06-11 11:57:44] INFO root fetch - processPackages [talkytrend]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-11 11:57:44] INFO root fetch - processPackages [mpd-queue]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 11:57:44] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 11:57:44] WARNING root fetch - processPackages [ms-recognizers-text-suite]: Skipping, unable to determine old version
+[2023-06-11 11:57:44] INFO root fetch - main [MainThread]: End processing [ms-recognizers-text-suite] error
+[2023-06-11 11:57:44] INFO root fetch - processPackages [financetoolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 11:57:44] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/65/80/2ac4502d99aad646a38b83111981612d4363ea9f9f5fa3af34a7c1febd90/talkytrend-1.1.0.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [mpd-queue]: Downloading https://files.pythonhosted.org/packages/a1/55/7b9f01a1d96eb94bb94a88cf8693c5e4ee10c0c1d4ad6a184a36a58aa0b7/mpd-queue-1.0.1.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [pigar]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-11 11:57:44] INFO root fetch - processPackages [krapplet]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-11 11:57:44] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/4e/33/6d7283c1b0203bf084d63f8f8f5392093d5885b2d49f7a2efe233d9b5627/financetoolkit-1.0.1.tar.gz
+[2023-06-11 11:57:44] WARNING root fetch - processPackages [xlmhglite]: Skipping, unable to determine old version
+[2023-06-11 11:57:44] INFO root fetch - main [MainThread]: End processing [xlmhglite] error
+[2023-06-11 11:57:44] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 11:57:44] INFO root fetch - processPackages [mpd-queue]: Downloading https://files.pythonhosted.org/packages/e1/e6/2f7e30ca5991d74cbc61850a3ec31ad118d06699f24013e688c089ebffee/mpd-queue-1.0.2.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/c9/84/cdc7300a10b511d89d61f3f4dd52d9a789df7c9c6012c87e4f8c744f7300/talkytrend-1.1.1.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [mpd-queue]: executing diffoscope
+[2023-06-11 11:57:44] INFO root fetch - processPackages [mpd-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpd-queue-1.0.1.tar.gz tmp/mpd-queue-1.0.2.tar.gz --markdown 20230611/m/mpd-queue/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:57:44] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-11 11:57:44] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230611/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 11:57:44] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-11 11:57:44] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.1.0.tar.gz tmp/talkytrend-1.1.1.tar.gz --markdown 20230611/t/talkytrend/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-11 11:57:44] INFO root fetch - processPackages [pigar]: Downloading https://files.pythonhosted.org/packages/d9/10/2237f1ae5f0ec3f8794f2135c137cabb50288ddc845139bd2b2dc1ecafcf/pigar-2.0.7.tar.gz
+[2023-06-11 11:57:44] WARNING root fetch - processPackages [FileEncTool]: Skipping, unable to determine old version
+[2023-06-11 11:57:44] INFO root fetch - main [MainThread]: End processing [FileEncTool] error
+[2023-06-11 11:57:44] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/ad/3c/7ffda1e1b1254e82d7058ecf82ceec3b35e4e2e0a5249665e206a48d0ce2/financetoolkit-1.0.2.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [krapplet]: Downloading https://files.pythonhosted.org/packages/5a/19/54e4c78b1f2f0533e8e169d2b80a3374dda0fe62862227625cfc978128fb/krapplet-0.3.1.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [financetoolkit]: executing diffoscope
+[2023-06-11 11:57:44] INFO root fetch - processPackages [financetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financetoolkit-1.0.1.tar.gz tmp/financetoolkit-1.0.2.tar.gz --markdown 20230611/f/financetoolkit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:57:44] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/10/43/0faf2ce040c31ec3d5fbec3455704388d1de1f395388b47123317288da72/navalmartin_mir_vision_utils-0.0.8.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [krapplet]: Downloading https://files.pythonhosted.org/packages/2f/53/c7811b5515d24b28daac7fe3069cf52cd495096284c6739f29ffe95763d6/krapplet-0.4.0.tar.gz
+[2023-06-11 11:57:44] WARNING root fetch - processPackages [pigar]: Skipping package: exceeds size limit 19703040>=10485760
+[2023-06-11 11:57:44] INFO root fetch - main [MainThread]: End processing [pigar] error
+[2023-06-11 11:57:44] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/33/82/0632f8ba98948950c674aefdba1e9cae6ee975dd3eedc20360ba647945ff/navalmartin_mir_vision_utils-0.0.9.tar.gz
+[2023-06-11 11:57:44] INFO root fetch - processPackages [krapplet]: executing diffoscope
+[2023-06-11 11:57:44] INFO root fetch - processPackages [krapplet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krapplet-0.3.1.tar.gz tmp/krapplet-0.4.0.tar.gz --markdown 20230611/k/krapplet/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 11:57:45] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-06-11 11:57:45] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230611/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 11:57:45] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.0.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.1.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-11 11:57:45] INFO root fetch - processPackages [mpd-queue]: Remove: archive file [/home/abi/fetcher/tmp/mpd-queue-1.0.1.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - processPackages [mpd-queue]: Remove: archive file [/home/abi/fetcher/tmp/mpd-queue-1.0.2.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - main [MainThread]: End processing [mpd-queue]: success
+[2023-06-11 11:57:45] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-11 11:57:45] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.0.1.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.0.2.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - main [MainThread]: End processing [financetoolkit]: success
+[2023-06-11 11:57:45] INFO root fetch - processPackages [krapplet]: Remove: archive file [/home/abi/fetcher/tmp/krapplet-0.3.1.tar.gz]
+[2023-06-11 11:57:45] INFO root fetch - processPackages [krapplet]: Remove: archive file [/home/abi/fetcher/tmp/krapplet-0.4.0.tar.gz]
+[2023-06-11 11:57:46] INFO root fetch - main [MainThread]: End processing [krapplet]: success
+[2023-06-11 11:57:46] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz]
+[2023-06-11 11:57:46] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz]
+[2023-06-11 11:57:46] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-06-11 11:57:46] INFO root fetch - main [MainThread]: Store serial: [18457099]
