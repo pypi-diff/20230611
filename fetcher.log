@@ -4957,3 +4957,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:16:12] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.4.tar.gz]
 [2023-06-11 08:16:12] INFO root fetch - main [MainThread]: End processing [xfields]: success
 [2023-06-11 08:16:12] INFO root fetch - main [MainThread]: Store serial: [18456175]
+[2023-06-11 08:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456175]
+[2023-06-11 08:21:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xmask
+[2023-06-11 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-06-11 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smarterbombing
+[2023-06-11 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-sa-orm-filter
+[2023-06-11 08:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-git
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xmask]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 08:21:21] INFO root fetch - processPackages [fastapi-sa-orm-filter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 08:21:21] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 08:21:21] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230611] Old Version: [1.6.1.dev20230610]
+[2023-06-11 08:21:21] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/0d/70/3d8ee28d6a6cd9a2edac5405453e7ed9503b668d6c5a44c942143e15101d/smarterbombing-0.3.3.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-11 08:21:21] INFO root fetch - processPackages [fastapi-sa-orm-filter]: Downloading https://files.pythonhosted.org/packages/81/52/5845d07c6dbb74f281e2bb60666d8a7eaa1ca7b9f1d3cbacc51eeb8b661b/fastapi-sa-orm-filter-0.1.4.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/8f/64/e5048fa5b078eea34e5bacd03024fca2dd196b7190e623a88fef2120e140/pretext-1.6.1.dev20230610.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/4b/af/83d04fc58155b1abb58962e4dbeab319b5178790899ed8f63e80cb978226/xmask-0.3.1.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-11 08:21:21] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/68/c9/91eab7be29b954c375e9aa19b99b0549cf440f571616b007a3353f3c22a4/smarterbombing-0.3.4.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230611/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 08:21:21] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 08:21:21] INFO root fetch - processPackages [fastapi-sa-orm-filter]: Downloading https://files.pythonhosted.org/packages/24/cd/06d1f7a3d4d7549fd35cc81ceae9e9554f033fc6716a1a87e39fe27d40cd/fastapi-sa-orm-filter-0.1.5.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.3.tar.gz tmp/smarterbombing-0.3.4.tar.gz --markdown 20230611/s/smarterbombing/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-11 08:21:21] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/42/52/5c533cfec8cf5bd3d328e2a30e3da80c5588f7b4ec5ec18e00e8df8d2b07/xmask-0.3.2.tar.gz
+[2023-06-11 08:21:21] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d6/f6/adc4c07eb56cdab723b49f974c6b77adb563ce3c73c4b166e2a0707bf0f6/pretext-1.6.1.dev20230611.tar.gz
+[2023-06-11 08:21:22] INFO root fetch - processPackages [fastapi-sa-orm-filter]: executing diffoscope
+[2023-06-11 08:21:22] INFO root fetch - processPackages [fastapi-sa-orm-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-sa-orm-filter-0.1.4.tar.gz tmp/fastapi-sa-orm-filter-0.1.5.tar.gz --markdown 20230611/f/fastapi-sa-orm-filter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 08:21:22] INFO root fetch - processPackages [xmask]: executing diffoscope
+[2023-06-11 08:21:22] INFO root fetch - processPackages [xmask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmask-0.3.1.tar.gz tmp/xmask-0.3.2.tar.gz --markdown 20230611/x/xmask/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 08:21:22] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-11 08:21:22] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230610.tar.gz tmp/pretext-1.6.1.dev20230611.tar.gz --markdown 20230611/p/pretext/1.6.1.dev20230610-1.6.1.dev20230611/diff.md --exclude *.pyd
+[2023-06-11 08:21:22] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-11 08:21:22] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-11 08:21:22] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-11 08:21:22] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.3.tar.gz]
+[2023-06-11 08:21:22] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.4.tar.gz]
+[2023-06-11 08:21:22] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 08:21:23] INFO root fetch - processPackages [fastapi-sa-orm-filter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sa-orm-filter-0.1.4.tar.gz]
+[2023-06-11 08:21:23] INFO root fetch - processPackages [fastapi-sa-orm-filter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sa-orm-filter-0.1.5.tar.gz]
+[2023-06-11 08:21:23] INFO root fetch - main [MainThread]: End processing [fastapi-sa-orm-filter]: success
+[2023-06-11 08:21:23] INFO root fetch - processPackages [xmask]: Remove: archive file [/home/abi/fetcher/tmp/xmask-0.3.1.tar.gz]
+[2023-06-11 08:21:23] INFO root fetch - processPackages [xmask]: Remove: archive file [/home/abi/fetcher/tmp/xmask-0.3.2.tar.gz]
+[2023-06-11 08:21:23] INFO root fetch - main [MainThread]: End processing [xmask]: success
+[2023-06-11 08:21:27] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230610.tar.gz]
+[2023-06-11 08:21:27] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230611.tar.gz]
+[2023-06-11 08:21:27] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-11 08:21:27] INFO root fetch - main [MainThread]: Store serial: [18456253]
