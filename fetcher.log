@@ -12646,3 +12646,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:33:42] INFO root fetch - processPackages [seafoam]: Remove: archive file [/home/abi/fetcher/tmp/seafoam-2.8.0.tar.gz]
 [2023-06-11 19:33:42] INFO root fetch - main [MainThread]: End processing [seafoam]: success
 [2023-06-11 19:33:42] INFO root fetch - main [MainThread]: Store serial: [18459734]
+[2023-06-11 19:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459734]
+[2023-06-11 19:38:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipydatawidgets
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hummuspy
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Myplayer
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpmc
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scitq
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiku
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenVisus
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getajob
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenVisusNoGui
+[2023-06-11 19:38:53] INFO root fetch - processPackages [scitq]: New version: [1.0rc9] Old Version: [1.0rc8]
+[2023-06-11 19:38:53] INFO root fetch - processPackages [getajob]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-11 19:38:53] WARNING root fetch - processPackages [mpmc]: Skipping, unable to determine old version
+[2023-06-11 19:38:53] INFO root fetch - main [MainThread]: End processing [mpmc] error
+[2023-06-11 19:38:53] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ipydatawidgets]: New version: [4.3.4] Old Version: [4.3.3]
+[2023-06-11 19:38:53] INFO root fetch - processPackages [hiku]: New version: [0.7.0rc9] Old Version: [0.7.0rc8]
+[2023-06-11 19:38:53] WARNING root fetch - processPackages [Myplayer]: Skipping, unable to determine old version
+[2023-06-11 19:38:53] INFO root fetch - main [MainThread]: End processing [Myplayer] error
+[2023-06-11 19:38:53] INFO root fetch - processPackages [OpenVisus]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-11 19:38:53] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/c2/0a/57b50af235b60438de3eae72630fb65786600180987e1c10dd665ae65a4e/getajob-0.2.3.tar.gz
+[2023-06-11 19:38:53] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 19:38:53] INFO root fetch - processPackages [OpenVisusNoGui]: New version: [2.2.99] Old Version: [2.2.97]
+[2023-06-11 19:38:53] INFO root fetch - processPackages [ipydatawidgets]: Downloading https://files.pythonhosted.org/packages/ab/5c/9cd9692165359f18146ede62115803805533b9285f4e72b69025b4de12f8/ipydatawidgets-4.3.3.tar.gz
+[2023-06-11 19:38:53] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 19:38:53] INFO root fetch - processPackages [scitq]: Downloading https://files.pythonhosted.org/packages/bc/46/748ad23ab691e84c80895bcc4e0e302512b9f9e98ddef9bba62292ce54fd/scitq-1.0rc8.tar.gz
+[2023-06-11 19:38:53] INFO root fetch - processPackages [OpenVisus]: Downloading https://files.pythonhosted.org/packages/ed/58/84763e7f5fb90af81efa4632d3f97d04c81edb451f9e5ea79a27a3799ef8/OpenVisus-2.2.97-cp39-none-win_amd64.whl
+[2023-06-11 19:38:53] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/c4/5c/7b65ae890ce09d8ee6ac5bf61cefad6664796c2d8c2127a3aa615ba9b099/hiku-0.7.0rc8.tar.gz
+[2023-06-11 19:38:54] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 19:38:54] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 19:38:54] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/94/96/d5a707bfd9735766797c235c560780f2a01ee604a8707035a22167ddb32e/getajob-0.2.4.tar.gz
+[2023-06-11 19:38:54] INFO root fetch - processPackages [OpenVisusNoGui]: Downloading https://files.pythonhosted.org/packages/db/c0/79dda0fe8f2d178da49ea512afd1c1a8f1a366aff5d3cc043a187b2ae6c7/OpenVisusNoGui-2.2.97-cp39-none-win_amd64.whl
+[2023-06-11 19:38:54] INFO root fetch - processPackages [getajob]: executing diffoscope
+[2023-06-11 19:38:54] INFO root fetch - processPackages [getajob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getajob-0.2.3.tar.gz tmp/getajob-0.2.4.tar.gz --markdown 20230611/g/getajob/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-11 19:38:54] WARNING root fetch - processPackages [OpenVisus]: Skipping package: exceeds size limit 44428616>=10485760
+[2023-06-11 19:38:54] INFO root fetch - main [MainThread]: End processing [OpenVisus] error
+[2023-06-11 19:38:54] INFO root fetch - processPackages [ipydatawidgets]: Downloading https://files.pythonhosted.org/packages/23/ea/1a71510d8f8d3b0c5e67804988d70c8c237ebb41d7c951b487780b25a88e/ipydatawidgets-4.3.4.tar.gz
+[2023-06-11 19:38:54] INFO root fetch - processPackages [ipydatawidgets]: executing diffoscope
+[2023-06-11 19:38:54] INFO root fetch - processPackages [ipydatawidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipydatawidgets-4.3.3.tar.gz tmp/ipydatawidgets-4.3.4.tar.gz --markdown 20230611/i/ipydatawidgets/4.3.3-4.3.4/diff.md --exclude *.pyd
+[2023-06-11 19:38:54] INFO root fetch - processPackages [scitq]: Downloading https://files.pythonhosted.org/packages/db/b2/e3083ce7561f361619d42d9a0649380c6b1290db44aa2f184a1136d8263c/scitq-1.0rc9.tar.gz
+[2023-06-11 19:38:54] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/b3/ba/21c6e077517296756f2b640aa4b70fd8ed63db0f86133d0f4afcac142464/hiku-0.7.0rc9.tar.gz
+[2023-06-11 19:38:54] WARNING root fetch - processPackages [OpenVisusNoGui]: Skipping package: exceeds size limit 43066678>=10485760
+[2023-06-11 19:38:54] INFO root fetch - main [MainThread]: End processing [OpenVisusNoGui] error
+[2023-06-11 19:38:54] INFO root fetch - processPackages [scitq]: executing diffoscope
+[2023-06-11 19:38:54] INFO root fetch - processPackages [scitq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitq-1.0rc8.tar.gz tmp/scitq-1.0rc9.tar.gz --markdown 20230611/s/scitq/1.0rc8-1.0rc9/diff.md --exclude *.pyd
+[2023-06-11 19:38:54] INFO root fetch - processPackages [hiku]: executing diffoscope
+[2023-06-11 19:38:54] INFO root fetch - processPackages [hiku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiku-0.7.0rc8.tar.gz tmp/hiku-0.7.0rc9.tar.gz --markdown 20230611/h/hiku/0.7.0rc8-0.7.0rc9/diff.md --exclude *.pyd
+[2023-06-11 19:38:55] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 19:38:55] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 19:38:55] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 19:38:55] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.2.3.tar.gz]
+[2023-06-11 19:38:55] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.2.4.tar.gz]
+[2023-06-11 19:38:55] INFO root fetch - main [MainThread]: End processing [getajob]: success
+[2023-06-11 19:38:55] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.0rc8.tar.gz]
+[2023-06-11 19:38:55] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.0rc9.tar.gz]
+[2023-06-11 19:38:55] INFO root fetch - main [MainThread]: End processing [hiku]: success
+[2023-06-11 19:38:56] INFO root fetch - processPackages [ipydatawidgets]: Remove: archive file [/home/abi/fetcher/tmp/ipydatawidgets-4.3.3.tar.gz]
+[2023-06-11 19:38:56] INFO root fetch - processPackages [ipydatawidgets]: Remove: archive file [/home/abi/fetcher/tmp/ipydatawidgets-4.3.4.tar.gz]
+[2023-06-11 19:38:56] INFO root fetch - main [MainThread]: End processing [ipydatawidgets]: success
+[2023-06-11 19:38:56] INFO root fetch - processPackages [scitq]: Remove: archive file [/home/abi/fetcher/tmp/scitq-1.0rc8.tar.gz]
+[2023-06-11 19:38:56] INFO root fetch - processPackages [scitq]: Remove: archive file [/home/abi/fetcher/tmp/scitq-1.0rc9.tar.gz]
+[2023-06-11 19:38:56] INFO root fetch - main [MainThread]: End processing [scitq]: success
+[2023-06-11 19:38:56] INFO root fetch - main [MainThread]: Store serial: [18459761]
