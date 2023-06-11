@@ -11849,3 +11849,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:25:36] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.5.tar.gz]
 [2023-06-11 18:25:36] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-06-11 18:25:36] INFO root fetch - main [MainThread]: Store serial: [18459304]
+[2023-06-11 18:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459304]
+[2023-06-11 18:30:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcdl
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dueros-smarthome
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fhempy
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gym-cas
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getmodelspec
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-project-center
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-tetris-stats
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dynamicpy
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lib-dzne-auto-interface
+[2023-06-11 18:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hardyweinbergcalculator
+[2023-06-11 18:30:54] INFO root fetch - processPackages [dueros-smarthome]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:30:54] WARNING root fetch - processPackages [gym-cas]: Skipping, unable to determine old version
+[2023-06-11 18:30:54] INFO root fetch - processPackages [gym-cas]: Start processing: inboard
+[2023-06-11 18:30:54] INFO root fetch - main [MainThread]: End processing [gym-cas] error
+[2023-06-11 18:30:54] WARNING root fetch - processPackages [dynamicpy]: Skipping, unable to determine old version
+[2023-06-11 18:30:54] INFO root fetch - processPackages [dynamicpy]: Start processing: filter-stations
+[2023-06-11 18:30:54] INFO root fetch - main [MainThread]: End processing [dynamicpy] error
+[2023-06-11 18:30:54] INFO root fetch - processPackages [django-project-center]: New version: [1.0] Old Version: [0.9]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [pcdl]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-06-11 18:30:54] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-11 18:30:54] INFO root fetch - processPackages [getmodelspec]: Start processing: siat
+[2023-06-11 18:30:54] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-11 18:30:54] INFO root fetch - processPackages [filter-stations]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [0.4.1.post1] Old Version: [0.4.1]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.1.4.post20230611] Old Version: [0.1.3.post20230611]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [fhempy]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [siat]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/12/97/01f534b85597b490133a6400e77dfb4bec03b5b9f03b7845f0d5cef40760/dueros_smarthome-0.0.8.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/06/f6/be279fc31b208e72e7713e531c2bc96e96806b33b4dd1fbecf044a4b2472/siat-2.0.8-py3-none-any.whl
+[2023-06-11 18:30:54] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/99/e8/a60ebd52153be12882599ccbb2f9b963f1fc1edfc8681e33848d04457b53/pcdl-3.1.5.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/c7/53/b991966993d2da0b10082d8307253787383df9acaccbedbe11825dec5f68/hardyweinbergcalculator-0.1.3.post20230611.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [django-project-center]: Downloading https://files.pythonhosted.org/packages/5b/b6/9e02b993f53cf67024f7fa074647b0c2f0e987e3f7bbc25eb9fb41d0fa66/django-project-center-0.9.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/e7/13/bb50a73096f8116be5b47e2f2713451d6df2dda30a32faaa51ff0e2a44cd/filter_stations-0.3.3.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/63/08/db103bb238bf4e927374c585c3ba2eb5d770c31f54ba86d6172c1d75dd93/nonebot_plugin_tetris_stats-0.4.1.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [lib-dzne-auto-interface]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-11 18:30:54] INFO root fetch - processPackages [fhempy]: Downloading https://files.pythonhosted.org/packages/d2/9f/6c8a1b574ab9ebcb16717b47728d87e796444aafde42304c0ca6f1aa435c/fhempy-0.1.98.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/8e/68/ec2c91e1d78b09cff73dba05aa33af579bdafc5cc3fa7a6b02540943cb0a/siat-2.0.9-py3-none-any.whl
+[2023-06-11 18:30:54] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/f9/2a/e7506ce2ec164f5c45c312b42a72ea537a66d4dee0fb6a0718adb64147c0/dueros_smarthome-0.0.9.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/6e/6a/c7200ad3d87b4fcf4f3a49c1c3ae64f9e53da17637c962922fdaea126e1a/hardyweinbergcalculator-0.1.4.post20230611.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [lib-dzne-auto-interface]: Downloading https://files.pythonhosted.org/packages/d9/62/efed22d12a5f122b05b7b8f39162bbdbadf6333c1405048a2e1bb460b6e6/lib-dzne-auto-interface-0.2.2.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [django-project-center]: Downloading https://files.pythonhosted.org/packages/ef/08/ae422b33ca512643217937b1dd09d03b89ccd0fc8cb46e89db9284bbdc6a/django-project-center-1.0.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [dueros-smarthome]: executing diffoscope
+[2023-06-11 18:30:54] INFO root fetch - processPackages [dueros-smarthome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dueros_smarthome-0.0.8.tar.gz tmp/dueros_smarthome-0.0.9.tar.gz --markdown 20230611/d/dueros-smarthome/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:30:54] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/43/69/e0a19629a994bdd3eafee7c89321a966b2a134993004a58c90335b4ffb7f/filter_stations-0.3.4.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2023-06-11 18:30:54] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20230611/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-11 18:30:54] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/3d/ca/d60a2d044ccfc6b07359cd663c3bd54594e0abe047c39c7043a533007ed9/pcdl-3.1.6.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-06-11 18:30:54] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.8-py3-none-any.whl.zip tmp/siat-2.0.9-py3-none-any.whl.zip --markdown 20230611/s/siat/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:30:54] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-11 18:30:54] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.1.3.post20230611.tar.gz tmp/hardyweinbergcalculator-0.1.4.post20230611.tar.gz --markdown 20230611/h/hardyweinbergcalculator/0.1.3.post20230611-0.1.4.post20230611/diff.md --exclude *.pyd
+[2023-06-11 18:30:54] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/81/99/9cbd52d1f538e60f3e829775132ada9775e2dcb6c129d94bd2924dd709a9/nonebot_plugin_tetris_stats-0.4.1.post1.tar.gz
+[2023-06-11 18:30:54] INFO root fetch - processPackages [django-project-center]: executing diffoscope
+[2023-06-11 18:30:54] INFO root fetch - processPackages [django-project-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-center-0.9.tar.gz tmp/django-project-center-1.0.tar.gz --markdown 20230611/d/django-project-center/0.9-1.0/diff.md --exclude *.pyd
+[2023-06-11 18:30:55] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-06-11 18:30:55] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.3.tar.gz tmp/filter_stations-0.3.4.tar.gz --markdown 20230611/f/filter-stations/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-11 18:30:55] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2023-06-11 18:30:55] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-0.4.1.tar.gz tmp/nonebot_plugin_tetris_stats-0.4.1.post1.tar.gz --markdown 20230611/n/nonebot-plugin-tetris-stats/0.4.1-0.4.1.post1/diff.md --exclude *.pyd
+[2023-06-11 18:30:55] INFO root fetch - processPackages [lib-dzne-auto-interface]: Downloading https://files.pythonhosted.org/packages/99/34/fd0849ee3485cbfed230691fcb99c8467eb8b0b4f9e02e9649356873882c/lib-dzne-auto-interface-0.2.3.tar.gz
+[2023-06-11 18:30:55] INFO root fetch - processPackages [lib-dzne-auto-interface]: executing diffoscope
+[2023-06-11 18:30:55] INFO root fetch - processPackages [lib-dzne-auto-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-auto-interface-0.2.2.tar.gz tmp/lib-dzne-auto-interface-0.2.3.tar.gz --markdown 20230611/l/lib-dzne-auto-interface/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-11 18:30:55] INFO root fetch - processPackages [pcdl]: executing diffoscope
+[2023-06-11 18:30:55] INFO root fetch - processPackages [pcdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdl-3.1.5.tar.gz tmp/pcdl-3.1.6.tar.gz --markdown 20230611/p/pcdl/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-06-11 18:30:55] INFO root fetch - processPackages [fhempy]: Downloading https://files.pythonhosted.org/packages/10/f0/a98a9f9c84c66f700cf969aeda5c6d9fa1047cde3a99fc922c76be9e951e/fhempy-0.1.99.tar.gz
+[2023-06-11 18:30:56] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.8.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.9.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [dueros-smarthome]: Start processing: trilogy-public-models
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [dueros-smarthome]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [trilogy-public-models]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [fhempy]: executing diffoscope
+[2023-06-11 18:30:56] INFO root fetch - processPackages [fhempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhempy-0.1.98.tar.gz tmp/fhempy-0.1.99.tar.gz --markdown 20230611/f/fhempy/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-11 18:30:56] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.3.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [filter-stations]: Remove: archive file [/home/abi/fetcher/tmp/filter_stations-0.3.4.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [filter-stations]: Start processing: pypi-python-translator
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [pypi-python-translator]: New version: [2.0] Old Version: [1.0.2]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-0.4.1.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-0.4.1.post1.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [trilogy-public-models]: Downloading https://files.pythonhosted.org/packages/4e/13/5fd34a016f6c5ef8b1201c00bf281a76c9f4970a6bde8a11d77f45d3f285/trilogy-public-models-0.0.6.tar.gz
+[2023-06-11 18:30:56] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/1b/1e/b7cc440e523dd0d958de32a6d1cea527999109b8f4a9fe6fa9b4fe5d4352/pypi_python_translator-1.0.2.tar.gz
+[2023-06-11 18:30:56] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.1.3.post20230611.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.1.4.post20230611.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [lib-dzne-auto-interface]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-auto-interface-0.2.2.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [lib-dzne-auto-interface]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-auto-interface-0.2.3.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [lib-dzne-auto-interface]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [django-project-center]: Remove: archive file [/home/abi/fetcher/tmp/django-project-center-0.9.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - processPackages [django-project-center]: Remove: archive file [/home/abi/fetcher/tmp/django-project-center-1.0.tar.gz]
+[2023-06-11 18:30:56] INFO root fetch - main [MainThread]: End processing [django-project-center]: success
+[2023-06-11 18:30:56] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/80/0a/053581fd4fca4c25fbc9c95e2a4b04988f6052c9678cdd1473d1c50a44ea/pypi_python_translator-2.0.tar.gz
+[2023-06-11 18:30:57] INFO root fetch - processPackages [trilogy-public-models]: Downloading https://files.pythonhosted.org/packages/87/76/8993aa4397a408b6861854b5bd65e603bed90a089121262f47a757594535/trilogy-public-models-0.0.8.tar.gz
+[2023-06-11 18:30:57] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-11 18:30:57] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-1.0.2.tar.gz tmp/pypi_python_translator-2.0.tar.gz --markdown 20230611/p/pypi-python-translator/1.0.2-2.0/diff.md --exclude *.pyd
+[2023-06-11 18:30:57] INFO root fetch - processPackages [trilogy-public-models]: executing diffoscope
+[2023-06-11 18:30:57] INFO root fetch - processPackages [trilogy-public-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilogy-public-models-0.0.6.tar.gz tmp/trilogy-public-models-0.0.8.tar.gz --markdown 20230611/t/trilogy-public-models/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 18:30:57] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.8-py3-none-any.whl.zip]
+[2023-06-11 18:30:57] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.9-py3-none-any.whl.zip]
+[2023-06-11 18:30:57] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-06-11 18:30:58] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-1.0.2.tar.gz]
+[2023-06-11 18:30:58] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.tar.gz]
+[2023-06-11 18:30:58] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-11 18:30:58] INFO root fetch - processPackages [trilogy-public-models]: Remove: archive file [/home/abi/fetcher/tmp/trilogy-public-models-0.0.6.tar.gz]
+[2023-06-11 18:30:58] INFO root fetch - processPackages [trilogy-public-models]: Remove: archive file [/home/abi/fetcher/tmp/trilogy-public-models-0.0.8.tar.gz]
+[2023-06-11 18:30:58] INFO root fetch - main [MainThread]: End processing [trilogy-public-models]: success
+[2023-06-11 18:30:58] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.98.tar.gz]
+[2023-06-11 18:30:58] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.99.tar.gz]
+[2023-06-11 18:30:58] INFO root fetch - main [MainThread]: End processing [fhempy]: success
+[2023-06-11 18:31:00] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.5.tar.gz]
+[2023-06-11 18:31:00] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.6.tar.gz]
+[2023-06-11 18:31:00] INFO root fetch - main [MainThread]: End processing [pcdl]: success
+[2023-06-11 18:31:00] INFO root fetch - main [MainThread]: Store serial: [18459390]
