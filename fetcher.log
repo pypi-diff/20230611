@@ -5533,3 +5533,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:26:36] INFO root fetch - processPackages [pelican-katex]: Remove: archive file [/home/abi/fetcher/tmp/pelican_katex-1.8.0.tar.gz]
 [2023-06-11 09:26:36] INFO root fetch - main [MainThread]: End processing [pelican-katex]: success
 [2023-06-11 09:26:36] INFO root fetch - main [MainThread]: Store serial: [18456470]
+[2023-06-11 09:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456470]
+[2023-06-11 09:31:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paretoset
+[2023-06-11 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-adventures
+[2023-06-11 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smarterbombing
+[2023-06-11 09:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helios-opentelemetry-sdk
+[2023-06-11 09:31:45] INFO root fetch - processPackages [paretoset]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-11 09:31:45] INFO root fetch - processPackages [text-adventures]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 09:31:45] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-11 09:31:45] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.91] Old Version: [1.0.90]
+[2023-06-11 09:31:45] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/83/d0/caaa17a0e9156ec85ab509404e65b6815c9865f31e77f5063cca15267177/smarterbombing-0.3.8.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [paretoset]: Downloading https://files.pythonhosted.org/packages/f2/1c/8b186af2a1dc39e8d721d1c9a25ea48271992b0b895ea9c551127d1dd491/paretoset-1.2.1.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [text-adventures]: Downloading https://files.pythonhosted.org/packages/17/14/f6bf0aeaf57aff63e745619f930bef3e359b73c78f7fe769504c6aef3dcc/text_adventures-0.0.4.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/11/3a/32a11859b6a1169b3cf06c06d2dd8604aed55dbdcb46d565fa6fd8c753d9/helios-opentelemetry-sdk-1.0.90.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [paretoset]: Downloading https://files.pythonhosted.org/packages/18/b9/c931c5be7b625e381e28b067f647f4057be4e386ded9ae867d66081153c9/paretoset-1.2.2.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/4d/ed/502a5f65598ec6f16051cb46ee175889ad2e57ce7bc769769c949d6570ad/smarterbombing-0.3.9.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/da/ac/cf42645476cbb63930f26cf1f305bc78bb75cbe6ac539d165c65816a0b07/helios-opentelemetry-sdk-1.0.91.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [paretoset]: executing diffoscope
+[2023-06-11 09:31:45] INFO root fetch - processPackages [paretoset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paretoset-1.2.1.tar.gz tmp/paretoset-1.2.2.tar.gz --markdown 20230611/p/paretoset/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-11 09:31:45] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 09:31:45] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.8.tar.gz tmp/smarterbombing-0.3.9.tar.gz --markdown 20230611/s/smarterbombing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-11 09:31:45] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-06-11 09:31:45] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.90.tar.gz tmp/helios-opentelemetry-sdk-1.0.91.tar.gz --markdown 20230611/h/helios-opentelemetry-sdk/1.0.90-1.0.91/diff.md --exclude *.pyd
+[2023-06-11 09:31:45] INFO root fetch - processPackages [text-adventures]: Downloading https://files.pythonhosted.org/packages/95/09/7e86ec62f4c2582bec5ff62424503500e6af60dce8ada9097ea6b7498794/text_adventures-0.0.5.tar.gz
+[2023-06-11 09:31:45] INFO root fetch - processPackages [text-adventures]: executing diffoscope
+[2023-06-11 09:31:45] INFO root fetch - processPackages [text-adventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_adventures-0.0.4.tar.gz tmp/text_adventures-0.0.5.tar.gz --markdown 20230611/t/text-adventures/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 09:31:46] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.8.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.9.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 09:31:46] INFO root fetch - processPackages [paretoset]: Remove: archive file [/home/abi/fetcher/tmp/paretoset-1.2.1.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - processPackages [paretoset]: Remove: archive file [/home/abi/fetcher/tmp/paretoset-1.2.2.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - main [MainThread]: End processing [paretoset]: success
+[2023-06-11 09:31:46] INFO root fetch - processPackages [text-adventures]: Remove: archive file [/home/abi/fetcher/tmp/text_adventures-0.0.4.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - processPackages [text-adventures]: Remove: archive file [/home/abi/fetcher/tmp/text_adventures-0.0.5.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - main [MainThread]: End processing [text-adventures]: success
+[2023-06-11 09:31:46] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.90.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.91.tar.gz]
+[2023-06-11 09:31:46] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-06-11 09:31:46] INFO root fetch - main [MainThread]: Store serial: [18456484]
