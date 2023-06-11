@@ -11969,3 +11969,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:31:00] INFO root fetch - processPackages [pcdl]: Remove: archive file [/home/abi/fetcher/tmp/pcdl-3.1.6.tar.gz]
 [2023-06-11 18:31:00] INFO root fetch - main [MainThread]: End processing [pcdl]: success
 [2023-06-11 18:31:00] INFO root fetch - main [MainThread]: Store serial: [18459390]
+[2023-06-11 18:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459390]
+[2023-06-11 18:36:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatgpt-tool-hub
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypi-python-translator
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybacting
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fhempy
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioqui
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feathub-nightly
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyslit
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gym-cas
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sourceserver
+[2023-06-11 18:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dueros-smarthome
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pypi-python-translator]: New version: [2.0] Old Version: [1.0.2]
+[2023-06-11 18:36:09] WARNING root fetch - processPackages [gym-cas]: Skipping, unable to determine old version
+[2023-06-11 18:36:09] INFO root fetch - processPackages [gym-cas]: Start processing: gdshoplib
+[2023-06-11 18:36:09] INFO root fetch - main [MainThread]: End processing [gym-cas] error
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pybacting]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [dueros-smarthome]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230610] Old Version: [0.1.dev20230609]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [fhempy]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [fhempy]: Downloading https://files.pythonhosted.org/packages/d2/9f/6c8a1b574ab9ebcb16717b47728d87e796444aafde42304c0ca6f1aa435c/fhempy-0.1.98.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/12/97/01f534b85597b490133a6400e77dfb4bec03b5b9f03b7845f0d5cef40760/dueros_smarthome-0.0.8.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [aioqui]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/1b/1e/b7cc440e523dd0d958de32a6d1cea527999109b8f4a9fe6fa9b4fe5d4352/pypi_python_translator-1.0.2.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pyslit]: New version: [2.7.6] Old Version: [2.7.5]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [chatgpt-tool-hub]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [sourceserver]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-11 18:36:09] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/f1/84/98b1e6b898bfa3d5ae083cd70dccf85c0f3fd9a031f54802ce8236177ff0/aioqui-2.1.3.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pybacting]: Downloading https://files.pythonhosted.org/packages/be/cd/b08800f709c914e2a39150a94844059c07d1c84d66d66b19edd809669d50/pybacting-0.2.8.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/f9/2a/e7506ce2ec164f5c45c312b42a72ea537a66d4dee0fb6a0718adb64147c0/dueros_smarthome-0.0.9.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/6a/25/c5bbe838d8814cd9f047fffa5af0e043058856555863e3b0532875b49f12/feathub_nightly-0.1.dev20230609-py3-none-any.whl
+[2023-06-11 18:36:09] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-11 18:36:09] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230611/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 18:36:09] INFO root fetch - processPackages [dueros-smarthome]: executing diffoscope
+[2023-06-11 18:36:09] INFO root fetch - processPackages [dueros-smarthome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dueros_smarthome-0.0.8.tar.gz tmp/dueros_smarthome-0.0.9.tar.gz --markdown 20230611/d/dueros-smarthome/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:36:09] INFO root fetch - processPackages [chatgpt-tool-hub]: Downloading https://files.pythonhosted.org/packages/3e/d9/2223d2f95a97e9e27e753f9a5d3bf8c1d2c6af43f5154cf40db3e81a81c6/chatgpt-tool-hub-0.4.4.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pyslit]: Downloading https://files.pythonhosted.org/packages/80/18/9432e7a80a60808ef3e0cdf8685f92541fe946a5c2a1d9f73fd495075b0d/pyslit-2.7.5.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [sourceserver]: Downloading https://files.pythonhosted.org/packages/fd/41/d21391c4c2fb1f6adaa69f3601aeab861e0d4e1b9d5a5dddf3cb49242d3b/sourceserver-0.9.1.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/80/0a/053581fd4fca4c25fbc9c95e2a4b04988f6052c9678cdd1473d1c50a44ea/pypi_python_translator-2.0.tar.gz
+[2023-06-11 18:36:09] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12204095>=10485760
+[2023-06-11 18:36:09] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-11 18:36:09] INFO root fetch - processPackages [fhempy]: Downloading https://files.pythonhosted.org/packages/10/f0/a98a9f9c84c66f700cf969aeda5c6d9fa1047cde3a99fc922c76be9e951e/fhempy-0.1.99.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/8b/b7/6461f5c8167a8f60544a2f4b2261fb52a29c9ac16d65f2b8891b1640a83a/aioqui-2.1.4.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-1.0.2.tar.gz tmp/pypi_python_translator-2.0.tar.gz --markdown 20230611/p/pypi-python-translator/1.0.2-2.0/diff.md --exclude *.pyd
+[2023-06-11 18:36:09] INFO root fetch - processPackages [fhempy]: executing diffoscope
+[2023-06-11 18:36:09] INFO root fetch - processPackages [fhempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhempy-0.1.98.tar.gz tmp/fhempy-0.1.99.tar.gz --markdown 20230611/f/fhempy/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-11 18:36:09] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-06-11 18:36:09] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.3.tar.gz tmp/aioqui-2.1.4.tar.gz --markdown 20230611/a/aioqui/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pybacting]: Downloading https://files.pythonhosted.org/packages/4d/1e/9b3f45289eb1e44b6a18187c949dba2c8f71cb4f7802a0494890051b848f/pybacting-0.2.9.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [chatgpt-tool-hub]: Downloading https://files.pythonhosted.org/packages/e6/80/1c81ed017db6ea25d891a28d37f4dd21b31d83cb07ff51f94b450bfa7083/chatgpt-tool-hub-0.4.5.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pyslit]: Downloading https://files.pythonhosted.org/packages/e5/72/7e7576243f7c894078d2739bb310073d6300b48cfce19eca57361499d182/pyslit-2.7.6.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [sourceserver]: Downloading https://files.pythonhosted.org/packages/92/36/a27a9f3ee85a7271b361427b079ac0d9bcd7ad07b4f70efd560048920dbe/sourceserver-0.9.2.tar.gz
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pybacting]: executing diffoscope
+[2023-06-11 18:36:09] INFO root fetch - processPackages [pybacting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybacting-0.2.8.tar.gz tmp/pybacting-0.2.9.tar.gz --markdown 20230611/p/pybacting/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 18:36:10] INFO root fetch - processPackages [pyslit]: executing diffoscope
+[2023-06-11 18:36:10] INFO root fetch - processPackages [pyslit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslit-2.7.5.tar.gz tmp/pyslit-2.7.6.tar.gz --markdown 20230611/p/pyslit/2.7.5-2.7.6/diff.md --exclude *.pyd
+[2023-06-11 18:36:10] INFO root fetch - processPackages [chatgpt-tool-hub]: executing diffoscope
+[2023-06-11 18:36:10] INFO root fetch - processPackages [chatgpt-tool-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-tool-hub-0.4.4.tar.gz tmp/chatgpt-tool-hub-0.4.5.tar.gz --markdown 20230611/c/chatgpt-tool-hub/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-11 18:36:10] INFO root fetch - processPackages [sourceserver]: executing diffoscope
+[2023-06-11 18:36:10] INFO root fetch - processPackages [sourceserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourceserver-0.9.1.tar.gz tmp/sourceserver-0.9.2.tar.gz --markdown 20230611/s/sourceserver/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-11 18:36:10] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.8.tar.gz]
+[2023-06-11 18:36:10] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.9.tar.gz]
+[2023-06-11 18:36:10] INFO root fetch - main [MainThread]: End processing [dueros-smarthome]: success
+[2023-06-11 18:36:11] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-1.0.2.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-11 18:36:11] INFO root fetch - processPackages [pyslit]: Remove: archive file [/home/abi/fetcher/tmp/pyslit-2.7.5.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - processPackages [pyslit]: Remove: archive file [/home/abi/fetcher/tmp/pyslit-2.7.6.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - main [MainThread]: End processing [pyslit]: success
+[2023-06-11 18:36:11] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-11 18:36:11] INFO root fetch - processPackages [sourceserver]: Remove: archive file [/home/abi/fetcher/tmp/sourceserver-0.9.1.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - processPackages [sourceserver]: Remove: archive file [/home/abi/fetcher/tmp/sourceserver-0.9.2.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - main [MainThread]: End processing [sourceserver]: success
+[2023-06-11 18:36:11] INFO root fetch - processPackages [pybacting]: Remove: archive file [/home/abi/fetcher/tmp/pybacting-0.2.8.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - processPackages [pybacting]: Remove: archive file [/home/abi/fetcher/tmp/pybacting-0.2.9.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - main [MainThread]: End processing [pybacting]: success
+[2023-06-11 18:36:11] INFO root fetch - processPackages [chatgpt-tool-hub]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-tool-hub-0.4.4.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - processPackages [chatgpt-tool-hub]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-tool-hub-0.4.5.tar.gz]
+[2023-06-11 18:36:11] INFO root fetch - main [MainThread]: End processing [chatgpt-tool-hub]: success
+[2023-06-11 18:36:12] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.3.tar.gz]
+[2023-06-11 18:36:12] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.4.tar.gz]
+[2023-06-11 18:36:12] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-06-11 18:36:13] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.98.tar.gz]
+[2023-06-11 18:36:13] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.99.tar.gz]
+[2023-06-11 18:36:13] INFO root fetch - main [MainThread]: End processing [fhempy]: success
+[2023-06-11 18:36:13] INFO root fetch - main [MainThread]: Store serial: [18459426]
