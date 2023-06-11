@@ -8740,3 +8740,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:44:22] INFO root fetch - processPackages [bundlepy]: Remove: archive file [/home/abi/fetcher/tmp/bundlepy-0.1.1.tar.gz]
 [2023-06-11 14:44:22] INFO root fetch - main [MainThread]: End processing [bundlepy]: success
 [2023-06-11 14:44:22] INFO root fetch - main [MainThread]: Store serial: [18457963]
+[2023-06-11 14:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457963]
+[2023-06-11 14:49:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 14:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manticore
+[2023-06-11 14:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imjoy-rpc
+[2023-06-11 14:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semanticclean
+[2023-06-11 14:49:31] INFO root fetch - processPackages [semanticclean]: New version: [0.22] Old Version: [0.21]
+[2023-06-11 14:49:31] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-11 14:49:31] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230611] Old Version: [0.3.8.dev230610]
+[2023-06-11 14:49:31] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/8b/67/227dcc51035203bee83c5c4861d103318f72da9750200d8b4f5d12a94f43/semanticclean-0.21.tar.gz
+[2023-06-11 14:49:31] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-11 14:49:31] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/60/5a/ec3a9e1175eadf6bafb8c9293e214519f99ff9eafc7037a956db471932fa/manticore-0.3.8.dev230610.tar.gz
+[2023-06-11 14:49:31] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-11 14:49:32] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-11 14:49:32] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230611/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-11 14:49:32] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/a0/7e/e632c79f12dd036d84efe9b63d324784aceae147e5dca196edec5b1534b2/semanticclean-0.22.tar.gz
+[2023-06-11 14:49:32] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/bf/09/ec09a20ec1a32550df6e57198b6dc0e0ae6af3ac1e4a1dce03883970e164/manticore-0.3.8.dev230611.tar.gz
+[2023-06-11 14:49:32] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 14:49:32] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.21.tar.gz tmp/semanticclean-0.22.tar.gz --markdown 20230611/s/semanticclean/0.21-0.22/diff.md --exclude *.pyd
+[2023-06-11 14:49:32] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-11 14:49:32] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230610.tar.gz tmp/manticore-0.3.8.dev230611.tar.gz --markdown 20230611/m/manticore/0.3.8.dev230610-0.3.8.dev230611/diff.md --exclude *.pyd
+[2023-06-11 14:49:33] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-11 14:49:33] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-11 14:49:33] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-11 14:49:33] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.21.tar.gz]
+[2023-06-11 14:49:33] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.22.tar.gz]
+[2023-06-11 14:49:33] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 14:49:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230610.tar.gz]
+[2023-06-11 14:49:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230611.tar.gz]
+[2023-06-11 14:49:34] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-11 14:49:34] INFO root fetch - main [MainThread]: Store serial: [18457971]
