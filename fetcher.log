@@ -6726,3 +6726,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:47:20] INFO root fetch - processPackages [django-esteid]: Remove: archive file [/home/abi/fetcher/tmp/django_esteid-4.0b1.tar.gz]
 [2023-06-11 11:47:20] INFO root fetch - main [MainThread]: End processing [django-esteid]: success
 [2023-06-11 11:47:20] INFO root fetch - main [MainThread]: Store serial: [18457017]
+[2023-06-11 11:52:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457017]
+[2023-06-11 11:52:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panda-utils
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osmsg
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyucrop
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoCarver
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docstruct
+[2023-06-11 11:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: panda-utils
+[2023-06-11 11:52:31] INFO root fetch - processPackages [osmsg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [pyucrop]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [panda-utils]: New version: [1.1.1] Old Version: [1.1.0a1]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [panda-utils]: New version: [1.1.1] Old Version: [1.1.0a1]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [AutoCarver]: New version: [4.4.0] Old Version: [4.3.2]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-11 11:52:31] INFO root fetch - processPackages [pyucrop]: Downloading https://files.pythonhosted.org/packages/09/ad/e9c446b5afb6f77f0f4d8bda436ff0bb33cb8896bedd4e760cdfd746e0e7/pyucrop-1.0.1.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [osmsg]: Downloading https://files.pythonhosted.org/packages/7f/ee/203fe4b605d2c1613b13cfd363f229d5f1ed63db1709241e4e5002600adb/osmsg-0.1.8.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/6d/ec/089c703935ce62479d26418c31b1c604fa0a1bd7efe6da510f1ea0f95a6a/panda_utils-1.1.0a1-py3-none-any.whl
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/6d/ec/089c703935ce62479d26418c31b1c604fa0a1bd7efe6da510f1ea0f95a6a/panda_utils-1.1.0a1-py3-none-any.whl
+[2023-06-11 11:52:31] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/bf/11/dab4bb11a77344238113a46830f9da3dcf8a5d621cb781b6faf453e49f2c/AutoCarver-4.3.2.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-06-11 11:52:31] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230611/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 11:52:31] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/61/b0/e3d803198c8f5fc4cd74a2e0d83e9965d49a44acdb2bb7a69c428470eb50/panda_utils-1.1.1.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/61/b0/e3d803198c8f5fc4cd74a2e0d83e9965d49a44acdb2bb7a69c428470eb50/panda_utils-1.1.1.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/43/4a/b8924ec55ac3ef3a5bf635de4b1360af85931925f9156f83a013a14d21e9/AutoCarver-4.4.0.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230611/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-11 11:52:31] INFO root fetch - processPackages [pyucrop]: Downloading https://files.pythonhosted.org/packages/90/ce/b0671438b29bdb6b2c08dac25a19a4c97151be694788e9b528c7826f15cf/pyucrop-1.0.2.tar.gz
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230611/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230611/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-11 11:52:31] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230611/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-11 11:52:32] INFO root fetch - processPackages [pyucrop]: executing diffoscope
+[2023-06-11 11:52:32] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-06-11 11:52:32] INFO root fetch - processPackages [pyucrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyucrop-1.0.1.tar.gz tmp/pyucrop-1.0.2.tar.gz --markdown 20230611/p/pyucrop/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:52:32] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.1.0a1-py3-none-any.whl.zip tmp/panda_utils-1.1.1.tar.gz --markdown 20230611/p/panda-utils/1.1.0a1-1.1.1/diff.md --exclude *.pyd
+[2023-06-11 11:52:32] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-06-11 11:52:32] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.1.0a1-py3-none-any.whl.zip tmp/panda_utils-1.1.1.tar.gz --markdown 20230611/p/panda-utils/1.1.0a1-1.1.1/diff.md --exclude *.pyd
+[2023-06-11 11:52:32] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-06-11 11:52:32] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.3.2.tar.gz tmp/AutoCarver-4.4.0.tar.gz --markdown 20230611/A/AutoCarver/4.3.2-4.4.0/diff.md --exclude *.pyd
+[2023-06-11 11:52:32] INFO root fetch - processPackages [osmsg]: Downloading https://files.pythonhosted.org/packages/fd/ec/2cc46c93a1eba20d64e795f3a62d11e4c46bdb031578f8079798844f660e/osmsg-0.1.9.tar.gz
+[2023-06-11 11:52:32] INFO root fetch - processPackages [osmsg]: executing diffoscope
+[2023-06-11 11:52:32] INFO root fetch - processPackages [osmsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmsg-0.1.8.tar.gz tmp/osmsg-0.1.9.tar.gz --markdown 20230611/o/osmsg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 11:52:33] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [always-updates]: Start processing: pynsy
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-11 11:52:33] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.8.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [docstruct]: Start processing: fastdup
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-06-11 11:52:33] WARNING root fetch - processPackages [pynsy]: Skipping, unable to determine old version
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [pynsy] error
+[2023-06-11 11:52:33] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-11 11:52:33] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-11 11:52:33] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-11 11:52:33] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.1.0a1-py3-none-any.whl.zip]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.1.1.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-11 11:52:33] INFO root fetch - processPackages [pyucrop]: Remove: archive file [/home/abi/fetcher/tmp/pyucrop-1.0.1.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [pyucrop]: Remove: archive file [/home/abi/fetcher/tmp/pyucrop-1.0.2.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [pyucrop]: success
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-06-11 11:52:33] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-4.3.2.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-4.4.0.tar.gz]
+[2023-06-11 11:52:33] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-06-11 11:52:34] INFO root fetch - processPackages [osmsg]: Remove: archive file [/home/abi/fetcher/tmp/osmsg-0.1.8.tar.gz]
+[2023-06-11 11:52:34] INFO root fetch - processPackages [osmsg]: Remove: archive file [/home/abi/fetcher/tmp/osmsg-0.1.9.tar.gz]
+[2023-06-11 11:52:34] INFO root fetch - main [MainThread]: End processing [osmsg]: success
+[2023-06-11 11:52:34] INFO root fetch - main [MainThread]: Store serial: [18457061]
