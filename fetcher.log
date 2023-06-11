@@ -10189,3 +10189,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:17:22] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111412-py3-none-any.whl.zip]
 [2023-06-11 16:17:22] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-11 16:17:22] INFO root fetch - main [MainThread]: Store serial: [18458620]
+[2023-06-11 16:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458620]
+[2023-06-11 16:22:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj3fb
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pedal
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shihua-roshareclient
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distool
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycommons-base
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-lav
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jwtlib
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amazon-affiliate-scraper
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mo-kwargs
+[2023-06-11 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-06-11 16:22:31] WARNING root fetch - processPackages [dj3fb]: Skipping, unable to determine old version
+[2023-06-11 16:22:31] INFO root fetch - processPackages [dj3fb]: Start processing: mihomo
+[2023-06-11 16:22:31] INFO root fetch - processPackages [shihua-roshareclient]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 16:22:31] INFO root fetch - main [MainThread]: End processing [dj3fb] error
+[2023-06-11 16:22:31] INFO root fetch - processPackages [distool]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [pedal]: New version: [2.5.1] Old Version: [2.4.2]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [jwtlib]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [amazon-affiliate-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [py-lav]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [pycommons-base]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [mihomo]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [mo-kwargs]: New version: [7.409.23162] Old Version: [7.403.23150]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [amazon-affiliate-scraper]: Downloading https://files.pythonhosted.org/packages/a5/70/005ae7c1f5044a7568401702a11a76475722edcca5919bb5bc3f03b80c0d/amazon-affiliate-scraper-0.1.1.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/e9/64/08d96df3ebb41b75149551173aa15872b9c758f4b12d5c36eba8f2dbf30d/py_lav-1.9.0.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-11 16:22:31] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/ba/71/a106fd5d1c23b2e018f1ca7b8d2398dc95bd8d4abac1b6986fe3002297fe/pedal-2.4.2.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [shihua-roshareclient]: Downloading https://files.pythonhosted.org/packages/8a/a4/8636935702c7d84eeb60f821c6564df39d8e9fc3eb98cfbda564691377de/shihua-roshareclient-0.1.1.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/9a/8b/a3b93026f83f1ea1e1708357267bb768fcae30ab9a4738f45c895df757d6/pycommons_base-0.0.3.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [distool]: Downloading https://files.pythonhosted.org/packages/59/4e/d771d68ad44901c8f18a6f56604eb7e5a18669c968821b5ace366f0a3dcd/distool-0.1.6.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/5e/9d/536b43241fa5c8e536c1e2bbba475045f7881afe33f176564ec4e44e471c/jwtlib-0.3.4.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [mihomo]: Downloading https://files.pythonhosted.org/packages/26/c9/aaeb564b49b8a9df8d32dc56628d2bf97a43a4d5345437799b1fc1f442e6/mihomo-1.1.1.tar.gz
+[2023-06-11 16:22:31] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/29/50/30b09610bd13e7f88c58a692bd15bb6f55ccdf126410f52bf05158a25dfb/mo_kwargs-7.403.23150-py2.py3-none-any.whl
+[2023-06-11 16:22:31] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/65/96/7b1f7affb973d7ebaa76b7dc9887f38e2967631eb75a6676334cb300c3c5/py_lav-1.9.1.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [amazon-affiliate-scraper]: Downloading https://files.pythonhosted.org/packages/ea/54/86581b9b28b94abcb44b461841c3ac0eec37977c0aeb07f40dd380c1fb10/amazon-affiliate-scraper-0.1.2.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [shihua-roshareclient]: Downloading https://files.pythonhosted.org/packages/a4/b1/01d4ed522d83249ba2709381a0aae85917126047688d9d389492f24db1c7/shihua-roshareclient-0.1.2.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/a9/03/9419da3f365d2b2536eb62b1066f252cc47f771a8a6062703051dcaa1e09/pedal-2.5.1.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/73/83/f8b20358e02e872c6c51efc4ce71006e5cd4bfeac1d6db0041e13589dea4/mo_kwargs-7.409.23162-py2.py3-none-any.whl
+[2023-06-11 16:22:32] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/3b/b6/d875d9951d8a2b4d21f500df5bb09e048459c9dd85dbeedd50f25d98f6a5/jwtlib-0.3.5.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/76/cb/2b2cb465ef2e3489d440edb87bec4e3939e734a7aac9dfdd10798f05538c/pycommons_base-0.0.5.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [py-lav]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [py-lav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_lav-1.9.0.tar.gz tmp/py_lav-1.9.1.tar.gz --markdown 20230611/p/py-lav/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [amazon-affiliate-scraper]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [amazon-affiliate-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-affiliate-scraper-0.1.1.tar.gz tmp/amazon-affiliate-scraper-0.1.2.tar.gz --markdown 20230611/a/amazon-affiliate-scraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [mihomo]: Downloading https://files.pythonhosted.org/packages/12/41/72d425a5cb86b354b9afbcd5590227e2145b35ab2457fb1ba21e396bb8fb/mihomo-1.1.2.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [shihua-roshareclient]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [shihua-roshareclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shihua-roshareclient-0.1.1.tar.gz tmp/shihua-roshareclient-0.1.2.tar.gz --markdown 20230611/s/shihua-roshareclient/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [distool]: Downloading https://files.pythonhosted.org/packages/38/a1/5a6af40982e55de776ff0e55e846edf95ac14b7907606cbcbae139fe7039/distool-0.1.7.tar.gz
+[2023-06-11 16:22:32] INFO root fetch - processPackages [pedal]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [pedal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedal-2.4.2.tar.gz tmp/pedal-2.5.1.tar.gz --markdown 20230611/p/pedal/2.4.2-2.5.1/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.3.4.tar.gz tmp/jwtlib-0.3.5.tar.gz --markdown 20230611/j/jwtlib/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.403.23150-py2.py3-none-any.whl.zip tmp/mo_kwargs-7.409.23162-py2.py3-none-any.whl.zip --markdown 20230611/m/mo-kwargs/7.403.23150-7.409.23162/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [pycommons-base]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [pycommons-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons_base-0.0.3.tar.gz tmp/pycommons_base-0.0.5.tar.gz --markdown 20230611/p/pycommons-base/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230611/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [mihomo]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [mihomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mihomo-1.1.1.tar.gz tmp/mihomo-1.1.2.tar.gz --markdown 20230611/m/mihomo/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 16:22:32] INFO root fetch - processPackages [distool]: executing diffoscope
+[2023-06-11 16:22:32] INFO root fetch - processPackages [distool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distool-0.1.6.tar.gz tmp/distool-0.1.7.tar.gz --markdown 20230611/d/distool/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-11 16:22:33] INFO root fetch - processPackages [amazon-affiliate-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon-affiliate-scraper-0.1.1.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [amazon-affiliate-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon-affiliate-scraper-0.1.2.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [amazon-affiliate-scraper]: Start processing: spanishconjugator
+[2023-06-11 16:22:33] INFO root fetch - main [MainThread]: End processing [amazon-affiliate-scraper]: success
+[2023-06-11 16:22:33] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.4.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.5.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [jwtlib]: Start processing: mo-math
+[2023-06-11 16:22:33] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-11 16:22:33] INFO root fetch - processPackages [shihua-roshareclient]: Remove: archive file [/home/abi/fetcher/tmp/shihua-roshareclient-0.1.1.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [shihua-roshareclient]: Remove: archive file [/home/abi/fetcher/tmp/shihua-roshareclient-0.1.2.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [shihua-roshareclient]: Start processing: datomize
+[2023-06-11 16:22:33] INFO root fetch - main [MainThread]: End processing [shihua-roshareclient]: success
+[2023-06-11 16:22:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-11 16:22:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230611/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-11 16:22:33] INFO root fetch - processPackages [mihomo]: Remove: archive file [/home/abi/fetcher/tmp/mihomo-1.1.1.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [mihomo]: Remove: archive file [/home/abi/fetcher/tmp/mihomo-1.1.2.tar.gz]
+[2023-06-11 16:22:33] INFO root fetch - main [MainThread]: End processing [mihomo]: success
+[2023-06-11 16:22:33] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.403.23150-py2.py3-none-any.whl.zip]
+[2023-06-11 16:22:33] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.409.23162-py2.py3-none-any.whl.zip]
+[2023-06-11 16:22:33] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2023-06-11 16:22:33] INFO root fetch - processPackages [mo-math]: New version: [7.409.23162] Old Version: [7.403.23150]
+[2023-06-11 16:22:34] INFO root fetch - processPackages [datomize]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-06-11 16:22:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-11 16:22:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-11 16:22:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-11 16:22:34] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/de/73/6fca8e6ef4a1afaa10078b0d3e5e0d7a6b79472ede6a0aaa26adc25cc221/mo_math-7.403.23150-py2.py3-none-any.whl
+[2023-06-11 16:22:34] INFO root fetch - processPackages [distool]: Remove: archive file [/home/abi/fetcher/tmp/distool-0.1.6.tar.gz]
+[2023-06-11 16:22:34] INFO root fetch - processPackages [distool]: Remove: archive file [/home/abi/fetcher/tmp/distool-0.1.7.tar.gz]
+[2023-06-11 16:22:34] INFO root fetch - main [MainThread]: End processing [distool]: success
+[2023-06-11 16:22:34] INFO root fetch - processPackages [datomize]: Downloading https://files.pythonhosted.org/packages/25/b4/c3532bd05754ac8ceea7deffda4114334395ce38b480dd990314e84237cb/datomize-2.3.7.tar.gz
+[2023-06-11 16:22:34] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.3.tar.gz]
+[2023-06-11 16:22:34] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.5.tar.gz]
+[2023-06-11 16:22:34] INFO root fetch - main [MainThread]: End processing [pycommons-base]: success
+[2023-06-11 16:22:34] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/a8/1f/f5485b88fdb0d21822ce509858670870bc627177514f40740849720e3a56/mo_math-7.409.23162-py2.py3-none-any.whl
+[2023-06-11 16:22:34] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2023-06-11 16:22:34] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.403.23150-py2.py3-none-any.whl.zip tmp/mo_math-7.409.23162-py2.py3-none-any.whl.zip --markdown 20230611/m/mo-math/7.403.23150-7.409.23162/diff.md --exclude *.pyd
+[2023-06-11 16:22:34] INFO root fetch - processPackages [datomize]: Downloading https://files.pythonhosted.org/packages/bb/52/3fe883aeba48564976e4831066c8fff8b5229f3dc0042772e242b79c98d4/datomize-2.3.9.tar.gz
+[2023-06-11 16:22:34] INFO root fetch - processPackages [datomize]: executing diffoscope
+[2023-06-11 16:22:34] INFO root fetch - processPackages [datomize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datomize-2.3.7.tar.gz tmp/datomize-2.3.9.tar.gz --markdown 20230611/d/datomize/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-06-11 16:22:34] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-06-11 16:22:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-06-11 16:22:35] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.403.23150-py2.py3-none-any.whl.zip]
+[2023-06-11 16:22:35] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.409.23162-py2.py3-none-any.whl.zip]
+[2023-06-11 16:22:35] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2023-06-11 16:22:35] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.7.tar.gz]
+[2023-06-11 16:22:35] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.9.tar.gz]
+[2023-06-11 16:22:35] INFO root fetch - main [MainThread]: End processing [datomize]: success
+[2023-06-11 16:22:36] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.4.2.tar.gz]
+[2023-06-11 16:22:36] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.1.tar.gz]
+[2023-06-11 16:22:36] INFO root fetch - main [MainThread]: End processing [pedal]: success
+[2023-06-11 16:23:14] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.0.tar.gz]
+[2023-06-11 16:23:14] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
+[2023-06-11 16:23:14] INFO root fetch - main [MainThread]: End processing [py-lav]: success
+[2023-06-11 16:23:14] INFO root fetch - main [MainThread]: Store serial: [18458664]
