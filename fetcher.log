@@ -1851,3 +1851,46 @@
 [2023-06-11 02:42:27] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-11 02:42:27] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-11 02:42:27] INFO root fetch - main [MainThread]: Store serial: [18454884]
+[2023-06-11 02:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454884]
+[2023-06-11 02:47:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 02:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-qmc5883l
+[2023-06-11 02:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-06-11 02:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaven
+[2023-06-11 02:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-06-11 02:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kwutil
+[2023-06-11 02:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2023-06-11 02:47:36] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-11 02:47:36] ERROR root fetch - processPackages [kwutil]: Unable to get metadata: No such project 'kwutil'
+[2023-06-11 02:47:36] INFO root fetch - main [MainThread]: End processing [kwutil] error
+[2023-06-11 02:47:36] WARNING root fetch - processPackages [micropython-qmc5883l]: Skipping, unable to determine old version
+[2023-06-11 02:47:36] INFO root fetch - main [MainThread]: End processing [micropython-qmc5883l] error
+[2023-06-11 02:47:36] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306100044] Old Version: [4.9.2.dev202306090045]
+[2023-06-11 02:47:36] INFO root fetch - processPackages [heaven]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 02:47:36] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306100044] Old Version: [4.9.2.dev202306090045]
+[2023-06-11 02:47:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/94/ad/1f252bb2983dbf7d28037df049134cee6aaff243a915d7ac4ac932bea7e1/tfds-nightly-4.9.2.dev202306090045.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/94/ad/1f252bb2983dbf7d28037df049134cee6aaff243a915d7ac4ac932bea7e1/tfds-nightly-4.9.2.dev202306090045.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/b9/51/9c5789390e62ea5c93393dbc1cc83c05d31089275318e660623eca60ba9b/heaven-0.0.4.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/a9/65/7937ee9f75d808b8375ddd7f849cc82ba6bd5e8735b2a28bd9368451fe0e/heaven-0.0.5.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/e0/67/3ae116797071257a32db11e1cde125974cb966cb83ba4c2b48f4f0635f9c/tfds-nightly-4.9.2.dev202306100044.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/e0/67/3ae116797071257a32db11e1cde125974cb966cb83ba4c2b48f4f0635f9c/tfds-nightly-4.9.2.dev202306100044.tar.gz
+[2023-06-11 02:47:36] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-11 02:47:37] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-11 02:47:37] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.4.tar.gz tmp/heaven-0.0.5.tar.gz --markdown 20230611/h/heaven/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 02:47:37] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-11 02:47:37] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230611/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-11 02:47:37] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-11 02:47:37] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306090045.tar.gz tmp/tfds-nightly-4.9.2.dev202306100044.tar.gz --markdown 20230611/t/tfds-nightly/4.9.2.dev202306090045-4.9.2.dev202306100044/diff.md --exclude *.pyd
+[2023-06-11 02:47:37] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-11 02:47:37] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306090045.tar.gz tmp/tfds-nightly-4.9.2.dev202306100044.tar.gz --markdown 20230611/t/tfds-nightly/4.9.2.dev202306090045-4.9.2.dev202306100044/diff.md --exclude *.pyd
+[2023-06-11 02:47:38] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-11 02:47:38] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-11 02:47:38] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-11 02:47:38] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.4.tar.gz]
+[2023-06-11 02:47:38] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.5.tar.gz]
+[2023-06-11 02:47:38] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-11 02:47:48] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306090045.tar.gz]
+[2023-06-11 02:47:48] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306100044.tar.gz]
+[2023-06-11 02:47:48] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-11 02:47:49] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-11 02:47:49] INFO root fetch - main [MainThread]: Store serial: [18454904]
