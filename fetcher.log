@@ -9781,3 +9781,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:50:16] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.3.tar.gz]
 [2023-06-11 15:50:16] INFO root fetch - main [MainThread]: End processing [pycommons-base]: success
 [2023-06-11 15:50:16] INFO root fetch - main [MainThread]: Store serial: [18458436]
+[2023-06-11 15:55:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458436]
+[2023-06-11 15:55:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinggy
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bundlepy
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-dbcn
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbakery
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CGOL
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bundlepy
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pwl-chat-python
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskiq
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-06-11 15:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: napatrackmater
+[2023-06-11 15:55:25] INFO root fetch - processPackages [py-dbcn]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 15:55:25] INFO root fetch - processPackages [bundlepy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 15:55:25] INFO root fetch - processPackages [bundlepy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 15:55:25] WARNING root fetch - processPackages [pinggy]: Skipping, unable to determine old version
+[2023-06-11 15:55:25] INFO root fetch - processPackages [pinggy]: Start processing: qtgql
+[2023-06-11 15:55:25] INFO root fetch - processPackages [CGOL]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-11 15:55:25] INFO root fetch - main [MainThread]: End processing [pinggy] error
+[2023-06-11 15:55:25] WARNING root fetch - processPackages [openbakery]: Skipping, unable to determine old version
+[2023-06-11 15:55:25] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-11 15:55:25] INFO root fetch - main [MainThread]: End processing [openbakery] error
+[2023-06-11 15:55:25] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-11 15:55:25] INFO root fetch - processPackages [taskiq]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-11 15:55:25] INFO root fetch - processPackages [qtgql]: New version: [0.119.9] Old Version: [0.119.7]
+[2023-06-11 15:55:25] INFO root fetch - processPackages [kcli]: New version: [99.0.202306111354] Old Version: [99.0.202306111343]
+[2023-06-11 15:55:25] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/c3/70/d54e51700016055ca2480c23c5082cb6190651ca0c6d93cd5d5cdbbf579f/napatrackmater-3.6.0.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/fc/15/65b0a60fe6c16e1ff8d5c91dfc6539086ed0f4af845775c74737b2f54652/taskiq-0.7.0.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/28/a8/92235538e295f6197b4d50252215090f8089e36b0283cfdae429f33ee2f0/pwl-chat-python-1.4.7.tar.gz
+[2023-06-11 15:55:25] ERROR root fetch - processPackages [bundlepy]: Unable to fetch info: No such project/version 'bundlepy' 0.1.4
+[2023-06-11 15:55:25] ERROR root fetch - processPackages [bundlepy]: Unable to fetch info: No such project/version 'bundlepy' 0.1.4
+[2023-06-11 15:55:25] INFO root fetch - main [MainThread]: End processing [bundlepy] error
+[2023-06-11 15:55:25] INFO root fetch - main [MainThread]: End processing [bundlepy] error
+[2023-06-11 15:55:25] INFO root fetch - processPackages [CGOL]: Downloading https://files.pythonhosted.org/packages/dc/a3/17cdbac3ef7317bcbd74ccabbc3cf74735cb9920cb79315763fc1b7a8c82/CGOL-0.9.4.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/87/95/c7526df18a73e72274ccbcfdb03a1d9b05a3c362277d36dc2586eb4ffe82/qtgql-0.119.7.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [py-dbcn]: Downloading https://files.pythonhosted.org/packages/9b/f9/2ce1052f58f55b5789348ce49d9ca6d5711aaeae30e81b3bd0009aecf51f/py-dbcn-0.3.2.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/fc/13/6aa3141bea12ae596cf97f6a6c8ad64539871c940834a3301ab685f0c021/napatrackmater-3.6.1.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/37/b4/94fcfb33995c4d0f4b4ea91dab2a1cb64a7e8295bbf9852f7dc61caf39d1/kcli-99.0.202306111343-py3-none-any.whl
+[2023-06-11 15:55:25] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/2f/e3/f1ef780797d20095a5d27e69ccec06fc6a4b8155a3c88490ced655c29c70/pwl-chat-python-1.4.8.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/f4/15/40f20819e9f93b4fa9fc8301c84c267802da3c3394f82bacbb4e4a0f9442/taskiq-0.7.1.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 15:55:25] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.0.tar.gz tmp/napatrackmater-3.6.1.tar.gz --markdown 20230611/n/napatrackmater/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-06-11 15:55:25] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-06-11 15:55:25] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.4.7.tar.gz tmp/pwl-chat-python-1.4.8.tar.gz --markdown 20230611/p/pwl-chat-python/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-11 15:55:25] INFO root fetch - processPackages [py-dbcn]: Downloading https://files.pythonhosted.org/packages/ea/2c/62fae9fa22640b2e1d6176f9f368509a6569dfda05e72027f3246f302e17/py-dbcn-0.3.3.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [taskiq]: executing diffoscope
+[2023-06-11 15:55:25] INFO root fetch - processPackages [taskiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq-0.7.0.tar.gz tmp/taskiq-0.7.1.tar.gz --markdown 20230611/t/taskiq/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-11 15:55:25] INFO root fetch - processPackages [CGOL]: Downloading https://files.pythonhosted.org/packages/1d/cd/a99530bfd081e63d0d8bc24682931fa37ce9f11b36b4963d0eee5e15f74f/CGOL-0.9.5.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c3/e8/76892e88f47ad9de9ce4146968849a3a18700e914cc61163c38e00938865/kcli-99.0.202306111354-py3-none-any.whl
+[2023-06-11 15:55:25] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/94/98/7d56d87881b58619e8febf83cedb8e4111ec5bb992c173bea0aec42f026f/qtgql-0.119.9.tar.gz
+[2023-06-11 15:55:25] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-06-11 15:55:25] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.119.7.tar.gz tmp/qtgql-0.119.9.tar.gz --markdown 20230611/q/qtgql/0.119.7-0.119.9/diff.md --exclude *.pyd
+[2023-06-11 15:55:25] INFO root fetch - processPackages [py-dbcn]: executing diffoscope
+[2023-06-11 15:55:25] INFO root fetch - processPackages [py-dbcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-dbcn-0.3.2.tar.gz tmp/py-dbcn-0.3.3.tar.gz --markdown 20230611/p/py-dbcn/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 15:55:25] INFO root fetch - processPackages [CGOL]: executing diffoscope
+[2023-06-11 15:55:25] INFO root fetch - processPackages [CGOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CGOL-0.9.4.tar.gz tmp/CGOL-0.9.5.tar.gz --markdown 20230611/C/CGOL/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-11 15:55:26] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-11 15:55:26] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306111343-py3-none-any.whl.zip tmp/kcli-99.0.202306111354-py3-none-any.whl.zip --markdown 20230611/k/kcli/99.0.202306111343-99.0.202306111354/diff.md --exclude *.pyd
+[2023-06-11 15:55:26] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.7.tar.gz]
+[2023-06-11 15:55:26] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.8.tar.gz]
+[2023-06-11 15:55:26] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-06-11 15:55:27] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.7.0.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.7.1.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - main [MainThread]: End processing [taskiq]: success
+[2023-06-11 15:55:27] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.0.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.1.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 15:55:27] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.119.7.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.119.9.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-06-11 15:55:27] INFO root fetch - processPackages [py-dbcn]: Remove: archive file [/home/abi/fetcher/tmp/py-dbcn-0.3.2.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - processPackages [py-dbcn]: Remove: archive file [/home/abi/fetcher/tmp/py-dbcn-0.3.3.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - main [MainThread]: End processing [py-dbcn]: success
+[2023-06-11 15:55:27] INFO root fetch - processPackages [CGOL]: Remove: archive file [/home/abi/fetcher/tmp/CGOL-0.9.4.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - processPackages [CGOL]: Remove: archive file [/home/abi/fetcher/tmp/CGOL-0.9.5.tar.gz]
+[2023-06-11 15:55:27] INFO root fetch - main [MainThread]: End processing [CGOL]: success
+[2023-06-11 15:55:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111343-py3-none-any.whl.zip]
+[2023-06-11 15:55:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111354-py3-none-any.whl.zip]
+[2023-06-11 15:55:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-11 15:55:34] INFO root fetch - main [MainThread]: Store serial: [18458480]
