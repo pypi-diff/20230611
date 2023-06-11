@@ -14056,3 +14056,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:30:03] INFO root fetch - processPackages [gvar]: Remove: archive file [/home/abi/fetcher/tmp/gvar-9.2.1.tar.gz]
 [2023-06-11 21:30:03] INFO root fetch - main [MainThread]: End processing [gvar]: success
 [2023-06-11 21:30:03] INFO root fetch - main [MainThread]: Store serial: [18460467]
+[2023-06-11 21:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460467]
+[2023-06-11 21:35:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: novel-swarms
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqltrie
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: box-vcs
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ariston
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypreql
+[2023-06-11 21:35:14] INFO root fetch - processPackages [box-vcs]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-11 21:35:14] INFO root fetch - processPackages [sqltrie]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-11 21:35:14] INFO root fetch - processPackages [novel-swarms]: New version: [0.1.8a0] Old Version: [0.1.7a0]
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ariston]: New version: [0.13.6] Old Version: [0.13.5]
+[2023-06-11 21:35:14] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/79/4b/bff7dadf14bde1b146c63d556f4c2e33bbdddcfa1e8b2d598f685493dced/ariston-0.13.5.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/43/b8/2abb29f2547d81aff3f05e6578226b18359897a8e67919d46a46231d0bed/pypreql-0.0.1rc8.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [novel-swarms]: Downloading https://files.pythonhosted.org/packages/6f/3c/ce5d575fed487b9ebb44a55dc3b162fbff54f26d25b23c123897a071cfa3/novel_swarms-0.1.7a0.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [box-vcs]: Downloading https://files.pythonhosted.org/packages/70/15/4ba2dca534bb99fe8e45eef1e7e2c89fdc0274f3d9c1c0c2f573a4b33f70/box-vcs-0.3.0.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [sqltrie]: Downloading https://files.pythonhosted.org/packages/9b/c2/474e68d0c443ab0b63f1d534b35dad06ef3a7bf3f810c3c7e3dc2c07f195/sqltrie-0.5.0.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/1a/ce/33794a7ef68067e22a883f6d200722a8ccfc530b6b40d7ba9956ed4ff8bf/pypreql-0.0.1rc9.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/53/07/279ca451976f5184763dd3edc3087ea4163f7807199de573533917920de2/ariston-0.13.6.tar.gz
+[2023-06-11 21:35:14] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2023-06-11 21:35:14] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20230611/p/pypreql/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-06-11 21:35:14] INFO root fetch - processPackages [novel-swarms]: Downloading https://files.pythonhosted.org/packages/6b/3c/cbdb5adf07e3a5d9c08c977e671ffd4b5ad0165fe71797bdc2385258d01f/novel_swarms-0.1.8a0.tar.gz
+[2023-06-11 21:35:15] INFO root fetch - processPackages [sqltrie]: Downloading https://files.pythonhosted.org/packages/2f/8d/73a58d77efd29e693766bc27b645b0aed9d276e169598c133b436c0c19f7/sqltrie-0.6.0.tar.gz
+[2023-06-11 21:35:15] INFO root fetch - processPackages [box-vcs]: Downloading https://files.pythonhosted.org/packages/ac/ce/488dc3f0730172eb22d1cb77ecda05d4b0fc9bf393de44bfef3d2752aafe/box-vcs-0.4.0.tar.gz
+[2023-06-11 21:35:15] INFO root fetch - processPackages [ariston]: executing diffoscope
+[2023-06-11 21:35:15] INFO root fetch - processPackages [ariston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariston-0.13.5.tar.gz tmp/ariston-0.13.6.tar.gz --markdown 20230611/a/ariston/0.13.5-0.13.6/diff.md --exclude *.pyd
+[2023-06-11 21:35:15] INFO root fetch - processPackages [novel-swarms]: executing diffoscope
+[2023-06-11 21:35:15] INFO root fetch - processPackages [novel-swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novel_swarms-0.1.7a0.tar.gz tmp/novel_swarms-0.1.8a0.tar.gz --markdown 20230611/n/novel-swarms/0.1.7a0-0.1.8a0/diff.md --exclude *.pyd
+[2023-06-11 21:35:15] INFO root fetch - processPackages [sqltrie]: executing diffoscope
+[2023-06-11 21:35:15] INFO root fetch - processPackages [sqltrie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqltrie-0.5.0.tar.gz tmp/sqltrie-0.6.0.tar.gz --markdown 20230611/s/sqltrie/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-11 21:35:15] INFO root fetch - processPackages [box-vcs]: executing diffoscope
+[2023-06-11 21:35:15] INFO root fetch - processPackages [box-vcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/box-vcs-0.3.0.tar.gz tmp/box-vcs-0.4.0.tar.gz --markdown 20230611/b/box-vcs/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 21:35:16] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.5.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.6.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - main [MainThread]: End processing [ariston]: success
+[2023-06-11 21:35:16] INFO root fetch - processPackages [box-vcs]: Remove: archive file [/home/abi/fetcher/tmp/box-vcs-0.3.0.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - processPackages [box-vcs]: Remove: archive file [/home/abi/fetcher/tmp/box-vcs-0.4.0.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - main [MainThread]: End processing [box-vcs]: success
+[2023-06-11 21:35:16] INFO root fetch - processPackages [sqltrie]: Remove: archive file [/home/abi/fetcher/tmp/sqltrie-0.5.0.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - processPackages [sqltrie]: Remove: archive file [/home/abi/fetcher/tmp/sqltrie-0.6.0.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - main [MainThread]: End processing [sqltrie]: success
+[2023-06-11 21:35:16] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc8.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc9.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2023-06-11 21:35:16] INFO root fetch - processPackages [novel-swarms]: Remove: archive file [/home/abi/fetcher/tmp/novel_swarms-0.1.7a0.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - processPackages [novel-swarms]: Remove: archive file [/home/abi/fetcher/tmp/novel_swarms-0.1.8a0.tar.gz]
+[2023-06-11 21:35:16] INFO root fetch - main [MainThread]: End processing [novel-swarms]: success
+[2023-06-11 21:35:16] INFO root fetch - main [MainThread]: Store serial: [18460492]
