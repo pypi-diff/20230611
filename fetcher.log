@@ -2948,3 +2948,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:13:56] INFO root fetch - processPackages [pytest-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/pytest-pyodide-0.52.1.tar.gz]
 [2023-06-11 04:13:56] INFO root fetch - main [MainThread]: End processing [pytest-pyodide]: success
 [2023-06-11 04:13:56] INFO root fetch - main [MainThread]: Store serial: [18455310]
+[2023-06-11 04:18:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455310]
+[2023-06-11 04:19:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HTTP-PyServer
+[2023-06-11 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logicgate
+[2023-06-11 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: longalpha-utils
+[2023-06-11 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdm-conda
+[2023-06-11 04:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bambooai
+[2023-06-11 04:19:04] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.1.4.2.1] Old Version: [0.1.4.2]
+[2023-06-11 04:19:04] INFO root fetch - processPackages [longalpha-utils]: New version: [0.56] Old Version: [0.55]
+[2023-06-11 04:19:04] INFO root fetch - processPackages [logicgate]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-11 04:19:04] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2023-06-11 04:19:04] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/f5/c3/0f80e4eb3e326b657434e05d895decbe6917d8c9538173f13d08197d34e6/HTTP-PyServer-0.1.4.2.tar.gz
+[2023-06-11 04:19:04] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2023-06-11 04:19:04] INFO root fetch - processPackages [bambooai]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-11 04:19:04] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/3a/d8/954d719feeecee421181797ac3ae22bdee899ef96b9a2c04ae0bbd57f490/longalpha_utils-0.55.tar.gz
+[2023-06-11 04:19:04] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/44/2c/0aa0e62e830f7b366d179c197c07ce4ef672b3791ccfe86f012268af987b/logicgate-0.2.7.tar.gz
+[2023-06-11 04:19:04] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2023-06-11 04:19:04] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/38/12/2ae29420b1f7fe2a846f8969858fd058d6add59d7ac2d2b559cf54451e06/bambooai-0.3.0.tar.gz
+[2023-06-11 04:19:04] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/e0/44/489afdbbab2a7c32976bff719283d3b8630d8fe9d94f14cc84c79ebc1e36/HTTP-PyServer-0.1.4.2.1.tar.gz
+[2023-06-11 04:19:05] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-06-11 04:19:05] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20230611/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2023-06-11 04:19:05] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-06-11 04:19:05] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.1.4.2.tar.gz tmp/HTTP-PyServer-0.1.4.2.1.tar.gz --markdown 20230611/H/HTTP-PyServer/0.1.4.2-0.1.4.2.1/diff.md --exclude *.pyd
+[2023-06-11 04:19:05] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/e6/21/69ae65c10c7254a9e9e850a91cac63dd11cf645359e9899c6e7624679384/longalpha_utils-0.56.tar.gz
+[2023-06-11 04:19:05] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/10/75/85cd0b40da820ba340b6144cffd9b97d340800b2332b5a0271196f817ec3/logicgate-0.2.8.tar.gz
+[2023-06-11 04:19:05] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-06-11 04:19:05] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.55.tar.gz tmp/longalpha_utils-0.56.tar.gz --markdown 20230611/l/longalpha-utils/0.55-0.56/diff.md --exclude *.pyd
+[2023-06-11 04:19:05] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/92/ed/12c94e90b61ba972db1e3c5631960fa4cf04b991fbe83c459354b3977a8f/bambooai-0.3.1.tar.gz
+[2023-06-11 04:19:05] INFO root fetch - processPackages [logicgate]: executing diffoscope
+[2023-06-11 04:19:05] INFO root fetch - processPackages [logicgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logicgate-0.2.7.tar.gz tmp/logicgate-0.2.8.tar.gz --markdown 20230611/l/logicgate/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-11 04:19:05] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-11 04:19:05] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.0.tar.gz tmp/bambooai-0.3.1.tar.gz --markdown 20230611/b/bambooai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-11 04:19:06] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-06-11 04:19:06] INFO root fetch - processPackages [HTTP-PyServer]: Remove: archive file [/home/abi/fetcher/tmp/HTTP-PyServer-0.1.4.2.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - processPackages [HTTP-PyServer]: Remove: archive file [/home/abi/fetcher/tmp/HTTP-PyServer-0.1.4.2.1.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-06-11 04:19:06] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.55.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.56.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-06-11 04:19:06] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.0.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.1.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-11 04:19:06] INFO root fetch - processPackages [logicgate]: Remove: archive file [/home/abi/fetcher/tmp/logicgate-0.2.7.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - processPackages [logicgate]: Remove: archive file [/home/abi/fetcher/tmp/logicgate-0.2.8.tar.gz]
+[2023-06-11 04:19:06] INFO root fetch - main [MainThread]: End processing [logicgate]: success
+[2023-06-11 04:19:06] INFO root fetch - main [MainThread]: Store serial: [18455336]
