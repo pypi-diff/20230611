@@ -13440,3 +13440,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:38:19] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc3.tar.gz]
 [2023-06-11 20:38:19] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
 [2023-06-11 20:38:19] INFO root fetch - main [MainThread]: Store serial: [18460149]
+[2023-06-11 20:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460149]
+[2023-06-11 20:43:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aug-tool
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-vantage
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotify-lyrics-scraper
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ldimbenchmark
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cycode
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-miraie-ac
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decodess
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fugue
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ultralytics
+[2023-06-11 20:43:27] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 20:43:27] WARNING root fetch - processPackages [spotify-lyrics-scraper]: Skipping, unable to determine old version
+[2023-06-11 20:43:27] INFO root fetch - processPackages [spotify-lyrics-scraper]: Start processing: moto
+[2023-06-11 20:43:27] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-scraper] error
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-11 20:43:27] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 20:43:27] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-11 20:43:27] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 20:43:27] INFO root fetch - processPackages [lollms]: Start processing: dvc-data
+[2023-06-11 20:43:27] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 20:43:27] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-11 20:43:27] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: New version: [0.0.1a1686267286] Old Version: [0.0.1]
+[2023-06-11 20:43:27] WARNING root fetch - processPackages [decodess]: Skipping, unable to determine old version
+[2023-06-11 20:43:27] INFO root fetch - main [MainThread]: End processing [decodess] error
+[2023-06-11 20:43:27] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 20:43:27] INFO root fetch - processPackages [aug-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 20:43:28] INFO root fetch - processPackages [cycode]: New version: [0.2.5.dev5] Old Version: [0.2.5.dev4]
+[2023-06-11 20:43:28] INFO root fetch - processPackages [fugue]: New version: [0.8.5.dev1] Old Version: [0.8.5]
+[2023-06-11 20:43:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230611/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [dvc-data]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-11 20:43:28] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: Downloading https://files.pythonhosted.org/packages/4d/62/c98cbad89424c8f5a2d1040b2de34900d9b4e55a1b4d83d4238bc90975f9/lbrlabs_pulumi_vantage-0.0.1.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/88/a4/4976f0828f8e88f188c29b20c852d30d36ef9b95f3e93bca96ac5bbaf912/fugue-0.8.5.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/22/69/efa32fec0b2a56bc5dc0440521d96df22ad16d7139c7b3ce26a0d34e71f4/py-miraie-ac-0.0.8.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [aug-tool]: Downloading https://files.pythonhosted.org/packages/db/bf/3cb73b0f3633d5d6e9aaad251d13d866812f43495c43bb3b03f2be7612d8/aug-tool-0.0.4.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/74/97/082b0c551b0a3f15ae7f14a44fa6ffa7bfd6bb7edaa48f652e366d84fd4e/dvc-data-1.3.2.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/8c/2f/d0ddcdb4ce2439394bbac29147a3fb96bba0a667d6a66a3bd7f3af8ee9c5/cycode-0.2.5.dev4.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/c6/df/5efd70e2d83f99c7223683c7b8b0412092a3088050768eba2aeda3c126cd/dvc-data-1.3.3.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/ca/5d/ee98c476cfa533b8c4313b6de7351cfe316c0b3b8078d8eb1670c2f334b2/py-miraie-ac-0.0.9.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230611/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: Downloading https://files.pythonhosted.org/packages/b2/b0/5826506e7d9c7a1dbe8d27e7335b00b909123b0df677b029a0a136601608/lbrlabs_pulumi_vantage-0.0.1a1686267286.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.0.8.tar.gz tmp/py-miraie-ac-0.0.9.tar.gz --markdown 20230611/p/py-miraie-ac/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [aug-tool]: Downloading https://files.pythonhosted.org/packages/80/2c/bcf55f7abbf3963311c8dfe9e81c36459481e3c7665f35f7fc302bb53626/aug-tool-0.0.5.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/6f/f6/1ff1c9aea3f6bc3e0bcff5282f3eabb50b332ee7cfacfa8afa48038d3c89/fugue-0.8.5.dev1.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.3.2.tar.gz tmp/dvc-data-1.3.3.tar.gz --markdown 20230611/d/dvc-data/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/b4/55/128a0aa34953074f646fe541e6395caf064b47d504b1181d2a5fe74fbfbb/cycode-0.2.5.dev5.tar.gz
+[2023-06-11 20:43:28] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.5.tar.gz tmp/fugue-0.8.5.dev1.tar.gz --markdown 20230611/f/fugue/0.8.5-0.8.5.dev1/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_vantage-0.0.1.tar.gz tmp/lbrlabs_pulumi_vantage-0.0.1a1686267286.tar.gz --markdown 20230611/l/lbrlabs-pulumi-vantage/0.0.1-0.0.1a1686267286/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [aug-tool]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [aug-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aug-tool-0.0.4.tar.gz tmp/aug-tool-0.0.5.tar.gz --markdown 20230611/a/aug-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:43:28] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-06-11 20:43:28] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.5.dev4.tar.gz tmp/cycode-0.2.5.dev5.tar.gz --markdown 20230611/c/cycode/0.2.5.dev4-0.2.5.dev5/diff.md --exclude *.pyd
+[2023-06-11 20:43:29] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-11 20:43:29] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-11 20:43:29] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230611/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-11 20:43:29] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_vantage-0.0.1.tar.gz]
+[2023-06-11 20:43:29] INFO root fetch - processPackages [lbrlabs-pulumi-vantage]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_vantage-0.0.1a1686267286.tar.gz]
+[2023-06-11 20:43:29] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-vantage]: success
+[2023-06-11 20:43:30] INFO root fetch - processPackages [aug-tool]: Remove: archive file [/home/abi/fetcher/tmp/aug-tool-0.0.4.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - processPackages [aug-tool]: Remove: archive file [/home/abi/fetcher/tmp/aug-tool-0.0.5.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - main [MainThread]: End processing [aug-tool]: success
+[2023-06-11 20:43:30] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.0.8.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.0.9.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-11 20:43:30] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-11 20:43:30] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.5.dev4.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.5.dev5.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-06-11 20:43:30] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.3.2.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.3.3.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-11 20:43:30] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.5.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.5.dev1.tar.gz]
+[2023-06-11 20:43:30] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-06-11 20:43:33] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-11 20:43:33] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-11 20:43:33] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-11 20:44:01] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-11 20:44:01] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-11 20:44:01] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-11 20:44:01] INFO root fetch - main [MainThread]: Store serial: [18460186]
