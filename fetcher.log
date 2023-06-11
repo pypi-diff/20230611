@@ -12933,3 +12933,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:59:51] INFO root fetch - processPackages [tryangle]: Remove: archive file [/home/abi/fetcher/tmp/tryangle-0.2.2.dev0.tar.gz]
 [2023-06-11 19:59:51] INFO root fetch - main [MainThread]: End processing [tryangle]: success
 [2023-06-11 19:59:51] INFO root fetch - main [MainThread]: Store serial: [18459938]
+[2023-06-11 20:04:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459938]
+[2023-06-11 20:05:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpme
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gen-func
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zenoml
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryangle
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-sbatch-script
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shubhank-utility
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xmodem
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idem
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-sbatch-script
+[2023-06-11 20:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flojoy
+[2023-06-11 20:05:00] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [gen-func]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: New version: [0.3] Old Version: [0.2]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [tryangle]: New version: [0.2.2.dev0] Old Version: [0.2.2]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: New version: [0.3] Old Version: [0.2]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [shubhank-utility]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [xmodem]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [zenoml]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [idem]: New version: [9] Old Version: [7.6]
+[2023-06-11 20:05:00] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [tryangle]: Downloading https://files.pythonhosted.org/packages/ca/dd/db76cedf62b9fca15a1c63b0559fb6af443621f24739aa41b4b03ef7fb81/tryangle-0.2.2.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [gen-func]: Downloading https://files.pythonhosted.org/packages/8f/0c/a2f71e10d272f2a78de4842243e92a38dfceac2585a66e94f76f633c9a8f/gen_func-1.0.0.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: Downloading https://files.pythonhosted.org/packages/a5/63/a0d6deaae02ae59580e92663353cfec0514b7586c2a030b0abeb560090e9/py-sbatch-script-0.2.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: Downloading https://files.pythonhosted.org/packages/a5/63/a0d6deaae02ae59580e92663353cfec0514b7586c2a030b0abeb560090e9/py-sbatch-script-0.2.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/4d/5e/09824726dfacc9a2ee7bd2d13109305a2a5b78d8287e12b1ee8780676352/zenoml-0.6.0.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/05/d1/ae55ae3db2dbdf032cc9b659329f3421a2cbccba05c19626eccb74e0a7e4/idem-7.6.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [shubhank-utility]: Downloading https://files.pythonhosted.org/packages/0c/19/ec0edf37c35dd6a230b4c0e54c60b341e5ad63739a9cb044d3d515dbbed3/shubhank_utility-0.0.2.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230611/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [xmodem]: Downloading https://files.pythonhosted.org/packages/29/5d/a20d7957f207fc4c4c143881ca7b9617ab7700c153012372ef0a934c7710/xmodem-0.4.6.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [tryangle]: Downloading https://files.pythonhosted.org/packages/5e/bd/60bb536068ee8c6d3a8eb97d25bee93edf80faffc13a4aa6b5c45b0b3c7f/tryangle-0.2.2.dev0.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [tryangle]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [tryangle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryangle-0.2.2.tar.gz tmp/tryangle-0.2.2.dev0.tar.gz --markdown 20230611/t/tryangle/0.2.2-0.2.2.dev0/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230611/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [gen-func]: Downloading https://files.pythonhosted.org/packages/32/d4/ac2cdec137ef6568d600708f71671e929fec0806945f460d68972b736a6f/gen_func-1.0.1.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [shubhank-utility]: Downloading https://files.pythonhosted.org/packages/fd/34/a28795ee3719804d7082834425c22e5056806647e865f029461b9de9a716/shubhank_utility-0.0.3.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: Downloading https://files.pythonhosted.org/packages/1f/ca/9d82b740804d954f55771140e84362cc3d2144e20675ccf796de5b4c5eeb/py-sbatch-script-0.3.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [gen-func]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [gen-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_func-1.0.0.tar.gz tmp/gen_func-1.0.1.tar.gz --markdown 20230611/g/gen-func/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: Downloading https://files.pythonhosted.org/packages/1f/ca/9d82b740804d954f55771140e84362cc3d2144e20675ccf796de5b4c5eeb/py-sbatch-script-0.3.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [shubhank-utility]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [shubhank-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shubhank_utility-0.0.2.tar.gz tmp/shubhank_utility-0.0.3.tar.gz --markdown 20230611/s/shubhank-utility/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [xmodem]: Downloading https://files.pythonhosted.org/packages/3d/17/fd6668a09afdc46c22990172b6f65e07dfb5bcf38960d063a7a887ca926d/xmodem-0.4.7.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sbatch-script-0.2.tar.gz tmp/py-sbatch-script-0.3.tar.gz --markdown 20230611/p/py-sbatch-script/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [py-sbatch-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sbatch-script-0.2.tar.gz tmp/py-sbatch-script-0.3.tar.gz --markdown 20230611/p/py-sbatch-script/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-11 20:05:00] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/ce/4a/4286bec2fb464f6470790a745a5398a51e5fc83aab4d7a43a7a48c711a10/zenoml-0.6.1.tar.gz
+[2023-06-11 20:05:00] INFO root fetch - processPackages [xmodem]: executing diffoscope
+[2023-06-11 20:05:00] INFO root fetch - processPackages [xmodem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmodem-0.4.6.tar.gz tmp/xmodem-0.4.7.tar.gz --markdown 20230611/x/xmodem/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-11 20:05:01] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/80/07/c0fcb9ef8650ecb03eb10da8b61f2177eeeb1d6f19fd169f6f615646a69d/idem-9.tar.gz
+[2023-06-11 20:05:01] INFO root fetch - processPackages [zenoml]: executing diffoscope
+[2023-06-11 20:05:01] INFO root fetch - processPackages [zenoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenoml-0.6.0.tar.gz tmp/zenoml-0.6.1.tar.gz --markdown 20230611/z/zenoml/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-11 20:05:01] INFO root fetch - processPackages [idem]: executing diffoscope
+[2023-06-11 20:05:01] INFO root fetch - processPackages [idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-7.6.tar.gz tmp/idem-9.tar.gz --markdown 20230611/i/idem/7.6-9/diff.md --exclude *.pyd
+[2023-06-11 20:05:02] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-06-11 20:05:02] INFO root fetch - processPackages [tryangle]: Remove: archive file [/home/abi/fetcher/tmp/tryangle-0.2.2.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - processPackages [tryangle]: Remove: archive file [/home/abi/fetcher/tmp/tryangle-0.2.2.dev0.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [tryangle]: success
+[2023-06-11 20:05:02] INFO root fetch - processPackages [py-sbatch-script]: Remove: archive file [/home/abi/fetcher/tmp/py-sbatch-script-0.2.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - processPackages [py-sbatch-script]: Remove: archive file [/home/abi/fetcher/tmp/py-sbatch-script-0.3.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [py-sbatch-script]: success
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [py-sbatch-script]: success
+[2023-06-11 20:05:02] INFO root fetch - processPackages [shubhank-utility]: Remove: archive file [/home/abi/fetcher/tmp/shubhank_utility-0.0.2.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - processPackages [shubhank-utility]: Remove: archive file [/home/abi/fetcher/tmp/shubhank_utility-0.0.3.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [shubhank-utility]: success
+[2023-06-11 20:05:02] INFO root fetch - processPackages [xmodem]: Remove: archive file [/home/abi/fetcher/tmp/xmodem-0.4.6.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - processPackages [xmodem]: Remove: archive file [/home/abi/fetcher/tmp/xmodem-0.4.7.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [xmodem]: success
+[2023-06-11 20:05:02] INFO root fetch - processPackages [gen-func]: Remove: archive file [/home/abi/fetcher/tmp/gen_func-1.0.0.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - processPackages [gen-func]: Remove: archive file [/home/abi/fetcher/tmp/gen_func-1.0.1.tar.gz]
+[2023-06-11 20:05:02] INFO root fetch - main [MainThread]: End processing [gen-func]: success
+[2023-06-11 20:05:03] INFO root fetch - processPackages [idem]: Remove: archive file [/home/abi/fetcher/tmp/idem-7.6.tar.gz]
+[2023-06-11 20:05:03] INFO root fetch - processPackages [idem]: Remove: archive file [/home/abi/fetcher/tmp/idem-9.tar.gz]
+[2023-06-11 20:05:03] INFO root fetch - main [MainThread]: End processing [idem]: success
+[2023-06-11 20:05:07] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-11 20:05:07] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-11 20:05:07] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-11 20:05:20] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.0.tar.gz]
+[2023-06-11 20:05:20] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.1.tar.gz]
+[2023-06-11 20:05:20] INFO root fetch - main [MainThread]: End processing [zenoml]: success
+[2023-06-11 20:05:20] INFO root fetch - main [MainThread]: Store serial: [18459966]
