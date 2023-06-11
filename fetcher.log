@@ -6107,3 +6107,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:55:10] INFO root fetch - processPackages [ujson]: Remove: archive file [/home/abi/fetcher/tmp/ujson-5.8.0.tar.gz]
 [2023-06-11 10:55:10] INFO root fetch - main [MainThread]: End processing [ujson]: success
 [2023-06-11 10:55:10] INFO root fetch - main [MainThread]: Store serial: [18456745]
+[2023-06-11 11:00:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456745]
+[2023-06-11 11:00:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-06-11 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: permit
+[2023-06-11 11:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-magic
+[2023-06-11 11:00:18] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 11:00:18] INFO root fetch - processPackages [contact-magic]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-11 11:00:18] INFO root fetch - processPackages [permit]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-11 11:00:18] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/5d/66/c9243c9c1e58b645d7d6c13607bdd19ba6b930ed48d12f9e87a6481745c4/permit-2.0.3.tar.gz
+[2023-06-11 11:00:19] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 11:00:19] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/92/c5/a7a1ab0aa785f0458e7fe0096f7379ba382baf95c68396d689ab252643cf/contact_magic-0.2.1.tar.gz
+[2023-06-11 11:00:19] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/82/09/0e7a176dc8b3ff47035a3871e81aa71541a9dcfa1aad86132ee951a86601/permit-2.0.4.tar.gz
+[2023-06-11 11:00:19] INFO root fetch - processPackages [permit]: executing diffoscope
+[2023-06-11 11:00:19] INFO root fetch - processPackages [permit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-2.0.3.tar.gz tmp/permit-2.0.4.tar.gz --markdown 20230611/p/permit/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-11 11:00:19] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ce/d3/e0473752f81ead0198e9b696d98bd9aecd28c965b1b4f165446a23a58b09/contact_magic-0.3.0.tar.gz
+[2023-06-11 11:00:19] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 11:00:19] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-11 11:00:19] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.2.1.tar.gz tmp/contact_magic-0.3.0.tar.gz --markdown 20230611/c/contact-magic/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-11 11:00:19] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 11:00:19] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 11:00:20] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 11:00:20] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 11:00:20] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 11:00:20] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.2.1.tar.gz]
+[2023-06-11 11:00:20] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.0.tar.gz]
+[2023-06-11 11:00:20] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-11 11:00:20] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.0.3.tar.gz]
+[2023-06-11 11:00:20] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.0.4.tar.gz]
+[2023-06-11 11:00:20] INFO root fetch - main [MainThread]: End processing [permit]: success
+[2023-06-11 11:00:20] INFO root fetch - main [MainThread]: Store serial: [18456753]
