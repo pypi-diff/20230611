@@ -12370,3 +12370,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:12:36] INFO root fetch - processPackages [tablib]: Remove: archive file [/home/abi/fetcher/tmp/tablib-3.5.0.tar.gz]
 [2023-06-11 19:12:36] INFO root fetch - main [MainThread]: End processing [tablib]: success
 [2023-06-11 19:12:36] INFO root fetch - main [MainThread]: Store serial: [18459569]
+[2023-06-11 19:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459569]
+[2023-06-11 19:17:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 19:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vader-umpt
+[2023-06-11 19:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spl-widgets
+[2023-06-11 19:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hummuspy
+[2023-06-11 19:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain
+[2023-06-11 19:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readpy-P-Y-R-O-B-O-T
+[2023-06-11 19:17:46] WARNING root fetch - processPackages [vader-umpt]: Skipping, unable to determine old version
+[2023-06-11 19:17:46] INFO root fetch - main [MainThread]: End processing [vader-umpt] error
+[2023-06-11 19:17:46] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 19:17:46] WARNING root fetch - processPackages [readpy-P-Y-R-O-B-O-T]: Skipping, unable to determine old version
+[2023-06-11 19:17:46] INFO root fetch - main [MainThread]: End processing [readpy-P-Y-R-O-B-O-T] error
+[2023-06-11 19:17:46] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 19:17:46] INFO root fetch - processPackages [spl-widgets]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-11 19:17:46] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-11 19:17:46] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 19:17:46] INFO root fetch - processPackages [spl-widgets]: Downloading https://files.pythonhosted.org/packages/4a/a2/da384ebf4d1a0438a6b2c4290353b7497443ec4cf241713bca9bb8a6b9e1/spl_widgets-1.5.2.tar.gz
+[2023-06-11 19:17:46] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-11 19:17:46] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 19:17:46] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 19:17:46] INFO root fetch - processPackages [spl-widgets]: Downloading https://files.pythonhosted.org/packages/e1/5a/4149dcda0feb8b54710daec9b56c6d8dda695674b1da0ac928b9a46d5f41/spl_widgets-1.5.3.tar.gz
+[2023-06-11 19:17:46] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-11 19:17:46] INFO root fetch - processPackages [spl-widgets]: executing diffoscope
+[2023-06-11 19:17:46] INFO root fetch - processPackages [spl-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spl_widgets-1.5.2.tar.gz tmp/spl_widgets-1.5.3.tar.gz --markdown 20230611/s/spl-widgets/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-11 19:17:46] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-11 19:17:46] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230611/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-11 19:17:47] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 19:17:47] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 19:17:47] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 19:17:48] INFO root fetch - processPackages [spl-widgets]: Remove: archive file [/home/abi/fetcher/tmp/spl_widgets-1.5.2.tar.gz]
+[2023-06-11 19:17:48] INFO root fetch - processPackages [spl-widgets]: Remove: archive file [/home/abi/fetcher/tmp/spl_widgets-1.5.3.tar.gz]
+[2023-06-11 19:17:48] INFO root fetch - main [MainThread]: End processing [spl-widgets]: success
+[2023-06-11 19:17:49] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-11 19:17:49] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-11 19:17:49] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-11 19:17:49] INFO root fetch - main [MainThread]: Store serial: [18459584]
