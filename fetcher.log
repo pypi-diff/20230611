@@ -15040,3 +15040,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 23:06:12] INFO root fetch - processPackages [slackybot]: Remove: archive file [/home/abi/fetcher/tmp/slackybot-1.2.0.tar.gz]
 [2023-06-11 23:06:12] INFO root fetch - main [MainThread]: End processing [slackybot]: success
 [2023-06-11 23:06:12] INFO root fetch - main [MainThread]: Store serial: [18460940]
+[2023-06-11 23:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460940]
+[2023-06-11 23:11:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hardyweinbergcalculator
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serializejson
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymerkle
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: five-card-draw
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydaikin
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: araby-ai
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vitaldb
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: glizzy-tls
+[2023-06-11 23:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: contact-magic
+[2023-06-11 23:11:22] INFO root fetch - processPackages [contact-magic]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [glizzy-tls]: New version: [0.1.0rc0] Old Version: [0.1.0b0]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [araby-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 23:11:22] WARNING root fetch - processPackages [hardyweinbergcalculator]: Skipping, unable to determine old version
+[2023-06-11 23:11:22] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator] error
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pymerkle]: New version: [5.0.3b0] Old Version: [5.0.1b0]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/80/77/fe6690f354f32c097f5c48b2b00d8323ad414185636be4074108fcc6cdd1/contact_magic-0.3.2.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [araby-ai]: Downloading https://files.pythonhosted.org/packages/0c/d8/2b203ac430048a6f2f37ada80e7bb4f3bf81034bacba0d21414adb03e614/araby-ai-0.0.1.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [serializejson]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [vitaldb]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [glizzy-tls]: Downloading https://files.pythonhosted.org/packages/63/c6/a313d17c0234e50b924ab0fc4b5a7e7c2586202920b1d85963a0984af7d4/glizzy_tls-0.1.0b0.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pydaikin]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-11 23:11:22] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/a4/f6/f31c8fab83858b48be7b559785ba88f0779551db9e69b19638e4cfae7dd9/contact_magic-0.3.3.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [vitaldb]: Downloading https://files.pythonhosted.org/packages/47/96/e9b95a44d4f4b263df40ff5d7e6dc4ba3c5db978a24f6d0a6f017c0c940b/vitaldb-1.3.3-py3-none-any.whl
+[2023-06-11 23:11:22] INFO root fetch - processPackages [araby-ai]: Downloading https://files.pythonhosted.org/packages/6b/c3/b2a3f8ffb01ae02fab7f4e7a145d5decd8d95f4cfc77acc883a04b98fe13/araby-ai-0.0.2.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/e8/77/56721c84c58a93eb04657d1303b46685b6ada32aad5f90d1fd834abdde4f/five_card_draw-1.0.1.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pymerkle]: Downloading https://files.pythonhosted.org/packages/76/74/4f423b6e56913c309d995de4f2ff0c2980db6deb483493e8b254177b4e1a/pymerkle-5.0.1b0.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [serializejson]: Downloading https://files.pythonhosted.org/packages/70/77/dcd55ef847c6950092d1bc351a26d00bd5d56c6baed65ad0a0703709233e/serializejson-0.3.2.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/e2/88/0631f9d803cd3199e583608206108a145ee541fc58b4920077e9353df088/pydaikin-2.9.0.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.3.2.tar.gz tmp/contact_magic-0.3.3.tar.gz --markdown 20230611/c/contact-magic/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [araby-ai]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [araby-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/araby-ai-0.0.1.tar.gz tmp/araby-ai-0.0.2.tar.gz --markdown 20230611/a/araby-ai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [glizzy-tls]: Downloading https://files.pythonhosted.org/packages/e5/a3/723dc36d621e3a4577acb538cb3be6e3526834a00a19730fd3d19ab56752/glizzy_tls-0.1.0rc0.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [glizzy-tls]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [glizzy-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glizzy_tls-0.1.0b0.tar.gz tmp/glizzy_tls-0.1.0rc0.tar.gz --markdown 20230611/g/glizzy-tls/0.1.0b0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/c4/a9/6b18e86a8fa237d4d0f387c1aaa7afdf32baee180d27d45030e7a013c7f9/five_card_draw-1.0.2.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [vitaldb]: Downloading https://files.pythonhosted.org/packages/42/87/aa265738f7a52eda4120c48c4492dddcc25d16ced2d270df5fc130242949/vitaldb-1.4.0-py3-none-any.whl
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pymerkle]: Downloading https://files.pythonhosted.org/packages/0c/14/8c281ff1de0e480a090c452447c7ef4a35071bb3e9bb5f3992ad25199e06/pymerkle-5.0.3b0.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [serializejson]: Downloading https://files.pythonhosted.org/packages/c4/40/02891b2a6164ad5e07b5bf1495985fdcedfd3656787d64b5b1dcd7e8518a/serializejson-0.3.3.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.1.tar.gz tmp/five_card_draw-1.0.2.tar.gz --markdown 20230611/f/five-card-draw/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/d7/9a/48b5098f0b08ea5787259050de846b8dbff99f1e2255d548aaf42bf9e4bb/pydaikin-2.9.1.tar.gz
+[2023-06-11 23:11:22] INFO root fetch - processPackages [vitaldb]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [vitaldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitaldb-1.3.3-py3-none-any.whl.zip tmp/vitaldb-1.4.0-py3-none-any.whl.zip --markdown 20230611/v/vitaldb/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pymerkle]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pymerkle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymerkle-5.0.1b0.tar.gz tmp/pymerkle-5.0.3b0.tar.gz --markdown 20230611/p/pymerkle/5.0.1b0-5.0.3b0/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pydaikin]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [pydaikin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaikin-2.9.0.tar.gz tmp/pydaikin-2.9.1.tar.gz --markdown 20230611/p/pydaikin/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-11 23:11:22] INFO root fetch - processPackages [serializejson]: executing diffoscope
+[2023-06-11 23:11:22] INFO root fetch - processPackages [serializejson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializejson-0.3.2.tar.gz tmp/serializejson-0.3.3.tar.gz --markdown 20230611/s/serializejson/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 23:11:23] INFO root fetch - processPackages [araby-ai]: Remove: archive file [/home/abi/fetcher/tmp/araby-ai-0.0.1.tar.gz]
+[2023-06-11 23:11:23] INFO root fetch - processPackages [araby-ai]: Remove: archive file [/home/abi/fetcher/tmp/araby-ai-0.0.2.tar.gz]
+[2023-06-11 23:11:23] INFO root fetch - main [MainThread]: End processing [araby-ai]: success
+[2023-06-11 23:11:23] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.2.tar.gz]
+[2023-06-11 23:11:23] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.3.tar.gz]
+[2023-06-11 23:11:23] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-11 23:11:24] INFO root fetch - processPackages [glizzy-tls]: Remove: archive file [/home/abi/fetcher/tmp/glizzy_tls-0.1.0b0.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - processPackages [glizzy-tls]: Remove: archive file [/home/abi/fetcher/tmp/glizzy_tls-0.1.0rc0.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [glizzy-tls]: success
+[2023-06-11 23:11:24] INFO root fetch - processPackages [vitaldb]: Remove: archive file [/home/abi/fetcher/tmp/vitaldb-1.3.3-py3-none-any.whl.zip]
+[2023-06-11 23:11:24] INFO root fetch - processPackages [vitaldb]: Remove: archive file [/home/abi/fetcher/tmp/vitaldb-1.4.0-py3-none-any.whl.zip]
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [vitaldb]: success
+[2023-06-11 23:11:24] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.1.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.2.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-11 23:11:24] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.0.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.1.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
+[2023-06-11 23:11:24] INFO root fetch - processPackages [serializejson]: Remove: archive file [/home/abi/fetcher/tmp/serializejson-0.3.2.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - processPackages [serializejson]: Remove: archive file [/home/abi/fetcher/tmp/serializejson-0.3.3.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [serializejson]: success
+[2023-06-11 23:11:24] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.1b0.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.3b0.tar.gz]
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: End processing [pymerkle]: success
+[2023-06-11 23:11:24] INFO root fetch - main [MainThread]: Store serial: [18460966]
