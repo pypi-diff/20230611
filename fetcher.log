@@ -5265,3 +5265,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:49:17] INFO root fetch - processPackages [scrapy-kit]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_kit-0.1.5.tar.gz]
 [2023-06-11 08:49:17] INFO root fetch - main [MainThread]: End processing [scrapy-kit]: success
 [2023-06-11 08:49:17] INFO root fetch - main [MainThread]: Store serial: [18456378]
+[2023-06-11 08:54:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456378]
+[2023-06-11 08:54:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smarterbombing
+[2023-06-11 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Spanve
+[2023-06-11 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fossiler
+[2023-06-11 08:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-adventures
+[2023-06-11 08:54:26] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-11 08:54:26] WARNING root fetch - processPackages [text-adventures]: Skipping, unable to determine old version
+[2023-06-11 08:54:26] INFO root fetch - main [MainThread]: End processing [text-adventures] error
+[2023-06-11 08:54:26] INFO root fetch - processPackages [fossiler]: New version: [0.0.4.6] Old Version: [0.0.4.5]
+[2023-06-11 08:54:26] INFO root fetch - processPackages [Spanve]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 08:54:26] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/97/2a/2a05fc731d62d541320ea9d1a29dfaa4c45c0d25e517f6fd1652df82a71c/smarterbombing-0.3.6.tar.gz
+[2023-06-11 08:54:26] INFO root fetch - processPackages [Spanve]: Downloading https://files.pythonhosted.org/packages/fc/89/4e6a4482e2856710bb0382442f7382e68620cdacc6d6ff0e8eb7cabb1522/Spanve-0.1.1.tar.gz
+[2023-06-11 08:54:26] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/66/ea/215bc18cdd65def964f51fbb850cc8ca32e2239586dde0984ca0f88bd21f/fossiler-0.0.4.5.tar.gz
+[2023-06-11 08:54:26] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/5f/a5/e9ee224319e006812edc564a810568b3470fee7501738bdc34509dee74c7/smarterbombing-0.3.7.tar.gz
+[2023-06-11 08:54:26] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 08:54:26] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.6.tar.gz tmp/smarterbombing-0.3.7.tar.gz --markdown 20230611/s/smarterbombing/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-11 08:54:26] INFO root fetch - processPackages [fossiler]: Downloading https://files.pythonhosted.org/packages/b4/9e/f196d6e5f8b7a6e4feafc58457722e0f7a4cf18d047850252713f8729cba/fossiler-0.0.4.6.tar.gz
+[2023-06-11 08:54:27] INFO root fetch - processPackages [Spanve]: Downloading https://files.pythonhosted.org/packages/19/f2/f84a446cb8b9aa6d621a9f2a335805a3a265d5dc988cb97c93dc73df178b/Spanve-0.1.2.tar.gz
+[2023-06-11 08:54:27] INFO root fetch - processPackages [Spanve]: executing diffoscope
+[2023-06-11 08:54:27] INFO root fetch - processPackages [Spanve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spanve-0.1.1.tar.gz tmp/Spanve-0.1.2.tar.gz --markdown 20230611/S/Spanve/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 08:54:27] INFO root fetch - processPackages [fossiler]: executing diffoscope
+[2023-06-11 08:54:27] INFO root fetch - processPackages [fossiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossiler-0.0.4.5.tar.gz tmp/fossiler-0.0.4.6.tar.gz --markdown 20230611/f/fossiler/0.0.4.5-0.0.4.6/diff.md --exclude *.pyd
+[2023-06-11 08:54:28] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.6.tar.gz]
+[2023-06-11 08:54:28] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.7.tar.gz]
+[2023-06-11 08:54:28] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 08:54:28] INFO root fetch - processPackages [Spanve]: Remove: archive file [/home/abi/fetcher/tmp/Spanve-0.1.1.tar.gz]
+[2023-06-11 08:54:28] INFO root fetch - processPackages [Spanve]: Remove: archive file [/home/abi/fetcher/tmp/Spanve-0.1.2.tar.gz]
+[2023-06-11 08:54:28] INFO root fetch - main [MainThread]: End processing [Spanve]: success
+[2023-06-11 08:54:28] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.4.5.tar.gz]
+[2023-06-11 08:54:28] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.4.6.tar.gz]
+[2023-06-11 08:54:28] INFO root fetch - main [MainThread]: End processing [fossiler]: success
+[2023-06-11 08:54:28] INFO root fetch - main [MainThread]: Store serial: [18456387]
