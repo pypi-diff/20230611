@@ -3542,3 +3542,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:21:54] INFO root fetch - processPackages [odoo14-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_rate_update-14.0.1.3.1.dev9-py3-none-any.whl.zip]
 [2023-06-11 05:21:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-rate-update]: success
 [2023-06-11 05:21:54] INFO root fetch - main [MainThread]: Store serial: [18455583]
+[2023-06-11 05:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455583]
+[2023-06-11 05:27:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 05:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamdl
+[2023-06-11 05:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcStats
+[2023-06-11 05:27:02] INFO root fetch - processPackages [funcStats]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-11 05:27:02] INFO root fetch - processPackages [gamdl]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-11 05:27:03] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/e4/a0/903b0adddfdb6f24afee811541b3da111b64d12c51e1c10713562cde6b8e/funcStats-0.0.4.tar.gz
+[2023-06-11 05:27:03] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/e8/9d/a3f6bd9802a0200c3c5cb9ba504133cbfd70f8e40783c9d2f8ad1117311e/gamdl-1.9.1.tar.gz
+[2023-06-11 05:27:03] INFO root fetch - processPackages [funcStats]: Downloading https://files.pythonhosted.org/packages/84/66/a433bd43b6472470dd9aa6c2a2ccd3153fd0ffe484c773bdcb490910a2fd/funcStats-0.0.6.tar.gz
+[2023-06-11 05:27:03] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/0f/fd/1df3680e77b570f33b8c3ac4976cb941a85aa71605e037eb9728bcba1e4a/gamdl-1.9.2.tar.gz
+[2023-06-11 05:27:03] INFO root fetch - processPackages [funcStats]: executing diffoscope
+[2023-06-11 05:27:03] INFO root fetch - processPackages [funcStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcStats-0.0.4.tar.gz tmp/funcStats-0.0.6.tar.gz --markdown 20230611/f/funcStats/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 05:27:03] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2023-06-11 05:27:03] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-1.9.1.tar.gz tmp/gamdl-1.9.2.tar.gz --markdown 20230611/g/gamdl/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-11 05:27:04] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.4.tar.gz]
+[2023-06-11 05:27:04] INFO root fetch - processPackages [funcStats]: Remove: archive file [/home/abi/fetcher/tmp/funcStats-0.0.6.tar.gz]
+[2023-06-11 05:27:04] INFO root fetch - main [MainThread]: End processing [funcStats]: success
+[2023-06-11 05:27:04] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-1.9.1.tar.gz]
+[2023-06-11 05:27:04] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-1.9.2.tar.gz]
+[2023-06-11 05:27:04] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2023-06-11 05:27:04] INFO root fetch - main [MainThread]: Store serial: [18455588]
