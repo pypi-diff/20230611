@@ -5140,3 +5140,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:32:44] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
 [2023-06-11 08:32:44] INFO root fetch - main [MainThread]: End processing [xia-git]: success
 [2023-06-11 08:32:44] INFO root fetch - main [MainThread]: Store serial: [18456302]
+[2023-06-11 08:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456302]
+[2023-06-11 08:37:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 08:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitcoin-p2p
+[2023-06-11 08:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smarterbombing
+[2023-06-11 08:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onepasswd
+[2023-06-11 08:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Space-Weather-Interface-P
+[2023-06-11 08:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kast-flow-api-python
+[2023-06-11 08:37:53] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-11 08:37:53] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 08:37:53] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 08:37:53] INFO root fetch - processPackages [onepasswd]: New version: [0.2.5] Old Version: [0.2.4rc2]
+[2023-06-11 08:37:53] INFO root fetch - processPackages [bitcoin-p2p]: New version: [0.3] Old Version: [0.2]
+[2023-06-11 08:37:54] INFO root fetch - processPackages [kast-flow-api-python]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-06-11 08:37:54] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/df/77/068ff8d4804f9f6b60bc123e0458f4ab1ddf0fdc7b87a9ead598001029a9/smarterbombing-0.3.5.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [bitcoin-p2p]: Downloading https://files.pythonhosted.org/packages/d8/80/760b29ce64f29d76ecdb2f619e3cd572201d42709f94ff0ac8d6f345cae4/bitcoin_p2p-0.2.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [onepasswd]: Downloading https://files.pythonhosted.org/packages/79/be/e71af233599a1e24f2e1d728132fb642f01d528ba34746010270b05eaea9/onepasswd-0.2.4rc2.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/8c/4f/d9621326d95ff173d81a12d360fc24103cbb1d9e240266874c01d0920422/kast_flow_api_python-0.0.1.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [bitcoin-p2p]: Downloading https://files.pythonhosted.org/packages/e8/07/a116c5da43ef4874ffec2fe5782185075c1c7f0a2f396d65fcbd60d93a2f/bitcoin_p2p-0.3.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/97/2a/2a05fc731d62d541320ea9d1a29dfaa4c45c0d25e517f6fd1652df82a71c/smarterbombing-0.3.6.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [onepasswd]: Downloading https://files.pythonhosted.org/packages/53/af/7543b87745cda15e6a4a92f3f6a1c8ac6d74d86f6496b58a0f28e661aa42/onepasswd-0.2.5.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [bitcoin-p2p]: executing diffoscope
+[2023-06-11 08:37:54] INFO root fetch - processPackages [bitcoin-p2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin_p2p-0.2.tar.gz tmp/bitcoin_p2p-0.3.tar.gz --markdown 20230611/b/bitcoin-p2p/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-11 08:37:54] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 08:37:54] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.5.tar.gz tmp/smarterbombing-0.3.6.tar.gz --markdown 20230611/s/smarterbombing/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-11 08:37:54] INFO root fetch - processPackages [onepasswd]: executing diffoscope
+[2023-06-11 08:37:54] INFO root fetch - processPackages [onepasswd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepasswd-0.2.4rc2.tar.gz tmp/onepasswd-0.2.5.tar.gz --markdown 20230611/o/onepasswd/0.2.4rc2-0.2.5/diff.md --exclude *.pyd
+[2023-06-11 08:37:54] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/bb/8f/bc1417f724e54aaa73865503ea4f1f5cb8ff3e610cc22427243b33f50466/kast_flow_api_python-1.0.1.tar.gz
+[2023-06-11 08:37:54] INFO root fetch - processPackages [kast-flow-api-python]: executing diffoscope
+[2023-06-11 08:37:54] INFO root fetch - processPackages [kast-flow-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kast_flow_api_python-0.0.1.tar.gz tmp/kast_flow_api_python-1.0.1.tar.gz --markdown 20230611/k/kast-flow-api-python/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 08:37:55] INFO root fetch - processPackages [bitcoin-p2p]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_p2p-0.2.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - processPackages [bitcoin-p2p]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_p2p-0.3.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - main [MainThread]: End processing [bitcoin-p2p]: success
+[2023-06-11 08:37:55] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.5.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.6.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 08:37:55] INFO root fetch - processPackages [onepasswd]: Remove: archive file [/home/abi/fetcher/tmp/onepasswd-0.2.4rc2.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - processPackages [onepasswd]: Remove: archive file [/home/abi/fetcher/tmp/onepasswd-0.2.5.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - main [MainThread]: End processing [onepasswd]: success
+[2023-06-11 08:37:55] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-0.0.1.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.1.tar.gz]
+[2023-06-11 08:37:55] INFO root fetch - main [MainThread]: End processing [kast-flow-api-python]: success
+[2023-06-11 08:37:55] INFO root fetch - main [MainThread]: Store serial: [18456319]
