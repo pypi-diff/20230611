@@ -6329,3 +6329,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:05:37] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.7.1b20230611.tar.gz]
 [2023-06-11 11:05:37] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
 [2023-06-11 11:05:37] INFO root fetch - main [MainThread]: Store serial: [18456828]
+[2023-06-11 11:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456828]
+[2023-06-11 11:10:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-11 11:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ediri-scaleway
+[2023-06-11 11:10:45] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.21.0] Old Version: [2.20.0]
+[2023-06-11 11:10:46] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/92/b5/73011061c0ffa2c3b955198f83e183809f90b03be463675d49ac08d1c736/ediri_scaleway-2.20.0.tar.gz
+[2023-06-11 11:10:46] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/b5/0e/6b0f15fa4bf48760546f0611e5b9a42b0d83c3dee70035248399d1710211/ediri_scaleway-2.21.0.tar.gz
+[2023-06-11 11:10:46] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-06-11 11:10:46] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.20.0.tar.gz tmp/ediri_scaleway-2.21.0.tar.gz --markdown 20230611/e/ediri-scaleway/2.20.0-2.21.0/diff.md --exclude *.pyd
+[2023-06-11 11:10:49] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.20.0.tar.gz]
+[2023-06-11 11:10:49] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.21.0.tar.gz]
+[2023-06-11 11:10:49] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-06-11 11:10:49] INFO root fetch - main [MainThread]: Store serial: [18456830]
