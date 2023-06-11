@@ -6525,3 +6525,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:31:37] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.7.tar.gz]
 [2023-06-11 11:31:37] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
 [2023-06-11 11:31:37] INFO root fetch - main [MainThread]: Store serial: [18456934]
+[2023-06-11 11:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456934]
+[2023-06-11 11:36:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySimplePolls
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PoePT
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaohn-common-utils
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezbeq
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrestack
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: financetoolkit
+[2023-06-11 11:36:46] INFO root fetch - processPackages [PoePT]: New version: [0.2.4] Old Version: [0.2.1]
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-06-11 11:36:46] INFO root fetch - processPackages [pyrestack]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-06-11 11:36:46] INFO root fetch - processPackages [PySimplePolls]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 11:36:46] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-06-11 11:36:46] INFO root fetch - processPackages [financetoolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 11:36:46] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/a2/bb/62028e16e8f8ada9f8a25f3bd769b432a1d233bc565e3eea829e60b70a89/gaohn-common-utils-0.0.36.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/4e/33/6d7283c1b0203bf084d63f8f8f5392093d5885b2d49f7a2efe233d9b5627/financetoolkit-1.0.1.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [PoePT]: Downloading https://files.pythonhosted.org/packages/29/51/e3d0b16f4e3cc87bb5f1d95a3a63abb3accb7e4148843d7b334075175cc8/PoePT-0.2.1.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/bf/69/b10f9ec5ce8e314e71c8c5eac851fda52e7a480776b245de581120b340ee/pyrestack-0.0.21.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [PySimplePolls]: Downloading https://files.pythonhosted.org/packages/d4/e0/7ee530a4bf945323afeb6f1ad3953552149038574053595c0d46d643a42a/PySimplePolls-0.0.1.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/40/f4/b0ed80140e26a49763ebb750a2e45e2b8e31fd86699b28f44391dfd0eff4/ezbeq-1.0.0b8.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/74/cc/d881407cc13e5a82d505e995bc66bb90398f96a22db591c8e65f07b84850/gaohn-common-utils-0.0.37.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [PoePT]: Downloading https://files.pythonhosted.org/packages/0c/36/69864dde1b7ea828608de6e57f92f9fdb62527a3a352c6852ec06f048b67/PoePT-0.2.4.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/59/35/11ffeb3b018cf3fb1e3e91a0066b788fdd334c7798f05abdc87428b6a6f3/pyrestack-0.0.22.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/ad/3c/7ffda1e1b1254e82d7058ecf82ceec3b35e4e2e0a5249665e206a48d0ce2/financetoolkit-1.0.2.tar.gz
+[2023-06-11 11:36:46] INFO root fetch - processPackages [PySimplePolls]: Downloading https://files.pythonhosted.org/packages/03/ef/ce676836a7bf5d8aeb305cbf43a67063bbcab37133457126a57779011155/PySimplePolls-0.0.2.tar.gz
+[2023-06-11 11:36:47] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-11 11:36:47] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.36.tar.gz tmp/gaohn-common-utils-0.0.37.tar.gz --markdown 20230611/g/gaohn-common-utils/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-06-11 11:36:47] INFO root fetch - processPackages [pyrestack]: executing diffoscope
+[2023-06-11 11:36:47] INFO root fetch - processPackages [pyrestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestack-0.0.21.tar.gz tmp/pyrestack-0.0.22.tar.gz --markdown 20230611/p/pyrestack/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-06-11 11:36:47] INFO root fetch - processPackages [PoePT]: executing diffoscope
+[2023-06-11 11:36:47] INFO root fetch - processPackages [PoePT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoePT-0.2.1.tar.gz tmp/PoePT-0.2.4.tar.gz --markdown 20230611/P/PoePT/0.2.1-0.2.4/diff.md --exclude *.pyd
+[2023-06-11 11:36:47] INFO root fetch - processPackages [financetoolkit]: executing diffoscope
+[2023-06-11 11:36:47] INFO root fetch - processPackages [financetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financetoolkit-1.0.1.tar.gz tmp/financetoolkit-1.0.2.tar.gz --markdown 20230611/f/financetoolkit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:36:47] INFO root fetch - processPackages [PySimplePolls]: executing diffoscope
+[2023-06-11 11:36:47] INFO root fetch - processPackages [PySimplePolls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySimplePolls-0.0.1.tar.gz tmp/PySimplePolls-0.0.2.tar.gz --markdown 20230611/P/PySimplePolls/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 11:36:47] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/01/2c/eb8009743c7049f955b3b3ffb989398ca1433d2be1f0bf9848674fa1e2f9/ezbeq-1.0.0b9.tar.gz
+[2023-06-11 11:36:47] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-06-11 11:36:47] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b8.tar.gz tmp/ezbeq-1.0.0b9.tar.gz --markdown 20230611/e/ezbeq/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-06-11 11:36:48] INFO root fetch - processPackages [PoePT]: Remove: archive file [/home/abi/fetcher/tmp/PoePT-0.2.1.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - processPackages [PoePT]: Remove: archive file [/home/abi/fetcher/tmp/PoePT-0.2.4.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - main [MainThread]: End processing [PoePT]: success
+[2023-06-11 11:36:48] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.36.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.37.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-11 11:36:48] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.21.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.22.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - main [MainThread]: End processing [pyrestack]: success
+[2023-06-11 11:36:48] INFO root fetch - processPackages [PySimplePolls]: Remove: archive file [/home/abi/fetcher/tmp/PySimplePolls-0.0.1.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - processPackages [PySimplePolls]: Remove: archive file [/home/abi/fetcher/tmp/PySimplePolls-0.0.2.tar.gz]
+[2023-06-11 11:36:48] INFO root fetch - main [MainThread]: End processing [PySimplePolls]: success
+[2023-06-11 11:36:49] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.0.1.tar.gz]
+[2023-06-11 11:36:49] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.0.2.tar.gz]
+[2023-06-11 11:36:49] INFO root fetch - main [MainThread]: End processing [financetoolkit]: success
+[2023-06-11 11:36:56] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b8.tar.gz]
+[2023-06-11 11:36:56] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b9.tar.gz]
+[2023-06-11 11:36:56] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-06-11 11:36:56] INFO root fetch - main [MainThread]: Store serial: [18456959]
