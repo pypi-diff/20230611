@@ -7530,3 +7530,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:09:20] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-formset-1.0.dev2.tar.gz]
 [2023-06-11 13:09:20] INFO root fetch - main [MainThread]: End processing [django-formset]: success
 [2023-06-11 13:09:20] INFO root fetch - main [MainThread]: Store serial: [18457388]
+[2023-06-11 13:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457388]
+[2023-06-11 13:14:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytrend
+[2023-06-11 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airflow-data-validation
+[2023-06-11 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navalmartin-mir-vision-utils
+[2023-06-11 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minidevice
+[2023-06-11 13:14:29] INFO root fetch - processPackages [talkytrend]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-11 13:14:29] INFO root fetch - processPackages [airflow-data-validation]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-11 13:14:29] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 13:14:29] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/10/43/0faf2ce040c31ec3d5fbec3455704388d1de1f395388b47123317288da72/navalmartin_mir_vision_utils-0.0.8.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/e5/ef/6130ebb16b4c3f26d59beeb3e01c877e5cd67456c6ba38ac9d745717f0b2/airflow-data-validation-4.0.1.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [minidevice]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 13:14:29] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/5b/52/0dce50bf70da15f7fb2f3c24a4cac6ad9033c79f0c156b2ab2ecffdcf8a3/talkytrend-1.1.2.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/70/a0/e9fd8b13721f17e4322cfe7c0a36e965dc6f2c453c61cc33bd68465530f1/minidevice-1.0.8.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/33/82/0632f8ba98948950c674aefdba1e9cae6ee975dd3eedc20360ba647945ff/navalmartin_mir_vision_utils-0.0.9.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/47/20/db689a52bf7d037467830f5b4ea11a6bc5ec82585184ec0a6611269f2997/airflow-data-validation-4.0.2.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ef/71/9be8190806db26e241ffd17ec705c92d8cb4b94882e8ccb7a0ce18d350ed/talkytrend-1.1.3.tar.gz
+[2023-06-11 13:14:29] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-06-11 13:14:29] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230611/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:14:29] INFO root fetch - processPackages [airflow-data-validation]: executing diffoscope
+[2023-06-11 13:14:29] INFO root fetch - processPackages [airflow-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-data-validation-4.0.1.tar.gz tmp/airflow-data-validation-4.0.2.tar.gz --markdown 20230611/a/airflow-data-validation/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-11 13:14:29] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-11 13:14:29] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.1.2.tar.gz tmp/talkytrend-1.1.3.tar.gz --markdown 20230611/t/talkytrend/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-11 13:14:30] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/6a/45/c3f6c78ac57a918f8161f14e3b7340ca24a31bb812160dce92fd6c2cf55b/minidevice-1.0.9.tar.gz
+[2023-06-11 13:14:30] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-11 13:14:30] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-1.0.8.tar.gz tmp/minidevice-1.0.9.tar.gz --markdown 20230611/m/minidevice/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:14:30] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.1.tar.gz]
+[2023-06-11 13:14:30] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.2.tar.gz]
+[2023-06-11 13:14:30] INFO root fetch - main [MainThread]: End processing [airflow-data-validation]: success
+[2023-06-11 13:14:30] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.2.tar.gz]
+[2023-06-11 13:14:30] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.3.tar.gz]
+[2023-06-11 13:14:30] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-11 13:14:30] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz]
+[2023-06-11 13:14:30] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz]
+[2023-06-11 13:14:30] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-06-11 13:14:31] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.0.8.tar.gz]
+[2023-06-11 13:14:31] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.0.9.tar.gz]
+[2023-06-11 13:14:31] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-11 13:14:31] INFO root fetch - main [MainThread]: Store serial: [18457402]
