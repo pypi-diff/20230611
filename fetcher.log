@@ -10311,3 +10311,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:23:14] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
 [2023-06-11 16:23:14] INFO root fetch - main [MainThread]: End processing [py-lav]: success
 [2023-06-11 16:23:14] INFO root fetch - main [MainThread]: Store serial: [18458664]
+[2023-06-11 16:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458664]
+[2023-06-11 16:28:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj3fb
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catencfamily
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-Ayiin
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ButEscape-x972ff
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i8-terminal
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: s3uploader-ci-cd
+[2023-06-11 16:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tox-gh
+[2023-06-11 16:28:23] WARNING root fetch - processPackages [dj3fb]: Skipping, unable to determine old version
+[2023-06-11 16:28:23] WARNING root fetch - processPackages [s3uploader-ci-cd]: Skipping, unable to determine old version
+[2023-06-11 16:28:23] INFO root fetch - main [MainThread]: End processing [dj3fb] error
+[2023-06-11 16:28:23] INFO root fetch - main [MainThread]: End processing [s3uploader-ci-cd] error
+[2023-06-11 16:28:23] INFO root fetch - processPackages [catencfamily]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-06-11 16:28:23] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.81]
+[2023-06-11 16:28:23] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev3] Old Version: [0.4.6.dev2]
+[2023-06-11 16:28:23] WARNING root fetch - processPackages [ButEscape-x972ff]: Skipping, unable to determine old version
+[2023-06-11 16:28:23] INFO root fetch - main [MainThread]: End processing [ButEscape-x972ff] error
+[2023-06-11 16:28:23] INFO root fetch - processPackages [tox-gh]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-11 16:28:23] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/c2/3b/af16760655caeced86f262db443b2e9feaaa95f8bca245380e46f641c920/py-Ayiin-0.4.6.dev2.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/6f/b3/62e3257ceb4a50d2b150d2bc79bcfa7da5f739e22854d3acdc5f463e4823/i8-terminal-0.2.81.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/e6/35/99ee5c37e69cb4ad6689bc64b5b3f35c47d4088003afec15fabeb5bba5e6/catencfamily-0.0.67.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [tox-gh]: Downloading https://files.pythonhosted.org/packages/68/84/e6d1b648c449d092610ca25b46c42fe7c856d4d4b8ac2fe206a06ef7de47/tox_gh-1.0.0.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/3a/4e/059b0e0994331c6b3c544b088856473010361bbdd6bcf135283c19003870/i8-terminal-0.2.9.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/d9/94/f1254ec6d328cd72656493b20921a4683982befc1f70a591c7c5e3395e16/catencfamily-0.0.68.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/4e/b4/ffa1d2c53e047bbdffb151ae49ac93fc6e9585bacb3f23c8cec2d458185a/py-Ayiin-0.4.6.dev3.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-11 16:28:23] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.67.tar.gz tmp/catencfamily-0.0.68.tar.gz --markdown 20230611/c/catencfamily/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-06-11 16:28:23] INFO root fetch - processPackages [tox-gh]: Downloading https://files.pythonhosted.org/packages/cd/9c/f8a4c9ee39c4350b3c64748551c32f8b08d7854be509d93f932548589b7f/tox_gh-1.1.0.tar.gz
+[2023-06-11 16:28:23] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-11 16:28:23] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.6.dev2.tar.gz tmp/py-Ayiin-0.4.6.dev3.tar.gz --markdown 20230611/p/py-Ayiin/0.4.6.dev2-0.4.6.dev3/diff.md --exclude *.pyd
+[2023-06-11 16:28:23] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-11 16:28:23] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.81.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230611/i/i8-terminal/0.2.81-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 16:28:24] INFO root fetch - processPackages [tox-gh]: executing diffoscope
+[2023-06-11 16:28:24] INFO root fetch - processPackages [tox-gh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox_gh-1.0.0.tar.gz tmp/tox_gh-1.1.0.tar.gz --markdown 20230611/t/tox-gh/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 16:28:24] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.67.tar.gz]
+[2023-06-11 16:28:24] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.68.tar.gz]
+[2023-06-11 16:28:24] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-11 16:28:25] INFO root fetch - processPackages [tox-gh]: Remove: archive file [/home/abi/fetcher/tmp/tox_gh-1.0.0.tar.gz]
+[2023-06-11 16:28:25] INFO root fetch - processPackages [tox-gh]: Remove: archive file [/home/abi/fetcher/tmp/tox_gh-1.1.0.tar.gz]
+[2023-06-11 16:28:25] INFO root fetch - main [MainThread]: End processing [tox-gh]: success
+[2023-06-11 16:28:25] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.81.tar.gz]
+[2023-06-11 16:28:25] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.9.tar.gz]
+[2023-06-11 16:28:25] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-11 16:28:25] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev2.tar.gz]
+[2023-06-11 16:28:25] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev3.tar.gz]
+[2023-06-11 16:28:25] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-11 16:28:25] INFO root fetch - main [MainThread]: Store serial: [18458690]
