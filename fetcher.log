@@ -8770,3 +8770,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:49:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230611.tar.gz]
 [2023-06-11 14:49:34] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-06-11 14:49:34] INFO root fetch - main [MainThread]: Store serial: [18457971]
+[2023-06-11 14:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457971]
+[2023-06-11 14:54:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tapesprocketdesigner
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semanticclean
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piel
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqllineage
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imjoy-rpc
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smarterbombing
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semanticclean
+[2023-06-11 14:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-eytan-inline-instrumentation
+[2023-06-11 14:54:43] INFO root fetch - processPackages [semanticclean]: New version: [0.24] Old Version: [0.23]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [tapesprocketdesigner]: New version: [0.1.9] Old Version: [0.1.11]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [semanticclean]: New version: [0.24] Old Version: [0.23]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: New version: [20230611.7.54.792718] Old Version: [20230611.12.54.380387]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [sqllineage]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [piel]: New version: [0.0.21] Old Version: [0.0.17]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [smarterbombing]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-11 14:54:43] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/4d/ed/502a5f65598ec6f16051cb46ee175889ad2e57ce7bc769769c949d6570ad/smarterbombing-0.3.9.tar.gz
+[2023-06-11 14:54:43] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/94/69/f1a99418c041fde358be1487a1e29056729d966b3c14d7129edbcc0feb36/piel-0.0.17.tar.gz
+[2023-06-11 14:54:43] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-11 14:54:43] INFO root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: Downloading https://files.pythonhosted.org/packages/27/43/993fd0bcc8d392f08d3352b2b8f590513e25245eceb9905f79092754c118/certora-cli-alpha-eytan-inline_instrumentation-20230611.12.54.380387.tar.gz
+[2023-06-11 14:54:43] INFO root fetch - processPackages [tapesprocketdesigner]: Downloading https://files.pythonhosted.org/packages/f7/8b/32f2b50f0764ae988d7b7e42b00f0f7f5472f447a897ba8b8b511321fd08/tapesprocketdesigner-0.1.11.tar.gz
+[2023-06-11 14:54:43] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/fe/66/8b65c07d0fd0f7d2b5ad0915226073d1ffc3f01ea11b4b04375186492d66/semanticclean-0.23.tar.gz
+[2023-06-11 14:54:43] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/fe/66/8b65c07d0fd0f7d2b5ad0915226073d1ffc3f01ea11b4b04375186492d66/semanticclean-0.23.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-11 14:54:44] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230611/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-11 14:54:44] INFO root fetch - processPackages [sqllineage]: Downloading https://files.pythonhosted.org/packages/59/2f/21a60a11974c41bc017f2c5b8fe884b0ce03b8fcc95aa8f1d64a87db1768/sqllineage-1.4.3.tar.gz
+[2023-06-11 14:54:44] WARNING root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: Skipping package: exceeds size limit 38978515>=10485760
+[2023-06-11 14:54:44] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/2b/4c/8e14b049b7a3da3629ecaf4df303bd329fd30dc3e280637bee9a3043ee3e/piel-0.0.21.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-inline-instrumentation] error
+[2023-06-11 14:54:44] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/10/df/050a2771b172aae8bda51559f7a029bfc6516247289f809adde9038145fb/smarterbombing-0.4.0.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-11 14:54:44] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.17.tar.gz tmp/piel-0.0.21.tar.gz --markdown 20230611/p/piel/0.0.17-0.0.21/diff.md --exclude *.pyd
+[2023-06-11 14:54:44] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 14:54:44] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.9.tar.gz tmp/smarterbombing-0.4.0.tar.gz --markdown 20230611/s/smarterbombing/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 14:54:44] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/90/d2/247eee8ce4cafa43cf7659ab3e43cae6bc28fd4b3e802c64655ae0c0e5be/semanticclean-0.24.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/90/d2/247eee8ce4cafa43cf7659ab3e43cae6bc28fd4b3e802c64655ae0c0e5be/semanticclean-0.24.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 14:54:44] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 14:54:44] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.23.tar.gz tmp/semanticclean-0.24.tar.gz --markdown 20230611/s/semanticclean/0.23-0.24/diff.md --exclude *.pyd
+[2023-06-11 14:54:44] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.23.tar.gz tmp/semanticclean-0.24.tar.gz --markdown 20230611/s/semanticclean/0.23-0.24/diff.md --exclude *.pyd
+[2023-06-11 14:54:44] INFO root fetch - processPackages [tapesprocketdesigner]: Downloading https://files.pythonhosted.org/packages/15/23/947bbbb94dcb9bc7bae6b09e7ebbef507e6b013c08084d6ddd8846e0b344/tapesprocketdesigner-0.1.9.tar.gz
+[2023-06-11 14:54:44] INFO root fetch - processPackages [tapesprocketdesigner]: executing diffoscope
+[2023-06-11 14:54:44] INFO root fetch - processPackages [tapesprocketdesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapesprocketdesigner-0.1.11.tar.gz tmp/tapesprocketdesigner-0.1.9.tar.gz --markdown 20230611/t/tapesprocketdesigner/0.1.11-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 14:54:45] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-11 14:54:45] INFO root fetch - processPackages [sqllineage]: Downloading https://files.pythonhosted.org/packages/32/ef/b886f60f014ff8f55e747058b352220c47f8841d57cd8a1a6a9dba50c34e/sqllineage-1.4.4.tar.gz
+[2023-06-11 14:54:45] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.9.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.4.0.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 14:54:45] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.17.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.21.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-11 14:54:45] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.23.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.24.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 14:54:45] INFO root fetch - processPackages [sqllineage]: executing diffoscope
+[2023-06-11 14:54:45] INFO root fetch - processPackages [sqllineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqllineage-1.4.3.tar.gz tmp/sqllineage-1.4.4.tar.gz --markdown 20230611/s/sqllineage/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-11 14:54:45] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 14:54:45] INFO root fetch - processPackages [tapesprocketdesigner]: Remove: archive file [/home/abi/fetcher/tmp/tapesprocketdesigner-0.1.11.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - processPackages [tapesprocketdesigner]: Remove: archive file [/home/abi/fetcher/tmp/tapesprocketdesigner-0.1.9.tar.gz]
+[2023-06-11 14:54:45] INFO root fetch - main [MainThread]: End processing [tapesprocketdesigner]: success
+[2023-06-11 14:55:28] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.3.tar.gz]
+[2023-06-11 14:55:28] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.4.tar.gz]
+[2023-06-11 14:55:28] INFO root fetch - main [MainThread]: End processing [sqllineage]: success
+[2023-06-11 14:55:28] INFO root fetch - main [MainThread]: Store serial: [18457993]
