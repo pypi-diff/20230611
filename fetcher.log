@@ -8336,3 +8336,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:02:33] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.6.11.1-py3-none-any.whl.zip]
 [2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [move2archive]: success
 [2023-06-11 14:02:33] INFO root fetch - main [MainThread]: Store serial: [18457810]
+[2023-06-11 14:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457810]
+[2023-06-11 14:07:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 14:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-magic
+[2023-06-11 14:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-agents-nightly
+[2023-06-11 14:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openshift-cluster-management-python-wrapper
+[2023-06-11 14:07:42] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 14:07:42] INFO root fetch - processPackages [contact-magic]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 14:07:42] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-11 14:07:42] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/80/77/fe6690f354f32c097f5c48b2b00d8323ad414185636be4074108fcc6cdd1/contact_magic-0.3.2.tar.gz
+[2023-06-11 14:07:42] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-11 14:07:42] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c4/00/080ef5dd094ce238dea7428d87f981afa486ff6fb8b6087ca896071d3e9b/openshift-cluster-management-python-wrapper-1.0.8.tar.gz
+[2023-06-11 14:07:43] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-11 14:07:43] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/a4/f6/f31c8fab83858b48be7b559785ba88f0779551db9e69b19638e4cfae7dd9/contact_magic-0.3.3.tar.gz
+[2023-06-11 14:07:43] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-11 14:07:43] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230611/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-11 14:07:43] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c5/ff/2a7dc53e940f4cf01cba78091f8503bd24ebe8b716139738212ed5473bde/openshift-cluster-management-python-wrapper-1.0.9.tar.gz
+[2023-06-11 14:07:43] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-11 14:07:43] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.3.2.tar.gz tmp/contact_magic-0.3.3.tar.gz --markdown 20230611/c/contact-magic/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 14:07:43] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-06-11 14:07:43] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230611/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 14:07:44] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.2.tar.gz]
+[2023-06-11 14:07:44] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.3.tar.gz]
+[2023-06-11 14:07:44] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-11 14:07:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz]
+[2023-06-11 14:07:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz]
+[2023-06-11 14:07:44] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-06-11 14:07:50] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-11 14:07:50] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-11 14:07:50] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-11 14:07:50] INFO root fetch - main [MainThread]: Store serial: [18457817]
