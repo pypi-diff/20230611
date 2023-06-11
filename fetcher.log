@@ -13230,3 +13230,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:21:51] INFO root fetch - processPackages [fedcloudclient]: Remove: archive file [/home/abi/fetcher/tmp/fedcloudclient-1.4.0.tar.gz]
 [2023-06-11 20:21:51] INFO root fetch - main [MainThread]: End processing [fedcloudclient]: success
 [2023-06-11 20:21:51] INFO root fetch - main [MainThread]: Store serial: [18460051]
+[2023-06-11 20:26:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460051]
+[2023-06-11 20:26:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marlben
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headless
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabrictestbed-extensions
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harishpyRestring
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: result
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backupp
+[2023-06-11 20:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snakemake
+[2023-06-11 20:26:59] INFO root fetch - processPackages [marlben]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 20:26:59] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-11 20:26:59] INFO root fetch - processPackages [backupp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 20:26:59] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-06-11 20:27:00] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d0/fc/bfc17e84d553259bfbe47b693327c316d72ef87fe3c64aeada1e5ea9ad5a/fabrictestbed-extensions-1.5.0rc2.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-06-11 20:27:00] WARNING root fetch - processPackages [harishpyRestring]: Skipping, unable to determine old version
+[2023-06-11 20:27:00] INFO root fetch - main [MainThread]: End processing [harishpyRestring] error
+[2023-06-11 20:27:00] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/ef/a1/e3828fe60ca28eef0acd4ec4f80664a2955833e45657f54768f514ffd0e8/backupp-0.0.4-py2.py3-none-any.whl
+[2023-06-11 20:27:00] INFO root fetch - processPackages [result]: New version: [0.9.0] Old Version: [0.8.0b1]
+[2023-06-11 20:27:00] INFO root fetch - processPackages [marlben]: Downloading https://files.pythonhosted.org/packages/99/76/af0dc2db91274b24676adad15be32ebf400bedf7e735d10f436309b9e203/marlben-1.0.0.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d1/90/bae5b380c6d069ebffc9846c33c9533d37bf92f5ab459a5f5825464ab0fa/fabrictestbed-extensions-1.5.0rc3.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/b7/db/91490df0b577cdb2a77bde362407730019590aa92fdf0e33b580d3380f9c/backupp-0.0.5-py2.py3-none-any.whl
+[2023-06-11 20:27:00] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-06-11 20:27:00] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz --markdown 20230611/f/fabrictestbed-extensions/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-06-11 20:27:00] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/7d/82/86e2b39e6c16e534e4f904f54e5f86c160ad29d6fc9a8a32bc3f5f4bb835/result-0.8.0b1.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [marlben]: Downloading https://files.pythonhosted.org/packages/7d/46/72728aaab3718a2eb9ba00a9e7606804526d71c343997759628bdbe01b35/marlben-1.0.1.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-11 20:27:00] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.4-py2.py3-none-any.whl.zip tmp/backupp-0.0.5-py2.py3-none-any.whl.zip --markdown 20230611/b/backupp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:27:00] INFO root fetch - processPackages [marlben]: executing diffoscope
+[2023-06-11 20:27:00] INFO root fetch - processPackages [marlben]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marlben-1.0.0.tar.gz tmp/marlben-1.0.1.tar.gz --markdown 20230611/m/marlben/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 20:27:00] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/e1/d2/a6ac37982c8e314f71acd5d4a509dfde718f0c0fc8590b35b7d64101097e/result-0.9.0.tar.gz
+[2023-06-11 20:27:00] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-06-11 20:27:00] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230611/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-11 20:27:00] INFO root fetch - processPackages [result]: executing diffoscope
+[2023-06-11 20:27:00] INFO root fetch - processPackages [result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/result-0.8.0b1.tar.gz tmp/result-0.9.0.tar.gz --markdown 20230611/r/result/0.8.0b1-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 20:27:00] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-06-11 20:27:00] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230611/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-06-11 20:27:01] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.4-py2.py3-none-any.whl.zip]
+[2023-06-11 20:27:01] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.5-py2.py3-none-any.whl.zip]
+[2023-06-11 20:27:01] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-11 20:27:01] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz]
+[2023-06-11 20:27:01] INFO root fetch - processPackages [fabrictestbed-extensions]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz]
+[2023-06-11 20:27:01] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-06-11 20:27:01] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.8.0b1.tar.gz]
+[2023-06-11 20:27:01] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.9.0.tar.gz]
+[2023-06-11 20:27:01] INFO root fetch - main [MainThread]: End processing [result]: success
+[2023-06-11 20:27:02] INFO root fetch - processPackages [marlben]: Remove: archive file [/home/abi/fetcher/tmp/marlben-1.0.0.tar.gz]
+[2023-06-11 20:27:02] INFO root fetch - processPackages [marlben]: Remove: archive file [/home/abi/fetcher/tmp/marlben-1.0.1.tar.gz]
+[2023-06-11 20:27:02] INFO root fetch - main [MainThread]: End processing [marlben]: success
+[2023-06-11 20:27:02] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-06-11 20:27:02] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-06-11 20:27:02] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-06-11 20:27:02] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-06-11 20:27:02] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-06-11 20:27:02] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-06-11 20:27:02] INFO root fetch - main [MainThread]: Store serial: [18460072]
