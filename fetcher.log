@@ -5572,3 +5572,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:31:46] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.91.tar.gz]
 [2023-06-11 09:31:46] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
 [2023-06-11 09:31:46] INFO root fetch - main [MainThread]: Store serial: [18456484]
+[2023-06-11 09:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456484]
+[2023-06-11 09:36:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: philbot-voice
+[2023-06-11 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dueros-smarthome
+[2023-06-11 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: customtkinterx
+[2023-06-11 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git
+[2023-06-11 09:36:55] INFO root fetch - processPackages [dueros-smarthome]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-11 09:36:55] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 09:36:55] INFO root fetch - processPackages [customtkinterx]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 09:36:55] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-11 09:36:55] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-11 09:36:55] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/45/50/a2769b1de8ea014ccd72f397f9f78e7263c5b38b63106bf33904f0c2abbf/dueros_smarthome-0.0.7.tar.gz
+[2023-06-11 09:36:55] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/eb/e3/0dbedd3bdc095d2962e919b278df1ef29bd6d17f0d50d982137c4631ea19/customtkinterx-0.3.1.tar.gz
+[2023-06-11 09:36:55] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/17/05/15591d230b43fd7ecc1392f7691c04d19981cdc862d97ad6e858f379cbe0/philbot_voice-1.9.0.tar.gz
+[2023-06-11 09:36:55] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-11 09:36:56] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-11 09:36:56] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230611/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 09:36:56] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/12/97/01f534b85597b490133a6400e77dfb4bec03b5b9f03b7845f0d5cef40760/dueros_smarthome-0.0.8.tar.gz
+[2023-06-11 09:36:56] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/e8/d6/d6260b137719c01a40cefa170d69548925097167b5df3390a4abefd7552b/customtkinterx-0.3.2.tar.gz
+[2023-06-11 09:36:56] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/9a/06/076dec93784f0e1112361376ea268510122a5db53730c568d52b0fc69fef/philbot_voice-1.9.1.tar.gz
+[2023-06-11 09:36:56] INFO root fetch - processPackages [dueros-smarthome]: executing diffoscope
+[2023-06-11 09:36:56] INFO root fetch - processPackages [dueros-smarthome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dueros_smarthome-0.0.7.tar.gz tmp/dueros_smarthome-0.0.8.tar.gz --markdown 20230611/d/dueros-smarthome/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 09:36:56] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-11 09:36:56] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.0.tar.gz tmp/philbot_voice-1.9.1.tar.gz --markdown 20230611/p/philbot-voice/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-11 09:36:56] INFO root fetch - processPackages [customtkinterx]: executing diffoscope
+[2023-06-11 09:36:56] INFO root fetch - processPackages [customtkinterx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinterx-0.3.1.tar.gz tmp/customtkinterx-0.3.2.tar.gz --markdown 20230611/c/customtkinterx/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 09:36:57] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-11 09:36:57] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-11 09:36:57] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-11 09:36:57] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.7.tar.gz]
+[2023-06-11 09:36:57] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.8.tar.gz]
+[2023-06-11 09:36:57] INFO root fetch - main [MainThread]: End processing [dueros-smarthome]: success
+[2023-06-11 09:36:57] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.0.tar.gz]
+[2023-06-11 09:36:57] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.1.tar.gz]
+[2023-06-11 09:36:57] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-11 09:36:57] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.3.1.tar.gz]
+[2023-06-11 09:36:57] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.3.2.tar.gz]
+[2023-06-11 09:36:57] INFO root fetch - main [MainThread]: End processing [customtkinterx]: success
+[2023-06-11 09:36:57] INFO root fetch - main [MainThread]: Store serial: [18456497]
