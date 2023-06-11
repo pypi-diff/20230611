@@ -4054,3 +4054,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 06:29:20] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
 [2023-06-11 06:29:20] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-06-11 06:29:20] INFO root fetch - main [MainThread]: Store serial: [18455776]
+[2023-06-11 06:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455776]
+[2023-06-11 06:34:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 06:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-06-11 06:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySupercell
+[2023-06-11 06:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tconnectsync
+[2023-06-11 06:34:29] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 06:34:29] INFO root fetch - processPackages [tconnectsync]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-11 06:34:29] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 06:34:29] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 06:34:29] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-11 06:34:29] INFO root fetch - processPackages [tconnectsync]: Downloading https://files.pythonhosted.org/packages/5f/cd/41ae00e66dc213dd243f49d6f4e57784f2961a14f04387e4c4fefceaa82e/tconnectsync-0.9.3.tar.gz
+[2023-06-11 06:34:29] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-11 06:34:29] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 06:34:29] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-11 06:34:29] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230611/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 06:34:30] INFO root fetch - processPackages [tconnectsync]: Downloading https://files.pythonhosted.org/packages/0a/db/cc2d7ef7b987b7ce685c0a7ec2bda5945ac11ff1423d054b81253d1bdb1e/tconnectsync-0.9.4.tar.gz
+[2023-06-11 06:34:30] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 06:34:30] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 06:34:30] INFO root fetch - processPackages [tconnectsync]: executing diffoscope
+[2023-06-11 06:34:30] INFO root fetch - processPackages [tconnectsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tconnectsync-0.9.3.tar.gz tmp/tconnectsync-0.9.4.tar.gz --markdown 20230611/t/tconnectsync/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-11 06:34:31] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 06:34:31] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 06:34:31] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 06:34:31] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-11 06:34:31] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-11 06:34:31] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-11 06:34:31] INFO root fetch - processPackages [tconnectsync]: Remove: archive file [/home/abi/fetcher/tmp/tconnectsync-0.9.3.tar.gz]
+[2023-06-11 06:34:31] INFO root fetch - processPackages [tconnectsync]: Remove: archive file [/home/abi/fetcher/tmp/tconnectsync-0.9.4.tar.gz]
+[2023-06-11 06:34:31] INFO root fetch - main [MainThread]: End processing [tconnectsync]: success
+[2023-06-11 06:34:31] INFO root fetch - main [MainThread]: Store serial: [18455787]
