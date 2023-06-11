@@ -6582,3 +6582,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:36:56] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b9.tar.gz]
 [2023-06-11 11:36:56] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-06-11 11:36:56] INFO root fetch - main [MainThread]: Store serial: [18456959]
+[2023-06-11 11:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456959]
+[2023-06-11 11:42:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytubemusic
+[2023-06-11 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FileEncTool
+[2023-06-11 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamda
+[2023-06-11 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyucrop
+[2023-06-11 11:42:05] INFO root fetch - processPackages [pytubemusic]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-11 11:42:05] INFO root fetch - processPackages [lamda]: New version: [3.98] Old Version: [3.95]
+[2023-06-11 11:42:05] WARNING root fetch - processPackages [FileEncTool]: Skipping, unable to determine old version
+[2023-06-11 11:42:05] INFO root fetch - main [MainThread]: End processing [FileEncTool] error
+[2023-06-11 11:42:05] WARNING root fetch - processPackages [pyucrop]: Skipping, unable to determine old version
+[2023-06-11 11:42:05] INFO root fetch - main [MainThread]: End processing [pyucrop] error
+[2023-06-11 11:42:05] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/ad/a9/57b4d4157666a751550074a5496c2c384f18b74ab5d6d81edc3746467d42/pytubemusic-0.1.2.tar.gz
+[2023-06-11 11:42:05] INFO root fetch - processPackages [lamda]: Downloading https://files.pythonhosted.org/packages/55/ce/d37b8e98e7f5d7d6224c924a71c3c700cbebdc43ca21d463645b70f2f71b/lamda-3.95.tar.gz
+[2023-06-11 11:42:05] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/cb/08/2dccfea973c4b5e94b122999d7ee9aee572d53a30025e338163e3cb63eaf/pytubemusic-0.2.0.tar.gz
+[2023-06-11 11:42:05] INFO root fetch - processPackages [lamda]: Downloading https://files.pythonhosted.org/packages/00/9b/1b904a0fab1729c8362cf8016753b8bf51ff43c84e928412aa6c5fcc6eb2/lamda-3.98.tar.gz
+[2023-06-11 11:42:05] INFO root fetch - processPackages [pytubemusic]: executing diffoscope
+[2023-06-11 11:42:05] INFO root fetch - processPackages [pytubemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubemusic-0.1.2.tar.gz tmp/pytubemusic-0.2.0.tar.gz --markdown 20230611/p/pytubemusic/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 11:42:06] INFO root fetch - processPackages [lamda]: executing diffoscope
+[2023-06-11 11:42:06] INFO root fetch - processPackages [lamda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamda-3.95.tar.gz tmp/lamda-3.98.tar.gz --markdown 20230611/l/lamda/3.95-3.98/diff.md --exclude *.pyd
+[2023-06-11 11:42:06] INFO root fetch - processPackages [pytubemusic]: Remove: archive file [/home/abi/fetcher/tmp/pytubemusic-0.1.2.tar.gz]
+[2023-06-11 11:42:06] INFO root fetch - processPackages [pytubemusic]: Remove: archive file [/home/abi/fetcher/tmp/pytubemusic-0.2.0.tar.gz]
+[2023-06-11 11:42:06] INFO root fetch - main [MainThread]: End processing [pytubemusic]: success
+[2023-06-11 11:42:07] INFO root fetch - processPackages [lamda]: Remove: archive file [/home/abi/fetcher/tmp/lamda-3.95.tar.gz]
+[2023-06-11 11:42:07] INFO root fetch - processPackages [lamda]: Remove: archive file [/home/abi/fetcher/tmp/lamda-3.98.tar.gz]
+[2023-06-11 11:42:07] INFO root fetch - main [MainThread]: End processing [lamda]: success
+[2023-06-11 11:42:07] INFO root fetch - main [MainThread]: Store serial: [18456974]
