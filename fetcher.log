@@ -13131,3 +13131,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:10:35] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-06-11 20:10:35] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-06-11 20:10:35] INFO root fetch - main [MainThread]: Store serial: [18460008]
+[2023-06-11 20:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460008]
+[2023-06-11 20:15:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napatrackmater
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evodflow
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ariston
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backupp
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seunggabi-core-python
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-static-wordpress
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litesqlite
+[2023-06-11 20:15:44] INFO root fetch - processPackages [evodflow]: New version: [0.1.9.0] Old Version: [0.1.7.0]
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ariston]: New version: [0.13.4] Old Version: [0.13.3]
+[2023-06-11 20:15:44] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.5] Old Version: [3.6.4]
+[2023-06-11 20:15:44] INFO root fetch - processPackages [backupp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 20:15:44] INFO root fetch - processPackages [litesqlite]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-06-11 20:15:44] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-11 20:15:44] ERROR root fetch - processPackages [cdk-static-wordpress]: Unable to get metadata: No such project 'cdk-static-wordpress'
+[2023-06-11 20:15:44] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress] error
+[2023-06-11 20:15:44] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/4d/82/880b2ef9ef09ae02ca67027ad9424efebdc2bf8be077418f2469d95669c4/napatrackmater-3.6.4.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/ef/8b/28449cfa45e3dc3ab689e989950c9ad7ffcd9596e0f910b4c31e1cdc9a0d/ariston-0.13.3.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/71/65/9f3e58cdbe4309593b0bc909120dae62542c1065ca1b9753199e7b2fc07f/seunggabi_core_python-0.2.2.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/ef/a1/e3828fe60ca28eef0acd4ec4f80664a2955833e45657f54768f514ffd0e8/backupp-0.0.4-py2.py3-none-any.whl
+[2023-06-11 20:15:44] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/58/98/621fd0c6153468d54afec5bfa9776f7ef76f3f2cbb73e041890e3c5249b1/evodflow-0.1.7.0.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/19/3b/d8cd61b651499abc1a56a78f569ecd3511bea078ccdacd6ba49f9aedc08f/litesqlite-2.4.0.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/27/a3/0a73631b2cc644e754b6e1caffe47592fbe86fc867a2d74ff874a1b91313/napatrackmater-3.6.5.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/6b/21/4ef5435346ec75008046d1e7ac9b2d75c8a8a762b4b60a763dd17e0960bc/ariston-0.13.4.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/b7/db/91490df0b577cdb2a77bde362407730019590aa92fdf0e33b580d3380f9c/backupp-0.0.5-py2.py3-none-any.whl
+[2023-06-11 20:15:44] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/a0/4c/fcc2221d7cad835cb727f43c80ae6aaeaa6820e3e6021e1f99730b31e9e7/evodflow-0.1.9.0.tar.gz
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ariston]: executing diffoscope
+[2023-06-11 20:15:44] INFO root fetch - processPackages [ariston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariston-0.13.3.tar.gz tmp/ariston-0.13.4.tar.gz --markdown 20230611/a/ariston/0.13.3-0.13.4/diff.md --exclude *.pyd
+[2023-06-11 20:15:44] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/7e/7c/6a89bd88a95506a409a7942a549d5eb0e742ba42a1ddb2e915fe038fdc30/seunggabi_core_python-0.2.3.tar.gz
+[2023-06-11 20:15:45] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 20:15:45] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/6e/fb/295b5fc8abbfd3d198f101d377b9a1efff1b71c024166b8d5cb4f3dfff22/litesqlite-2.5.0.tar.gz
+[2023-06-11 20:15:45] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.4.tar.gz tmp/napatrackmater-3.6.5.tar.gz --markdown 20230611/n/napatrackmater/3.6.4-3.6.5/diff.md --exclude *.pyd
+[2023-06-11 20:15:45] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-11 20:15:45] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.4-py2.py3-none-any.whl.zip tmp/backupp-0.0.5-py2.py3-none-any.whl.zip --markdown 20230611/b/backupp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:15:45] INFO root fetch - processPackages [evodflow]: executing diffoscope
+[2023-06-11 20:15:45] INFO root fetch - processPackages [evodflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodflow-0.1.7.0.tar.gz tmp/evodflow-0.1.9.0.tar.gz --markdown 20230611/e/evodflow/0.1.7.0-0.1.9.0/diff.md --exclude *.pyd
+[2023-06-11 20:15:45] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-11 20:15:45] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.4.0.tar.gz tmp/litesqlite-2.5.0.tar.gz --markdown 20230611/l/litesqlite/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-06-11 20:15:45] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-06-11 20:15:45] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.2.2.tar.gz tmp/seunggabi_core_python-0.2.3.tar.gz --markdown 20230611/s/seunggabi-core-python/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-11 20:15:46] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.3.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.4.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - main [MainThread]: End processing [ariston]: success
+[2023-06-11 20:15:46] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.4.0.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.5.0.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-11 20:15:46] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.2.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.3.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-06-11 20:15:46] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.4.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.5.tar.gz]
+[2023-06-11 20:15:46] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 20:15:46] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.4-py2.py3-none-any.whl.zip]
+[2023-06-11 20:15:46] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.5-py2.py3-none-any.whl.zip]
+[2023-06-11 20:15:46] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-11 20:16:39] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.7.0.tar.gz]
+[2023-06-11 20:16:39] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.0.tar.gz]
+[2023-06-11 20:16:39] INFO root fetch - main [MainThread]: End processing [evodflow]: success
+[2023-06-11 20:16:39] INFO root fetch - main [MainThread]: Store serial: [18460029]
