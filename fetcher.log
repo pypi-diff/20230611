@@ -10089,3 +10089,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:12:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111411-py3-none-any.whl.zip]
 [2023-06-11 16:12:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-11 16:12:03] INFO root fetch - main [MainThread]: Store serial: [18458578]
+[2023-06-11 16:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458578]
+[2023-06-11 16:17:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-printr
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pympipool
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-affiliate-scraper
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zensols.util
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starrailres
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: basicqiwip2p
+[2023-06-11 16:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gine
+[2023-06-11 16:17:12] INFO root fetch - processPackages [starrailres]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [python-printr]: New version: [3.0] Old Version: [2.9]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [gine]: New version: [0.1.0a0] Old Version: [0.0.5]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [amazon-affiliate-scraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [basicqiwip2p]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [zensols.util]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [pympipool]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202306111414] Old Version: [99.0.202306111413]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202306111414] Old Version: [99.0.202306111413]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202306111412] Old Version: [99.0.202306111411]
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/92/e6/8dfc1ddec8267179f521d89fa95f3aa92738e515e46d682b372da9479420/kcli-99.0.202306111411-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [gine]: Downloading https://files.pythonhosted.org/packages/c3/40/812eff583d3330ac9c1ce8fc967742b1f66136a7b9473efb5bb1875342de/gine-0.0.5.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/cd/18/c9b2122018b52140b725b843076bf35092a69d422e82537f2a073eea4e7f/starrailres-1.1.1.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/03/c7/eeaa58e0ab2dbe577f3fd5cf0c89ae997ed148cf77ab7923904e7d5cb540/kfish-99.0.202306111413-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/03/c7/eeaa58e0ab2dbe577f3fd5cf0c89ae997ed148cf77ab7923904e7d5cb540/kfish-99.0.202306111413-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [amazon-affiliate-scraper]: Downloading https://files.pythonhosted.org/packages/de/de/4bed1c2a7f99f7149e1557b62e23b4510f431b8a44d27fac583e10fc77f9/amazon-affiliate-scraper-0.1.0.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [zensols.util]: Downloading https://files.pythonhosted.org/packages/f3/80/d67998efee33306413bf0cd2a8f6321de1e2428abb70166f4a6a7eae565b/zensols.util-1.8.0-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [basicqiwip2p]: Downloading https://files.pythonhosted.org/packages/09/e9/ff731679ae9b644f0000527f9a072cc7dc6cd1aa87ab10854a2e88ca280c/basicqiwip2p-0.0.2.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [python-printr]: Downloading https://files.pythonhosted.org/packages/9e/38/8f6b57c19368551800d01eeba851ae69b896c34f3fae2b4e754a343ec4c3/python-printr-2.9.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/8d/cd/d0f25d1345fe454174413e5757a27a7f0828d1b336f24081aaad6521739a/pympipool-0.4.2.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [gine]: Downloading https://files.pythonhosted.org/packages/26/21/6e298f26425a5f1b17c5e87db1da635c144ea62de310ff4f7e20ca6bc53f/gine-0.1.0a0.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/18/23/7411fb80c35a11ad7dbf9ec0c8190955b77011203cab9502b3ae0b066fef/kfish-99.0.202306111414-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/18/23/7411fb80c35a11ad7dbf9ec0c8190955b77011203cab9502b3ae0b066fef/kfish-99.0.202306111414-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [starrailres]: Downloading https://files.pythonhosted.org/packages/9f/0a/8fca1e84c94449e8884d6887d64bdedfda046f7a4420db27042fe9ec14ee/starrailres-1.1.2.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/45/ba/b649f7d0bf0380eed76927e27c3bec280f3e7d3af0dd7d631419e1767e21/kcli-99.0.202306111412-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [gine]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [basicqiwip2p]: Downloading https://files.pythonhosted.org/packages/82/b4/425ebaaa978c1daaf9801cc223d56fd506172728f1adf84f4f2891789e0d/basicqiwip2p-0.0.3.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [gine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gine-0.0.5.tar.gz tmp/gine-0.1.0a0.tar.gz --markdown 20230611/g/gine/0.0.5-0.1.0a0/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [python-printr]: Downloading https://files.pythonhosted.org/packages/68/eb/bf122eb7f3153d24990bb93ff64908aa3e50624fa7713e1de92d9e91ad47/python-printr-3.0.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [amazon-affiliate-scraper]: Downloading https://files.pythonhosted.org/packages/a5/70/005ae7c1f5044a7568401702a11a76475722edcca5919bb5bc3f03b80c0d/amazon-affiliate-scraper-0.1.1.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306111413-py3-none-any.whl.zip tmp/kfish-99.0.202306111414-py3-none-any.whl.zip --markdown 20230611/k/kfish/99.0.202306111413-99.0.202306111414/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [zensols.util]: Downloading https://files.pythonhosted.org/packages/0e/52/b6d0f45dd0486a73d132f1b7ab40d110f352476c57e20b88a8c57d8cfba0/zensols.util-1.9.0-py3-none-any.whl
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306111413-py3-none-any.whl.zip tmp/kfish-99.0.202306111414-py3-none-any.whl.zip --markdown 20230611/k/kfish/99.0.202306111413-99.0.202306111414/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/bc/7f/fed47dda45fe556e9b58d4a6bcf685535b8a5ae0b6230a47a1e28d1030e0/pympipool-0.5.0.tar.gz
+[2023-06-11 16:17:12] INFO root fetch - processPackages [starrailres]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [starrailres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailres-1.1.1.tar.gz tmp/starrailres-1.1.2.tar.gz --markdown 20230611/s/starrailres/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [basicqiwip2p]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [basicqiwip2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicqiwip2p-0.0.2.tar.gz tmp/basicqiwip2p-0.0.3.tar.gz --markdown 20230611/b/basicqiwip2p/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [amazon-affiliate-scraper]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [amazon-affiliate-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-affiliate-scraper-0.1.0.tar.gz tmp/amazon-affiliate-scraper-0.1.1.tar.gz --markdown 20230611/a/amazon-affiliate-scraper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [python-printr]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [python-printr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-printr-2.9.tar.gz tmp/python-printr-3.0.tar.gz --markdown 20230611/p/python-printr/2.9-3.0/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306111411-py3-none-any.whl.zip tmp/kcli-99.0.202306111412-py3-none-any.whl.zip --markdown 20230611/k/kcli/99.0.202306111411-99.0.202306111412/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.4.2.tar.gz tmp/pympipool-0.5.0.tar.gz --markdown 20230611/p/pympipool/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-11 16:17:12] INFO root fetch - processPackages [zensols.util]: executing diffoscope
+[2023-06-11 16:17:12] INFO root fetch - processPackages [zensols.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.util-1.8.0-py3-none-any.whl.zip tmp/zensols.util-1.9.0-py3-none-any.whl.zip --markdown 20230611/z/zensols.util/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 16:17:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111413-py3-none-any.whl.zip]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111414-py3-none-any.whl.zip]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [kfish]: Start processing: yellowbox-kraft
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-11 16:17:14] INFO root fetch - processPackages [kfish]: Start processing: bundlepy
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-11 16:17:14] WARNING root fetch - processPackages [yellowbox-kraft]: Skipping, unable to determine old version
+[2023-06-11 16:17:14] INFO root fetch - processPackages [yellowbox-kraft]: Start processing: scoly-api
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [yellowbox-kraft] error
+[2023-06-11 16:17:14] WARNING root fetch - processPackages [bundlepy]: Skipping, unable to determine old version
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [bundlepy] error
+[2023-06-11 16:17:14] INFO root fetch - processPackages [basicqiwip2p]: Remove: archive file [/home/abi/fetcher/tmp/basicqiwip2p-0.0.2.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [basicqiwip2p]: Remove: archive file [/home/abi/fetcher/tmp/basicqiwip2p-0.0.3.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [basicqiwip2p]: success
+[2023-06-11 16:17:14] WARNING root fetch - processPackages [scoly-api]: Skipping, unable to determine old version
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [scoly-api] error
+[2023-06-11 16:17:14] INFO root fetch - processPackages [amazon-affiliate-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon-affiliate-scraper-0.1.0.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [amazon-affiliate-scraper]: Remove: archive file [/home/abi/fetcher/tmp/amazon-affiliate-scraper-0.1.1.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [amazon-affiliate-scraper]: success
+[2023-06-11 16:17:14] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.1.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [starrailres]: Remove: archive file [/home/abi/fetcher/tmp/starrailres-1.1.2.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [starrailres]: success
+[2023-06-11 16:17:14] INFO root fetch - processPackages [python-printr]: Remove: archive file [/home/abi/fetcher/tmp/python-printr-2.9.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [python-printr]: Remove: archive file [/home/abi/fetcher/tmp/python-printr-3.0.tar.gz]
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [python-printr]: success
+[2023-06-11 16:17:14] INFO root fetch - processPackages [zensols.util]: Remove: archive file [/home/abi/fetcher/tmp/zensols.util-1.8.0-py3-none-any.whl.zip]
+[2023-06-11 16:17:14] INFO root fetch - processPackages [zensols.util]: Remove: archive file [/home/abi/fetcher/tmp/zensols.util-1.9.0-py3-none-any.whl.zip]
+[2023-06-11 16:17:14] INFO root fetch - main [MainThread]: End processing [zensols.util]: success
+[2023-06-11 16:17:15] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.4.2.tar.gz]
+[2023-06-11 16:17:15] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.0.tar.gz]
+[2023-06-11 16:17:15] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-06-11 16:17:18] INFO root fetch - processPackages [gine]: Remove: archive file [/home/abi/fetcher/tmp/gine-0.0.5.tar.gz]
+[2023-06-11 16:17:18] INFO root fetch - processPackages [gine]: Remove: archive file [/home/abi/fetcher/tmp/gine-0.1.0a0.tar.gz]
+[2023-06-11 16:17:18] INFO root fetch - main [MainThread]: End processing [gine]: success
+[2023-06-11 16:17:22] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111411-py3-none-any.whl.zip]
+[2023-06-11 16:17:22] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111412-py3-none-any.whl.zip]
+[2023-06-11 16:17:22] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-11 16:17:22] INFO root fetch - main [MainThread]: Store serial: [18458620]
