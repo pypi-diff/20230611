@@ -10470,3 +10470,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:38:58] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
 [2023-06-11 16:38:58] INFO root fetch - main [MainThread]: End processing [autosrt]: success
 [2023-06-11 16:38:58] INFO root fetch - main [MainThread]: Store serial: [18458731]
+[2023-06-11 16:44:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458731]
+[2023-06-11 16:44:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 16:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: philbot-voice
+[2023-06-11 16:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socketchannels
+[2023-06-11 16:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdl-x
+[2023-06-11 16:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EmaCalc
+[2023-06-11 16:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchcs
+[2023-06-11 16:44:06] INFO root fetch - processPackages [EmaCalc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 16:44:06] INFO root fetch - processPackages [sdl-x]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 16:44:06] WARNING root fetch - processPackages [socketchannels]: Skipping, unable to determine old version
+[2023-06-11 16:44:06] INFO root fetch - main [MainThread]: End processing [socketchannels] error
+[2023-06-11 16:44:06] WARNING root fetch - processPackages [torchcs]: Skipping, unable to determine old version
+[2023-06-11 16:44:06] INFO root fetch - main [MainThread]: End processing [torchcs] error
+[2023-06-11 16:44:06] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-11 16:44:07] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/9a/06/076dec93784f0e1112361376ea268510122a5db53730c568d52b0fc69fef/philbot_voice-1.9.1.tar.gz
+[2023-06-11 16:44:07] INFO root fetch - processPackages [EmaCalc]: Downloading https://files.pythonhosted.org/packages/e6/d2/ed2881489576357ff70d4fd7a5c96ed537d4930545cc1389718c46c3581e/EmaCalc-1.0.0.tar.gz
+[2023-06-11 16:44:07] INFO root fetch - processPackages [sdl-x]: Downloading https://files.pythonhosted.org/packages/1a/88/203638dfd157ccf1e2cb57e6dae1127abd3ccf184c9722e5f44f6f03909c/sdl-x-0.0.1.tar.gz
+[2023-06-11 16:44:07] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3f/3c/63cd489ea8225c39c5ce8d72a5d07d5294f0f7858573357f7a3327f35ab0/philbot_voice-1.9.2.tar.gz
+[2023-06-11 16:44:07] INFO root fetch - processPackages [EmaCalc]: Downloading https://files.pythonhosted.org/packages/66/a1/87a3e4feb9ba92208ed3729cf8fd6608f2d90182ee4d243c231ea1895aab/EmaCalc-1.0.1.tar.gz
+[2023-06-11 16:44:07] INFO root fetch - processPackages [sdl-x]: Downloading https://files.pythonhosted.org/packages/12/1f/3d0f00b7c8c07e94b57b543d5584bcfa97ccf4e349a7ec68f164cfebaaf3/sdl-x-0.0.2.tar.gz
+[2023-06-11 16:44:07] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-11 16:44:07] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.1.tar.gz tmp/philbot_voice-1.9.2.tar.gz --markdown 20230611/p/philbot-voice/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-11 16:44:07] INFO root fetch - processPackages [EmaCalc]: executing diffoscope
+[2023-06-11 16:44:07] INFO root fetch - processPackages [EmaCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmaCalc-1.0.0.tar.gz tmp/EmaCalc-1.0.1.tar.gz --markdown 20230611/E/EmaCalc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 16:44:07] INFO root fetch - processPackages [sdl-x]: executing diffoscope
+[2023-06-11 16:44:07] INFO root fetch - processPackages [sdl-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdl-x-0.0.1.tar.gz tmp/sdl-x-0.0.2.tar.gz --markdown 20230611/s/sdl-x/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 16:44:08] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.1.tar.gz]
+[2023-06-11 16:44:08] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.2.tar.gz]
+[2023-06-11 16:44:08] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-11 16:44:08] INFO root fetch - processPackages [sdl-x]: Remove: archive file [/home/abi/fetcher/tmp/sdl-x-0.0.1.tar.gz]
+[2023-06-11 16:44:08] INFO root fetch - processPackages [sdl-x]: Remove: archive file [/home/abi/fetcher/tmp/sdl-x-0.0.2.tar.gz]
+[2023-06-11 16:44:08] INFO root fetch - main [MainThread]: End processing [sdl-x]: success
+[2023-06-11 16:44:08] INFO root fetch - processPackages [EmaCalc]: Remove: archive file [/home/abi/fetcher/tmp/EmaCalc-1.0.0.tar.gz]
+[2023-06-11 16:44:08] INFO root fetch - processPackages [EmaCalc]: Remove: archive file [/home/abi/fetcher/tmp/EmaCalc-1.0.1.tar.gz]
+[2023-06-11 16:44:08] INFO root fetch - main [MainThread]: End processing [EmaCalc]: success
+[2023-06-11 16:44:08] INFO root fetch - main [MainThread]: Store serial: [18458747]
