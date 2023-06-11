@@ -3452,3 +3452,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:11:32] INFO root fetch - processPackages [pyncraft]: Remove: archive file [/home/abi/fetcher/tmp/pyncraft-0.2.0.tar.gz]
 [2023-06-11 05:11:32] INFO root fetch - main [MainThread]: End processing [pyncraft]: success
 [2023-06-11 05:11:32] INFO root fetch - main [MainThread]: Store serial: [18455551]
+[2023-06-11 05:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455551]
+[2023-06-11 05:16:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-partner-risk-insurance
+[2023-06-11 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius
+[2023-06-11 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aorta-sirius
+[2023-06-11 05:16:40] INFO root fetch - processPackages [aorta-sirius]: New version: [0.2] Old Version: [0.1]
+[2023-06-11 05:16:40] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-06-11 05:16:40] INFO root fetch - processPackages [aorta-sirius]: New version: [0.2] Old Version: [0.1]
+[2023-06-11 05:16:40] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b7/ff/688c2ca47003704c1811311eee89a99a50be76fd8a89eedd48a47cdd0b6d/aorta_sirius-0.1.tar.gz
+[2023-06-11 05:16:40] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b7/ff/688c2ca47003704c1811311eee89a99a50be76fd8a89eedd48a47cdd0b6d/aorta_sirius-0.1.tar.gz
+[2023-06-11 05:16:40] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: Downloading https://files.pythonhosted.org/packages/ba/2c/1b1a9d82f58fa160e2535346afb5a0be4494b0cacd73fdf858cd53ed757a/odoo14_addon_partner_risk_insurance-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-06-11 05:16:41] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/6f/a3/86c51da86a892330abacba5fe654322abdf9ab2225f3134c5e0a7d99c007/aorta_sirius-0.2.tar.gz
+[2023-06-11 05:16:41] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/6f/a3/86c51da86a892330abacba5fe654322abdf9ab2225f3134c5e0a7d99c007/aorta_sirius-0.2.tar.gz
+[2023-06-11 05:16:41] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: Downloading https://files.pythonhosted.org/packages/36/52/09ba6a556c331bd2560d3e3b6b94f30b08d28635203cdd74df6051aa8d55/odoo14_addon_partner_risk_insurance-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-06-11 05:16:41] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: executing diffoscope
+[2023-06-11 05:16:41] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_risk_insurance-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_partner_risk_insurance-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-partner-risk-insurance/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-06-11 05:16:41] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-11 05:16:41] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.1.tar.gz tmp/aorta_sirius-0.2.tar.gz --markdown 20230611/a/aorta-sirius/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-11 05:16:41] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-11 05:16:41] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.1.tar.gz tmp/aorta_sirius-0.2.tar.gz --markdown 20230611/a/aorta-sirius/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-11 05:16:42] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.1.tar.gz]
+[2023-06-11 05:16:42] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.2.tar.gz]
+[2023-06-11 05:16:42] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-11 05:16:42] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-11 05:16:42] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_risk_insurance-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-06-11 05:16:42] INFO root fetch - processPackages [odoo14-addon-partner-risk-insurance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_risk_insurance-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-06-11 05:16:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-risk-insurance]: success
+[2023-06-11 05:16:42] INFO root fetch - main [MainThread]: Store serial: [18455566]
