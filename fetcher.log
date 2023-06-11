@@ -13921,3 +13921,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:19:27] INFO root fetch - processPackages [eqalert]: Remove: archive file [/home/abi/fetcher/tmp/eqalert-3.5.4.tar.gz]
 [2023-06-11 21:19:27] INFO root fetch - main [MainThread]: End processing [eqalert]: success
 [2023-06-11 21:19:27] INFO root fetch - main [MainThread]: Store serial: [18460397]
+[2023-06-11 21:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460397]
+[2023-06-11 21:24:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-llm
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous-trade-crypto
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: winterapi
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: learn-python-ceg-test
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastqueue-lib
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hardyweinbergcalculator
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-semantic-release
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zuspec-arl-eval
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: portpy
+[2023-06-11 21:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wiremock
+[2023-06-11 21:24:36] INFO root fetch - processPackages [scikit-llm]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-11 21:24:36] WARNING root fetch - processPackages [winterapi]: Skipping, unable to determine old version
+[2023-06-11 21:24:36] INFO root fetch - processPackages [winterapi]: Start processing: zeph1rr-fastapi-utils
+[2023-06-11 21:24:36] INFO root fetch - main [MainThread]: End processing [winterapi] error
+[2023-06-11 21:24:36] WARNING root fetch - processPackages [learn-python-ceg-test]: Skipping, unable to determine old version
+[2023-06-11 21:24:36] INFO root fetch - main [MainThread]: End processing [learn-python-ceg-test] error
+[2023-06-11 21:24:36] WARNING root fetch - processPackages [hardyweinbergcalculator]: Skipping, unable to determine old version
+[2023-06-11 21:24:36] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator] error
+[2023-06-11 21:24:36] INFO root fetch - processPackages [wiremock]: New version: [2.5.0] Old Version: [2.4.0a0]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [portpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a7] Old Version: [8.0.0a6]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [zuspec-arl-eval]: New version: [0.0.1.5237104080] Old Version: [0.0.1.5222948896]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 21:24:36] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [scikit-llm]: Downloading https://files.pythonhosted.org/packages/0c/42/1da40aa1855ea6bf9a74ac70e9264b8307e299e1795be572031a6bae5238/scikit-llm-0.1.1.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [wiremock]: Downloading https://files.pythonhosted.org/packages/7e/cd/b42cbe9c2be0e1fd27a9cb4b3abe8d603376b791481d02ee36978a34de5a/wiremock-2.4.0a0.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/1e/7d/e255da53b2babb01c8d4c5bb9151663e37ba474454157bb4ceb8951fe814/zeph1rr_fastapi_utils-1.0.3.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [portpy]: Downloading https://files.pythonhosted.org/packages/3f/80/2da9b839e4d6e7ad1e3158a8dd5e979fc796067c3493757e31bd51fecf96/portpy-0.0.1.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/80/b3/800fb2bb432b8260af3c740f12a1eedda7b52d79de7f80ab3ed0a1709a30/zuspec_arl_eval-0.0.1.5222948896-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 21:24:36] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/e9/ad/c0b005e75a58ccc5ab669dc67ad93d87b7e19472940cf79bf44cb7a3212d/fastqueue-lib-0.0.8.tar.gz
+[2023-06-11 21:24:36] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-11 21:24:36] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230611/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 21:24:36] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/80/5f/bde47f21b72b7723d8c922b369a1ba4a5c0e6a2b8f5609c7ac23031a693c/python-semantic-release-8.0.0a6.tar.gz
+[2023-06-11 21:24:37] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/0c/ab/376f741ff17c3bb1eb6210353539f9b4e40e0174eb0c93dd902629217e8b/zuspec_arl_eval-0.0.1.5237104080-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 21:24:37] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/90/0e/8d1c85dc3048c9317a1d0c2a09052983b539361fad0929f07f514a609d03/fastqueue-lib-0.0.9.tar.gz
+[2023-06-11 21:24:37] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/67/78/0b643f5bf92b35be6eba3bde54952fa9472315b80e4a762220f072f53e90/zeph1rr_fastapi_utils-1.1.0.tar.gz
+[2023-06-11 21:24:37] INFO root fetch - processPackages [scikit-llm]: Downloading https://files.pythonhosted.org/packages/29/f4/71ed93ed6c2e912857f17ddf21e319125e1033323aaac824e6b033f9e702/scikit-llm-0.2.0.tar.gz
+[2023-06-11 21:24:37] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-06-11 21:24:37] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.8.tar.gz tmp/fastqueue-lib-0.0.9.tar.gz --markdown 20230611/f/fastqueue-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 21:24:37] INFO root fetch - processPackages [zuspec-arl-eval]: executing diffoscope
+[2023-06-11 21:24:37] INFO root fetch - processPackages [zuspec-arl-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_arl_eval-0.0.1.5222948896-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_arl_eval-0.0.1.5237104080-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/z/zuspec-arl-eval/0.0.1.5222948896-0.0.1.5237104080/diff.md --exclude *.pyd
+[2023-06-11 21:24:37] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/ae/6a/f859cc834d8bde8716431a9da867ed29de802d11a899f51d94932f40e339/python-semantic-release-8.0.0a7.tar.gz
+[2023-06-11 21:24:37] INFO root fetch - processPackages [scikit-llm]: executing diffoscope
+[2023-06-11 21:24:37] INFO root fetch - processPackages [scikit-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-llm-0.1.1.tar.gz tmp/scikit-llm-0.2.0.tar.gz --markdown 20230611/s/scikit-llm/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 21:24:37] INFO root fetch - processPackages [portpy]: Downloading https://files.pythonhosted.org/packages/41/36/a1f4124473f25fc9270bc293dbfcba8fda8308ec8331f33c093daf2568d9/portpy-0.0.2.tar.gz
+[2023-06-11 21:24:37] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: executing diffoscope
+[2023-06-11 21:24:37] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeph1rr_fastapi_utils-1.0.3.tar.gz tmp/zeph1rr_fastapi_utils-1.1.0.tar.gz --markdown 20230611/z/zeph1rr-fastapi-utils/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 21:24:37] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-06-11 21:24:37] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a6.tar.gz tmp/python-semantic-release-8.0.0a7.tar.gz --markdown 20230611/p/python-semantic-release/8.0.0a6-8.0.0a7/diff.md --exclude *.pyd
+[2023-06-11 21:24:37] INFO root fetch - processPackages [portpy]: executing diffoscope
+[2023-06-11 21:24:37] INFO root fetch - processPackages [portpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portpy-0.0.1.tar.gz tmp/portpy-0.0.2.tar.gz --markdown 20230611/p/portpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 21:24:38] INFO root fetch - processPackages [fastqueue-lib]: Remove: archive file [/home/abi/fetcher/tmp/fastqueue-lib-0.0.8.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - processPackages [fastqueue-lib]: Remove: archive file [/home/abi/fetcher/tmp/fastqueue-lib-0.0.9.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-06-11 21:24:38] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/zeph1rr_fastapi_utils-1.0.3.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - processPackages [zeph1rr-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/zeph1rr_fastapi_utils-1.1.0.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - main [MainThread]: End processing [zeph1rr-fastapi-utils]: success
+[2023-06-11 21:24:38] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-11 21:24:38] INFO root fetch - processPackages [scikit-llm]: Remove: archive file [/home/abi/fetcher/tmp/scikit-llm-0.1.1.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - processPackages [scikit-llm]: Remove: archive file [/home/abi/fetcher/tmp/scikit-llm-0.2.0.tar.gz]
+[2023-06-11 21:24:38] INFO root fetch - main [MainThread]: End processing [scikit-llm]: success
+[2023-06-11 21:24:39] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a6.tar.gz]
+[2023-06-11 21:24:39] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0a7.tar.gz]
+[2023-06-11 21:24:39] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-06-11 21:24:39] INFO root fetch - processPackages [portpy]: Remove: archive file [/home/abi/fetcher/tmp/portpy-0.0.1.tar.gz]
+[2023-06-11 21:24:39] INFO root fetch - processPackages [portpy]: Remove: archive file [/home/abi/fetcher/tmp/portpy-0.0.2.tar.gz]
+[2023-06-11 21:24:39] INFO root fetch - main [MainThread]: End processing [portpy]: success
+[2023-06-11 21:24:40] INFO root fetch - processPackages [wiremock]: Downloading https://files.pythonhosted.org/packages/64/62/47ff9efd49339fc99a8715df4787b76dda77b58e8a147284c0eca578bc86/wiremock-2.5.0.tar.gz
+[2023-06-11 21:24:41] WARNING root fetch - processPackages [wiremock]: Skipping package: exceeds size limit 14196704>=10485760
+[2023-06-11 21:24:41] INFO root fetch - main [MainThread]: End processing [wiremock] error
+[2023-06-11 21:24:42] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5222948896-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 21:24:42] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5237104080-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 21:24:42] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
+[2023-06-11 21:24:42] INFO root fetch - main [MainThread]: Store serial: [18460437]
