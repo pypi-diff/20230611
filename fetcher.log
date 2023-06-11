@@ -10446,3 +10446,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:33:47] INFO root fetch - processPackages [thonny]: Remove: archive file [/home/abi/fetcher/tmp/thonny-4.1.1.tar.gz]
 [2023-06-11 16:33:47] INFO root fetch - main [MainThread]: End processing [thonny]: success
 [2023-06-11 16:33:47] INFO root fetch - main [MainThread]: Store serial: [18458720]
+[2023-06-11 16:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458720]
+[2023-06-11 16:38:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: great-scott
+[2023-06-11 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jwtlib
+[2023-06-11 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autosrt
+[2023-06-11 16:38:56] INFO root fetch - processPackages [autosrt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-11 16:38:56] INFO root fetch - processPackages [jwtlib]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-11 16:38:56] WARNING root fetch - processPackages [great-scott]: Skipping, unable to determine old version
+[2023-06-11 16:38:56] INFO root fetch - main [MainThread]: End processing [great-scott] error
+[2023-06-11 16:38:56] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/0e/a8/a4076fa1d05b944aba4a8205fe3c0f18a11c52ad1f7ea5eace691260886b/jwtlib-0.3.6.tar.gz
+[2023-06-11 16:38:56] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/02/b8/1de1e86e6da77b68f932bc7564093d23838ae19c32633bcf099379797949/autosrt-1.3.8.tar.gz
+[2023-06-11 16:38:56] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/bc/3c/18bf1363cea242c24b7f17bbd59df3d97acc0604a04cdc33401a698a1111/jwtlib-0.3.7.tar.gz
+[2023-06-11 16:38:56] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-06-11 16:38:56] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-11 16:38:56] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.3.6.tar.gz tmp/jwtlib-0.3.7.tar.gz --markdown 20230611/j/jwtlib/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-11 16:38:57] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-11 16:38:57] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.8.tar.gz tmp/autosrt-1.3.9.tar.gz --markdown 20230611/a/autosrt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-11 16:38:57] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.6.tar.gz]
+[2023-06-11 16:38:57] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.7.tar.gz]
+[2023-06-11 16:38:57] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-11 16:38:58] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.8.tar.gz]
+[2023-06-11 16:38:58] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-06-11 16:38:58] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-11 16:38:58] INFO root fetch - main [MainThread]: Store serial: [18458731]
