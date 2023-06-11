@@ -2343,3 +2343,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 03:14:51] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
 [2023-06-11 03:14:51] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-06-11 03:14:51] INFO root fetch - main [MainThread]: Store serial: [18455028]
+[2023-06-11 03:19:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455028]
+[2023-06-11 03:20:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 03:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structure-py
+[2023-06-11 03:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bhv
+[2023-06-11 03:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copyparty
+[2023-06-11 03:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdm-conda
+[2023-06-11 03:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbt
+[2023-06-11 03:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bhv
+[2023-06-11 03:20:00] INFO root fetch - processPackages [bhv]: New version: [0.5.7b0] Old Version: [0.5.7a0]
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2023-06-11 03:20:00] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-11 03:20:00] INFO root fetch - processPackages [bhv]: New version: [0.5.7b0] Old Version: [0.5.7a0]
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pbt]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-11 03:20:00] INFO root fetch - processPackages [copyparty]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2023-06-11 03:20:00] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/9a/d5/96ebcbc297aa721f1e44ff6fe20d3fadc389e06b63a9f31ceb982999ba37/bhv-0.5.7a0.tar.gz
+[2023-06-11 03:20:00] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/9a/d5/96ebcbc297aa721f1e44ff6fe20d3fadc389e06b63a9f31ceb982999ba37/bhv-0.5.7a0.tar.gz
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pbt]: Downloading https://files.pythonhosted.org/packages/5c/6b/f41552dfdddd6270fb8f02586752201bdef15b5649ec8fdb6fca7b4f3a00/pbt-2.9.3.tar.gz
+[2023-06-11 03:20:00] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/fb/01/e4964fb93150c611db8f96feff0e86007d91ea09f01b061a5dad7b376a26/copyparty-1.7.3.tar.gz
+[2023-06-11 03:20:00] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ab/54/301df64e96dfc4a5c71842f38f38cbb5c9b1f036bedfb8ce5c29f3c78523/structure_py-0.8.4-py3-none-any.whl
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pbt]: Downloading https://files.pythonhosted.org/packages/82/35/7e5c8e112f41c956e411dae99953fd41213c914e310da341f2eb524a15a7/pbt-2.9.4.tar.gz
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pbt]: executing diffoscope
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbt-2.9.3.tar.gz tmp/pbt-2.9.4.tar.gz --markdown 20230611/p/pbt/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-11 03:20:00] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2023-06-11 03:20:01] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/b0/28/647fff71f083f791d92a505a45b57b57e12b8c151742617997122e43f106/bhv-0.5.7b0.tar.gz
+[2023-06-11 03:20:01] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/b0/28/647fff71f083f791d92a505a45b57b57e12b8c151742617997122e43f106/bhv-0.5.7b0.tar.gz
+[2023-06-11 03:20:01] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/a3/6e/98234b66c3ce7d92f6b957ee2fd5b07749190eed5bd99f47651d736e0bc7/structure_py-0.9.0.tar.gz
+[2023-06-11 03:20:01] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-06-11 03:20:01] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20230611/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2023-06-11 03:20:01] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-06-11 03:20:01] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230611/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 03:20:01] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-11 03:20:01] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.5.7a0.tar.gz tmp/bhv-0.5.7b0.tar.gz --markdown 20230611/b/bhv/0.5.7a0-0.5.7b0/diff.md --exclude *.pyd
+[2023-06-11 03:20:01] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-11 03:20:01] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.5.7a0.tar.gz tmp/bhv-0.5.7b0.tar.gz --markdown 20230611/b/bhv/0.5.7a0-0.5.7b0/diff.md --exclude *.pyd
+[2023-06-11 03:20:01] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/70/3f/953696bde91d02455fd5075458fc0f4f7d35450c1549d803538a4a6c52e9/copyparty-1.7.4.tar.gz
+[2023-06-11 03:20:01] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-06-11 03:20:01] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.7.3.tar.gz tmp/copyparty-1.7.4.tar.gz --markdown 20230611/c/copyparty/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-11 03:20:02] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.8.4-py3-none-any.whl.zip]
+[2023-06-11 03:20:02] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.9.0.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-06-11 03:20:02] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-06-11 03:20:02] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.7a0.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.7b0.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-11 03:20:02] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-11 03:20:02] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.3.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - processPackages [pbt]: Remove: archive file [/home/abi/fetcher/tmp/pbt-2.9.4.tar.gz]
+[2023-06-11 03:20:02] INFO root fetch - main [MainThread]: End processing [pbt]: success
+[2023-06-11 03:20:03] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.3.tar.gz]
+[2023-06-11 03:20:03] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.4.tar.gz]
+[2023-06-11 03:20:03] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-06-11 03:20:03] INFO root fetch - main [MainThread]: Store serial: [18455046]
