@@ -8366,3 +8366,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:07:50] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-11 14:07:50] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-11 14:07:50] INFO root fetch - main [MainThread]: Store serial: [18457817]
+[2023-06-11 14:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457817]
+[2023-06-11 14:13:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execsql
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zensvi
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doFolder
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: move2archive
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fabric-am-handlers
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: semanticclean
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbakery
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabric-orchestrator-client
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tahoma
+[2023-06-11 14:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hapless
+[2023-06-11 14:13:00] INFO root fetch - processPackages [doFolder]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [openbakery]: New version: [0.1.0a2] Old Version: [0.0.1a0]
+[2023-06-11 14:13:00] WARNING root fetch - processPackages [semanticclean]: Skipping, unable to determine old version
+[2023-06-11 14:13:00] INFO root fetch - processPackages [semanticclean]: Start processing: fabrictestbed
+[2023-06-11 14:13:00] INFO root fetch - main [MainThread]: End processing [semanticclean] error
+[2023-06-11 14:13:00] INFO root fetch - processPackages [zensvi]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [move2archive]: New version: [2023.6.11.2] Old Version: [2023.6.11.1]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-am-handlers]: New version: [1rc3] Old Version: [1.5.0b8]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [execsql]: New version: [1.98.0] Old Version: [1.97.0]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabrictestbed]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [move2archive]: Downloading https://files.pythonhosted.org/packages/7d/ae/2e2a461f171ae881c927bbc1da0340a2bb488268b15a5124f3255c50df8b/move2archive-2023.6.11.1-py3-none-any.whl
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/90/5b/f8cacc1a349d7f9ab24930fa027dc292e8aa3d21da2b6050b8796f8ac093/fabric-orchestrator-client-1.5.0rc1.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [tahoma]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/02/f1/0b30248692a9c1ff71c8701fe3da6846b54fb4e76652767ed87d1dcd8613/fabrictestbed-1.5.0rc1.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [hapless]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/12/d1/a7bcf340ed2a1cec50335c0666ce87f3c5ecf5c800da94523d7ad41a4dea/fabric-am-handlers-1.5.0b8.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [openbakery]: Downloading https://files.pythonhosted.org/packages/4b/66/01e663a09e3933066a74930f9b613b950d75885d867be3c818271b0376e6/openbakery-0.0.1a0.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/5c/a8/32ff6ba0af71134229fee55ab80274c4e478b7464a3abcf169b8501819cc/fabrictestbed-1.5.0rc2.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [doFolder]: Downloading https://files.pythonhosted.org/packages/06/02/6e0f3a2ecaa139303f30f1f839328787025dac7b684eed1c05c98a9a9e1e/doFolder-0.0.7.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/91/8e/51da00d0618e95a78d658b8ba5ca02e29543fb296784ecffc9c3e13a9aff/execsql-1.97.0.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/23/8c/be43a72b12830023bd431dc32a25bf4db821a392708738d1bab60934918b/zensvi-0.5.1.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [move2archive]: Downloading https://files.pythonhosted.org/packages/0f/6f/ea7c33d08654160116f74788f94abf77c717589d68c111d34089a5abdf39/move2archive-2023.6.11.2-py3-none-any.whl
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230611/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.5.0rc1.tar.gz tmp/fabrictestbed-1.5.0rc2.tar.gz --markdown 20230611/f/fabrictestbed/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-11 14:13:00] INFO root fetch - processPackages [hapless]: Downloading https://files.pythonhosted.org/packages/9f/8d/6638af527875e4e59ac9a9312e374bb8a74f6bc90fbb5a779d8669c6bd4a/hapless-0.2.0.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [tahoma]: Downloading https://files.pythonhosted.org/packages/41/c9/9d037eba8bb73cc5b21e8c344cd01ce3857d1ba8b06f7a13102720f2971a/tahoma-2.2.7.tar.gz
+[2023-06-11 14:13:00] WARNING root fetch - processPackages [openbakery]: Skipping package: exceeds size limit 43182680>=10485760
+[2023-06-11 14:13:00] INFO root fetch - processPackages [openbakery]: Start processing: mcnnlib
+[2023-06-11 14:13:00] INFO root fetch - main [MainThread]: End processing [openbakery] error
+[2023-06-11 14:13:00] INFO root fetch - processPackages [move2archive]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [mcnnlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 14:13:00] INFO root fetch - processPackages [move2archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/move2archive-2023.6.11.1-py3-none-any.whl.zip tmp/move2archive-2023.6.11.2-py3-none-any.whl.zip --markdown 20230611/m/move2archive/2023.6.11.1-2023.6.11.2/diff.md --exclude *.pyd
+[2023-06-11 14:13:00] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/45/bc/9a042fb9ac6e0c00039345625d4a1e49d4ef3a0e033b791ada90f0bca100/zensvi-0.6.0.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [doFolder]: Downloading https://files.pythonhosted.org/packages/28/2e/db370897115f672e24befe5b7e50494f3a54ec7c45f5d6dc311cb4e6fbb1/doFolder-0.0.9.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/95/fd/5989a4e7b955374f83a339d5b7bb5b046031d451e13fa868379852606d79/fabric-am-handlers-1rc3.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/af/c4/14198e9e025b1207415fad1d39bc1e6ebcc8fb846e1ba1b4e22742316993/execsql-1.98.0.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [tahoma]: Downloading https://files.pythonhosted.org/packages/30/82/69fb387a737aa2ed46a213ed37022d8987d441b4f474e730a700f1e74c39/tahoma-2.2.8.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [hapless]: Downloading https://files.pythonhosted.org/packages/49/27/7854a4b4dac2a8b9f78d69f83944609d9cb3579749bb4b5f5d4a7e09a7c4/hapless-0.2.1.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.5.1.tar.gz tmp/zensvi-0.6.0.tar.gz --markdown 20230611/z/zensvi/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-11 14:13:00] INFO root fetch - processPackages [mcnnlib]: Downloading https://files.pythonhosted.org/packages/9e/ff/86671a70982a7a9293540a5605b835fe6c32a6c6eb745405775600c08428/mcnnlib-1.0.0.tar.gz
+[2023-06-11 14:13:00] INFO root fetch - processPackages [doFolder]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [doFolder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doFolder-0.0.7.tar.gz tmp/doFolder-0.0.9.tar.gz --markdown 20230611/d/doFolder/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-am-handlers]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [fabric-am-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-am-handlers-1.5.0b8.tar.gz tmp/fabric-am-handlers-1rc3.tar.gz --markdown 20230611/f/fabric-am-handlers/1.5.0b8-1rc3/diff.md --exclude *.pyd
+[2023-06-11 14:13:00] INFO root fetch - processPackages [execsql]: executing diffoscope
+[2023-06-11 14:13:00] INFO root fetch - processPackages [execsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execsql-1.97.0.tar.gz tmp/execsql-1.98.0.tar.gz --markdown 20230611/e/execsql/1.97.0-1.98.0/diff.md --exclude *.pyd
+[2023-06-11 14:13:01] INFO root fetch - processPackages [hapless]: executing diffoscope
+[2023-06-11 14:13:01] INFO root fetch - processPackages [hapless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapless-0.2.0.tar.gz tmp/hapless-0.2.1.tar.gz --markdown 20230611/h/hapless/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-11 14:13:01] INFO root fetch - processPackages [tahoma]: executing diffoscope
+[2023-06-11 14:13:01] INFO root fetch - processPackages [tahoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoma-2.2.7.tar.gz tmp/tahoma-2.2.8.tar.gz --markdown 20230611/t/tahoma/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-06-11 14:13:01] INFO root fetch - processPackages [mcnnlib]: Downloading https://files.pythonhosted.org/packages/8e/87/78f7bad9c6c0b7a713e54a27c06d8c285a9a4c3b9eb8c7e2c2d1a0896c7a/mcnnlib-1.0.1.tar.gz
+[2023-06-11 14:13:01] INFO root fetch - processPackages [mcnnlib]: executing diffoscope
+[2023-06-11 14:13:01] INFO root fetch - processPackages [mcnnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcnnlib-1.0.0.tar.gz tmp/mcnnlib-1.0.1.tar.gz --markdown 20230611/m/mcnnlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 14:13:01] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc1.tar.gz]
+[2023-06-11 14:13:01] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.5.0rc2.tar.gz]
+[2023-06-11 14:13:01] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-06-11 14:13:02] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.6.11.1-py3-none-any.whl.zip]
+[2023-06-11 14:13:02] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.6.11.2-py3-none-any.whl.zip]
+[2023-06-11 14:13:02] INFO root fetch - main [MainThread]: End processing [move2archive]: success
+[2023-06-11 14:13:02] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz]
+[2023-06-11 14:13:02] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-11 14:13:02] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-11 14:13:02] INFO root fetch - processPackages [doFolder]: Remove: archive file [/home/abi/fetcher/tmp/doFolder-0.0.7.tar.gz]
+[2023-06-11 14:13:02] INFO root fetch - processPackages [doFolder]: Remove: archive file [/home/abi/fetcher/tmp/doFolder-0.0.9.tar.gz]
+[2023-06-11 14:13:02] INFO root fetch - main [MainThread]: End processing [doFolder]: success
+[2023-06-11 14:13:02] INFO root fetch - processPackages [hapless]: Remove: archive file [/home/abi/fetcher/tmp/hapless-0.2.0.tar.gz]
+[2023-06-11 14:13:02] INFO root fetch - processPackages [hapless]: Remove: archive file [/home/abi/fetcher/tmp/hapless-0.2.1.tar.gz]
+[2023-06-11 14:13:02] INFO root fetch - main [MainThread]: End processing [hapless]: success
+[2023-06-11 14:13:03] INFO root fetch - processPackages [tahoma]: Remove: archive file [/home/abi/fetcher/tmp/tahoma-2.2.7.tar.gz]
+[2023-06-11 14:13:03] INFO root fetch - processPackages [tahoma]: Remove: archive file [/home/abi/fetcher/tmp/tahoma-2.2.8.tar.gz]
+[2023-06-11 14:13:03] INFO root fetch - main [MainThread]: End processing [tahoma]: success
+[2023-06-11 14:13:03] INFO root fetch - processPackages [mcnnlib]: Remove: archive file [/home/abi/fetcher/tmp/mcnnlib-1.0.0.tar.gz]
+[2023-06-11 14:13:03] INFO root fetch - processPackages [mcnnlib]: Remove: archive file [/home/abi/fetcher/tmp/mcnnlib-1.0.1.tar.gz]
+[2023-06-11 14:13:03] INFO root fetch - main [MainThread]: End processing [mcnnlib]: success
+[2023-06-11 14:13:03] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.5.1.tar.gz]
+[2023-06-11 14:13:03] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.0.tar.gz]
+[2023-06-11 14:13:03] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-06-11 14:13:04] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1.5.0b8.tar.gz]
+[2023-06-11 14:13:04] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1rc3.tar.gz]
+[2023-06-11 14:13:04] INFO root fetch - main [MainThread]: End processing [fabric-am-handlers]: success
+[2023-06-11 14:13:04] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.97.0.tar.gz]
+[2023-06-11 14:13:04] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.98.0.tar.gz]
+[2023-06-11 14:13:04] INFO root fetch - main [MainThread]: End processing [execsql]: success
+[2023-06-11 14:13:04] INFO root fetch - main [MainThread]: Store serial: [18457852]
