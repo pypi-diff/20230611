@@ -4728,3 +4728,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:39:51] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
 [2023-06-11 07:39:51] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-orderpoint-manual-procurement]: success
 [2023-06-11 07:39:51] INFO root fetch - main [MainThread]: Store serial: [18456057]
+[2023-06-11 07:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456057]
+[2023-06-11 07:45:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 07:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terminal-typing-tutor
+[2023-06-11 07:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grnvae
+[2023-06-11 07:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TSMasterAPI
+[2023-06-11 07:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-location-children
+[2023-06-11 07:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: generate-doc
+[2023-06-11 07:45:00] WARNING root fetch - processPackages [terminal-typing-tutor]: Skipping, unable to determine old version
+[2023-06-11 07:45:00] INFO root fetch - main [MainThread]: End processing [terminal-typing-tutor] error
+[2023-06-11 07:45:00] WARNING root fetch - processPackages [grnvae]: Skipping, unable to determine old version
+[2023-06-11 07:45:00] INFO root fetch - main [MainThread]: End processing [grnvae] error
+[2023-06-11 07:45:00] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-06-11 07:45:00] WARNING root fetch - processPackages [generate-doc]: Skipping, unable to determine old version
+[2023-06-11 07:45:00] INFO root fetch - main [MainThread]: End processing [generate-doc] error
+[2023-06-11 07:45:00] INFO root fetch - processPackages [TSMasterAPI]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-11 07:45:00] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: Downloading https://files.pythonhosted.org/packages/ca/f7/15bce2f03d7d2f0232ba93eb8823bf0a9c2bb6f49890b77929c62e78a0d4/odoo14_addon_stock_location_children-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-11 07:45:00] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/47/d7/9e50c89dc00cd00643cc1dcc5639cefcc19aec110c8f1d0fa0343761b05d/TSMasterAPI-2.1.0.tar.gz
+[2023-06-11 07:45:00] INFO root fetch - processPackages [TSMasterAPI]: Downloading https://files.pythonhosted.org/packages/60/15/f0c1557920dde8ea81fcd189afa7f7e4c78a758727a209d94b90f93112ef/TSMasterAPI-2.1.1.tar.gz
+[2023-06-11 07:45:00] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: Downloading https://files.pythonhosted.org/packages/67/c4/7a124bb35c107f8b8f4995de5f2ebe869a0f2dc217434c8818fe4097a437/odoo14_addon_stock_location_children-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-11 07:45:00] INFO root fetch - processPackages [TSMasterAPI]: executing diffoscope
+[2023-06-11 07:45:00] INFO root fetch - processPackages [TSMasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSMasterAPI-2.1.0.tar.gz tmp/TSMasterAPI-2.1.1.tar.gz --markdown 20230611/T/TSMasterAPI/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-11 07:45:00] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: executing diffoscope
+[2023-06-11 07:45:00] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_location_children-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_stock_location_children-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-stock-location-children/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-11 07:45:01] INFO root fetch - processPackages [TSMasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/TSMasterAPI-2.1.0.tar.gz]
+[2023-06-11 07:45:01] INFO root fetch - processPackages [TSMasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/TSMasterAPI-2.1.1.tar.gz]
+[2023-06-11 07:45:01] INFO root fetch - main [MainThread]: End processing [TSMasterAPI]: success
+[2023-06-11 07:45:01] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_children-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-11 07:45:01] INFO root fetch - processPackages [odoo14-addon-stock-location-children]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_children-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-11 07:45:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-location-children]: success
+[2023-06-11 07:45:01] INFO root fetch - main [MainThread]: Store serial: [18456079]
