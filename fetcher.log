@@ -1785,3 +1785,69 @@
 [2023-06-11 02:37:14] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2023-06-11 02:37:14] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-06-11 02:37:14] INFO root fetch - main [MainThread]: Store serial: [18454865]
+[2023-06-11 02:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454865]
+[2023-06-11 02:42:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kally
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: term-chatgpt
+[2023-06-11 02:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naluconfigs
+[2023-06-11 02:42:23] INFO root fetch - processPackages [term-chatgpt]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [naluconfigs]: New version: [11.0.2] Old Version: [11.0.1]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [kally]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230610] Old Version: [0.1.4.dev20230609]
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [term-chatgpt]: Downloading https://files.pythonhosted.org/packages/e5/77/d0b9a4c9181516c08acbda5afe2485d8eefe7eb7a6d62d2945846c2a228f/term-chatgpt-1.1.1.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/4d/74/59550063de43b5a5317025a5618eaa1fe660f567c830b186fdb6f71b484c/aeppl-nightly-0.1.4.dev20230609.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [kally]: Downloading https://files.pythonhosted.org/packages/dc/61/627a451bc90b6c2e190efa5fa8c570fd7b62120e507b66928c56ab2664e6/kally-0.1.1.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/b1/0e/cb0035067dedba512029c31ab742dbc8a6c754acf5fad57c643486f7f658/naluconfigs-11.0.1.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [term-chatgpt]: Downloading https://files.pythonhosted.org/packages/41/b6/f7c188d2850b33666242bf57994f3ae9608bfc0c243832b2ec3b26d371b8/term-chatgpt-1.1.2.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/5a/78/bccb63bc30209fbe541cd45fffad9497d273e2932b841a6ec22c6e723bdf/aeppl-nightly-0.1.4.dev20230610.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [term-chatgpt]: executing diffoscope
+[2023-06-11 02:42:23] INFO root fetch - processPackages [term-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/term-chatgpt-1.1.1.tar.gz tmp/term-chatgpt-1.1.2.tar.gz --markdown 20230611/t/term-chatgpt/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 02:42:23] INFO root fetch - processPackages [kally]: Downloading https://files.pythonhosted.org/packages/db/c3/f6207bdedfc333f4da9c75f1b4d6977064244a146386c6c67409d5e4f0bf/kally-0.1.2.tar.gz
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-11 02:42:23] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230611/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-11 02:42:23] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/25/e9/951a33a4e15a2784356f86fcca59e46f0150efca78a2cb2c4e9c1455bfaf/naluconfigs-11.0.2.tar.gz
+[2023-06-11 02:42:24] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-11 02:42:24] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230611/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-11 02:42:24] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-11 02:42:24] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230609.tar.gz tmp/aeppl-nightly-0.1.4.dev20230610.tar.gz --markdown 20230611/a/aeppl-nightly/0.1.4.dev20230609-0.1.4.dev20230610/diff.md --exclude *.pyd
+[2023-06-11 02:42:24] INFO root fetch - processPackages [kally]: executing diffoscope
+[2023-06-11 02:42:24] INFO root fetch - processPackages [kally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kally-0.1.1.tar.gz tmp/kally-0.1.2.tar.gz --markdown 20230611/k/kally/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 02:42:24] INFO root fetch - processPackages [naluconfigs]: executing diffoscope
+[2023-06-11 02:42:24] INFO root fetch - processPackages [naluconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naluconfigs-11.0.1.tar.gz tmp/naluconfigs-11.0.2.tar.gz --markdown 20230611/n/naluconfigs/11.0.1-11.0.2/diff.md --exclude *.pyd
+[2023-06-11 02:42:24] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-11 02:42:25] INFO root fetch - processPackages [term-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/term-chatgpt-1.1.1.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - processPackages [term-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/term-chatgpt-1.1.2.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - main [MainThread]: End processing [term-chatgpt]: success
+[2023-06-11 02:42:25] INFO root fetch - processPackages [kally]: Remove: archive file [/home/abi/fetcher/tmp/kally-0.1.1.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - processPackages [kally]: Remove: archive file [/home/abi/fetcher/tmp/kally-0.1.2.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - main [MainThread]: End processing [kally]: success
+[2023-06-11 02:42:25] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-11 02:42:25] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-11 02:42:25] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230609.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230610.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-11 02:42:25] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.0.1.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.0.2.tar.gz]
+[2023-06-11 02:42:25] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
+[2023-06-11 02:42:25] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-11 02:42:25] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230611/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 02:42:27] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-11 02:42:27] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-11 02:42:27] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-11 02:42:27] INFO root fetch - main [MainThread]: Store serial: [18454884]
