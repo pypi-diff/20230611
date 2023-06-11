@@ -13290,3 +13290,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:27:02] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
 [2023-06-11 20:27:02] INFO root fetch - main [MainThread]: End processing [snakemake]: success
 [2023-06-11 20:27:02] INFO root fetch - main [MainThread]: Store serial: [18460072]
+[2023-06-11 20:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460072]
+[2023-06-11 20:32:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libauc
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KTensors
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diambra-arena
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmcif.utils
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotify-lyrics-polyanthi
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oemof.solph
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dockery
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: climalysis
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MarloAPI
+[2023-06-11 20:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SEKKAYBOT
+[2023-06-11 20:32:12] INFO root fetch - processPackages [KTensors]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 20:32:12] INFO root fetch - processPackages [libauc]: New version: [1.3.0rc3] Old Version: [1.3.0rc1]
+[2023-06-11 20:32:12] INFO root fetch - processPackages [oemof.solph]: New version: [0.5.1.dev1] Old Version: [0.5.1.dev0]
+[2023-06-11 20:32:12] WARNING root fetch - processPackages [climalysis]: Skipping, unable to determine old version
+[2023-06-11 20:32:12] INFO root fetch - processPackages [mmcif.utils]: New version: [0.26] Old Version: [0.25]
+[2023-06-11 20:32:12] INFO root fetch - processPackages [climalysis]: Start processing: FLOBOT
+[2023-06-11 20:32:12] INFO root fetch - main [MainThread]: End processing [climalysis] error
+[2023-06-11 20:32:12] WARNING root fetch - processPackages [MarloAPI]: Skipping, unable to determine old version
+[2023-06-11 20:32:12] INFO root fetch - processPackages [dockery]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 20:32:12] INFO root fetch - processPackages [diambra-arena]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-06-11 20:32:12] INFO root fetch - main [MainThread]: End processing [MarloAPI] error
+[2023-06-11 20:32:12] ERROR root fetch - processPackages [spotify-lyrics-polyanthi]: Unable to get metadata: No such project 'spotify-lyrics-polyanthi'
+[2023-06-11 20:32:12] INFO root fetch - main [MainThread]: End processing [spotify-lyrics-polyanthi] error
+[2023-06-11 20:32:12] INFO root fetch - processPackages [SEKKAYBOT]: New version: [0.22.268] Old Version: [0.22.267]
+[2023-06-11 20:32:12] INFO root fetch - processPackages [FLOBOT]: New version: [0.1.118] Old Version: [0.1.117]
+[2023-06-11 20:32:12] INFO root fetch - processPackages [libauc]: Downloading https://files.pythonhosted.org/packages/88/11/bd1cddc138b17e41393591f38405548be478fa5b9426b2fd88ac82a2fe09/libauc-1.3.0rc1.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [SEKKAYBOT]: Downloading https://files.pythonhosted.org/packages/cf/67/b206b212bd72e50c9d99463eeb6f94b17f2063b8b02ec71765d9c5fa10ff/SEKKAYBOT-0.22.267.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [FLOBOT]: Downloading https://files.pythonhosted.org/packages/2b/de/7e759d97856c7ba727a930e6fc8889a20e20ef162d47870364bcd7d26c03/FLOBOT-0.1.117.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/36/be/d2c1fdfcc0ada2982dd1414051b7dfd198c6410fd2783d172ac0a6cdf19b/diambra-arena-2.1.0rc8.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [mmcif.utils]: Downloading https://files.pythonhosted.org/packages/25/cf/493c53bb71f23b7a668c4ec0c3af4d43596dca38305102cd5ec9f800aae7/mmcif.utils-0.25.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [SEKKAYBOT]: Downloading https://files.pythonhosted.org/packages/4d/67/24f6bd074e3c71174bd4b4456f5988f896730210b24f40dc065fb4239843/SEKKAYBOT-0.22.268.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/a4/10/f8b80e5800268886abfdcac7ddca88a4ff786df36860a95b8bb2ad71823b/KTensors-0.0.4.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [oemof.solph]: Downloading https://files.pythonhosted.org/packages/30/65/ff668fc266660af830b75b7a11851261543da0204784c9110408bd218b65/oemof.solph-0.5.1.dev0.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [FLOBOT]: Downloading https://files.pythonhosted.org/packages/01/33/b4431f8cf24aaccab3c52a799fe9b41d0b2912576c9af7e92fae1d90e407/FLOBOT-0.1.118.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [SEKKAYBOT]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [SEKKAYBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SEKKAYBOT-0.22.267.tar.gz tmp/SEKKAYBOT-0.22.268.tar.gz --markdown 20230611/S/SEKKAYBOT/0.22.267-0.22.268/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/f1/7b/eb74a2fab3f4531ffbad45ab0f5a62febb0b47ed7dab916e768503289d43/dockery-0.1.0.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [FLOBOT]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [FLOBOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLOBOT-0.1.117.tar.gz tmp/FLOBOT-0.1.118.tar.gz --markdown 20230611/F/FLOBOT/0.1.117-0.1.118/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [libauc]: Downloading https://files.pythonhosted.org/packages/1a/1c/c0cb910f5516f5a36e4d5d622b5c50c1f32c734a8d71ac5605c88135020d/libauc-1.3.0rc3.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/6c/f7/5a35481a367b79b44cb842b15a2c47b07f5f622cb7bd647ea48e8fe508e0/diambra-arena-2.1.0rc9.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/2d/52/aab0b0b9aae35c9f3eaba74997719eee2a55dfb9a46b50a651f66920370c/dockery-0.1.1.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [libauc]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [libauc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libauc-1.3.0rc1.tar.gz tmp/libauc-1.3.0rc3.tar.gz --markdown 20230611/l/libauc/1.3.0rc1-1.3.0rc3/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.1.0.tar.gz tmp/dockery-0.1.1.tar.gz --markdown 20230611/d/dockery/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [KTensors]: Downloading https://files.pythonhosted.org/packages/05/a9/0f1fa8a4854bc433613680ee1efabfed7674c37bd9ccd9988873a18d011c/KTensors-0.0.5.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [mmcif.utils]: Downloading https://files.pythonhosted.org/packages/19/23/e8cc30c5e8a38f3c3d1c238d68bf341b368151f7183b6d5a1c13f1c5f834/mmcif.utils-0.26.tar.gz
+[2023-06-11 20:32:12] INFO root fetch - processPackages [KTensors]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [KTensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KTensors-0.0.4.tar.gz tmp/KTensors-0.0.5.tar.gz --markdown 20230611/K/KTensors/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [diambra-arena]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [diambra-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-arena-2.1.0rc8.tar.gz tmp/diambra-arena-2.1.0rc9.tar.gz --markdown 20230611/d/diambra-arena/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [mmcif.utils]: executing diffoscope
+[2023-06-11 20:32:12] INFO root fetch - processPackages [mmcif.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcif.utils-0.25.tar.gz tmp/mmcif.utils-0.26.tar.gz --markdown 20230611/m/mmcif.utils/0.25-0.26/diff.md --exclude *.pyd
+[2023-06-11 20:32:12] INFO root fetch - processPackages [oemof.solph]: Downloading https://files.pythonhosted.org/packages/9d/b8/62fb56c18dbcf7a31b9cb5b552030196b75e57310810dab899cea868a796/oemof.solph-0.5.1.dev1.tar.gz
+[2023-06-11 20:32:13] INFO root fetch - processPackages [oemof.solph]: executing diffoscope
+[2023-06-11 20:32:13] INFO root fetch - processPackages [oemof.solph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oemof.solph-0.5.1.dev0.tar.gz tmp/oemof.solph-0.5.1.dev1.tar.gz --markdown 20230611/o/oemof.solph/0.5.1.dev0-0.5.1.dev1/diff.md --exclude *.pyd
+[2023-06-11 20:32:13] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.1.0.tar.gz]
+[2023-06-11 20:32:13] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.1.1.tar.gz]
+[2023-06-11 20:32:13] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-11 20:32:13] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.4.tar.gz]
+[2023-06-11 20:32:13] INFO root fetch - processPackages [KTensors]: Remove: archive file [/home/abi/fetcher/tmp/KTensors-0.0.5.tar.gz]
+[2023-06-11 20:32:13] INFO root fetch - main [MainThread]: End processing [KTensors]: success
+[2023-06-11 20:32:13] INFO root fetch - processPackages [SEKKAYBOT]: Remove: archive file [/home/abi/fetcher/tmp/SEKKAYBOT-0.22.267.tar.gz]
+[2023-06-11 20:32:13] INFO root fetch - processPackages [SEKKAYBOT]: Remove: archive file [/home/abi/fetcher/tmp/SEKKAYBOT-0.22.268.tar.gz]
+[2023-06-11 20:32:13] INFO root fetch - main [MainThread]: End processing [SEKKAYBOT]: success
+[2023-06-11 20:32:14] INFO root fetch - processPackages [libauc]: Remove: archive file [/home/abi/fetcher/tmp/libauc-1.3.0rc1.tar.gz]
+[2023-06-11 20:32:14] INFO root fetch - processPackages [libauc]: Remove: archive file [/home/abi/fetcher/tmp/libauc-1.3.0rc3.tar.gz]
+[2023-06-11 20:32:14] INFO root fetch - main [MainThread]: End processing [libauc]: success
+[2023-06-11 20:32:14] INFO root fetch - processPackages [FLOBOT]: Remove: archive file [/home/abi/fetcher/tmp/FLOBOT-0.1.117.tar.gz]
+[2023-06-11 20:32:14] INFO root fetch - processPackages [FLOBOT]: Remove: archive file [/home/abi/fetcher/tmp/FLOBOT-0.1.118.tar.gz]
+[2023-06-11 20:32:14] INFO root fetch - main [MainThread]: End processing [FLOBOT]: success
+[2023-06-11 20:32:15] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc8.tar.gz]
+[2023-06-11 20:32:15] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc9.tar.gz]
+[2023-06-11 20:32:15] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
+[2023-06-11 20:32:18] INFO root fetch - processPackages [oemof.solph]: Remove: archive file [/home/abi/fetcher/tmp/oemof.solph-0.5.1.dev0.tar.gz]
+[2023-06-11 20:32:18] INFO root fetch - processPackages [oemof.solph]: Remove: archive file [/home/abi/fetcher/tmp/oemof.solph-0.5.1.dev1.tar.gz]
+[2023-06-11 20:32:18] INFO root fetch - main [MainThread]: End processing [oemof.solph]: success
+[2023-06-11 20:33:06] INFO root fetch - processPackages [mmcif.utils]: Remove: archive file [/home/abi/fetcher/tmp/mmcif.utils-0.25.tar.gz]
+[2023-06-11 20:33:06] INFO root fetch - processPackages [mmcif.utils]: Remove: archive file [/home/abi/fetcher/tmp/mmcif.utils-0.26.tar.gz]
+[2023-06-11 20:33:06] INFO root fetch - main [MainThread]: End processing [mmcif.utils]: success
+[2023-06-11 20:33:06] INFO root fetch - main [MainThread]: Store serial: [18460112]
