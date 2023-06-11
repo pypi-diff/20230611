@@ -5128,3 +5128,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:27:33] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230611062534-py3-none-any.whl.zip]
 [2023-06-11 08:27:33] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
 [2023-06-11 08:27:33] INFO root fetch - main [MainThread]: Store serial: [18456295]
+[2023-06-11 08:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456295]
+[2023-06-11 08:32:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-11 08:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-git
+[2023-06-11 08:32:42] INFO root fetch - processPackages [xia-git]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 08:32:42] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/1e/0e/cb061f9056114f0ffbb34f293227c77f31c815d66e0e73bd6e81a89536a5/xia_git-0.0.8-cp39-none-win_amd64.whl
+[2023-06-11 08:32:43] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/ec/9c/473183c93858148e24e4fb727dcb81f1a6c3df46f16d72fa9f179cab7f67/xia_git-0.0.9-cp39-none-win_amd64.whl
+[2023-06-11 08:32:43] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-11 08:32:43] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230611/x/xia-git/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 08:32:44] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-11 08:32:44] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-11 08:32:44] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-11 08:32:44] INFO root fetch - main [MainThread]: Store serial: [18456302]
