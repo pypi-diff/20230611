@@ -10682,3 +10682,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:05:31] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-11 17:05:31] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-11 17:05:31] INFO root fetch - main [MainThread]: Store serial: [18458822]
+[2023-06-11 17:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458822]
+[2023-06-11 17:10:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dueros-smarthome
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldimbenchmark
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: philbot-voice
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdshoplib
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: archeSetup
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sssom-schema
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-Ayiin
+[2023-06-11 17:10:41] INFO root fetch - processPackages [archeSetup]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [dueros-smarthome]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [sssom-schema]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev4] Old Version: [0.4.6.dev3]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [yeref]: New version: [0.1.83] Old Version: [0.1.81]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-11 17:10:41] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/4e/b4/ffa1d2c53e047bbdffb151ae49ac93fc6e9585bacb3f23c8cec2d458185a/py-Ayiin-0.4.6.dev3.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3f/3c/63cd489ea8225c39c5ce8d72a5d07d5294f0f7858573357f7a3327f35ab0/philbot_voice-1.9.2.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/0b/c2/90995c9124560fda082fec44b598c2498d1efc4ccc246fc81322954c838b/yeref-0.1.81.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [archeSetup]: Downloading https://files.pythonhosted.org/packages/f4/ca/6c19180ff8222f5f611bf77c613c208449cf34eb5ecb9703914595483e93/archeSetup-0.0.5.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/12/97/01f534b85597b490133a6400e77dfb4bec03b5b9f03b7845f0d5cef40760/dueros_smarthome-0.0.8.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [sssom-schema]: Downloading https://files.pythonhosted.org/packages/4e/60/b9bc3ab1e39262a84e256a2624aec92394d08acb2a518fb5477d9fe7c80f/sssom-schema-0.9.3.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-11 17:10:41] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230611/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 17:10:41] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/67/29/1eae3408a481b307a118f9cfeb29a553723e6846c0d6c321eaac7790921e/philbot_voice-1.9.3.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/57/25/a0001d35c33946dacaed96df882d6cad1d44e464ba161a6c455574c364ac/yeref-0.1.83.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-11 17:10:41] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.2.tar.gz tmp/philbot_voice-1.9.3.tar.gz --markdown 20230611/p/philbot-voice/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-11 17:10:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-11 17:10:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.81.tar.gz tmp/yeref-0.1.83.tar.gz --markdown 20230611/y/yeref/0.1.81-0.1.83/diff.md --exclude *.pyd
+[2023-06-11 17:10:41] INFO root fetch - processPackages [archeSetup]: Downloading https://files.pythonhosted.org/packages/71/ae/5aa79b802851271eab5477bda68340a938f900bd2617444669d009fa5969/archeSetup-0.0.6.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/f9/2a/e7506ce2ec164f5c45c312b42a72ea537a66d4dee0fb6a0718adb64147c0/dueros_smarthome-0.0.9.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [archeSetup]: executing diffoscope
+[2023-06-11 17:10:41] INFO root fetch - processPackages [archeSetup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archeSetup-0.0.5.tar.gz tmp/archeSetup-0.0.6.tar.gz --markdown 20230611/a/archeSetup/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 17:10:41] INFO root fetch - processPackages [dueros-smarthome]: executing diffoscope
+[2023-06-11 17:10:41] INFO root fetch - processPackages [dueros-smarthome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dueros_smarthome-0.0.8.tar.gz tmp/dueros_smarthome-0.0.9.tar.gz --markdown 20230611/d/dueros-smarthome/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 17:10:41] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/9f/b8/43ea2710b8d27b5bbfaf26f0908c6969731f53e753377ab8e40eaf57184e/py-Ayiin-0.4.6.dev4.tar.gz
+[2023-06-11 17:10:41] INFO root fetch - processPackages [sssom-schema]: Downloading https://files.pythonhosted.org/packages/96/e0/5a7382d3263dc0b0dbfa0deae0e3d854eb9ab9f9deed9e2fe63be6bf5938/sssom-schema-0.9.4.tar.gz
+[2023-06-11 17:10:42] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-11 17:10:42] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230611/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 17:10:42] INFO root fetch - processPackages [sssom-schema]: executing diffoscope
+[2023-06-11 17:10:42] INFO root fetch - processPackages [sssom-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-schema-0.9.3.tar.gz tmp/sssom-schema-0.9.4.tar.gz --markdown 20230611/s/sssom-schema/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-11 17:10:42] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-11 17:10:42] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.6.dev3.tar.gz tmp/py-Ayiin-0.4.6.dev4.tar.gz --markdown 20230611/p/py-Ayiin/0.4.6.dev3-0.4.6.dev4/diff.md --exclude *.pyd
+[2023-06-11 17:10:42] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.2.tar.gz]
+[2023-06-11 17:10:42] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.3.tar.gz]
+[2023-06-11 17:10:42] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-11 17:10:43] INFO root fetch - processPackages [archeSetup]: Remove: archive file [/home/abi/fetcher/tmp/archeSetup-0.0.5.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - processPackages [archeSetup]: Remove: archive file [/home/abi/fetcher/tmp/archeSetup-0.0.6.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - main [MainThread]: End processing [archeSetup]: success
+[2023-06-11 17:10:43] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.8.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.9.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - main [MainThread]: End processing [dueros-smarthome]: success
+[2023-06-11 17:10:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.81.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.83.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-11 17:10:43] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.3.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.4.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - main [MainThread]: End processing [sssom-schema]: success
+[2023-06-11 17:10:43] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-11 17:10:43] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-11 17:10:43] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-11 17:10:44] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev3.tar.gz]
+[2023-06-11 17:10:44] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev4.tar.gz]
+[2023-06-11 17:10:44] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-11 17:10:44] INFO root fetch - main [MainThread]: Store serial: [18458846]
