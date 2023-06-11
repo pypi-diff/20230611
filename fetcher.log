@@ -10890,3 +10890,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:21:26] INFO root fetch - processPackages [onecomic]: Remove: archive file [/home/abi/fetcher/tmp/onecomic-0.2.9.tar.gz]
 [2023-06-11 17:21:26] INFO root fetch - main [MainThread]: End processing [onecomic]: success
 [2023-06-11 17:21:26] INFO root fetch - main [MainThread]: Store serial: [18458907]
+[2023-06-11 17:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458907]
+[2023-06-11 17:26:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctransformers
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-grpc-dev
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-grpc-dev
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Digikam-DB
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seleniumbase
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysigma-backend-insightidr
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vastaanottaa
+[2023-06-11 17:26:35] INFO root fetch - processPackages [Digikam-DB]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [composabl-grpc-dev]: New version: [0.2.1.dev69] Old Version: [0.1.0.dev1]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [composabl-grpc-dev]: New version: [0.2.1.dev69] Old Version: [0.1.0.dev1]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [pysigma-backend-insightidr]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ctransformers]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [yeref]: New version: [0.1.84] Old Version: [0.1.83]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [pysigma-backend-insightidr]: Downloading https://files.pythonhosted.org/packages/9c/11/a2e7719bea8fd236769b728c878973e3567ffd4f0bfd81db8129ac5b09fd/pysigma-backend-insightidr-0.1.9.tar.gz
+[2023-06-11 17:26:35] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/57/25/a0001d35c33946dacaed96df882d6cad1d44e464ba161a6c455574c364ac/yeref-0.1.83.tar.gz
+[2023-06-11 17:26:35] WARNING root fetch - processPackages [vastaanottaa]: Skipping, unable to determine old version
+[2023-06-11 17:26:35] INFO root fetch - main [MainThread]: End processing [vastaanottaa] error
+[2023-06-11 17:26:35] INFO root fetch - processPackages [composabl-grpc-dev]: Downloading https://files.pythonhosted.org/packages/82/7b/1e6d445b21b924828a82dce270af2604c8284e7e13cb70d394ece3befb86/composabl_grpc_dev-0.1.0.dev1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-11 17:26:35] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-11 17:26:35] INFO root fetch - processPackages [composabl-grpc-dev]: Downloading https://files.pythonhosted.org/packages/82/7b/1e6d445b21b924828a82dce270af2604c8284e7e13cb70d394ece3befb86/composabl_grpc_dev-0.1.0.dev1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-11 17:26:35] INFO root fetch - processPackages [pysigma-backend-insightidr]: Downloading https://files.pythonhosted.org/packages/41/33/b25effb9eaf40a9cd606ef77bb16f963414ff72e738864a3764305917f89/pysigma-backend-insightidr-0.2.0.tar.gz
+[2023-06-11 17:26:35] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/b9/d0/182b2714dc4832803e994149a13c895971c43f7023c6c810a737b4b49777/ctransformers-0.2.4.tar.gz
+[2023-06-11 17:26:35] INFO root fetch - processPackages [Digikam-DB]: Downloading https://files.pythonhosted.org/packages/ed/30/8d6cee70ddfb0422c834c83aec1a794d36b6cf9c1cb82c79200b16e05f4f/Digikam-DB-0.3.0.tar.gz
+[2023-06-11 17:26:35] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/26/d8/62ad3f6547750d40e45be993a39541c2134d72b0a49c540ab24f58c4a44e/yeref-0.1.84.tar.gz
+[2023-06-11 17:26:35] INFO root fetch - processPackages [pysigma-backend-insightidr]: executing diffoscope
+[2023-06-11 17:26:35] INFO root fetch - processPackages [pysigma-backend-insightidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-backend-insightidr-0.1.9.tar.gz tmp/pysigma-backend-insightidr-0.2.0.tar.gz --markdown 20230611/p/pysigma-backend-insightidr/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 17:26:35] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-11 17:26:35] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.83.tar.gz tmp/yeref-0.1.84.tar.gz --markdown 20230611/y/yeref/0.1.83-0.1.84/diff.md --exclude *.pyd
+[2023-06-11 17:26:35] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-06-11 17:26:36] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/61/d5/0145dfb49a3f90938dfc37a0d527ed655e89d3dad023c8ef1d1434693ff3/ctransformers-0.2.5.tar.gz
+[2023-06-11 17:26:36] INFO root fetch - processPackages [Digikam-DB]: Downloading https://files.pythonhosted.org/packages/56/8a/e9ac86573ea0ea190d2d9f37cac77dfac485a69966458a62dfa78ce42f6b/Digikam-DB-0.3.1.tar.gz
+[2023-06-11 17:26:36] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-06-11 17:26:36] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.4.tar.gz tmp/ctransformers-0.2.5.tar.gz --markdown 20230611/c/ctransformers/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-11 17:26:36] INFO root fetch - processPackages [Digikam-DB]: executing diffoscope
+[2023-06-11 17:26:36] INFO root fetch - processPackages [Digikam-DB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digikam-DB-0.3.0.tar.gz tmp/Digikam-DB-0.3.1.tar.gz --markdown 20230611/D/Digikam-DB/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-11 17:26:36] INFO root fetch - processPackages [composabl-grpc-dev]: Downloading https://files.pythonhosted.org/packages/21/c7/c30b936722761bf9786c7b6a384ddc2d540f20019065e90cb54ecfd696f7/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-06-11 17:26:36] INFO root fetch - processPackages [composabl-grpc-dev]: Downloading https://files.pythonhosted.org/packages/21/c7/c30b936722761bf9786c7b6a384ddc2d540f20019065e90cb54ecfd696f7/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-06-11 17:26:36] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-06-11 17:26:36] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-06-11 17:26:36] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230611/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:26:36] INFO root fetch - processPackages [composabl-grpc-dev]: executing diffoscope
+[2023-06-11 17:26:36] INFO root fetch - processPackages [composabl-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_grpc_dev-0.1.0.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl.zip --markdown 20230611/c/composabl-grpc-dev/0.1.0.dev1-0.2.1.dev69/diff.md --exclude *.pyd
+[2023-06-11 17:26:36] INFO root fetch - processPackages [composabl-grpc-dev]: executing diffoscope
+[2023-06-11 17:26:36] INFO root fetch - processPackages [composabl-grpc-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_grpc_dev-0.1.0.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl.zip --markdown 20230611/c/composabl-grpc-dev/0.1.0.dev1-0.2.1.dev69/diff.md --exclude *.pyd
+[2023-06-11 17:26:37] INFO root fetch - processPackages [pysigma-backend-insightidr]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-backend-insightidr-0.1.9.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - processPackages [pysigma-backend-insightidr]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-backend-insightidr-0.2.0.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - main [MainThread]: End processing [pysigma-backend-insightidr]: success
+[2023-06-11 17:26:37] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.83.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.84.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-11 17:26:37] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.4.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.5.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-06-11 17:26:37] INFO root fetch - processPackages [Digikam-DB]: Remove: archive file [/home/abi/fetcher/tmp/Digikam-DB-0.3.0.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - processPackages [Digikam-DB]: Remove: archive file [/home/abi/fetcher/tmp/Digikam-DB-0.3.1.tar.gz]
+[2023-06-11 17:26:37] INFO root fetch - main [MainThread]: End processing [Digikam-DB]: success
+[2023-06-11 17:26:38] INFO root fetch - processPackages [composabl-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_grpc_dev-0.1.0.dev1-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-11 17:26:38] INFO root fetch - processPackages [composabl-grpc-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_grpc_dev-0.2.1.dev69-cp38-cp38-macosx_10_9_x86_64.whl.zip]
+[2023-06-11 17:26:38] INFO root fetch - main [MainThread]: End processing [composabl-grpc-dev]: success
+[2023-06-11 17:26:38] INFO root fetch - main [MainThread]: End processing [composabl-grpc-dev]: success
+[2023-06-11 17:26:40] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-06-11 17:26:40] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-06-11 17:26:40] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-06-11 17:26:40] INFO root fetch - main [MainThread]: Store serial: [18458935]
