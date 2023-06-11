@@ -7901,3 +7901,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:35:23] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-2.0.0.tar.gz]
 [2023-06-11 13:35:23] INFO root fetch - main [MainThread]: End processing [ttun]: success
 [2023-06-11 13:35:23] INFO root fetch - main [MainThread]: Store serial: [18457632]
+[2023-06-11 13:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457632]
+[2023-06-11 13:40:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttun
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycolonies
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hin
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyre-check-nightly
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dartpy
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyTableWiz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuNet
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Aoipy
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrec-nightly
+[2023-06-11 13:40:33] WARNING root fetch - processPackages [hin]: Skipping, unable to determine old version
+[2023-06-11 13:40:33] INFO root fetch - main [MainThread]: End processing [hin] error
+[2023-06-11 13:40:33] INFO root fetch - processPackages [PyTableWiz]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ttun]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pycolonies]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post93] Old Version: [0.1.0.post92]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/ff/d52ef4f3702badb2b965ed11d28efa922877afe48d7211f5b389e5d704d6/QuNet-0.0.8-py3-none-any.whl
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101686481614] Old Version: [0.0.101686395243]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [Aoipy]: New version: [0.9.18] Old Version: [0.9.17]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ttun]: Downloading https://files.pythonhosted.org/packages/da/b6/95b663e2761eb342c9bc1f11bbfe8f4706af897441c20d8ddd5539f46a76/ttun-1.6.0.tar.gz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [PyTableWiz]: Downloading https://files.pythonhosted.org/packages/ad/ee/7f66c54ee93e071e95c1cd3a081807afc71e91a02abca5fb7dc22acb9244/PyTableWiz-0.0.2.tar.gz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pycolonies]: Downloading https://files.pythonhosted.org/packages/57/2c/ad1926f34e8c54dc8bb6d865511590ec1acb57644523000de4e661e8fa06/pycolonies-1.0.2.tar.gz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/37/be/0508a9ee76cefc970403d7e3620dc07ef8948f6fc6871045308c6151cef9/pyre-check-nightly-0.0.101686395243.tar.gz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/2b/53/edf8450196322c848cfc9b9759775c56c322714e1b20e431f515582bd7b7/dartpy-0.1.0.post92-cp39-cp39-win_amd64.whl
+[2023-06-11 13:40:33] INFO root fetch - processPackages [Aoipy]: Downloading https://files.pythonhosted.org/packages/19/32/af10b0bc2e821a9e92b4ee843886148150c9020cf0d270f59c0179deafe7/AoiPy-0.9.17-py3-none-any.whl
+[2023-06-11 13:40:33] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-11 13:40:33] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23501201>=10485760
+[2023-06-11 13:40:33] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-11 13:40:33] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/91/c6/d57c712eef951e5889cc42cba904e3b4623c3618eea80e54f3153275a070/torchrec_nightly-2023.6.8-py39-none-any.whl
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ttun]: Downloading https://files.pythonhosted.org/packages/4c/b4/c0a73bded4dddabdd4eb0e408e54f84fc95a258208aa01ed278faecaf36c/ttun-2.0.0.tar.gz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-11 13:40:33] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230611/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:40:33] INFO root fetch - processPackages [PyTableWiz]: Downloading https://files.pythonhosted.org/packages/dc/84/a29aa6da277561ed1a6245657bf1fe0fcb0426175ea7811c9712bcc14e76/PyTableWiz-0.0.3.tar.gz
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pycolonies]: Downloading https://files.pythonhosted.org/packages/b6/4a/5943b2440be9dc6c678c5e239b58f16c7f7f87917aee72a9f65c164c7afb/pycolonies-1.0.3-py3-none-any.whl
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ttun]: executing diffoscope
+[2023-06-11 13:40:33] INFO root fetch - processPackages [ttun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttun-1.6.0.tar.gz tmp/ttun-2.0.0.tar.gz --markdown 20230611/t/ttun/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pycolonies]: executing diffoscope
+[2023-06-11 13:40:33] INFO root fetch - processPackages [pycolonies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycolonies-1.0.2.tar.gz tmp/pycolonies-1.0.3-py3-none-any.whl.zip --markdown 20230611/p/pycolonies/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 13:40:33] INFO root fetch - processPackages [Aoipy]: Downloading https://files.pythonhosted.org/packages/f8/27/5da8a71f296f225c17b3ca84e877f963fdba228b95bff7e6c40ae3bd2a0a/AoiPy-0.9.18-py3-none-any.whl
+[2023-06-11 13:40:33] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20031629>=10485760
+[2023-06-11 13:40:33] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-11 13:40:33] INFO root fetch - processPackages [Aoipy]: executing diffoscope
+[2023-06-11 13:40:33] INFO root fetch - processPackages [Aoipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AoiPy-0.9.17-py3-none-any.whl.zip tmp/AoiPy-0.9.18-py3-none-any.whl.zip --markdown 20230611/A/Aoipy/0.9.17-0.9.18/diff.md --exclude *.pyd
+[2023-06-11 13:40:33] INFO root fetch - processPackages [PyTableWiz]: executing diffoscope
+[2023-06-11 13:40:33] INFO root fetch - processPackages [PyTableWiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTableWiz-0.0.2.tar.gz tmp/PyTableWiz-0.0.3.tar.gz --markdown 20230611/P/PyTableWiz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 13:40:33] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8bc2408f10b66a9f096323e663a67f541486c62d4a69e7cc8052175447e1/torchrec_nightly-2023.6.9-py39-none-any.whl
+[2023-06-11 13:40:33] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-11 13:40:33] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230611/t/torchrec-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 13:40:34] INFO root fetch - processPackages [pycolonies]: Remove: archive file [/home/abi/fetcher/tmp/pycolonies-1.0.2.tar.gz]
+[2023-06-11 13:40:34] INFO root fetch - processPackages [pycolonies]: Remove: archive file [/home/abi/fetcher/tmp/pycolonies-1.0.3-py3-none-any.whl.zip]
+[2023-06-11 13:40:34] INFO root fetch - main [MainThread]: End processing [pycolonies]: success
+[2023-06-11 13:40:34] INFO root fetch - processPackages [PyTableWiz]: Remove: archive file [/home/abi/fetcher/tmp/PyTableWiz-0.0.2.tar.gz]
+[2023-06-11 13:40:34] INFO root fetch - processPackages [PyTableWiz]: Remove: archive file [/home/abi/fetcher/tmp/PyTableWiz-0.0.3.tar.gz]
+[2023-06-11 13:40:34] INFO root fetch - main [MainThread]: End processing [PyTableWiz]: success
+[2023-06-11 13:40:35] INFO root fetch - processPackages [Aoipy]: Remove: archive file [/home/abi/fetcher/tmp/AoiPy-0.9.17-py3-none-any.whl.zip]
+[2023-06-11 13:40:35] INFO root fetch - processPackages [Aoipy]: Remove: archive file [/home/abi/fetcher/tmp/AoiPy-0.9.18-py3-none-any.whl.zip]
+[2023-06-11 13:40:35] INFO root fetch - main [MainThread]: End processing [Aoipy]: success
+[2023-06-11 13:40:35] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-1.6.0.tar.gz]
+[2023-06-11 13:40:35] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-2.0.0.tar.gz]
+[2023-06-11 13:40:35] INFO root fetch - main [MainThread]: End processing [ttun]: success
+[2023-06-11 13:40:35] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.8-py3-none-any.whl.zip]
+[2023-06-11 13:40:35] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-11 13:40:35] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-11 13:40:36] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-11 13:40:36] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-11 13:40:36] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-11 13:40:36] INFO root fetch - main [MainThread]: Store serial: [18457673]
