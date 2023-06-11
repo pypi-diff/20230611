@@ -10359,3 +10359,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:28:25] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev3.tar.gz]
 [2023-06-11 16:28:25] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-06-11 16:28:25] INFO root fetch - main [MainThread]: Store serial: [18458690]
+[2023-06-11 16:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458690]
+[2023-06-11 16:33:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-translatemessages
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gameyamlspiderandgenerator
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thonny
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amis-python
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jwtlib
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: i8-terminal
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smarterbombing
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redhat-qe-cloud-tools
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpltern
+[2023-06-11 16:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reflect-client
+[2023-06-11 16:33:35] WARNING root fetch - processPackages [django-translatemessages]: Skipping, unable to determine old version
+[2023-06-11 16:33:35] INFO root fetch - main [MainThread]: End processing [django-translatemessages] error
+[2023-06-11 16:33:35] INFO root fetch - processPackages [jwtlib]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.0] Old Version: [1.5.6]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [mpltern]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [smarterbombing]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [amis-python]: New version: [1.0.8.post1] Old Version: [1.0.8]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [reflect-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [thonny]: New version: [4.1.1] Old Version: [4.1.0b1.dev0]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.82]
+[2023-06-11 16:33:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/5b/79/8df97a4ac591aef1401626bd407b222421dfb16a6a60f10a1cca0dc9f08a/gameyamlspiderandgenerator-1.5.6.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/4f/59/6d26b0d0022b34066a7eef2f6a66a6ef5601b07635b855f8aa12ea54fb4f/smarterbombing-0.5.0.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [mpltern]: Downloading https://files.pythonhosted.org/packages/f1/30/a084e2e78bc93c8c5a62ab74acdfb6f5f86bc74fcd6b024b27bd07e70002/mpltern-0.5.0.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/7f/23/2dea4d79e449b925ebf1295634f632cb1bc1b9c4dc61ea686eaeb344d75c/i8-terminal-0.2.82.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/94/ba/1a7ad2269c13a4b82b470d451961a4d54d2008c57674d71c2b7f6b2c77f9/redhat_qe_cloud_tools-1.0.5.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/3b/b6/d875d9951d8a2b4d21f500df5bb09e048459c9dd85dbeedd50f25d98f6a5/jwtlib-0.3.5.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [thonny]: Downloading https://files.pythonhosted.org/packages/de/0b/699726f39d5070b707260469cb3048e7df22123b24083b0f20653837f464/thonny-4.1.0b1.dev0.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [reflect-client]: Downloading https://files.pythonhosted.org/packages/ac/39/71b50b8d231cf97fc751b8174db7bf9a1661ad04f8b25d3a6da2eba4c460/reflect-client-1.1.1.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/5e/e1/379df67def54cb5103b7ce20440df843180287c9a5ff07764c87e154f5f6/gameyamlspiderandgenerator-1.6.0.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [amis-python]: Downloading https://files.pythonhosted.org/packages/ea/dd/7d249b8e31936ad3c788004b7a1520b681f8b31feb5e42fa6f13ed3b1c0c/amis_python-1.0.8.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/4d/bd/cdff52b2b5bb9e609299c7f57e2894fd3be280b2d1191bf03d5962b2d4b8/smarterbombing-0.5.1.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.5.6.tar.gz tmp/gameyamlspiderandgenerator-1.6.0.tar.gz --markdown 20230611/g/gameyamlspiderandgenerator/1.5.6-1.6.0/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.5.0.tar.gz tmp/smarterbombing-0.5.1.tar.gz --markdown 20230611/s/smarterbombing/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/3a/4e/059b0e0994331c6b3c544b088856473010361bbdd6bcf135283c19003870/i8-terminal-0.2.9.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/0e/a8/a4076fa1d05b944aba4a8205fe3c0f18a11c52ad1f7ea5eace691260886b/jwtlib-0.3.6.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.82.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230611/i/i8-terminal/0.2.82-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [reflect-client]: Downloading https://files.pythonhosted.org/packages/d8/96/bdac62f126811efe505501918cc246902d0eb29e716808001600b419501a/reflect-client-1.1.2.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.3.5.tar.gz tmp/jwtlib-0.3.6.tar.gz --markdown 20230611/j/jwtlib/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/3e/15/530560d5fe19671d33492400148eda4aa91798aaa82e2bed190bc223f5fa/redhat_qe_cloud_tools-1.0.6.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [reflect-client]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [reflect-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflect-client-1.1.1.tar.gz tmp/reflect-client-1.1.2.tar.gz --markdown 20230611/r/reflect-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [mpltern]: Downloading https://files.pythonhosted.org/packages/78/25/7a970cb6850ea53cb7bff3871761703c4445ec435d5c4329bac0d6c3a21e/mpltern-1.0.0.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.5.tar.gz tmp/redhat_qe_cloud_tools-1.0.6.tar.gz --markdown 20230611/r/redhat-qe-cloud-tools/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [amis-python]: Downloading https://files.pythonhosted.org/packages/d9/cc/47b455384f8d7fe3e7cb8fc0b8591f4505d59ea227e818978b1c8ac6155b/amis_python-1.0.8.post1.tar.gz
+[2023-06-11 16:33:36] INFO root fetch - processPackages [mpltern]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [mpltern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpltern-0.5.0.tar.gz tmp/mpltern-1.0.0.tar.gz --markdown 20230611/m/mpltern/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 16:33:36] INFO root fetch - processPackages [amis-python]: executing diffoscope
+[2023-06-11 16:33:36] INFO root fetch - processPackages [amis-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amis_python-1.0.8.tar.gz tmp/amis_python-1.0.8.post1.tar.gz --markdown 20230611/a/amis-python/1.0.8-1.0.8.post1/diff.md --exclude *.pyd
+[2023-06-11 16:33:37] INFO root fetch - processPackages [thonny]: Downloading https://files.pythonhosted.org/packages/69/a8/7b71c9f1e153b21e10413f7771ac530b1a81bc25a031093068c57342d05c/thonny-4.1.1.tar.gz
+[2023-06-11 16:33:37] INFO root fetch - processPackages [thonny]: executing diffoscope
+[2023-06-11 16:33:37] INFO root fetch - processPackages [thonny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-4.1.0b1.dev0.tar.gz tmp/thonny-4.1.1.tar.gz --markdown 20230611/t/thonny/4.1.0b1.dev0-4.1.1/diff.md --exclude *.pyd
+[2023-06-11 16:33:37] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.5.6.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.0.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-11 16:33:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.5.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.6.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2023-06-11 16:33:37] INFO root fetch - processPackages [reflect-client]: Remove: archive file [/home/abi/fetcher/tmp/reflect-client-1.1.1.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - processPackages [reflect-client]: Remove: archive file [/home/abi/fetcher/tmp/reflect-client-1.1.2.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - main [MainThread]: End processing [reflect-client]: success
+[2023-06-11 16:33:37] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.5.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.6.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-11 16:33:37] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.5.0.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.5.1.tar.gz]
+[2023-06-11 16:33:37] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 16:33:38] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.82.tar.gz]
+[2023-06-11 16:33:38] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.9.tar.gz]
+[2023-06-11 16:33:38] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-11 16:33:38] INFO root fetch - processPackages [amis-python]: Remove: archive file [/home/abi/fetcher/tmp/amis_python-1.0.8.tar.gz]
+[2023-06-11 16:33:38] INFO root fetch - processPackages [amis-python]: Remove: archive file [/home/abi/fetcher/tmp/amis_python-1.0.8.post1.tar.gz]
+[2023-06-11 16:33:38] INFO root fetch - main [MainThread]: End processing [amis-python]: success
+[2023-06-11 16:33:41] INFO root fetch - processPackages [mpltern]: Remove: archive file [/home/abi/fetcher/tmp/mpltern-0.5.0.tar.gz]
+[2023-06-11 16:33:41] INFO root fetch - processPackages [mpltern]: Remove: archive file [/home/abi/fetcher/tmp/mpltern-1.0.0.tar.gz]
+[2023-06-11 16:33:41] INFO root fetch - main [MainThread]: End processing [mpltern]: success
+[2023-06-11 16:33:47] INFO root fetch - processPackages [thonny]: Remove: archive file [/home/abi/fetcher/tmp/thonny-4.1.0b1.dev0.tar.gz]
+[2023-06-11 16:33:47] INFO root fetch - processPackages [thonny]: Remove: archive file [/home/abi/fetcher/tmp/thonny-4.1.1.tar.gz]
+[2023-06-11 16:33:47] INFO root fetch - main [MainThread]: End processing [thonny]: success
+[2023-06-11 16:33:47] INFO root fetch - main [MainThread]: Store serial: [18458720]
