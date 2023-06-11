@@ -9013,3 +9013,165 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:06:55] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-11 15:06:55] INFO root fetch - main [MainThread]: End processing [projectaria-tools-dev]: success
 [2023-06-11 15:06:55] INFO root fetch - main [MainThread]: Store serial: [18458115]
+[2023-06-11 15:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458115]
+[2023-06-11 15:12:09] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimagine
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: needed-libs
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Dustvw
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easyrice
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imjoy-rpc
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: click-schema-config
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bundlepy
+[2023-06-11 15:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: garmin-ace
+[2023-06-11 15:12:09] INFO root fetch - processPackages [pyimagine]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [needed-libs]: New version: [0.7] Old Version: [0.6]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [garmin-ace]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [click-schema-config]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 15:12:09] WARNING root fetch - processPackages [easyrice]: Skipping, unable to determine old version
+[2023-06-11 15:12:09] INFO root fetch - processPackages [Dustvw]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [easyrice]: Start processing: nbdev-pandas
+[2023-06-11 15:12:09] INFO root fetch - main [MainThread]: End processing [easyrice] error
+[2023-06-11 15:12:09] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [bundlepy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:12:09] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/9b/8b/997cabad4ddf612ef0f19962d255be8eba9105fe2aa57b43631a3530de63/garmin_ace-0.0.1a7.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/fd/71/363a8231362f8b6920100e235713b0bd8c521527b1b693a652339a53302d/click_schema_config-0.1.2.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [bundlepy]: Downloading https://files.pythonhosted.org/packages/e4/43/31c54f303420f6ff3234567fafa8bc0fd2e0f119e4264afe5250cd62903f/bundlepy-0.1.1.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [pyimagine]: Downloading https://files.pythonhosted.org/packages/e6/cf/a59137a2ebdf2ed5188c35433aef4f4f6402527fc822555c31b545f3cd7c/pyimagine-2.7.2.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [Dustvw]: Downloading https://files.pythonhosted.org/packages/0a/01/cd803826c4482568806e0f9352e33d4a7e0c7f5e2ae53f7d1584f68743ee/Dustvw-0.2.0-py3-none-any.whl
+[2023-06-11 15:12:09] INFO root fetch - processPackages [needed-libs]: Downloading https://files.pythonhosted.org/packages/2b/78/fa3756667222c905d2628add35680697f26764b17aeeabad9d03608f690a/needed-libs-0.6.tar.gz
+[2023-06-11 15:12:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [bundlepy]: Downloading https://files.pythonhosted.org/packages/f7/b5/050839b79fac26aa2ec0f10d0db51c939344c8c059fa75ab5a3bfd66c93f/bundlepy-0.1.2.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/ba/98/e851ad914f093789afee54f30170a7e2ef6fedc385ad6da1ee17c4e5aa2b/click_schema_config-0.1.3.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [garmin-ace]: Downloading https://files.pythonhosted.org/packages/b8/ea/91cbb04aefb526c5ebc825af6bf82a185d7a02cdd975e99a6cbbc2a8657d/garmin_ace-0.0.1a8.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230611/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [needed-libs]: Downloading https://files.pythonhosted.org/packages/bc/8b/82a69de148d34035ff384e385bde06e6986f48da2eb9abdd6089852b627f/needed-libs-0.7.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230611/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [Dustvw]: Downloading https://files.pythonhosted.org/packages/a9/50/c0ca5c281fcbda71c08c61890818d026432ee772c9918b9e5884e8484ef0/Dustvw-0.2.1-py3-none-any.whl
+[2023-06-11 15:12:10] INFO root fetch - processPackages [pyimagine]: Downloading https://files.pythonhosted.org/packages/0a/18/29887b39853ce5f338b8bc2723decb1ca3999ffacb6cc5a8022680fd0544/pyimagine-2.7.3.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230611/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [bundlepy]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [bundlepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundlepy-0.1.1.tar.gz tmp/bundlepy-0.1.2.tar.gz --markdown 20230611/b/bundlepy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [click-schema-config]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [click-schema-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_schema_config-0.1.2.tar.gz tmp/click_schema_config-0.1.3.tar.gz --markdown 20230611/c/click-schema-config/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [garmin-ace]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [garmin-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin_ace-0.0.1a7.tar.gz tmp/garmin_ace-0.0.1a8.tar.gz --markdown 20230611/g/garmin-ace/0.0.1a7-0.0.1a8/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [Dustvw]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [Dustvw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dustvw-0.2.0-py3-none-any.whl.zip tmp/Dustvw-0.2.1-py3-none-any.whl.zip --markdown 20230611/D/Dustvw/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [pyimagine]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [pyimagine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimagine-2.7.2.tar.gz tmp/pyimagine-2.7.3.tar.gz --markdown 20230611/p/pyimagine/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [needed-libs]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [needed-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needed-libs-0.6.tar.gz tmp/needed-libs-0.7.tar.gz --markdown 20230611/n/needed-libs/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-11 15:12:10] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230611/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:12:11] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.2.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.3.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [click-schema-config]: Start processing: taskiq-pipelines
+[2023-06-11 15:12:11] INFO root fetch - main [MainThread]: End processing [click-schema-config]: success
+[2023-06-11 15:12:11] INFO root fetch - processPackages [taskiq-pipelines]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [bundlepy]: Remove: archive file [/home/abi/fetcher/tmp/bundlepy-0.1.1.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [bundlepy]: Remove: archive file [/home/abi/fetcher/tmp/bundlepy-0.1.2.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [bundlepy]: Start processing: QuNet
+[2023-06-11 15:12:11] INFO root fetch - main [MainThread]: End processing [bundlepy]: success
+[2023-06-11 15:12:11] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [taskiq-pipelines]: Downloading https://files.pythonhosted.org/packages/3f/e7/6e775f28ac8baf0101128f645ec2b6ee11aa30d95dc8bfc652a495c1b788/taskiq-pipelines-0.0.3.tar.gz
+[2023-06-11 15:12:11] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/ff/d52ef4f3702badb2b965ed11d28efa922877afe48d7211f5b389e5d704d6/QuNet-0.0.8-py3-none-any.whl
+[2023-06-11 15:12:11] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a7.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [garmin-ace]: Remove: archive file [/home/abi/fetcher/tmp/garmin_ace-0.0.1a8.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [garmin-ace]: Start processing: selenium-shortcuts
+[2023-06-11 15:12:11] INFO root fetch - main [MainThread]: End processing [garmin-ace]: success
+[2023-06-11 15:12:11] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [nbdev-pandas]: Start processing: pinecone-datasets
+[2023-06-11 15:12:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-11 15:12:11] INFO root fetch - processPackages [selenium-shortcuts]: New version: [4.3] Old Version: [4.2]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.5.0rc4] Old Version: [0.5.0rc3]
+[2023-06-11 15:12:11] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/26/39/31421e287100a3e8b2a93480abbb4acb230a0e71bebc127ba00dd8fe6468/pinecone_datasets-0.5.0rc3.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [needed-libs]: Remove: archive file [/home/abi/fetcher/tmp/needed-libs-0.6.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [needed-libs]: Remove: archive file [/home/abi/fetcher/tmp/needed-libs-0.7.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-11 15:12:12] INFO root fetch - processPackages [needed-libs]: Start processing: nbdev-pytorch
+[2023-06-11 15:12:12] INFO root fetch - main [MainThread]: End processing [needed-libs]: success
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-numpy]: Start processing: araby-ai
+[2023-06-11 15:12:12] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-11 15:12:12] INFO root fetch - processPackages [Dustvw]: Remove: archive file [/home/abi/fetcher/tmp/Dustvw-0.2.0-py3-none-any.whl.zip]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [Dustvw]: Remove: archive file [/home/abi/fetcher/tmp/Dustvw-0.2.1-py3-none-any.whl.zip]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [Dustvw]: Start processing: winter
+[2023-06-11 15:12:12] INFO root fetch - main [MainThread]: End processing [Dustvw]: success
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-11 15:12:12] WARNING root fetch - processPackages [araby-ai]: Skipping, unable to determine old version
+[2023-06-11 15:12:12] INFO root fetch - processPackages [araby-ai]: Start processing: nbdev-scipy
+[2023-06-11 15:12:12] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - main [MainThread]: End processing [araby-ai] error
+[2023-06-11 15:12:12] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-11 15:12:12] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [selenium-shortcuts]: Downloading https://files.pythonhosted.org/packages/56/26/0c794b7d304c5a6fc395d6edd419dff39dbbbe069914f99fbd6afcfe6905/selenium-shortcuts-4.2.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [pyimagine]: Remove: archive file [/home/abi/fetcher/tmp/pyimagine-2.7.2.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [pyimagine]: Remove: archive file [/home/abi/fetcher/tmp/pyimagine-2.7.3.tar.gz]
+[2023-06-11 15:12:12] INFO root fetch - main [MainThread]: End processing [pyimagine]: success
+[2023-06-11 15:12:12] INFO root fetch - processPackages [taskiq-pipelines]: Downloading https://files.pythonhosted.org/packages/da/48/d74c232224af157b20ff09dbcdc5197bb0ac0e109f2437b8be153409b9b9/taskiq_pipelines-0.1.0.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230611/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [taskiq-pipelines]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [taskiq-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq-pipelines-0.0.3.tar.gz tmp/taskiq_pipelines-0.1.0.tar.gz --markdown 20230611/t/taskiq-pipelines/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-11 15:12:12] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/c2/1b/3c77d2801d304d32fa733e71e897e85b02be537ffc3e52a2df8e9d2f7bc7/pinecone_datasets-0.5.0rc4.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.0rc3.tar.gz tmp/pinecone_datasets-0.5.0rc4.tar.gz --markdown 20230611/p/pinecone-datasets/0.5.0rc3-0.5.0rc4/diff.md --exclude *.pyd
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230611/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:12:12] INFO root fetch - processPackages [selenium-shortcuts]: Downloading https://files.pythonhosted.org/packages/d9/a1/c621ed56de5e0f810a84b0db66f578f8325e70adb5ce80cf7fe7b8894cd9/selenium-shortcuts-4.3.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [selenium-shortcuts]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [selenium-shortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-shortcuts-4.2.tar.gz tmp/selenium-shortcuts-4.3.tar.gz --markdown 20230611/s/selenium-shortcuts/4.2-4.3/diff.md --exclude *.pyd
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230611/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 15:12:12] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2023-06-11 15:12:12] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-06-11 15:12:12] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230611/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-06-11 15:12:13] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.8-py3-none-any.whl.zip]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-11 15:12:13] INFO root fetch - processPackages [taskiq-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-pipelines-0.0.3.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [taskiq-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_pipelines-0.1.0.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [taskiq-pipelines]: success
+[2023-06-11 15:12:13] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-11 15:12:13] INFO root fetch - processPackages [selenium-shortcuts]: Remove: archive file [/home/abi/fetcher/tmp/selenium-shortcuts-4.2.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [selenium-shortcuts]: Remove: archive file [/home/abi/fetcher/tmp/selenium-shortcuts-4.3.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [selenium-shortcuts]: success
+[2023-06-11 15:12:13] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-11 15:12:13] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc3.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc4.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-06-11 15:12:13] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-11 15:12:13] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-11 15:12:15] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2023-06-11 15:12:15] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2023-06-11 15:12:15] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-06-11 15:12:15] INFO root fetch - main [MainThread]: Store serial: [18458167]
