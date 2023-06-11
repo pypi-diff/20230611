@@ -3602,3 +3602,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:32:15] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
 [2023-06-11 05:32:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
 [2023-06-11 05:32:15] INFO root fetch - main [MainThread]: Store serial: [18455598]
+[2023-06-11 05:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455598]
+[2023-06-11 05:37:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 05:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-fieldservice-change-management
+[2023-06-11 05:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bantam
+[2023-06-11 05:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-11 05:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyipatcher
+[2023-06-11 05:37:24] INFO root fetch - processPackages [pyipatcher]: New version: [1.1.1] Old Version: [1.0.6]
+[2023-06-11 05:37:24] INFO root fetch - processPackages [spPersist]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-11 05:37:24] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-11 05:37:24] INFO root fetch - processPackages [bantam]: New version: [2.3.4] Old Version: [2.2.4]
+[2023-06-11 05:37:24] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/14/f9/9c43e312584fd627e84b17999f7d24f889879241d4fdba7d9abdf89c7c3d/bantam-2.2.4.tar.gz
+[2023-06-11 05:37:24] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/bb/73/2164410172db6b6e0f50caa82f708dcb2fc5d82073b7f54517b3fc379896/spPersist-0.3.3.tar.gz
+[2023-06-11 05:37:25] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Downloading https://files.pythonhosted.org/packages/86/61/030fe4cb6564518bb6d2a8ee429641fd2e2a12a9e2e79470e2fd0c3b4e8c/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-11 05:37:25] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/bc/1e/8b368d1e3de835284cdd1222301eea650119ecb8a659530686d4021512f0/pyipatcher-1.0.6.tar.gz
+[2023-06-11 05:37:25] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/4f/01/d73ac8fc1cfbade4a56a28f5348e24086f301e0a3dbe14f724cce69e2f42/bantam-2.3.4.tar.gz
+[2023-06-11 05:37:25] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-11 05:37:25] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.2.4.tar.gz tmp/bantam-2.3.4.tar.gz --markdown 20230611/b/bantam/2.2.4-2.3.4/diff.md --exclude *.pyd
+[2023-06-11 05:37:25] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/d5/c8/038e6aa6d254d8fbdbb82b9c44c985ac90a3136b4045570b7e21266931f4/spPersist-0.4.0.tar.gz
+[2023-06-11 05:37:25] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/91/39/b045a2586652e3f87f883f602174a5f532eda3281a2232e85da2fbe7c87c/pyipatcher-1.1.1.tar.gz
+[2023-06-11 05:37:25] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-11 05:37:25] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.3.3.tar.gz tmp/spPersist-0.4.0.tar.gz --markdown 20230611/s/spPersist/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 05:37:25] INFO root fetch - processPackages [pyipatcher]: executing diffoscope
+[2023-06-11 05:37:25] INFO root fetch - processPackages [pyipatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipatcher-1.0.6.tar.gz tmp/pyipatcher-1.1.1.tar.gz --markdown 20230611/p/pyipatcher/1.0.6-1.1.1/diff.md --exclude *.pyd
+[2023-06-11 05:37:25] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Downloading https://files.pythonhosted.org/packages/eb/c6/87431868567ace4c4317d470da0c0d69ac886a05c94ebcc7bc681171f9e2/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-11 05:37:25] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: executing diffoscope
+[2023-06-11 05:37:25] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-fieldservice-change-management/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-11 05:37:26] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.3.3.tar.gz]
+[2023-06-11 05:37:26] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.4.0.tar.gz]
+[2023-06-11 05:37:26] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-11 05:37:26] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.0.6.tar.gz]
+[2023-06-11 05:37:26] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.1.tar.gz]
+[2023-06-11 05:37:26] INFO root fetch - main [MainThread]: End processing [pyipatcher]: success
+[2023-06-11 05:37:26] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-11 05:37:26] INFO root fetch - processPackages [odoo14-addon-fieldservice-change-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_change_management-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-11 05:37:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-change-management]: success
+[2023-06-11 05:37:26] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.2.4.tar.gz]
+[2023-06-11 05:37:26] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.3.4.tar.gz]
+[2023-06-11 05:37:26] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-11 05:37:26] INFO root fetch - main [MainThread]: Store serial: [18455610]
