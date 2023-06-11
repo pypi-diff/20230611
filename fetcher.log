@@ -5924,3 +5924,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:28:56] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.9.tar.gz]
 [2023-06-11 10:28:56] INFO root fetch - main [MainThread]: End processing [fortepyan]: success
 [2023-06-11 10:28:56] INFO root fetch - main [MainThread]: Store serial: [18456627]
+[2023-06-11 10:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456627]
+[2023-06-11 10:34:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 10:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-tensorrt-fx-only
+[2023-06-11 10:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deceiver
+[2023-06-11 10:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-model-optimization-nightly
+[2023-06-11 10:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongoengine-jsonschema
+[2023-06-11 10:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyquizzer
+[2023-06-11 10:34:05] WARNING root fetch - processPackages [deceiver]: Skipping, unable to determine old version
+[2023-06-11 10:34:05] INFO root fetch - main [MainThread]: End processing [deceiver] error
+[2023-06-11 10:34:05] INFO root fetch - processPackages [pyquizzer]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-11 10:34:05] INFO root fetch - processPackages [torch-tensorrt-fx-only]: New version: [1.5.0.dev0] Old Version: [1.4.0.post1]
+[2023-06-11 10:34:05] WARNING root fetch - processPackages [mongoengine-jsonschema]: Skipping, unable to determine old version
+[2023-06-11 10:34:05] INFO root fetch - main [MainThread]: End processing [mongoengine-jsonschema] error
+[2023-06-11 10:34:05] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/94/d8/af01a693c3f60f293dfffa24b51ac3ee1935988a1ca168fce012f4465b76/pyquizzer-0.0.1a1.tar.gz
+[2023-06-11 10:34:05] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230611] Old Version: [0.7.5.dev20230609]
+[2023-06-11 10:34:05] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Downloading https://files.pythonhosted.org/packages/11/7d/ad35cf314add18a0df54191db02e8b848a678e076c3332d010863fc5eedf/torch_tensorrt_fx_only-1.4.0.post1-py3-none-any.whl
+[2023-06-11 10:34:05] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/4e/6c/7798e711468e640316ce0f214b94508428242879cef7b677fd2e8de770c6/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl
+[2023-06-11 10:34:05] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/ac/3c/1e4e4fc64aaf3981d66c78efc981941441f19b6526e85aa63098fccb0056/pyquizzer-0.0.1a2.tar.gz
+[2023-06-11 10:34:05] INFO root fetch - processPackages [pyquizzer]: executing diffoscope
+[2023-06-11 10:34:05] INFO root fetch - processPackages [pyquizzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizzer-0.0.1a1.tar.gz tmp/pyquizzer-0.0.1a2.tar.gz --markdown 20230611/p/pyquizzer/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-11 10:34:05] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/8e/39/fcc223950100d535835aa60dbdeaf24dd762adc67a991ac2b8c31105d739/tf_model_optimization_nightly-0.7.5.dev20230611-py2.py3-none-any.whl
+[2023-06-11 10:34:05] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Downloading https://files.pythonhosted.org/packages/f9/0b/04033f60c6b75aab47f29158b274a724c5d331bdb55c28f68118c0e89fbd/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl
+[2023-06-11 10:34:05] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-11 10:34:05] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230611-py2.py3-none-any.whl.zip --markdown 20230611/t/tf-model-optimization-nightly/0.7.5.dev20230609-0.7.5.dev20230611/diff.md --exclude *.pyd
+[2023-06-11 10:34:05] INFO root fetch - processPackages [torch-tensorrt-fx-only]: executing diffoscope
+[2023-06-11 10:34:05] INFO root fetch - processPackages [torch-tensorrt-fx-only]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_tensorrt_fx_only-1.4.0.post1-py3-none-any.whl.zip tmp/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl.zip --markdown 20230611/t/torch-tensorrt-fx-only/1.4.0.post1-1.5.0.dev0/diff.md --exclude *.pyd
+[2023-06-11 10:34:06] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a1.tar.gz]
+[2023-06-11 10:34:06] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a2.tar.gz]
+[2023-06-11 10:34:06] INFO root fetch - main [MainThread]: End processing [pyquizzer]: success
+[2023-06-11 10:34:07] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230609-py2.py3-none-any.whl.zip]
+[2023-06-11 10:34:07] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230611-py2.py3-none-any.whl.zip]
+[2023-06-11 10:34:07] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-11 10:34:07] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Remove: archive file [/home/abi/fetcher/tmp/torch_tensorrt_fx_only-1.4.0.post1-py3-none-any.whl.zip]
+[2023-06-11 10:34:07] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Remove: archive file [/home/abi/fetcher/tmp/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl.zip]
+[2023-06-11 10:34:07] INFO root fetch - main [MainThread]: End processing [torch-tensorrt-fx-only]: success
+[2023-06-11 10:34:07] INFO root fetch - main [MainThread]: Store serial: [18456644]
