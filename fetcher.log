@@ -8692,3 +8692,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:39:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2023-06-11 14:39:10] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-06-11 14:39:10] INFO root fetch - main [MainThread]: Store serial: [18457937]
+[2023-06-11 14:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457937]
+[2023-06-11 14:44:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bundlepy
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitcoll
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-decorators
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: server-chat-pyqt-T101
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semanticclean
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enformer-dna-diff
+[2023-06-11 14:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cnvmsg
+[2023-06-11 14:44:20] INFO root fetch - processPackages [bundlepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 14:44:20] WARNING root fetch - processPackages [enformer-dna-diff]: Skipping, unable to determine old version
+[2023-06-11 14:44:20] INFO root fetch - main [MainThread]: End processing [enformer-dna-diff] error
+[2023-06-11 14:44:20] INFO root fetch - processPackages [langchain-decorators]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 14:44:20] INFO root fetch - processPackages [gitcoll]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-11 14:44:20] INFO root fetch - processPackages [semanticclean]: New version: [0.21] Old Version: [0.2]
+[2023-06-11 14:44:20] WARNING root fetch - processPackages [server-chat-pyqt-T101]: Skipping, unable to determine old version
+[2023-06-11 14:44:20] WARNING root fetch - processPackages [cnvmsg]: Skipping, unable to determine old version
+[2023-06-11 14:44:20] INFO root fetch - main [MainThread]: End processing [server-chat-pyqt-T101] error
+[2023-06-11 14:44:20] INFO root fetch - main [MainThread]: End processing [cnvmsg] error
+[2023-06-11 14:44:20] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/ff/79/fc3575b8d859d311fd6f4189941bcf3afe04a27d48e4afea155a46c4b0cc/semanticclean-0.2.tar.gz
+[2023-06-11 14:44:20] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/b2/06/ff2f2308e18a268745addac86b191abe3f814d1d58787862f113d59c8f7a/gitcoll-0.0.15.tar.gz
+[2023-06-11 14:44:20] INFO root fetch - processPackages [bundlepy]: Downloading https://files.pythonhosted.org/packages/db/ff/c96bd9b2bd72588245811161b0cc484282a47d75762fb9300ed2e0576f70/bundlepy-0.1.0.tar.gz
+[2023-06-11 14:44:20] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/ea/f6/feeaa8d498872407326b3807f26b41ba76f430b4ce23e1e0e6552842b36e/langchain-decorators-0.0.2.tar.gz
+[2023-06-11 14:44:20] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/8b/67/227dcc51035203bee83c5c4861d103318f72da9750200d8b4f5d12a94f43/semanticclean-0.21.tar.gz
+[2023-06-11 14:44:21] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/5f/b1/4ec64f64dbd178bcba052f888531d7dab0d6ff7abd0a207d915a54e4d1a6/gitcoll-0.0.16.tar.gz
+[2023-06-11 14:44:21] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 14:44:21] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.2.tar.gz tmp/semanticclean-0.21.tar.gz --markdown 20230611/s/semanticclean/0.2-0.21/diff.md --exclude *.pyd
+[2023-06-11 14:44:21] INFO root fetch - processPackages [gitcoll]: executing diffoscope
+[2023-06-11 14:44:21] INFO root fetch - processPackages [gitcoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitcoll-0.0.15.tar.gz tmp/gitcoll-0.0.16.tar.gz --markdown 20230611/g/gitcoll/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-11 14:44:21] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/61/3d/49c0a6a4c64f35fce8a7f8e2da72d283806002925da75d1455010728909d/langchain-decorators-0.0.3.tar.gz
+[2023-06-11 14:44:21] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2023-06-11 14:44:21] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.0.2.tar.gz tmp/langchain-decorators-0.0.3.tar.gz --markdown 20230611/l/langchain-decorators/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 14:44:21] INFO root fetch - processPackages [bundlepy]: Downloading https://files.pythonhosted.org/packages/e4/43/31c54f303420f6ff3234567fafa8bc0fd2e0f119e4264afe5250cd62903f/bundlepy-0.1.1.tar.gz
+[2023-06-11 14:44:21] INFO root fetch - processPackages [bundlepy]: executing diffoscope
+[2023-06-11 14:44:21] INFO root fetch - processPackages [bundlepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundlepy-0.1.0.tar.gz tmp/bundlepy-0.1.1.tar.gz --markdown 20230611/b/bundlepy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 14:44:21] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.2.tar.gz]
+[2023-06-11 14:44:21] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.21.tar.gz]
+[2023-06-11 14:44:21] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 14:44:22] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.15.tar.gz]
+[2023-06-11 14:44:22] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.16.tar.gz]
+[2023-06-11 14:44:22] INFO root fetch - main [MainThread]: End processing [gitcoll]: success
+[2023-06-11 14:44:22] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.2.tar.gz]
+[2023-06-11 14:44:22] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.0.3.tar.gz]
+[2023-06-11 14:44:22] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2023-06-11 14:44:22] INFO root fetch - processPackages [bundlepy]: Remove: archive file [/home/abi/fetcher/tmp/bundlepy-0.1.0.tar.gz]
+[2023-06-11 14:44:22] INFO root fetch - processPackages [bundlepy]: Remove: archive file [/home/abi/fetcher/tmp/bundlepy-0.1.1.tar.gz]
+[2023-06-11 14:44:22] INFO root fetch - main [MainThread]: End processing [bundlepy]: success
+[2023-06-11 14:44:22] INFO root fetch - main [MainThread]: Store serial: [18457963]
