@@ -4644,3 +4644,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:29:28] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.59.tar.gz]
 [2023-06-11 07:29:28] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
 [2023-06-11 07:29:28] INFO root fetch - main [MainThread]: Store serial: [18456025]
+[2023-06-11 07:34:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456025]
+[2023-06-11 07:34:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 07:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sm-datasets
+[2023-06-11 07:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Space-Weather-Interface-P
+[2023-06-11 07:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-pcrjjc
+[2023-06-11 07:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smarterbombing
+[2023-06-11 07:34:38] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 07:34:38] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 07:34:38] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-11 07:34:38] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 07:34:38] INFO root fetch - processPackages [sm-datasets]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-11 07:34:38] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/0e/4b/e1b2749047e904fee27a0a10a64fcd0445d1d9e54350efcd764ec9943664/nonebot-plugin-pcrjjc-0.1.4.tar.gz
+[2023-06-11 07:34:38] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/b2/5a/6a77d4ae2f7dc8066baf4143c6dc48d09793fdca69c0dedce2940d985947/smarterbombing-0.3.0.tar.gz
+[2023-06-11 07:34:38] INFO root fetch - processPackages [sm-datasets]: Downloading https://files.pythonhosted.org/packages/c0/b9/343ce06f93f1b8a67679f68abe10c9bc70a67abd312ad712f2f3aefa9440/sm_datasets-1.1.4.tar.gz
+[2023-06-11 07:34:38] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/c3/93/ff1cc3634276cdcebeb7e11de118c32b544dbc84a5a00817df79305f513d/smarterbombing-0.3.1.tar.gz
+[2023-06-11 07:34:38] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 07:34:38] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.0.tar.gz tmp/smarterbombing-0.3.1.tar.gz --markdown 20230611/s/smarterbombing/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-11 07:34:38] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/c2/9c/e6975594d06f3970d1432a709220439e7402bf0aa2f309a15ea11f2930b1/nonebot-plugin-pcrjjc-0.1.5.tar.gz
+[2023-06-11 07:34:38] INFO root fetch - processPackages [sm-datasets]: Downloading https://files.pythonhosted.org/packages/9a/c7/7da84f69edb7a5f56e20e019a6ed2e49bc9ca22415923f689c5a99fcfcf7/sm_datasets-1.1.5.tar.gz
+[2023-06-11 07:34:38] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: executing diffoscope
+[2023-06-11 07:34:38] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-pcrjjc-0.1.4.tar.gz tmp/nonebot-plugin-pcrjjc-0.1.5.tar.gz --markdown 20230611/n/nonebot-plugin-pcrjjc/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 07:34:39] INFO root fetch - processPackages [sm-datasets]: executing diffoscope
+[2023-06-11 07:34:39] INFO root fetch - processPackages [sm-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sm_datasets-1.1.4.tar.gz tmp/sm_datasets-1.1.5.tar.gz --markdown 20230611/s/sm-datasets/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-11 07:34:39] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.0.tar.gz]
+[2023-06-11 07:34:39] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.1.tar.gz]
+[2023-06-11 07:34:39] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 07:34:40] INFO root fetch - processPackages [sm-datasets]: Remove: archive file [/home/abi/fetcher/tmp/sm_datasets-1.1.4.tar.gz]
+[2023-06-11 07:34:40] INFO root fetch - processPackages [sm-datasets]: Remove: archive file [/home/abi/fetcher/tmp/sm_datasets-1.1.5.tar.gz]
+[2023-06-11 07:34:40] INFO root fetch - main [MainThread]: End processing [sm-datasets]: success
+[2023-06-11 07:34:40] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.4.tar.gz]
+[2023-06-11 07:34:40] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.5.tar.gz]
+[2023-06-11 07:34:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
+[2023-06-11 07:34:40] INFO root fetch - main [MainThread]: Store serial: [18456038]
