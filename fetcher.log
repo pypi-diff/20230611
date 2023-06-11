@@ -7463,3 +7463,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:04:01] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.7.tar.gz]
 [2023-06-11 13:04:01] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-11 13:04:01] INFO root fetch - main [MainThread]: Store serial: [18457359]
+[2023-06-11 13:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457359]
+[2023-06-11 13:09:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xju
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-esteid
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foxaysbasiccalculator
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docstruct
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anova-analysis
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-formset
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-esteid
+[2023-06-11 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grsq
+[2023-06-11 13:09:10] INFO root fetch - processPackages [django-esteid]: New version: [4.0b2] Old Version: [4.0b1]
+[2023-06-11 13:09:10] INFO root fetch - processPackages [xju]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-11 13:09:10] INFO root fetch - processPackages [grsq]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-11 13:09:10] WARNING root fetch - processPackages [foxaysbasiccalculator]: Skipping, unable to determine old version
+[2023-06-11 13:09:10] INFO root fetch - main [MainThread]: End processing [foxaysbasiccalculator] error
+[2023-06-11 13:09:10] INFO root fetch - processPackages [django-esteid]: New version: [4.0b2] Old Version: [4.0b1]
+[2023-06-11 13:09:10] INFO root fetch - processPackages [anova-analysis]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-11 13:09:10] INFO root fetch - processPackages [django-formset]: New version: [1.0.dev2] Old Version: [1.0.dev1]
+[2023-06-11 13:09:10] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 13:09:10] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/ce/4e/566346147efb72b221f7cc30c6d33dde51b46e0b74d8ad3af91e7a054f30/django_esteid-4.0b1.tar.gz
+[2023-06-11 13:09:10] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/ce/4e/566346147efb72b221f7cc30c6d33dde51b46e0b74d8ad3af91e7a054f30/django_esteid-4.0b1.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [grsq]: Downloading https://files.pythonhosted.org/packages/cd/d3/d242fa21a6ad2b57f9f5536d89d2063a347b584fd33128f01a8b6f72483e/grsq-0.1.0.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [xju]: Downloading https://files.pythonhosted.org/packages/98/e1/b145040ac900407a7734b098221210b3d9adf7d756c52b5c1c4aa3432da8/xju-1.2.8.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [anova-analysis]: Downloading https://files.pythonhosted.org/packages/95/17/2af58964a9ca90c1582b7ec82b691a171ce2bf601e0e501211e55725b060/anova_analysis-1.0.4.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-formset]: Downloading https://files.pythonhosted.org/packages/4f/c8/e19db7a0b0d7af5cc6a2efc842fc3178a2ff2239d980676c299b4e47dee6/django-formset-1.0.dev1.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [grsq]: Downloading https://files.pythonhosted.org/packages/61/73/ece05284cff2eab0b6a4e8607f857269b725b6a11c441688ed95dfb2a345/grsq-1.0.0.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [grsq]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [grsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grsq-0.1.0.tar.gz tmp/grsq-1.0.0.tar.gz --markdown 20230611/g/grsq/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/78/26/e67fbb7ccec9d863c233ecd01f49041492c91b5111e89d9512eff7ba048b/django_esteid-4.0b2.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230611/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-esteid]: Downloading https://files.pythonhosted.org/packages/78/26/e67fbb7ccec9d863c233ecd01f49041492c91b5111e89d9512eff7ba048b/django_esteid-4.0b2.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [anova-analysis]: Downloading https://files.pythonhosted.org/packages/64/87/320d657a8e67f4076ca39f33b6219773d56c7e4d3e43e363dc017fe25fa1/anova_analysis-1.0.5.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-formset]: Downloading https://files.pythonhosted.org/packages/49/20/844e26a32177f3b14b68dee735ccfc37eee93190aed50ab2ada92581b4bb/django-formset-1.0.dev2.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [xju]: Downloading https://files.pythonhosted.org/packages/a4/e6/fbb75eb8d948a6b94c698ab095688bd1846642eca2a38deca8fc0fa2ab7b/xju-1.2.9.tar.gz
+[2023-06-11 13:09:11] INFO root fetch - processPackages [anova-analysis]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [anova-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anova_analysis-1.0.4.tar.gz tmp/anova_analysis-1.0.5.tar.gz --markdown 20230611/a/anova-analysis/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-esteid]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-esteid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_esteid-4.0b1.tar.gz tmp/django_esteid-4.0b2.tar.gz --markdown 20230611/d/django-esteid/4.0b1-4.0b2/diff.md --exclude *.pyd
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-formset]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-formset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-formset-1.0.dev1.tar.gz tmp/django-formset-1.0.dev2.tar.gz --markdown 20230611/d/django-formset/1.0.dev1-1.0.dev2/diff.md --exclude *.pyd
+[2023-06-11 13:09:11] INFO root fetch - processPackages [xju]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [xju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xju-1.2.8.tar.gz tmp/xju-1.2.9.tar.gz --markdown 20230611/x/xju/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-esteid]: executing diffoscope
+[2023-06-11 13:09:11] INFO root fetch - processPackages [django-esteid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_esteid-4.0b1.tar.gz tmp/django_esteid-4.0b2.tar.gz --markdown 20230611/d/django-esteid/4.0b1-4.0b2/diff.md --exclude *.pyd
+[2023-06-11 13:09:12] INFO root fetch - processPackages [grsq]: Remove: archive file [/home/abi/fetcher/tmp/grsq-0.1.0.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - processPackages [grsq]: Remove: archive file [/home/abi/fetcher/tmp/grsq-1.0.0.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - main [MainThread]: End processing [grsq]: success
+[2023-06-11 13:09:12] INFO root fetch - processPackages [anova-analysis]: Remove: archive file [/home/abi/fetcher/tmp/anova_analysis-1.0.4.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - processPackages [anova-analysis]: Remove: archive file [/home/abi/fetcher/tmp/anova_analysis-1.0.5.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - main [MainThread]: End processing [anova-analysis]: success
+[2023-06-11 13:09:12] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.8.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-06-11 13:09:12] INFO root fetch - processPackages [xju]: Remove: archive file [/home/abi/fetcher/tmp/xju-1.2.8.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - processPackages [xju]: Remove: archive file [/home/abi/fetcher/tmp/xju-1.2.9.tar.gz]
+[2023-06-11 13:09:12] INFO root fetch - main [MainThread]: End processing [xju]: success
+[2023-06-11 13:09:13] INFO root fetch - processPackages [django-esteid]: Remove: archive file [/home/abi/fetcher/tmp/django_esteid-4.0b1.tar.gz]
+[2023-06-11 13:09:13] INFO root fetch - processPackages [django-esteid]: Remove: archive file [/home/abi/fetcher/tmp/django_esteid-4.0b2.tar.gz]
+[2023-06-11 13:09:13] INFO root fetch - main [MainThread]: End processing [django-esteid]: success
+[2023-06-11 13:09:13] INFO root fetch - main [MainThread]: End processing [django-esteid]: success
+[2023-06-11 13:09:20] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-formset-1.0.dev1.tar.gz]
+[2023-06-11 13:09:20] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-formset-1.0.dev2.tar.gz]
+[2023-06-11 13:09:20] INFO root fetch - main [MainThread]: End processing [django-formset]: success
+[2023-06-11 13:09:20] INFO root fetch - main [MainThread]: Store serial: [18457388]
