@@ -5835,3 +5835,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:13:17] INFO root fetch - processPackages [towalink-tlm]: Remove: archive file [/home/abi/fetcher/tmp/towalink_tlm-0.2.0.tar.gz]
 [2023-06-11 10:13:17] INFO root fetch - main [MainThread]: End processing [towalink-tlm]: success
 [2023-06-11 10:13:17] INFO root fetch - main [MainThread]: Store serial: [18456599]
+[2023-06-11 10:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456599]
+[2023-06-11 10:18:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyquizzer
+[2023-06-11 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-board
+[2023-06-11 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu121
+[2023-06-11 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu118
+[2023-06-11 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shihua-roshareclient
+[2023-06-11 10:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu117
+[2023-06-11 10:18:25] INFO root fetch - processPackages [pyquizzer]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-11 10:18:25] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-11 10:18:25] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-11 10:18:25] INFO root fetch - processPackages [pipen-board]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-11 10:18:25] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-11 10:18:25] WARNING root fetch - processPackages [shihua-roshareclient]: Skipping, unable to determine old version
+[2023-06-11 10:18:25] INFO root fetch - main [MainThread]: End processing [shihua-roshareclient] error
+[2023-06-11 10:18:25] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 10:18:25] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 10:18:25] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/94/d8/af01a693c3f60f293dfffa24b51ac3ee1935988a1ca168fce012f4465b76/pyquizzer-0.0.1a1.tar.gz
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/23/32/7c4aca5043949637226aa5461bb2dd4defb71c6be3c8ca5640eedda29a09/pipen_board-0.5.0.tar.gz
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/0f/6a/22ba770aa0a5a0223b48a927ac8ee12edc6db56f297eeeb377a96a398f26/pipen_board-0.5.1.tar.gz
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pyquizzer]: Downloading https://files.pythonhosted.org/packages/ac/3c/1e4e4fc64aaf3981d66c78efc981941441f19b6526e85aa63098fccb0056/pyquizzer-0.0.1a2.tar.gz
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.5.0.tar.gz tmp/pipen_board-0.5.1.tar.gz --markdown 20230611/p/pipen-board/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pyquizzer]: executing diffoscope
+[2023-06-11 10:18:26] INFO root fetch - processPackages [pyquizzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizzer-0.0.1a1.tar.gz tmp/pyquizzer-0.0.1a2.tar.gz --markdown 20230611/p/pyquizzer/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-06-11 10:18:26] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-11 10:18:27] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a1.tar.gz]
+[2023-06-11 10:18:27] INFO root fetch - processPackages [pyquizzer]: Remove: archive file [/home/abi/fetcher/tmp/pyquizzer-0.0.1a2.tar.gz]
+[2023-06-11 10:18:27] INFO root fetch - main [MainThread]: End processing [pyquizzer]: success
+[2023-06-11 10:18:28] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 10:18:28] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 10:18:28] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-06-11 10:18:28] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 10:18:28] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 10:18:28] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-06-11 10:18:28] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 10:18:28] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 10:18:28] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-06-11 10:18:34] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.0.tar.gz]
+[2023-06-11 10:18:34] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.1.tar.gz]
+[2023-06-11 10:18:34] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-11 10:18:34] INFO root fetch - main [MainThread]: Store serial: [18456616]
