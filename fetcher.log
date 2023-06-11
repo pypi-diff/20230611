@@ -14789,3 +14789,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:44:14] INFO root fetch - processPackages [pspy]: Remove: archive file [/home/abi/fetcher/tmp/pspy-1.6.3.tar.gz]
 [2023-06-11 22:44:14] INFO root fetch - main [MainThread]: End processing [pspy]: success
 [2023-06-11 22:44:14] INFO root fetch - main [MainThread]: Store serial: [18460821]
+[2023-06-11 22:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460821]
+[2023-06-11 22:49:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 22:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oraculo
+[2023-06-11 22:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heimdallm
+[2023-06-11 22:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hardyweinbergcalculator
+[2023-06-11 22:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tool_server_generator
+[2023-06-11 22:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rsync-time-machine
+[2023-06-11 22:49:25] WARNING root fetch - processPackages [oraculo]: Skipping, unable to determine old version
+[2023-06-11 22:49:25] INFO root fetch - main [MainThread]: End processing [oraculo] error
+[2023-06-11 22:49:25] WARNING root fetch - processPackages [heimdallm]: Skipping, unable to determine old version
+[2023-06-11 22:49:25] INFO root fetch - main [MainThread]: End processing [heimdallm] error
+[2023-06-11 22:49:25] INFO root fetch - processPackages [tool_server_generator]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-11 22:49:25] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.1.8.post20230611] Old Version: [0.1.7.post20230611]
+[2023-06-11 22:49:25] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/cc/1f/e2d21487577718a3445eff4c91e5e8f1de97597c1f3b391d2eaf2d8e1d8c/hardyweinbergcalculator-0.1.7.post20230611-py3-none-any.whl
+[2023-06-11 22:49:25] INFO root fetch - processPackages [tool_server_generator]: Downloading https://files.pythonhosted.org/packages/c8/09/866d1ea2950f37bdb8d1252b1e047c6d9fc2c37e2b755e043587ec027ab3/tool_server_generator-0.4.3.tar.gz
+[2023-06-11 22:49:25] INFO root fetch - processPackages [rsync-time-machine]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-11 22:49:25] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/80/16/bdf0ec59993881e164d535c59adfca464f8dab44ae73f40dee6c4f6e204b/hardyweinbergcalculator-0.1.8.post20230611.zip
+[2023-06-11 22:49:25] INFO root fetch - processPackages [tool_server_generator]: Downloading https://files.pythonhosted.org/packages/73/8a/33db01cbe920eaf357fb1eb993fe2565a0cf9c77b30fa857c344f41c3c78/tool_server_generator-0.4.4.tar.gz
+[2023-06-11 22:49:25] INFO root fetch - processPackages [rsync-time-machine]: Downloading https://files.pythonhosted.org/packages/af/1d/936e72acb53972da7f30a6e826832d07825b2ae1285fc6f905c4add111fd/rsync-time-machine-1.1.0.tar.gz
+[2023-06-11 22:49:25] INFO root fetch - processPackages [tool_server_generator]: executing diffoscope
+[2023-06-11 22:49:25] INFO root fetch - processPackages [tool_server_generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_server_generator-0.4.3.tar.gz tmp/tool_server_generator-0.4.4.tar.gz --markdown 20230611/t/tool_server_generator/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-11 22:49:25] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-11 22:49:25] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.1.7.post20230611-py3-none-any.whl.zip tmp/hardyweinbergcalculator-0.1.8.post20230611.zip --markdown 20230611/h/hardyweinbergcalculator/0.1.7.post20230611-0.1.8.post20230611/diff.md --exclude *.pyd
+[2023-06-11 22:49:26] INFO root fetch - processPackages [rsync-time-machine]: Downloading https://files.pythonhosted.org/packages/31/c6/8ae149197ea139dee35218f7c486f197f3e2310ea14432e085855e4094d6/rsync-time-machine-1.2.0.tar.gz
+[2023-06-11 22:49:26] INFO root fetch - processPackages [rsync-time-machine]: executing diffoscope
+[2023-06-11 22:49:26] INFO root fetch - processPackages [rsync-time-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsync-time-machine-1.1.0.tar.gz tmp/rsync-time-machine-1.2.0.tar.gz --markdown 20230611/r/rsync-time-machine/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 22:49:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.1.7.post20230611-py3-none-any.whl.zip]
+[2023-06-11 22:49:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.1.8.post20230611.zip]
+[2023-06-11 22:49:26] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-11 22:49:27] INFO root fetch - processPackages [rsync-time-machine]: Remove: archive file [/home/abi/fetcher/tmp/rsync-time-machine-1.1.0.tar.gz]
+[2023-06-11 22:49:27] INFO root fetch - processPackages [rsync-time-machine]: Remove: archive file [/home/abi/fetcher/tmp/rsync-time-machine-1.2.0.tar.gz]
+[2023-06-11 22:49:27] INFO root fetch - main [MainThread]: End processing [rsync-time-machine]: success
+[2023-06-11 22:49:27] INFO root fetch - processPackages [tool_server_generator]: Remove: archive file [/home/abi/fetcher/tmp/tool_server_generator-0.4.3.tar.gz]
+[2023-06-11 22:49:27] INFO root fetch - processPackages [tool_server_generator]: Remove: archive file [/home/abi/fetcher/tmp/tool_server_generator-0.4.4.tar.gz]
+[2023-06-11 22:49:27] INFO root fetch - main [MainThread]: End processing [tool_server_generator]: success
+[2023-06-11 22:49:27] INFO root fetch - main [MainThread]: Store serial: [18460842]
