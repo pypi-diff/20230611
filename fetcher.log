@@ -8261,3 +8261,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:57:22] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.1.4.tar.gz]
 [2023-06-11 13:57:22] INFO root fetch - main [MainThread]: End processing [ai21]: success
 [2023-06-11 13:57:22] INFO root fetch - main [MainThread]: Store serial: [18457777]
+[2023-06-11 14:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457777]
+[2023-06-11 14:02:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: razel
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggerflow
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimuslib
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanolayer
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strictdoc
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specialStr
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: optimuslib
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ttun
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: move2archive
+[2023-06-11 14:02:31] INFO root fetch - processPackages [optimuslib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 14:02:31] INFO root fetch - processPackages [razel]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 14:02:31] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-11 14:02:31] WARNING root fetch - processPackages [loggerflow]: Skipping, unable to determine old version
+[2023-06-11 14:02:31] INFO root fetch - main [MainThread]: End processing [loggerflow] error
+[2023-06-11 14:02:31] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-11 14:02:31] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 14:02:31] WARNING root fetch - processPackages [specialStr]: Skipping, unable to determine old version
+[2023-06-11 14:02:31] INFO root fetch - processPackages [optimuslib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 14:02:31] INFO root fetch - main [MainThread]: End processing [specialStr] error
+[2023-06-11 14:02:31] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/57/20/e8e01ccdf9190f201291d67ffef425d64270fcd7068a74d555a998548eef/optimuslib-0.0.8.tar.gz
+[2023-06-11 14:02:31] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/57/20/e8e01ccdf9190f201291d67ffef425d64270fcd7068a74d555a998548eef/optimuslib-0.0.8.tar.gz
+[2023-06-11 14:02:31] INFO root fetch - processPackages [move2archive]: New version: [2023.6.11.1] Old Version: [2023.2.5.1]
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ttun]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-11 14:02:31] INFO root fetch - processPackages [nanolayer]: Downloading https://files.pythonhosted.org/packages/f7/80/e468152babc6e88200c8550f2acb9118ee6b98559961a04f5057b14cce4a/nanolayer-0.4.8-py3-none-any.whl
+[2023-06-11 14:02:31] INFO root fetch - processPackages [razel]: Downloading https://files.pythonhosted.org/packages/ce/42/f272aaf3be2fb88da665839bcbe4182c7aefce563eb575594d1d73352eb5/razel-0.1.8.tar.gz
+[2023-06-11 14:02:31] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/be/a0/d2be46f069788b8383c5a267b93daa1e54110c455f3a3c93250f574f4d04/bigdl-dllib-2.4.0b20230610.tar.gz
+[2023-06-11 14:02:31] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-06-11 14:02:31] INFO root fetch - processPackages [move2archive]: Downloading https://files.pythonhosted.org/packages/c2/ec/b1af9bd0ea49a3216f44bdf355d8d7d4756409b451db574c46cf19f48e7a/move2archive-2023.2.5.1-py3-none-any.whl
+[2023-06-11 14:02:31] INFO root fetch - processPackages [ttun]: Downloading https://files.pythonhosted.org/packages/4c/b4/c0a73bded4dddabdd4eb0e408e54f84fc95a258208aa01ed278faecaf36c/ttun-2.0.0.tar.gz
+[2023-06-11 14:02:31] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559954>=10485760
+[2023-06-11 14:02:31] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-11 14:02:31] INFO root fetch - processPackages [nanolayer]: Downloading https://files.pythonhosted.org/packages/70/8a/a686dbb9639ca2e1d67b4529bad6754b3a7a4935d0e3000f500f51951aa4/nanolayer-0.4.9-py3-none-any.whl
+[2023-06-11 14:02:32] INFO root fetch - processPackages [razel]: Downloading https://files.pythonhosted.org/packages/16/7d/1a52250e02f7f6c4d4c04fd871c6f00bd6db0b1cb26f7f99be3503ae6d2f/razel-0.1.9.tar.gz
+[2023-06-11 14:02:32] INFO root fetch - processPackages [ttun]: Downloading https://files.pythonhosted.org/packages/3d/5f/1126a731f0c73368a317221a3175f413af94313e10660b008f4352f82449/ttun-2.0.1.tar.gz
+[2023-06-11 14:02:32] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/0d/41/841c782b1a05dfdd5a62448da91fbf89069618daef1f764d05c3bc621557/optimuslib-0.0.9.tar.gz
+[2023-06-11 14:02:32] INFO root fetch - processPackages [razel]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [razel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/razel-0.1.8.tar.gz tmp/razel-0.1.9.tar.gz --markdown 20230611/r/razel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 14:02:32] INFO root fetch - processPackages [optimuslib]: Downloading https://files.pythonhosted.org/packages/0d/41/841c782b1a05dfdd5a62448da91fbf89069618daef1f764d05c3bc621557/optimuslib-0.0.9.tar.gz
+[2023-06-11 14:02:32] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-06-11 14:02:32] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230611/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-11 14:02:32] INFO root fetch - processPackages [ttun]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [ttun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttun-2.0.0.tar.gz tmp/ttun-2.0.1.tar.gz --markdown 20230611/t/ttun/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-11 14:02:32] INFO root fetch - processPackages [optimuslib]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [optimuslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimuslib-0.0.8.tar.gz tmp/optimuslib-0.0.9.tar.gz --markdown 20230611/o/optimuslib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 14:02:32] INFO root fetch - processPackages [optimuslib]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [optimuslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimuslib-0.0.8.tar.gz tmp/optimuslib-0.0.9.tar.gz --markdown 20230611/o/optimuslib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 14:02:32] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230611/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 14:02:32] INFO root fetch - processPackages [move2archive]: Downloading https://files.pythonhosted.org/packages/7d/ae/2e2a461f171ae881c927bbc1da0340a2bb488268b15a5124f3255c50df8b/move2archive-2023.6.11.1-py3-none-any.whl
+[2023-06-11 14:02:32] INFO root fetch - processPackages [move2archive]: executing diffoscope
+[2023-06-11 14:02:32] INFO root fetch - processPackages [move2archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/move2archive-2023.2.5.1-py3-none-any.whl.zip tmp/move2archive-2023.6.11.1-py3-none-any.whl.zip --markdown 20230611/m/move2archive/2023.2.5.1-2023.6.11.1/diff.md --exclude *.pyd
+[2023-06-11 14:02:33] INFO root fetch - processPackages [razel]: Remove: archive file [/home/abi/fetcher/tmp/razel-0.1.8.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - processPackages [razel]: Remove: archive file [/home/abi/fetcher/tmp/razel-0.1.9.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [razel]: success
+[2023-06-11 14:02:33] INFO root fetch - processPackages [optimuslib]: Remove: archive file [/home/abi/fetcher/tmp/optimuslib-0.0.8.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - processPackages [optimuslib]: Remove: archive file [/home/abi/fetcher/tmp/optimuslib-0.0.9.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [optimuslib]: success
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [optimuslib]: success
+[2023-06-11 14:02:33] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-2.0.0.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-2.0.1.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [ttun]: success
+[2023-06-11 14:02:33] INFO root fetch - processPackages [nanolayer]: Remove: archive file [/home/abi/fetcher/tmp/nanolayer-0.4.8-py3-none-any.whl.zip]
+[2023-06-11 14:02:33] INFO root fetch - processPackages [nanolayer]: Remove: archive file [/home/abi/fetcher/tmp/nanolayer-0.4.9-py3-none-any.whl.zip]
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-06-11 14:02:33] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-11 14:02:33] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.2.5.1-py3-none-any.whl.zip]
+[2023-06-11 14:02:33] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.6.11.1-py3-none-any.whl.zip]
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: End processing [move2archive]: success
+[2023-06-11 14:02:33] INFO root fetch - main [MainThread]: Store serial: [18457810]
