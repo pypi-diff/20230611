@@ -7412,3 +7412,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:58:45] INFO root fetch - processPackages [pysimconnect]: Remove: archive file [/home/abi/fetcher/tmp/pysimconnect-0.2.5.tar.gz]
 [2023-06-11 12:58:45] INFO root fetch - main [MainThread]: End processing [pysimconnect]: success
 [2023-06-11 12:58:45] INFO root fetch - main [MainThread]: Store serial: [18457337]
+[2023-06-11 13:03:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457337]
+[2023-06-11 13:03:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 13:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-module-register
+[2023-06-11 13:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apysc
+[2023-06-11 13:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bupap
+[2023-06-11 13:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaml-indent
+[2023-06-11 13:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdshoplib
+[2023-06-11 13:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydashlite
+[2023-06-11 13:03:54] INFO root fetch - processPackages [fastapi-module-register]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 13:03:54] INFO root fetch - processPackages [yaml-indent]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 13:03:54] WARNING root fetch - processPackages [bupap]: Skipping, unable to determine old version
+[2023-06-11 13:03:54] INFO root fetch - main [MainThread]: End processing [bupap] error
+[2023-06-11 13:03:54] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-11 13:03:54] INFO root fetch - processPackages [apysc]: New version: [2.8.7] Old Version: [2.8.6]
+[2023-06-11 13:03:54] INFO root fetch - processPackages [pydashlite]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-11 13:03:54] INFO root fetch - processPackages [fastapi-module-register]: Downloading https://files.pythonhosted.org/packages/12/15/57682251a598396126524900de1f616482c043522aa9f7947036803b17df/fastapi_module_register-0.0.1.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [yaml-indent]: Downloading https://files.pythonhosted.org/packages/bc/35/94cb78b51e5703246a52b6e3233bb4371b42dfc822921a9bdb26d8ee5aef/yaml_indent-0.1.1.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ab/70/df9c5c5d96664478db8f99d3e5f586f5b3c2e9061618d1a6926b8597c258/apysc-2.8.6.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [pydashlite]: Downloading https://files.pythonhosted.org/packages/b7/bb/859b189d9f8d92c618ee721fee8ae857864deb48385af82286c10656ed08/pydashlite-0.1.5.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [yaml-indent]: Downloading https://files.pythonhosted.org/packages/9f/7f/98f4b781f257092ff11e1a28c8d14b8a320d64f2f4e0e55aa26f9c4557ab/yaml_indent-0.1.2.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [fastapi-module-register]: Downloading https://files.pythonhosted.org/packages/c9/99/2230a80dd2d3ae9b8ef59a4b049f7246e41ebf951a7ae2f7c87e345d8520/fastapi_module_register-0.0.2.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [yaml-indent]: executing diffoscope
+[2023-06-11 13:03:54] INFO root fetch - processPackages [yaml-indent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_indent-0.1.1.tar.gz tmp/yaml_indent-0.1.2.tar.gz --markdown 20230611/y/yaml-indent/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 13:03:54] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ab/bc/47c93a7eb32da95050471e0ce32e03ee741b39b5b529ec911005c4169cde/apysc-2.8.7.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [pydashlite]: Downloading https://files.pythonhosted.org/packages/5f/3c/f16b264fc9b18e630e6386760bb3222907a58626fb9751beee57c57570ed/pydashlite-0.2.0.tar.gz
+[2023-06-11 13:03:54] INFO root fetch - processPackages [fastapi-module-register]: executing diffoscope
+[2023-06-11 13:03:54] INFO root fetch - processPackages [fastapi-module-register]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_module_register-0.0.1.tar.gz tmp/fastapi_module_register-0.0.2.tar.gz --markdown 20230611/f/fastapi-module-register/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 13:03:54] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-11 13:03:54] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230611/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-11 13:03:54] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-11 13:03:54] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.6.tar.gz tmp/apysc-2.8.7.tar.gz --markdown 20230611/a/apysc/2.8.6-2.8.7/diff.md --exclude *.pyd
+[2023-06-11 13:03:54] INFO root fetch - processPackages [pydashlite]: executing diffoscope
+[2023-06-11 13:03:54] INFO root fetch - processPackages [pydashlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydashlite-0.1.5.tar.gz tmp/pydashlite-0.2.0.tar.gz --markdown 20230611/p/pydashlite/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 13:03:55] INFO root fetch - processPackages [yaml-indent]: Remove: archive file [/home/abi/fetcher/tmp/yaml_indent-0.1.1.tar.gz]
+[2023-06-11 13:03:55] INFO root fetch - processPackages [yaml-indent]: Remove: archive file [/home/abi/fetcher/tmp/yaml_indent-0.1.2.tar.gz]
+[2023-06-11 13:03:55] INFO root fetch - main [MainThread]: End processing [yaml-indent]: success
+[2023-06-11 13:03:55] INFO root fetch - processPackages [fastapi-module-register]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_register-0.0.1.tar.gz]
+[2023-06-11 13:03:55] INFO root fetch - processPackages [fastapi-module-register]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_register-0.0.2.tar.gz]
+[2023-06-11 13:03:55] INFO root fetch - main [MainThread]: End processing [fastapi-module-register]: success
+[2023-06-11 13:03:56] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-11 13:03:56] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-11 13:03:56] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-11 13:03:56] INFO root fetch - processPackages [pydashlite]: Remove: archive file [/home/abi/fetcher/tmp/pydashlite-0.1.5.tar.gz]
+[2023-06-11 13:03:56] INFO root fetch - processPackages [pydashlite]: Remove: archive file [/home/abi/fetcher/tmp/pydashlite-0.2.0.tar.gz]
+[2023-06-11 13:03:56] INFO root fetch - main [MainThread]: End processing [pydashlite]: success
+[2023-06-11 13:04:01] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.6.tar.gz]
+[2023-06-11 13:04:01] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.7.tar.gz]
+[2023-06-11 13:04:01] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-11 13:04:01] INFO root fetch - main [MainThread]: Store serial: [18457359]
