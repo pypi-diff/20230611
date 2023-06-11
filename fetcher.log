@@ -11640,3 +11640,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:08:56] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
 [2023-06-11 18:08:56] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-06-11 18:08:56] INFO root fetch - main [MainThread]: Store serial: [18459203]
+[2023-06-11 18:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459203]
+[2023-06-11 18:14:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tvocos
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dockery
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klayout
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ulidantic
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycommons-lang
+[2023-06-11 18:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyperf
+[2023-06-11 18:14:05] WARNING root fetch - processPackages [tvocos]: Skipping, unable to determine old version
+[2023-06-11 18:14:05] INFO root fetch - main [MainThread]: End processing [tvocos] error
+[2023-06-11 18:14:05] INFO root fetch - processPackages [klayout]: New version: [0.28.post1] Old Version: [0.28.9.post1]
+[2023-06-11 18:14:05] WARNING root fetch - processPackages [dockery]: Skipping, unable to determine old version
+[2023-06-11 18:14:05] WARNING root fetch - processPackages [ulidantic]: Skipping, unable to determine old version
+[2023-06-11 18:14:05] INFO root fetch - main [MainThread]: End processing [dockery] error
+[2023-06-11 18:14:05] INFO root fetch - main [MainThread]: End processing [ulidantic] error
+[2023-06-11 18:14:05] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 18:14:05] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-11 18:14:05] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-11 18:14:05] INFO root fetch - processPackages [pyperf]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-11 18:14:05] INFO root fetch - processPackages [pycommons-lang]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 18:14:05] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/87/78/6f094e223f5f5c3d3ca40b9ec814516948f64b5ee9d14c2f4179d8155af2/klayout-0.28.9.post1-cp310-cp310-musllinux_1_1_x86_64.whl
+[2023-06-11 18:14:05] WARNING root fetch - processPackages [klayout]: Skipping package: exceeds size limit 20495777>=10485760
+[2023-06-11 18:14:05] INFO root fetch - main [MainThread]: End processing [klayout] error
+[2023-06-11 18:14:05] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-11 18:14:05] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 18:14:05] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-11 18:14:05] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230611/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-11 18:14:05] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 18:14:05] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 18:14:05] INFO root fetch - processPackages [pyperf]: Downloading https://files.pythonhosted.org/packages/15/72/546e8ee9f52ba73cd8590db4fa09d9ecf3d90a6442edf710c883d8c918e1/pyperf-2.6.0.tar.gz
+[2023-06-11 18:14:05] INFO root fetch - processPackages [pycommons-lang]: Downloading https://files.pythonhosted.org/packages/08/71/4d62cdc62cfd78b2ecf78d7068d597cc0e78c5d443412185c98b2a8a7997/pycommons_lang-0.0.3.tar.gz
+[2023-06-11 18:14:05] INFO root fetch - processPackages [pycommons-lang]: Downloading https://files.pythonhosted.org/packages/c7/d0/cda144521d3d858ec9c98af8add4e3d11206e9289f6754c8b54c14439423/pycommons_lang-0.0.4.tar.gz
+[2023-06-11 18:14:06] INFO root fetch - processPackages [pyperf]: Downloading https://files.pythonhosted.org/packages/67/0a/d842997a16cc52849470940d8d107162d3d15f8ab9a015f6cd321f6cb061/pyperf-2.6.1.tar.gz
+[2023-06-11 18:14:06] INFO root fetch - processPackages [pycommons-lang]: executing diffoscope
+[2023-06-11 18:14:06] INFO root fetch - processPackages [pycommons-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons_lang-0.0.3.tar.gz tmp/pycommons_lang-0.0.4.tar.gz --markdown 20230611/p/pycommons-lang/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 18:14:06] INFO root fetch - processPackages [pyperf]: executing diffoscope
+[2023-06-11 18:14:06] INFO root fetch - processPackages [pyperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf-2.6.0.tar.gz tmp/pyperf-2.6.1.tar.gz --markdown 20230611/p/pyperf/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-11 18:14:07] INFO root fetch - processPackages [pycommons-lang]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_lang-0.0.3.tar.gz]
+[2023-06-11 18:14:07] INFO root fetch - processPackages [pycommons-lang]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_lang-0.0.4.tar.gz]
+[2023-06-11 18:14:07] INFO root fetch - main [MainThread]: End processing [pycommons-lang]: success
+[2023-06-11 18:14:07] INFO root fetch - processPackages [pyperf]: Remove: archive file [/home/abi/fetcher/tmp/pyperf-2.6.0.tar.gz]
+[2023-06-11 18:14:07] INFO root fetch - processPackages [pyperf]: Remove: archive file [/home/abi/fetcher/tmp/pyperf-2.6.1.tar.gz]
+[2023-06-11 18:14:07] INFO root fetch - main [MainThread]: End processing [pyperf]: success
+[2023-06-11 18:14:09] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-11 18:14:09] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-11 18:14:09] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-11 18:14:09] INFO root fetch - main [MainThread]: Store serial: [18459235]
