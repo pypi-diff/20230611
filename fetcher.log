@@ -11047,3 +11047,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:31:53] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.7.tar.gz]
 [2023-06-11 17:31:53] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
 [2023-06-11 17:31:53] INFO root fetch - main [MainThread]: Store serial: [18458969]
+[2023-06-11 17:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458969]
+[2023-06-11 17:37:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlmhglite
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: absbox
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catencfamily
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pmsm-pm-temp-prediction
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fcal
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getajob
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unihan-etl
+[2023-06-11 17:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: matgl
+[2023-06-11 17:37:02] INFO root fetch - processPackages [fcal]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.461.2] Old Version: [0.460.0]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.461.2]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [xlmhglite]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [catencfamily]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2023-06-11 17:37:02] WARNING root fetch - processPackages [pmsm-pm-temp-prediction]: Skipping, unable to determine old version
+[2023-06-11 17:37:02] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: Start processing: vollseg
+[2023-06-11 17:37:02] INFO root fetch - processPackages [matgl]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-11 17:37:02] INFO root fetch - main [MainThread]: End processing [pmsm-pm-temp-prediction] error
+[2023-06-11 17:37:02] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [getajob]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [xlmhglite]: Downloading https://files.pythonhosted.org/packages/b7/b2/c195765f014a41f8028fdfc3032ad908af2f219e670e771b076a67dc5494/xlmhglite-1.0.1.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-11 17:37:02] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/d9/94/f1254ec6d328cd72656493b20921a4683982befc1f70a591c7c5e3395e16/catencfamily-0.0.68.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/55/7d/164e1f455a2eaae6e71c0b0832279b425a57be45fa93c6c24b8984775353/stigg_api_client_v2-0.460.0.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/3b/56/1e780705e3eebfa4cd63a12e80b6005ec6c250f8e8bd09b725aac360fde5/getajob-0.2.1.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/16/0f/5b28380c440b2ca1a29fa609b3fdd59500327d5c6344385fd45ffcb22dc2/stigg_api_client-0.461.2.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/66/82/6d7db32f5668f13160efe772a44798da613157c7ce831c6b02914d09bccc/fcal-0.1.0.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/19/18/dcd9c18413ca1c8d38a8bcdc47caa51cc49f48942b3d8aba750a57d70fca/matgl-0.5.2.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/75/a2/eebb767d4d0f18b027b0ee3d558e7b6af5b92e1b1f3b4152b88dd49b97ed/catencfamily-0.0.69.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/ac/13/fcaa93f646788a3edfb238cc8303974415195b4791c37fdb944afc36b360/getajob-0.2.2.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [xlmhglite]: Downloading https://files.pythonhosted.org/packages/7d/e0/23b2e6372fae8f513017a174e5f1280b3040e1480c01a2bd3b226aea9a7e/xlmhglite-1.1.0.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.68.tar.gz tmp/catencfamily-0.0.69.tar.gz --markdown 20230611/c/catencfamily/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.461.2.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230611/s/stigg-api-client/0.461.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [xlmhglite]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [xlmhglite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlmhglite-1.0.1.tar.gz tmp/xlmhglite-1.1.0.tar.gz --markdown 20230611/x/xlmhglite/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/08/e9/a5d81760d735ef60e13abd5859df0a67eec39526bbbe36113ed3d9afb69e/fcal-0.2.0.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [getajob]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [getajob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getajob-0.2.1.tar.gz tmp/getajob-0.2.2.tar.gz --markdown 20230611/g/getajob/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/03/93/3660076d104c784bf05ca8620ab7463030ccde13706de0c91af6a94c6a09/matgl-0.5.3.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/ce/fc/46e4a9679791a71b520f4b75d9e11d7a8f79a17224f098cdf8f96fcaca96/stigg_api_client_v2-0.461.2.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [fcal]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [fcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcal-0.1.0.tar.gz tmp/fcal-0.2.0.tar.gz --markdown 20230611/f/fcal/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.460.0.tar.gz tmp/stigg_api_client_v2-0.461.2.tar.gz --markdown 20230611/s/stigg-api-client-v2/0.460.0-0.461.2/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.5.2.tar.gz tmp/matgl-0.5.3.tar.gz --markdown 20230611/m/matgl/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-06-11 17:37:02] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230611/a/absbox/0.8.9-0.9.3/diff.md --exclude *.pyd
+[2023-06-11 17:37:02] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-06-11 17:37:02] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230611/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-11 17:37:03] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-11 17:37:03] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-11 17:37:03] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.1.0.tar.gz]
+[2023-06-11 17:37:03] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.2.0.tar.gz]
+[2023-06-11 17:37:03] INFO root fetch - main [MainThread]: End processing [fcal]: success
+[2023-06-11 17:37:04] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.2.1.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.2.2.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - main [MainThread]: End processing [getajob]: success
+[2023-06-11 17:37:04] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2023-06-11 17:37:04] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.68.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.69.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-11 17:37:04] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-06-11 17:37:04] INFO root fetch - processPackages [xlmhglite]: Remove: archive file [/home/abi/fetcher/tmp/xlmhglite-1.0.1.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - processPackages [xlmhglite]: Remove: archive file [/home/abi/fetcher/tmp/xlmhglite-1.1.0.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - main [MainThread]: End processing [xlmhglite]: success
+[2023-06-11 17:37:04] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.2.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.5.3.tar.gz]
+[2023-06-11 17:37:04] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-06-11 17:37:05] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.461.2.tar.gz]
+[2023-06-11 17:37:05] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-06-11 17:37:05] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-11 17:37:05] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.460.0.tar.gz]
+[2023-06-11 17:37:05] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.461.2.tar.gz]
+[2023-06-11 17:37:05] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-06-11 17:37:05] INFO root fetch - main [MainThread]: Store serial: [18459004]
