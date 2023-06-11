@@ -13692,3 +13692,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:02:08] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.55.tar.gz]
 [2023-06-11 21:02:08] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-06-11 21:02:08] INFO root fetch - main [MainThread]: Store serial: [18460254]
+[2023-06-11 21:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460254]
+[2023-06-11 21:07:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klayout
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cycode
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ariston
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arcade
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiku
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napatrackmater
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starplot
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vastaanottaa
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yvflask
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tvocos
+[2023-06-11 21:07:19] INFO root fetch - processPackages [cycode]: New version: [0.2.5.dev6] Old Version: [0.2.5.dev5]
+[2023-06-11 21:07:19] WARNING root fetch - processPackages [starplot]: Skipping, unable to determine old version
+[2023-06-11 21:07:19] INFO root fetch - processPackages [starplot]: Start processing: invent
+[2023-06-11 21:07:19] INFO root fetch - main [MainThread]: End processing [starplot] error
+[2023-06-11 21:07:19] INFO root fetch - processPackages [vastaanottaa]: New version: [2023.6.12] Old Version: [2023.6.11]
+[2023-06-11 21:07:19] WARNING root fetch - processPackages [yvflask]: Skipping, unable to determine old version
+[2023-06-11 21:07:19] INFO root fetch - main [MainThread]: End processing [yvflask] error
+[2023-06-11 21:07:19] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.6] Old Version: [3.6.5]
+[2023-06-11 21:07:19] WARNING root fetch - processPackages [tvocos]: Skipping, unable to determine old version
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ariston]: New version: [0.13.5] Old Version: [0.13.3]
+[2023-06-11 21:07:19] INFO root fetch - main [MainThread]: End processing [tvocos] error
+[2023-06-11 21:07:19] INFO root fetch - processPackages [hiku]: New version: [0.7.0rc9] Old Version: [0.7.0rc8]
+[2023-06-11 21:07:19] INFO root fetch - processPackages [klayout]: New version: [0.28.post1] Old Version: [0.28.9.post2]
+[2023-06-11 21:07:19] INFO root fetch - processPackages [arcade]: New version: [3.0.0.dev23] Old Version: [3.0.0.dev22]
+[2023-06-11 21:07:19] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/c4/5c/7b65ae890ce09d8ee6ac5bf61cefad6664796c2d8c2127a3aa615ba9b099/hiku-0.7.0rc8.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/b4/55/128a0aa34953074f646fe541e6395caf064b47d504b1181d2a5fe74fbfbb/cycode-0.2.5.dev5.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/27/a3/0a73631b2cc644e754b6e1caffe47592fbe86fc867a2d74ff874a1b91313/napatrackmater-3.6.5.tar.gz
+[2023-06-11 21:07:19] WARNING root fetch - processPackages [invent]: Skipping, unable to determine old version
+[2023-06-11 21:07:19] INFO root fetch - main [MainThread]: End processing [invent] error
+[2023-06-11 21:07:19] INFO root fetch - processPackages [vastaanottaa]: Downloading https://files.pythonhosted.org/packages/c6/f4/124e92bb99bd35b9cf81a8f1498710db07246df978a39cfa92b09044d9f1/vastaanottaa-2023.6.11.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/2d/c6/66650e9f98faef8848bc3b0e6cf4ed2edb50d74e03233967689b28a39fea/klayout-0.28.9.post2.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/ef/8b/28449cfa45e3dc3ab689e989950c9ad7ffcd9596e0f910b4c31e1cdc9a0d/ariston-0.13.3.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/b3/ba/21c6e077517296756f2b640aa4b70fd8ed63db0f86133d0f4afcac142464/hiku-0.7.0rc9.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [hiku]: executing diffoscope
+[2023-06-11 21:07:19] INFO root fetch - processPackages [hiku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiku-0.7.0rc8.tar.gz tmp/hiku-0.7.0rc9.tar.gz --markdown 20230611/h/hiku/0.7.0rc8-0.7.0rc9/diff.md --exclude *.pyd
+[2023-06-11 21:07:19] INFO root fetch - processPackages [arcade]: Downloading https://files.pythonhosted.org/packages/87/f5/0d3350495e4a54e7d121a8626e18d7ca2010e80d90899160a978d3213603/arcade-3.0.0.dev22.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/f6/b6/527c49c2b7d81e65d5a6048fc2694b95deef0635d4f3a7a4dc51c1333a58/cycode-0.2.5.dev6.tar.gz
+[2023-06-11 21:07:19] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/f9/89/18436e6b0ae7dc986b572801888273074b3fe8d43936abbdd8dd4d369b33/napatrackmater-3.6.6.tar.gz
+[2023-06-11 21:07:20] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 21:07:20] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.5.tar.gz tmp/napatrackmater-3.6.6.tar.gz --markdown 20230611/n/napatrackmater/3.6.5-3.6.6/diff.md --exclude *.pyd
+[2023-06-11 21:07:20] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-06-11 21:07:20] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.5.dev5.tar.gz tmp/cycode-0.2.5.dev6.tar.gz --markdown 20230611/c/cycode/0.2.5.dev5-0.2.5.dev6/diff.md --exclude *.pyd
+[2023-06-11 21:07:20] INFO root fetch - processPackages [vastaanottaa]: Downloading https://files.pythonhosted.org/packages/b5/e9/1d217ffc39a92f5d0c8761575309419a4c13e89e746bb8afd738a49044aa/vastaanottaa-2023.6.12.tar.gz
+[2023-06-11 21:07:20] INFO root fetch - processPackages [ariston]: Downloading https://files.pythonhosted.org/packages/79/4b/bff7dadf14bde1b146c63d556f4c2e33bbdddcfa1e8b2d598f685493dced/ariston-0.13.5.tar.gz
+[2023-06-11 21:07:20] INFO root fetch - processPackages [vastaanottaa]: executing diffoscope
+[2023-06-11 21:07:20] INFO root fetch - processPackages [vastaanottaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vastaanottaa-2023.6.11.tar.gz tmp/vastaanottaa-2023.6.12.tar.gz --markdown 20230611/v/vastaanottaa/2023.6.11-2023.6.12/diff.md --exclude *.pyd
+[2023-06-11 21:07:20] INFO root fetch - processPackages [ariston]: executing diffoscope
+[2023-06-11 21:07:20] INFO root fetch - processPackages [ariston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariston-0.13.3.tar.gz tmp/ariston-0.13.5.tar.gz --markdown 20230611/a/ariston/0.13.3-0.13.5/diff.md --exclude *.pyd
+[2023-06-11 21:07:20] WARNING root fetch - processPackages [arcade]: Skipping package: exceeds size limit 38238386>=10485760
+[2023-06-11 21:07:20] INFO root fetch - main [MainThread]: End processing [arcade] error
+[2023-06-11 21:07:20] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/24/6d/942ebb901e7e6a1fe55a2953fda5080fac8835ccceeed4731995694b7076/klayout-0.28.post1.tar.gz
+[2023-06-11 21:07:21] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.5.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.6.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 21:07:21] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.0rc8.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.0rc9.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - main [MainThread]: End processing [hiku]: success
+[2023-06-11 21:07:21] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.3.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - processPackages [ariston]: Remove: archive file [/home/abi/fetcher/tmp/ariston-0.13.5.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - main [MainThread]: End processing [ariston]: success
+[2023-06-11 21:07:21] INFO root fetch - processPackages [vastaanottaa]: Remove: archive file [/home/abi/fetcher/tmp/vastaanottaa-2023.6.11.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - processPackages [vastaanottaa]: Remove: archive file [/home/abi/fetcher/tmp/vastaanottaa-2023.6.12.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - main [MainThread]: End processing [vastaanottaa]: success
+[2023-06-11 21:07:21] INFO root fetch - processPackages [klayout]: executing diffoscope
+[2023-06-11 21:07:21] INFO root fetch - processPackages [klayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klayout-0.28.9.post2.tar.gz tmp/klayout-0.28.post1.tar.gz --markdown 20230611/k/klayout/0.28.9.post2-0.28.post1/diff.md --exclude *.pyd
+[2023-06-11 21:07:21] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.5.dev5.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.5.dev6.tar.gz]
+[2023-06-11 21:07:21] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-06-11 21:08:11] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.9.post2.tar.gz]
+[2023-06-11 21:08:11] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.post1.tar.gz]
+[2023-06-11 21:08:11] INFO root fetch - main [MainThread]: End processing [klayout]: success
+[2023-06-11 21:08:11] INFO root fetch - main [MainThread]: Store serial: [18460319]
