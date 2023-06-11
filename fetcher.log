@@ -7186,3 +7186,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:34:57] INFO root fetch - processPackages [proptables]: Remove: archive file [/home/abi/fetcher/tmp/proptables-0.0.4.tar.gz]
 [2023-06-11 12:34:57] INFO root fetch - main [MainThread]: End processing [proptables]: success
 [2023-06-11 12:34:57] INFO root fetch - main [MainThread]: Store serial: [18457252]
+[2023-06-11 12:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457252]
+[2023-06-11 12:40:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbakery
+[2023-06-11 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius-dev
+[2023-06-11 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoauthnumber
+[2023-06-11 12:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-runtime
+[2023-06-11 12:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-pcrjjc
+[2023-06-11 12:40:06] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 12:40:06] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 12:40:06] INFO root fetch - processPackages [autoauthnumber]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-11 12:40:06] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-11 12:40:06] WARNING root fetch - processPackages [openbakery]: Skipping, unable to determine old version
+[2023-06-11 12:40:06] INFO root fetch - main [MainThread]: End processing [openbakery] error
+[2023-06-11 12:40:06] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/c2/9c/e6975594d06f3970d1432a709220439e7402bf0aa2f309a15ea11f2930b1/nonebot-plugin-pcrjjc-0.1.5.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [autoauthnumber]: Downloading https://files.pythonhosted.org/packages/fa/93/704a4e47775485a1316b1824581bb47d822a5a8d968016c54f5854758fed/autoauthnumber-1.2.1.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 12:40:06] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 12:40:06] INFO root fetch - processPackages [autoauthnumber]: Downloading https://files.pythonhosted.org/packages/32/d4/ceee43d0ddd755f18729a76708beae4004184928391b484b8e0793bf3114/autoauthnumber-1.2.2.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/44/98/47807694eba6ed5593bc3ef554c7cde422a4d0bec34cc7af89925ee2e745/nonebot-plugin-pcrjjc-0.1.6.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-11 12:40:06] INFO root fetch - processPackages [autoauthnumber]: executing diffoscope
+[2023-06-11 12:40:06] INFO root fetch - processPackages [autoauthnumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoauthnumber-1.2.1.tar.gz tmp/autoauthnumber-1.2.2.tar.gz --markdown 20230611/a/autoauthnumber/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-11 12:40:06] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: executing diffoscope
+[2023-06-11 12:40:06] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-pcrjjc-0.1.5.tar.gz tmp/nonebot-plugin-pcrjjc-0.1.6.tar.gz --markdown 20230611/n/nonebot-plugin-pcrjjc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-11 12:40:06] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-11 12:40:06] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230611/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 12:40:07] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 12:40:07] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 12:40:07] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 12:40:07] INFO root fetch - processPackages [autoauthnumber]: Remove: archive file [/home/abi/fetcher/tmp/autoauthnumber-1.2.1.tar.gz]
+[2023-06-11 12:40:07] INFO root fetch - processPackages [autoauthnumber]: Remove: archive file [/home/abi/fetcher/tmp/autoauthnumber-1.2.2.tar.gz]
+[2023-06-11 12:40:07] INFO root fetch - main [MainThread]: End processing [autoauthnumber]: success
+[2023-06-11 12:40:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-11 12:40:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-11 12:40:07] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-11 12:40:08] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.5.tar.gz]
+[2023-06-11 12:40:08] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.6.tar.gz]
+[2023-06-11 12:40:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
+[2023-06-11 12:40:08] INFO root fetch - main [MainThread]: Store serial: [18457270]
