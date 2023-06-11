@@ -12740,3 +12740,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:44:07] INFO root fetch - processPackages [wrangles]: Remove: archive file [/home/abi/fetcher/tmp/wrangles-1.3.0.tar.gz]
 [2023-06-11 19:44:07] INFO root fetch - main [MainThread]: End processing [wrangles]: success
 [2023-06-11 19:44:07] INFO root fetch - main [MainThread]: Store serial: [18459797]
+[2023-06-11 19:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459797]
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flarespy
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fio-banka
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangolazy
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Myplayer
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpmc
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpmc
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdftext-to-speech
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: templaterSPLN
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liquer-framework
+[2023-06-11 19:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybiolib
+[2023-06-11 19:49:16] INFO root fetch - processPackages [fio-banka]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 19:49:16] INFO root fetch - processPackages [mpmc]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-11 19:49:16] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-11 19:49:16] WARNING root fetch - processPackages [Myplayer]: Skipping, unable to determine old version
+[2023-06-11 19:49:16] INFO root fetch - processPackages [Myplayer]: Start processing: pdftext-to-speech
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: End processing [Myplayer] error
+[2023-06-11 19:49:16] INFO root fetch - processPackages [mpmc]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-11 19:49:16] INFO root fetch - processPackages [liquer-framework]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-11 19:49:16] WARNING root fetch - processPackages [djangolazy]: Skipping, unable to determine old version
+[2023-06-11 19:49:16] INFO root fetch - processPackages [djangolazy]: Start processing: tdfpy
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: End processing [djangolazy] error
+[2023-06-11 19:49:16] WARNING root fetch - processPackages [templaterSPLN]: Skipping, unable to determine old version
+[2023-06-11 19:49:16] INFO root fetch - processPackages [templaterSPLN]: Start processing: visionapp
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: End processing [templaterSPLN] error
+[2023-06-11 19:49:16] WARNING root fetch - processPackages [pdftext-to-speech]: Skipping, unable to determine old version
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: End processing [pdftext-to-speech] error
+[2023-06-11 19:49:16] INFO root fetch - processPackages [pybiolib]: New version: [1.1.974] Old Version: [1.1.971]
+[2023-06-11 19:49:16] WARNING root fetch - processPackages [pdftext-to-speech]: Skipping, unable to determine old version
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: End processing [pdftext-to-speech] error
+[2023-06-11 19:49:16] INFO root fetch - processPackages [tdfpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-11 19:49:16] INFO root fetch - processPackages [mpmc]: Downloading https://files.pythonhosted.org/packages/57/4e/bd7fdfe2f83332acaec065b5ef74af9a184fc52e810275f89b5ecbd1afa0/mpmc-0.1.1.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/04/25/388588a964ee3e165799f36a52ac68432b412f43d936c345577d8f7314ff/flarespy-0.9.7.tar.gz
+[2023-06-11 19:49:16] WARNING root fetch - processPackages [visionapp]: Skipping, unable to determine old version
+[2023-06-11 19:49:16] INFO root fetch - main [MainThread]: End processing [visionapp] error
+[2023-06-11 19:49:16] INFO root fetch - processPackages [mpmc]: Downloading https://files.pythonhosted.org/packages/57/4e/bd7fdfe2f83332acaec065b5ef74af9a184fc52e810275f89b5ecbd1afa0/mpmc-0.1.1.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [fio-banka]: Downloading https://files.pythonhosted.org/packages/60/ac/fb74c5d384c0bbf7228bcdf36b060f8a4966126302ea01095166ab1f7c29/fio_banka-1.0.1.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [liquer-framework]: Downloading https://files.pythonhosted.org/packages/b5/7b/3a49aeefce84ef37e6db92cb3513e5cc9135c1af7d45d2c8e94367f89f5d/liquer-framework-0.8.0.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/16/81/b84faee034cf9ec8f863611749b5efbe046622f02fcd690d01f2f5bb132d/pybiolib-1.1.971.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/5c/a2/fd2122b178b5011bf221065cb30ae98e06ac0d95230abb6dd56670f15dc7/pybiolib-1.1.974.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [tdfpy]: Downloading https://files.pythonhosted.org/packages/9a/20/4f9d7411f650fe409d8e5b4e89afe3a711e24bc7e28008bac32c692b1778/tdfpy-0.1.6.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/7e/3f154203fb0f1369802551bb5c886d19787ba3740cac776f1ab46ff30696/flarespy-0.9.8.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [fio-banka]: Downloading https://files.pythonhosted.org/packages/84/75/556e508ca6a086505c54cf9acff10cc217455118d7fa34fd5332f14a9f2b/fio_banka-1.0.2.tar.gz
+[2023-06-11 19:49:16] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-11 19:49:16] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.971.tar.gz tmp/pybiolib-1.1.974.tar.gz --markdown 20230611/p/pybiolib/1.1.971-1.1.974/diff.md --exclude *.pyd
+[2023-06-11 19:49:17] INFO root fetch - processPackages [mpmc]: Downloading https://files.pythonhosted.org/packages/67/42/1ecd664773e2079886c6a5440dbf861fc289fc0f939eae601d51a4a89559/mpmc-0.1.3.tar.gz
+[2023-06-11 19:49:17] INFO root fetch - processPackages [mpmc]: Downloading https://files.pythonhosted.org/packages/67/42/1ecd664773e2079886c6a5440dbf861fc289fc0f939eae601d51a4a89559/mpmc-0.1.3.tar.gz
+[2023-06-11 19:49:17] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-06-11 19:49:17] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230611/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-11 19:49:17] INFO root fetch - processPackages [fio-banka]: executing diffoscope
+[2023-06-11 19:49:17] INFO root fetch - processPackages [fio-banka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fio_banka-1.0.1.tar.gz tmp/fio_banka-1.0.2.tar.gz --markdown 20230611/f/fio-banka/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 19:49:17] INFO root fetch - processPackages [liquer-framework]: Downloading https://files.pythonhosted.org/packages/35/dc/354a7d97c326156c27a1022b63b8689a29fdcfe49ab1ec4ed26a95a78d75/liquer-framework-0.9.0.tar.gz
+[2023-06-11 19:49:17] INFO root fetch - processPackages [mpmc]: executing diffoscope
+[2023-06-11 19:49:17] INFO root fetch - processPackages [mpmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpmc-0.1.1.tar.gz tmp/mpmc-0.1.3.tar.gz --markdown 20230611/m/mpmc/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 19:49:17] INFO root fetch - processPackages [mpmc]: executing diffoscope
+[2023-06-11 19:49:17] INFO root fetch - processPackages [mpmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpmc-0.1.1.tar.gz tmp/mpmc-0.1.3.tar.gz --markdown 20230611/m/mpmc/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 19:49:17] INFO root fetch - processPackages [liquer-framework]: executing diffoscope
+[2023-06-11 19:49:17] INFO root fetch - processPackages [liquer-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquer-framework-0.8.0.tar.gz tmp/liquer-framework-0.9.0.tar.gz --markdown 20230611/l/liquer-framework/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 19:49:18] INFO root fetch - processPackages [tdfpy]: Downloading https://files.pythonhosted.org/packages/cb/a0/fbe9e74b09496864015c5e3f14b9844482e302eb90884100da4ea4c10bd5/tdfpy-0.1.7.tar.gz
+[2023-06-11 19:49:18] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.7.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.8.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-06-11 19:49:18] INFO root fetch - processPackages [mpmc]: Remove: archive file [/home/abi/fetcher/tmp/mpmc-0.1.1.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - processPackages [mpmc]: Remove: archive file [/home/abi/fetcher/tmp/mpmc-0.1.3.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - main [MainThread]: End processing [mpmc]: success
+[2023-06-11 19:49:18] INFO root fetch - processPackages [fio-banka]: Remove: archive file [/home/abi/fetcher/tmp/fio_banka-1.0.1.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - processPackages [fio-banka]: Remove: archive file [/home/abi/fetcher/tmp/fio_banka-1.0.2.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - main [MainThread]: End processing [fio-banka]: success
+[2023-06-11 19:49:18] INFO root fetch - main [MainThread]: End processing [mpmc]: success
+[2023-06-11 19:49:18] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.971.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.974.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-11 19:49:18] INFO root fetch - processPackages [tdfpy]: executing diffoscope
+[2023-06-11 19:49:18] INFO root fetch - processPackages [tdfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfpy-0.1.6.tar.gz tmp/tdfpy-0.1.7.tar.gz --markdown 20230611/t/tdfpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-11 19:49:18] INFO root fetch - processPackages [liquer-framework]: Remove: archive file [/home/abi/fetcher/tmp/liquer-framework-0.8.0.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - processPackages [liquer-framework]: Remove: archive file [/home/abi/fetcher/tmp/liquer-framework-0.9.0.tar.gz]
+[2023-06-11 19:49:18] INFO root fetch - main [MainThread]: End processing [liquer-framework]: success
+[2023-06-11 19:49:20] INFO root fetch - processPackages [tdfpy]: Remove: archive file [/home/abi/fetcher/tmp/tdfpy-0.1.6.tar.gz]
+[2023-06-11 19:49:20] INFO root fetch - processPackages [tdfpy]: Remove: archive file [/home/abi/fetcher/tmp/tdfpy-0.1.7.tar.gz]
+[2023-06-11 19:49:20] INFO root fetch - main [MainThread]: End processing [tdfpy]: success
+[2023-06-11 19:49:20] INFO root fetch - main [MainThread]: Store serial: [18459858]
