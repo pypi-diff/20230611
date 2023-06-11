@@ -5298,3 +5298,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:54:28] INFO root fetch - processPackages [fossiler]: Remove: archive file [/home/abi/fetcher/tmp/fossiler-0.0.4.6.tar.gz]
 [2023-06-11 08:54:28] INFO root fetch - main [MainThread]: End processing [fossiler]: success
 [2023-06-11 08:54:28] INFO root fetch - main [MainThread]: Store serial: [18456387]
+[2023-06-11 08:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456387]
+[2023-06-11 08:59:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 08:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: realtouch
+[2023-06-11 08:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapDisk
+[2023-06-11 08:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: max-num
+[2023-06-11 08:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-adventures
+[2023-06-11 08:59:37] INFO root fetch - processPackages [max-num]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 08:59:37] WARNING root fetch - processPackages [mapDisk]: Skipping, unable to determine old version
+[2023-06-11 08:59:37] INFO root fetch - main [MainThread]: End processing [mapDisk] error
+[2023-06-11 08:59:37] INFO root fetch - processPackages [realtouch]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-11 08:59:37] INFO root fetch - processPackages [text-adventures]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 08:59:37] INFO root fetch - processPackages [max-num]: Downloading https://files.pythonhosted.org/packages/d8/07/d8c27204e06c78fc41701e3e9b6d63b2d9b2712c348b2d6a99a75595ad75/max_num-0.0.2.tar.gz
+[2023-06-11 08:59:37] INFO root fetch - processPackages [text-adventures]: Downloading https://files.pythonhosted.org/packages/98/fe/0d3377f99488b84b950d68e5c60b92039b93418cf1b7875ccdc44ab29b4c/text_adventures-0.0.2.tar.gz
+[2023-06-11 08:59:37] INFO root fetch - processPackages [realtouch]: Downloading https://files.pythonhosted.org/packages/61/70/02a0b74755231e665f7f86d6b4fd0088c90f1e6011293422e68392e2218f/realtouch-0.1.7.tar.gz
+[2023-06-11 08:59:37] INFO root fetch - processPackages [max-num]: Downloading https://files.pythonhosted.org/packages/75/81/10d77667c3a45b87d86ac83b786dec1066f3f1b18dab92952844e6a4f9ca/max_num-0.0.3.tar.gz
+[2023-06-11 08:59:37] INFO root fetch - processPackages [text-adventures]: Downloading https://files.pythonhosted.org/packages/ee/29/d4260a56cf7cc1be6857983786cc2df77fd0fdaf090d4d75715403645379/text_adventures-0.0.3.tar.gz
+[2023-06-11 08:59:37] INFO root fetch - processPackages [realtouch]: Downloading https://files.pythonhosted.org/packages/d7/14/5ad63e31c8349258cea5992d17c82042b22b366a88dde02c0ad507ce8772/realtouch-0.1.8.tar.gz
+[2023-06-11 08:59:37] INFO root fetch - processPackages [max-num]: executing diffoscope
+[2023-06-11 08:59:37] INFO root fetch - processPackages [max-num]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/max_num-0.0.2.tar.gz tmp/max_num-0.0.3.tar.gz --markdown 20230611/m/max-num/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 08:59:37] INFO root fetch - processPackages [realtouch]: executing diffoscope
+[2023-06-11 08:59:37] INFO root fetch - processPackages [realtouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realtouch-0.1.7.tar.gz tmp/realtouch-0.1.8.tar.gz --markdown 20230611/r/realtouch/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-11 08:59:37] INFO root fetch - processPackages [text-adventures]: executing diffoscope
+[2023-06-11 08:59:37] INFO root fetch - processPackages [text-adventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_adventures-0.0.2.tar.gz tmp/text_adventures-0.0.3.tar.gz --markdown 20230611/t/text-adventures/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 08:59:38] INFO root fetch - processPackages [text-adventures]: Remove: archive file [/home/abi/fetcher/tmp/text_adventures-0.0.2.tar.gz]
+[2023-06-11 08:59:38] INFO root fetch - processPackages [text-adventures]: Remove: archive file [/home/abi/fetcher/tmp/text_adventures-0.0.3.tar.gz]
+[2023-06-11 08:59:38] INFO root fetch - main [MainThread]: End processing [text-adventures]: success
+[2023-06-11 08:59:38] INFO root fetch - processPackages [max-num]: Remove: archive file [/home/abi/fetcher/tmp/max_num-0.0.2.tar.gz]
+[2023-06-11 08:59:38] INFO root fetch - processPackages [max-num]: Remove: archive file [/home/abi/fetcher/tmp/max_num-0.0.3.tar.gz]
+[2023-06-11 08:59:38] INFO root fetch - main [MainThread]: End processing [max-num]: success
+[2023-06-11 08:59:38] INFO root fetch - processPackages [realtouch]: Remove: archive file [/home/abi/fetcher/tmp/realtouch-0.1.7.tar.gz]
+[2023-06-11 08:59:38] INFO root fetch - processPackages [realtouch]: Remove: archive file [/home/abi/fetcher/tmp/realtouch-0.1.8.tar.gz]
+[2023-06-11 08:59:38] INFO root fetch - main [MainThread]: End processing [realtouch]: success
+[2023-06-11 08:59:38] INFO root fetch - main [MainThread]: Store serial: [18456400]
