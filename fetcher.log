@@ -2398,3 +2398,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 03:20:03] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.4.tar.gz]
 [2023-06-11 03:20:03] INFO root fetch - main [MainThread]: End processing [copyparty]: success
 [2023-06-11 03:20:03] INFO root fetch - main [MainThread]: Store serial: [18455046]
+[2023-06-11 03:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455046]
+[2023-06-11 03:25:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 03:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2023-06-11 03:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiokwikset
+[2023-06-11 03:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydflow
+[2023-06-11 03:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-06-11 03:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: videoslides
+[2023-06-11 03:25:12] INFO root fetch - processPackages [videoslides]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 03:25:12] INFO root fetch - processPackages [agixt]: New version: [1.2.3] Old Version: [1.2.1b0]
+[2023-06-11 03:25:12] INFO root fetch - processPackages [aiokwikset]: New version: [0.2.2a2] Old Version: [0.2.2a1]
+[2023-06-11 03:25:12] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-06-11 03:25:12] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/94/be/8a79c19956e76ed4ecbc3e934f6f701ef5a49591f2aec39a6f6c87963121/videoslides-0.0.5.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 03:25:12] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0b/cf/9237392fa1d9138a7ec615b5ed6d251de9381e04e64c9629dc333d96562e/agixt-1.2.1b0.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [aiokwikset]: Downloading https://files.pythonhosted.org/packages/17/eb/7d4e7e4959501a5eb04c36bc404dd266e6e7f3ad5aa9ac4423118810fadf/aiokwikset-0.2.2a1.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/c6/42/d4b1986a307020d3007742d6f25422e7aebd391ade1cb451d28a4865e7d2/pydflow-1.6.98.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/2a/26/389e917c7794a7b037a194838f791d728f7d9d7fe23138680298cacd7406/videoslides-0.0.6.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-06-11 03:25:12] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.5.tar.gz tmp/videoslides-0.0.6.tar.gz --markdown 20230611/v/videoslides/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 03:25:12] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/98/e9/13ceeaf77fc450c0ec29440840981078ad86549717add832096e44086ccc/agixt-1.2.3.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [aiokwikset]: Downloading https://files.pythonhosted.org/packages/72/35/45047c3c707e7ff3356e066b1566f1e902406fa69b63ba7fbcaf7ba92335/aiokwikset-0.2.2a2.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [aiokwikset]: executing diffoscope
+[2023-06-11 03:25:12] INFO root fetch - processPackages [aiokwikset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokwikset-0.2.2a1.tar.gz tmp/aiokwikset-0.2.2a2.tar.gz --markdown 20230611/a/aiokwikset/0.2.2a1-0.2.2a2/diff.md --exclude *.pyd
+[2023-06-11 03:25:12] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-11 03:25:12] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-11 03:25:12] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.1b0.tar.gz tmp/agixt-1.2.3.tar.gz --markdown 20230611/a/agixt/1.2.1b0-1.2.3/diff.md --exclude *.pyd
+[2023-06-11 03:25:13] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-11 03:25:13] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230611/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 03:25:13] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-11 03:25:13] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230611/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-06-11 03:25:13] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.5.tar.gz]
+[2023-06-11 03:25:13] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.6.tar.gz]
+[2023-06-11 03:25:13] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-06-11 03:25:13] INFO root fetch - processPackages [aiokwikset]: Remove: archive file [/home/abi/fetcher/tmp/aiokwikset-0.2.2a1.tar.gz]
+[2023-06-11 03:25:13] INFO root fetch - processPackages [aiokwikset]: Remove: archive file [/home/abi/fetcher/tmp/aiokwikset-0.2.2a2.tar.gz]
+[2023-06-11 03:25:13] INFO root fetch - main [MainThread]: End processing [aiokwikset]: success
+[2023-06-11 03:25:14] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-11 03:25:14] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-11 03:25:14] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-11 03:25:14] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.98.tar.gz]
+[2023-06-11 03:25:14] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.6.99.tar.gz]
+[2023-06-11 03:25:14] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-11 03:25:15] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.1b0.tar.gz]
+[2023-06-11 03:25:15] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.3.tar.gz]
+[2023-06-11 03:25:15] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-11 03:25:15] INFO root fetch - main [MainThread]: Store serial: [18455061]
