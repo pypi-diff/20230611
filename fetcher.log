@@ -4677,3 +4677,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:34:40] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.1.5.tar.gz]
 [2023-06-11 07:34:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
 [2023-06-11 07:34:40] INFO root fetch - main [MainThread]: Store serial: [18456038]
+[2023-06-11 07:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456038]
+[2023-06-11 07:39:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 07:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dexie-rewards
+[2023-06-11 07:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyddtalk
+[2023-06-11 07:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-gpt-openai
+[2023-06-11 07:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-stock-orderpoint-manual-procurement
+[2023-06-11 07:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-stock-orderpoint-manual-procurement
+[2023-06-11 07:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smarterbombing
+[2023-06-11 07:39:49] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 07:39:49] INFO root fetch - processPackages [xia-gpt-openai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-11 07:39:49] WARNING root fetch - processPackages [pyddtalk]: Skipping, unable to determine old version
+[2023-06-11 07:39:49] INFO root fetch - main [MainThread]: End processing [pyddtalk] error
+[2023-06-11 07:39:49] INFO root fetch - processPackages [dexie-rewards]: New version: [1.8.1b2] Old Version: [1.8.1b1]
+[2023-06-11 07:39:49] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/56/4b/7a8f0d89cd40f6f790785fd5c1a659cbb1e59a48f578d7474a98bd59a3f1/dexie_rewards-1.8.1b1.tar.gz
+[2023-06-11 07:39:49] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/c3/93/ff1cc3634276cdcebeb7e11de118c32b544dbc84a5a00817df79305f513d/smarterbombing-0.3.1.tar.gz
+[2023-06-11 07:39:49] INFO root fetch - processPackages [xia-gpt-openai]: Downloading https://files.pythonhosted.org/packages/ce/f6/7325a084e711ec9e8986544929823c4632b1d9bf476629b8b4c60033fbb6/xia_gpt_openai-0.0.1-cp39-none-win_amd64.whl
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: Downloading https://files.pythonhosted.org/packages/0f/3e/e250861c24e8ddf1afb2679ca5231d1f2e0a5b1f984b76c147f3eb8013a8/odoo8_addon_stock_orderpoint_manual_procurement-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: Downloading https://files.pythonhosted.org/packages/59/a3/422a1a7c20c69c8f8327c66df0d20964094cdaa7f2b9d2a3eaa179c189c2/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-11 07:39:49] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/67/fa/39a33b1ff78e73354cc8cf777111434a399f347cf76be3a329397d2e3353/dexie_rewards-1.8.1b2.tar.gz
+[2023-06-11 07:39:49] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/b4/35/5a519361a578ceb8d706f54abf64f14cda021e8d007a37cacb74b0c5d1c3/smarterbombing-0.3.2.tar.gz
+[2023-06-11 07:39:49] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 07:39:49] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.1.tar.gz tmp/smarterbombing-0.3.2.tar.gz --markdown 20230611/s/smarterbombing/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 07:39:49] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-06-11 07:39:49] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-1.8.1b1.tar.gz tmp/dexie_rewards-1.8.1b2.tar.gz --markdown 20230611/d/dexie-rewards/1.8.1b1-1.8.1b2/diff.md --exclude *.pyd
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: Downloading https://files.pythonhosted.org/packages/81/37/18c552c98582a597ea67a162957d10c5dfacdd2cda6ca9f36d569e636cbe/odoo8_addon_stock_orderpoint_manual_procurement-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-11 07:39:49] INFO root fetch - processPackages [xia-gpt-openai]: Downloading https://files.pythonhosted.org/packages/ad/9b/19559fe0ca02eea63feb5e751090e6beba7ff70da19cc39897f54afe1f68/xia_gpt_openai-0.0.2-cp39-none-win_amd64.whl
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: Downloading https://files.pythonhosted.org/packages/78/0c/758b3debd58b56b304e8ef4fabbb817d38aa0a909de9aacc69f404e264e0/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: executing diffoscope
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_stock_orderpoint_manual_procurement-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_stock_orderpoint_manual_procurement-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230611/o/odoo8-addon-stock-orderpoint-manual-procurement/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: executing diffoscope
+[2023-06-11 07:39:49] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230611/o/odoo9-addon-stock-orderpoint-manual-procurement/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-11 07:39:50] INFO root fetch - processPackages [xia-gpt-openai]: executing diffoscope
+[2023-06-11 07:39:50] INFO root fetch - processPackages [xia-gpt-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt_openai-0.0.1-cp39-none-win_amd64.whl.zip tmp/xia_gpt_openai-0.0.2-cp39-none-win_amd64.whl.zip --markdown 20230611/x/xia-gpt-openai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 07:39:50] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.1.tar.gz]
+[2023-06-11 07:39:50] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.2.tar.gz]
+[2023-06-11 07:39:50] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 07:39:51] INFO root fetch - processPackages [xia-gpt-openai]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt_openai-0.0.1-cp39-none-win_amd64.whl.zip]
+[2023-06-11 07:39:51] INFO root fetch - processPackages [xia-gpt-openai]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt_openai-0.0.2-cp39-none-win_amd64.whl.zip]
+[2023-06-11 07:39:51] INFO root fetch - main [MainThread]: End processing [xia-gpt-openai]: success
+[2023-06-11 07:39:51] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.1b1.tar.gz]
+[2023-06-11 07:39:51] INFO root fetch - processPackages [dexie-rewards]: Remove: archive file [/home/abi/fetcher/tmp/dexie_rewards-1.8.1b2.tar.gz]
+[2023-06-11 07:39:51] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-06-11 07:39:51] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_orderpoint_manual_procurement-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-11 07:39:51] INFO root fetch - processPackages [odoo8-addon-stock-orderpoint-manual-procurement]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_orderpoint_manual_procurement-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-11 07:39:51] INFO root fetch - main [MainThread]: End processing [odoo8-addon-stock-orderpoint-manual-procurement]: success
+[2023-06-11 07:39:51] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-11 07:39:51] INFO root fetch - processPackages [odoo9-addon-stock-orderpoint-manual-procurement]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_orderpoint_manual_procurement-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-11 07:39:51] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-orderpoint-manual-procurement]: success
+[2023-06-11 07:39:51] INFO root fetch - main [MainThread]: Store serial: [18456057]
