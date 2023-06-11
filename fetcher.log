@@ -7650,3 +7650,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:19:45] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-11 13:19:45] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-11 13:19:45] INFO root fetch - main [MainThread]: Store serial: [18457439]
+[2023-06-11 13:24:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457439]
+[2023-06-11 13:24:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plutous
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-magic
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cobib
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plutous-trade
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sc-editor
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2023-06-11 13:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: morel
+[2023-06-11 13:24:55] INFO root fetch - processPackages [cobib]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-06-11 13:24:55] WARNING root fetch - processPackages [sc-editor]: Skipping, unable to determine old version
+[2023-06-11 13:24:55] INFO root fetch - main [MainThread]: End processing [sc-editor] error
+[2023-06-11 13:24:55] INFO root fetch - processPackages [plutous]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 13:24:55] INFO root fetch - processPackages [contact-magic]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-11 13:24:55] INFO root fetch - processPackages [plutous-trade]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-11 13:24:55] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 13:24:55] WARNING root fetch - processPackages [morel]: Skipping, unable to determine old version
+[2023-06-11 13:24:55] INFO root fetch - main [MainThread]: End processing [morel] error
+[2023-06-11 13:24:55] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-11 13:24:55] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/6f/a1/26c416a025c2f0fb46d309aec13668666d6ea7989544ceebc7fd706b6b3a/contact_magic-0.3.1.tar.gz
+[2023-06-11 13:24:55] INFO root fetch - processPackages [cobib]: Downloading https://files.pythonhosted.org/packages/2c/a5/ac65b89cef5e7d1f8cefccb36837c08b18e55e546c4f7eee770344c1e3b9/cobib-4.0.0.tar.gz
+[2023-06-11 13:24:55] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/7b/87/46b01464a031b3864589f4a2f515085b798f18797f8b387d7b906381ae01/plutous-0.0.8.tar.gz
+[2023-06-11 13:24:55] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-11 13:24:56] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-11 13:24:56] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230611/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/54/c3/3478de94362c23cfcaeae6b671240a12c457a692e0f09d11529ad56a320b/plutous-0.0.9.tar.gz
+[2023-06-11 13:24:56] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/80/77/fe6690f354f32c097f5c48b2b00d8323ad414185636be4074108fcc6cdd1/contact_magic-0.3.2.tar.gz
+[2023-06-11 13:24:56] INFO root fetch - processPackages [cobib]: Downloading https://files.pythonhosted.org/packages/98/c1/492bc14f04954bed512eec349d3acb3354215497966b8add94d7d2c33c13/cobib-4.1.0.tar.gz
+[2023-06-11 13:24:56] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-11 13:24:56] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.3.1.tar.gz tmp/contact_magic-0.3.2.tar.gz --markdown 20230611/c/contact-magic/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-11 13:24:56] INFO root fetch - processPackages [cobib]: executing diffoscope
+[2023-06-11 13:24:56] INFO root fetch - processPackages [cobib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobib-4.0.0.tar.gz tmp/cobib-4.1.0.tar.gz --markdown 20230611/c/cobib/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.8.tar.gz tmp/plutous-0.0.9.tar.gz --markdown 20230611/p/plutous/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous-trade]: Downloading https://files.pythonhosted.org/packages/ad/5b/6c90d50e589d9e379522ba81062c644cf9c858f4b2520bd94bf293bbd4d5/plutous_trade-0.0.7.tar.gz
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous-trade]: Downloading https://files.pythonhosted.org/packages/4e/b3/3b26db98dfb6c14dcb86851ce58ae2da1c8b5fa2a2bc4f88c3a14845ec4c/plutous_trade-0.0.9.tar.gz
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous-trade]: executing diffoscope
+[2023-06-11 13:24:56] INFO root fetch - processPackages [plutous-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade-0.0.7.tar.gz tmp/plutous_trade-0.0.9.tar.gz --markdown 20230611/p/plutous-trade/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:24:57] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.1.tar.gz]
+[2023-06-11 13:24:57] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.2.tar.gz]
+[2023-06-11 13:24:57] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-11 13:24:57] INFO root fetch - processPackages [plutous]: Remove: archive file [/home/abi/fetcher/tmp/plutous-0.0.8.tar.gz]
+[2023-06-11 13:24:57] INFO root fetch - processPackages [plutous]: Remove: archive file [/home/abi/fetcher/tmp/plutous-0.0.9.tar.gz]
+[2023-06-11 13:24:57] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-06-11 13:24:58] INFO root fetch - processPackages [plutous-trade]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade-0.0.7.tar.gz]
+[2023-06-11 13:24:58] INFO root fetch - processPackages [plutous-trade]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade-0.0.9.tar.gz]
+[2023-06-11 13:24:58] INFO root fetch - main [MainThread]: End processing [plutous-trade]: success
+[2023-06-11 13:24:58] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-11 13:24:58] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-11 13:24:58] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-11 13:24:58] INFO root fetch - processPackages [cobib]: Remove: archive file [/home/abi/fetcher/tmp/cobib-4.0.0.tar.gz]
+[2023-06-11 13:24:58] INFO root fetch - processPackages [cobib]: Remove: archive file [/home/abi/fetcher/tmp/cobib-4.1.0.tar.gz]
+[2023-06-11 13:24:58] INFO root fetch - main [MainThread]: End processing [cobib]: success
+[2023-06-11 13:24:58] INFO root fetch - main [MainThread]: Store serial: [18457530]
