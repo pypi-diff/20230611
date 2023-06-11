@@ -2286,3 +2286,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 03:09:36] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-11 03:09:36] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-11 03:09:36] INFO root fetch - main [MainThread]: Store serial: [18455009]
+[2023-06-11 03:14:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455009]
+[2023-06-11 03:14:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 03:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evadb
+[2023-06-11 03:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bhv
+[2023-06-11 03:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kwutil
+[2023-06-11 03:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-06-11 03:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aemcmc-nightly
+[2023-06-11 03:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: videoslides
+[2023-06-11 03:14:45] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 03:14:45] INFO root fetch - processPackages [bhv]: New version: [0.5.7a0] Old Version: [0.5.7]
+[2023-06-11 03:14:45] INFO root fetch - processPackages [kwutil]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 03:14:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-11 03:14:45] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [videoslides]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 03:14:45] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230611] Old Version: [0.0.8.dev20230610]
+[2023-06-11 03:14:45] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/8e/8b/853758edf1ff27430fc53dc86bfab47b6607777686e377ee344a0360d0e7/bhv-0.5.7.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/94/be/8a79c19956e76ed4ecbc3e934f6f701ef5a49591f2aec39a6f6c87963121/videoslides-0.0.5.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/7b/81/7c6e1643cb41ad2e71b6fef32807f0af062eaf2384674d6a276e7696f31f/aemcmc-nightly-0.0.8.dev20230610.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [kwutil]: Downloading https://files.pythonhosted.org/packages/ba/2c/2a12488a612f8e515584cf88fa5998425fb3f3536be6dfcd180bfb325b04/kwutil-0.1.0-py3-none-any.whl
+[2023-06-11 03:14:45] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-11 03:14:45] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230611/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 03:14:45] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/9a/d5/96ebcbc297aa721f1e44ff6fe20d3fadc389e06b63a9f31ceb982999ba37/bhv-0.5.7a0.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-11 03:14:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230611/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-11 03:14:45] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-11 03:14:45] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.5.7.tar.gz tmp/bhv-0.5.7a0.tar.gz --markdown 20230611/b/bhv/0.5.7-0.5.7a0/diff.md --exclude *.pyd
+[2023-06-11 03:14:45] INFO root fetch - processPackages [videoslides]: Downloading https://files.pythonhosted.org/packages/2a/26/389e917c7794a7b037a194838f791d728f7d9d7fe23138680298cacd7406/videoslides-0.0.6.tar.gz
+[2023-06-11 03:14:45] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/4c/c4/f11adc5c04e3f7259204e6b5d645a3184451dd30b392bf6d5b3c19044c5a/aemcmc-nightly-0.0.8.dev20230611.tar.gz
+[2023-06-11 03:14:46] INFO root fetch - processPackages [kwutil]: Downloading https://files.pythonhosted.org/packages/40/c6/3dc18fb54c37f0bdde5d961bc2325d6401a9e9580d96d0044be8886147eb/kwutil-0.1.1.tar.gz
+[2023-06-11 03:14:46] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-11 03:14:46] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230610.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230611.tar.gz --markdown 20230611/a/aemcmc-nightly/0.0.8.dev20230610-0.0.8.dev20230611/diff.md --exclude *.pyd
+[2023-06-11 03:14:46] INFO root fetch - processPackages [videoslides]: executing diffoscope
+[2023-06-11 03:14:46] INFO root fetch - processPackages [videoslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoslides-0.0.5.tar.gz tmp/videoslides-0.0.6.tar.gz --markdown 20230611/v/videoslides/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 03:14:46] INFO root fetch - processPackages [kwutil]: executing diffoscope
+[2023-06-11 03:14:46] INFO root fetch - processPackages [kwutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwutil-0.1.0-py3-none-any.whl.zip tmp/kwutil-0.1.1.tar.gz --markdown 20230611/k/kwutil/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 03:14:47] INFO root fetch - processPackages [kwutil]: Remove: archive file [/home/abi/fetcher/tmp/kwutil-0.1.0-py3-none-any.whl.zip]
+[2023-06-11 03:14:47] INFO root fetch - processPackages [kwutil]: Remove: archive file [/home/abi/fetcher/tmp/kwutil-0.1.1.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - main [MainThread]: End processing [kwutil]: success
+[2023-06-11 03:14:47] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.5.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - processPackages [videoslides]: Remove: archive file [/home/abi/fetcher/tmp/videoslides-0.0.6.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - main [MainThread]: End processing [videoslides]: success
+[2023-06-11 03:14:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-11 03:14:47] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.7.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.7a0.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-11 03:14:47] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230610.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230611.tar.gz]
+[2023-06-11 03:14:47] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-11 03:14:51] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-11 03:14:51] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-11 03:14:51] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-11 03:14:51] INFO root fetch - main [MainThread]: Store serial: [18455028]
