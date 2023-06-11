@@ -15638,3 +15638,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 23:48:52] INFO root fetch - processPackages [topobank-statistics]: Remove: archive file [/home/abi/fetcher/tmp/topobank-statistics-1.1.0.tar.gz]
 [2023-06-11 23:48:52] INFO root fetch - main [MainThread]: End processing [topobank-statistics]: success
 [2023-06-11 23:48:52] INFO root fetch - main [MainThread]: Store serial: [18461203]
+[2023-06-11 23:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461203]
+[2023-06-11 23:54:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 23:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sidetrek
+[2023-06-11 23:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alpaca-farm
+[2023-06-11 23:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc-data
+[2023-06-11 23:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaaql-middleware-python
+[2023-06-11 23:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: junkie-rfglab
+[2023-06-11 23:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypi-python-translator
+[2023-06-11 23:54:00] INFO root fetch - processPackages [pypi-python-translator]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-11 23:54:00] INFO root fetch - processPackages [alpaca-farm]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 23:54:00] INFO root fetch - processPackages [sidetrek]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-11 23:54:00] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-11 23:54:00] INFO root fetch - processPackages [dvc-data]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-11 23:54:00] INFO root fetch - processPackages [junkie-rfglab]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-11 23:54:00] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/08/e2/0bfacefd5924f8a7f6965b4a6c8eac12f331d33e5f8c658e4d00f8b2b4d4/dvc-data-1.4.0.tar.gz
+[2023-06-11 23:54:00] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/97/bd/51a9b1e714cab99e04b757d582da68fb1c87848f240475f7731512b91f39/sidetrek-0.0.98.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/97/de/e406dbb552e77e511a258110804e6f7a6761d20f2018ef03f53b2b4a7cef/pypi_python_translator-2.0.1.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/e1/8d/d4f02e51d345cc609f40d9d71771a761d365568ea40d10bb382e5299c8d4/alpaca_farm-0.1.2.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [junkie-rfglab]: Downloading https://files.pythonhosted.org/packages/35/d0/bcfdd2b36313582dfe27a171cb2a276696b7c3c0151a5ed240fecbd58816/junkie-rfglab-2023.6.0.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/e1/df/8febed62c28b6002e89b1ecff26974f8d092969b288da25a6eafcc3d73b1/sidetrek-0.0.99.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-11 23:54:01] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.98.tar.gz tmp/sidetrek-0.0.99.tar.gz --markdown 20230611/s/sidetrek/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-11 23:54:01] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/ad/e6/9fb789a09c21bca40e6e823317af1d78edc6d8cdaccaa70874da35623e84/dvc-data-1.5.0.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/00/46/7a58f3c0e299cad97c5abff9e8865eb2b0c7a6da1028c179c7fcb198fb9f/alpaca_farm-0.1.3.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-11 23:54:01] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-1.4.0.tar.gz tmp/dvc-data-1.5.0.tar.gz --markdown 20230611/d/dvc-data/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-11 23:54:01] INFO root fetch - processPackages [alpaca-farm]: executing diffoscope
+[2023-06-11 23:54:01] INFO root fetch - processPackages [alpaca-farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_farm-0.1.2.tar.gz tmp/alpaca_farm-0.1.3.tar.gz --markdown 20230611/a/alpaca-farm/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 23:54:01] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/c2/78/c9abc60728c77dc6e4c18f633b3b47f21ca5519764eb0866bbf831688d9b/pypi_python_translator-2.0.2.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [junkie-rfglab]: Downloading https://files.pythonhosted.org/packages/25/d3/450fef4efba6298e0885cf01eaadcee260de9d7963ee9bd001d3f1ccfdd9/junkie-rfglab-2023.6.1.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-11 23:54:01] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-2.0.1.tar.gz tmp/pypi_python_translator-2.0.2.tar.gz --markdown 20230611/p/pypi-python-translator/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-11 23:54:01] INFO root fetch - processPackages [junkie-rfglab]: executing diffoscope
+[2023-06-11 23:54:01] INFO root fetch - processPackages [junkie-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junkie-rfglab-2023.6.0.tar.gz tmp/junkie-rfglab-2023.6.1.tar.gz --markdown 20230611/j/junkie-rfglab/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-11 23:54:01] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-11 23:54:01] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-11 23:54:01] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230611/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-11 23:54:02] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.1.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-2.0.2.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-11 23:54:02] INFO root fetch - processPackages [junkie-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/junkie-rfglab-2023.6.0.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - processPackages [junkie-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/junkie-rfglab-2023.6.1.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - main [MainThread]: End processing [junkie-rfglab]: success
+[2023-06-11 23:54:02] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.98.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.99.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-11 23:54:02] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.2.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.3.tar.gz]
+[2023-06-11 23:54:02] INFO root fetch - main [MainThread]: End processing [alpaca-farm]: success
+[2023-06-11 23:54:03] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-11 23:54:03] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-11 23:54:03] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-11 23:54:03] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.4.0.tar.gz]
+[2023-06-11 23:54:03] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-1.5.0.tar.gz]
+[2023-06-11 23:54:03] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-11 23:54:03] INFO root fetch - main [MainThread]: Store serial: [18461221]
