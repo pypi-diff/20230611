@@ -15284,3 +15284,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 23:21:58] INFO root fetch - processPackages [ntc-templates]: Remove: archive file [/home/abi/fetcher/tmp/ntc_templates-3.4.0.tar.gz]
 [2023-06-11 23:21:58] INFO root fetch - main [MainThread]: End processing [ntc-templates]: success
 [2023-06-11 23:21:58] INFO root fetch - main [MainThread]: Store serial: [18461068]
+[2023-06-11 23:27:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461068]
+[2023-06-11 23:27:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vampytest
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymino
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reconify
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpmc
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glizzy-tls
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: five-card-draw
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contact-magic
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymerkle
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: live-fast-api
+[2023-06-11 23:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: econbeautylib
+[2023-06-11 23:27:07] INFO root fetch - processPackages [vampytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [live-fast-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [glizzy-tls]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [five-card-draw]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 23:27:07] WARNING root fetch - processPackages [econbeautylib]: Skipping, unable to determine old version
+[2023-06-11 23:27:07] INFO root fetch - processPackages [mpmc]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-11 23:27:07] INFO root fetch - main [MainThread]: End processing [econbeautylib] error
+[2023-06-11 23:27:07] INFO root fetch - processPackages [contact-magic]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [reconify]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [pymerkle]: New version: [5.0.3b0] Old Version: [5.0.2]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [pymino]: New version: [1.1.8.9] Old Version: [1.1.8.8]
+[2023-06-11 23:27:07] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/c4/a9/6b18e86a8fa237d4d0f387c1aaa7afdf32baee180d27d45030e7a013c7f9/five_card_draw-1.0.2.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [glizzy-tls]: Downloading https://files.pythonhosted.org/packages/c1/f9/5d7acbbccd4a8e3950ace9694094b76dea1a9f5eae826ad06147d05d63f8/glizzy_tls-0.1.2.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [mpmc]: Downloading https://files.pythonhosted.org/packages/67/42/1ecd664773e2079886c6a5440dbf861fc289fc0f939eae601d51a4a89559/mpmc-0.1.3.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [live-fast-api]: Downloading https://files.pythonhosted.org/packages/f4/dd/dbc6a8389c5745618ec723e76b74faed350cfd3b706781111a5a13c5c3ae/live-fast-api-0.0.5.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/a1/34/a24acdf8507fa2efe75cd99fb44ad93b4bcfb207e2dc3a0bfd52600ed5e9/pymino-1.1.8.8.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [vampytest]: Downloading https://files.pythonhosted.org/packages/13/e3/f88d49bfa5c65431741b23712ff3b55285ab79d60a7c8e28cd6886a4b8db/vampytest-0.0.8.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [reconify]: Downloading https://files.pythonhosted.org/packages/6a/0b/c97a426c5d3f6a2929ccad6cc18b6428dcc2003c83de551ae5a53d945ee9/reconify-1.0.0.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [pymerkle]: Downloading https://files.pythonhosted.org/packages/a8/5c/753c10eda49c9ae3a2979eb107afff9b5a29bee12bd8e60caeb669eff3ab/pymerkle-5.0.2.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/6b/18/2d855fe3565ffde2865296509f45ab58622b2c2c29a17666fb67ef2e8e2d/contact_magic-0.3.4.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [five-card-draw]: Downloading https://files.pythonhosted.org/packages/e4/ef/faf5e929677ae75caabf62d9f67bfab6adf2d56b0b3abb3f2ed33314cd80/five_card_draw-1.0.3.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [mpmc]: Downloading https://files.pythonhosted.org/packages/e2/25/7651d47f75de14cd5db4bb3aef8ab06d51d1ab90286e5d7a49b0895b4160/mpmc-0.1.4.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/db/f3/1ecdd8eaa64389fabca39d6da2b94e138fae7abaff7a52ddeca1a4b215a1/pymino-1.1.8.9.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [glizzy-tls]: Downloading https://files.pythonhosted.org/packages/eb/73/f34fa89790b8984d123652f243d90e104ba4c080bff4c5fcce6be5821ef9/glizzy_tls-0.1.3.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [vampytest]: Downloading https://files.pythonhosted.org/packages/28/55/00df8cf55a7eb45c0defed2de89a54b2400f1a230c7132e362c00c567325/vampytest-0.0.9.tar.gz
+[2023-06-11 23:27:07] INFO root fetch - processPackages [live-fast-api]: Downloading https://files.pythonhosted.org/packages/cd/6e/aee576758655bbd850712d88d13f5f57a04cb67a078dea50bcd8da978b0c/live-fast-api-0.0.6.tar.gz
+[2023-06-11 23:27:08] INFO root fetch - processPackages [reconify]: Downloading https://files.pythonhosted.org/packages/3c/fb/3847e911dfec9f30147b81d6650338535fe89f3e8b93efe0cf07509a37b2/reconify-1.0.1.tar.gz
+[2023-06-11 23:27:08] INFO root fetch - processPackages [glizzy-tls]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [glizzy-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glizzy_tls-0.1.2.tar.gz tmp/glizzy_tls-0.1.3.tar.gz --markdown 20230611/g/glizzy-tls/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.8.8.tar.gz tmp/pymino-1.1.8.9.tar.gz --markdown 20230611/p/pymino/1.1.8.8-1.1.8.9/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [five-card-draw]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [five-card-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/five_card_draw-1.0.2.tar.gz tmp/five_card_draw-1.0.3.tar.gz --markdown 20230611/f/five-card-draw/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/40/28/59c4be609e6ff93eab96d011d31a5f0fb4e9fc67abf77e4c2fc038479ac7/contact_magic-0.3.5.tar.gz
+[2023-06-11 23:27:08] INFO root fetch - processPackages [vampytest]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [vampytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vampytest-0.0.8.tar.gz tmp/vampytest-0.0.9.tar.gz --markdown 20230611/v/vampytest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [mpmc]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [mpmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpmc-0.1.3.tar.gz tmp/mpmc-0.1.4.tar.gz --markdown 20230611/m/mpmc/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [live-fast-api]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [live-fast-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live-fast-api-0.0.5.tar.gz tmp/live-fast-api-0.0.6.tar.gz --markdown 20230611/l/live-fast-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [pymerkle]: Downloading https://files.pythonhosted.org/packages/0c/14/8c281ff1de0e480a090c452447c7ef4a35071bb3e9bb5f3992ad25199e06/pymerkle-5.0.3b0.tar.gz
+[2023-06-11 23:27:08] INFO root fetch - processPackages [reconify]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [reconify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reconify-1.0.0.tar.gz tmp/reconify-1.0.1.tar.gz --markdown 20230611/r/reconify/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [pymerkle]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [pymerkle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymerkle-5.0.2.tar.gz tmp/pymerkle-5.0.3b0.tar.gz --markdown 20230611/p/pymerkle/5.0.2-5.0.3b0/diff.md --exclude *.pyd
+[2023-06-11 23:27:08] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-06-11 23:27:08] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.3.4.tar.gz tmp/contact_magic-0.3.5.tar.gz --markdown 20230611/c/contact-magic/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-11 23:27:09] INFO root fetch - processPackages [mpmc]: Remove: archive file [/home/abi/fetcher/tmp/mpmc-0.1.3.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [mpmc]: Remove: archive file [/home/abi/fetcher/tmp/mpmc-0.1.4.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [mpmc]: success
+[2023-06-11 23:27:09] INFO root fetch - processPackages [glizzy-tls]: Remove: archive file [/home/abi/fetcher/tmp/glizzy_tls-0.1.2.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [glizzy-tls]: Remove: archive file [/home/abi/fetcher/tmp/glizzy_tls-0.1.3.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [glizzy-tls]: success
+[2023-06-11 23:27:09] INFO root fetch - processPackages [live-fast-api]: Remove: archive file [/home/abi/fetcher/tmp/live-fast-api-0.0.5.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [live-fast-api]: Remove: archive file [/home/abi/fetcher/tmp/live-fast-api-0.0.6.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [live-fast-api]: success
+[2023-06-11 23:27:09] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.4.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.3.5.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-06-11 23:27:09] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.2.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.3b0.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [pymerkle]: success
+[2023-06-11 23:27:09] INFO root fetch - processPackages [reconify]: Remove: archive file [/home/abi/fetcher/tmp/reconify-1.0.0.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [reconify]: Remove: archive file [/home/abi/fetcher/tmp/reconify-1.0.1.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [reconify]: success
+[2023-06-11 23:27:09] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.2.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - processPackages [five-card-draw]: Remove: archive file [/home/abi/fetcher/tmp/five_card_draw-1.0.3.tar.gz]
+[2023-06-11 23:27:09] INFO root fetch - main [MainThread]: End processing [five-card-draw]: success
+[2023-06-11 23:27:11] INFO root fetch - processPackages [vampytest]: Remove: archive file [/home/abi/fetcher/tmp/vampytest-0.0.8.tar.gz]
+[2023-06-11 23:27:11] INFO root fetch - processPackages [vampytest]: Remove: archive file [/home/abi/fetcher/tmp/vampytest-0.0.9.tar.gz]
+[2023-06-11 23:27:11] INFO root fetch - main [MainThread]: End processing [vampytest]: success
+[2023-06-11 23:27:11] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.8.8.tar.gz]
+[2023-06-11 23:27:11] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.8.9.tar.gz]
+[2023-06-11 23:27:11] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-11 23:27:11] INFO root fetch - main [MainThread]: Store serial: [18461097]
