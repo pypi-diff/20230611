@@ -14104,3 +14104,9 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 21:35:16] INFO root fetch - processPackages [novel-swarms]: Remove: archive file [/home/abi/fetcher/tmp/novel_swarms-0.1.8a0.tar.gz]
 [2023-06-11 21:35:16] INFO root fetch - main [MainThread]: End processing [novel-swarms]: success
 [2023-06-11 21:35:16] INFO root fetch - main [MainThread]: Store serial: [18460492]
+[2023-06-11 21:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460492]
+[2023-06-11 21:40:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-11 21:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vahidpdf
+[2023-06-11 21:40:25] WARNING root fetch - processPackages [vahidpdf]: Skipping, unable to determine old version
+[2023-06-11 21:40:25] INFO root fetch - main [MainThread]: End processing [vahidpdf] error
+[2023-06-11 21:40:25] INFO root fetch - main [MainThread]: Store serial: [18460497]
