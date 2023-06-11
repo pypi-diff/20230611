@@ -1894,3 +1894,72 @@
 [2023-06-11 02:47:48] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-11 02:47:49] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-11 02:47:49] INFO root fetch - main [MainThread]: Store serial: [18454904]
+[2023-06-11 02:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18454904]
+[2023-06-11 02:52:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: term-chatgpt
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubric-nightly
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copyparty
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wangticketyes24
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: term-chatgpt
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evadb
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-11 02:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabric-orchestrator-client
+[2023-06-11 02:52:57] INFO root fetch - processPackages [term-chatgpt]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [term-chatgpt]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [copyparty]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [wangticketyes24]: New version: [0.95] Old Version: [0.9]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/90/5b/f8cacc1a349d7f9ab24930fa027dc292e8aa3d21da2b6050b8796f8ac093/fabric-orchestrator-client-1.5.0rc1.tar.gz
+[2023-06-11 02:52:57] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-11 02:52:57] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-11 02:52:57] INFO root fetch - processPackages [term-chatgpt]: Downloading https://files.pythonhosted.org/packages/d5/d5/9eb4bea6b4137387c0720d70bca03426216ef5026ae33478a071d984a83a/term-chatgpt-1.1.3.tar.gz
+[2023-06-11 02:52:57] INFO root fetch - processPackages [term-chatgpt]: Downloading https://files.pythonhosted.org/packages/d5/d5/9eb4bea6b4137387c0720d70bca03426216ef5026ae33478a071d984a83a/term-chatgpt-1.1.3.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-11 02:52:58] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-11 02:52:58] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-11 02:52:58] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ca/bf/670ab420e66ec0da1d71d4d9fcf8d0c013c4c47c5817bc81579a7973b976/fabric-orchestrator-client-1.5.0rc2.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [wangticketyes24]: Downloading https://files.pythonhosted.org/packages/19/7f/b33b663752e3761db892633637d8ea72c4a163879ec1c78d919f7d5ee5ea/wangticketyes24-0.9-py3-none-any.whl
+[2023-06-11 02:52:58] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/51/da/395c796466b546c62dc98482fe748e4f819081faacdba731e1611f49cf95/copyparty-1.7.2.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz --markdown 20230611/f/fabric-orchestrator-client/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-11 02:52:58] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [term-chatgpt]: Downloading https://files.pythonhosted.org/packages/3b/26/888ba7370a7f707fce964303aeefa7f29ed56030c8612ce956a2f4f2b33c/term-chatgpt-1.1.4.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [term-chatgpt]: Downloading https://files.pythonhosted.org/packages/3b/26/888ba7370a7f707fce964303aeefa7f29ed56030c8612ce956a2f4f2b33c/term-chatgpt-1.1.4.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230611/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 02:52:58] INFO root fetch - processPackages [wangticketyes24]: Downloading https://files.pythonhosted.org/packages/14/ee/8908e21ec356df639f16453640b6ba69f5a1c946b46ae0f93d5ecaffa21b/wangticketyes24-0.95-py3-none-any.whl
+[2023-06-11 02:52:58] INFO root fetch - processPackages [term-chatgpt]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [term-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/term-chatgpt-1.1.3.tar.gz tmp/term-chatgpt-1.1.4.tar.gz --markdown 20230611/t/term-chatgpt/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-11 02:52:58] INFO root fetch - processPackages [term-chatgpt]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [term-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/term-chatgpt-1.1.3.tar.gz tmp/term-chatgpt-1.1.4.tar.gz --markdown 20230611/t/term-chatgpt/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-11 02:52:58] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/fb/01/e4964fb93150c611db8f96feff0e86007d91ea09f01b061a5dad7b376a26/copyparty-1.7.3.tar.gz
+[2023-06-11 02:52:58] INFO root fetch - processPackages [wangticketyes24]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [wangticketyes24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wangticketyes24-0.9-py3-none-any.whl.zip tmp/wangticketyes24-0.95-py3-none-any.whl.zip --markdown 20230611/w/wangticketyes24/0.9-0.95/diff.md --exclude *.pyd
+[2023-06-11 02:52:58] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230611/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 02:52:58] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-06-11 02:52:58] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.7.2.tar.gz tmp/copyparty-1.7.3.tar.gz --markdown 20230611/c/copyparty/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-11 02:52:59] INFO root fetch - processPackages [term-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/term-chatgpt-1.1.3.tar.gz]
+[2023-06-11 02:52:59] INFO root fetch - processPackages [term-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/term-chatgpt-1.1.4.tar.gz]
+[2023-06-11 02:52:59] INFO root fetch - main [MainThread]: End processing [term-chatgpt]: success
+[2023-06-11 02:52:59] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-0.9-py3-none-any.whl.zip]
+[2023-06-11 02:52:59] INFO root fetch - processPackages [wangticketyes24]: Remove: archive file [/home/abi/fetcher/tmp/wangticketyes24-0.95-py3-none-any.whl.zip]
+[2023-06-11 02:52:59] INFO root fetch - main [MainThread]: End processing [wangticketyes24]: success
+[2023-06-11 02:52:59] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-11 02:52:59] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-11 02:52:59] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-11 02:52:59] INFO root fetch - main [MainThread]: End processing [term-chatgpt]: success
+[2023-06-11 02:52:59] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc1.tar.gz]
+[2023-06-11 02:52:59] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.0rc2.tar.gz]
+[2023-06-11 02:52:59] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-06-11 02:53:02] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.2.tar.gz]
+[2023-06-11 02:53:02] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.3.tar.gz]
+[2023-06-11 02:53:02] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-06-11 02:53:03] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-11 02:53:03] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-11 02:53:03] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-11 02:53:03] INFO root fetch - main [MainThread]: Store serial: [18454931]
