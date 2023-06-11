@@ -5484,3 +5484,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 09:21:25] INFO root fetch - processPackages [spacectl]: Remove: archive file [/home/abi/fetcher/tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip]
 [2023-06-11 09:21:25] INFO root fetch - main [MainThread]: End processing [spacectl]: success
 [2023-06-11 09:21:25] INFO root fetch - main [MainThread]: Store serial: [18456449]
+[2023-06-11 09:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456449]
+[2023-06-11 09:26:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 09:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-twitter
+[2023-06-11 09:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graia-scheduler
+[2023-06-11 09:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-twitter
+[2023-06-11 09:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheerup
+[2023-06-11 09:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pelican-katex
+[2023-06-11 09:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text-adventures
+[2023-06-11 09:26:34] INFO root fetch - processPackages [graia-scheduler]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 09:26:34] INFO root fetch - processPackages [pelican-katex]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-11 09:26:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 09:26:34] INFO root fetch - processPackages [text-adventures]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 09:26:34] WARNING root fetch - processPackages [cheerup]: Skipping, unable to determine old version
+[2023-06-11 09:26:34] INFO root fetch - main [MainThread]: End processing [cheerup] error
+[2023-06-11 09:26:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-11 09:26:34] INFO root fetch - processPackages [text-adventures]: Downloading https://files.pythonhosted.org/packages/98/fe/0d3377f99488b84b950d68e5c60b92039b93418cf1b7875ccdc44ab29b4c/text_adventures-0.0.2.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/c6/80/9bbe2e876056373fec7f53285d3a87b501aa3260a2af5a1647db48d29735/nonebot-plugin-twitter-0.1.4.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [pelican-katex]: Downloading https://files.pythonhosted.org/packages/78/5e/14cabf826732316fb005f56e11384f130a7461acd08633a8d0fe6bd946c0/pelican_katex-1.7.0.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [graia-scheduler]: Downloading https://files.pythonhosted.org/packages/a8/1f/8f2551070c9023eef21dac6a729e9ae65c9f4d7807f840813d6a004cd0a1/graia-scheduler-0.1.4.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/c6/80/9bbe2e876056373fec7f53285d3a87b501aa3260a2af5a1647db48d29735/nonebot-plugin-twitter-0.1.4.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [text-adventures]: Downloading https://files.pythonhosted.org/packages/ee/29/d4260a56cf7cc1be6857983786cc2df77fd0fdaf090d4d75715403645379/text_adventures-0.0.3.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [text-adventures]: executing diffoscope
+[2023-06-11 09:26:34] INFO root fetch - processPackages [text-adventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_adventures-0.0.2.tar.gz tmp/text_adventures-0.0.3.tar.gz --markdown 20230611/t/text-adventures/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 09:26:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/3f/42/bab026db9a29cdf116fbadfa980b9a99e96406f839908376d6a5a04af886/nonebot-plugin-twitter-0.1.5.tar.gz
+[2023-06-11 09:26:34] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/3f/42/bab026db9a29cdf116fbadfa980b9a99e96406f839908376d6a5a04af886/nonebot-plugin-twitter-0.1.5.tar.gz
+[2023-06-11 09:26:35] INFO root fetch - processPackages [graia-scheduler]: Downloading https://files.pythonhosted.org/packages/0b/42/e3efad89589e2647b461a346b751387cadbe940ec9bce9998bf2addd92e2/graia-scheduler-0.1.5.tar.gz
+[2023-06-11 09:26:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-11 09:26:35] INFO root fetch - processPackages [pelican-katex]: Downloading https://files.pythonhosted.org/packages/8e/6f/10a6d695d2b164de57124428c39b82046a3134b7b3e86a0674431699dfc7/pelican_katex-1.8.0.tar.gz
+[2023-06-11 09:26:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.1.4.tar.gz tmp/nonebot-plugin-twitter-0.1.5.tar.gz --markdown 20230611/n/nonebot-plugin-twitter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 09:26:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-11 09:26:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.1.4.tar.gz tmp/nonebot-plugin-twitter-0.1.5.tar.gz --markdown 20230611/n/nonebot-plugin-twitter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 09:26:35] INFO root fetch - processPackages [graia-scheduler]: executing diffoscope
+[2023-06-11 09:26:35] INFO root fetch - processPackages [graia-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-scheduler-0.1.4.tar.gz tmp/graia-scheduler-0.1.5.tar.gz --markdown 20230611/g/graia-scheduler/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-11 09:26:35] INFO root fetch - processPackages [pelican-katex]: executing diffoscope
+[2023-06-11 09:26:35] INFO root fetch - processPackages [pelican-katex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_katex-1.7.0.tar.gz tmp/pelican_katex-1.8.0.tar.gz --markdown 20230611/p/pelican-katex/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-11 09:26:36] INFO root fetch - processPackages [text-adventures]: Remove: archive file [/home/abi/fetcher/tmp/text_adventures-0.0.2.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - processPackages [text-adventures]: Remove: archive file [/home/abi/fetcher/tmp/text_adventures-0.0.3.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - main [MainThread]: End processing [text-adventures]: success
+[2023-06-11 09:26:36] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.4.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.5.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-11 09:26:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-11 09:26:36] INFO root fetch - processPackages [graia-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/graia-scheduler-0.1.4.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - processPackages [graia-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/graia-scheduler-0.1.5.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - main [MainThread]: End processing [graia-scheduler]: success
+[2023-06-11 09:26:36] INFO root fetch - processPackages [pelican-katex]: Remove: archive file [/home/abi/fetcher/tmp/pelican_katex-1.7.0.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - processPackages [pelican-katex]: Remove: archive file [/home/abi/fetcher/tmp/pelican_katex-1.8.0.tar.gz]
+[2023-06-11 09:26:36] INFO root fetch - main [MainThread]: End processing [pelican-katex]: success
+[2023-06-11 09:26:36] INFO root fetch - main [MainThread]: Store serial: [18456470]
