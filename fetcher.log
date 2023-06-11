@@ -11196,3 +11196,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:42:54] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-11 17:42:54] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-11 17:42:54] INFO root fetch - main [MainThread]: Store serial: [18459021]
+[2023-06-11 17:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459021]
+[2023-06-11 17:48:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bullmq
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: belay
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fcal
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmsm-pm-temp-prediction
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mcnets
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-dev
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pautobot
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-dev
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: synth-mapping-helper
+[2023-06-11 17:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inboard
+[2023-06-11 17:48:03] INFO root fetch - processPackages [fcal]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [bullmq]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [belay]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev8]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pautobot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [mcnets]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev8]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [synth-mapping-helper]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/08/e9/a5d81760d735ef60e13abd5859df0a67eec39526bbbe36113ed3d9afb69e/fcal-0.2.0.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [inboard]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-11 17:48:03] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/87/ed/d47f7c9996cf07f7a5ae31eec2c17014be4586cbab65d47e90589538ee9c/bullmq-0.5.1.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: Downloading https://files.pythonhosted.org/packages/d9/66/63e2d41415698daa2e6c1bd81612d06c9706e8fc8c44e966e2d70b5f7a28/pmsm-pm-temp-prediction-0.0.1.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [belay]: Downloading https://files.pythonhosted.org/packages/23/b4/2da429f37307a9cf65bba0b2aaf981b88ac4a804808f12fdd6592d29ce5a/belay-0.9.2.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/96/cc/413e4e891af6555b1bb987746112df35a8e03d0207a45270191504b37e72/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-11 17:48:03] INFO root fetch - processPackages [synth-mapping-helper]: Downloading https://files.pythonhosted.org/packages/db/29/04258249e7985abb90c448702328036ca91b8bbeadefbb7d165963cf0a83/synth_mapping_helper-1.2.2.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/9f/52/faeb139fbabfe65ff760254fa31f131fbb53bf96f7676f890b72a8b89175/pautobot-0.0.8.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/96/cc/413e4e891af6555b1bb987746112df35a8e03d0207a45270191504b37e72/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-11 17:48:03] INFO root fetch - processPackages [mcnets]: Downloading https://files.pythonhosted.org/packages/57/71/3754a4f2c33757d8e92427e8f478af89d65c2b8f4f0dd33b7cc62a869916/mcnets-0.2.7.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/5e/15/d2698bd407ecc926683322af46f56d18d79abf4e4febfaf334cb5b9ab2e1/fcal-0.3.0.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/2d/04/d8a8d97e3c94ad0464959e95501ed6f1a8b2cb54bf4bfdd63c9ce8ed149f/inboard-0.9.4.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [fcal]: executing diffoscope
+[2023-06-11 17:48:03] INFO root fetch - processPackages [fcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcal-0.2.0.tar.gz tmp/fcal-0.3.0.tar.gz --markdown 20230611/f/fcal/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-11 17:48:03] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/40/6f/ad8418c9f0674ee32dfbd90f268350120a379216b5b4b0dafc050842b1e5/bullmq-0.5.2.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-06-11 17:48:03] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-0.5.1.tar.gz tmp/bullmq-0.5.2.tar.gz --markdown 20230611/b/bullmq/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: Downloading https://files.pythonhosted.org/packages/92/d5/5e5d1e22c6446a218ec1901c5b73d5147d789359703f153fe19cb14c0e4a/pmsm-pm-temp-prediction-0.0.2.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: executing diffoscope
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmsm-pm-temp-prediction-0.0.1.tar.gz tmp/pmsm-pm-temp-prediction-0.0.2.tar.gz --markdown 20230611/p/pmsm-pm-temp-prediction/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 17:48:03] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-11 17:48:03] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-11 17:48:03] INFO root fetch - processPackages [synth-mapping-helper]: Downloading https://files.pythonhosted.org/packages/88/98/a211e53958a545f33cb90c08a09578eac9cdea26d4664d9a00b3845900a2/synth_mapping_helper-1.2.3.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pautobot]: Downloading https://files.pythonhosted.org/packages/f4/f6/5ec6aeb2fd8851a6cc459db4ba7278878ac6e26fb247f3e18b9d99d1c394/pautobot-0.0.9.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [belay]: Downloading https://files.pythonhosted.org/packages/9b/77/849b741c0970753d387c5a56f993e690b11bf63d6049da24a8813e13e88f/belay-0.9.3.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [synth-mapping-helper]: executing diffoscope
+[2023-06-11 17:48:03] INFO root fetch - processPackages [synth-mapping-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synth_mapping_helper-1.2.2.tar.gz tmp/synth_mapping_helper-1.2.3.tar.gz --markdown 20230611/s/synth-mapping-helper/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pautobot]: executing diffoscope
+[2023-06-11 17:48:03] INFO root fetch - processPackages [pautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pautobot-0.0.8.tar.gz tmp/pautobot-0.0.9.tar.gz --markdown 20230611/p/pautobot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 17:48:03] INFO root fetch - processPackages [mcnets]: Downloading https://files.pythonhosted.org/packages/80/8b/17f93f8c40c740845adc8d9604f109aff499f438b7d86979634eab637e23/mcnets-0.3.0.tar.gz
+[2023-06-11 17:48:03] INFO root fetch - processPackages [belay]: executing diffoscope
+[2023-06-11 17:48:03] INFO root fetch - processPackages [belay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belay-0.9.2.tar.gz tmp/belay-0.9.3.tar.gz --markdown 20230611/b/belay/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-11 17:48:03] INFO root fetch - processPackages [inboard]: Downloading https://files.pythonhosted.org/packages/bd/3c/4f127e9b555a0dd390f7b8fdd4358631b1782a5681df4c0281fd2e433489/inboard-0.9.5.tar.gz
+[2023-06-11 17:48:04] INFO root fetch - processPackages [mcnets]: executing diffoscope
+[2023-06-11 17:48:04] INFO root fetch - processPackages [mcnets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcnets-0.2.7.tar.gz tmp/mcnets-0.3.0.tar.gz --markdown 20230611/m/mcnets/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-11 17:48:04] INFO root fetch - processPackages [inboard]: executing diffoscope
+[2023-06-11 17:48:04] INFO root fetch - processPackages [inboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inboard-0.9.4.tar.gz tmp/inboard-0.9.5.tar.gz --markdown 20230611/i/inboard/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-11 17:48:04] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.2.0.tar.gz]
+[2023-06-11 17:48:04] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.3.0.tar.gz]
+[2023-06-11 17:48:04] INFO root fetch - processPackages [fcal]: Start processing: pyilz
+[2023-06-11 17:48:04] INFO root fetch - main [MainThread]: End processing [fcal]: success
+[2023-06-11 17:48:04] INFO root fetch - processPackages [pyilz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 17:48:04] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-11 17:48:04] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230611/c/composabl-dev/0.2.1.dev8-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-11 17:48:04] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-11 17:48:04] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230611/c/composabl-dev/0.2.1.dev8-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-11 17:48:04] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: Remove: archive file [/home/abi/fetcher/tmp/pmsm-pm-temp-prediction-0.0.1.tar.gz]
+[2023-06-11 17:48:04] INFO root fetch - processPackages [pmsm-pm-temp-prediction]: Remove: archive file [/home/abi/fetcher/tmp/pmsm-pm-temp-prediction-0.0.2.tar.gz]
+[2023-06-11 17:48:04] INFO root fetch - main [MainThread]: End processing [pmsm-pm-temp-prediction]: success
+[2023-06-11 17:48:05] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/37/7a/114c838cef9c045f8814283c518613d96dbd100b5c90695136e5b4e752a2/pyilz-0.0.8.tar.gz
+[2023-06-11 17:48:05] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-0.5.1.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-0.5.2.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-06-11 17:48:05] INFO root fetch - processPackages [pyilz]: Downloading https://files.pythonhosted.org/packages/a3/6c/e16df3d96f2df68a3608c527521de81ad9bee84af7f3de3dabeecc744720/pyilz-0.0.9.tar.gz
+[2023-06-11 17:48:05] INFO root fetch - processPackages [pyilz]: executing diffoscope
+[2023-06-11 17:48:05] INFO root fetch - processPackages [pyilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyilz-0.0.8.tar.gz tmp/pyilz-0.0.9.tar.gz --markdown 20230611/p/pyilz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 17:48:05] INFO root fetch - processPackages [synth-mapping-helper]: Remove: archive file [/home/abi/fetcher/tmp/synth_mapping_helper-1.2.2.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - processPackages [synth-mapping-helper]: Remove: archive file [/home/abi/fetcher/tmp/synth_mapping_helper-1.2.3.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - main [MainThread]: End processing [synth-mapping-helper]: success
+[2023-06-11 17:48:05] INFO root fetch - processPackages [mcnets]: Remove: archive file [/home/abi/fetcher/tmp/mcnets-0.2.7.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - processPackages [mcnets]: Remove: archive file [/home/abi/fetcher/tmp/mcnets-0.3.0.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - main [MainThread]: End processing [mcnets]: success
+[2023-06-11 17:48:05] INFO root fetch - processPackages [belay]: Remove: archive file [/home/abi/fetcher/tmp/belay-0.9.2.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - processPackages [belay]: Remove: archive file [/home/abi/fetcher/tmp/belay-0.9.3.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - main [MainThread]: End processing [belay]: success
+[2023-06-11 17:48:05] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.4.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - processPackages [inboard]: Remove: archive file [/home/abi/fetcher/tmp/inboard-0.9.5.tar.gz]
+[2023-06-11 17:48:05] INFO root fetch - main [MainThread]: End processing [inboard]: success
+[2023-06-11 17:48:06] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.8.tar.gz]
+[2023-06-11 17:48:06] INFO root fetch - processPackages [pyilz]: Remove: archive file [/home/abi/fetcher/tmp/pyilz-0.0.9.tar.gz]
+[2023-06-11 17:48:06] INFO root fetch - main [MainThread]: End processing [pyilz]: success
+[2023-06-11 17:48:06] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-11 17:48:06] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-11 17:48:06] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-11 17:48:06] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-11 17:48:07] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.8.tar.gz]
+[2023-06-11 17:48:07] INFO root fetch - processPackages [pautobot]: Remove: archive file [/home/abi/fetcher/tmp/pautobot-0.0.9.tar.gz]
+[2023-06-11 17:48:07] INFO root fetch - main [MainThread]: End processing [pautobot]: success
+[2023-06-11 17:48:07] INFO root fetch - main [MainThread]: Store serial: [18459056]
