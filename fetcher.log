@@ -5793,3 +5793,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:08:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230611.tar.gz]
 [2023-06-11 10:08:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-11 10:08:06] INFO root fetch - main [MainThread]: Store serial: [18456583]
+[2023-06-11 10:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456583]
+[2023-06-11 10:13:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 10:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htruc
+[2023-06-11 10:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaohn-common-utils
+[2023-06-11 10:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonschema-spec
+[2023-06-11 10:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: towalink-tlm
+[2023-06-11 10:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyoppleio-legacy
+[2023-06-11 10:13:15] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-06-11 10:13:15] INFO root fetch - processPackages [htruc]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-11 10:13:15] INFO root fetch - processPackages [towalink-tlm]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-11 10:13:15] WARNING root fetch - processPackages [pyoppleio-legacy]: Skipping, unable to determine old version
+[2023-06-11 10:13:15] INFO root fetch - main [MainThread]: End processing [pyoppleio-legacy] error
+[2023-06-11 10:13:15] INFO root fetch - processPackages [jsonschema-spec]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-11 10:13:15] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/68/99/8222aaa0dd30180c9802db825b0a7b818497e9c8f8cb87e7d71075b0fb8a/gaohn-common-utils-0.0.35.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [jsonschema-spec]: Downloading https://files.pythonhosted.org/packages/8e/cc/49a706aca5cfe53ada092dbbb08fcc8dcf221dfb388e3d7a67506b528953/jsonschema_spec-0.1.5.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/2a/90/9457d116708d6bc84b52b9fcf2c1c11d14e82d7d16e57f734774ffd749b9/htruc-1.0.5.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [towalink-tlm]: Downloading https://files.pythonhosted.org/packages/2b/45/19ec411e55c285dd8e635aab7c8496e59db212098d171f838b3bd93f33dd/towalink_tlm-0.1.9.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/a2/bb/62028e16e8f8ada9f8a25f3bd769b432a1d233bc565e3eea829e60b70a89/gaohn-common-utils-0.0.36.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [jsonschema-spec]: Downloading https://files.pythonhosted.org/packages/a3/d5/b1c6171af26a3086189c45fcc7145cb40cdb7ab6779806e9e321501f5251/jsonschema_spec-0.1.6.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-11 10:13:15] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.35.tar.gz tmp/gaohn-common-utils-0.0.36.tar.gz --markdown 20230611/g/gaohn-common-utils/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-06-11 10:13:15] INFO root fetch - processPackages [jsonschema-spec]: executing diffoscope
+[2023-06-11 10:13:15] INFO root fetch - processPackages [jsonschema-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_spec-0.1.5.tar.gz tmp/jsonschema_spec-0.1.6.tar.gz --markdown 20230611/j/jsonschema-spec/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-11 10:13:15] INFO root fetch - processPackages [towalink-tlm]: Downloading https://files.pythonhosted.org/packages/4a/9a/5a0c9564bfe086114964eeb2df1ce4aff4187539c7bc801a46ae6d1a160a/towalink_tlm-0.2.0.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/23/40/da7a0a769340a93bb536b94f8e16b395819f4dd7657fd6df22dd74747264/htruc-1.0.6.tar.gz
+[2023-06-11 10:13:15] INFO root fetch - processPackages [htruc]: executing diffoscope
+[2023-06-11 10:13:15] INFO root fetch - processPackages [htruc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htruc-1.0.5.tar.gz tmp/htruc-1.0.6.tar.gz --markdown 20230611/h/htruc/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-11 10:13:15] INFO root fetch - processPackages [towalink-tlm]: executing diffoscope
+[2023-06-11 10:13:15] INFO root fetch - processPackages [towalink-tlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towalink_tlm-0.1.9.tar.gz tmp/towalink_tlm-0.2.0.tar.gz --markdown 20230611/t/towalink-tlm/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 10:13:16] INFO root fetch - processPackages [jsonschema-spec]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_spec-0.1.5.tar.gz]
+[2023-06-11 10:13:16] INFO root fetch - processPackages [jsonschema-spec]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_spec-0.1.6.tar.gz]
+[2023-06-11 10:13:16] INFO root fetch - main [MainThread]: End processing [jsonschema-spec]: success
+[2023-06-11 10:13:16] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.35.tar.gz]
+[2023-06-11 10:13:16] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.36.tar.gz]
+[2023-06-11 10:13:16] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-11 10:13:16] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.5.tar.gz]
+[2023-06-11 10:13:16] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.6.tar.gz]
+[2023-06-11 10:13:16] INFO root fetch - main [MainThread]: End processing [htruc]: success
+[2023-06-11 10:13:17] INFO root fetch - processPackages [towalink-tlm]: Remove: archive file [/home/abi/fetcher/tmp/towalink_tlm-0.1.9.tar.gz]
+[2023-06-11 10:13:17] INFO root fetch - processPackages [towalink-tlm]: Remove: archive file [/home/abi/fetcher/tmp/towalink_tlm-0.2.0.tar.gz]
+[2023-06-11 10:13:17] INFO root fetch - main [MainThread]: End processing [towalink-tlm]: success
+[2023-06-11 10:13:17] INFO root fetch - main [MainThread]: Store serial: [18456599]
