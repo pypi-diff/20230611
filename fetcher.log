@@ -14332,3 +14332,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:01:11] INFO root fetch - processPackages [aiomysql]: Remove: archive file [/home/abi/fetcher/tmp/aiomysql-0.2.0.tar.gz]
 [2023-06-11 22:01:11] INFO root fetch - main [MainThread]: End processing [aiomysql]: success
 [2023-06-11 22:01:11] INFO root fetch - main [MainThread]: Store serial: [18460586]
+[2023-06-11 22:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460586]
+[2023-06-11 22:06:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 22:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompton
+[2023-06-11 22:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vocos
+[2023-06-11 22:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neutronics-material-maker
+[2023-06-11 22:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymee
+[2023-06-11 22:06:22] WARNING root fetch - processPackages [prompton]: Skipping, unable to determine old version
+[2023-06-11 22:06:22] INFO root fetch - main [MainThread]: End processing [prompton] error
+[2023-06-11 22:06:22] WARNING root fetch - processPackages [vocos]: Skipping, unable to determine old version
+[2023-06-11 22:06:22] INFO root fetch - main [MainThread]: End processing [vocos] error
+[2023-06-11 22:06:22] INFO root fetch - processPackages [neutronics-material-maker]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-11 22:06:22] INFO root fetch - processPackages [pymee]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-11 22:06:22] INFO root fetch - processPackages [neutronics-material-maker]: Downloading https://files.pythonhosted.org/packages/44/63/5cd7e000d786e6e9b13c98e0bb15bf3de22adef884bcba07ec6f2905a117/neutronics_material_maker-1.1.3.tar.gz
+[2023-06-11 22:06:22] INFO root fetch - processPackages [pymee]: Downloading https://files.pythonhosted.org/packages/10/7f/eb87dcab51f74bdce6d37455bc034bf357a18768e52092654ffb379ef954/pymee-1.7.0.tar.gz
+[2023-06-11 22:06:22] INFO root fetch - processPackages [neutronics-material-maker]: Downloading https://files.pythonhosted.org/packages/70/b1/c75099bd40756474a83bec1cf43992121b3afbe6d3742f161c18c4b87c00/neutronics_material_maker-1.1.4.tar.gz
+[2023-06-11 22:06:22] INFO root fetch - processPackages [neutronics-material-maker]: executing diffoscope
+[2023-06-11 22:06:22] INFO root fetch - processPackages [neutronics-material-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutronics_material_maker-1.1.3.tar.gz tmp/neutronics_material_maker-1.1.4.tar.gz --markdown 20230611/n/neutronics-material-maker/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-11 22:06:22] INFO root fetch - processPackages [pymee]: Downloading https://files.pythonhosted.org/packages/fd/44/82a64fcabbef8ab45fac6dbf8a7b8e2af454093d967fc54a9353c0e37d01/pymee-1.7.1.tar.gz
+[2023-06-11 22:06:23] INFO root fetch - processPackages [pymee]: executing diffoscope
+[2023-06-11 22:06:23] INFO root fetch - processPackages [pymee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymee-1.7.0.tar.gz tmp/pymee-1.7.1.tar.gz --markdown 20230611/p/pymee/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-11 22:06:24] INFO root fetch - processPackages [pymee]: Remove: archive file [/home/abi/fetcher/tmp/pymee-1.7.0.tar.gz]
+[2023-06-11 22:06:24] INFO root fetch - processPackages [pymee]: Remove: archive file [/home/abi/fetcher/tmp/pymee-1.7.1.tar.gz]
+[2023-06-11 22:06:24] INFO root fetch - main [MainThread]: End processing [pymee]: success
+[2023-06-11 22:06:24] INFO root fetch - processPackages [neutronics-material-maker]: Remove: archive file [/home/abi/fetcher/tmp/neutronics_material_maker-1.1.3.tar.gz]
+[2023-06-11 22:06:24] INFO root fetch - processPackages [neutronics-material-maker]: Remove: archive file [/home/abi/fetcher/tmp/neutronics_material_maker-1.1.4.tar.gz]
+[2023-06-11 22:06:24] INFO root fetch - main [MainThread]: End processing [neutronics-material-maker]: success
+[2023-06-11 22:06:24] INFO root fetch - main [MainThread]: Store serial: [18460603]
