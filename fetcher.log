@@ -3710,3 +3710,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:42:38] INFO root fetch - processPackages [odoo12-addon-hr-holidays-leave-request-wizard]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_holidays_leave_request_wizard-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
 [2023-06-11 05:42:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-holidays-leave-request-wizard]: success
 [2023-06-11 05:42:38] INFO root fetch - main [MainThread]: Store serial: [18455627]
+[2023-06-11 05:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455627]
+[2023-06-11 05:47:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 05:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautosrt
+[2023-06-11 05:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rs-tabler
+[2023-06-11 05:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-build-core
+[2023-06-11 05:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humano
+[2023-06-11 05:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: randog
+[2023-06-11 05:47:46] INFO root fetch - processPackages [scikit-build-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-11 05:47:46] WARNING root fetch - processPackages [humano]: Skipping, unable to determine old version
+[2023-06-11 05:47:46] WARNING root fetch - processPackages [rs-tabler]: Skipping, unable to determine old version
+[2023-06-11 05:47:46] INFO root fetch - main [MainThread]: End processing [humano] error
+[2023-06-11 05:47:46] INFO root fetch - processPackages [randog]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-11 05:47:46] INFO root fetch - main [MainThread]: End processing [rs-tabler] error
+[2023-06-11 05:47:46] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-11 05:47:46] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/a4/39/56d873d39947a5676358cc7a6ae5e536d1a3b52b1e8268161382bae6c1a1/scikit_build_core-0.4.4.tar.gz
+[2023-06-11 05:47:46] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/42/1b/cc5bb85d680226626682e68bfbf964e7113b6c69d19e0ba025884a63687d/pyautosrt-0.1.7.tar.gz
+[2023-06-11 05:47:46] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/5e/7e/b8ddd03aab69cc002cb660a2319d18dced0b93429d27124b6cfdcad69d93/randog-0.4.0.tar.gz
+[2023-06-11 05:47:47] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/81/2c/992dfd4449dfc81ea42d3d84e31f565f1f6b98d81018e6cfd3c8a1394134/scikit_build_core-0.4.5.tar.gz
+[2023-06-11 05:47:47] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/ef/36/36da59cb756361b6462583916fe0e6d696e1a393f56c0f1de2e6c812f9f2/randog-0.5.0.tar.gz
+[2023-06-11 05:47:47] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/7d/1d/6fad9a1f75720f5861c9f2bd712d831392bdafc436802bf70c77163c7227/pyautosrt-0.2.0.tar.gz
+[2023-06-11 05:47:47] INFO root fetch - processPackages [randog]: executing diffoscope
+[2023-06-11 05:47:47] INFO root fetch - processPackages [randog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/randog-0.4.0.tar.gz tmp/randog-0.5.0.tar.gz --markdown 20230611/r/randog/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-11 05:47:47] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2023-06-11 05:47:47] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.4.4.tar.gz tmp/scikit_build_core-0.4.5.tar.gz --markdown 20230611/s/scikit-build-core/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-11 05:47:47] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-06-11 05:47:47] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.1.7.tar.gz tmp/pyautosrt-0.2.0.tar.gz --markdown 20230611/p/pyautosrt/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 05:47:48] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.1.7.tar.gz]
+[2023-06-11 05:47:48] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.0.tar.gz]
+[2023-06-11 05:47:48] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-06-11 05:47:48] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.4.0.tar.gz]
+[2023-06-11 05:47:48] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.5.0.tar.gz]
+[2023-06-11 05:47:48] INFO root fetch - main [MainThread]: End processing [randog]: success
+[2023-06-11 05:47:49] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.4.tar.gz]
+[2023-06-11 05:47:49] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.5.tar.gz]
+[2023-06-11 05:47:49] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2023-06-11 05:47:49] INFO root fetch - main [MainThread]: Store serial: [18455657]
