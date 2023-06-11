@@ -3776,3 +3776,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:53:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev2-py3-none-any.whl.zip]
 [2023-06-11 05:53:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
 [2023-06-11 05:53:00] INFO root fetch - main [MainThread]: Store serial: [18455664]
+[2023-06-11 05:58:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455664]
+[2023-06-11 05:58:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-11 05:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bike-rental-package
+[2023-06-11 05:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius
+[2023-06-11 05:58:09] INFO root fetch - processPackages [aorta-sirius]: New version: [0.4] Old Version: [0.3]
+[2023-06-11 05:58:09] WARNING root fetch - processPackages [bike-rental-package]: Skipping, unable to determine old version
+[2023-06-11 05:58:09] INFO root fetch - main [MainThread]: End processing [bike-rental-package] error
+[2023-06-11 05:58:09] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/3a/ac/766fbd0164dd11680b5cf2c8029fbe357a13599746f9815a9cdcbb480848/aorta_sirius-0.3.tar.gz
+[2023-06-11 05:58:09] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/30/db/afd25e6d6fd51cc7fbad1589fc1d882d1c51119381563f26fedfd187e175/aorta_sirius-0.4.tar.gz
+[2023-06-11 05:58:09] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-11 05:58:09] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.3.tar.gz tmp/aorta_sirius-0.4.tar.gz --markdown 20230611/a/aorta-sirius/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-11 05:58:11] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.3.tar.gz]
+[2023-06-11 05:58:11] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.4.tar.gz]
+[2023-06-11 05:58:11] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-11 05:58:11] INFO root fetch - main [MainThread]: Store serial: [18455670]
