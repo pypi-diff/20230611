@@ -6917,3 +6917,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 12:02:57] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
 [2023-06-11 12:02:57] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-06-11 12:02:57] INFO root fetch - main [MainThread]: Store serial: [18457115]
+[2023-06-11 12:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457115]
+[2023-06-11 12:08:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 12:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi-template
+[2023-06-11 12:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xlmhglite
+[2023-06-11 12:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychrochart
+[2023-06-11 12:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-lambda-typing
+[2023-06-11 12:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: az-st7735
+[2023-06-11 12:08:06] INFO root fetch - processPackages [psychrochart]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-11 12:08:06] INFO root fetch - processPackages [az-st7735]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-11 12:08:06] INFO root fetch - processPackages [xlmhglite]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 12:08:06] INFO root fetch - processPackages [aws-lambda-typing]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-11 12:08:06] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-06-11 12:08:06] INFO root fetch - processPackages [az-st7735]: Downloading https://files.pythonhosted.org/packages/d2/6c/ea4f35988cc62f95c465140942e441d23843ec809986a4ea48ca7aead0e8/az-st7735-0.1.3.tar.gz
+[2023-06-11 12:08:06] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/94/4e/82ebf251850cfbc7bd885b9d0e37ac45edea4b7d123410078e1d127f181f/hyfi_template-0.3.2.tar.gz
+[2023-06-11 12:08:06] INFO root fetch - processPackages [xlmhglite]: Downloading https://files.pythonhosted.org/packages/99/ca/c345491007d73d1d8e47366766c19bd554c7864b28175d0d9c6989942fb6/xlmhglite-1.0.0.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [aws-lambda-typing]: Downloading https://files.pythonhosted.org/packages/73/5d/c29b476c241769b1c01eb6addcc3eee4bc32bdb8362ba99594fe1864ae02/aws-lambda-typing-2.9.8.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/8f/83/d4c65bdf23c7af8d0abb5355d256417202ba5edb54b418652b4f421a5e60/psychrochart-0.7.0.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [az-st7735]: Downloading https://files.pythonhosted.org/packages/d4/7d/9d2b7526e092675c4c143cf8d3bb2f65c52639de58afbff0ca443f35dbf0/az-st7735-0.1.4.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [xlmhglite]: Downloading https://files.pythonhosted.org/packages/b7/b2/c195765f014a41f8028fdfc3032ad908af2f219e670e771b076a67dc5494/xlmhglite-1.0.1.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/8b/30/b944eaa45dc8d52f44ea1df74af9254e0686a25e3d01686c68e35d754b87/hyfi_template-0.3.4.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [az-st7735]: executing diffoscope
+[2023-06-11 12:08:07] INFO root fetch - processPackages [az-st7735]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/az-st7735-0.1.3.tar.gz tmp/az-st7735-0.1.4.tar.gz --markdown 20230611/a/az-st7735/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-11 12:08:07] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/81/66/2b1daa746dc95b021868d179935eb693d9f041262f7e9065d89d1ec7144b/psychrochart-0.8.0.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-06-11 12:08:07] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.2.tar.gz tmp/hyfi_template-0.3.4.tar.gz --markdown 20230611/h/hyfi-template/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-06-11 12:08:07] INFO root fetch - processPackages [aws-lambda-typing]: Downloading https://files.pythonhosted.org/packages/3a/12/550c7621dd5a5c00e1cc4e98cd1ce8d741b3b783408aa3a327900d29fe7b/aws-lambda-typing-2.9.9.tar.gz
+[2023-06-11 12:08:07] INFO root fetch - processPackages [psychrochart]: executing diffoscope
+[2023-06-11 12:08:07] INFO root fetch - processPackages [psychrochart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychrochart-0.7.0.tar.gz tmp/psychrochart-0.8.0.tar.gz --markdown 20230611/p/psychrochart/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-11 12:08:07] INFO root fetch - processPackages [xlmhglite]: executing diffoscope
+[2023-06-11 12:08:07] INFO root fetch - processPackages [xlmhglite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlmhglite-1.0.0.tar.gz tmp/xlmhglite-1.0.1.tar.gz --markdown 20230611/x/xlmhglite/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 12:08:07] INFO root fetch - processPackages [aws-lambda-typing]: executing diffoscope
+[2023-06-11 12:08:07] INFO root fetch - processPackages [aws-lambda-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-lambda-typing-2.9.8.tar.gz tmp/aws-lambda-typing-2.9.9.tar.gz --markdown 20230611/a/aws-lambda-typing/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-11 12:08:08] INFO root fetch - processPackages [az-st7735]: Remove: archive file [/home/abi/fetcher/tmp/az-st7735-0.1.3.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - processPackages [az-st7735]: Remove: archive file [/home/abi/fetcher/tmp/az-st7735-0.1.4.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - main [MainThread]: End processing [az-st7735]: success
+[2023-06-11 12:08:08] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.2.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.4.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-06-11 12:08:08] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.7.0.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.8.0.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - main [MainThread]: End processing [psychrochart]: success
+[2023-06-11 12:08:08] INFO root fetch - processPackages [xlmhglite]: Remove: archive file [/home/abi/fetcher/tmp/xlmhglite-1.0.0.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - processPackages [xlmhglite]: Remove: archive file [/home/abi/fetcher/tmp/xlmhglite-1.0.1.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - main [MainThread]: End processing [xlmhglite]: success
+[2023-06-11 12:08:08] INFO root fetch - processPackages [aws-lambda-typing]: Remove: archive file [/home/abi/fetcher/tmp/aws-lambda-typing-2.9.8.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - processPackages [aws-lambda-typing]: Remove: archive file [/home/abi/fetcher/tmp/aws-lambda-typing-2.9.9.tar.gz]
+[2023-06-11 12:08:08] INFO root fetch - main [MainThread]: End processing [aws-lambda-typing]: success
+[2023-06-11 12:08:08] INFO root fetch - main [MainThread]: Store serial: [18457131]
