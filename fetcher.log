@@ -7569,3 +7569,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:14:31] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-1.0.9.tar.gz]
 [2023-06-11 13:14:31] INFO root fetch - main [MainThread]: End processing [minidevice]: success
 [2023-06-11 13:14:31] INFO root fetch - main [MainThread]: Store serial: [18457402]
+[2023-06-11 13:19:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457402]
+[2023-06-11 13:19:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SirkPire
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiobtclientapi
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genshin
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipsocgen
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrestack
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaitorch
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tb-nightly
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: archcraftsman
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: embody-file
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nacos-sdk-rust-binding-py
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ipsocgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 13:19:40] WARNING root fetch - processPackages [kaitorch]: Skipping, unable to determine old version
+[2023-06-11 13:19:40] INFO root fetch - processPackages [genshin]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-11 13:19:40] INFO root fetch - main [MainThread]: End processing [kaitorch] error
+[2023-06-11 13:19:40] INFO root fetch - processPackages [pyrestack]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-11 13:19:40] WARNING root fetch - processPackages [SirkPire]: Skipping, unable to determine old version
+[2023-06-11 13:19:40] INFO root fetch - processPackages [aiobtclientapi]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-11 13:19:40] INFO root fetch - processPackages [embody-file]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-11 13:19:40] INFO root fetch - main [MainThread]: End processing [SirkPire] error
+[2023-06-11 13:19:40] INFO root fetch - processPackages [archcraftsman]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-06-11 13:19:40] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 13:19:40] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-11 13:19:40] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Downloading https://files.pythonhosted.org/packages/9d/b8/59801930baa1ad7d16627e57f2f589866d8b5aa55bbd96f6953a77d86319/nacos_sdk_rust_binding_py-0.1.0.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ipsocgen]: Downloading https://files.pythonhosted.org/packages/11/54/e76ec133a215133bc0add89fbba0f3e5d9473aaf7a80771670485d2081b0/ipsocgen-0.1.8.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [genshin]: Downloading https://files.pythonhosted.org/packages/c2/80/128c6e1777a999504f002b1bb6bf89ff8a5aa31cf02c022412c44ba0903b/genshin-1.5.2.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [aiobtclientapi]: Downloading https://files.pythonhosted.org/packages/3e/c1/3fe20ae4a385f04b81a9af5b6e7c197ac873d7d0a468f862247b353e308b/aiobtclientapi-1.1.2.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [embody-file]: Downloading https://files.pythonhosted.org/packages/fb/98/6a49d4d86c36168a3fa9b55946a452a4fd21063cbceafa32b3985bb017d5/embody_file-1.0.8.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/59/35/11ffeb3b018cf3fb1e3e91a0066b788fdd334c7798f05abdc87428b6a6f3/pyrestack-0.0.22.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Downloading https://files.pythonhosted.org/packages/d7/35/d789fb709a71438911b5a906a4de2c7e37b2912b116fd0ab19d060defc77/nacos_sdk_rust_binding_py-0.1.1.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [archcraftsman]: Downloading https://files.pythonhosted.org/packages/4c/47/0366239cedae424adc7fdeb4332b55921d334e63282c6b24b4499ff4e36c/archcraftsman-4.0.1-py3-none-any.whl
+[2023-06-11 13:19:40] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: executing diffoscope
+[2023-06-11 13:19:40] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nacos_sdk_rust_binding_py-0.1.0.tar.gz tmp/nacos_sdk_rust_binding_py-0.1.1.tar.gz --markdown 20230611/n/nacos-sdk-rust-binding-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 13:19:40] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-11 13:19:40] INFO root fetch - processPackages [pyrestack]: Downloading https://files.pythonhosted.org/packages/74/50/3a2aa6700fb012dcf77292860d0f7514dba8ab9958de8680b65745a6c588/pyrestack-0.0.23-py3-none-any.whl
+[2023-06-11 13:19:40] INFO root fetch - processPackages [aiobtclientapi]: Downloading https://files.pythonhosted.org/packages/c5/98/c7ca23ed3ba6eb0ae3a83c9c97c923a9049543c6fbe45d9d93b7674ec12e/aiobtclientapi-1.1.3.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ipsocgen]: Downloading https://files.pythonhosted.org/packages/65/4b/20da524e91684573355257160a62b7f893d4175024d3f8ef3e478b720b50/ipsocgen-0.1.9.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [genshin]: Downloading https://files.pythonhosted.org/packages/e4/f9/6301260bbf9a3caa8e1a1a7dda307e5460b9df65a219c6296cc847254aaf/genshin-1.6.0.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [pyrestack]: executing diffoscope
+[2023-06-11 13:19:40] INFO root fetch - processPackages [pyrestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestack-0.0.22.tar.gz tmp/pyrestack-0.0.23-py3-none-any.whl.zip --markdown 20230611/p/pyrestack/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-11 13:19:40] INFO root fetch - processPackages [embody-file]: Downloading https://files.pythonhosted.org/packages/e1/07/0eeea4d0aa2f1e834541754af02fd360d0b58614af0b2d59ca31326267af/embody_file-1.0.9.tar.gz
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ipsocgen]: executing diffoscope
+[2023-06-11 13:19:40] INFO root fetch - processPackages [ipsocgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipsocgen-0.1.8.tar.gz tmp/ipsocgen-0.1.9.tar.gz --markdown 20230611/i/ipsocgen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 13:19:40] INFO root fetch - processPackages [genshin]: executing diffoscope
+[2023-06-11 13:19:40] INFO root fetch - processPackages [aiobtclientapi]: executing diffoscope
+[2023-06-11 13:19:40] INFO root fetch - processPackages [genshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genshin-1.5.2.tar.gz tmp/genshin-1.6.0.tar.gz --markdown 20230611/g/genshin/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-11 13:19:40] INFO root fetch - processPackages [aiobtclientapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobtclientapi-1.1.2.tar.gz tmp/aiobtclientapi-1.1.3.tar.gz --markdown 20230611/a/aiobtclientapi/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-11 13:19:41] INFO root fetch - processPackages [archcraftsman]: Downloading https://files.pythonhosted.org/packages/63/1f/5c8961f1ac3b37f0c7fab500c13c4698ef72e57aedf886ccb677cbfc6bb3/archcraftsman-4.1.0-py3-none-any.whl
+[2023-06-11 13:19:41] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-11 13:19:41] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230611/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-11 13:19:41] INFO root fetch - processPackages [embody-file]: executing diffoscope
+[2023-06-11 13:19:41] INFO root fetch - processPackages [embody-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_file-1.0.8.tar.gz tmp/embody_file-1.0.9.tar.gz --markdown 20230611/e/embody-file/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:19:41] INFO root fetch - processPackages [archcraftsman]: executing diffoscope
+[2023-06-11 13:19:41] INFO root fetch - processPackages [archcraftsman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archcraftsman-4.0.1-py3-none-any.whl.zip tmp/archcraftsman-4.1.0-py3-none-any.whl.zip --markdown 20230611/a/archcraftsman/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-06-11 13:19:42] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.22.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [pyrestack]: Remove: archive file [/home/abi/fetcher/tmp/pyrestack-0.0.23-py3-none-any.whl.zip]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [pyrestack]: success
+[2023-06-11 13:19:42] INFO root fetch - processPackages [aiobtclientapi]: Remove: archive file [/home/abi/fetcher/tmp/aiobtclientapi-1.1.2.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [aiobtclientapi]: Remove: archive file [/home/abi/fetcher/tmp/aiobtclientapi-1.1.3.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [aiobtclientapi]: success
+[2023-06-11 13:19:42] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Remove: archive file [/home/abi/fetcher/tmp/nacos_sdk_rust_binding_py-0.1.0.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Remove: archive file [/home/abi/fetcher/tmp/nacos_sdk_rust_binding_py-0.1.1.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [nacos-sdk-rust-binding-py]: success
+[2023-06-11 13:19:42] INFO root fetch - processPackages [embody-file]: Remove: archive file [/home/abi/fetcher/tmp/embody_file-1.0.8.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [embody-file]: Remove: archive file [/home/abi/fetcher/tmp/embody_file-1.0.9.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [embody-file]: success
+[2023-06-11 13:19:42] INFO root fetch - processPackages [ipsocgen]: Remove: archive file [/home/abi/fetcher/tmp/ipsocgen-0.1.8.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [ipsocgen]: Remove: archive file [/home/abi/fetcher/tmp/ipsocgen-0.1.9.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [ipsocgen]: success
+[2023-06-11 13:19:42] INFO root fetch - processPackages [genshin]: Remove: archive file [/home/abi/fetcher/tmp/genshin-1.5.2.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [genshin]: Remove: archive file [/home/abi/fetcher/tmp/genshin-1.6.0.tar.gz]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [genshin]: success
+[2023-06-11 13:19:42] INFO root fetch - processPackages [archcraftsman]: Remove: archive file [/home/abi/fetcher/tmp/archcraftsman-4.0.1-py3-none-any.whl.zip]
+[2023-06-11 13:19:42] INFO root fetch - processPackages [archcraftsman]: Remove: archive file [/home/abi/fetcher/tmp/archcraftsman-4.1.0-py3-none-any.whl.zip]
+[2023-06-11 13:19:42] INFO root fetch - main [MainThread]: End processing [archcraftsman]: success
+[2023-06-11 13:19:45] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-11 13:19:45] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-11 13:19:45] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-11 13:19:45] INFO root fetch - main [MainThread]: Store serial: [18457439]
