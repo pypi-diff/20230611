@@ -7796,3 +7796,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 13:30:10] INFO root fetch - processPackages [haccrypto]: Remove: archive file [/home/abi/fetcher/tmp/haccrypto-0.1.3.tar.gz]
 [2023-06-11 13:30:10] INFO root fetch - main [MainThread]: End processing [haccrypto]: success
 [2023-06-11 13:30:10] INFO root fetch - main [MainThread]: Store serial: [18457597]
+[2023-06-11 13:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457597]
+[2023-06-11 13:35:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archcraftsman
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swagger-marshmallow-codegen
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-nano
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-llm
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-chronos
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jwtlib
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CharmCord
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-06-11 13:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upsies
+[2023-06-11 13:35:19] INFO root fetch - processPackages [archcraftsman]: New version: [4.1.1] Old Version: [4.0.1]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [swagger-marshmallow-codegen]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-11 13:35:19] WARNING root fetch - processPackages [CharmCord]: Skipping, unable to determine old version
+[2023-06-11 13:35:19] INFO root fetch - processPackages [CharmCord]: Start processing: jVMC
+[2023-06-11 13:35:19] INFO root fetch - main [MainThread]: End processing [CharmCord] error
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jwtlib]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230611] Old Version: [2.4.0b20230610]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [archcraftsman]: Downloading https://files.pythonhosted.org/packages/4c/47/0366239cedae424adc7fdeb4332b55921d334e63282c6b24b4499ff4e36c/archcraftsman-4.0.1-py3-none-any.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jVMC]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e7/84/4127fb56287b4dea7fe5ce6b1320f7fd503aa2c2c0d124584cc0e970298b/bigdl_serving-2.4.0b20230610-py2.py3-none-any.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [upsies]: New version: [2023.6.11] Old Version: [2023.5.25]
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/55/75/b372565b06dcfea1a7c6edc4e0f699b27e5ab630ecd407e3a137c402f049/jVMC-1.1.7-py3-none-any.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/6b/57/8a0e27d01c9703be92e0b062e89f66bfd6f106933ceeb796c593d1667127/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f6/a7/59f34279c80887e7c8292d0daaa2c1983b68e11200ad08d32b4966226d81/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [swagger-marshmallow-codegen]: Downloading https://files.pythonhosted.org/packages/d0/77/8b4ebf5b1e3cce0cef94286ba8db818eace1e1da1a958c10656f97911118/swagger-marshmallow-codegen-0.6.4.tar.gz
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/ef/23/a7acc823b6bf652b1d293ca18826628216967cd5f4adc21ea31df8d64577/jwtlib-0.3.3.tar.gz
+[2023-06-11 13:35:19] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/ff/d52ef4f3702badb2b965ed11d28efa922877afe48d7211f5b389e5d704d6/QuNet-0.0.8-py3-none-any.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/82/fb/8de0898f01647a3d326e71e7d6cc62bad9b47f2c3eed037283219468ec12/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/c5/83/cb0e26dc5dc8e13196d879631b7b4f4ce5f454286879769b91b54cf50dab/jVMC-1.2.0.tar.gz
+[2023-06-11 13:35:19] INFO root fetch - processPackages [upsies]: Downloading https://files.pythonhosted.org/packages/88/a1/dd2d0c1fcde6387d504bda1f9f007939b85b089495d6c4a2d0bf368e7680/upsies-2023.5.25.tar.gz
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/4b/1d/e7a8e0b5eef158029062f57f5f78c53c7df5bc15e3c1722f7580c1ea0ebd/bigdl_serving-2.4.0b20230611-py2.py3-none-any.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [archcraftsman]: Downloading https://files.pythonhosted.org/packages/bc/6b/f217b3423ecbc36bd47c9b6b57b8f08bdf086bef8108f4e85d4e5e2a87db/archcraftsman-4.1.1-py3-none-any.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jVMC]: executing diffoscope
+[2023-06-11 13:35:19] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/50/f9/a43b31adc57221df876f3fbe9463c758ccc04e9c88b1f9b0922a72e37771/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl
+[2023-06-11 13:35:19] INFO root fetch - processPackages [jVMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jVMC-1.1.7-py3-none-any.whl.zip tmp/jVMC-1.2.0.tar.gz --markdown 20230611/j/jVMC/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [swagger-marshmallow-codegen]: Downloading https://files.pythonhosted.org/packages/b0/4b/019a556dca8da975339ab7fd6814479b4981351d3ba4529fbbb367fd6b32/swagger-marshmallow-codegen-0.6.5.tar.gz
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230610-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230611-py2.py3-none-any.whl.zip --markdown 20230611/b/bigdl-serving/2.4.0b20230610-2.4.0b20230611/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [jwtlib]: Downloading https://files.pythonhosted.org/packages/3b/b6/d875d9951d8a2b4d21f500df5bb09e048459c9dd85dbeedd50f25d98f6a5/jwtlib-0.3.5.tar.gz
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl.zip --markdown 20230611/b/bigdl-chronos/2.4.0b20230610-2.4.0b20230611/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [upsies]: Downloading https://files.pythonhosted.org/packages/67/5d/c3e68ed7546e7a0901faf8bfeab97f16f6accf81d15a4516601719b0cb2e/upsies-2023.6.11.tar.gz
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/9a/71/31f80cba4884d67dd219766a3ddb5527403dc00cf67a566b8aef418057e0/bigdl_nano-2.4.0b20230611-py3-none-win_amd64.whl
+[2023-06-11 13:35:20] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-11 13:35:20] INFO root fetch - processPackages [jwtlib]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [jwtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtlib-0.3.3.tar.gz tmp/jwtlib-0.3.5.tar.gz --markdown 20230611/j/jwtlib/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [archcraftsman]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [archcraftsman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archcraftsman-4.0.1-py3-none-any.whl.zip tmp/archcraftsman-4.1.1-py3-none-any.whl.zip --markdown 20230611/a/archcraftsman/4.0.1-4.1.1/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a0/a3/14e678000c8e877830cae449664c07dea3a662cd312a3914305cf0ddbad4/bigdl_llm-2.4.0b20230611-py3-none-win_amd64.whl
+[2023-06-11 13:35:20] INFO root fetch - processPackages [swagger-marshmallow-codegen]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [swagger-marshmallow-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger-marshmallow-codegen-0.6.4.tar.gz tmp/swagger-marshmallow-codegen-0.6.5.tar.gz --markdown 20230611/s/swagger-marshmallow-codegen/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [upsies]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [upsies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsies-2023.5.25.tar.gz tmp/upsies-2023.6.11.tar.gz --markdown 20230611/u/upsies/2023.5.25-2023.6.11/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230611/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230611-py3-none-win_amd64.whl.zip --markdown 20230611/b/bigdl-llm/2.4.0b20230610-2.4.0b20230611/diff.md --exclude *.pyd
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-11 13:35:20] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230611-py3-none-win_amd64.whl.zip --markdown 20230611/b/bigdl-nano/2.4.0b20230610-2.4.0b20230611/diff.md --exclude *.pyd
+[2023-06-11 13:35:21] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.1.7-py3-none-any.whl.zip]
+[2023-06-11 13:35:21] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.2.0.tar.gz]
+[2023-06-11 13:35:21] INFO root fetch - processPackages [jVMC]: Start processing: ttun
+[2023-06-11 13:35:21] INFO root fetch - main [MainThread]: End processing [jVMC]: success
+[2023-06-11 13:35:21] INFO root fetch - processPackages [ttun]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-06-11 13:35:21] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230610-py2.py3-none-any.whl.zip]
+[2023-06-11 13:35:21] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230611-py2.py3-none-any.whl.zip]
+[2023-06-11 13:35:21] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-11 13:35:21] INFO root fetch - processPackages [ttun]: Downloading https://files.pythonhosted.org/packages/da/b6/95b663e2761eb342c9bc1f11bbfe8f4706af897441c20d8ddd5539f46a76/ttun-1.6.0.tar.gz
+[2023-06-11 13:35:21] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.3.tar.gz]
+[2023-06-11 13:35:21] INFO root fetch - processPackages [jwtlib]: Remove: archive file [/home/abi/fetcher/tmp/jwtlib-0.3.5.tar.gz]
+[2023-06-11 13:35:21] INFO root fetch - main [MainThread]: End processing [jwtlib]: success
+[2023-06-11 13:35:21] INFO root fetch - processPackages [swagger-marshmallow-codegen]: Remove: archive file [/home/abi/fetcher/tmp/swagger-marshmallow-codegen-0.6.4.tar.gz]
+[2023-06-11 13:35:21] INFO root fetch - processPackages [swagger-marshmallow-codegen]: Remove: archive file [/home/abi/fetcher/tmp/swagger-marshmallow-codegen-0.6.5.tar.gz]
+[2023-06-11 13:35:21] INFO root fetch - main [MainThread]: End processing [swagger-marshmallow-codegen]: success
+[2023-06-11 13:35:21] INFO root fetch - processPackages [ttun]: Downloading https://files.pythonhosted.org/packages/4c/b4/c0a73bded4dddabdd4eb0e408e54f84fc95a258208aa01ed278faecaf36c/ttun-2.0.0.tar.gz
+[2023-06-11 13:35:22] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.8-py3-none-any.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-11 13:35:22] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230611-py3-none-win_amd64.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-11 13:35:22] INFO root fetch - processPackages [archcraftsman]: Remove: archive file [/home/abi/fetcher/tmp/archcraftsman-4.0.1-py3-none-any.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - processPackages [archcraftsman]: Remove: archive file [/home/abi/fetcher/tmp/archcraftsman-4.1.1-py3-none-any.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - main [MainThread]: End processing [archcraftsman]: success
+[2023-06-11 13:35:22] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230611-py3-none-win_amd64.whl.zip]
+[2023-06-11 13:35:22] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-11 13:35:22] INFO root fetch - processPackages [ttun]: executing diffoscope
+[2023-06-11 13:35:22] INFO root fetch - processPackages [ttun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttun-1.6.0.tar.gz tmp/ttun-2.0.0.tar.gz --markdown 20230611/t/ttun/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-11 13:35:22] INFO root fetch - processPackages [upsies]: Remove: archive file [/home/abi/fetcher/tmp/upsies-2023.5.25.tar.gz]
+[2023-06-11 13:35:22] INFO root fetch - processPackages [upsies]: Remove: archive file [/home/abi/fetcher/tmp/upsies-2023.6.11.tar.gz]
+[2023-06-11 13:35:22] INFO root fetch - main [MainThread]: End processing [upsies]: success
+[2023-06-11 13:35:23] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230610-py3-none-win_amd64.whl.zip]
+[2023-06-11 13:35:23] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230611-py3-none-win_amd64.whl.zip]
+[2023-06-11 13:35:23] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-11 13:35:23] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-1.6.0.tar.gz]
+[2023-06-11 13:35:23] INFO root fetch - processPackages [ttun]: Remove: archive file [/home/abi/fetcher/tmp/ttun-2.0.0.tar.gz]
+[2023-06-11 13:35:23] INFO root fetch - main [MainThread]: End processing [ttun]: success
+[2023-06-11 13:35:23] INFO root fetch - main [MainThread]: Store serial: [18457632]
