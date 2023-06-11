@@ -3746,3 +3746,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:47:49] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.5.tar.gz]
 [2023-06-11 05:47:49] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
 [2023-06-11 05:47:49] INFO root fetch - main [MainThread]: Store serial: [18455657]
+[2023-06-11 05:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455657]
+[2023-06-11 05:52:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySupercell
+[2023-06-11 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotcrates
+[2023-06-11 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-account
+[2023-06-11 05:52:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.7.0.1.dev2] Old Version: [14.0.7.0.1.dev1]
+[2023-06-11 05:52:58] INFO root fetch - processPackages [spotcrates]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-11 05:52:58] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 05:52:58] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-11 05:52:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/0f/b5/a92ec0c67be74ae62b02390c3fb4d3fdfc219258c5592955fc77688cd2d6/odoo14_addon_l10n_br_account-14.0.7.0.1.dev1-py3-none-any.whl
+[2023-06-11 05:52:58] INFO root fetch - processPackages [spotcrates]: Downloading https://files.pythonhosted.org/packages/ae/ce/09a2c72c540b078e3364e07b624cee5d8acbdf8bdba5e1b7d923065e46b6/spotcrates-0.6.3.tar.gz
+[2023-06-11 05:52:58] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-11 05:52:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/a7/40/cd027c30e572a4180c4bb1d0a44ac65d4de354fe4cf38a65b0df0e8d42c7/odoo14_addon_l10n_br_account-14.0.7.0.1.dev2-py3-none-any.whl
+[2023-06-11 05:52:58] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-11 05:52:58] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230611/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 05:52:58] INFO root fetch - processPackages [spotcrates]: Downloading https://files.pythonhosted.org/packages/8a/cb/e84c1bbc01122a6f485254b56b9135d3d20caa90de4b4653775566eb1b12/spotcrates-0.6.4.tar.gz
+[2023-06-11 05:52:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-06-11 05:52:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev2-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-l10n-br-account/14.0.7.0.1.dev1-14.0.7.0.1.dev2/diff.md --exclude *.pyd
+[2023-06-11 05:52:59] INFO root fetch - processPackages [spotcrates]: executing diffoscope
+[2023-06-11 05:52:59] INFO root fetch - processPackages [spotcrates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotcrates-0.6.3.tar.gz tmp/spotcrates-0.6.4.tar.gz --markdown 20230611/s/spotcrates/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-11 05:53:00] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-11 05:53:00] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-11 05:53:00] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-11 05:53:00] INFO root fetch - processPackages [spotcrates]: Remove: archive file [/home/abi/fetcher/tmp/spotcrates-0.6.3.tar.gz]
+[2023-06-11 05:53:00] INFO root fetch - processPackages [spotcrates]: Remove: archive file [/home/abi/fetcher/tmp/spotcrates-0.6.4.tar.gz]
+[2023-06-11 05:53:00] INFO root fetch - main [MainThread]: End processing [spotcrates]: success
+[2023-06-11 05:53:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-11 05:53:00] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-11 05:53:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-06-11 05:53:00] INFO root fetch - main [MainThread]: Store serial: [18455664]
