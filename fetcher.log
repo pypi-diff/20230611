@@ -9689,3 +9689,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:38:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111336-py3-none-any.whl.zip]
 [2023-06-11 15:38:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-11 15:38:52] INFO root fetch - main [MainThread]: Store serial: [18458385]
+[2023-06-11 15:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458385]
+[2023-06-11 15:44:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langplus
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mobsecco
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotior-sensus
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: svg2gcode
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airflow-data-validation
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyQiwiP2P
+[2023-06-11 15:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-06-11 15:44:02] WARNING root fetch - processPackages [langplus]: Skipping, unable to determine old version
+[2023-06-11 15:44:02] INFO root fetch - main [MainThread]: End processing [langplus] error
+[2023-06-11 15:44:02] WARNING root fetch - processPackages [mobsecco]: Skipping, unable to determine old version
+[2023-06-11 15:44:02] INFO root fetch - processPackages [airflow-data-validation]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-06-11 15:44:02] INFO root fetch - main [MainThread]: End processing [mobsecco] error
+[2023-06-11 15:44:02] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 15:44:02] INFO root fetch - processPackages [pyQiwiP2P]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-06-11 15:44:02] WARNING root fetch - processPackages [svg2gcode]: Skipping, unable to determine old version
+[2023-06-11 15:44:02] INFO root fetch - main [MainThread]: End processing [svg2gcode] error
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kfish]: New version: [99.0.202306111339] Old Version: [99.0.202306101415]
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202306111336] Old Version: [99.0.202306101413]
+[2023-06-11 15:44:02] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/92/d8/c0af7d1081daae9a73326d2ec7e1302b92bd6f055124e0c6035ea6bb5bf0/airflow-data-validation-4.0.3.tar.gz
+[2023-06-11 15:44:02] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-06-11 15:44:02] INFO root fetch - processPackages [pyQiwiP2P]: Downloading https://files.pythonhosted.org/packages/ff/77/7fefa29149956bcda7425c3e5fcc5c72108830df5773093825f3ef239592/pyQiwiP2P-2.0a8.tar.gz
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b1/da/af22272fd56cab9cba50f8cec3e92d337adee86e11fd42a9ea2e28322c03/kcli-99.0.202306101413-py3-none-any.whl
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/49/5a/3ca032b343395f36cb4be83126dedc37925c055ddf3373f31f2c0b725428/kfish-99.0.202306101415-py3-none-any.whl
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/15/fe/02aaf0d1ac62860b48446968527c0be208c6f1c0712414fd9c3bb3569f1a/kcli-99.0.202306111336-py3-none-any.whl
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b3/dd/d97eca939aed8491d114e63fb0c41745b2a2874db494fa2dc8eb72db3aa2/kfish-99.0.202306111339-py3-none-any.whl
+[2023-06-11 15:44:02] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-06-11 15:44:02] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/13/24/e2b70618a4280d014f9f74ea1a288eb3255722f6f22fef1554c3adbc4db7/airflow-data-validation-4.0.4.tar.gz
+[2023-06-11 15:44:02] INFO root fetch - processPackages [pyQiwiP2P]: Downloading https://files.pythonhosted.org/packages/bc/25/f488fd5b528a9d15c5ea777e831b5826236c044b0335a0b611e7e3405c56/pyQiwiP2P-2.0a9.tar.gz
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-11 15:44:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306101413-py3-none-any.whl.zip tmp/kcli-99.0.202306111336-py3-none-any.whl.zip --markdown 20230611/k/kcli/99.0.202306101413-99.0.202306111336/diff.md --exclude *.pyd
+[2023-06-11 15:44:03] INFO root fetch - processPackages [pyQiwiP2P]: executing diffoscope
+[2023-06-11 15:44:03] INFO root fetch - processPackages [pyQiwiP2P]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyQiwiP2P-2.0a8.tar.gz tmp/pyQiwiP2P-2.0a9.tar.gz --markdown 20230611/p/pyQiwiP2P/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-06-11 15:44:03] INFO root fetch - processPackages [airflow-data-validation]: executing diffoscope
+[2023-06-11 15:44:03] INFO root fetch - processPackages [airflow-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-data-validation-4.0.3.tar.gz tmp/airflow-data-validation-4.0.4.tar.gz --markdown 20230611/a/airflow-data-validation/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-06-11 15:44:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-11 15:44:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306101415-py3-none-any.whl.zip tmp/kfish-99.0.202306111339-py3-none-any.whl.zip --markdown 20230611/k/kfish/99.0.202306101415-99.0.202306111339/diff.md --exclude *.pyd
+[2023-06-11 15:44:03] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-06-11 15:44:03] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230611/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 15:44:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306101415-py3-none-any.whl.zip]
+[2023-06-11 15:44:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111339-py3-none-any.whl.zip]
+[2023-06-11 15:44:04] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-11 15:44:04] INFO root fetch - processPackages [pyQiwiP2P]: Remove: archive file [/home/abi/fetcher/tmp/pyQiwiP2P-2.0a8.tar.gz]
+[2023-06-11 15:44:04] INFO root fetch - processPackages [pyQiwiP2P]: Remove: archive file [/home/abi/fetcher/tmp/pyQiwiP2P-2.0a9.tar.gz]
+[2023-06-11 15:44:04] INFO root fetch - main [MainThread]: End processing [pyQiwiP2P]: success
+[2023-06-11 15:44:04] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.3.tar.gz]
+[2023-06-11 15:44:04] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.4.tar.gz]
+[2023-06-11 15:44:04] INFO root fetch - main [MainThread]: End processing [airflow-data-validation]: success
+[2023-06-11 15:44:05] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-06-11 15:44:05] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-06-11 15:44:05] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-06-11 15:44:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306101413-py3-none-any.whl.zip]
+[2023-06-11 15:44:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111336-py3-none-any.whl.zip]
+[2023-06-11 15:44:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-11 15:44:12] INFO root fetch - main [MainThread]: Store serial: [18458413]
