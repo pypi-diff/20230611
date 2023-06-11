@@ -4833,3 +4833,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 07:55:23] INFO root fetch - processPackages [wfdsl]: Remove: archive file [/home/abi/fetcher/tmp/wfdsl-0.2.7.tar.gz]
 [2023-06-11 07:55:23] INFO root fetch - main [MainThread]: End processing [wfdsl]: success
 [2023-06-11 07:55:23] INFO root fetch - main [MainThread]: Store serial: [18456114]
+[2023-06-11 08:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456114]
+[2023-06-11 08:00:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 08:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smarterbombing
+[2023-06-11 08:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdf-binder
+[2023-06-11 08:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chargemaster-parsers
+[2023-06-11 08:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doc2req
+[2023-06-11 08:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-web-notify
+[2023-06-11 08:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-web-notify-channel-message
+[2023-06-11 08:00:32] INFO root fetch - processPackages [smarterbombing]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 08:00:32] WARNING root fetch - processPackages [pdf-binder]: Skipping, unable to determine old version
+[2023-06-11 08:00:32] INFO root fetch - main [MainThread]: End processing [pdf-binder] error
+[2023-06-11 08:00:32] WARNING root fetch - processPackages [doc2req]: Skipping, unable to determine old version
+[2023-06-11 08:00:32] INFO root fetch - main [MainThread]: End processing [doc2req] error
+[2023-06-11 08:00:32] WARNING root fetch - processPackages [chargemaster-parsers]: Skipping, unable to determine old version
+[2023-06-11 08:00:32] INFO root fetch - main [MainThread]: End processing [chargemaster-parsers] error
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify]: New version: [14.0.1.0.2.dev5] Old Version: [14.0.1.0.2.dev3]
+[2023-06-11 08:00:32] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/b4/35/5a519361a578ceb8d706f54abf64f14cda021e8d007a37cacb74b0c5d1c3/smarterbombing-0.3.2.tar.gz
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/f1/17/ef8203e5dd7bf9ea796eb066bd35b4a16d503fc99bee74c96896077005a3/odoo14_addon_web_notify-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: Downloading https://files.pythonhosted.org/packages/cf/ca/467e9fde0716058994bd972180c69db5aa3c402a1fadf2dcde0d6e9b512d/odoo14_addon_web_notify_channel_message-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-11 08:00:32] INFO root fetch - processPackages [smarterbombing]: Downloading https://files.pythonhosted.org/packages/0d/70/3d8ee28d6a6cd9a2edac5405453e7ed9503b668d6c5a44c942143e15101d/smarterbombing-0.3.3.tar.gz
+[2023-06-11 08:00:32] INFO root fetch - processPackages [smarterbombing]: executing diffoscope
+[2023-06-11 08:00:32] INFO root fetch - processPackages [smarterbombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarterbombing-0.3.2.tar.gz tmp/smarterbombing-0.3.3.tar.gz --markdown 20230611/s/smarterbombing/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/3e/f0/e685d0fe04938449f64a9390772fe17b6ba3a7610eb6cefbc2b20ae84efd/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: Downloading https://files.pythonhosted.org/packages/dd/4a/3cf3180cf2ab620a7e7f33a8a0b1ac058d76a1fab123a9c11650e665daea/odoo14_addon_web_notify_channel_message-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify]: executing diffoscope
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_notify-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-web-notify/14.0.1.0.2.dev3-14.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: executing diffoscope
+[2023-06-11 08:00:32] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_notify_channel_message-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_web_notify_channel_message-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230611/o/odoo14-addon-web-notify-channel-message/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-11 08:00:33] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify_channel_message-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-11 08:00:33] INFO root fetch - processPackages [odoo14-addon-web-notify-channel-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify_channel_message-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-11 08:00:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-notify-channel-message]: success
+[2023-06-11 08:00:34] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.2.tar.gz]
+[2023-06-11 08:00:34] INFO root fetch - processPackages [smarterbombing]: Remove: archive file [/home/abi/fetcher/tmp/smarterbombing-0.3.3.tar.gz]
+[2023-06-11 08:00:34] INFO root fetch - main [MainThread]: End processing [smarterbombing]: success
+[2023-06-11 08:00:34] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-11 08:00:34] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2023-06-11 08:00:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-notify]: success
+[2023-06-11 08:00:34] INFO root fetch - main [MainThread]: Store serial: [18456137]
