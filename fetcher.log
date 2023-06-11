@@ -13024,3 +13024,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:05:20] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.1.tar.gz]
 [2023-06-11 20:05:20] INFO root fetch - main [MainThread]: End processing [zenoml]: success
 [2023-06-11 20:05:20] INFO root fetch - main [MainThread]: Store serial: [18459966]
+[2023-06-11 20:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459966]
+[2023-06-11 20:10:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcv-api
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piperider-nightly
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldimbenchmark
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shopify-python-api
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-sbatch-script
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: structuretoolkit
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litesqlite
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pmsm-pm-temp-predict
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seunggabi-core-python
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vader-umpt
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [py-sbatch-script]: New version: [0.3] Old Version: [0.2]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [vader-umpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [pmsm-pm-temp-predict]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [litesqlite]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/2a/5c/96d4b3fe7f0e36b71d9d00fe0ee495a6ab04d249afd4617ea8d6511733cd/litesqlite-2.2.0.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Downloading https://files.pythonhosted.org/packages/fc/c1/30dfb17c138edc09e3b08d2ec550929b46a121c9a78ee16b40ad494574af/pmsm_pm_temp_predict-0.0.1.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [py-sbatch-script]: Downloading https://files.pythonhosted.org/packages/a5/63/a0d6deaae02ae59580e92663353cfec0514b7586c2a030b0abeb560090e9/py-sbatch-script-0.2.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/ea/ae/0e2705c550fafc313df891825de67d3959a6f5f27b1019562e435bc5ad9c/seunggabi_core_python-0.2.0.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [structuretoolkit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 20:10:30] WARNING root fetch - processPackages [hcv-api]: Skipping, unable to determine old version
+[2023-06-11 20:10:30] INFO root fetch - processPackages [hcv-api]: Start processing: cici.tools
+[2023-06-11 20:10:30] INFO root fetch - main [MainThread]: End processing [hcv-api] error
+[2023-06-11 20:10:30] WARNING root fetch - processPackages [shopify-python-api]: Skipping, unable to determine old version
+[2023-06-11 20:10:30] INFO root fetch - processPackages [shopify-python-api]: Start processing: conlay
+[2023-06-11 20:10:30] INFO root fetch - main [MainThread]: End processing [shopify-python-api] error
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/9f/14/daa81f4d4eaa90435c03ff8481e0eb3341a9e6232b0df927d37bcf4355cf/litesqlite-2.3.0.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Downloading https://files.pythonhosted.org/packages/c5/98/e10dd2629f88d21107151fd1e6d397339ce39a332ed574ceb309d11b3e1a/pmsm_pm_temp_predict-0.0.2.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [vader-umpt]: Downloading https://files.pythonhosted.org/packages/a3/ca/601cd442ec7080b1f7fb5f6ea9140cb5c1a347ed9eefe9e35023a61e6007/vader_umpt-0.1.0.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [py-sbatch-script]: Downloading https://files.pythonhosted.org/packages/1f/ca/9d82b740804d954f55771140e84362cc3d2144e20675ccf796de5b4c5eeb/py-sbatch-script-0.3.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/1d/f6/88da8275273c2d06529af047878d1fb8373d42993d599daf29cefb1ff013/seunggabi_core_python-0.2.1.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [cici.tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/15/30/b267834d34f532caa858d3b7d09841c975765f78f7086077aaf219416bf6/structuretoolkit-0.0.4.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [conlay]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-11 20:10:30] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230611/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 20:10:30] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [pmsm-pm-temp-predict]: executing diffoscope
+[2023-06-11 20:10:30] INFO root fetch - processPackages [pmsm-pm-temp-predict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmsm_pm_temp_predict-0.0.1.tar.gz tmp/pmsm_pm_temp_predict-0.0.2.tar.gz --markdown 20230611/p/pmsm-pm-temp-predict/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 20:10:30] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-11 20:10:30] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-2.2.0.tar.gz tmp/litesqlite-2.3.0.tar.gz --markdown 20230611/l/litesqlite/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-11 20:10:30] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-06-11 20:10:30] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.2.0.tar.gz tmp/seunggabi_core_python-0.2.1.tar.gz --markdown 20230611/s/seunggabi-core-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-11 20:10:30] INFO root fetch - processPackages [py-sbatch-script]: executing diffoscope
+[2023-06-11 20:10:30] INFO root fetch - processPackages [py-sbatch-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sbatch-script-0.2.tar.gz tmp/py-sbatch-script-0.3.tar.gz --markdown 20230611/p/py-sbatch-script/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-11 20:10:30] INFO root fetch - processPackages [conlay]: Downloading https://files.pythonhosted.org/packages/e1/75/d9b95c89b816dc8151922d1d8711981f4b06536d86845b08c64a39ccfa4e/conlay-1.0.4.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [cici.tools]: Downloading https://files.pythonhosted.org/packages/27/1a/5fd67670ddc116de90b5766f2a897d812fa62054f62b09632900f3e6e48f/cici.tools-0.1.3.tar.gz
+[2023-06-11 20:10:30] INFO root fetch - processPackages [vader-umpt]: Downloading https://files.pythonhosted.org/packages/84/00/c52e254464b2555d812cfc07e410fa2bae69e44a633293159b951875b338/vader_umpt-0.1.1.tar.gz
+[2023-06-11 20:10:31] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/23/cb/1decc21a2620c417829e23088d5804b2b3ea335ca478c8f62390bf87a38d/structuretoolkit-0.0.5.tar.gz
+[2023-06-11 20:10:31] INFO root fetch - processPackages [conlay]: Downloading https://files.pythonhosted.org/packages/49/d4/d8989aa35950eedbbede4c850854e3b54a160a9db1fdc01e6e7d7f872b0e/conlay-1.0.5.tar.gz
+[2023-06-11 20:10:31] INFO root fetch - processPackages [vader-umpt]: executing diffoscope
+[2023-06-11 20:10:31] INFO root fetch - processPackages [vader-umpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vader_umpt-0.1.0.tar.gz tmp/vader_umpt-0.1.1.tar.gz --markdown 20230611/v/vader-umpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 20:10:31] INFO root fetch - processPackages [structuretoolkit]: executing diffoscope
+[2023-06-11 20:10:31] INFO root fetch - processPackages [structuretoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structuretoolkit-0.0.4.tar.gz tmp/structuretoolkit-0.0.5.tar.gz --markdown 20230611/s/structuretoolkit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:10:31] INFO root fetch - processPackages [cici.tools]: Downloading https://files.pythonhosted.org/packages/a1/1d/8957784e90940d995b960a1025ace6d07a4eee3be87ed7ab487106c63089/cici.tools-0.1.4.tar.gz
+[2023-06-11 20:10:31] INFO root fetch - processPackages [conlay]: executing diffoscope
+[2023-06-11 20:10:31] INFO root fetch - processPackages [conlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conlay-1.0.4.tar.gz tmp/conlay-1.0.5.tar.gz --markdown 20230611/c/conlay/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:10:31] INFO root fetch - processPackages [cici.tools]: executing diffoscope
+[2023-06-11 20:10:31] INFO root fetch - processPackages [cici.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici.tools-0.1.3.tar.gz tmp/cici.tools-0.1.4.tar.gz --markdown 20230611/c/cici.tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-11 20:10:31] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-06-11 20:10:32] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.2.0.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.3.0.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [litesqlite]: Start processing: structuretoolkit
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-11 20:10:32] INFO root fetch - processPackages [structuretoolkit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Remove: archive file [/home/abi/fetcher/tmp/pmsm_pm_temp_predict-0.0.1.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Remove: archive file [/home/abi/fetcher/tmp/pmsm_pm_temp_predict-0.0.2.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [pmsm-pm-temp-predict]: Start processing: backupp
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [pmsm-pm-temp-predict]: success
+[2023-06-11 20:10:32] WARNING root fetch - processPackages [backupp]: Skipping, unable to determine old version
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [backupp] error
+[2023-06-11 20:10:32] INFO root fetch - processPackages [py-sbatch-script]: Remove: archive file [/home/abi/fetcher/tmp/py-sbatch-script-0.2.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [py-sbatch-script]: Remove: archive file [/home/abi/fetcher/tmp/py-sbatch-script-0.3.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [py-sbatch-script]: success
+[2023-06-11 20:10:32] INFO root fetch - processPackages [structuretoolkit]: executing diffoscope
+[2023-06-11 20:10:32] INFO root fetch - processPackages [structuretoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structuretoolkit-0.0.4.tar.gz tmp/structuretoolkit-0.0.5.tar.gz --markdown 20230611/s/structuretoolkit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 20:10:32] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.0.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.1.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-06-11 20:10:32] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-06-11 20:10:32] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230611/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-06-11 20:10:32] INFO root fetch - processPackages [vader-umpt]: Remove: archive file [/home/abi/fetcher/tmp/vader_umpt-0.1.0.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [vader-umpt]: Remove: archive file [/home/abi/fetcher/tmp/vader_umpt-0.1.1.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [vader-umpt]: success
+[2023-06-11 20:10:32] INFO root fetch - processPackages [cici.tools]: Remove: archive file [/home/abi/fetcher/tmp/cici.tools-0.1.3.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [cici.tools]: Remove: archive file [/home/abi/fetcher/tmp/cici.tools-0.1.4.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [cici.tools]: success
+[2023-06-11 20:10:32] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-11 20:10:32] INFO root fetch - processPackages [conlay]: Remove: archive file [/home/abi/fetcher/tmp/conlay-1.0.4.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - processPackages [conlay]: Remove: archive file [/home/abi/fetcher/tmp/conlay-1.0.5.tar.gz]
+[2023-06-11 20:10:32] INFO root fetch - main [MainThread]: End processing [conlay]: success
+[2023-06-11 20:10:33] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.4.tar.gz]
+[2023-06-11 20:10:33] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.5.tar.gz]
+[2023-06-11 20:10:33] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
+[2023-06-11 20:10:33] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
+[2023-06-11 20:10:35] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-06-11 20:10:35] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-06-11 20:10:35] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-06-11 20:10:35] INFO root fetch - main [MainThread]: Store serial: [18460008]
