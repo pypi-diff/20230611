@@ -14912,3 +14912,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:54:55] INFO root fetch - processPackages [fixations]: Remove: archive file [/home/abi/fetcher/tmp/fixations-0.2.8.tar.gz]
 [2023-06-11 22:54:55] INFO root fetch - main [MainThread]: End processing [fixations]: success
 [2023-06-11 22:54:55] INFO root fetch - main [MainThread]: Store serial: [18460878]
+[2023-06-11 22:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460878]
+[2023-06-11 23:00:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs-coordinator
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-engine
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-include
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dns-lexicon
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tabNamesCat
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hardyweinbergcalculator
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glizzy-tls
+[2023-06-11 23:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ffmperative
+[2023-06-11 23:00:04] WARNING root fetch - processPackages [glizzy-tls]: Skipping, unable to determine old version
+[2023-06-11 23:00:04] INFO root fetch - main [MainThread]: End processing [glizzy-tls] error
+[2023-06-11 23:00:04] WARNING root fetch - processPackages [hardyweinbergcalculator]: Skipping, unable to determine old version
+[2023-06-11 23:00:04] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator] error
+[2023-06-11 23:00:04] INFO root fetch - processPackages [tabNamesCat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 23:00:04] INFO root fetch - processPackages [tabNamesCat]: Downloading https://files.pythonhosted.org/packages/1a/db/0c4afea9b88c4c2cf6ca167f0841e10c79ae12ad7cd7149832d1908b48dc/tabNamesCat-0.1.1.tar.gz
+[2023-06-11 23:00:04] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230611] Old Version: [0.23.0a20230610]
+[2023-06-11 23:00:04] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230611] Old Version: [0.23.0a20230610]
+[2023-06-11 23:00:04] INFO root fetch - processPackages [dns-lexicon]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-06-11 23:00:04] INFO root fetch - processPackages [gs-include]: New version: [0.23.0a20230611] Old Version: [0.23.0a20230610]
+[2023-06-11 23:00:04] WARNING root fetch - processPackages [ffmperative]: Skipping, unable to determine old version
+[2023-06-11 23:00:04] INFO root fetch - main [MainThread]: End processing [ffmperative] error
+[2023-06-11 23:00:05] INFO root fetch - processPackages [dns-lexicon]: Downloading https://files.pythonhosted.org/packages/fa/f4/7614ab0058e67489f4b8277b3434e9c6180e43261dae64a04fe0100d03b6/dns-lexicon-3.9.4.tar.gz
+[2023-06-11 23:00:05] INFO root fetch - processPackages [tabNamesCat]: Downloading https://files.pythonhosted.org/packages/a0/ee/34af49ad21570959db627f92927bdd76c81d75b97ee00881e0503b11c170/tabNamesCat-0.1.2.tar.gz
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/eb/41/6bd68c571ed44c1ac9c0f0a9191a3b7f85c21a3c14013efe0551e8830e1c/gs_engine-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/c6/07/80044e5a981f7d25a493e377dee2b644795b572d35c9ec840136518266ba/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/f7/6a/06d731a6823f9857e6f8d961c9235e6ca51504679f9b2591c9c23e71f25f/gs_include-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-11 23:00:05] INFO root fetch - processPackages [tabNamesCat]: executing diffoscope
+[2023-06-11 23:00:05] INFO root fetch - processPackages [tabNamesCat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabNamesCat-0.1.1.tar.gz tmp/tabNamesCat-0.1.2.tar.gz --markdown 20230611/t/tabNamesCat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 23:00:05] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 27683004>=10485760
+[2023-06-11 23:00:05] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/f6/e3/4ae0ab79708652835b51c2fe97d6274158e4cda3ddcad2cd91fc35f155f2/gs_coordinator-0.23.0a20230611-py2.py3-none-any.whl
+[2023-06-11 23:00:05] INFO root fetch - processPackages [dns-lexicon]: Downloading https://files.pythonhosted.org/packages/50/24/8357ef2cf07d096b2b8d16d65c113ddb761e9add5e9951f22fdfc7a942d0/dns-lexicon-3.9.5.tar.gz
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230611-py2.py3-none-any.whl.zip --markdown 20230611/g/gs-coordinator/0.23.0a20230610-0.23.0a20230611/diff.md --exclude *.pyd
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/1a/38/509fa86df9ae118d2ac31e9820502db1fc02f8ccb5a43948d39bfe074e73/gs_engine-0.23.0a20230611-py2.py3-none-any.whl
+[2023-06-11 23:00:05] INFO root fetch - processPackages [dns-lexicon]: executing diffoscope
+[2023-06-11 23:00:05] INFO root fetch - processPackages [dns-lexicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dns-lexicon-3.9.4.tar.gz tmp/dns-lexicon-3.9.5.tar.gz --markdown 20230611/d/dns-lexicon/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-06-11 23:00:05] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230610-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230611-py2.py3-none-any.whl.zip --markdown 20230611/g/gs-engine/0.23.0a20230610-0.23.0a20230611/diff.md --exclude *.pyd
+[2023-06-11 23:00:06] INFO root fetch - processPackages [tabNamesCat]: Remove: archive file [/home/abi/fetcher/tmp/tabNamesCat-0.1.1.tar.gz]
+[2023-06-11 23:00:06] INFO root fetch - processPackages [tabNamesCat]: Remove: archive file [/home/abi/fetcher/tmp/tabNamesCat-0.1.2.tar.gz]
+[2023-06-11 23:00:06] INFO root fetch - main [MainThread]: End processing [tabNamesCat]: success
+[2023-06-11 23:00:06] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230610-py2.py3-none-any.whl.zip]
+[2023-06-11 23:00:06] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230611-py2.py3-none-any.whl.zip]
+[2023-06-11 23:00:06] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-06-11 23:00:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl.zip]
+[2023-06-11 23:00:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230611-py2.py3-none-any.whl.zip]
+[2023-06-11 23:00:06] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-06-11 23:00:07] INFO root fetch - processPackages [dns-lexicon]: Remove: archive file [/home/abi/fetcher/tmp/dns-lexicon-3.9.4.tar.gz]
+[2023-06-11 23:00:07] INFO root fetch - processPackages [dns-lexicon]: Remove: archive file [/home/abi/fetcher/tmp/dns-lexicon-3.9.5.tar.gz]
+[2023-06-11 23:00:07] INFO root fetch - main [MainThread]: End processing [dns-lexicon]: success
+[2023-06-11 23:00:07] INFO root fetch - main [MainThread]: Store serial: [18460905]
