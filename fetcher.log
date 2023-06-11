@@ -6392,3 +6392,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:16:00] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230611-cp39-cp39-win_amd64.whl.zip]
 [2023-06-11 11:16:00] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
 [2023-06-11 11:16:00] INFO root fetch - main [MainThread]: Store serial: [18456859]
+[2023-06-11 11:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456859]
+[2023-06-11 11:21:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySimplePolls
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jVMC
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrestack
+[2023-06-11 11:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SomeTools
+[2023-06-11 11:21:09] WARNING root fetch - processPackages [PySimplePolls]: Skipping, unable to determine old version
+[2023-06-11 11:21:09] INFO root fetch - main [MainThread]: End processing [PySimplePolls] error
+[2023-06-11 11:21:09] INFO root fetch - processPackages [SomeTools]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-06-11 11:21:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-11 11:21:09] WARNING root fetch - processPackages [pyrestack]: Skipping, unable to determine old version
+[2023-06-11 11:21:09] INFO root fetch - main [MainThread]: End processing [pyrestack] error
+[2023-06-11 11:21:09] INFO root fetch - processPackages [jVMC]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-06-11 11:21:09] INFO root fetch - processPackages [SomeTools]: Downloading https://files.pythonhosted.org/packages/08/66/ede6ea49ccf937f86bd61190f2a10a5eff7837a628818dff7b7586856aab/SomeTools-0.1.40.tar.gz
+[2023-06-11 11:21:09] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-11 11:21:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-11 11:21:09] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-11 11:21:09] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-11 11:21:09] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/55/75/b372565b06dcfea1a7c6edc4e0f699b27e5ab630ecd407e3a137c402f049/jVMC-1.1.7-py3-none-any.whl
+[2023-06-11 11:21:10] INFO root fetch - processPackages [SomeTools]: Downloading https://files.pythonhosted.org/packages/c7/a2/9a3e1ed07bd637a81f2cf4f200a02df87a23f7304624118538afaea78917/SomeTools-0.1.41.tar.gz
+[2023-06-11 11:21:10] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-11 11:21:10] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-11 11:21:10] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-11 11:21:10] INFO root fetch - processPackages [SomeTools]: executing diffoscope
+[2023-06-11 11:21:10] INFO root fetch - processPackages [SomeTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SomeTools-0.1.40.tar.gz tmp/SomeTools-0.1.41.tar.gz --markdown 20230611/S/SomeTools/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-06-11 11:21:10] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-11 11:21:10] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230611/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-11 11:21:10] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-11 11:21:10] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230611/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-11 11:21:10] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/c5/83/cb0e26dc5dc8e13196d879631b7b4f4ce5f454286879769b91b54cf50dab/jVMC-1.2.0.tar.gz
+[2023-06-11 11:21:10] INFO root fetch - processPackages [jVMC]: executing diffoscope
+[2023-06-11 11:21:10] INFO root fetch - processPackages [jVMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jVMC-1.1.7-py3-none-any.whl.zip tmp/jVMC-1.2.0.tar.gz --markdown 20230611/j/jVMC/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 11:21:11] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-11 11:21:11] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.40.tar.gz]
+[2023-06-11 11:21:11] INFO root fetch - processPackages [SomeTools]: Remove: archive file [/home/abi/fetcher/tmp/SomeTools-0.1.41.tar.gz]
+[2023-06-11 11:21:11] INFO root fetch - main [MainThread]: End processing [SomeTools]: success
+[2023-06-11 11:21:11] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-11 11:21:11] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-11 11:21:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-11 11:21:11] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.1.7-py3-none-any.whl.zip]
+[2023-06-11 11:21:11] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.2.0.tar.gz]
+[2023-06-11 11:21:11] INFO root fetch - main [MainThread]: End processing [jVMC]: success
+[2023-06-11 11:21:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-11 11:21:12] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-11 11:21:12] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230611/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-11 11:21:15] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-11 11:21:15] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-11 11:21:15] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-11 11:21:15] INFO root fetch - main [MainThread]: Store serial: [18456885]
