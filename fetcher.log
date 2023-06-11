@@ -12061,3 +12061,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:36:13] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.99.tar.gz]
 [2023-06-11 18:36:13] INFO root fetch - main [MainThread]: End processing [fhempy]: success
 [2023-06-11 18:36:13] INFO root fetch - main [MainThread]: Store serial: [18459426]
+[2023-06-11 18:41:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459426]
+[2023-06-11 18:41:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 18:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldimbenchmark
+[2023-06-11 18:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepsea-ai
+[2023-06-11 18:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SAMYOL
+[2023-06-11 18:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: darwinio
+[2023-06-11 18:41:22] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-11 18:41:22] INFO root fetch - processPackages [deepsea-ai]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-11 18:41:22] INFO root fetch - processPackages [darwinio]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-11 18:41:22] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-11 18:41:22] WARNING root fetch - processPackages [SAMYOL]: Skipping, unable to determine old version
+[2023-06-11 18:41:22] INFO root fetch - main [MainThread]: End processing [SAMYOL] error
+[2023-06-11 18:41:23] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/4e/4e/498fd1b241ae5a67077e2ad26235f14771bb106674dce203a8b58c818eae/darwinio-0.0.6.tar.gz
+[2023-06-11 18:41:23] INFO root fetch - processPackages [deepsea-ai]: Downloading https://files.pythonhosted.org/packages/05/83/d88bbb35e755c52d2797a078389afbc09518da88bf9e2c50485f559ef4e6/deepsea_ai-1.8.1.tar.gz
+[2023-06-11 18:41:23] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-11 18:41:23] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-11 18:41:23] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230611/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-11 18:41:23] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/7e/3e/455419aac3833de02f0a05d287f2af7f6b73c404fc89712b2b4d638d39f9/darwinio-0.0.7.tar.gz
+[2023-06-11 18:41:23] INFO root fetch - processPackages [deepsea-ai]: Downloading https://files.pythonhosted.org/packages/e9/bf/2480c5903c04bdc5941b13679848ed2b0ebfaccc07fb67e938411c1b0d53/deepsea_ai-1.8.2.tar.gz
+[2023-06-11 18:41:23] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-06-11 18:41:23] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.0.6.tar.gz tmp/darwinio-0.0.7.tar.gz --markdown 20230611/d/darwinio/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-11 18:41:23] INFO root fetch - processPackages [deepsea-ai]: executing diffoscope
+[2023-06-11 18:41:23] INFO root fetch - processPackages [deepsea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsea_ai-1.8.1.tar.gz tmp/deepsea_ai-1.8.2.tar.gz --markdown 20230611/d/deepsea-ai/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-11 18:41:24] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-11 18:41:24] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-11 18:41:24] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-11 18:41:24] INFO root fetch - processPackages [deepsea-ai]: Remove: archive file [/home/abi/fetcher/tmp/deepsea_ai-1.8.1.tar.gz]
+[2023-06-11 18:41:24] INFO root fetch - processPackages [deepsea-ai]: Remove: archive file [/home/abi/fetcher/tmp/deepsea_ai-1.8.2.tar.gz]
+[2023-06-11 18:41:24] INFO root fetch - main [MainThread]: End processing [deepsea-ai]: success
+[2023-06-11 18:41:25] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.6.tar.gz]
+[2023-06-11 18:41:25] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.7.tar.gz]
+[2023-06-11 18:41:25] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-06-11 18:41:25] INFO root fetch - main [MainThread]: Store serial: [18459440]
