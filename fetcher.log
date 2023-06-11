@@ -8662,3 +8662,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 14:33:57] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.90.tar.gz]
 [2023-06-11 14:33:57] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-06-11 14:33:57] INFO root fetch - main [MainThread]: Store serial: [18457928]
+[2023-06-11 14:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457928]
+[2023-06-11 14:39:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 14:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piel
+[2023-06-11 14:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archaea
+[2023-06-11 14:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-06-11 14:39:07] INFO root fetch - processPackages [piel]: New version: [0.0.17] Old Version: [0.0.1]
+[2023-06-11 14:39:07] INFO root fetch - processPackages [archaea]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-11 14:39:07] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-11 14:39:07] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-11 14:39:07] INFO root fetch - processPackages [archaea]: Downloading https://files.pythonhosted.org/packages/56/46/e3b2928b665409d298a0f710b204ae4617dafa61d8be8f6afe2bb95c3da4/archaea-1.1.8.tar.gz
+[2023-06-11 14:39:07] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/76/bf/e3c9f2b614f60b5a2d010189ca3db75e41ec80f08c0fa3b28bfa73a5505f/piel-0.0.1.tar.gz
+[2023-06-11 14:39:08] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-11 14:39:08] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/94/69/f1a99418c041fde358be1487a1e29056729d966b3c14d7129edbcc0feb36/piel-0.0.17.tar.gz
+[2023-06-11 14:39:08] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-11 14:39:08] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230611/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-11 14:39:08] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-11 14:39:08] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.1.tar.gz tmp/piel-0.0.17.tar.gz --markdown 20230611/p/piel/0.0.1-0.0.17/diff.md --exclude *.pyd
+[2023-06-11 14:39:08] INFO root fetch - processPackages [archaea]: Downloading https://files.pythonhosted.org/packages/a3/cb/f70559d236988f1127e9e0fdc295f52216fd0c2f3a700e72551ed470f01d/archaea-1.1.9.tar.gz
+[2023-06-11 14:39:09] INFO root fetch - processPackages [archaea]: executing diffoscope
+[2023-06-11 14:39:09] INFO root fetch - processPackages [archaea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archaea-1.1.8.tar.gz tmp/archaea-1.1.9.tar.gz --markdown 20230611/a/archaea/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-11 14:39:09] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.1.tar.gz]
+[2023-06-11 14:39:09] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.17.tar.gz]
+[2023-06-11 14:39:09] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-11 14:39:10] INFO root fetch - processPackages [archaea]: Remove: archive file [/home/abi/fetcher/tmp/archaea-1.1.8.tar.gz]
+[2023-06-11 14:39:10] INFO root fetch - processPackages [archaea]: Remove: archive file [/home/abi/fetcher/tmp/archaea-1.1.9.tar.gz]
+[2023-06-11 14:39:10] INFO root fetch - main [MainThread]: End processing [archaea]: success
+[2023-06-11 14:39:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-11 14:39:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-11 14:39:10] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-11 14:39:10] INFO root fetch - main [MainThread]: Store serial: [18457937]
