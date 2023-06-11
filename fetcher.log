@@ -6890,3 +6890,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 11:57:46] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz]
 [2023-06-11 11:57:46] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
 [2023-06-11 11:57:46] INFO root fetch - main [MainThread]: Store serial: [18457099]
+[2023-06-11 12:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18457099]
+[2023-06-11 12:02:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-recognizers-text
+[2023-06-11 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-minipack-sojung
+[2023-06-11 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaqevcore
+[2023-06-11 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aorta-sirius-dev
+[2023-06-11 12:02:56] WARNING root fetch - processPackages [ms-recognizers-text]: Skipping, unable to determine old version
+[2023-06-11 12:02:56] INFO root fetch - main [MainThread]: End processing [ms-recognizers-text] error
+[2023-06-11 12:02:56] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 12:02:56] WARNING root fetch - processPackages [my-minipack-sojung]: Skipping, unable to determine old version
+[2023-06-11 12:02:56] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-11 12:02:56] INFO root fetch - main [MainThread]: End processing [my-minipack-sojung] error
+[2023-06-11 12:02:56] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 12:02:56] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-11 12:02:56] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-11 12:02:56] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 12:02:56] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-11 12:02:56] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230611/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-11 12:02:56] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 12:02:56] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 12:02:57] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 12:02:57] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 12:02:57] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 12:02:57] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-11 12:02:57] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-11 12:02:57] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-11 12:02:57] INFO root fetch - main [MainThread]: Store serial: [18457115]
