@@ -11689,3 +11689,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:14:09] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-06-11 18:14:09] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-06-11 18:14:09] INFO root fetch - main [MainThread]: Store serial: [18459235]
+[2023-06-11 18:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459235]
+[2023-06-11 18:19:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypi-python-translator
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napatrackmater
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylammpsmpi
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaphor-models
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ninja-crud
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fcal
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-filer
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypi-python-translator
+[2023-06-11 18:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psbs
+[2023-06-11 18:19:18] INFO root fetch - processPackages [pylammpsmpi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 18:19:18] INFO root fetch - processPackages [django-filer]: New version: [2.3rc1] Old Version: [2.2.5]
+[2023-06-11 18:19:18] INFO root fetch - processPackages [pypi-python-translator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 18:19:18] INFO root fetch - processPackages [fcal]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-11 18:19:18] WARNING root fetch - processPackages [django-ninja-crud]: Skipping, unable to determine old version
+[2023-06-11 18:19:18] INFO root fetch - main [MainThread]: End processing [django-ninja-crud] error
+[2023-06-11 18:19:18] INFO root fetch - processPackages [pypi-python-translator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 18:19:18] WARNING root fetch - processPackages [psbs]: Skipping, unable to determine old version
+[2023-06-11 18:19:18] INFO root fetch - main [MainThread]: End processing [psbs] error
+[2023-06-11 18:19:18] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-11 18:19:18] INFO root fetch - processPackages [napatrackmater]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-06-11 18:19:18] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/5e/15/d2698bd407ecc926683322af46f56d18d79abf4e4febfaf334cb5b9ab2e1/fcal-0.3.0.tar.gz
+[2023-06-11 18:19:18] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/2d/9c/cde2dd3f8a8ef240fbb2dd1f859ed1bd30f041627ec585c874026ddd2dea/napatrackmater-3.6.2.tar.gz
+[2023-06-11 18:19:18] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/b7/fb/edb956ffde8569ea5817e0e34884c0522f318260fbd2f045f89b09508ce1/pylammpsmpi-0.1.1.tar.gz
+[2023-06-11 18:19:18] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/3b/f3/912ae8d9f25301844a6b7d12ad0cadec25d81d78da6726d802a4927858fb/django-filer-2.2.5.tar.gz
+[2023-06-11 18:19:18] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/68/ab/2c7ce49bf73df511ff0ccbe2637e41550fa63ee04056309b7b1e629b38b7/pypi_python_translator-1.0.0.tar.gz
+[2023-06-11 18:19:18] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/68/ab/2c7ce49bf73df511ff0ccbe2637e41550fa63ee04056309b7b1e629b38b7/pypi_python_translator-1.0.0.tar.gz
+[2023-06-11 18:19:18] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/3b/20/3f7e92cc96640300974f834e1ff69bdc7aee22b9c19656913272a3f69de9/fcal-0.4.0.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/9f/ce/50f5c0a195cfc1801ec64f33ebf7a21c7c1878cc4c3392467e6e8a61ac62/napatrackmater-3.6.3.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [fcal]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [fcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcal-0.3.0.tar.gz tmp/fcal-0.4.0.tar.gz --markdown 20230611/f/fcal/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-11 18:19:19] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.6.2.tar.gz tmp/napatrackmater-3.6.3.tar.gz --markdown 20230611/n/napatrackmater/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/cd/e4/a8ce393cf4aca6b3fab4122fbf501fef7bfb69765aca30f4bd00d6beae31/pypi_python_translator-1.0.1.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/8a/1d/16ea3a282dde483ba7f029df092f793b87ca53630d167bd38e8121b8997c/pylammpsmpi-0.1.2.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pypi-python-translator]: Downloading https://files.pythonhosted.org/packages/cd/e4/a8ce393cf4aca6b3fab4122fbf501fef7bfb69765aca30f4bd00d6beae31/pypi_python_translator-1.0.1.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pylammpsmpi]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pylammpsmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylammpsmpi-0.1.1.tar.gz tmp/pylammpsmpi-0.1.2.tar.gz --markdown 20230611/p/pylammpsmpi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-1.0.0.tar.gz tmp/pypi_python_translator-1.0.1.tar.gz --markdown 20230611/p/pypi-python-translator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pypi-python-translator]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [pypi-python-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_python_translator-1.0.0.tar.gz tmp/pypi_python_translator-1.0.1.tar.gz --markdown 20230611/p/pypi-python-translator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 18:19:19] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/57/d7/5767e67d00bed713985d6738588a4d1a718e22844981fbab5c090636e859/django-filer-2.3rc1.tar.gz
+[2023-06-11 18:19:19] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230611/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-11 18:19:19] INFO root fetch - processPackages [django-filer]: executing diffoscope
+[2023-06-11 18:19:19] INFO root fetch - processPackages [django-filer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filer-2.2.5.tar.gz tmp/django-filer-2.3rc1.tar.gz --markdown 20230611/d/django-filer/2.2.5-2.3rc1/diff.md --exclude *.pyd
+[2023-06-11 18:19:20] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.3.0.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.4.0.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - main [MainThread]: End processing [fcal]: success
+[2023-06-11 18:19:20] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-1.0.0.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - processPackages [pypi-python-translator]: Remove: archive file [/home/abi/fetcher/tmp/pypi_python_translator-1.0.1.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-11 18:19:20] INFO root fetch - main [MainThread]: End processing [pypi-python-translator]: success
+[2023-06-11 18:19:20] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-06-11 18:19:20] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.1.1.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.1.2.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - main [MainThread]: End processing [pylammpsmpi]: success
+[2023-06-11 18:19:20] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.2.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.6.3.tar.gz]
+[2023-06-11 18:19:20] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-11 18:19:23] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-2.2.5.tar.gz]
+[2023-06-11 18:19:23] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-2.3rc1.tar.gz]
+[2023-06-11 18:19:23] INFO root fetch - main [MainThread]: End processing [django-filer]: success
+[2023-06-11 18:19:23] INFO root fetch - main [MainThread]: Store serial: [18459262]
