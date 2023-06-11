@@ -5886,3 +5886,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:18:34] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.1.tar.gz]
 [2023-06-11 10:18:34] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-06-11 10:18:34] INFO root fetch - main [MainThread]: Store serial: [18456616]
+[2023-06-11 10:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456616]
+[2023-06-11 10:23:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-11 10:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mleko
+[2023-06-11 10:23:43] INFO root fetch - processPackages [mleko]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-11 10:23:44] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/42/7d/1df583ef5bc300b4178dbd04738dbc7e591cf53320cfdf2fe98ba78d5ed5/mleko-0.4.1.tar.gz
+[2023-06-11 10:23:44] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/ee/16/284bb9172de0e2c6ab43f3833c0eaa6b3002d4b46af162558a6a51a2edcf/mleko-0.4.2.tar.gz
+[2023-06-11 10:23:44] INFO root fetch - processPackages [mleko]: executing diffoscope
+[2023-06-11 10:23:44] INFO root fetch - processPackages [mleko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mleko-0.4.1.tar.gz tmp/mleko-0.4.2.tar.gz --markdown 20230611/m/mleko/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-11 10:23:45] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-0.4.1.tar.gz]
+[2023-06-11 10:23:45] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-0.4.2.tar.gz]
+[2023-06-11 10:23:45] INFO root fetch - main [MainThread]: End processing [mleko]: success
+[2023-06-11 10:23:45] INFO root fetch - main [MainThread]: Store serial: [18456619]
