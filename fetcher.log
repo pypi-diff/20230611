@@ -5751,3 +5751,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:02:55] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
 [2023-06-11 10:02:55] INFO root fetch - main [MainThread]: End processing [docstruct]: success
 [2023-06-11 10:02:55] INFO root fetch - main [MainThread]: Store serial: [18456560]
+[2023-06-11 10:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456560]
+[2023-06-11 10:08:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 10:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osmviz
+[2023-06-11 10:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xgboost2sql
+[2023-06-11 10:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cgsubmit
+[2023-06-11 10:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-06-11 10:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shihua-roshareservice
+[2023-06-11 10:08:03] INFO root fetch - processPackages [cgsubmit]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-11 10:08:03] INFO root fetch - processPackages [xgboost2sql]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 10:08:03] INFO root fetch - processPackages [osmviz]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-06-11 10:08:03] WARNING root fetch - processPackages [shihua-roshareservice]: Skipping, unable to determine old version
+[2023-06-11 10:08:03] INFO root fetch - main [MainThread]: End processing [shihua-roshareservice] error
+[2023-06-11 10:08:03] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230611] Old Version: [0.3.1.dev20230610]
+[2023-06-11 10:08:03] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/af/c6/aacbabf43c1d32d696519391abe072039dad4c220c8a1bd79279910c998f/pyglove-0.3.1.dev20230610.tar.gz
+[2023-06-11 10:08:03] INFO root fetch - processPackages [xgboost2sql]: Downloading https://files.pythonhosted.org/packages/7e/07/4701f7f1caf1c48c92a9703760dfde13479dcc88e1db1b75781b9f2a1a1f/xgboost2sql-0.1.0.tar.gz
+[2023-06-11 10:08:03] INFO root fetch - processPackages [cgsubmit]: Downloading https://files.pythonhosted.org/packages/70/50/e7fcff706e424a2f206e0b561c43d67a41851db8682eed6d3f53624099c5/cgsubmit-1.1.0.tar.gz
+[2023-06-11 10:08:03] INFO root fetch - processPackages [osmviz]: Downloading https://files.pythonhosted.org/packages/47/2c/6feb5bcf12c11f8eb967668b046a92f717c0c5eeb8eaf6cd8ce387fb07e9/osmviz-4.1.0.tar.gz
+[2023-06-11 10:08:04] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/e2/77/c9927d1d04c94281789d1180c35d4f4c010ca02c748983ec810cb00c69b5/pyglove-0.3.1.dev20230611.tar.gz
+[2023-06-11 10:08:04] INFO root fetch - processPackages [cgsubmit]: Downloading https://files.pythonhosted.org/packages/74/16/04e8bd813706bdacf35f3e3cfd04538f2cab0fc926fb19830b07ffde5794/cgsubmit-1.2.0.tar.gz
+[2023-06-11 10:08:04] INFO root fetch - processPackages [xgboost2sql]: Downloading https://files.pythonhosted.org/packages/f8/90/ba7a311ad6419754f64d89aad332f2155db42d77ae6191caccadcc84a67e/xgboost2sql-0.1.1.tar.gz
+[2023-06-11 10:08:04] INFO root fetch - processPackages [osmviz]: Downloading https://files.pythonhosted.org/packages/a8/30/e378d088365ad1a6ff5bfcfe6ce558038a83f40e09eaf589d3008a155028/osmviz-4.2.0.tar.gz
+[2023-06-11 10:08:04] INFO root fetch - processPackages [cgsubmit]: executing diffoscope
+[2023-06-11 10:08:04] INFO root fetch - processPackages [cgsubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgsubmit-1.1.0.tar.gz tmp/cgsubmit-1.2.0.tar.gz --markdown 20230611/c/cgsubmit/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 10:08:04] INFO root fetch - processPackages [xgboost2sql]: executing diffoscope
+[2023-06-11 10:08:04] INFO root fetch - processPackages [xgboost2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgboost2sql-0.1.0.tar.gz tmp/xgboost2sql-0.1.1.tar.gz --markdown 20230611/x/xgboost2sql/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 10:08:04] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-11 10:08:04] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230610.tar.gz tmp/pyglove-0.3.1.dev20230611.tar.gz --markdown 20230611/p/pyglove/0.3.1.dev20230610-0.3.1.dev20230611/diff.md --exclude *.pyd
+[2023-06-11 10:08:04] INFO root fetch - processPackages [osmviz]: executing diffoscope
+[2023-06-11 10:08:04] INFO root fetch - processPackages [osmviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmviz-4.1.0.tar.gz tmp/osmviz-4.2.0.tar.gz --markdown 20230611/o/osmviz/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-06-11 10:08:05] INFO root fetch - processPackages [xgboost2sql]: Remove: archive file [/home/abi/fetcher/tmp/xgboost2sql-0.1.0.tar.gz]
+[2023-06-11 10:08:05] INFO root fetch - processPackages [xgboost2sql]: Remove: archive file [/home/abi/fetcher/tmp/xgboost2sql-0.1.1.tar.gz]
+[2023-06-11 10:08:05] INFO root fetch - main [MainThread]: End processing [xgboost2sql]: success
+[2023-06-11 10:08:05] INFO root fetch - processPackages [cgsubmit]: Remove: archive file [/home/abi/fetcher/tmp/cgsubmit-1.1.0.tar.gz]
+[2023-06-11 10:08:05] INFO root fetch - processPackages [cgsubmit]: Remove: archive file [/home/abi/fetcher/tmp/cgsubmit-1.2.0.tar.gz]
+[2023-06-11 10:08:05] INFO root fetch - main [MainThread]: End processing [cgsubmit]: success
+[2023-06-11 10:08:05] INFO root fetch - processPackages [osmviz]: Remove: archive file [/home/abi/fetcher/tmp/osmviz-4.1.0.tar.gz]
+[2023-06-11 10:08:05] INFO root fetch - processPackages [osmviz]: Remove: archive file [/home/abi/fetcher/tmp/osmviz-4.2.0.tar.gz]
+[2023-06-11 10:08:05] INFO root fetch - main [MainThread]: End processing [osmviz]: success
+[2023-06-11 10:08:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230610.tar.gz]
+[2023-06-11 10:08:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230611.tar.gz]
+[2023-06-11 10:08:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-11 10:08:06] INFO root fetch - main [MainThread]: Store serial: [18456583]
