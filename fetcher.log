@@ -5960,3 +5960,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 10:34:07] INFO root fetch - processPackages [torch-tensorrt-fx-only]: Remove: archive file [/home/abi/fetcher/tmp/torch_tensorrt_fx_only-1.5.0.dev0-py3-none-any.whl.zip]
 [2023-06-11 10:34:07] INFO root fetch - main [MainThread]: End processing [torch-tensorrt-fx-only]: success
 [2023-06-11 10:34:07] INFO root fetch - main [MainThread]: Store serial: [18456644]
+[2023-06-11 10:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456644]
+[2023-06-11 10:39:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 10:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-resolve
+[2023-06-11 10:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confidenceinterval
+[2023-06-11 10:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fortepyan
+[2023-06-11 10:39:16] INFO root fetch - processPackages [confidenceinterval]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 10:39:16] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.0.0] Old Version: [0.5.1]
+[2023-06-11 10:39:16] INFO root fetch - processPackages [fortepyan]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-11 10:39:16] INFO root fetch - processPackages [confidenceinterval]: Downloading https://files.pythonhosted.org/packages/93/ee/c2c7234021d101cf0f1c55a00292256f98c6e7ae51d50aee8886cbef56ce/confidenceinterval-1.0.2.tar.gz
+[2023-06-11 10:39:16] INFO root fetch - processPackages [fortepyan]: Downloading https://files.pythonhosted.org/packages/6b/8f/acc0a3540ce9df8c84c1de78fa9309b3df94b19835477082040ba86e6f43/fortepyan-0.1.8.tar.gz
+[2023-06-11 10:39:16] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/2d/07/75a926a5b5b8cbef363ab851e274de70cf10ccbab6d31804a6f604f48e15/pydantic_resolve-0.5.1.tar.gz
+[2023-06-11 10:39:17] INFO root fetch - processPackages [fortepyan]: Downloading https://files.pythonhosted.org/packages/10/43/e751a2d31edbab331fe506b78429a112592bfd63cb8b68c25e4d6de63188/fortepyan-0.1.9.tar.gz
+[2023-06-11 10:39:17] INFO root fetch - processPackages [confidenceinterval]: Downloading https://files.pythonhosted.org/packages/1b/ff/a0173aa997fbce04493300a652cba964a84455753b91907eae944d9aa4cb/confidenceinterval-1.0.3.tar.gz
+[2023-06-11 10:39:17] INFO root fetch - processPackages [fortepyan]: executing diffoscope
+[2023-06-11 10:39:17] INFO root fetch - processPackages [fortepyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortepyan-0.1.8.tar.gz tmp/fortepyan-0.1.9.tar.gz --markdown 20230611/f/fortepyan/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-11 10:39:17] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/6c/9e/af6f377f0192a9e398ce2c77d779150bc577fae4a91ebe083a2b2d028f0b/pydantic_resolve-1.0.0.tar.gz
+[2023-06-11 10:39:17] INFO root fetch - processPackages [confidenceinterval]: executing diffoscope
+[2023-06-11 10:39:17] INFO root fetch - processPackages [confidenceinterval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confidenceinterval-1.0.2.tar.gz tmp/confidenceinterval-1.0.3.tar.gz --markdown 20230611/c/confidenceinterval/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 10:39:17] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-06-11 10:39:17] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-0.5.1.tar.gz tmp/pydantic_resolve-1.0.0.tar.gz --markdown 20230611/p/pydantic-resolve/0.5.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 10:39:18] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.8.tar.gz]
+[2023-06-11 10:39:18] INFO root fetch - processPackages [fortepyan]: Remove: archive file [/home/abi/fetcher/tmp/fortepyan-0.1.9.tar.gz]
+[2023-06-11 10:39:18] INFO root fetch - main [MainThread]: End processing [fortepyan]: success
+[2023-06-11 10:39:18] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-0.5.1.tar.gz]
+[2023-06-11 10:39:18] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.0.0.tar.gz]
+[2023-06-11 10:39:18] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-06-11 10:39:18] INFO root fetch - processPackages [confidenceinterval]: Remove: archive file [/home/abi/fetcher/tmp/confidenceinterval-1.0.2.tar.gz]
+[2023-06-11 10:39:18] INFO root fetch - processPackages [confidenceinterval]: Remove: archive file [/home/abi/fetcher/tmp/confidenceinterval-1.0.3.tar.gz]
+[2023-06-11 10:39:18] INFO root fetch - main [MainThread]: End processing [confidenceinterval]: success
+[2023-06-11 10:39:18] INFO root fetch - main [MainThread]: Store serial: [18456652]
