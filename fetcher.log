@@ -9932,3 +9932,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 16:00:50] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306111358.tar.gz]
 [2023-06-11 16:00:50] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-11 16:00:50] INFO root fetch - main [MainThread]: Store serial: [18458503]
+[2023-06-11 16:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458503]
+[2023-06-11 16:05:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycommons-base
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: einas-1
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: einas-2
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymino
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-lav
+[2023-06-11 16:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thk-django-base
+[2023-06-11 16:05:59] WARNING root fetch - processPackages [einas-1]: Skipping, unable to determine old version
+[2023-06-11 16:05:59] INFO root fetch - main [MainThread]: End processing [einas-1] error
+[2023-06-11 16:05:59] INFO root fetch - processPackages [pycommons-base]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-11 16:05:59] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 16:05:59] WARNING root fetch - processPackages [einas-2]: Skipping, unable to determine old version
+[2023-06-11 16:05:59] INFO root fetch - main [MainThread]: End processing [einas-2] error
+[2023-06-11 16:05:59] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 16:05:59] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/9a/8b/a3b93026f83f1ea1e1708357267bb768fcae30ab9a4738f45c895df757d6/pycommons_base-0.0.3.tar.gz
+[2023-06-11 16:05:59] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 16:05:59] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 16:05:59] WARNING root fetch - processPackages [thk-django-base]: Skipping, unable to determine old version
+[2023-06-11 16:05:59] INFO root fetch - main [MainThread]: End processing [thk-django-base] error
+[2023-06-11 16:05:59] INFO root fetch - processPackages [pymino]: New version: [1.1.8.7] Old Version: [1.1.8.6]
+[2023-06-11 16:05:59] INFO root fetch - processPackages [py-lav]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/12/f7/46266b81ceba2d961f67d634710fc79d9e0640085acd1da1be260ceb1ae4/pycommons_base-0.0.4.tar.gz
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/7a/8e/e177e07cbfc40b58990735b3419a7623abd4604d27f2176ad1beaf6609c6/pymino-1.1.8.6.tar.gz
+[2023-06-11 16:06:00] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/e9/64/08d96df3ebb41b75149551173aa15872b9c758f4b12d5c36eba8f2dbf30d/py_lav-1.9.0.tar.gz
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pycommons-base]: executing diffoscope
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pycommons-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons_base-0.0.3.tar.gz tmp/pycommons_base-0.0.4.tar.gz --markdown 20230611/p/pycommons-base/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/93/fc/a91d4e935037340acc3e65b6ee7cf21b7023be8ef8a1cc4ae41619cd4c22/pymino-1.1.8.7.tar.gz
+[2023-06-11 16:06:00] INFO root fetch - processPackages [py-lav]: Downloading https://files.pythonhosted.org/packages/65/96/7b1f7affb973d7ebaa76b7dc9887f38e2967631eb75a6676334cb300c3c5/py_lav-1.9.1.tar.gz
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-11 16:06:00] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.1.8.6.tar.gz tmp/pymino-1.1.8.7.tar.gz --markdown 20230611/p/pymino/1.1.8.6-1.1.8.7/diff.md --exclude *.pyd
+[2023-06-11 16:06:00] INFO root fetch - processPackages [py-lav]: executing diffoscope
+[2023-06-11 16:06:00] INFO root fetch - processPackages [py-lav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_lav-1.9.0.tar.gz tmp/py_lav-1.9.1.tar.gz --markdown 20230611/p/py-lav/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-11 16:06:01] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.3.tar.gz]
+[2023-06-11 16:06:01] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.4.tar.gz]
+[2023-06-11 16:06:01] INFO root fetch - main [MainThread]: End processing [pycommons-base]: success
+[2023-06-11 16:06:02] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.8.6.tar.gz]
+[2023-06-11 16:06:02] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.1.8.7.tar.gz]
+[2023-06-11 16:06:02] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-11 16:06:44] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.0.tar.gz]
+[2023-06-11 16:06:44] INFO root fetch - processPackages [py-lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
+[2023-06-11 16:06:44] INFO root fetch - main [MainThread]: End processing [py-lav]: success
+[2023-06-11 16:06:44] INFO root fetch - main [MainThread]: Store serial: [18458528]
