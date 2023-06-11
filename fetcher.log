@@ -2877,3 +2877,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:03:34] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
 [2023-06-11 04:03:34] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-06-11 04:03:34] INFO root fetch - main [MainThread]: Store serial: [18455271]
+[2023-06-11 04:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455271]
+[2023-06-11 04:08:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcheck
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: portant-mailing
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docketanalyzer
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-wget
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdm-conda
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: portant-mailing
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: copyparty
+[2023-06-11 04:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tcheck
+[2023-06-11 04:08:42] INFO root fetch - processPackages [portant-mailing]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-11 04:08:42] INFO root fetch - processPackages [copyparty]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-11 04:08:42] INFO root fetch - processPackages [portant-mailing]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-11 04:08:42] WARNING root fetch - processPackages [docketanalyzer]: Skipping, unable to determine old version
+[2023-06-11 04:08:42] INFO root fetch - main [MainThread]: End processing [docketanalyzer] error
+[2023-06-11 04:08:42] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2023-06-11 04:08:42] INFO root fetch - processPackages [tcheck]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 04:08:42] INFO root fetch - processPackages [tcheck]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 04:08:42] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-11 04:08:42] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2023-06-11 04:08:42] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/70/3f/953696bde91d02455fd5075458fc0f4f7d35450c1549d803538a4a6c52e9/copyparty-1.7.4.tar.gz
+[2023-06-11 04:08:42] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-11 04:08:42] INFO root fetch - processPackages [portant-mailing]: Downloading https://files.pythonhosted.org/packages/2a/f7/d7295f565b3d8dbdf5c8d3d3658cd22b6f762f6eb97d0363e4c7825b3528/portant-mailing-1.0.5.tar.gz
+[2023-06-11 04:08:42] INFO root fetch - processPackages [portant-mailing]: Downloading https://files.pythonhosted.org/packages/2a/f7/d7295f565b3d8dbdf5c8d3d3658cd22b6f762f6eb97d0363e4c7825b3528/portant-mailing-1.0.5.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [tcheck]: Downloading https://files.pythonhosted.org/packages/3d/68/06445e51d9679e11800259c0175cb7541ccc2648394fd2673c18b12e79ec/tcheck-0.0.1.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [tcheck]: Downloading https://files.pythonhosted.org/packages/3d/68/06445e51d9679e11800259c0175cb7541ccc2648394fd2673c18b12e79ec/tcheck-0.0.1.tar.gz
+[2023-06-11 04:08:43] WARNING root fetch - processPackages [tcheck]: Skipping package: exceeds size limit 33460374>=10485760
+[2023-06-11 04:08:43] INFO root fetch - main [MainThread]: End processing [tcheck] error
+[2023-06-11 04:08:43] WARNING root fetch - processPackages [tcheck]: Skipping package: exceeds size limit 33460374>=10485760
+[2023-06-11 04:08:43] INFO root fetch - main [MainThread]: End processing [tcheck] error
+[2023-06-11 04:08:43] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-06-11 04:08:43] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20230611/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2023-06-11 04:08:43] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/b9/5b/287af2f4b0b1adf71cc811508a3908e2dc27ed3a41ca3dca0b300bacc89a/copyparty-1.7.5.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [portant-mailing]: Downloading https://files.pythonhosted.org/packages/53/82/405e9f2d042f9c5f3d89756e16843152ec0d0bce6cc746129f89d7635438/portant-mailing-1.0.7.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [portant-mailing]: Downloading https://files.pythonhosted.org/packages/53/82/405e9f2d042f9c5f3d89756e16843152ec0d0bce6cc746129f89d7635438/portant-mailing-1.0.7.tar.gz
+[2023-06-11 04:08:43] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-11 04:08:43] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230611/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-11 04:08:43] INFO root fetch - processPackages [portant-mailing]: executing diffoscope
+[2023-06-11 04:08:43] INFO root fetch - processPackages [portant-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portant-mailing-1.0.5.tar.gz tmp/portant-mailing-1.0.7.tar.gz --markdown 20230611/p/portant-mailing/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-11 04:08:43] INFO root fetch - processPackages [portant-mailing]: executing diffoscope
+[2023-06-11 04:08:43] INFO root fetch - processPackages [portant-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portant-mailing-1.0.5.tar.gz tmp/portant-mailing-1.0.7.tar.gz --markdown 20230611/p/portant-mailing/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-11 04:08:43] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-06-11 04:08:43] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.7.4.tar.gz tmp/copyparty-1.7.5.tar.gz --markdown 20230611/c/copyparty/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-11 04:08:44] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2023-06-11 04:08:44] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2023-06-11 04:08:44] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-06-11 04:08:44] INFO root fetch - processPackages [portant-mailing]: Remove: archive file [/home/abi/fetcher/tmp/portant-mailing-1.0.5.tar.gz]
+[2023-06-11 04:08:44] INFO root fetch - processPackages [portant-mailing]: Remove: archive file [/home/abi/fetcher/tmp/portant-mailing-1.0.7.tar.gz]
+[2023-06-11 04:08:44] INFO root fetch - main [MainThread]: End processing [portant-mailing]: success
+[2023-06-11 04:08:44] INFO root fetch - main [MainThread]: End processing [portant-mailing]: success
+[2023-06-11 04:08:44] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-11 04:08:44] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-11 04:08:44] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-11 04:08:45] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.4.tar.gz]
+[2023-06-11 04:08:45] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.7.5.tar.gz]
+[2023-06-11 04:08:45] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-06-11 04:08:45] INFO root fetch - main [MainThread]: Store serial: [18455301]
