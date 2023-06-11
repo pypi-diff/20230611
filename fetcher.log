@@ -9746,3 +9746,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:44:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111336-py3-none-any.whl.zip]
 [2023-06-11 15:44:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-11 15:44:12] INFO root fetch - main [MainThread]: Store serial: [18458413]
+[2023-06-11 15:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458413]
+[2023-06-11 15:49:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-11 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-11 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyupway
+[2023-06-11 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbakery
+[2023-06-11 15:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycommons-base
+[2023-06-11 15:49:20] INFO root fetch - processPackages [pyupway]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 15:49:20] INFO root fetch - processPackages [pycommons-base]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 15:49:20] INFO root fetch - processPackages [openbakery]: New version: [0.1.0rc0] Old Version: [0.1.0a3]
+[2023-06-11 15:49:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202306111345] Old Version: [99.0.202306111339]
+[2023-06-11 15:49:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b3/dd/d97eca939aed8491d114e63fb0c41745b2a2874db494fa2dc8eb72db3aa2/kfish-99.0.202306111339-py3-none-any.whl
+[2023-06-11 15:49:20] INFO root fetch - processPackages [pyupway]: Downloading https://files.pythonhosted.org/packages/76/45/5e385460046cdc39e762fa4a1eea3e42fc6e1d7fc656e961320c60aad840/pyupway-0.0.2.tar.gz
+[2023-06-11 15:49:20] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/e3/f0/099221b47f2b0a34987145e6688d100a498241b578c8722bf281188504d1/pycommons_base-0.0.2.tar.gz
+[2023-06-11 15:49:20] INFO root fetch - processPackages [openbakery]: Downloading https://files.pythonhosted.org/packages/3b/0b/f89c89a41e26b20548a73002bdb024110bb50ef2239a263e3799841993de/openbakery-0.1.0a3.tar.gz
+[2023-06-11 15:49:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e6/bd/2493d7a016a26ab33ea4a73bc78fbb8e222d18338fc1261e9b38f31a05ae/kfish-99.0.202306111345-py3-none-any.whl
+[2023-06-11 15:49:21] WARNING root fetch - processPackages [openbakery]: Skipping package: exceeds size limit 43181751>=10485760
+[2023-06-11 15:49:21] INFO root fetch - main [MainThread]: End processing [openbakery] error
+[2023-06-11 15:49:21] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-11 15:49:21] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306111339-py3-none-any.whl.zip tmp/kfish-99.0.202306111345-py3-none-any.whl.zip --markdown 20230611/k/kfish/99.0.202306111339-99.0.202306111345/diff.md --exclude *.pyd
+[2023-06-11 15:49:21] INFO root fetch - processPackages [pycommons-base]: Downloading https://files.pythonhosted.org/packages/9a/8b/a3b93026f83f1ea1e1708357267bb768fcae30ab9a4738f45c895df757d6/pycommons_base-0.0.3.tar.gz
+[2023-06-11 15:49:21] INFO root fetch - processPackages [pyupway]: Downloading https://files.pythonhosted.org/packages/93/af/59f44e4116bedf51ce27b9d9feb038aa21d91ccb91cd791922400c733e09/pyupway-0.0.3.tar.gz
+[2023-06-11 15:49:21] INFO root fetch - processPackages [pycommons-base]: executing diffoscope
+[2023-06-11 15:49:21] INFO root fetch - processPackages [pycommons-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons_base-0.0.2.tar.gz tmp/pycommons_base-0.0.3.tar.gz --markdown 20230611/p/pycommons-base/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 15:49:21] INFO root fetch - processPackages [pyupway]: executing diffoscope
+[2023-06-11 15:49:21] INFO root fetch - processPackages [pyupway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupway-0.0.2.tar.gz tmp/pyupway-0.0.3.tar.gz --markdown 20230611/p/pyupway/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 15:49:22] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111339-py3-none-any.whl.zip]
+[2023-06-11 15:49:22] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111345-py3-none-any.whl.zip]
+[2023-06-11 15:49:22] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-11 15:49:22] INFO root fetch - processPackages [pyupway]: Remove: archive file [/home/abi/fetcher/tmp/pyupway-0.0.2.tar.gz]
+[2023-06-11 15:49:22] INFO root fetch - processPackages [pyupway]: Remove: archive file [/home/abi/fetcher/tmp/pyupway-0.0.3.tar.gz]
+[2023-06-11 15:49:22] INFO root fetch - main [MainThread]: End processing [pyupway]: success
+[2023-06-11 15:50:16] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.2.tar.gz]
+[2023-06-11 15:50:16] INFO root fetch - processPackages [pycommons-base]: Remove: archive file [/home/abi/fetcher/tmp/pycommons_base-0.0.3.tar.gz]
+[2023-06-11 15:50:16] INFO root fetch - main [MainThread]: End processing [pycommons-base]: success
+[2023-06-11 15:50:16] INFO root fetch - main [MainThread]: Store serial: [18458436]
