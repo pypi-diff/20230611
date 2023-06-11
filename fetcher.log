@@ -12822,3 +12822,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 19:49:20] INFO root fetch - processPackages [tdfpy]: Remove: archive file [/home/abi/fetcher/tmp/tdfpy-0.1.7.tar.gz]
 [2023-06-11 19:49:20] INFO root fetch - main [MainThread]: End processing [tdfpy]: success
 [2023-06-11 19:49:20] INFO root fetch - main [MainThread]: Store serial: [18459858]
+[2023-06-11 19:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459858]
+[2023-06-11 19:54:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hummuspy
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backupp
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discovery-transition-ds
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Myplayer
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flojoy
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangolazy
+[2023-06-11 19:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypothesis
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 19:54:30] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-06-11 19:54:30] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-11 19:54:30] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-06-11 19:54:30] ERROR root fetch - processPackages [Myplayer]: Unable to get metadata: No such project 'Myplayer'
+[2023-06-11 19:54:30] INFO root fetch - main [MainThread]: End processing [Myplayer] error
+[2023-06-11 19:54:30] WARNING root fetch - processPackages [djangolazy]: Skipping, unable to determine old version
+[2023-06-11 19:54:30] INFO root fetch - main [MainThread]: End processing [djangolazy] error
+[2023-06-11 19:54:30] ERROR root fetch - processPackages [backupp]: Unable to get metadata: No such project 'backupp'
+[2023-06-11 19:54:30] INFO root fetch - main [MainThread]: End processing [backupp] error
+[2023-06-11 19:54:30] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-11 19:54:30] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-06-11 19:54:30] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230611/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-11 19:54:30] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230611/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-11 19:54:30] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-11 19:54:31] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-11 19:54:31] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230611/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-11 19:54:31] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-06-11 19:54:31] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-06-11 19:54:31] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-06-11 19:54:31] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-06-11 19:54:31] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 19:54:31] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 19:54:31] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 19:54:32] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-11 19:54:32] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-11 19:54:32] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-11 19:54:33] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-06-11 19:54:33] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230611/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-11 19:54:36] INFO root fetch - processPackages [discovery-transition-ds]: Remove: archive file [/home/abi/fetcher/tmp/discovery-transition-ds-4.9.8.tar.gz]
+[2023-06-11 19:54:36] INFO root fetch - processPackages [discovery-transition-ds]: Remove: archive file [/home/abi/fetcher/tmp/discovery-transition-ds-4.9.9.tar.gz]
+[2023-06-11 19:54:36] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-06-11 19:54:39] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-11 19:54:39] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-11 19:54:39] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-11 19:54:39] INFO root fetch - main [MainThread]: Store serial: [18459907]
