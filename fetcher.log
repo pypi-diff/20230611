@@ -4236,3 +4236,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 06:50:04] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-06-11 06:50:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
 [2023-06-11 06:50:04] INFO root fetch - main [MainThread]: Store serial: [18455865]
+[2023-06-11 06:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455865]
+[2023-06-11 06:55:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 06:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Space-Weather-Interface-P
+[2023-06-11 06:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius-dev
+[2023-06-11 06:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Space-Weather-Interface-P
+[2023-06-11 06:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dueros-smarthome
+[2023-06-11 06:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consumer-base-fioreze-teste
+[2023-06-11 06:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-manifest
+[2023-06-11 06:55:13] WARNING root fetch - processPackages [dueros-smarthome]: Skipping, unable to determine old version
+[2023-06-11 06:55:13] INFO root fetch - main [MainThread]: End processing [dueros-smarthome] error
+[2023-06-11 06:55:13] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-11 06:55:13] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 06:55:13] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 06:55:13] INFO root fetch - processPackages [python-manifest]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-11 06:55:13] WARNING root fetch - processPackages [consumer-base-fioreze-teste]: Skipping, unable to determine old version
+[2023-06-11 06:55:13] INFO root fetch - main [MainThread]: End processing [consumer-base-fioreze-teste] error
+[2023-06-11 06:55:13] WARNING root fetch - processPackages [Space-Weather-Interface-P]: Skipping, unable to determine old version
+[2023-06-11 06:55:13] INFO root fetch - main [MainThread]: End processing [Space-Weather-Interface-P] error
+[2023-06-11 06:55:13] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-11 06:55:13] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-11 06:55:13] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/15/e3/3167bc3f69362452df838983cc6d9edefe98fd9cafcddff69436f7b24ac0/python_manifest-1.2.1-py3-none-any.whl
+[2023-06-11 06:55:13] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-11 06:55:13] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230611/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-11 06:55:14] INFO root fetch - processPackages [python-manifest]: Downloading https://files.pythonhosted.org/packages/fc/dc/1d297b154c50449dfb4a37e0da12798c2d94e05ead8105443998baf5f49e/python_manifest-1.3.0-py3-none-any.whl
+[2023-06-11 06:55:14] INFO root fetch - processPackages [python-manifest]: executing diffoscope
+[2023-06-11 06:55:14] INFO root fetch - processPackages [python-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_manifest-1.2.1-py3-none-any.whl.zip tmp/python_manifest-1.3.0-py3-none-any.whl.zip --markdown 20230611/p/python-manifest/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-11 06:55:14] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-11 06:55:14] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-11 06:55:14] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-11 06:55:15] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.2.1-py3-none-any.whl.zip]
+[2023-06-11 06:55:15] INFO root fetch - processPackages [python-manifest]: Remove: archive file [/home/abi/fetcher/tmp/python_manifest-1.3.0-py3-none-any.whl.zip]
+[2023-06-11 06:55:15] INFO root fetch - main [MainThread]: End processing [python-manifest]: success
+[2023-06-11 06:55:15] INFO root fetch - main [MainThread]: Store serial: [18455888]
