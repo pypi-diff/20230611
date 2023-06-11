@@ -4872,3 +4872,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 08:00:34] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl.zip]
 [2023-06-11 08:00:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-notify]: success
 [2023-06-11 08:00:34] INFO root fetch - main [MainThread]: Store serial: [18456137]
+[2023-06-11 08:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18456137]
+[2023-06-11 08:05:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-11 08:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plex-tvdb-alt-orderer
+[2023-06-11 08:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-web
+[2023-06-11 08:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-06-11 08:05:44] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230610.0] Old Version: [16.0.20230607.1]
+[2023-06-11 08:05:44] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-11 08:05:44] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230610] Old Version: [2.4.0.dev20230609]
+[2023-06-11 08:05:44] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ef/b5/74325470820e0ee1cb63b50d71339600494ee7492109f2d607ae84adced6/pyg_nightly-2.4.0.dev20230609.tar.gz
+[2023-06-11 08:05:44] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: Downloading https://files.pythonhosted.org/packages/30/26/e551c647a3c4b5b2ed4faba12b868614daf03052125a2e7e9cd02e802912/plex-tvdb-alt-orderer-0.2.1.tar.gz
+[2023-06-11 08:05:44] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/bb/ec/24bc5b36d2290632777317c2eb1b5f551bea15fad56af7a82f03baf9a877/odoo_addons_oca_web-16.0.20230607.1-py3-none-any.whl
+[2023-06-11 08:05:44] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: Downloading https://files.pythonhosted.org/packages/fc/02/7443f920200bca215d11365646786592448bb401b4e36c6a996d2069bd42/plex-tvdb-alt-orderer-0.2.2.tar.gz
+[2023-06-11 08:05:44] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/84/e0/0b7793c3720ee52dd58d46358db29c44221ded0ffebce85027a528e2e318/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl
+[2023-06-11 08:05:44] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/51/c9/46d0052df2aafc71312eb3a6b6f8e86457e104a3e8c934849d564296feae/pyg_nightly-2.4.0.dev20230610.tar.gz
+[2023-06-11 08:05:44] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: executing diffoscope
+[2023-06-11 08:05:44] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plex-tvdb-alt-orderer-0.2.1.tar.gz tmp/plex-tvdb-alt-orderer-0.2.2.tar.gz --markdown 20230611/p/plex-tvdb-alt-orderer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-11 08:05:44] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-06-11 08:05:44] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230607.1-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip --markdown 20230611/o/odoo-addons-oca-web/16.0.20230607.1-16.0.20230610.0/diff.md --exclude *.pyd
+[2023-06-11 08:05:44] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-11 08:05:44] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230609.tar.gz tmp/pyg_nightly-2.4.0.dev20230610.tar.gz --markdown 20230611/p/pyg-nightly/2.4.0.dev20230609-2.4.0.dev20230610/diff.md --exclude *.pyd
+[2023-06-11 08:05:45] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: Remove: archive file [/home/abi/fetcher/tmp/plex-tvdb-alt-orderer-0.2.1.tar.gz]
+[2023-06-11 08:05:45] INFO root fetch - processPackages [plex-tvdb-alt-orderer]: Remove: archive file [/home/abi/fetcher/tmp/plex-tvdb-alt-orderer-0.2.2.tar.gz]
+[2023-06-11 08:05:45] INFO root fetch - main [MainThread]: End processing [plex-tvdb-alt-orderer]: success
+[2023-06-11 08:05:45] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230607.1-py3-none-any.whl.zip]
+[2023-06-11 08:05:45] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip]
+[2023-06-11 08:05:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-06-11 08:05:49] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230609.tar.gz]
+[2023-06-11 08:05:49] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230610.tar.gz]
+[2023-06-11 08:05:49] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-11 08:05:49] INFO root fetch - main [MainThread]: Store serial: [18456145]
