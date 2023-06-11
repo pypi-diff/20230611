@@ -2996,3 +2996,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 04:19:06] INFO root fetch - processPackages [logicgate]: Remove: archive file [/home/abi/fetcher/tmp/logicgate-0.2.8.tar.gz]
 [2023-06-11 04:19:06] INFO root fetch - main [MainThread]: End processing [logicgate]: success
 [2023-06-11 04:19:06] INFO root fetch - main [MainThread]: Store serial: [18455336]
+[2023-06-11 04:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455336]
+[2023-06-11 04:24:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-addons
+[2023-06-11 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-Dalgyu
+[2023-06-11 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langeval
+[2023-06-11 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: portant-django-commons
+[2023-06-11 04:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-addons
+[2023-06-11 04:24:15] WARNING root fetch - processPackages [example-package-Dalgyu]: Skipping, unable to determine old version
+[2023-06-11 04:24:15] INFO root fetch - main [MainThread]: End processing [example-package-Dalgyu] error
+[2023-06-11 04:24:15] WARNING root fetch - processPackages [langchain-addons]: Skipping, unable to determine old version
+[2023-06-11 04:24:15] INFO root fetch - main [MainThread]: End processing [langchain-addons] error
+[2023-06-11 04:24:15] WARNING root fetch - processPackages [langchain-addons]: Skipping, unable to determine old version
+[2023-06-11 04:24:15] INFO root fetch - main [MainThread]: End processing [langchain-addons] error
+[2023-06-11 04:24:15] WARNING root fetch - processPackages [langeval]: Skipping, unable to determine old version
+[2023-06-11 04:24:15] INFO root fetch - main [MainThread]: End processing [langeval] error
+[2023-06-11 04:24:15] INFO root fetch - processPackages [portant-django-commons]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-11 04:24:15] INFO root fetch - processPackages [portant-django-commons]: Downloading https://files.pythonhosted.org/packages/51/67/92238c66c159fe2de5196c5f17ca43a85e58a308b6ceaa7a3fa4b3bcb8fc/portant-django-commons-1.0.7.tar.gz
+[2023-06-11 04:24:15] INFO root fetch - processPackages [portant-django-commons]: Downloading https://files.pythonhosted.org/packages/84/76/04caa07d2b1e7cab973492dd906a9aacbb288b491010f9dd3c834485f8fb/portant-django-commons-1.0.8.tar.gz
+[2023-06-11 04:24:15] INFO root fetch - processPackages [portant-django-commons]: executing diffoscope
+[2023-06-11 04:24:15] INFO root fetch - processPackages [portant-django-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portant-django-commons-1.0.7.tar.gz tmp/portant-django-commons-1.0.8.tar.gz --markdown 20230611/p/portant-django-commons/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-11 04:24:16] INFO root fetch - processPackages [portant-django-commons]: Remove: archive file [/home/abi/fetcher/tmp/portant-django-commons-1.0.7.tar.gz]
+[2023-06-11 04:24:17] INFO root fetch - processPackages [portant-django-commons]: Remove: archive file [/home/abi/fetcher/tmp/portant-django-commons-1.0.8.tar.gz]
+[2023-06-11 04:24:17] INFO root fetch - main [MainThread]: End processing [portant-django-commons]: success
+[2023-06-11 04:24:17] INFO root fetch - main [MainThread]: Store serial: [18455360]
