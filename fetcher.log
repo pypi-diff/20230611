@@ -11560,3 +11560,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:03:44] INFO root fetch - processPackages [postnormalism]: Remove: archive file [/home/abi/fetcher/tmp/postnormalism-0.0.4.tar.gz]
 [2023-06-11 18:03:44] INFO root fetch - main [MainThread]: End processing [postnormalism]: success
 [2023-06-11 18:03:44] INFO root fetch - main [MainThread]: Store serial: [18459172]
+[2023-06-11 18:08:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459172]
+[2023-06-11 18:08:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicpy
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psbs
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notification-service-nightly
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-flow-nightly
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fhempy
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabrique-nodes-core
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warframe.py
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: claws
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypi-python-translator
+[2023-06-11 18:08:53] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-06-11 18:08:53] INFO root fetch - processPackages [musicpy]: Start processing: lollms
+[2023-06-11 18:08:53] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-06-11 18:08:53] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 18:08:53] INFO root fetch - processPackages [yeref]: New version: [0.1.87] Old Version: [0.1.86]
+[2023-06-11 18:08:53] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-11 18:08:53] WARNING root fetch - processPackages [psbs]: Skipping, unable to determine old version
+[2023-06-11 18:08:53] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:08:53] INFO root fetch - main [MainThread]: End processing [psbs] error
+[2023-06-11 18:08:53] INFO root fetch - processPackages [warframe.py]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-11 18:08:53] WARNING root fetch - processPackages [pypi-python-translator]: Skipping, unable to determine old version
+[2023-06-11 18:08:53] INFO root fetch - main [MainThread]: End processing [pypi-python-translator] error
+[2023-06-11 18:08:53] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-11 18:08:53] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-11 18:08:53] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 18:08:53] INFO root fetch - processPackages [fhempy]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-11 18:08:53] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/3d/16/6bb135ced8c21f3d24ea4140c331e02bf41bd354955687316003436d9d67/yeref-0.1.86.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/71/61/52c1c933c99c8222420e55cce530b94d064960dfd6ba3de485a8ff9c4d32/warframe.py-0.3.2.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fhempy]: Downloading https://files.pythonhosted.org/packages/d2/9f/6c8a1b574ab9ebcb16717b47728d87e796444aafde42304c0ca6f1aa435c/fhempy-0.1.98.tar.gz
+[2023-06-11 18:08:54] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 18:08:54] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 18:08:54] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/c8/86/1f79bf034202584a0d7253cb02465daba515eda0e7c664d13d3d22f37bf1/claws-0.0.8.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230611/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 18:08:54] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230611/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fhempy]: Downloading https://files.pythonhosted.org/packages/10/f0/a98a9f9c84c66f700cf969aeda5c6d9fa1047cde3a99fc922c76be9e951e/fhempy-0.1.99.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/09/de/a3f9f4287e27f0e5e7f08ea9c67893f64f13a5261769d0b0019f3fd9c411/yeref-0.1.87.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [warframe.py]: Downloading https://files.pythonhosted.org/packages/d7/88/05f2fb55cc8ad84581536d2e696867dd15df1f5f9eaa822b174fbc4e1797/warframe.py-0.3.3.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fhempy]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fhempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhempy-0.1.98.tar.gz tmp/fhempy-0.1.99.tar.gz --markdown 20230611/f/fhempy/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-11 18:08:54] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.86.tar.gz tmp/yeref-0.1.87.tar.gz --markdown 20230611/y/yeref/0.1.86-0.1.87/diff.md --exclude *.pyd
+[2023-06-11 18:08:54] INFO root fetch - processPackages [warframe.py]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [warframe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warframe.py-0.3.2.tar.gz tmp/warframe.py-0.3.3.tar.gz --markdown 20230611/w/warframe.py/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-06-11 18:08:54] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/22/59/5ce57d6163c39b86c2685a2932c13a8b253356312857353552782ad01e14/claws-0.0.9.tar.gz
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230611/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-11 18:08:54] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-06-11 18:08:54] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230611/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:08:55] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-11 18:08:55] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-11 18:08:55] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-11 18:08:55] INFO root fetch - processPackages [claws]: Remove: archive file [/home/abi/fetcher/tmp/claws-0.0.8.tar.gz]
+[2023-06-11 18:08:55] INFO root fetch - processPackages [claws]: Remove: archive file [/home/abi/fetcher/tmp/claws-0.0.9.tar.gz]
+[2023-06-11 18:08:55] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-06-11 18:08:55] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip]
+[2023-06-11 18:08:55] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip]
+[2023-06-11 18:08:55] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-06-11 18:08:56] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.2.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - processPackages [warframe.py]: Remove: archive file [/home/abi/fetcher/tmp/warframe.py-0.3.3.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - main [MainThread]: End processing [warframe.py]: success
+[2023-06-11 18:08:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.86.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.87.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-11 18:08:56] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.98.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - processPackages [fhempy]: Remove: archive file [/home/abi/fetcher/tmp/fhempy-0.1.99.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - main [MainThread]: End processing [fhempy]: success
+[2023-06-11 18:08:56] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-11 18:08:56] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-11 18:08:56] INFO root fetch - main [MainThread]: Store serial: [18459203]
