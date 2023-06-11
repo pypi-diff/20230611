@@ -10757,3 +10757,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:10:44] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev4.tar.gz]
 [2023-06-11 17:10:44] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-06-11 17:10:44] INFO root fetch - main [MainThread]: Store serial: [18458846]
+[2023-06-11 17:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458846]
+[2023-06-11 17:15:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cookie-consent
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hummuspy
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-text-nightly
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagrid
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vpso
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hummuspy
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: philbot-voice
+[2023-06-11 17:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: the-one-lotr-sdk
+[2023-06-11 17:15:53] INFO root fetch - processPackages [django-cookie-consent]: New version: [0.4.0.dev0] Old Version: [0.4.0]
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-11 17:15:53] WARNING root fetch - processPackages [the-one-lotr-sdk]: Skipping, unable to determine old version
+[2023-06-11 17:15:53] WARNING root fetch - processPackages [vpso]: Skipping, unable to determine old version
+[2023-06-11 17:15:53] INFO root fetch - main [MainThread]: End processing [the-one-lotr-sdk] error
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 17:15:53] INFO root fetch - main [MainThread]: End processing [vpso] error
+[2023-06-11 17:15:53] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 17:15:53] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230610] Old Version: [2.14.0.dev20230609]
+[2023-06-11 17:15:53] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/67/29/1eae3408a481b307a118f9cfeb29a553723e6846c0d6c321eaac7790921e/philbot_voice-1.9.3.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [django-cookie-consent]: Downloading https://files.pythonhosted.org/packages/a7/fd/565588f67803a70c229d11a7dcdf312871802a0bc841a3fcdde61b01787d/django-cookie-consent-0.4.0.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/aa/77/409515bc90a182d7447dc5a103881ade7be75ca594dde5226ab85cdf5678/tensorflow_text_nightly-2.14.0.dev20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230611/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-11 17:15:53] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/ef/87/ba6cf140341e14999edf8c16bc78f967bc3bfd63017dd4c99f268c7d1588/philbot_voice-1.9.4.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [django-cookie-consent]: Downloading https://files.pythonhosted.org/packages/dd/b1/b4673868d5e3c61c6c296c7bacef0a3e7bff6fb3e26198d4159a6b6641ba/django-cookie-consent-0.4.0.dev0.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-11 17:15:53] INFO root fetch - processPackages [django-cookie-consent]: executing diffoscope
+[2023-06-11 17:15:53] INFO root fetch - processPackages [django-cookie-consent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cookie-consent-0.4.0.tar.gz tmp/django-cookie-consent-0.4.0.dev0.tar.gz --markdown 20230611/d/django-cookie-consent/0.4.0-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-06-11 17:15:53] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-11 17:15:53] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.3.tar.gz tmp/philbot_voice-1.9.4.tar.gz --markdown 20230611/p/philbot-voice/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 17:15:53] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 17:15:53] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-11 17:15:53] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230611/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-11 17:15:53] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/bc/27/5c04ac26e937185a03a713541634a727fae34e79f2c05415e9a4eb3f6e9a/tensorflow_text_nightly-2.14.0.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-11 17:15:54] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-11 17:15:54] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230611/t/tensorflow-text-nightly/2.14.0.dev20230609-2.14.0.dev20230610/diff.md --exclude *.pyd
+[2023-06-11 17:15:55] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 17:15:55] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-11 17:15:55] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 17:15:55] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.3.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.4.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-11 17:15:55] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-11 17:15:55] INFO root fetch - processPackages [django-cookie-consent]: Remove: archive file [/home/abi/fetcher/tmp/django-cookie-consent-0.4.0.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - processPackages [django-cookie-consent]: Remove: archive file [/home/abi/fetcher/tmp/django-cookie-consent-0.4.0.dev0.tar.gz]
+[2023-06-11 17:15:55] INFO root fetch - main [MainThread]: End processing [django-cookie-consent]: success
+[2023-06-11 17:16:12] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230609-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 17:16:12] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230610-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-11 17:16:12] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-11 17:16:12] INFO root fetch - main [MainThread]: Store serial: [18458878]
