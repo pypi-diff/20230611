@@ -14699,3 +14699,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:38:59] INFO root fetch - processPackages [webp3]: Remove: archive file [/home/abi/fetcher/tmp/webp3-0.6.0.tar.gz]
 [2023-06-11 22:38:59] INFO root fetch - main [MainThread]: End processing [webp3]: success
 [2023-06-11 22:38:59] INFO root fetch - main [MainThread]: Store serial: [18460776]
+[2023-06-11 22:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460776]
+[2023-06-11 22:44:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-join-unrelated
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capsphere
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeastmlp
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pspy
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samyol
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kr8s
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubectl-ng
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tabNamesCat
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reddit2pdf
+[2023-06-11 22:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: classic-isotherms
+[2023-06-11 22:44:10] INFO root fetch - processPackages [capsphere]: New version: [0.0.3] Old Version: [0.0.18]
+[2023-06-11 22:44:10] INFO root fetch - processPackages [django-join-unrelated]: New version: [0.2.0] Old Version: [0.1.0.dev1]
+[2023-06-11 22:44:10] INFO root fetch - processPackages [yeastmlp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kr8s]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-11 22:44:10] INFO root fetch - processPackages [samyol]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-11 22:44:10] INFO root fetch - processPackages [tabNamesCat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-11 22:44:10] WARNING root fetch - processPackages [classic-isotherms]: Skipping, unable to determine old version
+[2023-06-11 22:44:10] INFO root fetch - processPackages [classic-isotherms]: Start processing: fcal
+[2023-06-11 22:44:10] INFO root fetch - main [MainThread]: End processing [classic-isotherms] error
+[2023-06-11 22:44:10] INFO root fetch - processPackages [pspy]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-11 22:44:10] WARNING root fetch - processPackages [reddit2pdf]: Skipping, unable to determine old version
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kubectl-ng]: New version: [0.5.1] Old Version: [0.1.0a0]
+[2023-06-11 22:44:10] INFO root fetch - main [MainThread]: End processing [reddit2pdf] error
+[2023-06-11 22:44:10] INFO root fetch - processPackages [yeastmlp]: Downloading https://files.pythonhosted.org/packages/7a/b7/f448a1a2688602de54a87edf986f2a8325269a01f46de2077d83202bbaf0/yeastmlp-0.0.2.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [django-join-unrelated]: Downloading https://files.pythonhosted.org/packages/7d/23/5aa5f97ac688fef4aeed7e5cbae83233a0889c2bac95b337cb35ad9c8354/django-join-unrelated-0.1.0.dev1.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [tabNamesCat]: Downloading https://files.pythonhosted.org/packages/1a/db/0c4afea9b88c4c2cf6ca167f0841e10c79ae12ad7cd7149832d1908b48dc/tabNamesCat-0.1.1.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [fcal]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-11 22:44:10] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/45/d8/881e9a476e7a38026bcac0f749801d16c4a1ac1934e4b21aa8c1990da357/fcal-0.5.0.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [capsphere]: Downloading https://files.pythonhosted.org/packages/ea/d7/ad9cde2c7857c3f0339c628906091060c5f3c3c0d731f339747c8a68b556/capsphere-0.0.18.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [samyol]: Downloading https://files.pythonhosted.org/packages/74/a2/76151eaa4a021f86c06d4aec2e720bf5cc4bd89efd2fab62d28deb32c37e/SAMYOL-1.0.1.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/f7/0b/7fa3b1faf47a3f51ee6f330ac061bd64b624848a96a96026c39159056212/kr8s-0.5.0.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/e2/1f/671f3a1f33eb0bd501066fb3ea51bcaf936190cfc9762cf6e8c40d1426b7/kubectl_ng-0.1.0a0.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [tabNamesCat]: Downloading https://files.pythonhosted.org/packages/a0/ee/34af49ad21570959db627f92927bdd76c81d75b97ee00881e0503b11c170/tabNamesCat-0.1.2.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [yeastmlp]: Downloading https://files.pythonhosted.org/packages/5a/4e/b5194d9e1af2027f437261b81d3a540eb24543c6315a08b9b2d269027a12/yeastmlp-0.0.3.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [django-join-unrelated]: Downloading https://files.pythonhosted.org/packages/e7/71/a570880ea4161adc360447a9523fb1a7d91371aaa3c593dfa159d2d21a1a/django-join-unrelated-0.2.0.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [pspy]: Downloading https://files.pythonhosted.org/packages/d3/f0/97cd58e3ad2b2fae60a8213152f7f9ce54253b8cae2e829d8b1f08bcb048/pspy-1.6.2.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [django-join-unrelated]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [django-join-unrelated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-join-unrelated-0.1.0.dev1.tar.gz tmp/django-join-unrelated-0.2.0.tar.gz --markdown 20230611/d/django-join-unrelated/0.1.0.dev1-0.2.0/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [yeastmlp]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [yeastmlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastmlp-0.0.2.tar.gz tmp/yeastmlp-0.0.3.tar.gz --markdown 20230611/y/yeastmlp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/49/a3/5005df21b880856dee01cc9654c2572d6143acca41d8a1cc32061a1c89bd/fcal-0.6.0.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [capsphere]: Downloading https://files.pythonhosted.org/packages/e8/ae/1b41d1453c72938fd983c5b9b44eadc19db76953c25df5dba8002e4464ec/capsphere-0.0.3.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [tabNamesCat]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [tabNamesCat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabNamesCat-0.1.1.tar.gz tmp/tabNamesCat-0.1.2.tar.gz --markdown 20230611/t/tabNamesCat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [fcal]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [fcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcal-0.5.0.tar.gz tmp/fcal-0.6.0.tar.gz --markdown 20230611/f/fcal/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/d5/f4/026f9f1690942499fcfa542bb7bc0d23309b9625724153c54db86774e01d/kr8s-0.5.1.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.5.0.tar.gz tmp/kr8s-0.5.1.tar.gz --markdown 20230611/k/kr8s/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [samyol]: Downloading https://files.pythonhosted.org/packages/41/e8/545e81c4014bb59a1398b29a169f9e0ea4ad0e9b29bf890fb00153c07f8e/samyol-1.0.2.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/7c/96/6fcddcfe66ff37bcded6ca833dc65506cfbe7017e6cc9377d30a27d80236/kubectl_ng-0.5.1.tar.gz
+[2023-06-11 22:44:10] INFO root fetch - processPackages [capsphere]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [capsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsphere-0.0.18.tar.gz tmp/capsphere-0.0.3.tar.gz --markdown 20230611/c/capsphere/0.0.18-0.0.3/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [samyol]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [samyol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMYOL-1.0.1.tar.gz tmp/samyol-1.0.2.tar.gz --markdown 20230611/s/samyol/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2023-06-11 22:44:10] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.1.0a0.tar.gz tmp/kubectl_ng-0.5.1.tar.gz --markdown 20230611/k/kubectl-ng/0.1.0a0-0.5.1/diff.md --exclude *.pyd
+[2023-06-11 22:44:11] INFO root fetch - processPackages [pspy]: Downloading https://files.pythonhosted.org/packages/18/7c/f5b818c05d44f351e7f9327fb6944a4180c9327f8584d862ab385aad58c2/pspy-1.6.3.tar.gz
+[2023-06-11 22:44:11] INFO root fetch - processPackages [pspy]: executing diffoscope
+[2023-06-11 22:44:11] INFO root fetch - processPackages [pspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pspy-1.6.2.tar.gz tmp/pspy-1.6.3.tar.gz --markdown 20230611/p/pspy/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-11 22:44:11] INFO root fetch - processPackages [django-join-unrelated]: Remove: archive file [/home/abi/fetcher/tmp/django-join-unrelated-0.1.0.dev1.tar.gz]
+[2023-06-11 22:44:11] INFO root fetch - processPackages [django-join-unrelated]: Remove: archive file [/home/abi/fetcher/tmp/django-join-unrelated-0.2.0.tar.gz]
+[2023-06-11 22:44:11] INFO root fetch - main [MainThread]: End processing [django-join-unrelated]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.5.0.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.6.0.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [fcal]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [tabNamesCat]: Remove: archive file [/home/abi/fetcher/tmp/tabNamesCat-0.1.1.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [tabNamesCat]: Remove: archive file [/home/abi/fetcher/tmp/tabNamesCat-0.1.2.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [tabNamesCat]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [yeastmlp]: Remove: archive file [/home/abi/fetcher/tmp/yeastmlp-0.0.2.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [yeastmlp]: Remove: archive file [/home/abi/fetcher/tmp/yeastmlp-0.0.3.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [yeastmlp]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.1.0a0.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.5.1.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.5.0.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.5.1.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [capsphere]: Remove: archive file [/home/abi/fetcher/tmp/capsphere-0.0.18.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [capsphere]: Remove: archive file [/home/abi/fetcher/tmp/capsphere-0.0.3.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [capsphere]: success
+[2023-06-11 22:44:12] INFO root fetch - processPackages [samyol]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.1.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - processPackages [samyol]: Remove: archive file [/home/abi/fetcher/tmp/samyol-1.0.2.tar.gz]
+[2023-06-11 22:44:12] INFO root fetch - main [MainThread]: End processing [samyol]: success
+[2023-06-11 22:44:14] INFO root fetch - processPackages [pspy]: Remove: archive file [/home/abi/fetcher/tmp/pspy-1.6.2.tar.gz]
+[2023-06-11 22:44:14] INFO root fetch - processPackages [pspy]: Remove: archive file [/home/abi/fetcher/tmp/pspy-1.6.3.tar.gz]
+[2023-06-11 22:44:14] INFO root fetch - main [MainThread]: End processing [pspy]: success
+[2023-06-11 22:44:14] INFO root fetch - main [MainThread]: Store serial: [18460821]
