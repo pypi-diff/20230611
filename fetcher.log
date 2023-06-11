@@ -15573,3 +15573,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 23:43:40] INFO root fetch - processPackages [PyTrial]: Remove: archive file [/home/abi/fetcher/tmp/PyTrial-0.0.6.tar.gz]
 [2023-06-11 23:43:40] INFO root fetch - main [MainThread]: End processing [PyTrial]: success
 [2023-06-11 23:43:40] INFO root fetch - main [MainThread]: Store serial: [18461177]
+[2023-06-11 23:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18461177]
+[2023-06-11 23:48:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matildapeak-scoly-api
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topobank-statistics
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymerkle
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenCVR
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixelartconv
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-11 23:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prepper
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pymerkle]: New version: [5.0.3b0] Old Version: [5.0.3]
+[2023-06-11 23:48:50] INFO root fetch - processPackages [prepper]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pixelartconv]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-11 23:48:50] INFO root fetch - processPackages [topobank-statistics]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-11 23:48:50] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 23:48:50] INFO root fetch - processPackages [matildapeak-scoly-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-11 23:48:50] WARNING root fetch - processPackages [OpenCVR]: Skipping, unable to determine old version
+[2023-06-11 23:48:50] INFO root fetch - main [MainThread]: End processing [OpenCVR] error
+[2023-06-11 23:48:50] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.3452] Old Version: [1.0.3451]
+[2023-06-11 23:48:50] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pixelartconv]: Downloading https://files.pythonhosted.org/packages/22/11/448be94a66af7f1654e5ea8d573a785a66f90368ee017eb6866fdec5ff25/pixelartconv-1.1.1.tar.gz
+[2023-06-11 23:48:50] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 23:48:50] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pymerkle]: Downloading https://files.pythonhosted.org/packages/a3/a2/99627726cdefcb5e5f2e6252e61caf95e8f3067ad22f5e00cd89d8ca85ee/pymerkle-5.0.3.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [matildapeak-scoly-api]: Downloading https://files.pythonhosted.org/packages/df/70/7bdcf1cf7ccd8ae13d4ae19aec9ee7574b87daa2045c765cbe751c54b697/matildapeak_scoly_api-1.0.0.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [topobank-statistics]: Downloading https://files.pythonhosted.org/packages/cc/e2/485f68cfde2606a1c6cfabbcae106f1bf37edb69e1f4302cced1963cb1a5/topobank-statistics-1.0.2.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [prepper]: Downloading https://files.pythonhosted.org/packages/c6/62/665091371a2029975bcf97c91aaf10af78aaedcd24ae10c4c9d0ff5e792e/prepper-1.1.5.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/08/4c/0667ccb8507f678f685e7f6028712c5b06d7ff244b75441d08e971505fe5/getmodelspec-1.0.3451.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pixelartconv]: Downloading https://files.pythonhosted.org/packages/e5/c6/2134f6e7cc26e24f19f5268cf9ea5306cdf184c691e589ee47d633a44622/pixelartconv-1.1.2.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pymerkle]: Downloading https://files.pythonhosted.org/packages/0c/14/8c281ff1de0e480a090c452447c7ef4a35071bb3e9bb5f3992ad25199e06/pymerkle-5.0.3b0.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pymerkle]: executing diffoscope
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pymerkle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymerkle-5.0.3.tar.gz tmp/pymerkle-5.0.3b0.tar.gz --markdown 20230611/p/pymerkle/5.0.3-5.0.3b0/diff.md --exclude *.pyd
+[2023-06-11 23:48:50] INFO root fetch - processPackages [prepper]: Downloading https://files.pythonhosted.org/packages/93/cf/8ec08a3149923bcd2fc499ca34a6ccdf7cf87a02964d1a03cd1edc2838f9/prepper-1.2.0.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pixelartconv]: executing diffoscope
+[2023-06-11 23:48:50] INFO root fetch - processPackages [pixelartconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelartconv-1.1.1.tar.gz tmp/pixelartconv-1.1.2.tar.gz --markdown 20230611/p/pixelartconv/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-11 23:48:50] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/a1/6f/f26a1a163b39fe75c7883e171efe8f7b6a76708d3261bbc61e2bab1e6e2b/getmodelspec-1.0.3452.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [topobank-statistics]: Downloading https://files.pythonhosted.org/packages/8a/8f/2974cd12488ef2c738577006751859c9fa795fe30a282d9f6e956bb25f5d/topobank-statistics-1.1.0.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [matildapeak-scoly-api]: Downloading https://files.pythonhosted.org/packages/9d/98/abd535b469b3cb571a6d8e759c11102088073b4298f2588cd2aa7085e60d/matildapeak_scoly_api-1.0.1.tar.gz
+[2023-06-11 23:48:50] INFO root fetch - processPackages [matildapeak-scoly-api]: executing diffoscope
+[2023-06-11 23:48:50] INFO root fetch - processPackages [matildapeak-scoly-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matildapeak_scoly_api-1.0.0.tar.gz tmp/matildapeak_scoly_api-1.0.1.tar.gz --markdown 20230611/m/matildapeak-scoly-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-11 23:48:50] INFO root fetch - processPackages [prepper]: executing diffoscope
+[2023-06-11 23:48:50] INFO root fetch - processPackages [prepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepper-1.1.5.tar.gz tmp/prepper-1.2.0.tar.gz --markdown 20230611/p/prepper/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-06-11 23:48:50] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-11 23:48:50] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.3451.tar.gz tmp/getmodelspec-1.0.3452.tar.gz --markdown 20230611/g/getmodelspec/1.0.3451-1.0.3452/diff.md --exclude *.pyd
+[2023-06-11 23:48:51] INFO root fetch - processPackages [topobank-statistics]: executing diffoscope
+[2023-06-11 23:48:51] INFO root fetch - processPackages [topobank-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topobank-statistics-1.0.2.tar.gz tmp/topobank-statistics-1.1.0.tar.gz --markdown 20230611/t/topobank-statistics/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-11 23:48:51] INFO root fetch - processPackages [pixelartconv]: Remove: archive file [/home/abi/fetcher/tmp/pixelartconv-1.1.1.tar.gz]
+[2023-06-11 23:48:51] INFO root fetch - processPackages [pixelartconv]: Remove: archive file [/home/abi/fetcher/tmp/pixelartconv-1.1.2.tar.gz]
+[2023-06-11 23:48:51] INFO root fetch - main [MainThread]: End processing [pixelartconv]: success
+[2023-06-11 23:48:52] INFO root fetch - processPackages [matildapeak-scoly-api]: Remove: archive file [/home/abi/fetcher/tmp/matildapeak_scoly_api-1.0.0.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - processPackages [matildapeak-scoly-api]: Remove: archive file [/home/abi/fetcher/tmp/matildapeak_scoly_api-1.0.1.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - main [MainThread]: End processing [matildapeak-scoly-api]: success
+[2023-06-11 23:48:52] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.3.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - processPackages [pymerkle]: Remove: archive file [/home/abi/fetcher/tmp/pymerkle-5.0.3b0.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - main [MainThread]: End processing [pymerkle]: success
+[2023-06-11 23:48:52] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.3451.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.3452.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-11 23:48:52] INFO root fetch - processPackages [prepper]: Remove: archive file [/home/abi/fetcher/tmp/prepper-1.1.5.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - processPackages [prepper]: Remove: archive file [/home/abi/fetcher/tmp/prepper-1.2.0.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - main [MainThread]: End processing [prepper]: success
+[2023-06-11 23:48:52] INFO root fetch - processPackages [topobank-statistics]: Remove: archive file [/home/abi/fetcher/tmp/topobank-statistics-1.0.2.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - processPackages [topobank-statistics]: Remove: archive file [/home/abi/fetcher/tmp/topobank-statistics-1.1.0.tar.gz]
+[2023-06-11 23:48:52] INFO root fetch - main [MainThread]: End processing [topobank-statistics]: success
+[2023-06-11 23:48:52] INFO root fetch - main [MainThread]: Store serial: [18461203]
