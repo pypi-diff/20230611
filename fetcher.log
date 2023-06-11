@@ -10957,3 +10957,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 17:26:40] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2023-06-11 17:26:40] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-06-11 17:26:40] INFO root fetch - main [MainThread]: Store serial: [18458935]
+[2023-06-11 17:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458935]
+[2023-06-11 17:31:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vastaanottaa
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coldtype
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbase
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-base
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-sbase
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-seleniumbase
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: archeSetup
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctransformers
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: litesqlite
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: git-meta
+[2023-06-11 17:31:50] INFO root fetch - processPackages [coldtype]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-11 17:31:50] WARNING root fetch - processPackages [vastaanottaa]: Skipping, unable to determine old version
+[2023-06-11 17:31:50] INFO root fetch - processPackages [vastaanottaa]: Start processing: fcal
+[2023-06-11 17:31:50] INFO root fetch - main [MainThread]: End processing [vastaanottaa] error
+[2023-06-11 17:31:50] INFO root fetch - processPackages [litesqlite]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [archeSetup]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ctransformers]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [git-meta]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-11 17:31:50] INFO root fetch - processPackages [archeSetup]: Downloading https://files.pythonhosted.org/packages/67/b7/650abffacd2f4dbef9755cb677e3eaab545c717e01f52e678147583af56e/archeSetup-0.0.7.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/61/d5/0145dfb49a3f90938dfc37a0d527ed655e89d3dad023c8ef1d1434693ff3/ctransformers-0.2.5.tar.gz
+[2023-06-11 17:31:50] WARNING root fetch - processPackages [fcal]: Skipping, unable to determine old version
+[2023-06-11 17:31:50] INFO root fetch - main [MainThread]: End processing [fcal] error
+[2023-06-11 17:31:50] INFO root fetch - processPackages [coldtype]: Downloading https://files.pythonhosted.org/packages/8a/fe/22da1cb2b6bf96d3edfbaf97806c6880be2697afc9c0e9b22dcfe3160476/coldtype-0.9.8.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/36/f2/dfa3f0d747be648d1d602ff1123676c8bbe18faa2e917f070060befe2208/litesqlite-1.0.0.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [git-meta]: Downloading https://files.pythonhosted.org/packages/ae/c8/5c121ad3e79927aed9eced1b590fbb1dea0f1a43a8ed8e6c47e76ff777cb/git-meta-0.2.2.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [archeSetup]: Downloading https://files.pythonhosted.org/packages/50/c7/cf19689f990b58c04e3e3ab3df91870858e11420c74af308b74216bfe0d4/archeSetup-0.0.8.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/48/71/e45cc244da4a27ea513ba6fdcaf967f4bb3f4184ef2fea679bbda3f08c24/ctransformers-0.2.7.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [archeSetup]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [archeSetup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archeSetup-0.0.7.tar.gz tmp/archeSetup-0.0.8.tar.gz --markdown 20230611/a/archeSetup/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.5.tar.gz tmp/ctransformers-0.2.7.tar.gz --markdown 20230611/c/ctransformers/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-06-11 17:31:50] INFO root fetch - processPackages [coldtype]: Downloading https://files.pythonhosted.org/packages/d4/c7/e96b75071385719fc62638e1dd950c602f6da4a9fb14301707c82decb0b5/coldtype-0.9.9.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [litesqlite]: Downloading https://files.pythonhosted.org/packages/2e/62/1bea8158c560f1281de9bfd3a855a9f33fc916b58a4a1dac7544d6f25632/litesqlite-2.0.0.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [git-meta]: Downloading https://files.pythonhosted.org/packages/c5/ca/7e98de2fd983a9aa8e0f94d36fc74039d9271e6f776c7b5e2b24a58d46c4/git-meta-0.2.3.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230611/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:31:50] INFO root fetch - processPackages [litesqlite]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [litesqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litesqlite-1.0.0.tar.gz tmp/litesqlite-2.0.0.tar.gz --markdown 20230611/l/litesqlite/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230611/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:31:50] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-06-11 17:31:50] INFO root fetch - processPackages [git-meta]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [git-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-meta-0.2.2.tar.gz tmp/git-meta-0.2.3.tar.gz --markdown 20230611/g/git-meta/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-11 17:31:50] INFO root fetch - processPackages [coldtype]: executing diffoscope
+[2023-06-11 17:31:50] INFO root fetch - processPackages [coldtype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coldtype-0.9.8.tar.gz tmp/coldtype-0.9.9.tar.gz --markdown 20230611/c/coldtype/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:31:51] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-06-11 17:31:51] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230611/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:31:51] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-06-11 17:31:51] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230611/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-11 17:31:52] INFO root fetch - processPackages [archeSetup]: Remove: archive file [/home/abi/fetcher/tmp/archeSetup-0.0.7.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - processPackages [archeSetup]: Remove: archive file [/home/abi/fetcher/tmp/archeSetup-0.0.8.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - main [MainThread]: End processing [archeSetup]: success
+[2023-06-11 17:31:52] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-1.0.0.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - processPackages [litesqlite]: Remove: archive file [/home/abi/fetcher/tmp/litesqlite-2.0.0.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - main [MainThread]: End processing [litesqlite]: success
+[2023-06-11 17:31:52] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-06-11 17:31:52] INFO root fetch - processPackages [git-meta]: Remove: archive file [/home/abi/fetcher/tmp/git-meta-0.2.2.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - processPackages [git-meta]: Remove: archive file [/home/abi/fetcher/tmp/git-meta-0.2.3.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - main [MainThread]: End processing [git-meta]: success
+[2023-06-11 17:31:52] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-06-11 17:31:52] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-06-11 17:31:52] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-06-11 17:31:53] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-06-11 17:31:53] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-06-11 17:31:53] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-06-11 17:31:53] INFO root fetch - processPackages [coldtype]: Remove: archive file [/home/abi/fetcher/tmp/coldtype-0.9.8.tar.gz]
+[2023-06-11 17:31:53] INFO root fetch - processPackages [coldtype]: Remove: archive file [/home/abi/fetcher/tmp/coldtype-0.9.9.tar.gz]
+[2023-06-11 17:31:53] INFO root fetch - main [MainThread]: End processing [coldtype]: success
+[2023-06-11 17:31:53] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.5.tar.gz]
+[2023-06-11 17:31:53] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.7.tar.gz]
+[2023-06-11 17:31:53] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-06-11 17:31:53] INFO root fetch - main [MainThread]: Store serial: [18458969]
