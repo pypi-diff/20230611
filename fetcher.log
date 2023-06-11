@@ -14359,3 +14359,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:06:24] INFO root fetch - processPackages [neutronics-material-maker]: Remove: archive file [/home/abi/fetcher/tmp/neutronics_material_maker-1.1.4.tar.gz]
 [2023-06-11 22:06:24] INFO root fetch - main [MainThread]: End processing [neutronics-material-maker]: success
 [2023-06-11 22:06:24] INFO root fetch - main [MainThread]: Store serial: [18460603]
+[2023-06-11 22:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460603]
+[2023-06-11 22:11:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-11 22:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompton
+[2023-06-11 22:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stim
+[2023-06-11 22:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stimcirq
+[2023-06-11 22:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinter
+[2023-06-11 22:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moosez
+[2023-06-11 22:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoxigraph
+[2023-06-11 22:11:33] INFO root fetch - processPackages [prompton]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-11 22:11:33] INFO root fetch - processPackages [moosez]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-11 22:11:33] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-11 22:11:33] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/9d/c1/54bab9b512a56db5df42fb6687a890296e252ce7a88302d1dfebf9d84ca4/moosez-2.0.4.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [pyoxigraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-11 22:11:33] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/67/c4/9dbc39372c9fdccdeb894a04f9d99f5495b5fd3bb497dcb72d7a27d01e22/prompton-0.0.1.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/ef/4b/ef3c6afa011ace670153b4c42979899dea2e3cb9cf3c3227bafc776177d7/moosez-2.0.5.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/f2/0a/0360a3dd26d3b41f087523180e898f000545d5b274f0be56f18e19a4b655/pyoxigraph-0.3.8.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-11 22:11:33] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.4.tar.gz tmp/moosez-2.0.5.tar.gz --markdown 20230611/m/moosez/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-11 22:11:33] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/42/59/5fb6067082e6073b35327d1bde25e9f68009d842b766770b11126cd57157/prompton-0.0.2.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [prompton]: executing diffoscope
+[2023-06-11 22:11:33] INFO root fetch - processPackages [prompton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompton-0.0.1.tar.gz tmp/prompton-0.0.2.tar.gz --markdown 20230611/p/prompton/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-11 22:11:33] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230611/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230611/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-11 22:11:33] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230611/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-11 22:11:34] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.4.tar.gz]
+[2023-06-11 22:11:34] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.5.tar.gz]
+[2023-06-11 22:11:34] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-11 22:11:34] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.1.tar.gz]
+[2023-06-11 22:11:34] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.2.tar.gz]
+[2023-06-11 22:11:34] INFO root fetch - main [MainThread]: End processing [prompton]: success
+[2023-06-11 22:11:35] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-11 22:11:35] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-11 22:11:35] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-11 22:11:35] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-11 22:11:35] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-11 22:11:35] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-11 22:11:35] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/b0/47/b4e91d5e4c9dcb0ea03414c92752445cc268c440bcc5ff64a159ce91a064/pyoxigraph-0.3.9.tar.gz
+[2023-06-11 22:11:36] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-11 22:11:36] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-11 22:11:36] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-11 22:11:38] INFO root fetch - processPackages [pyoxigraph]: executing diffoscope
+[2023-06-11 22:11:38] INFO root fetch - processPackages [pyoxigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxigraph-0.3.8.tar.gz tmp/pyoxigraph-0.3.9.tar.gz --markdown 20230611/p/pyoxigraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-11 22:12:25] INFO root fetch - processPackages [pyoxigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyoxigraph-0.3.8.tar.gz]
+[2023-06-11 22:12:25] INFO root fetch - processPackages [pyoxigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyoxigraph-0.3.9.tar.gz]
+[2023-06-11 22:12:25] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
+[2023-06-11 22:12:25] INFO root fetch - main [MainThread]: Store serial: [18460644]
