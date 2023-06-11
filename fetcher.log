@@ -9861,3 +9861,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 15:55:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306111354-py3-none-any.whl.zip]
 [2023-06-11 15:55:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-11 15:55:34] INFO root fetch - main [MainThread]: Store serial: [18458480]
+[2023-06-11 16:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18458480]
+[2023-06-11 16:00:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Rare
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dueros-smarthome
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genocide
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcrx-api
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastestimator-nightly
+[2023-06-11 16:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imfdatapy
+[2023-06-11 16:00:43] INFO root fetch - processPackages [dueros-smarthome]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [Rare]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [BioSAK]: New version: [1.67.0] Old Version: [1.66.1]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [imfdatapy]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [dcrx-api]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [kfish]: New version: [99.0.202306111356] Old Version: [99.0.202306111345]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/12/97/01f534b85597b490133a6400e77dfb4bec03b5b9f03b7845f0d5cef40760/dueros_smarthome-0.0.8.tar.gz
+[2023-06-11 16:00:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e6/bd/2493d7a016a26ab33ea4a73bc78fbb8e222d18338fc1261e9b38f31a05ae/kfish-99.0.202306111345-py3-none-any.whl
+[2023-06-11 16:00:43] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/04/10/e9521b2406a86a427d85be44fd37e9b2e4ff851f4337a7da53ac59ff892f/dcrx-api-0.2.7.tar.gz
+[2023-06-11 16:00:43] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306111358] Old Version: [1.6.0.dev202306101346]
+[2023-06-11 16:00:43] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/2f/f7/269ec8689abf46816d3d8f194612b2a847b6a49359586d20d60ae7dbf429/BioSAK-1.66.1.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [Rare]: Downloading https://files.pythonhosted.org/packages/90/f4/7d31455a569e51420210491986f917549f006dfd4d217a035d0b4e581e79/Rare-1.9.4.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [imfdatapy]: Downloading https://files.pythonhosted.org/packages/ef/f4/6514feef7e027f7a0caa8914d50b3bbb08b4c76ad119e4286dc43ed3c1dd/imfdatapy-0.1.5.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [dueros-smarthome]: Downloading https://files.pythonhosted.org/packages/f9/2a/e7506ce2ec164f5c45c312b42a72ea537a66d4dee0fb6a0718adb64147c0/dueros_smarthome-0.0.9.tar.gz
+[2023-06-11 16:00:44] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21175788>=10485760
+[2023-06-11 16:00:44] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-06-11 16:00:44] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/05/33/a2ab6073722a5057e0488421a81485b6270c0544ab84e01a7c0cfe7f62a2/dcrx-api-0.2.8.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/b4/bc560ac8b6b4128290fb62d8fd493d975d7f7fa98328d67952ffe8bc9fcc/kfish-99.0.202306111356-py3-none-any.whl
+[2023-06-11 16:00:44] INFO root fetch - processPackages [dueros-smarthome]: executing diffoscope
+[2023-06-11 16:00:44] INFO root fetch - processPackages [dueros-smarthome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dueros_smarthome-0.0.8.tar.gz tmp/dueros_smarthome-0.0.9.tar.gz --markdown 20230611/d/dueros-smarthome/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 16:00:44] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/13/05/af9364c6b30eb46fd230595bee443bc22212fe8bbed51fccf4ea68bf2928/fastestimator-nightly-1.6.0.dev202306101346.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-11 16:00:44] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.2.7.tar.gz tmp/dcrx-api-0.2.8.tar.gz --markdown 20230611/d/dcrx-api/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-11 16:00:44] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-11 16:00:44] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306111345-py3-none-any.whl.zip tmp/kfish-99.0.202306111356-py3-none-any.whl.zip --markdown 20230611/k/kfish/99.0.202306111345-99.0.202306111356/diff.md --exclude *.pyd
+[2023-06-11 16:00:44] INFO root fetch - processPackages [imfdatapy]: Downloading https://files.pythonhosted.org/packages/ad/79/dc614fffa64697483a2c38e688301148ff4c6cce3ce98dc07f802ae42496/imfdatapy-1.0.0.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [imfdatapy]: executing diffoscope
+[2023-06-11 16:00:44] INFO root fetch - processPackages [imfdatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imfdatapy-0.1.5.tar.gz tmp/imfdatapy-1.0.0.tar.gz --markdown 20230611/i/imfdatapy/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-06-11 16:00:44] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/98/d0/b8821f966c0dc768f3e85afccb7a227818725255212bc458e306bf9d4781/fastestimator-nightly-1.6.0.dev202306111358.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-11 16:00:44] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306101346.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306111358.tar.gz --markdown 20230611/f/fastestimator-nightly/1.6.0.dev202306101346-1.6.0.dev202306111358/diff.md --exclude *.pyd
+[2023-06-11 16:00:44] INFO root fetch - processPackages [Rare]: Downloading https://files.pythonhosted.org/packages/aa/af/ddeb6c998b285a004c7a3aa083ee7fd0a94be265073b53c3e8229f3a6f0c/Rare-1.9.5.tar.gz
+[2023-06-11 16:00:44] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2023-06-11 16:00:45] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.8.tar.gz]
+[2023-06-11 16:00:45] INFO root fetch - processPackages [dueros-smarthome]: Remove: archive file [/home/abi/fetcher/tmp/dueros_smarthome-0.0.9.tar.gz]
+[2023-06-11 16:00:45] INFO root fetch - main [MainThread]: End processing [dueros-smarthome]: success
+[2023-06-11 16:00:45] INFO root fetch - processPackages [Rare]: executing diffoscope
+[2023-06-11 16:00:45] INFO root fetch - processPackages [Rare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rare-1.9.4.tar.gz tmp/Rare-1.9.5.tar.gz --markdown 20230611/R/Rare/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-11 16:00:45] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111345-py3-none-any.whl.zip]
+[2023-06-11 16:00:45] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306111356-py3-none-any.whl.zip]
+[2023-06-11 16:00:45] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-11 16:00:45] INFO root fetch - processPackages [imfdatapy]: Remove: archive file [/home/abi/fetcher/tmp/imfdatapy-0.1.5.tar.gz]
+[2023-06-11 16:00:45] INFO root fetch - processPackages [imfdatapy]: Remove: archive file [/home/abi/fetcher/tmp/imfdatapy-1.0.0.tar.gz]
+[2023-06-11 16:00:45] INFO root fetch - main [MainThread]: End processing [imfdatapy]: success
+[2023-06-11 16:00:45] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.7.tar.gz]
+[2023-06-11 16:00:45] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.2.8.tar.gz]
+[2023-06-11 16:00:45] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-11 16:00:46] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2023-06-11 16:00:46] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20230611/g/genocide/90-91/diff.md --exclude *.pyd
+[2023-06-11 16:00:48] INFO root fetch - processPackages [Rare]: Remove: archive file [/home/abi/fetcher/tmp/Rare-1.9.4.tar.gz]
+[2023-06-11 16:00:48] INFO root fetch - processPackages [Rare]: Remove: archive file [/home/abi/fetcher/tmp/Rare-1.9.5.tar.gz]
+[2023-06-11 16:00:48] INFO root fetch - main [MainThread]: End processing [Rare]: success
+[2023-06-11 16:00:48] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2023-06-11 16:00:48] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2023-06-11 16:00:48] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2023-06-11 16:00:50] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306101346.tar.gz]
+[2023-06-11 16:00:50] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306111358.tar.gz]
+[2023-06-11 16:00:50] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-11 16:00:50] INFO root fetch - main [MainThread]: Store serial: [18458503]
