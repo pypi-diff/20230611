@@ -13621,3 +13621,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 20:56:38] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.23-py3-none-any.whl.zip]
 [2023-06-11 20:56:38] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
 [2023-06-11 20:56:38] INFO root fetch - main [MainThread]: Store serial: [18460215]
+[2023-06-11 21:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460215]
+[2023-06-11 21:02:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-11 21:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpservice
+[2023-06-11 21:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramp-packer
+[2023-06-11 21:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backupp
+[2023-06-11 21:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybart-nlp
+[2023-06-11 21:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-starter
+[2023-06-11 21:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dodo-is-api
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: github-rest-api
+[2023-06-11 21:02:06] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ramp-packer]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [backupp]: New version: [0.0.7rc2] Old Version: [0.0.7rc1]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [dodo-is-api]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [pybart-nlp]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ml-starter]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [github-rest-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/7e/62/43dad803a8f94dc59999741157502ba1c76d2c804ddb63ee75db2047caaf/ml-starter-0.0.54.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/56/05/d08a2f9232de7a2b80357cdcd6a9b5982d9a1c11f79e68ff023fb78bbe45/backupp-0.0.7rc1-py2.py3-none-any.whl
+[2023-06-11 21:02:06] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 21:02:06] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 21:02:06] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 21:02:06] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/9e/0d/03882419ed29b7926938014ebd5d1033c6eb24ddae71d84d2d400cf5c7ad/pybart-nlp-3.4.4.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/3e/06/edc780c1368ab0f119d046c0fd0c96e325787affcaf24cd94cf3feb602c1/dodo_is_api-0.6.1.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ramp-packer]: Downloading https://files.pythonhosted.org/packages/6c/f7/1ee07e34efd7dc256e0b537790062ff2e251c3cef53a9034e776fb4b2a80/ramp_packer-2.5.4.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [github-rest-api]: Downloading https://files.pythonhosted.org/packages/9a/37/e35f3f3de327dd29fb97ea75d37963d721d970fed66f20453397e2692178/github_rest_api-0.8.0.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/53/e4/c03952e19257fbf61e08e297e28e5c27b99bffcffa906a1f6cf05fec4169/backupp-0.0.7rc2-py2.py3-none-any.whl
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/51/11/28834702fed268fe10754f4f439bb4532d2cc36cadba5c0db55d2b31fcce/ml-starter-0.0.55.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.7rc1-py2.py3-none-any.whl.zip tmp/backupp-0.0.7rc2-py2.py3-none-any.whl.zip --markdown 20230611/b/backupp/0.0.7rc1-0.0.7rc2/diff.md --exclude *.pyd
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.54.tar.gz tmp/ml-starter-0.0.55.tar.gz --markdown 20230611/m/ml-starter/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-06-11 21:02:06] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/ee/c7/7dc8aa3e7808b1f5a978a07bc72c3be66aeb9fcbfb92f202bd4df26e8e6c/dodo_is_api-0.7.0.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [pybart-nlp]: Downloading https://files.pythonhosted.org/packages/52/d0/1be95d06950c19f19273bf188c49ace8d78f161c67dad103c16c53449e11/pybart-nlp-3.4.5.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ramp-packer]: Downloading https://files.pythonhosted.org/packages/e8/09/35feddb1ca691fc5249f31a33a6154ac90e0cca1a00b2a2c9d761c677c7f/ramp_packer-2.5.5.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [github-rest-api]: Downloading https://files.pythonhosted.org/packages/3b/fa/7e69f72f1bbfcaff9eff251e9a0a8334ff6b6c352fc8bf80be1314eb9650/github_rest_api-0.9.0.tar.gz
+[2023-06-11 21:02:06] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230611/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-11 21:02:06] INFO root fetch - processPackages [dodo-is-api]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [dodo-is-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodo_is_api-0.6.1.tar.gz tmp/dodo_is_api-0.7.0.tar.gz --markdown 20230611/d/dodo-is-api/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ramp-packer]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [ramp-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramp_packer-2.5.4.tar.gz tmp/ramp_packer-2.5.5.tar.gz --markdown 20230611/r/ramp-packer/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-11 21:02:06] INFO root fetch - processPackages [github-rest-api]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [github-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_rest_api-0.8.0.tar.gz tmp/github_rest_api-0.9.0.tar.gz --markdown 20230611/g/github-rest-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 21:02:06] INFO root fetch - processPackages [pybart-nlp]: executing diffoscope
+[2023-06-11 21:02:06] INFO root fetch - processPackages [pybart-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybart-nlp-3.4.4.tar.gz tmp/pybart-nlp-3.4.5.tar.gz --markdown 20230611/p/pybart-nlp/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-06-11 21:02:07] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-11 21:02:07] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-11 21:02:07] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-11 21:02:07] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.7rc1-py2.py3-none-any.whl.zip]
+[2023-06-11 21:02:07] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.7rc2-py2.py3-none-any.whl.zip]
+[2023-06-11 21:02:07] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-11 21:02:08] INFO root fetch - processPackages [ramp-packer]: Remove: archive file [/home/abi/fetcher/tmp/ramp_packer-2.5.4.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - processPackages [ramp-packer]: Remove: archive file [/home/abi/fetcher/tmp/ramp_packer-2.5.5.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - main [MainThread]: End processing [ramp-packer]: success
+[2023-06-11 21:02:08] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.6.1.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - processPackages [dodo-is-api]: Remove: archive file [/home/abi/fetcher/tmp/dodo_is_api-0.7.0.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
+[2023-06-11 21:02:08] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.4.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - processPackages [pybart-nlp]: Remove: archive file [/home/abi/fetcher/tmp/pybart-nlp-3.4.5.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - main [MainThread]: End processing [pybart-nlp]: success
+[2023-06-11 21:02:08] INFO root fetch - processPackages [github-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/github_rest_api-0.8.0.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - processPackages [github-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/github_rest_api-0.9.0.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
+[2023-06-11 21:02:08] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.54.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.55.tar.gz]
+[2023-06-11 21:02:08] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-11 21:02:08] INFO root fetch - main [MainThread]: Store serial: [18460254]
