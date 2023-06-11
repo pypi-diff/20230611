@@ -14825,3 +14825,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 22:49:27] INFO root fetch - processPackages [tool_server_generator]: Remove: archive file [/home/abi/fetcher/tmp/tool_server_generator-0.4.4.tar.gz]
 [2023-06-11 22:49:27] INFO root fetch - main [MainThread]: End processing [tool_server_generator]: success
 [2023-06-11 22:49:27] INFO root fetch - main [MainThread]: Store serial: [18460842]
+[2023-06-11 22:54:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18460842]
+[2023-06-11 22:54:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubectl-ng
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixations
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kr8s
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fcal
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ErlangCCmath
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: natia
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ream2
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SAMYOL
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-coordinator
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gs-engine
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fixations]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kr8s]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fcal]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ErlangCCmath]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-11 22:54:36] ERROR root fetch - processPackages [natia]: Unable to get metadata: No such project 'natia'
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kubectl-ng]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-11 22:54:36] INFO root fetch - main [MainThread]: End processing [natia] error
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ream2]: New version: [2.7.0] Old Version: [2.6.2]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [SAMYOL]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/49/a3/5005df21b880856dee01cc9654c2572d6143acca41d8a1cc32061a1c89bd/fcal-0.6.0.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/d5/f4/026f9f1690942499fcfa542bb7bc0d23309b9625724153c54db86774e01d/kr8s-0.5.1.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/7c/96/6fcddcfe66ff37bcded6ca833dc65506cfbe7017e6cc9377d30a27d80236/kubectl_ng-0.5.1.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/41/e8/545e81c4014bb59a1398b29a169f9e0ea4ad0e9b29bf890fb00153c07f8e/samyol-1.0.2.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230611] Old Version: [0.23.0a20230610]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230611] Old Version: [0.23.0a20230610]
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ErlangCCmath]: Downloading https://files.pythonhosted.org/packages/b3/91/31dda5de3a025163227941ef0a4933e5beec41eea616c11abe003afe2975/ErlangCCmath-0.1.0.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fixations]: Downloading https://files.pythonhosted.org/packages/24/6d/294e4d3213a3ff7f6354b7f0875397e4ddda20c0b5177fd409fe0abf2993/fixations-0.2.7.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/04/bb/6af9fd0b25e89234783fce365c28a16926913059ff93ca14d270ca324c23/ream2-2.6.2.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/eb/41/6bd68c571ed44c1ac9c0f0a9191a3b7f85c21a3c14013efe0551e8830e1c/gs_engine-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fcal]: Downloading https://files.pythonhosted.org/packages/28/6c/bdea93b9c0257d1365fffa08be9621f5004701ed5c1e04f68a12cfb953af/fcal-0.7.0.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/04/0e/3f5192a277952cc23450e01fc22b23820b4f072c5cce07831af004884d91/kubectl_ng-0.5.2.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/c6/07/80044e5a981f7d25a493e377dee2b644795b572d35c9ec840136518266ba/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/f0/41/7dcd79b25a0cd2b7d6e291dcb7d46756df9856a4b83ed9cc4a48e5bc4248/kr8s-0.5.2.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [SAMYOL]: Downloading https://files.pythonhosted.org/packages/b1/fa/110f7f4088627b35bb8d653344cb97f6303ae8de28802a66846d55624c6a/SAMYOL-1.0.3.tar.gz
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fcal]: executing diffoscope
+[2023-06-11 22:54:36] INFO root fetch - processPackages [fcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcal-0.6.0.tar.gz tmp/fcal-0.7.0.tar.gz --markdown 20230611/f/fcal/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.5.1.tar.gz tmp/kubectl_ng-0.5.2.tar.gz --markdown 20230611/k/kubectl-ng/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-06-11 22:54:36] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.5.1.tar.gz tmp/kr8s-0.5.2.tar.gz --markdown 20230611/k/kr8s/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-11 22:54:37] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/00/4d/ae6f2a24642dcccd3a521368d36d1ed6b47020cb36eba659565d36e8f8cf/ream2-2.7.0.tar.gz
+[2023-06-11 22:54:37] INFO root fetch - processPackages [ErlangCCmath]: Downloading https://files.pythonhosted.org/packages/56/30/d3624f27dfdbb466ca859e53a2abedacaf68422d408ebdc2b5cb0b627335/ErlangCCmath-0.1.1.tar.gz
+[2023-06-11 22:54:37] INFO root fetch - processPackages [SAMYOL]: executing diffoscope
+[2023-06-11 22:54:37] INFO root fetch - processPackages [SAMYOL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samyol-1.0.2.tar.gz tmp/SAMYOL-1.0.3.tar.gz --markdown 20230611/S/SAMYOL/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-11 22:54:37] INFO root fetch - processPackages [ErlangCCmath]: executing diffoscope
+[2023-06-11 22:54:37] INFO root fetch - processPackages [ErlangCCmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ErlangCCmath-0.1.0.tar.gz tmp/ErlangCCmath-0.1.1.tar.gz --markdown 20230611/E/ErlangCCmath/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-11 22:54:37] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/1a/38/509fa86df9ae118d2ac31e9820502db1fc02f8ccb5a43948d39bfe074e73/gs_engine-0.23.0a20230611-py2.py3-none-any.whl
+[2023-06-11 22:54:37] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-06-11 22:54:37] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.6.2.tar.gz tmp/ream2-2.7.0.tar.gz --markdown 20230611/r/ream2/2.6.2-2.7.0/diff.md --exclude *.pyd
+[2023-06-11 22:54:37] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/f6/e3/4ae0ab79708652835b51c2fe97d6274158e4cda3ddcad2cd91fc35f155f2/gs_coordinator-0.23.0a20230611-py2.py3-none-any.whl
+[2023-06-11 22:54:37] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-06-11 22:54:37] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230611-py2.py3-none-any.whl.zip --markdown 20230611/g/gs-coordinator/0.23.0a20230610-0.23.0a20230611/diff.md --exclude *.pyd
+[2023-06-11 22:54:37] INFO root fetch - processPackages [fixations]: Downloading https://files.pythonhosted.org/packages/ad/fa/ddb8da734158684c120cedfec0ca3e453e6a4061f782bfcee87feb275767/fixations-0.2.8.tar.gz
+[2023-06-11 22:54:37] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-06-11 22:54:37] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230610-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230611-py2.py3-none-any.whl.zip --markdown 20230611/g/gs-engine/0.23.0a20230610-0.23.0a20230611/diff.md --exclude *.pyd
+[2023-06-11 22:54:38] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.6.0.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - processPackages [fcal]: Remove: archive file [/home/abi/fetcher/tmp/fcal-0.7.0.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - main [MainThread]: End processing [fcal]: success
+[2023-06-11 22:54:38] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/samyol-1.0.2.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - processPackages [SAMYOL]: Remove: archive file [/home/abi/fetcher/tmp/SAMYOL-1.0.3.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - main [MainThread]: End processing [SAMYOL]: success
+[2023-06-11 22:54:38] INFO root fetch - processPackages [fixations]: executing diffoscope
+[2023-06-11 22:54:38] INFO root fetch - processPackages [fixations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixations-0.2.7.tar.gz tmp/fixations-0.2.8.tar.gz --markdown 20230611/f/fixations/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-11 22:54:38] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.5.1.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.5.2.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2023-06-11 22:54:38] INFO root fetch - processPackages [ErlangCCmath]: Remove: archive file [/home/abi/fetcher/tmp/ErlangCCmath-0.1.0.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - processPackages [ErlangCCmath]: Remove: archive file [/home/abi/fetcher/tmp/ErlangCCmath-0.1.1.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - main [MainThread]: End processing [ErlangCCmath]: success
+[2023-06-11 22:54:38] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.6.2.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.7.0.tar.gz]
+[2023-06-11 22:54:38] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-06-11 22:54:38] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230610-py2.py3-none-any.whl.zip]
+[2023-06-11 22:54:38] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230611-py2.py3-none-any.whl.zip]
+[2023-06-11 22:54:38] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-06-11 22:54:39] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.5.1.tar.gz]
+[2023-06-11 22:54:39] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.5.2.tar.gz]
+[2023-06-11 22:54:39] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-06-11 22:54:39] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230610-py2.py3-none-any.whl.zip]
+[2023-06-11 22:54:39] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230611-py2.py3-none-any.whl.zip]
+[2023-06-11 22:54:39] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-06-11 22:54:55] INFO root fetch - processPackages [fixations]: Remove: archive file [/home/abi/fetcher/tmp/fixations-0.2.7.tar.gz]
+[2023-06-11 22:54:55] INFO root fetch - processPackages [fixations]: Remove: archive file [/home/abi/fetcher/tmp/fixations-0.2.8.tar.gz]
+[2023-06-11 22:54:55] INFO root fetch - main [MainThread]: End processing [fixations]: success
+[2023-06-11 22:54:55] INFO root fetch - main [MainThread]: Store serial: [18460878]
