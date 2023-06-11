@@ -3791,3 +3791,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 05:58:11] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.4.tar.gz]
 [2023-06-11 05:58:11] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
 [2023-06-11 05:58:11] INFO root fetch - main [MainThread]: Store serial: [18455670]
+[2023-06-11 06:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18455670]
+[2023-06-11 06:03:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-11 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySupercell
+[2023-06-11 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoyo-daily-logins-helper
+[2023-06-11 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bantam
+[2023-06-11 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: longalpha-utils
+[2023-06-11 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-l10n-it-bill-of-entry
+[2023-06-11 06:03:19] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-11 06:03:19] INFO root fetch - processPackages [longalpha-utils]: New version: [0.58] Old Version: [0.57]
+[2023-06-11 06:03:19] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 06:03:19] INFO root fetch - processPackages [bantam]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-11 06:03:19] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/66/e6/90457ae14f7ad0528890c7957d3123a6c53a36e84f0c154e4a8b26a64559/longalpha_utils-0.57.tar.gz
+[2023-06-11 06:03:19] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-11 06:03:19] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/4f/01/d73ac8fc1cfbade4a56a28f5348e24086f301e0a3dbe14f724cce69e2f42/bantam-2.3.4.tar.gz
+[2023-06-11 06:03:19] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: New version: [12.0.1.0.1.99.dev3] Old Version: [12.0.1.0.1.99.dev2]
+[2023-06-11 06:03:19] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/55/74/109994d6869cae6001a787f78d354a649fff94a90f6336f53103074b8abf/hoyo-daily-logins-helper-2.5.1.tar.gz
+[2023-06-11 06:03:19] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-11 06:03:20] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/55/30/d152345d74b92c882e3024e6b01c8894df74ce0af263e0ff3845aa37a77f/longalpha_utils-0.58.tar.gz
+[2023-06-11 06:03:20] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: Downloading https://files.pythonhosted.org/packages/10/34/d9518af588c4928b7512d85970c08e59294f347fb088b642caa120c8b1c0/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-06-11 06:03:20] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/f2/24/de2358e17fb2caad6c329e13b78a0c0d91f0229dca95f913c75fae3346f0/bantam-2.3.5.tar.gz
+[2023-06-11 06:03:20] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-11 06:03:20] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230611/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 06:03:20] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/b6/43/14c376c10541651ae71cc7e809fe9e6244497a1c171ba2c5e350e89f6bb2/hoyo-daily-logins-helper-2.5.2.tar.gz
+[2023-06-11 06:03:20] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-06-11 06:03:20] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.57.tar.gz tmp/longalpha_utils-0.58.tar.gz --markdown 20230611/l/longalpha-utils/0.57-0.58/diff.md --exclude *.pyd
+[2023-06-11 06:03:20] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-11 06:03:20] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.3.4.tar.gz tmp/bantam-2.3.5.tar.gz --markdown 20230611/b/bantam/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-11 06:03:20] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: Downloading https://files.pythonhosted.org/packages/82/d4/17d2eaf24d4ed62da60479abb4ecd1749e9727c25190b344777b69a9a4ab/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-06-11 06:03:20] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-06-11 06:03:20] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.5.1.tar.gz tmp/hoyo-daily-logins-helper-2.5.2.tar.gz --markdown 20230611/h/hoyo-daily-logins-helper/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-11 06:03:20] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: executing diffoscope
+[2023-06-11 06:03:20] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev3-py3-none-any.whl.zip --markdown 20230611/o/odoo12-addon-l10n-it-bill-of-entry/12.0.1.0.1.99.dev2-12.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-11 06:03:21] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.57.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.58.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-06-11 06:03:21] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-11 06:03:21] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.3.4.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.3.5.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-11 06:03:21] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Remove: archive file [/home/abi/fetcher/tmp/hoyo-daily-logins-helper-2.5.1.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Remove: archive file [/home/abi/fetcher/tmp/hoyo-daily-logins-helper-2.5.2.tar.gz]
+[2023-06-11 06:03:21] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-06-11 06:03:21] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev2-py3-none-any.whl.zip]
+[2023-06-11 06:03:21] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev3-py3-none-any.whl.zip]
+[2023-06-11 06:03:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-bill-of-entry]: success
+[2023-06-11 06:03:21] INFO root fetch - main [MainThread]: Store serial: [18455683]
