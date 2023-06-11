@@ -12094,3 +12094,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-11 18:41:25] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.7.tar.gz]
 [2023-06-11 18:41:25] INFO root fetch - main [MainThread]: End processing [darwinio]: success
 [2023-06-11 18:41:25] INFO root fetch - main [MainThread]: Store serial: [18459440]
+[2023-06-11 18:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18459440]
+[2023-06-11 18:46:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hummuspy
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vader-umpt
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extract-msg
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-py-auto
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turbo-docs
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wakepy
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dl-utils385
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rocketlc
+[2023-06-11 18:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semanticclean
+[2023-06-11 18:46:35] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [turbo-docs]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-11 18:46:35] WARNING root fetch - processPackages [vader-umpt]: Skipping, unable to determine old version
+[2023-06-11 18:46:35] INFO root fetch - processPackages [vader-umpt]: Start processing: blip-ci
+[2023-06-11 18:46:35] INFO root fetch - main [MainThread]: End processing [vader-umpt] error
+[2023-06-11 18:46:35] INFO root fetch - processPackages [rocketlc]: New version: [0.1.2] Old Version: [0.0.2]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [chromedriver-py-auto]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [semanticclean]: New version: [0.11] Old Version: [0.1]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [wakepy]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [dl-utils385]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [extract-msg]: New version: [0.41.4] Old Version: [0.41.3]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6c/38/cc3cd3dbc914c44f6c121a1d2dc8cc7c16f0eb80a555fbed15b589b98fd9/hummuspy-0.0.8.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [blip-ci]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-11 18:46:35] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/bd/e3/f8c79a0f2ccc94e09e8301363187a08f61a1cded173fbd7776811d8c3a40/extract_msg-0.41.3.tar.gz
+[2023-06-11 18:46:35] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-11 18:46:35] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-11 18:46:35] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/64/06/6b12b86239ad6161a55fde7e2e59ad9bd8787ed7d0e0c5ee09ada254c515/turbo_docs-0.8.5.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [dl-utils385]: Downloading https://files.pythonhosted.org/packages/21/ba/aeaa6249bb476c72c9e7a7f4d83b8115261c2140f1cb2c81aad5d9edc49e/dl_utils385-0.9.3.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [hummuspy]: Downloading https://files.pythonhosted.org/packages/6d/57/482759401474404ddc4fb988e458704c3095fcbb65a042242874ee732cc6/hummuspy-0.0.9.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [chromedriver-py-auto]: Downloading https://files.pythonhosted.org/packages/2d/83/1596e219b96341f4d5d02751746dbff3b6b4d24572d105c67c93bc65ace7/chromedriver-py-auto-0.2.2.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [blip-ci]: Downloading https://files.pythonhosted.org/packages/a8/8d/4ece9bd651a63dc0b2c3ca62fb9af73331178464779eb0e585e66e1ef9b9/blip-ci-0.0.4.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [wakepy]: Downloading https://files.pythonhosted.org/packages/55/73/2fad886f5d1d24aef488170577133cbd48359aeeaf08dc3cb31ed9f7a7b1/wakepy-0.6.0.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/24/dc/be24e469aad7b124e263d412a68ff23db05390df9ae2f683ba84175c02ac/semanticclean-0.1.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [rocketlc]: Downloading https://files.pythonhosted.org/packages/2f/02/ffee3a5443d4f023213be75dcd984bb22deb072f1b8bdd06533f9c9a1fd2/rocketlc-0.0.2-py3-none-any.whl
+[2023-06-11 18:46:35] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230611/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/ff/dd/423f989ae0a326a87149c68f49e4d6436980e7024203968de7f8c332182a/extract_msg-0.41.4.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/b8/85/6a42b25743919e2946e60d4fa1aaf1fa2f31d77fa2a9e78eb35ff14d30b8/turbo_docs-0.9.0.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [semanticclean]: Downloading https://files.pythonhosted.org/packages/c4/52/3350b123751a3e6ee72c0d6a39d611536a328b397541e321774de44f17e2/semanticclean-0.11.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [blip-ci]: Downloading https://files.pythonhosted.org/packages/5b/a0/0bf1a7890f186f5ccafb8319ba5cb616ebe4f87255991cd7643a1fa113f1/blip-ci-0.0.5.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [chromedriver-py-auto]: Downloading https://files.pythonhosted.org/packages/98/19/5939f6458cd440ce3df4a69015aed9edd4d16b751f5e29b94b702816c96e/chromedriver-py-auto-0.2.3.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [rocketlc]: Downloading https://files.pythonhosted.org/packages/6a/9a/7023745c7431ef0dcbd06dd354cd3cd5272ab397172acd4261c64d6a80e8/rocketlc-0.1.2-py3-none-any.whl
+[2023-06-11 18:46:35] INFO root fetch - processPackages [extract-msg]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [extract-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_msg-0.41.3.tar.gz tmp/extract_msg-0.41.4.tar.gz --markdown 20230611/e/extract-msg/0.41.3-0.41.4/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [turbo-docs]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [wakepy]: Downloading https://files.pythonhosted.org/packages/cb/bd/839a272d0c16fffba5c1dddb6b1ec68aa7828ee10f443815ba96ea138ce2/wakepy-0.7.0-py3-none-any.whl
+[2023-06-11 18:46:35] INFO root fetch - processPackages [turbo-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_docs-0.8.5.tar.gz tmp/turbo_docs-0.9.0.tar.gz --markdown 20230611/t/turbo-docs/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [chromedriver-py-auto]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [chromedriver-py-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-py-auto-0.2.2.tar.gz tmp/chromedriver-py-auto-0.2.3.tar.gz --markdown 20230611/c/chromedriver-py-auto/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [rocketlc]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [rocketlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketlc-0.0.2-py3-none-any.whl.zip tmp/rocketlc-0.1.2-py3-none-any.whl.zip --markdown 20230611/r/rocketlc/0.0.2-0.1.2/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [dl-utils385]: Downloading https://files.pythonhosted.org/packages/31/77/db3a7493d93c8a055b7f6daa89ee0b041b70752b3121751739e96aa7a6be/dl_utils385-0.9.4.tar.gz
+[2023-06-11 18:46:35] INFO root fetch - processPackages [semanticclean]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [semanticclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticclean-0.1.tar.gz tmp/semanticclean-0.11.tar.gz --markdown 20230611/s/semanticclean/0.1-0.11/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [wakepy]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [wakepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakepy-0.6.0.tar.gz tmp/wakepy-0.7.0-py3-none-any.whl.zip --markdown 20230611/w/wakepy/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [blip-ci]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [blip-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blip-ci-0.0.4.tar.gz tmp/blip-ci-0.0.5.tar.gz --markdown 20230611/b/blip-ci/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-11 18:46:35] INFO root fetch - processPackages [dl-utils385]: executing diffoscope
+[2023-06-11 18:46:35] INFO root fetch - processPackages [dl-utils385]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230611:/home/abi/fetcher/20230611:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_utils385-0.9.3.tar.gz tmp/dl_utils385-0.9.4.tar.gz --markdown 20230611/d/dl-utils385/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-11 18:46:36] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.8.tar.gz]
+[2023-06-11 18:46:36] INFO root fetch - processPackages [hummuspy]: Remove: archive file [/home/abi/fetcher/tmp/hummuspy-0.0.9.tar.gz]
+[2023-06-11 18:46:36] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-06-11 18:46:37] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-0.8.5.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-0.9.0.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - main [MainThread]: End processing [turbo-docs]: success
+[2023-06-11 18:46:37] INFO root fetch - processPackages [chromedriver-py-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-py-auto-0.2.2.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - processPackages [chromedriver-py-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-py-auto-0.2.3.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - main [MainThread]: End processing [chromedriver-py-auto]: success
+[2023-06-11 18:46:37] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.1.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - processPackages [semanticclean]: Remove: archive file [/home/abi/fetcher/tmp/semanticclean-0.11.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - main [MainThread]: End processing [semanticclean]: success
+[2023-06-11 18:46:37] INFO root fetch - processPackages [rocketlc]: Remove: archive file [/home/abi/fetcher/tmp/rocketlc-0.0.2-py3-none-any.whl.zip]
+[2023-06-11 18:46:37] INFO root fetch - processPackages [rocketlc]: Remove: archive file [/home/abi/fetcher/tmp/rocketlc-0.1.2-py3-none-any.whl.zip]
+[2023-06-11 18:46:37] INFO root fetch - main [MainThread]: End processing [rocketlc]: success
+[2023-06-11 18:46:37] INFO root fetch - processPackages [dl-utils385]: Remove: archive file [/home/abi/fetcher/tmp/dl_utils385-0.9.3.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - processPackages [dl-utils385]: Remove: archive file [/home/abi/fetcher/tmp/dl_utils385-0.9.4.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - main [MainThread]: End processing [dl-utils385]: success
+[2023-06-11 18:46:37] INFO root fetch - processPackages [wakepy]: Remove: archive file [/home/abi/fetcher/tmp/wakepy-0.6.0.tar.gz]
+[2023-06-11 18:46:37] INFO root fetch - processPackages [wakepy]: Remove: archive file [/home/abi/fetcher/tmp/wakepy-0.7.0-py3-none-any.whl.zip]
+[2023-06-11 18:46:37] INFO root fetch - main [MainThread]: End processing [wakepy]: success
+[2023-06-11 18:46:38] INFO root fetch - processPackages [blip-ci]: Remove: archive file [/home/abi/fetcher/tmp/blip-ci-0.0.4.tar.gz]
+[2023-06-11 18:46:38] INFO root fetch - processPackages [blip-ci]: Remove: archive file [/home/abi/fetcher/tmp/blip-ci-0.0.5.tar.gz]
+[2023-06-11 18:46:38] INFO root fetch - main [MainThread]: End processing [blip-ci]: success
+[2023-06-11 18:46:38] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.41.3.tar.gz]
+[2023-06-11 18:46:38] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.41.4.tar.gz]
+[2023-06-11 18:46:38] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
+[2023-06-11 18:46:38] INFO root fetch - main [MainThread]: Store serial: [18459478]
